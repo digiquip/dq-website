@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[6391],{978:e=>{e.exports=JSON.parse('{"label":"internal","permalink":"/dq-website/nb/blog/tags/internal","allTagsPath":"/dq-website/nb/blog/tags","count":1,"unlisted":false}')}}]);
