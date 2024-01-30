@@ -8,7 +8,6 @@ export default function HomepageFeatures(props) {
   let Img =  props.record.Img;
   let description =  props.record.description;
 
-
   return (
     <section className={className}>
     <div className='container'>
