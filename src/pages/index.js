@@ -3,7 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Layout1 from '@site/src/components/Layout1';
 import styles from './index.module.css';
-import { useEffect} from 'react';
+import { useEffect } from 'react';
 import { Lenis as ReactLenis } from '@studio-freight/react-lenis'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
@@ -75,13 +75,13 @@ export default function Home() {
     }
 
   })
-
+  // scroll ? "main-header scrolled" :
   return (
     <ReactLenis root>
       <Layout
         title={`Hello from ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />"
-        className={scroll ? "main-header scrolled" : "main-header"}>
+        className={"main-header"}>
         <HomepageHeader />
 
         <main>
