@@ -67,27 +67,77 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
-        title: 'My Site',
+        title: '',
+        
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [
+        items: [       
+            {
+              type: "dropdown",
+              label: 'Solutions',
+              position: 'left',
+              items: [
+                {
+                html: 'Competence  <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
+                // label: 'Competence ',
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
+              }, 
+              {
+                html: 'Work equipment  <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
+                // label: 'Work equipment',
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
+              },
+              {
+                html: 'Model library  <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
+                // label: 'Model library',
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
+              },
+              {
+                html: 'Expert control <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
+                // label: 'Expert control',
+                type: 'docSidebar',
+                sidebarId: 'tutorialSidebar',
+              },
+            ]
+            },
+
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // {to: '/blog', label: 'About us', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
+          {
+            to: '/blog',
+            label: 'About us',
+            position: 'left',
+          },
           {
             type: 'localeDropdown',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
             position: 'right',
+          },
+          {
+            to: '/blog',
+            html: '<a classname="" href=#><span class=btn_wrapper><span class=btn_text>Contact us</span> <span class=btn_text>Contact us</span> </span></a> ',
+            position: 'right',
+            className:'white-btn btn',
           },
         ],
       },
@@ -145,8 +195,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Services Status (Uptime)',
+                href: 'https://uptime.statuscake.com/?TestID=f9dgQKO3Az',
               },
             ],
           },
