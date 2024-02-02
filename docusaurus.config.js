@@ -215,8 +215,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Services Status (Uptime)',
+                href: 'https://uptime.statuscake.com/?TestID=f9dgQKO3Az',
               },
             ],
           },
