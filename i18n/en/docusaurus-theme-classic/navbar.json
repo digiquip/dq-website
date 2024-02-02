@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Solutions": {
+    "message": "Solutions",
+    "description": "Navbar item with label Solutions"
+  },
+  "item.label.About us": {
+    "message": "About us",
+    "description": "Navbar item with label About us"
+  }
+}

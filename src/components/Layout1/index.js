@@ -2,21 +2,16 @@ import HomepageFeatures from "../HomepageFeatures";
 import BrandLogo from "../BrandLogo";
 import HomeContactBanner from "../HomeContactBanner";
 import SafetyWork from "../SafetyWork";
+import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: "Safety at work",
+    title: translate({message: "home.safety.title"}),
     URL: "https://www.youtube.com/embed/HHi45YCFPBc?autoplay=0&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=1",
     description: (
       <>
-        <p>
-          We are developing a platform for training, control, and monitoring of
-          machinery.
-        </p>
-        <p>
-          Our software is designed to make it easier to facilitate an efficient
-          and safe workplace.
-        </p>
+        <p><Translate>home.safety.what</Translate></p>
+        <p><Translate>home.safety.how</Translate></p>
       </>
     ),
   },
@@ -76,28 +71,16 @@ const brandList = [
 const SikkerBrukList = {
   className: "SikkerBruk",
   title: (
-    <h2 className="section-title">
-      Safe use of work equipment requires necessary <br></br> training and
-      expertise<span className="orange">.</span>
+    <h2 className="section-title"><Translate>home.safeuse.title</Translate>
+      <span className="orange">.</span>
     </h2>
   ),
   Img: require("@site/static/img/SikkerBruk.webp").default,
   description: (
     <>
-      <p>
-        DigiQuip simplifies the management of competence, training, and
-        documentation for businesses. The software provides a complete overview
-        of courses, competency certificates, training, project experience, and
-        professional qualifications.
-      </p>
-      <p>
-        With DigiQuip, the only software offering equipment-specific training,
-        it becomes easier for employers to administer the required training.
-      </p>
-      <p>
-        By placing QR codes on machines or equipment, users gain immediate
-        access to their own competency status for the specific work equipment.
-      </p>
+      <p><Translate>home.safeuse.arg1</Translate></p>
+      <p><Translate>home.safeuse.arg2</Translate></p>
+      <p><Translate>home.safeuse.arg3</Translate></p>
     </>
   ),
 };
@@ -105,29 +88,19 @@ const SikkerBrukList = {
 const ConsolidateWorkSectionList = {
   className: "ConsolidateWorkSection",
   title: (
-    <h2 className="section-title">
-      Consolidate all work equipment and documentation <br></br> into one
-      platform<span className="orange">.</span>
+    <h2 className="section-title"><Translate>home.consolidate.title</Translate>
+      <span className="orange">.</span>
     </h2>
   ),
   Img: require("@site/static/img/platform-img.webp").default,
   description: (
     <>
-      <p>
-        DigiQuip makes it easy for businesses to gather and share crucial
-        information such as user manuals, CE documents, competency requirements,
-        and inspection status.
-      </p>
-      <p>
-        By scanning the QR code on the machine or equipment, the user easily
-        accesses relevant information, including inspection status, user manual,
-        training, and most importantly, competency.
-      </p>
-
+      <p><Translate>home.consolidate.arg1</Translate></p>
+      <p><Translate>home.consolidate.arg2</Translate></p>
       <ul>
-        <li>Consolidate and make important documents accessible.</li>
-        <li>Keep track of both daily and annual inspections.</li>
-        <li>Gain control over competency requirements.</li>
+        <li><Translate>home.consolidate.point1</Translate></li>
+        <li><Translate>home.consolidate.point2</Translate></li>
+        <li><Translate>home.consolidate.point3</Translate></li>
       </ul>
     </>
   ),
@@ -136,31 +109,20 @@ const ConsolidateWorkSectionList = {
 const ShareInformationList = {
   className: "SikkerBruk",
   title: (
-    <h2 className="section-title">
-      Suppliers efficiently share information and content <br></br> through our
-      model registry<span className="orange">.</span>
+    <h2 className="section-title"><Translate>home.share.title</Translate>
+      <span className="orange">.</span>
     </h2>
   ),
   Img: require("@site/static/img/share-information-img.webp").default,
   description: (
     <>
-      <p>
-        For easy sharing of product information, documents, competency
-        requirements, and training, we have built a model library.
-      </p>
-      <p>
-        With information and content in one place, everyone has access to
-        updated information on various models at all times.
-      </p>
-      <p>
-        Our model library is free and open to all. This is how we facilitate
-        better, simpler, and faster information sharing for everyone working
-        with machinery and equipment.
-      </p>
+      <p><Translate>home.share.arg1</Translate></p>
+      <p><Translate>home.share.arg2</Translate></p>
+      <p><Translate>home.share.arg3</Translate></p>
       <ul>
-        <li>User manuals and instructions.</li>
-        <li>Product specifications.</li>
-        <li>Videos, images, and training.</li>
+        <li><Translate>home.share.point1</Translate></li>
+        <li><Translate>home.share.point2</Translate></li>
+        <li><Translate>home.share.point3</Translate></li>
       </ul>
     </>
   ),
@@ -169,27 +131,19 @@ const ShareInformationList = {
 const ExpertInspectionsList = {
   className: "ConsolidateWorkSection",
   title: (
-    <h2 className="section-title">
-      Efficient execution and documentation of expert <br></br> inspections
+    <h2 className="section-title"><Translate>home.expert.title</Translate>
       <span className="orange">.</span>
     </h2>
   ),
   Img: require("@site/static/img/last.png").default,
   description: (
     <>
-      <p>
-        With our solution, inspectors can efficiently carry out their work from
-        planning to follow-up, including thorough documentation.
-      </p>
-      <p>
-        Machine owners also gain complete visibility into the status, inspection
-        deadlines, and necessary documentation.
-      </p>
-
+      <p><Translate>home.expert.arg1</Translate></p>
+      <p><Translate>home.expert.arg2</Translate></p>
       <ul>
-        <li>Streamline planning with a comprehensive machine overview.</li>
-        <li>Save time with flexible checklists.</li>
-        <li>Easily conduct and document annual inspections.</li>
+        <li><Translate>home.expert.point1</Translate></li>
+        <li><Translate>home.expert.point2</Translate></li>
+        <li><Translate>home.expert.point3</Translate></li>
       </ul>
     </>
   ),
@@ -215,8 +169,8 @@ function ExpertInspections() {
 function OurPartners() {
   return (
     <section className="our-partners-section">
-      <h2 className="section-title">
-        Some of our partners<span className="orange">.</span>
+      <h2 className="section-title"><Translate>home.ourpartners.title</Translate>
+        <span className="orange">.</span>
       </h2>
       <div className="our-partner-logo">
         {brandList.map((props, idx) => (

@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.DigiQuip use cases": {
+    "message": "DigiQuip use cases",
+    "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Legal stuff": {
+    "message": "Legal stuff",
+    "description": "The label for category Legal stuff in sidebar tutorialSidebar"
+  }
+}
