@@ -1,4 +1,4 @@
-
+// Button component
 export default function Button(props) {
 
   let label = props.label;

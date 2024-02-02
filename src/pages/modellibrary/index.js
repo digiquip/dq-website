@@ -13,7 +13,6 @@ function ModelRegister() {
   );
 }
 
-
 function CompetenceContactus() {
   return (
     <ContactUs />
@@ -49,7 +48,7 @@ function EasyTraining() {
   );
 }
 
-
+// Modellibrary component
 export default function Modellibrary() {
 
   return (

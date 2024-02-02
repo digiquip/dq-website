@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import Button from '../Button';
 import Translate from '@docusaurus/Translate';
 
-
+// HomepageFeatures component
 export default function HomepageFeatures(props) {
   let className =  props.record.className;
   let title =  props.record.title;

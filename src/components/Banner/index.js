@@ -1,5 +1,7 @@
 import clsx from "clsx";
 import styles from './styles.module.css';
+
+// Banner component
 export default function Banner(props) {
   let data = props.record
   return (
@@ -18,4 +20,5 @@ export default function Banner(props) {
       </div>
     </div>
   );
-}
+  }
+  

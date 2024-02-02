@@ -21,9 +21,8 @@ function HomepageHeader() {
   );
 }
 
-
+// Home component
 export default function Home() {
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const showAnim = gsap.from('.navbar', {

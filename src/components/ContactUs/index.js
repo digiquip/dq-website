@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-
+// ContactUs component
 export default function ContactUs() {
   return (
     <section className="competence-contactu-sec section-pd">

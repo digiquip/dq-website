@@ -5,7 +5,7 @@ import { Lenis as ReactLenis } from '@studio-freight/react-lenis'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 
-
+// MainLayout Component
 export default function MainLayout({ children }) {
 
   const { siteConfig } = useDocusaurusContext();

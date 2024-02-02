@@ -181,6 +181,7 @@ function OurPartners() {
   );
 }
 
+// Layout1 component
 export default function Layout1() {
   return (
     <section>

@@ -8,6 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// SwiperSlider component
 export default function SwiperSlider() {
   return (
     <div className='swiper-slider-right'>

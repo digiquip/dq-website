@@ -1,5 +1,6 @@
 import Translate from '@docusaurus/Translate';
 
+// HomeContactBanner Component
 export default function HomeContactBanner() {
 
   return (
