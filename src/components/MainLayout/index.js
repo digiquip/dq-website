@@ -1,28 +1,14 @@
-import clsx from 'clsx';
-import Layout1 from '@site/src/components/Layout1';
-import styles from './index.module.css';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
 import { useEffect } from 'react';
+import { Lenis as ReactLenis } from '@studio-freight/react-lenis'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
-import MainLayout from '../components/MainLayout';
 
 
-function HomepageHeader() {
-  return (
-    <section className='homepage-banner'>
-      <div className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className='section-title'>Solutions for safe use of <br></br>work equipment<span className='orange'>.</span></h1>
-          <div className='banner-img'><img src='img/home-banner.webp'></img></div>
-        </div>
-        <span className="bg"></span>
-      </div>
-    </section>
-  );
-}
+export default function MainLayout({ children }) {
 
-
-export default function Home() {
+  const { siteConfig } = useDocusaurusContext();
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -52,12 +38,19 @@ export default function Home() {
         self.direction === -1 ? showAnim.play() : showAnim.reverse()
       }
     });
+
   })
 
   return (
-    <MainLayout>
-      <HomepageHeader />
-      <Layout1 />
-    </MainLayout>
+    <ReactLenis root>
+      <Layout
+        title={`Hello from ${siteConfig.title}`}
+        description="Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence."
+        className={"main-header"}>
+        <main>
+          {children}
+        </main>
+      </Layout>
+    </ReactLenis>
   );
 }
