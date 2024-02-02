@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[7453],{2984:e=>{e.exports=JSON.parse('{"permalink":"/dq-website/nb/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
