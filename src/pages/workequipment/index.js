@@ -12,21 +12,17 @@ function WorkeQuipmentBanner() {
   );
 }
 
-
 function SystematizedDocumentation() {
   return (
     <CompetenceGrid record={fakeData.systematizedDocumentationData} />
   );
 }
 
-
 function MachinesEquipment() {
   return (
     <CompetenceGrid record={fakeData.machinesEquipmentData} />
   );
 }
-
-
 
 function SpecificCompetence() {
   
@@ -35,16 +31,14 @@ function SpecificCompetence() {
   );
 }
 
-
-
 function CompetenceContactus() {
   return (
 <ContactUs/>
   );
 }
 
+// Workequipment component
 export default function Workequipment() {
-
   return (
     <MainLayout>
       <WorkeQuipmentBanner />

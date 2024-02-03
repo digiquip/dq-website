@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import { useState } from "react";
 
+// SafetyWork component
 export default function SafetyWork({ URL, title, description }) {
   let playVideo =
     "https://www.youtube.com/embed/HHi45YCFPBc?autoplay=1&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=1";
@@ -23,7 +24,7 @@ export default function SafetyWork({ URL, title, description }) {
               {value ? "" : <img src="img/iframe-banner.jpg"></img>}
               <iframe
                 src={value ? playVideo : URL}
-                title="W3Schools Free Online Web Tutorials"
+                title="Understanding DigiQuip"
               ></iframe>
               {value ? (
                 ""

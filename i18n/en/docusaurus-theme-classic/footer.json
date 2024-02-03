@@ -1,0 +1,58 @@
+{
+  "link.title.DigiQuip AS": {
+    "message": "DigiQuip AS",
+    "description": "The title of the footer links column with title=DigiQuip AS in the footer"
+  },
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Legal stuff": {
+    "message": "Legal stuff",
+    "description": "The title of the footer links column with title=Legal stuff in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Holtskogen 7, NO 1825 TOMTER": {
+    "message": "Holtskogen 7, NO 1825 TOMTER",
+    "description": "The label of footer link with label=Holtskogen 7, NO 1825 TOMTER linking to https://www.google.com/maps/search/?api=1&query=Holtskogen+7%2C+1825+Tomter%2C+Norway"
+  },
+  "link.item.label.Org.nr: NO923673911MVA": {
+    "message": "Org.nr: NO923673911MVA",
+    "description": "The label of footer link with label=Org.nr: NO923673911MVA linking to https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=923673911"
+  },
+  "link.item.label.+47 69 83 85 00": {
+    "message": "+47 69 83 85 00",
+    "description": "The label of footer link with label=+47 69 83 85 00 linking to tel:+4769838500"
+  },
+  "link.item.label.support@digiquip.no (/sales@)": {
+    "message": "support@digiquip.no (/sales@)",
+    "description": "The label of footer link with label=support@digiquip.no (/sales@) linking to mailto:support@digiquip.no"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.End User License Agreement (EULA)": {
+    "message": "End User License Agreement (EULA)",
+    "description": "The label of footer link with label=End User License Agreement (EULA) linking to /docs/legal/eula"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=Privacy Policy linking to /docs/legal/privacy-policy"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.Services Status (Uptime)": {
+    "message": "Services Status (Uptime)",
+    "description": "The label of footer link with label=Services Status (Uptime) linking to https://uptime.statuscake.com/?TestID=f9dgQKO3Az"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 DigiQuip AS, All rights reserved",
+    "description": "The footer copyright"
+  }
+}

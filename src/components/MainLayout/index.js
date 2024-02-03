@@ -5,7 +5,7 @@ import { Lenis as ReactLenis } from '@studio-freight/react-lenis'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 
-
+// MainLayout component
 export default function MainLayout({ children }) {
 
   const { siteConfig } = useDocusaurusContext();
@@ -44,8 +44,8 @@ export default function MainLayout({ children }) {
   return (
     <ReactLenis root>
       <Layout
-        title={`Hello from ${siteConfig.title}`}
-        description="Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence."
+        title={`${siteConfig.title}`}
+        description={`${siteConfig.tagline}`}
         className={"main-header"}>
         <main>
           {children}

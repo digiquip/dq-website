@@ -1,12 +1,14 @@
 import clsx from 'clsx';
 import Button from '../Button';
+import Translate from '@docusaurus/Translate';
 
-
+// HomepageFeatures component
 export default function HomepageFeatures(props) {
   let className =  props.record.className;
   let title =  props.record.title;
   let Img =  props.record.Img;
   let description =  props.record.description;
+  let button = <Translate>general.readmore</Translate>
 
   return (
     <section className={className}>
@@ -22,7 +24,7 @@ export default function HomepageFeatures(props) {
         <div className={clsx('col col--7')}>
           <div className='sikker-content'>
             {description}
-            <Button label="Read more" isIcon={true} />
+            <Button label={button} isIcon={true} />
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import clsx from "clsx";
 
+// CompetenceGrid component
 export default function CompetenceGrid(props) {
   let data = props.record
   // className="practical-training-section section-pd"

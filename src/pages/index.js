@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 import MainLayout from '../components/MainLayout';
+import Translate from '@docusaurus/Translate';
 
 
 function HomepageHeader() {
@@ -12,7 +13,7 @@ function HomepageHeader() {
     <section className='homepage-banner'>
       <div className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className='section-title'>Solutions for safe use of <br></br>work equipment<span className='orange'>.</span></h1>
+          <h1 className='section-title'><Translate>home.banner.title1</Translate> <br /><Translate>home.banner.title2</Translate><span className='orange'>.</span></h1>
           <div className='banner-img'><img src='img/home-banner.webp'></img></div>
         </div>
         <span className="bg"></span>
@@ -21,9 +22,8 @@ function HomepageHeader() {
   );
 }
 
-
+// Home component
 export default function Home() {
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const showAnim = gsap.from('.navbar', {

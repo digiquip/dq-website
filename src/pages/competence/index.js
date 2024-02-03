@@ -10,14 +10,11 @@ function CompetenceBanner() {
   );
 }
 
-
 function PracticalTraining() {
   return (
     <CompetenceGrid record={fakeData.practicalTrainingData} />
   );
 }
-
-
 
 function IssueQRCode() {
   return (
@@ -40,9 +37,7 @@ function CompetenceContactus() {
 }
 
 
-
-
-
+// Competence page
 export default function Competence() {
 
   return (

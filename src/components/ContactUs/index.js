@@ -1,13 +1,14 @@
 import clsx from 'clsx';
+import Translate from '@docusaurus/Translate';
 
-
+// ContactUs component
 export default function ContactUs() {
   return (
     <section className="competence-contactu-sec section-pd">
       <div className="container">
         <div className="row">
           <div className={clsx("col col--12")}>
-            <h2 className='section-title'>Want to know more? <br></br> Contact us <span className='orange'>.</span>
+            <h2 className='section-title'><Translate>general.contactus.title</Translate> <span className='orange'>.</span>
             </h2>
             <div className='rightcontact'>
               <ul>
@@ -44,8 +45,8 @@ export default function ContactUs() {
               <div>
                <a href='#' className='white-btn red-btn btn'>
                   <span className="btn_wrapper">
-                    <span className="btn_text">Contact us</span>
-                    <span className="btn_text">Contact us</span>
+                    <span className="btn_text"><Translate>home.contact.button</Translate></span>
+                    <span className="btn_text"><Translate>home.contact.button</Translate></span>
                   </span>
                 </a> 
                 
