@@ -19,49 +19,49 @@ const FeatureList = [
 
 const brandList = [
   {
-    Img: "img/H-H-logo.svg",
+    Img: "img/partner-logos/H-H-logo.svg",
     width: 94,
     height: 71,
     alt: "",
   },
   {
-    Img: "img/fosby-logo.svg",
+    Img: "img/partner-logos/fosby-logo.svg",
     width: 64,
     height: 64,
     alt: "",
   },
   {
-    Img: "img/hesselberg-logo.svg",
+    Img: "img/partner-logos/hesselberg-logo.svg",
     width: 184,
     height: 24,
     alt: "",
   },
   {
-    Img: "img/af-logo.svg",
+    Img: "img/partner-logos/af-logo.svg",
     width: 64,
     height: 64,
     alt: "",
   },
   {
-    Img: "img/brubakken-logo.svg",
+    Img: "img/partner-logos/brubakken-logo.svg",
     width: 128,
     height: 24,
     alt: "",
   },
   {
-    Img: "img/brodrene-odegard-logo.svg",
+    Img: "img/partner-logos/brodrene-odegard-logo.svg",
     width: 122,
     height: 41,
     alt: "",
   },
   {
-    Img: "img/hybeko-logo.svg",
+    Img: "img/partner-logos/hybeko-logo.svg",
     width: 104,
     height: 24,
     alt: "",
   },
   {
-    Img: "img/cramo-logo.svg",
+    Img: "img/partner-logos/cramo-logo.svg",
     width: 141,
     height: 24,
     alt: "",

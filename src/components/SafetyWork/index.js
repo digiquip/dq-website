@@ -24,7 +24,7 @@ export default function SafetyWork({ URL, title, description }) {
               {value ? "" : <img src="img/iframe-banner.jpg"></img>}
               <iframe
                 src={value ? playVideo : URL}
-                title="W3Schools Free Online Web Tutorials"
+                title="Understanding DigiQuip"
               ></iframe>
               {value ? (
                 ""

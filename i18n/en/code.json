@@ -286,10 +286,30 @@
     "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
   },
+  "header.title": {
+    "message": "DigiQuip - familiarization and competence overview",
+    "description": "The title of the header"
+  },
+  "header.subtitle": {
+    "message": "Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence.",
+    "description": "The subtitle of the header"
+  },
   "general.readmore": {
     "message": "Read more",
     "description": "The label used to link to the full article"
-  },  
+  },
+  "general.contactus.title": {
+    "message": "Want to know more? Contact us",
+    "description": "The label used to link to the contact page"
+  },
+  "home.banner.title1": {
+    "message": "Solutions for safe use of",
+    "description": "The title of the home page"
+  },
+  "home.banner.title2": {
+    "message": "work equipment",
+    "description": "The title of the home page part two"
+  },
   "home.safety.title": {
     "message": "Safety at work",
     "description": "The title of the safety section on the home page"
@@ -407,5 +427,17 @@
   {
     "message": "Contact us",
     "description": "The button label of the contact section on the home page"
+  },
+  "modellibrary.easy_training.title": {
+    "message": "Use videos for easy training",
+    "description": "The title of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg1": {
+    "message": "Videos are an easy way to educate users about equipment and machinery. For rental companies and suppliers, training videos minimize support and ensure proper usage.",
+    "description": "The first argument of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg2": {
+    "message": "The challenge with producing good videos is that it can be resource-intensive. The content needs to be planned, filmed, edited, and often requires multiple rounds of adjustments. Therefore, we can assist in this process.",
+    "description": "The second argument of the easy training section on the model library page"
   }
 }

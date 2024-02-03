@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'DigiQuip - familiarization and competence overview',
+  tagline: 'Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence.',
+  favicon: 'img/favicon-16x16.png',
 
   // Set the production url of your site here
   url: 'https://digiquip.github.io',
