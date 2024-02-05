@@ -5,7 +5,7 @@ import CompetenceGrid from '../../components/CompetenceGrid';
 import SwiperSlider from '../../components/SwiperSlider/index.js';
 import Banner from '../../components/Banner/index.js';
 import Translate from '@docusaurus/Translate';
-import ModelLibraryRecords from '../../../data/modeLlibraryContents.js';
+import ModelLibraryRecords from '../../../data/modelLibraryContents.js';
 import { useEffect, useState } from 'react';
 
 function ModelRegister(props) {
