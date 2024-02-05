@@ -1,33 +1,37 @@
-import clsx from 'clsx';
-import styles from './index.module.css';
 import ContactUs from '../../components/ContactUs';
 import MainLayout from '../../components/MainLayout';
 import CompetenceGrid from '../../components/CompetenceGrid';
-import fakeData from '../../../data/datarecord.js'
 import Banner from '../../components/Banner/index.js';
+import { useEffect, useState } from 'react';
+import workequipmentRecords from "../../../data/workequipmentContents.js";
 
-function WorkeQuipmentBanner() {
+
+function WorkeQuipmentBanner(props) {
+  const workeQuipment = props.items;
   return (
-    <Banner record={fakeData.workeQuipmentBannerData} />
+    <Banner record={workeQuipment} />
   );
 }
 
-function SystematizedDocumentation() {
+function SystematizedDocumentation(props) {
+  const data = props.items;
   return (
-    <CompetenceGrid record={fakeData.systematizedDocumentationData} />
+    <CompetenceGrid record={data} />
   );
 }
 
-function MachinesEquipment() {
+function MachinesEquipment(props) {
+  const data = props.items;
   return (
-    <CompetenceGrid record={fakeData.machinesEquipmentData} />
+    <CompetenceGrid record={data} />
   );
 }
 
-function SpecificCompetence() {
+function SpecificCompetence(props) {
+  const data = props.items;
   
   return (
-<CompetenceGrid record={fakeData.specificCompetenceData} />
+<CompetenceGrid record={data} />
   );
 }
 
@@ -39,12 +43,32 @@ function CompetenceContactus() {
 
 // Workequipment component
 export default function Workequipment() {
+
+  const [workEquipment , setWorkEquipmentContent] = useState({})
+  const [documentation , setDocumentationContent] = useState({})
+  const [machines , setMachinesContent] = useState({})
+  const [competence , setCompetenceContent] = useState({})
+  useEffect(() => {
+    let ignore = false;
+      if (!ignore) {
+        setWorkEquipmentContent(workequipmentRecords.workEquipmentBannerData);
+        setDocumentationContent(workequipmentRecords.systematizedDocumentationData);
+        setMachinesContent(workequipmentRecords.machinesEquipmentData);
+        setCompetenceContent(workequipmentRecords.specificCompetenceData);
+      }
+  
+    return () => { 
+      ignore = true;
+    }
+   
+  }, [workEquipment, documentation, machines, competence]);
+
   return (
     <MainLayout>
-      <WorkeQuipmentBanner />
-        <SystematizedDocumentation />
-        <MachinesEquipment />
-        <SpecificCompetence />
+        {workEquipment && <WorkeQuipmentBanner items={workEquipment} />}
+        {documentation && <SystematizedDocumentation items={documentation}/>}
+        {machines &&  <MachinesEquipment items={machines} />}
+        {competence && <SpecificCompetence items={competence} />}
         <CompetenceContactus />
     </MainLayout> 
   );

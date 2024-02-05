@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
+import ContactUsButton from '../ContactBtn';
 
 // ContactUs component
 export default function ContactUs() {
@@ -43,13 +44,8 @@ export default function ContactUs() {
                 </li>
               </ul>
               <div>
-               <a href='#' className='white-btn red-btn btn'>
-                  <span className="btn_wrapper">
-                    <span className="btn_text"><Translate>home.contact.button</Translate></span>
-                    <span className="btn_text"><Translate>home.contact.button</Translate></span>
-                  </span>
-                </a> 
-                
+
+               <ContactUsButton />                
               </div>
             </div>
           </div>

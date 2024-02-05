@@ -1,17 +1,36 @@
 import clsx from 'clsx';
 import Layout1 from '@site/src/components/Layout1';
-import styles from './index.module.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 import MainLayout from '../components/MainLayout';
 import Translate from '@docusaurus/Translate';
 
+function PageLoader() {
+  return (
+
+    <div class="loader">
+      <div class="loder-logo">
+        <img src="img/loader-img/logo-left.png"></img>
+        <img src="img/loader-img/d.png"></img>
+        <img src="img/loader-img/i.png"></img>
+        <img src="img/loader-img/g.png"></img>
+        <img src="img/loader-img/i.png"></img>
+        <img src="img/loader-img/q.png"></img>
+        <img src="img/loader-img/u.png"></img>
+        <img src="img/loader-img/i.png"></img>
+        <img src="img/loader-img/p.png"></img>
+      </div>
+    </div>
+
+
+  );
+}
 
 function HomepageHeader() {
   return (
     <section className='homepage-banner'>
-      <div className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className={clsx('hero hero--primary heroBanner')}>
         <div className="container">
           <h1 className='section-title'><Translate>home.banner.title1</Translate> <br /><Translate>home.banner.title2</Translate><span className='orange'>.</span></h1>
           <div className='banner-img'><img src='img/home-banner.webp'></img></div>
@@ -24,6 +43,7 @@ function HomepageHeader() {
 
 // Home component
 export default function Home() {
+  const [loader, setLoader] = useState(true)
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const showAnim = gsap.from('.navbar', {
@@ -52,12 +72,34 @@ export default function Home() {
         self.direction === -1 ? showAnim.play() : showAnim.reverse()
       }
     });
+
+
+
+
+    let ignore = false;
+    if (!ignore) {
+      setTimeout(() => {
+        setLoader(false)
+      }, 3000)
+    }
+    // cleanup code
+    return () => {
+      ignore = true;
+    }
+
+
+
   })
 
   return (
-    <MainLayout>
-      <HomepageHeader />
-      <Layout1 />
-    </MainLayout>
+    <>
+      {loader && <PageLoader />}
+      {!loader && <MainLayout>
+        <HomepageHeader />
+
+        <Layout1 />
+      </MainLayout>}
+    </>
+
   );
 }

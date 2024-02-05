@@ -1,31 +1,35 @@
 import MainLayout from '../../components/MainLayout';
-import fakeData from '../../../data/datarecord.js'
 import CompetenceGrid from '../../components/CompetenceGrid/index.js';
 import ContactUs from '../../components/ContactUs/index.js';
 import Banner from '../../components/Banner/index.js';
+import competenceRecords from "../../../data/competenceContents.js";
+import { useEffect, useState } from 'react';
 
-function CompetenceBanner() {
+function CompetenceBanner(props) {
+  const competenceContent = props.items;
   return (
-    <Banner record={fakeData.competenceBannerData} />
+    <Banner record={competenceContent} />
   );
 }
 
-function PracticalTraining() {
+function PracticalTraining(props) {
+  const practicalTrainingContent = props.items;
   return (
-    <CompetenceGrid record={fakeData.practicalTrainingData} />
+    <CompetenceGrid record={practicalTrainingContent} />
   );
 }
 
-function IssueQRCode() {
+function DigitalTraining(props) {
+  const digitalTrainingContent = props.items;
   return (
-    <CompetenceGrid record={fakeData.issueQRCodeData} />
+    <CompetenceGrid record={digitalTrainingContent} />
   );
 }
 
-function GroupHelp() {
-
+function GroupHelp(props) {
+  const groupHelpContent = props.items;
   return (
-    <CompetenceGrid record={fakeData.groupHelpData} />
+    <CompetenceGrid record={groupHelpContent} />
   );
 }
 
@@ -40,12 +44,31 @@ function CompetenceContactus() {
 // Competence page
 export default function Competence() {
 
+  const [competence , setCompetenceContent] = useState({})
+  const [practicalTraining , setPracticalTraining] = useState({})
+  const [digitalTraining , setDigitalTraining] = useState({})
+  const [groupHelp , setGroupHelp] = useState({})
+  useEffect(() => {
+    let ignore = false;
+      if (!ignore) {
+        setCompetenceContent(competenceRecords.competenceBannerData);
+        setPracticalTraining(competenceRecords.practicalTrainingData);
+        setDigitalTraining(competenceRecords.digitalTrainingData);
+        setGroupHelp(competenceRecords.groupHelpData);
+      }
+  
+    return () => { 
+      ignore = true;
+    }
+   
+  }, [competence, practicalTraining, digitalTraining, groupHelp]);
+
   return (
     <MainLayout>
-      <CompetenceBanner />
-      <PracticalTraining />
-      <IssueQRCode />
-      <GroupHelp />
+      {competence && <CompetenceBanner items={competence}/>}
+      {practicalTraining && <PracticalTraining items={practicalTraining}/>}
+      {digitalTraining && <DigitalTraining items={digitalTraining}/>}
+      {groupHelp && <GroupHelp items={groupHelp}/>}
       <CompetenceContactus />
     </MainLayout>
   );

@@ -1,9 +1,9 @@
 import clsx from "clsx";
+import VideoSection from "../VideoSection";
 
 // CompetenceGrid component
 export default function CompetenceGrid(props) {
-  let data = props.record
-  // className="practical-training-section section-pd"
+  let data = props.record;
   return (
     <section className={`${data.className} section-pd`}>
       <div className="container">
@@ -20,7 +20,13 @@ export default function CompetenceGrid(props) {
           </div>
           <div className={clsx("col col--6")}>
             <div className='sikker-img'>
-              <img src={data.img}></img>
+              {data.img
+                ?
+                <img src={data.img}></img>
+                :
+                <VideoSection withoutAutoPlay={data.withoutAutoPlay} withPlay={data.withPlay} poster={data.youtubeVideoBanner} />
+              }
+
             </div>
             <p className='image-title'>{data.imgDescriptions}</p>
 

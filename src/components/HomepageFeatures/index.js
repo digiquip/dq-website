@@ -6,7 +6,7 @@ import Translate from '@docusaurus/Translate';
 export default function HomepageFeatures(props) {
   let className =  props.record.className;
   let title =  props.record.title;
-  let Img =  props.record.Img;
+  let img =  props.record.img;
   let description =  props.record.description;
   let button = <Translate>general.readmore</Translate>
 
@@ -19,7 +19,7 @@ export default function HomepageFeatures(props) {
         </div>
         <div className={clsx('col col--5')}>
           <div className='sikker-img'>
-            <img src={Img} alt=''></img></div>
+            <img src={img} alt=''></img></div>
         </div>
         <div className={clsx('col col--7')}>
           <div className='sikker-content'>

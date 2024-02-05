@@ -428,6 +428,237 @@
     "message": "Contact us",
     "description": "The button label of the contact section on the home page"
   },
+  "competence.banner.title1": {
+    "message": "Provide necessary training",
+    "description": "The title of the competence page part one"
+  },
+  "competence.banner.title2": {
+    "message": "for better results",
+    "description": "The title of the competence page part two"
+  },
+  "competence.banner.title3": {
+    "message": "Competence is important for progress and safety.",
+    "description": "The title of the banner(image) competence page part three"
+  },
+  "competence.banner.arg1": {
+    "message": "Competent individuals are trained in the proper use of tools and equipment, reducing the risk of accidents and injuries associated with improper handling. Therefore, it is important that employers have an overview and provide necessary training when needed.",
+    "description": "The first argument of the competence progress and safety section on the competence page"
+  },
+  "competence.banner.arg2": {
+    "message": "DigiQuip is a comprehensive competence solution that is particularly well-suited for those working with equipment. Our platform makes equipment training easy, and in addition employers can keep an overview of various competence such as education and experience.",
+    "description": "The second argument of the competence progress and safety section on the competence page"
+  },
+  "competence.practical_training.title1": {
+    "message": "Right competence in the right",
+    "description": "The title of the practical training section on the competence page"
+  },
+  "competence.practical_training.title2": {
+    "message": "place at the right time",
+    "description": "The second title of the practical training section on the competence page"
+  },
+  "competence.practical_training.arg1": {
+    "message": "DigiQuip is the only solution that encompasses competency certificates, courses, equipment training, qualifications, and experience in one platform. Hence, it is particularly well-suited for those using machinery and equipment.",
+    "description": "The first argument of the practical training section on the competence page"
+  },
+  "competence.practical_training.arg2": {
+    "message": "With an overview of people, competence requirements, and work equipment in one platform, it becomes easier for organisations to both plan and action when needed.",
+    "description": "The second argument of the practical training section on the competence page"
+  },
+  "competence.practical_training.img_description": {
+    "message": "Practical training.",
+    "description": "The description of practical training image in practical training section on the competence page"
+  },
+  "competence.digital_training.title": {
+    "message": "We've simplified equipment training",
+    "description": "The first title of the digital training section on the competence page"
+  },
+  "competence.digital_training.arg1": {
+    "message": "According to Norwegian law and rules, employers must always provide necessary training. This includes training in the use of specific work equipment before its use.",
+    "description": "The first argument of the digital training section on the competence page"
+  },
+  "competence.digital_training.arg2": {
+    "message": "DigiQuip is the only service which help companies solving this challenge. Companies determine when training is required, and employees undergo practical or digital training.",
+    "description": "The second argument of the digital training section on the competence page"
+  },
+  "competence.digital_training.img_description": {
+    "message": "Practical training issued via QR-code.",
+    "description": "The description of digital training image in digital training section on the competence page"
+  },
+  "competence.grouphelp.title1": {
+    "message": "Having a complete overview of",
+    "description": "The first title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.title2": {
+    "message": "competence across teams",
+    "description": "The second title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.title3": {
+    "message": "makes it easier to follow up",
+    "description": "The third title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.title4": {
+    "message": " when needed",
+    "description": "The fourth title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.arg": {
+    "message": " Don't let gaining insights across departments and companies be a challenging task. If you need to check an individual's competence for specific machines, our solution has the tools you need.",
+    "description": "The argument of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.img_description": {
+    "message": "Groups help to identify competence gaps.",
+    "description": "The description of grouphelp image in grouphelp section on the competence page"
+  },
+  "workequipment.banner.title1": {
+    "message": "Improved processes with",
+    "description": "The first title of the work equipment page"
+  },
+  "workequipment.banner.title2": {
+    "message": "machines and equipment",
+    "description": "The second title of the work equipment page"
+  },
+  "workequipment.banner.title3": {
+    "message": "in one platform",
+    "description": "The third title of the work equipment page"
+  },
+  "workequipment.banner.title4": {
+    "message": "Streamline internal processes by consolidating all work equipment in one place.",
+    "description": "The fourth title of the work equipment page"
+  },
+  "workequipment.banner.arg1": {
+    "message": "CE documents, user manuals, and inspection reports are often scattered across different systems, which can be time-consuming in practice.",
+    "description": "The first argument of the work equipment banner"
+  },
+  "workequipment.banner.arg2": {
+    "message": "For a company handling machinery and equipment, it is crucial for efficiency that these documents are easily accessible. This ensures that time is spent on performing tasks rather than on administrative work.",
+    "description": "The second argument of the work equipment banner"
+  },
+  "workequipment.systematized_documentation.title": {
+    "message": "Systematized documentation",
+    "description": "The title of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.arg1": {
+    "message": "Companies with machinery and equipment in DigiQuip gain better overview and control over documentation. Gathering all documentation digitally in one place, as opposed to archives, emails, and various systems, saves businesses both time and money. Moreover, employees are spared from doing the same job repeatedly.",
+    "description": "The first argument of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.arg2": {
+    "message": "Gain quick and easy access to specifications, user manuals, and training models through our model library. Easily add other documents associated with individual equipment.",
+    "description": "The second argument of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.point1": {
+    "message": "Machinery and equipment overview",
+    "description": "The first point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.systematized_documentation.point2": {
+    "message": "Documentation",
+    "description": "The second point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.systematized_documentation.point3": {
+    "message": "Control information",
+    "description": "The third point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.machines_equipment.title1": {
+    "message": "Annual and daily inspections of",
+    "description": "The first title of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.title2": {
+    "message": "machines and equipment",
+    "description": "The second title of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.arg1": {
+    "message": "Get a simple overview of the latest inspection status and upcoming annual inspections. Expert control information is entered either manually or automatically from other inspection systems.",
+    "description": "The first argument of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.arg2": {
+    "message": "If a machine or equipment requires daily inspection, a user scanning the machine's QR code will receive a reminder. This daily check is simultaneously logged.",
+    "description": "The second argument of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.point1": {
+    "message": "Expert inspection",
+    "description": "The first point of the machine equipment section on the work equipment page"
+  },
+  "workequipment.machines_equipment.point2": {
+    "message": "Daily inspection",
+    "description": "The second point of the machine equipment section on the work equipment page"
+  },
+  "workequipment.machines_equipment.point3": {
+    "message": "History and upcoming inspections",
+    "description": "The third point of the machine equipment section on the work equipment page"
+  },
+
+
+  "workequipment.specific_competence.title1": {
+    "message": "Create digital equipment-",
+    "description": "The first title of the specific competence section in the work equipment page"
+  },
+  "workequipment.specific_competence.title2": {
+    "message": "specific training",
+    "description": "The second title of the specific competence section in the work equipment page"
+  },
+  "workequipment.specific_competence.arg1": {
+    "message": "In DigiQuip, businesses can create their own digital training programs. Digital training includes videos and quizzes.",
+    "description": "The first argument of the specific competence section in the work equipment page"
+  },
+  "workequipment.specific_competence.arg2": {
+    "message": "If the supplier has already created content, it will be accessible for the machine or equipment. The choice of digital training to be used is managed by the company.",
+    "description": "The second argument of the specific competence section in the work equipment page"
+  },
+  "workequipment.specific_competence.img_description": {
+    "message": "Get an overview of your equipment specific competence.",
+    "description": "The description of specific competence image in specific competence section on the work equipment page"
+  },
+
+
+
+
+
+
+
+
+"modellibrary.banner.title1": {
+  "message": "A platform for content and",
+  "description": "The first title of the model library banner section on the model library page"
+},
+"modellibrary.banner.title2": {
+  "message": "product information",
+  "description": "The second title of the model library banner section on the model library page"
+},
+"modellibrary.banner.title3": {
+  "message": "In DigiQuip, suppliers create and share information and content with all their customers.",
+  "description": "The third title of the model library banner section on the model library page"
+},
+"modellibrary.banner.arg1": {
+  "message": "The information is created, shared, and updated on a single platform. This is time and cost-effective for everyone involved, including suppliers, customers, and users.",
+  "description": "The first argument of the model library banner section in the model library page"
+},
+"modellibrary.banner.arg2": {
+  "message": "The model library is free because we aim to contribute to safer workplaces. We believe that the more information that is shared, the better the foundation for the proper use of machinery and equipment.",
+  "description": "The second argument of the model library banner section in the model library page"
+},
+"modellibrary.library.title": {
+  "message": "A digital content library for structured information and content",
+  "description": "The title of the library section on the model library page"
+},
+"modellibrary.library.arg1": {
+  "message": "Why use 100 folders for user manuals, videos, documents, and specifications when everything can be consolidated in a model registry? This way, all content becomes accessible from one solution, allowing customers to access the latest information when they need it.",
+  "description": "The first argument of the library section in the model library page"
+},
+"modellibrary.library.arg2": {
+  "message": "The greatest advantage of the system is that all information can be stored and shared in one place. It's cost-free to provide maximum value to everyone in the value chain – from supplier to machine user.",
+  "description": "The second argument of the library section in the model library page"
+},
+"modellibrary.library.point1": {
+  "message":"Reduced supplier-customer support",
+  "description": "The first point of the library section on the model library page"
+},
+
+"modellibrary.library.point2": {
+  "message":"Predictable",
+  "description": "The second point of the library section on the model library page"
+},
+"modellibrary.library.point3": {
+  "message":"User-friendly",
+  "description": "The third point of the library section on the model library page"
+},
   "modellibrary.easy_training.title": {
     "message": "Use videos for easy training",
     "description": "The title of the easy training section on the model library page"
@@ -439,5 +670,118 @@
   "modellibrary.easy_training.arg2": {
     "message": "The challenge with producing good videos is that it can be resource-intensive. The content needs to be planned, filmed, edited, and often requires multiple rounds of adjustments. Therefore, we can assist in this process.",
     "description": "The second argument of the easy training section on the model library page"
-  }
+  },
+  "modellibrary.easy_training.arg3": {
+    "message": "We work closely with our clients - such as",
+    "description": "The third argument of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg4": {
+    "message": "us for a non-binding discussion about your needs, and we’ll find a good solution together.",
+    "description": "The fourth argument of the easy training section on the model library page"
+  },
+
+"expertcontrol.banner.title1": {
+  "message":"Solution for expert control",
+  "description": "The title of the expert control page"
+},
+"expertcontrol.banner.title2": {
+  "message":"BRAREG helps inspectors to perform annual controls using an easy checklist, accessible from our QR-code on the equipment.",
+  "description": "The title of the expert control page"
+},
+"expertcontrol.banner.arg1": {
+  "message":"BRAREG is a continuation from 123Service used by inspectors across Norway until now, performing more than 500 inspections per week. BRAREG provides better sharing features, better checklist features and is more easy to use.",
+  "description": "The first argument of the expert control section in the expert control page"
+},
+"expertcontrol.banner.arg2": {
+  "message":"As an Inspector you may use the mobile device that suites your working style - a smart phone, pad or laptop - take photos of issues you discover - finalize and share the inspection report with others.",
+  "description": "The first argument of the expert control section in the expert control page"
+},
+"expertcontrol.easyflow.title": {
+  "message":"Easy flow on inspections",
+  "description": "The title of easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.arg1": {
+  "message":"Whether an inspection is planned or ad-hoc, BRAREG gives you a easy-to-use inspection flow with pre-configured checklists that the technical manager can easily adapt.",
+  "description": "The first argument of the easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.arg2": {
+  "message":"Look up or scan the QR code on the equipment, start the inspection, work your way through the checklist point by point and document with pictures if necessary. Then finalize the report and share it with those who need it.",
+  "description": "The second argument of the easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.arg3": {
+  "message":"When you finalize the inspection, the equipment register is also updated with the new status.",
+  "description": "The third argument of the easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.point1": {
+  "message":"Easy-to-use flow; start, do, finalize, share.",
+  "description": "The first point of the easy flow section on the expert control page"
+},
+"expertcontrol.easyflow.point2": {
+  "message":"Easy to look up or scan QR-code to start inspection.",
+  "description": "The second point of the easy flow section on the expert control page"
+},
+"expertcontrol.easyflow.point3": {
+  "message":"Plan ahead or start the inspection ad-hoc.",
+  "description": "The third point of the easy flow section on the expert control page"
+},
+"expertcontrol.easyflow.img_description": {
+  "message": "Easy-to-use flow, good search and lookup..",
+  "description": "The description of easy flow image in section on the competence page"
+},
+"expertcontrol.inspection.title": {
+  "message":"Inspection history across business entities",
+  "description": "The title of inspection section in the expert control page"
+},
+
+"expertcontrol.inspection.arg": {
+  "message":"Inspection history can be made available across other companies and other systems. The register makes it easy to avoid duplicated equipment and ensure that all inspections follow the equipment regardless of owner and user.",
+  "description": "The first argument of the inspection section in the expert control page"
+},
+
+"expertcontrol.inspection.point1": {
+  "message":"One equipment, one register entry enable a complete inspection history across business entities.",
+  "description": "The first point of the inspection section on the expert control page"
+},
+
+"expertcontrol.inspection.point2": {
+  "message":"Equipment owner have access to inspection history on their own equipment.",
+  "description": "The second point of the inspection section on the expert control page"
+},
+
+"expertcontrol.inspection.img_description": {
+  "message": "Complete annual inspection history of the equipment.",
+  "description": "The description of  image in section on the competence page"
+},
+"expertcontrol.logs.title": {
+  "message":"Reports and audit logs make both day to day work and revision easier",
+  "description": "The title of logs section in the expert control page"
+},
+
+"expertcontrol.logs.arg": {
+  "message":"In BRAREG it is easy to find answers to questions the auditor asks, such as how many inspections have been carried out within each category, which checklists have been used, how many inspections have been unlocked and why?",
+  "description": "The first argument of the logs section in the expert control page"
+},
+
+"expertcontrol.logs.point1": {
+  "message":"Equipment report for upcomming inspections.",
+  "description": "The first point of the logs section on the expert control page"
+},
+
+"expertcontrol.logs.point2": {
+  "message":"Inspection report of completed inspections.",
+  "description": "The second point of the logs section on the expert control page"
+},
+"expertcontrol.logs.point3": {
+  "message":"Audit log for all actions in BRAREG.",
+  "description": "The third point of the logs section on the expert control page"
+},
+
+"expertcontrol.logs.img_description": {
+  "message": "Reports of upcoming equipment inspections, done inspections and checklist usage.",
+  "description": "The description of image in section on the competence page"
+}
 }
