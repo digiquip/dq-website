@@ -1,7 +1,7 @@
 ---
 slug: principles-of-development
 title: Our principles of development
-authors: andreas
+authors: [andreas]
 tags: [development, howto, internal]
 ---
 
