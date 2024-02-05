@@ -124,8 +124,9 @@ const config = {
               {
                 html: 'Expert control <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
                 // label: 'Expert control',
-                type: 'docSidebar',
+                // type: 'docSidebar',
                 sidebarId: 'tutorialSidebar',
+                to:'/expertcontrol',
               },
               
             ]
