@@ -43,7 +43,8 @@ function HomepageHeader() {
 
 // Home component
 export default function Home() {
-  const [loader, setLoader] = useState(true)
+ 
+ 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const showAnim = gsap.from('.navbar', {
@@ -73,32 +74,16 @@ export default function Home() {
       }
     });
 
-
-
-
-    let ignore = false;
-    if (!ignore) {
-      setTimeout(() => {
-        setLoader(false)
-      }, 3000)
-    }
-    // cleanup code
-    return () => {
-      ignore = true;
-    }
-
-
-
   })
 
   return (
     <>
-      {loader && <PageLoader />}
-      {!loader && <MainLayout>
+     
+     <MainLayout>
         <HomepageHeader />
 
         <Layout1 />
-      </MainLayout>}
+      </MainLayout>
     </>
 
   );
