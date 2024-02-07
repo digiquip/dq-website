@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # End User License Agreement (EULA)
-> Last update: Jan 27, 2023
+*Last update: Jan 27, 2023*
 
 By using our digital channels, you accept these terms of use.
 

@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 
 # Privacy Policy
-> Last update: Feb 15, 2023
+*Last update: Feb 15, 2023*
 
 ## Introduction
 
