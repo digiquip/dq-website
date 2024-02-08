@@ -7,6 +7,8 @@ tags: [development, howto, internal]
 
 These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.
 
+<!-- truncate -->
+
 ## General principles
 
 ### Proper Layers

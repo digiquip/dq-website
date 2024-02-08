@@ -10,6 +10,8 @@ tags: [videos, training]
 ## Brukervideoer blir et supplement til brukermanualer
 Vi har alle prøvd å lære oss å bruke noe nytt. Det letteste er å få noen til å gi opplæring. Men, det kan være at du er alene og må finne ut av en feil eller komme igang. Hva gjør du da?
 
+<!-- truncate -->
+
 Etter at internet, og spesielt YouTube be introdusert i 2005, ble videoer et mer tilgjengelig alternativ til brukermanualer. Nå florerer det med brukervideoer på nettet. Ifølge Cisco er **30% av dagens trafikk** på internet video. Robert Kyncl, tidligere VP Global Content fra YouTube spår at videoer kommer til å oppta **90% av all trafikk** på internet. Problemet er å finne det som passer ditt behov og er til å stole på.
 
 Videoer er ikke nødvendigvis bedre enn manualer. Kvaliteten av begge manualer og videoer er avhengige av ressurser og interesse til å publisere innhold som er enkelt å finne, se, lese, lytte til og forstå – og som løser et behov.
