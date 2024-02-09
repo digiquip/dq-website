@@ -607,13 +607,6 @@
     "description": "The description of specific competence image in specific competence section on the work equipment page"
   },
 
-
-
-
-
-
-
-
 "modellibrary.banner.title1": {
   "message": "A platform for content and",
   "description": "The first title of the model library banner section on the model library page"
@@ -783,5 +776,31 @@
 "expertcontrol.logs.img_description": {
   "message": "Reports of upcoming equipment inspections, done inspections and checklist usage.",
   "description": "The description of image in section on the competence page"
+},
+
+
+"aboutus.banner.title1": {
+  "message":"How it started",
+  "description": "The title of banner section in the aboutus page"
+},
+"aboutus.banner.title2": {
+  "message":"Through years of building a rental business, Lars saw a clear need to improve safety for customers.",
+  "description": "The second title of banner section in the aboutus page"
+},
+"aboutus.banner.arg1": {
+  "message":"Incorrect use of equipment is potentially very risky and can lead to serious injuries, or, in worst case, even death. The lack of easily accessible and structured product information, as well as limited collaboration in the industry, held back improvement in safety.",
+  "description": "The first argument of the banner section in the aboutus page"
+},
+"aboutus.banner.arg2": {
+  "message":"The need was clear – to offer the industry a solution that centralizes content for rental companies and businesses, in cooperation with dealers and OEMs, and make this information easily accessible to equipment users.",
+  "description": "The second argument of the banner section in the aboutus page"
+},
+"aboutus.banner.arg3": {
+  "message":"Lars founded DigiQuip in 2019.",
+  "description": "The third argument of the banner section in the aboutus page"
+},
+"aboutus.contact.title": {
+  "message":"DigiQuip helps you solve equipment training, machine inspections and in general to get the control you need",
+  "description": "The title of contact section in the aboutus page"
 }
 }

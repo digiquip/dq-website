@@ -104,28 +104,28 @@ const config = {
                 {
                 html: 'Competence  <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
                 // type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
+                sidebarid: 'tutorialSidebar',
                 to:'/competence',
               }, 
               {
                 html: 'Work equipment  <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
                 // label: 'Work equipment',
                 // type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
+                sidebarid: 'tutorialSidebar',
                 to: '/workequipment'
               },
               {
                 html: '  Model register <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
                 // label: 'Model library',
                // type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
+               sidebarid: 'tutorialSidebar',
                 to:'/modellibrary',
               },
               {
                 html: 'Expert control <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
                 // label: 'Expert control',
                 // type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
+                sidebarid: 'tutorialSidebar',
                 to:'/expertcontrol',
               },
               
@@ -146,19 +146,22 @@ const config = {
           // },
          
           {
-            to: '/blog',
+            to: '/about',
             label: 'About us',
             position: 'left',
+            sidebarid: 'tutorialSidebar',
           },
           {
             type: 'localeDropdown',
             position: 'right',
+            sidebarid: 'tutorialSidebar',
           },
           {
             to: '/blog',
-            html: '<a classname="" href=#><span class=btn_wrapper><span class=btn_text>Contact us</span> <span class=btn_text>Contact us</span> </span></a> ',
+            html: '<span class=btn_wrapper><span class=btn_text>Contact us</span> <span class=btn_text>Contact us</span> </span> ',
             position: 'right',
             className:'white-btn btn',
+            sidebarid: 'tutorialSidebar',
           },
         ],
       },
