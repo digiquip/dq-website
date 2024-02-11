@@ -37,11 +37,16 @@ function OurPartners(props) {
         <span className="orange">.</span>
       </h2>
       <div className="our-partner-logo">
-        {brandList.map((props, idx) => (
-          <div className='brand-logo'>
+      {brandList.map((props, idx) => (
+          <div className='brand-logo'  key={idx}>
             <BrandLogo key={idx} {...props} />
           </div>
         ))}
+        {/* {brandList.map((props, idx) => (
+          <div className='brand-logo'>
+            <BrandLogo key={idx} {...props} />
+          </div>
+        ))} */}
       </div>
     </section>
   );

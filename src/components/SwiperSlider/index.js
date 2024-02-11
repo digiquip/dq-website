@@ -22,7 +22,7 @@ export default function SwiperSlider() {
     >
       <SwiperSlide>
         <div className='slider-item'>
-          <iframe id="ytplayer-133075" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Husqvarna K535i Liten kappsag - Hvordan bruke" src="https://www.youtube.com/embed/WWZ7bptGkA8?autoplay=0&amp;cc_load_policy=0&amp;controls=2&amp;disablekb=0&amp;enablejsapi=1&amp;fs=1&amp;iv_load_policy=3&amp;modestbranding=0&amp;origin=https%3A%2F%2Fstg.digiquip.com&amp;playsinline=1&amp;rel=0&amp;wmode=opaque&amp;start=0&amp;widgetid=1"></iframe>
+          <iframe id="ytplayer-133075" frameBorder="0" allowFullScreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Husqvarna K535i Liten kappsag - Hvordan bruke" src="https://www.youtube.com/embed/WWZ7bptGkA8?autoplay=0&amp;cc_load_policy=0&amp;controls=2&amp;disablekb=0&amp;enablejsapi=1&amp;fs=1&amp;iv_load_policy=3&amp;modestbranding=0&amp;origin=https%3A%2F%2Fstg.digiquip.com&amp;playsinline=1&amp;rel=0&amp;wmode=opaque&amp;start=0&amp;widgetid=1"></iframe>
           <button type="button" >
             <svg
               viewBox="0 0 32 32"

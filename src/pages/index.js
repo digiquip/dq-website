@@ -1,31 +1,10 @@
 import clsx from 'clsx';
 import Layout1 from '@site/src/components/Layout1';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 import MainLayout from '../components/MainLayout';
 import Translate from '@docusaurus/Translate';
-
-function PageLoader() {
-  return (
-
-    <div class="loader">
-      <div class="loder-logo">
-        <img src="img/loader-img/logo-left.png"></img>
-        <img src="img/loader-img/d.png"></img>
-        <img src="img/loader-img/i.png"></img>
-        <img src="img/loader-img/g.png"></img>
-        <img src="img/loader-img/i.png"></img>
-        <img src="img/loader-img/q.png"></img>
-        <img src="img/loader-img/u.png"></img>
-        <img src="img/loader-img/i.png"></img>
-        <img src="img/loader-img/p.png"></img>
-      </div>
-    </div>
-
-
-  );
-}
 
 function HomepageHeader() {
   return (
@@ -74,14 +53,32 @@ export default function Home() {
       }
     });
 
+
+
+    // let navLink = document.querySelectorAll('.navbar');
+    // let navLink1 = document.querySelector('.navbar');
+    // if (navLink) {
+    //   navLink.forEach(function (link) {
+    //     link.addEventListener('click', function (e) {
+    //       //e.preventDefault();
+    //       console.log(navLink)
+    //       setTimeout(() => {
+    //         navLink1.classList.add("my-class");
+    //         navLink1.classList.add("up");
+    //       })
+
+
+    //     })
+    //   })
+
+    // }
+
   })
 
   return (
     <>
-     
      <MainLayout>
         <HomepageHeader />
-
         <Layout1 />
       </MainLayout>
     </>

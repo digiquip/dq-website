@@ -297,12 +297,23 @@
    border-bottom-color: initial;
    transition: 0.1s;
  }
+ .plugin-docs .dropdown>.navbar__link:after,
+ .plugin-blog .dropdown>.navbar__link:after,
+ .aboutuspage .dropdown>.navbar__link:after{
+  border-color: black;
+}
  
  nav .dropdown--hoverable:hover .navbar__link:after {
    border-color: #fff;
    transform: rotate(313deg);
    top: 0px
  }
+ nav .dropdown--hoverable:hover .navbar__link:after,
+ .aboutuspage .dropdown:hover.navbar__link:after,
+ .plugin-blog .dropdown:hover.navbar__link:after,
+ .plugin-docs .dropdown:hover.navbar__link:after {
+  border-color: #000;
+}
  
  .navbar .dropdown__menu li a {
    padding: .3125rem .625rem;
@@ -359,7 +370,8 @@
  .my-class .navbar__logo,
  .navbar.dark .navbar__logo,
  .plugin-blog .navbar .navbar__logo,
- .plugin-docs .navbar .navbar__logo {
+ .plugin-docs .navbar .navbar__logo,
+ .aboutuspage .navbar__logo {
    background: url("../../static/img/black-logo-header.svg") no-repeat;
    background-size: 174px !important;
    max-width: 184px;
@@ -380,7 +392,8 @@
  }
  
  .navbar.up .dropdown__menu li a,
- .navbar.up .navbar__link {
+ .navbar.up .navbar__link,
+ .aboutuspage .navbar__link{
    color: black !important;
  }
  
@@ -394,13 +407,15 @@
  
  .navbar.up .white-btn,
  .plugin-blog .navbar .white-btn,
- .plugin-docs .navbar .white-btn  {
+ .plugin-docs .navbar .white-btn,
+ .aboutuspage .white-btn  {
    background-color: var(--ifm-color-primary);
  }
  
  .navbar.up .white-btn .btn_text,
  .plugin-blog .navbar .white-btn .btn_text,
- .plugin-docs .navbar .white-btn .btn_text {
+ .plugin-docs .navbar .white-btn .btn_text,
+ .aboutuspage .white-btn .btn_text{
    color: #fff;
  }
  
@@ -623,8 +638,7 @@ background-color: #fff;
  .slider-item button svg {
     width: 25px;
  }
- 
- 
+  
 .sikker-bruk{
    padding: 5rem 0;
  }
@@ -632,7 +646,6 @@ background-color: #fff;
  .consolidate-section h2 {
    margin-bottom: 4.5rem;
  }
- 
  .sikker-img {
    overflow: hidden;
    border-radius: 1.5rem;
@@ -685,6 +698,14 @@ background-color: #fff;
    margin-top: 0;
    z-index: 9;
    color: #fff;
+ }
+ .about-contact .home-contact-content{
+  color:#000;
+  position: inherit;
+  transform: inherit;
+  max-width: 100%;
+  margin-bottom: 2.5rem;
+
  }
  
  .home-contact-img:after {
@@ -859,7 +880,13 @@ background-color: #fff;
   object-fit: cover;
 }
 
+.aboutus-banner .hero .section-title{
+  color:#000;
+}
+.aboutus-banner .bg {
+  background-color: #fff;
 
+}
 
 
 /* blog css */
@@ -880,12 +907,13 @@ background-color: #fff;
 .table-of-contents__link--active code{
   color:var(--ifm-color-orange);
 }
-.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module {
+aside nav li a{
   font-size: 0.8rem;
   padding: 0.4rem 1em;
   border-radius: 4px;
   font-weight: 600;
 }
+aside nav .sidebarItemTitle_pO2u,
 .sidebarItemTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module {
   padding: 0.5rem 1em;
   font-size: 0.9rem !important;
@@ -894,15 +922,16 @@ background-color: #fff;
   font-weight: 600 !important;
   background: var(--ifm-color-primary);
 }
-a.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module.sidebarItemLinkActive_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module{
+aside nav li a.sidebarItemLinkActive_I1ZP{
   color:#000 !important;
   background-color: var(--ifm-menu-color-background-active);
 }
-.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module:hover{
+aside nav li a:hover{
   background: rgb(240 90 9 / 5%);
   color: var(--ifm-color-orange) !important;
 }
-.sidebarItem_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module {
+
+aside nav li { 
   margin-top: 0px !important;
 }
 .markdown >  h1,
@@ -962,24 +991,23 @@ a.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-
   width: 100%;
 }
 .markdown table td a{
-  color: #fff;
-  background: #32a66b;
-  padding: 12px 1rem;
+  color: var(--ifm-color-orange);
   font-size: 0.8rem;
-  border-radius: 6px;
-  box-shadow: inset 6px 2px 10px #3b855fc9;
   font-weight: 600;
   transition: 0.5s;
-  white-space: nowrap;
+  text-decoration-color: hsla(30,1%,53%,.251)!important;
+  text-decoration-thickness: 1px!important;
+  text-underline-offset: 0.2rem;
+  text-decoration: underline;
 }
 .markdown table td a:hover{
-    background: var(--ifm-color-orange);
-    box-shadow: none;
+  text-decoration: underline;
+  color: #000;
 }
 .markdown blockquote {
   background-color: rgb(240, 93, 35,0.1);
   position: relative;
-  padding: 4rem 1.5rem 1.7rem 1.5rem;
+  padding: 64px 1.5rem 1.7rem 1.5rem;
   border-radius: 10px;
   border-left: solid 0.3rem var(--ifm-color-orange);
   border-right: solid 0.3rem var(--ifm-color-orange);
@@ -999,18 +1027,19 @@ a.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-
 }
 .markdown blockquote:after {
   background-image: url(https://digiquip.no/_next/static/media/quote.e80c4d74.svg);
+  background-repeat: no-repeat;
   width: 60px;
   position: absolute;
   content: "";
   height: 57px;
-  background-size: 60px;
+  background-size: 90%;
   top: 10px;
-  left: 0;
+  left: 11px;
 }
-.img_node_modules-\@docusaurus-theme-classic-lib-theme-MDXComponents-Img-styles-module{
+.markdown .img_ev3q{
   border-radius: 1.5rem;
 }
-.tag_node_modules-\@docusaurus-theme-classic-lib-theme-Tag-styles-module:hover{
+.blogPostFooterDetailsFull_mRVl ul li a:hover{
   --docusaurus-tag-list-border:var(--ifm-color-orange) !important;
   color: var(  --ifm-color-orange) !important;
 }
@@ -1022,7 +1051,7 @@ a.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-
 }
 .plugin-blog .main-wrapper,
 .plugin-docs .main-wrapper {
-  padding-top: 6rem !important;
+  padding-top: 110px !important;
 }
 .plugin-blog .navbar,
 .plugin-docs .navbar {
@@ -1040,10 +1069,6 @@ a.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-
   border-bottom: solid 1px #eee;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-
-}
-.plugin-blog main header .container_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Info-styles-module {
-  order: 3;
 }
 .hash-link::before {
   content: '#';
@@ -1052,6 +1077,10 @@ a.sidebarItemLink_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-
 .menu__list-item-collapsible--active,
 .menu__list-item-collapsible .menu__link:hover{
   background-color: rgba(240, 90, 9, 0.05);
+}
+.theme-doc-sidebar-container nav ul li {
+  margin-bottom: 0.2rem;
+
 }
 li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu__list-item.menu__list-item--collapsed > .menu__list-item-collapsible {
   background: #f8f8f8;
@@ -1079,25 +1108,25 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   color: var(--ifm-color-orange) !important;
 }
 
-.cardTitle_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module{
+.cardContainer_fWXF h2{
   /* color: var(--ifm-color-orange); */
   color: #f05d23;
   margin-bottom: 0px;
   line-height: normal;
   font-size: 1.1rem !important;
 }
-a.card.padding--lg.cardContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module {
-  background: rgb(240 93 35 / 2%);
-  box-shadow: none;
-  border: 1px solid rgb(240 93 35 / 15%);
-  border-radius: 0.5rem;
-  padding: 1.5rem !important;
+.cardContainer_fWXF {
+  background-color: rgb(240 93 35 / 2%) !important;
+  box-shadow: none !important;
+  border: 1px solid rgb(240 93 35 / 15%) !important;
 }
 .plugin-blog header h1,
 .plugin-blog header h2 a,
 .plugin-docs header h1,
-.plugin-blog h1{  
+.plugin-blog h1,
+.plugin-blog header h2{  
     width: 100%;
+    display: block;
 }
 /* blog css */
 
@@ -1128,7 +1157,7 @@ a.card.padding--lg.cardContainer_node_modules-\@docusaurus-theme-classic-lib-the
  
  @media(min-width: 768px) {
    html {
-     font-size: 2.08vw;
+     font-size: 1.5vw;
    }
  
    .our-partner-logo {
@@ -1231,11 +1260,11 @@ a.card.padding--lg.cardContainer_node_modules-\@docusaurus-theme-classic-lib-the
   font-size: 2.7rem;
 }
 .markdown blockquote {
-  padding: 1.5rem  1.5rem 1.5rem 4rem;
+  padding: 1.5rem  1.5rem 1.5rem 64px;
 }
 .markdown blockquote:after{
   left: 10px;
-  top: 13px;
+  top: 15px;
 }
  }
  
@@ -1493,10 +1522,4 @@ a.card.padding--lg.cardContainer_node_modules-\@docusaurus-theme-classic-lib-the
     padding: 2rem;
   }
 }
-
-
-
-
-
-
 
