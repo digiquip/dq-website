@@ -3,6 +3,7 @@ slug: why-use-videos
 title: Why videos are a nice fit for equipment training
 authors: [christian]
 tags: [videos, training]
+image: img/digiquip-social-card.jpg
 ---
 
 ![Picture of video production](./videoprod1.webp)

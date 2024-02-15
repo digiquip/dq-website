@@ -65,17 +65,14 @@ const config = {
     ],
   ],
 
-//   plugins: [
-//     [
-//       '@docusaurus/plugin-content-docs',
-//       {
-//         id: 'pages',
-//         path: 'pages',
-//         routeBasePath: 'pages',
-//         sidebarPath: require.resolve('./sidebars.js'),
-//       }, 
-//     ],
-// ],
+  plugins: [
+    [
+      "./plugins/blog-plugin",
+      {
+        id: "blog",
+      },
+    ],
+  ],
 
 
   themeConfig:
