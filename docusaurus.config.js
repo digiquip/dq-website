@@ -65,14 +65,14 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      "./plugins/blog-plugin",
-      {
-        id: "blog",
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     "./plugins/blog-plugin",
+  //     {
+  //       id: "blog",
+  //     },
+  //   ],
+  // ],
 
 
   themeConfig:

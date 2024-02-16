@@ -95,15 +95,15 @@ function BlogPage(props) {
           className={clsx('col', {
             'col--12': true,
           })}>
-          <article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+          <article itemProp="blogPost" itemScope="" itemType="http://schema.org/BlogPosting">
             <div className="post-card">
               <div className='post-img'>
-              <a itemprop="url" href={items.permalink}>
+              <a itemProp="url" href={items.permalink}>
                 <BrandLogo Img={`${pathOfImage}` + items.frontMatter.image } width={''} height={''} alt={''} />
                 </a>
                 </div>
               <div className="post-content">
-                    <a itemprop="url" href={items.permalink}>{items.frontMatter.title}</a>
+                    <a itemProp="url" href={items.permalink}>{items.frontMatter.title}</a>
                   <p>{items.description}</p>
               </div>
             </div>

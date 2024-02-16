@@ -50,6 +50,9 @@
  
  /* font-face */
  
+ html[data-theme="dark"] {
+  background-color: white;
+}
  
  /* button css */
  
@@ -882,7 +885,12 @@ background-color: #fff;
   background-color: #fff;
 
 }
-
+.mainblog .margin-bottom--xl h1{
+  line-height: 1.4;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
 
 /* blog css */
 

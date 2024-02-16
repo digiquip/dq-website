@@ -34,26 +34,42 @@ export default function BlogPostItemsWrapper({
           return ''
         }
         parsed(location.pathname)
-        //  console.log('location == > ' , ) 
+         // console.log('location == > ' ,items ) 
         //  console.log('location == > ' , location.pathname, siteConfig)
 
-
-        if (data) {
-          let record1 = data['docusaurus-plugin-content-blog'].blog.blogTags
-          Object.keys(record1)
-            .forEach(function eachKey(key) {
-
-              tagsArray.push(record1[key])
-            });
-          let jsonObj = {
-            label: 'all',
-            permalink: siteConfig.baseUrl + 'blog'
-          }
-          tagsArray.splice(0, 0, jsonObj)
+        /// -------- new will delete later
+        { items && items.map((element) => (
+          element.content.frontMatter.tags.forEach(ele => {
+            let jsonObj = {
+              label: ele,
+              permalink: ele
+            }
+            tagsArray.push(jsonObj)
+          })
+        ))}
+        let jsonObj = {
+          label: 'all',
+          permalink: siteConfig.baseUrl + 'blog'
         }
-        const uniqueArr = tagsArray.map(item => item.label).filter((value, index, self) => self.indexOf(value) === index);
-        uniqueArr.splice(0, 0, 'all')
-        setTagsList(tagsArray);
+        tagsArray.splice(0, 0, jsonObj)
+
+        /// -------- old with plugin keep it later
+        // if (data) {
+        //   let record1 = data['docusaurus-plugin-content-blog'].blog.blogTags
+        //   Object.keys(record1)
+        //     .forEach(function eachKey(key) {
+
+        //       tagsArray.push(record1[key])
+        //     });
+        //   let jsonObj = {
+        //     label: 'all',
+        //     permalink: siteConfig.baseUrl + 'blog'
+        //   }
+        //   tagsArray.splice(0, 0, jsonObj)
+        // }
+       const uniqueArr = tagsArray.map(item => item.label).filter((value, index, self) => self.indexOf(value) === index);
+        // uniqueArr.splice(0, 0, 'all')
+        setTagsList(uniqueArr);
 
       }
     }
@@ -67,7 +83,7 @@ export default function BlogPostItemsWrapper({
 
   const hasSidebar = true;
   const clickButtonHandler = (value) => {
-    setActiveButton(value.label)
+    setActiveButton(value)
   }
 
 
@@ -78,11 +94,11 @@ export default function BlogPostItemsWrapper({
           {tags.map((items, i) => (
             <a
               key={i}
-              className={activeButton === items.label ? 'active' : ''}
+              className={activeButton === items ? 'active' : ''}
               onClick={(e) => clickButtonHandler(items)}
-              href={items.permalink}
+              href={  items != 'all' ? siteConfig.baseUrl + `${'blog/tags/'}`+ items : siteConfig.baseUrl + `${'blog'}` }
             >
-              <span>{items.label}</span></a>
+              <span>{items}</span></a>
           ))}
         </nav>
       </div>

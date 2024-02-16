@@ -15,7 +15,7 @@ export default function BlogLayoutWrapper(props) {
         <div className="row">
           <main
             className={clsx('col', {
-              'col--12': hasSidebar,
+              'col--12 mainblog': hasSidebar,
               'col--9 col--offset-1': !hasSidebar,
             })}
             itemScope
