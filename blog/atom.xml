@@ -142,8 +142,9 @@ Starting everything with writing the test is the ideal, but not always practical
         <id>https://digiquip.github.io/dq-website/blog/first-blog-post</id>
         <link href="https://digiquip.github.io/dq-website/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>
+        <summary type="html"><![CDATA[These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.]]></summary>
+        <content type="html"><![CDATA[<p>These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>
 <p>God fredag!og god helg!</p>]]></content>
         <author>
             <name>Andreas N. Lydersen</name>
