@@ -3,6 +3,7 @@ slug: principles-of-development
 title: Our principles of development
 authors: [andreas]
 tags: [development, howto, internal]
+image: img/digiquip-social-card.jpg
 ---
 
 These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.

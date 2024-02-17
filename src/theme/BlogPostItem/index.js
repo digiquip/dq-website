@@ -1,66 +1,21 @@
 import React, { useState } from 'react';
 import BlogPostItem from '@theme-original/BlogPostItem';
-import Translate from '@docusaurus/Translate';
-import ContactUsButton from '../../components/ContactBtn';
 import { useEffect } from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 import { useLocation } from '@docusaurus/router';
-
-
-
-
-function ContactDetails() {
-  return (
-    <section className="blog-contact">
-      <h3 className='section-title text--center'><Translate>general.contactus.title</Translate><span className='orange'>.</span>
-      </h3>
-      <div className=''>
-        <div className='contact_people__item'>
-          <div className='people-profile'>
-            <img src='../img/competence-images/tom_freddy.webp'></img>
-          </div>
-          <div className='contact_item-content'>
-            <div className='contact-people-detail'>
-              <p className='orange'>Sales and marketing manager</p>
-              <h3>Tom Freddy Braathen</h3>
-              <a href="mailto:salg@digiquip.no" className="btn__lined" aria-label="salg@digiquip.no" target="_self">
-                <span className="btn__wrapper">
-                  <span className="btn__text">salg@digiquip.no</span>
-                  <span className="btn__icon">
-                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 10.1667L10.1667 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
-                      <path d="M1 1H10.1667V10.1667" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
-                    </svg>
-                  </span>
-                </span>
-              </a>
-              <a href="tel:+47 90 77 35 24" aria-label="+47 90 77 35 24" target="_self">
-                <span className="btn__wrapper">
-                  <span className="btn__text">+47 90 77 35 24</span>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className='text--center'>
-          <ContactUsButton />
-        </div>
-      </div>
-    </section>
-  )
-}
-
-
-
+import { useBlogPost } from '@docusaurus/theme-common/internal';
+import clsx from 'clsx';
+import BrandLogo from '../../components/BrandLogo';
 
 
 export default function BlogPostItemWrapper(props) {
 
   const location = useLocation();
   const [currentPath, setCurrentPath] = useState('');
+  const [blogList, setBlogList] = useState({})
+  const { metadata, isBlogPostPage } = useBlogPost();
 
-  console.log(location)
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -94,10 +49,67 @@ export default function BlogPostItemWrapper(props) {
     setCurrentPath(location.pathname);
   }, [currentPath])
 
+
+
+  useEffect(() => {
+    let ignore = false;
+    if (!ignore) {
+      setBlogList(metadata);
+    }
+    return () => {
+      ignore = true;
+    }
+
+  }, [blogList]);
+
+
   return (
     <>
-      <BlogPostItem {...props} />
-      {currentPath != '/dq-website/blog' && currentPath != '/dq-website/blog/' ? <ContactDetails /> : ''}
+      {isBlogPostPage ? 
+      <div className="blog-post-center">
+             <BlogPostItem {...props} />
+      </div>
+        : <BlogPage item={blogList} />
+      }
     </>
   );
+}
+
+
+
+
+function BlogPage(props) {
+  const items = props.item;
+  const location = useLocation();
+  let pathOfImage = '';
+  if (location.pathname.indexOf("tags") > -1) {
+    pathOfImage = '../../'
+  } else {
+    pathOfImage = '';
+  }
+ 
+  return (
+    <>
+      {items && items.frontMatter && <div className="row">
+        <div
+          className={clsx('col', {
+            'col--12': true,
+          })}>
+          <article itemProp="blogPost" itemScope="" itemType="http://schema.org/BlogPosting">
+            <div className="post-card">
+              <div className='post-img'>
+              <a itemProp="url" href={items.permalink}>
+                <BrandLogo Img={`${pathOfImage}` + items.frontMatter.image } width={''} height={''} alt={''} />
+                </a>
+                </div>
+              <div className="post-content">
+                    <a itemProp="url" href={items.permalink}>{items.frontMatter.title}</a>
+                  <p>{items.description}</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>}
+    </>
+  )
 }

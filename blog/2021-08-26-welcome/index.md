@@ -3,6 +3,7 @@ slug: welcome
 title: Welcome
 authors: [andreas]
 tags: [facebook, hello, docusaurus]
+image: img/digiquip-social-card.jpg
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
