@@ -149,6 +149,12 @@ const config = {
             sidebarid: 'tutorialSidebar',
           },
           {
+            to: '/price',
+            label: 'Pricing',
+            position: 'left',
+            sidebarid: 'tutorialSidebar',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
             sidebarid: 'tutorialSidebar',
