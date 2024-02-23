@@ -90,7 +90,7 @@ const CompetenceRecords = {
     competenceBannerData,
     practicalTrainingData,
     digitalTrainingData,
-    groupHelpData
+    groupHelpData,
 }
 
 

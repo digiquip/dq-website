@@ -9,7 +9,7 @@ export default function ContactUs() {
       <div className="container">
         <div className="row">
           <div className={clsx("col col--12")}>
-            <h2 className='section-title'><Translate>general.contactus.title</Translate> <span className='orange'>.</span>
+            <h2 className='section-title'><Translate>general.contactus.title</Translate><span className='orange'>.</span>
             </h2>
             <div className='rightcontact'>
               <ul>

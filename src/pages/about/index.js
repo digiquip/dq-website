@@ -5,7 +5,6 @@ import ContactUsButton from '../../components/ContactBtn';
 import { useEffect } from 'react';
 
 
-
 function HomepageHeader() {
     return (
         <section className='aboutus-banner'>
@@ -50,11 +49,13 @@ function Contact() {
 
 // About page
 export default function About() {
+    
     useEffect(() => {
+
         let element = document.querySelector('.navbar');
-        element.classList.add('aboutuspage')
+        element.classList.add('white-header')
         return () => {
-            element.classList.remove('aboutuspage')
+            element.classList.remove('white-header')
         }
     }, [])
 
