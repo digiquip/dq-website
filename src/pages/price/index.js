@@ -3,51 +3,10 @@ import MainLayout from '../../components/MainLayout';
 import { useEffect, useState } from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ContactUsButton from '../../components/ContactBtn';
+import Translate from '@docusaurus/Translate';
+import SubscriptionPlan from '../../components/SubscriptionPlan';
+import ContactUs from '../../components/ContactUs';
 
-
-
-
-function PricePlane() {
-  return (
-    <section className='package-section section-box'>
-      <div className="container">
-        <div className="section-head">
-          <h2 class="text-align-center">Our Prices</h2>
-        </div>
-        <div className="package-body">
-          <div className="package-list">
-            <div className='package-title'>
-              <h4>DigiQuip</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitet dolore magna aliqua. </p>
-            </div>
-            <div className='package-price'> 320 Kroner </div>
-            <ul>
-              <li><img src='img/tik.svg' /> Lorem Ipsum is simply dummy</li>
-              <li><img src='img/tik.svg' />established fact that a reader will be distracted</li>
-              <li><img src='img/tik.svg' />Many desktop publishing packages and web page editors</li>
-            </ul>
-            <a className="btn" href="#" title=''>Contact us</a>
-          </div>
-          <div className="package-list">
-            <div className='package-title'>
-              <h4>Brareg</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitet dolore magna aliqua. </p>
-            </div>
-            <div className='package-price'> 4199 Kroner </div>
-            <ul>
-              <li><img src='img/tik.svg' /> Lorem Ipsum is simply dummy</li>
-              <li><img src='img/tik.svg' />established fact that a reader will be distracted</li>
-              <li><img src='img/tik.svg' />Many desktop publishing packages and web page editors</li>
-            </ul>
-            <a className="btn" href="#" title=''>Contact us</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  )
-}
 
 function PriceComponent() {
   const [equipment, setEquipment] = useState(55);
@@ -64,7 +23,7 @@ function PriceComponent() {
 
 
   const rendeInspectorsSwitch = (param) => {
-    setCustomPrice(false)
+
     switch (true) {
       case (param <= 1):
         return 990;
@@ -85,7 +44,7 @@ function PriceComponent() {
   }
 
   const rendePeopleSwitch = (param) => {
-    setCustomPrice(false)
+
     switch (true) {
       case (param <= 24):
         return 890;
@@ -104,7 +63,7 @@ function PriceComponent() {
   }
 
   const renderEquipmentSwitch = (param) => {
-    setCustomPrice(false)
+
     switch (true) {
       case (param <= 50):
         return 390;
@@ -121,14 +80,11 @@ function PriceComponent() {
       case (param > 5000 && param <= 7500):
         return 7490;
       default:
-        setCustomPrice(true)
+       setCustomPrice(true)
+        setEquipment(param)
         return 7490;
     }
   }
-
-  // const setCustomPriceValue = () => {
-    
-  // }
 
 
   const settings = {
@@ -151,16 +107,40 @@ function PriceComponent() {
       setEquipmentCost(renderEquipmentSwitch(value));
       setEstimatedTotal(peopleCost + equipmentCost);
 
+      if(value >= equipmentMaxValue) {
+      
+        console.log(value , equipment, equipmentMaxValue + 'Value greter equipment >= equipmentMaxValue')
+       }
+
     } else if (inputValType == 'inspectors') {
 
       setInspectors(value)
       setInspectorsCost(rendeInspectorsSwitch(value));
       setEstimatedTotal(inspectorsCost);
     }
-    
 
+    let isPriceHaveCastumValue =  checkIsCustomPrice(value);
+    setCustomPrice(isPriceHaveCastumValue)
   }
 
+  const checkIsCustomPrice = (value) => {
+
+    let showCustomPopup = false;
+    if(equipment == equipmentMaxValue) {
+      showCustomPopup = true;
+    }
+
+    if(people == peopleMaxValue) {
+      showCustomPopup = true;
+    }
+
+    if(inspectors == inspectorsMaxValue) {
+      showCustomPopup = true;
+    }
+    
+    return showCustomPopup
+
+  }
 
   useEffect(() => {
     let ignore = false;
@@ -175,7 +155,7 @@ function PriceComponent() {
       ignore = true;
     }
 
-  }, []);
+  }, [equipment,people, inspectors]);
 
   const returnValOfRangeBgColor = (min, max) => {
 
@@ -186,27 +166,25 @@ function PriceComponent() {
   return (
     <>
       <section className="pricing_calculator_section section-pd">
-        <div className="site-wrapper w-container">
-          <div className="section-head">
-            <div className="text-style-allcaps text-align-center">PRICING CALCULATOR</div>
-            <h2 className="text-align-center">Estimate your monthly cost</h2>
-          </div>
+        <div className="container">
+            <h2>Pricing Calculator<span className='orange'>.</span></h2>
           <div className="pricing-center">
             <div className="tab-container">
               <Tabs className="tabs-menu">
                 <TabItem value="digiQuip" label="DigiQuip" default>
                   <div className="w-tab-content">
                     <div className="w-tab-pane w--tab-active">
+
+                      <div className='tab-nav-dis'>DigiQuip Lorem Ipsum has been the industry's standard dummy.</div>
                       <div className="calculator-html w-embed">
                         <div className="pricing-row">
-
 
                           <div className="pricing-left">
                             <div className="slider-container">
                               <div className="ui-set">
                                 <span className="sub-heading">  Equipment </span>
                                 <span className="input-container">
-                                  <input type="number" min="1" value={equipment} onChange={e => onTodoChange(e.target.value, 'equipment', 0)} className="calculator-input" />
+                                  <input type="number" min="0" value={equipment} onChange={e => onTodoChange(e.target.value, 'equipment', 0)} className="calculator-input" />
                                   {equipment > equipmentMaxValue ? <div class="tooltip">
                                     <span class="tooltiparrow"></span>
                                     <span class="tooltiptext">Choose a value less than {equipmentMaxValue}</span>
@@ -215,7 +193,7 @@ function PriceComponent() {
                               </div>
                               <div className="calculator-slider">
                                 <span className="slider-track" style={{ background: `linear-gradient(to right, ${settings.fill} ${returnValOfRangeBgColor(equipment, equipmentMaxValue)}%, ${settings.background} ${returnValOfRangeBgColor(equipment, equipmentMaxValue) + 0.1}%)` }}></span>
-                                <input type="range" min="1" max={equipmentMaxValue} value={equipment} onChange={e => onTodoChange(e.target.value, 'equipment', 0)} id="equipmentSlider" className="calculator-input calculator-range" />
+                                <input type="range" min="0" max={equipmentMaxValue} value={equipment} onChange={e => onTodoChange(e.target.value, 'equipment', 0)} id="equipmentSlider" className="calculator-input calculator-range" />
 
                               </div>
                             </div>
@@ -225,7 +203,7 @@ function PriceComponent() {
                               <div className="ui-set">
                                 <span className="sub-heading"> People </span>
                                 <span className="input-container">
-                                  <input type="number" min="1" value={people} onChange={e => onTodoChange(e.target.value, 'people', 1)} id="participantsInput" className="calculator-input" />
+                                  <input type="number" min="0" value={people} onChange={e => onTodoChange(e.target.value, 'people', 1)} id="participantsInput" className="calculator-input" />
                                   {people > peopleMaxValue ? <div class="tooltip">
                                     <span class="tooltiparrow"></span>
                                     <span class="tooltiptext">Choose a value less than {peopleMaxValue}</span>
@@ -234,7 +212,7 @@ function PriceComponent() {
                               </div>
                               <div className="calculator-slider">
                                 <span className="slider-track" style={{ background: `linear-gradient(to right, ${settings.fill} ${returnValOfRangeBgColor(people, peopleMaxValue)}%, ${settings.background} ${returnValOfRangeBgColor(people, peopleMaxValue) + 0.1}%)` }}></span>
-                                <input type="range" min="1" max={peopleMaxValue} value={people} onChange={e => onTodoChange(e.target.value, 'people', 1)} id="peopleSlider" className="calculator-input calculator-range" />
+                                <input type="range" min="0" max={peopleMaxValue} value={people} onChange={e => onTodoChange(e.target.value, 'people', 1)} id="peopleSlider" className="calculator-input calculator-range" />
 
                               </div>
                             </div>
@@ -295,6 +273,8 @@ function PriceComponent() {
                             {/* popup calculator */}
 
                             {isCustomPrice && <CustomPricePopUp />}
+                            <a href='#' className='startupcost'>Startup Cost 5000 kr </a>
+          
 
                           </div>
 
@@ -308,75 +288,78 @@ function PriceComponent() {
                 <TabItem value="brareg" label="Brareg">
 
 
-                <div className="w-tab-content">
-        <div className="w-tab-pane w--tab-active">
-          <div className="calculator-html w-embed">
-            <div className="pricing-row">
-              <div className="pricing-left">
-                <div className="slider-container">
-                  <div className="ui-set">
-                    <span className="sub-heading">  Inspectors </span>
-                    <span className="input-container">
-                      <input type="number" min="1" value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)} className="calculator-input" />
-                      {inspectors > inspectorsMaxValue ? <div class="tooltip">
-                        <span class="tooltiparrow"></span>
-                        <span class="tooltiptext">Choose a value less than {inspectorsMaxValue}</span>
-                      </div> : ''}
-                    </span>
-                  </div>
-                  <div className="calculator-slider">
-                    <span className="slider-track" style={{ background: `linear-gradient(to right, ${settings.fill} ${returnValOfRangeBgColor(inspectors, inspectorsMaxValue)}%, ${settings.background} ${returnValOfRangeBgColor(inspectors, inspectorsMaxValue) + 0.1}%)` }}></span>
-                    <input type="range" min="1" max={inspectorsMaxValue} value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)}  className="calculator-input calculator-range" />
-                  </div>
-                </div>
-              </div>
+                  <div className="w-tab-content">
+                    <div className="w-tab-pane w--tab-active">
+                    <div class="tab-nav-dis">Brareg Lorem Ipsum has been the industry's standard dummy.</div>
+                      <div className="calculator-html w-embed">
+                        <div className="pricing-row">
+                          <div className="pricing-left">
+                            <div className="slider-container">
+                              <div className="ui-set">
+                                <span className="sub-heading">  Inspectors </span>
+                                <span className="input-container">
+                                  <input type="number" min="0" value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)} className="calculator-input" />
+                                  {inspectors > inspectorsMaxValue ? <div class="tooltip">
+                                    <span class="tooltiparrow"></span>
+                                    <span class="tooltiptext">Choose a value less than {inspectorsMaxValue}</span>
+                                  </div> : ''}
+                                </span>
+                              </div>
+                              <div className="calculator-slider">
+                                <span className="slider-track" style={{ background: `linear-gradient(to right, ${settings.fill} ${returnValOfRangeBgColor(inspectors, inspectorsMaxValue)}%, ${settings.background} ${returnValOfRangeBgColor(inspectors, inspectorsMaxValue) + 0.1}%)` }}></span>
+                                <input type="range" min="0" max={inspectorsMaxValue} value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)} className="calculator-input calculator-range" />
+                              </div>
+                            </div>
+                          </div>
 
-              <div className="pricing-right">
-                {!isCustomPrice && <div className='calculator-one'>
-                  <div className='calculator-view'>
-                    <h6>
-                      <img src='img/estimated-cost.svg' /> Your estimated  cost
-                    </h6>
-                  </div>
-                  <div className='calculator-price'>
-                    {inspectorsCost > 0 && <div className="ui-set cost-section">
-                      <span className="sub-heading">Equipment</span>
-                      <span id="confCost">kr {inspectorsCost}</span>
-                      {inspectors > 0 && <div className="conferencing-cost-text">
-                        <span className="avg-call-length-small">( <span id="confMinutes">1</span> to {inspectors} equipment)
-                        </span>
-                        <img alt="" src="img/info-icon.svg" />
-                      </div>}
-                      <hr className="calculator-hr" />
-                    </div>}
+                          <div className="pricing-right">
+                            {!isCustomPrice && <div className='calculator-one'>
+                              <div className='calculator-view'>
+                                <h6>
+                                  <img src='img/estimated-cost.svg' /> Your estimated  cost
+                                </h6>
+                              </div>
+                              <div className='calculator-price'>
+                                {inspectorsCost > 0 && <div className="ui-set cost-section">
+                                  <span className="sub-heading">Equipment</span>
+                                  <span id="confCost">kr {inspectorsCost}</span>
+                                  {inspectors > 0 && <div className="conferencing-cost-text">
+                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> to {inspectors} equipment)
+                                    </span>
+                                    <img alt="" src="img/info-icon.svg" />
+                                  </div>}
+                                  <hr className="calculator-hr" />
+                                </div>}
 
-                    <div className="ui-set est">
-                      <span className="est-text">Estimated Total</span>
-                      <span className="total-cost-text" id="videototalCost">kr {inspectorsCost}</span>
-                    </div>
-                    <div className="btn-container">
-                      <a href="#" target="_blank">
-                        <button className="calculator-button" disabled={!estimatedTotal}>
-                          <span className="btn-t-1">Start building</span>
-                        </button>
-                      </a>
-                      <div className="calculator-link">
-                        <a href="#" target="_blank">Talk to one of our experts</a>
+                                <div className="ui-set est">
+                                  <span className="est-text">Estimated Total</span>
+                                  <span className="total-cost-text" id="videototalCost">kr {inspectorsCost}</span>
+                                </div>
+                                <div className="btn-container">
+                                  <a href="#" target="_blank">
+                                    <button className="calculator-button" disabled={!estimatedTotal}>
+                                      <span className="btn-t-1">Start building</span>
+                                    </button>
+                                  </a>
+                                  <div className="calculator-link">
+                                    <a href="#" target="_blank">Talk to one of our experts</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>}
+                            {isCustomPrice && <CustomPricePopUp />}
+                            <a href='#' className='startupcost'>Startup Cost 5000 kr </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>}
-                {isCustomPrice && <CustomPricePopUp />}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
                 </TabItem>
               </Tabs>
             </div>
+           
           </div>
         </div>
       </section>
@@ -416,17 +399,50 @@ function AboutIntegrations() {
         <div className='integrations-center'>
           <h2>About our integrations<span className='orange'>.</span> </h2>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-          <div className='call-action'>
-            <div className="row row--align-center">
-              <div className={clsx("col col--8")}>
-                <h3>Call to Action</h3>
+          <div className="row">
+            <div className={clsx("col col--4 margin-bottom--lg")}>
+                <div className='call-action'>
+                <h3>integrations 01</h3>
                 <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
               </div>
-              <div className={clsx("col col--3 col--offset-1")}>
-                <ContactUsButton />
+              <div className={clsx("col col--4 margin-bottom--lg")}>
+                <div className='call-action'>
+                <h3>integrations 02</h3>
+                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
               </div>
+
+              <div className={clsx("col col--4 margin-bottom--lg")}>
+                <div className='call-action'>
+                <h3>integrations 02</h3>
+                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+              </div>
+
+              <div className={clsx("col col--4 margin-bottom--lg")}>
+                <div className='call-action'>
+                <h3>integrations 02</h3>
+                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+              </div>
+
+              <div className={clsx("col col--4 margin-bottom--md")}>
+                <div className='call-action'>
+                <h3>integrations 02</h3>
+                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+              </div>
+
+              <div className={clsx("col col--4 margin-bottom--md")}>
+                <div className='call-action'>
+                <h3>integrations 02</h3>
+                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+              </div>
+            
             </div>
-          </div>
+          
         </div>
       </div>
     </section>
@@ -435,26 +451,36 @@ function AboutIntegrations() {
 
 
 
+function PricePageBanner() {
+  return (
+    <>
+      <section className='homepage-banner'>
+        <div className={clsx('hero-25 hero hero--primary heroBanner')}>
+          <div className="container">
+            <h1 className='section-title'>Our Prices<span className='orange'>.</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitet aliqua.</p>
+            <div className="row">
+              <SubscriptionPlan />
+            </div>
+          </div>
+          <span className="bg"></span>
+        </div>
+      </section>
+    </>
+
+
+  );
+}
 
 // Price page
 export default function About() {
-
-  useEffect(() => {
-    let element = document.querySelector('.navbar');
-    element.classList.add('aboutuspage')
-    return () => {
-      element.classList.remove('aboutuspage')
-    }
-  }, [])
-
-
   return (
     <MainLayout>
 
-      <PricePlane />
+      <PricePageBanner />
       <PriceComponent />
       <AboutIntegrations />
-
+      <ContactUs />
     </MainLayout>
   );
 }
