@@ -1,0 +1,58 @@
+{
+  "link.title.DigiQuip AS": {
+    "message": "DigiQuip AS",
+    "description": "DigiQuip AS i bunnteksten"
+  },
+  "link.title.Docs": {
+    "message": "Dokumentasjon",
+    "description": "Link til dokumentasjon"
+  },
+  "link.title.Legal stuff": {
+    "message": "Rettigheter og plikter",
+    "description": "Diverse om rettigheter og plikter"
+  },
+  "link.title.More": {
+    "message": "Annet",
+    "description": "Link til annet"
+  },
+  "link.item.label.Holtskogen 7, NO 1825 TOMTER": {
+    "message": "Holtskogen 7, NO 1825 TOMTER",
+    "description": "The label of footer link with label=Holtskogen 7, NO 1825 TOMTER linking to https://www.google.com/maps/search/?api=1&query=Holtskogen+7%2C+1825+Tomter%2C+Norway"
+  },
+  "link.item.label.Org.nr: NO923673911MVA": {
+    "message": "Org.nr: NO923673911MVA",
+    "description": "The label of footer link with label=Org.nr: NO923673911MVA linking to https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=923673911"
+  },
+  "link.item.label.+47 69 83 85 00": {
+    "message": "+47 69 83 85 00",
+    "description": "The label of footer link with label=+47 69 83 85 00 linking to tel:+4769838500"
+  },
+  "link.item.label.support@digiquip.no (/sales@)": {
+    "message": "support@digiquip.no (/sales@)",
+    "description": "Link til vår support epostadresse på support@digiquip.no"
+  },
+  "link.item.label.Tutorial": {
+    "message": "All dokumentasjon",
+    "description": "Link til all dokumentasjon"
+  },
+  "link.item.label.End User License Agreement (EULA)": {
+    "message": "Bruksvilkår (EULA)",
+    "description": "Link til våre bruksvilkår (EULA)"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Personvernerklæring",
+    "description": "Link til vår Personvernerklæring"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "Link til vår blog"
+  },
+  "link.item.label.Services Status (Uptime)": {
+    "message": "Status på tjenester (Uptime)",
+    "description": "Link til vår status (Uptime) linking to https://uptime.statuscake.com/?TestID=f9dgQKO3Az"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 DigiQuip AS",
+    "description": "The footer copyright"
+  }
+}

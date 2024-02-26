@@ -66,13 +66,13 @@ const groupHelpData =
         <>
             <Translate>competence.grouphelp.title1</Translate> <br></br>
             <Translate>competence.grouphelp.title2</Translate> <br></br>
-            <Translate>competence.grouphelp.title3</Translate> <br></br>
-            <Translate>competence.grouphelp.title4</Translate>
+            <Translate>competence.grouphelp.title3</Translate>
         </>
     ),
     descriptionWithHTML: (
         <>
             <p><Translate>competence.grouphelp.arg</Translate></p>
+            <p><Translate>competence.grouphelp.arg2</Translate></p>
         </>
     ),
     img: "img/competence-images/groups-help.webp",

@@ -10,5 +10,9 @@
   "item.label.About us": {
     "message": "About us",
     "description": "Navbar item with label About us"
+  },
+  "item.label.Pricing": {
+    "message": "Pricing",
+    "description": "Navbar item with label Pricing"
   }
 }

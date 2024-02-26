@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "DigiQuip logoen",
+    "description": "DigiQuip logo"
+  },
+  "item.label.Solutions": {
+    "message": "Løsninger",
+    "description": "Navigering til løsninger"
+  },
+  "item.label.About us": {
+    "message": "Om oss",
+    "description": "Navigering til om oss"
+  },
+  "item.label.Pricing": {
+    "message": "Priser",
+    "description": "Navigering til priser"
+  }
+}
