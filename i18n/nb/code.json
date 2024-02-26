@@ -675,133 +675,129 @@
   },
 
 "expertcontrol.banner.title1": {
-  "message":"Solution for expert control",
+  "message":"En enkel løsning for sakkyndig kontroll",
   "description": "The title of the expert control page"
 },
 "expertcontrol.banner.title2": {
-  "message":"BRAREG helps inspectors to perform annual controls using an easy checklist, accessible from our QR-code on the equipment.",
+  "message":"BRAREG hjelper kontrollører med å utføre årskontroll.",
   "description": "The title of the expert control page"
 },
 "expertcontrol.banner.arg1": {
-  "message":"BRAREG is a continuation from 123Service used by inspectors across Norway until now, performing more than 500 inspections per week. BRAREG provides better sharing features, better checklist features and is more easy to use.",
+  "message":"BRAREG er en videreutvikling av 123Service, der kontrollører fra hele landet gjennomfører sakkyndige kontroller til sammen over 500 hver uke. Løsningen støtter en enkel flyt og gjør dokumentasjon digitalt tilgjengelig. I tillegg finnes det gjennomarbeidede sjekklister i henhold til norm for kontrollomfang.",
   "description": "The first argument of the expert control section in the expert control page"
 },
 "expertcontrol.banner.arg2": {
-  "message":"As an Inspector you may use the mobile device that suites your working style - a smart phone, pad or laptop - take photos of issues you discover - finalize and share the inspection report with others.",
+  "message":"Fra mobil eller nettbrett, er det enkelt å gjennomføre inspeksjonen.",
   "description": "The first argument of the expert control section in the expert control page"
 },
 "expertcontrol.easyflow.title": {
-  "message":"Easy flow on inspections",
+  "message":"Enkel flyt på kontroll",
   "description": "The title of easy flow section in the expert control page"
 },
 
 "expertcontrol.easyflow.arg1": {
-  "message":"Whether an inspection is planned or ad-hoc, BRAREG gives you a easy-to-use inspection flow with pre-configured checklists that the technical manager can easily adapt.",
+  "message":"BRAREG gir kontrollører en enkel kontrollflyt. Løsningen inkluderer sjekklister, og disse kan lett tilpasses.",
   "description": "The first argument of the easy flow section in the expert control page"
 },
 
 "expertcontrol.easyflow.arg2": {
-  "message":"Look up or scan the QR code on the equipment, start the inspection, work your way through the checklist point by point and document with pictures if necessary. Then finalize the report and share it with those who need it.",
+  "message":"Flyten er som følger: Søk opp eller les av QR-koden, start kontrollen, jobb deg gjennom sjekklisten og dokumentér. Bilder kan også legges ved. Ferdigstill deretter rapporten og del den til de som skal ha den.",
   "description": "The second argument of the easy flow section in the expert control page"
 },
 
 "expertcontrol.easyflow.arg3": {
-  "message":"When you finalize the inspection, the equipment register is also updated with the new status.",
+  "message":"Når kontrollen er ferdig, oppdateres også registeret slik at registeret alltid har riktig status.",
   "description": "The third argument of the easy flow section in the expert control page"
 },
 
 "expertcontrol.easyflow.point1": {
-  "message":"Easy-to-use flow; start, do, finalize, share.",
+  "message":"Enkel flyt med start, gjennomfør, ferdigstill og del.",
   "description": "The first point of the easy flow section on the expert control page"
 },
 "expertcontrol.easyflow.point2": {
-  "message":"Easy to look up or scan QR-code to start inspection.",
+  "message":"Enkelt oppslag med søk eller QR-kode avlesing for å begynne.",
   "description": "The second point of the easy flow section on the expert control page"
 },
 "expertcontrol.easyflow.point3": {
-  "message":"Plan ahead or start the inspection ad-hoc.",
+  "message":"Bruk planleggingsmodulen eller start kontrollen på stedet.",
   "description": "The third point of the easy flow section on the expert control page"
 },
 "expertcontrol.easyflow.img_description": {
-  "message": "Easy-to-use flow, good search and lookup..",
+  "message": "Enkel flyt, enkelt oppslag.",
   "description": "The description of easy flow image in section on the competence page"
 },
 "expertcontrol.inspection.title": {
-  "message":"Inspection history across business entities",
+  "message": "Tilgjengelig kontrollhistorikk",
   "description": "The title of inspection section in the expert control page"
 },
-
 "expertcontrol.inspection.arg": {
-  "message":"Inspection history can be made available across other companies and other systems. The register makes it easy to avoid duplicated equipment and ensure that all inspections follow the equipment regardless of owner and user.",
+  "message": "Kontrollhistorikk kan gjøres tilgjengelig på tvers av virksomheter og andre systemer. Registeret gjør det også enklere å unngå duplikater av samme maskin. Dette sikrer at alle kontroller blir knyttet til riktig maskin, uavhengig eier og bruker.",
   "description": "The first argument of the inspection section in the expert control page"
 },
-
 "expertcontrol.inspection.point1": {
-  "message":"One equipment, one register entry enable a complete inspection history across business entities.",
+  "message": "En maskin har én forekomst i registeret som muliggjør komplett kontrollhistorikk på tvers av virksomheter.",
   "description": "The first point of the inspection section on the expert control page"
 },
-
 "expertcontrol.inspection.point2": {
-  "message":"Equipment owner have access to inspection history on their own equipment.",
+  "message": "Maskineier har tilgang til kontrollhistorikk på sine maskiner.",
   "description": "The second point of the inspection section on the expert control page"
 },
-
 "expertcontrol.inspection.img_description": {
-  "message": "Complete annual inspection history of the equipment.",
+  "message": "Komplett kontrollhistorikk for utstyret.",
   "description": "The description of  image in section on the competence page"
 },
 "expertcontrol.logs.title": {
-  "message":"Reports and audit logs make both day to day work and revision easier",
+  "message":"Rapporter og loggføring gjør både daglig arbeid og revisjon enklere",
   "description": "The title of logs section in the expert control page"
 },
 
 "expertcontrol.logs.arg": {
-  "message":"In BRAREG it is easy to find answers to questions the auditor asks, such as how many inspections have been carried out within each category, which checklists have been used, how many inspections have been unlocked and why?",
+  "message":"Våre kunder erfarer at det i BRAREG er enkelt å finne svar på spørsmål revisor lurer på, som for eksempel hvor mange kontroller som er gjennomført innenfor hver kategori, hvilke sjekklister som er anvendt, hvor mange kontroller som har blitt låst opp igjen og hvordan en holder oversikt over når kontroller skal gjennomføres.",
   "description": "The first argument of the logs section in the expert control page"
 },
 
 "expertcontrol.logs.point1": {
-  "message":"Equipment report for upcomming inspections.",
+  "message":"Utstyrsrapport som gir oversikt over kommende kontroller.",
   "description": "The first point of the logs section on the expert control page"
 },
 
 "expertcontrol.logs.point2": {
-  "message":"Inspection report of completed inspections.",
+  "message":"Liste som gir oversikt over gjennomførte kontroller.",
   "description": "The second point of the logs section on the expert control page"
 },
 "expertcontrol.logs.point3": {
-  "message":"Audit log for all actions in BRAREG.",
+  "message":"Logg som gir full oversikt i alt som er gjort i løsningen.",
   "description": "The third point of the logs section on the expert control page"
 },
 
 "expertcontrol.logs.img_description": {
-  "message": "Reports of upcoming equipment inspections, done inspections and checklist usage.",
+  "message": "Rapporter for kommende kontroller, utførte kontroller og sjekklistebruk.",
   "description": "The description of image in section on the competence page"
 },
 
 
 "aboutus.banner.title1": {
-  "message":"How it started",
+  "message":"Slik startet det",
   "description": "The title of banner section in the aboutus page"
 },
 "aboutus.banner.title2": {
-  "message":"Through years of building a rental business, Lars saw a clear need to improve safety for customers.",
+  "message":"Etter å ha bygget opp en utleievirksomhet over flere år, opplevde Lars et tydelig behov for å forbedre sikkerheten til kundene.",
   "description": "The second title of banner section in the aboutus page"
 },
 "aboutus.banner.arg1": {
-  "message":"Incorrect use of equipment is potentially very risky and can lead to serious injuries, or, in worst case, even death. The lack of easily accessible and structured product information, as well as limited collaboration in the industry, held back improvement in safety.",
+  "message":"Feil bruk av maskiner kan være meget risikabelt og føre til alvorlige skader, og i verste fall dødsfall. Mangel på digital og strukturert produktinformasjon og samarbeid i bransjen var en av de største utfordringene.",
   "description": "The first argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg2": {
-  "message":"The need was clear – to offer the industry a solution that centralizes content for rental companies and businesses, in cooperation with dealers and OEMs, and make this information easily accessible to equipment users.",
+  "message":"Behovet var tydelig – å tilby markedet en digital plattform som sentraliserer informasjonsmateriell for utleiebedrifter og entrepenører i samarbeid med forhandlere og produsenter og enkelt tilgjengeliggjøre denne informasjonen for maskinbrukerene.",
   "description": "The second argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg3": {
-  "message":"Lars founded DigiQuip in 2019.",
+  "message":"Lars etablerte DigiQuip i 2019.",
   "description": "The third argument of the banner section in the aboutus page"
 },
 "aboutus.contact.title": {
-  "message":"DigiQuip helps you solve equipment training, machine inspections and in general to get the control you need",
+  "message":"DigiQuip hjelper bedrifter å løse utstyrsspesifikk opplæring, årlige inspeksjoner og mye mer.",
   "description": "The title of contact section in the aboutus page"
 }
 }
