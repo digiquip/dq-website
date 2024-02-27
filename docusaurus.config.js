@@ -6,6 +6,8 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const linkHtml =  ' <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DigiQuip - familiarization and competence overview',
@@ -27,8 +29,6 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -66,16 +66,6 @@ const config = {
     ],
   ],
 
-  // plugins: [
-  //   [
-  //     "./plugins/blog-plugin",
-  //     {
-  //       id: "blog",
-  //     },
-  //   ],
-  // ],
-
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -90,59 +80,45 @@ const config = {
         title: '',
         
         logo: {
-          alt: 'My Site Logo',
+          alt: 'DigiQuip Logo',
           src: 'img/logo.svg',
         },
         items: [       
-            {
-              type: "dropdown",
-              label: 'Solutions',
-              position: 'left',
-              items: [
-                {
-                html: 'Competence  <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
+          {
+            type: "dropdown",
+            label: 'Solutions',
+            position: 'left',
+            items: [
+              {
+                // html: 'Competence' + linkHtml,
+                label: 'Competence',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
                 to:'/competence',
               }, 
               {
-                html: 'Work equipment  <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
-                // label: 'Work equipment',
+                // html: 'Work equipment' + linkHtml,
+                label: 'Workequipment',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
                 to: '/workequipment'
               },
               {
-                html: '  Model register <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
-                // label: 'Model library',
-               // type: 'docSidebar',
-               sidebarid: 'tutorialSidebar',
+                // html: 'Model register' + linkHtml,
+                label: 'Modellibrary',
+                // type: 'docSidebar',
+                sidebarid: 'tutorialSidebar',
                 to:'/modellibrary',
               },
               {
-                html: 'Expert control <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ',
-                // label: 'Expert control',
+                //  html: 'Expert control' + linkHtml,
+                label: 'Expertcontrol',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
                 to:'/expertcontrol',
               },
-              
             ]
-            },
-
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'About us', position: 'left'},
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
-         
+          },
           {
             to: '/about',
             label: 'About us',
