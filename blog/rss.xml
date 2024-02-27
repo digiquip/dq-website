@@ -7,16 +7,16 @@
         <lastBuildDate>Fri, 26 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
+        <language>nb</language>
         <item>
-            <title><![CDATA[Why videos are a nice fit for equipment training]]></title>
+            <title><![CDATA[Hvorfor bruke videoer i opplæring]]></title>
             <link>https://digiquip.github.io/dq-website/blog/why-use-videos</link>
             <guid>https://digiquip.github.io/dq-website/blog/why-use-videos</guid>
             <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Picture of video production]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Picture of video production" src="https://digiquip.github.io/dq-website/assets/images/videoprod1-8b808847e16ac17e06e0e6960b653da1.webp" width="1600" height="836" class="img_ev3q"></p>
+            <description><![CDATA[Vi har alle prøvd å lære oss å bruke noe nytt. Det letteste er å få noen til å gi opplæring. Men, det kan være at du er alene og må finne ut av en feil eller komme igang. Hva gjør du da?]]></description>
+            <content:encoded><![CDATA[<p>Vi har alle prøvd å lære oss å bruke noe nytt. Det letteste er å få noen til å gi opplæring. Men, det kan være at du er alene og må finne ut av en feil eller komme igang. Hva gjør du da?</p>
+<p><img decoding="async" loading="lazy" alt="Picture of video production" src="https://digiquip.github.io/dq-website/assets/images/videoprod1-8b808847e16ac17e06e0e6960b653da1.webp" width="1600" height="836" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="brukervideoer-blir-et-supplement-til-brukermanualer">Brukervideoer blir et supplement til brukermanualer<a href="https://digiquip.github.io/dq-website/blog/why-use-videos#brukervideoer-blir-et-supplement-til-brukermanualer" class="hash-link" aria-label="Direct link to Brukervideoer blir et supplement til brukermanualer" title="Direct link to Brukervideoer blir et supplement til brukermanualer">​</a></h2>
-<p>Vi har alle prøvd å lære oss å bruke noe nytt. Det letteste er å få noen til å gi opplæring. Men, det kan være at du er alene og må finne ut av en feil eller komme igang. Hva gjør du da?</p>
 <p>Etter at internet, og spesielt YouTube be introdusert i 2005, ble videoer et mer tilgjengelig alternativ til brukermanualer. Nå florerer det med brukervideoer på nettet. Ifølge Cisco er <strong>30% av dagens trafikk</strong> på internet video. Robert Kyncl, tidligere VP Global Content fra YouTube spår at videoer kommer til å oppta <strong>90% av all trafikk</strong> på internet. Problemet er å finne det som passer ditt behov og er til å stole på.</p>
 <p>Videoer er ikke nødvendigvis bedre enn manualer. Kvaliteten av begge manualer og videoer er avhengige av ressurser og interesse til å publisere innhold som er enkelt å finne, se, lese, lytte til og forstå – og som løser et behov.</p>
 <p>Dessverre er det færre som leser for tiden <a href="https://www.courthousenews.com/norway-allocates-millions-to-counter-decline-in-kids-reading-ability/" target="_blank" rel="noopener noreferrer">CNS</a>, og lesekunnskaper har allerede påvirket den yngre generasjonen pga. bruken av nettbrett og smarttelefoner i skoler. I Norge har barn i 10-års alderen mellom 2016-2021 redusert merkbart. <strong>Bare 13% av dem liker å lese</strong>. Det å ikke bemestre lesing kommer til å påvirke kunnskapen til å innhente og prosessere trykt informasjon. Så, hvorfor tilbyr vi brukervideoer?</p>
@@ -55,85 +55,6 @@
 <p>Vi opptatt av at brukerne får den støtte de trenger på flest mulige maskiner og utstyr i bransjen. Ved å tilgjengeliggjøre enkle og brukervennlige brukervideoer kan vi hjelpe med å redusere bedrifters fraværs- og reparasjonskostnader ved feilbruk og sikre en trygg hverdag til ansatte og fagpersoner.</p>]]></content:encoded>
             <category>videos</category>
             <category>training</category>
-        </item>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://digiquip.github.io/dq-website/blog/welcome</link>
-            <guid>https://digiquip.github.io/dq-website/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://digiquip.github.io/dq-website/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>facebook</category>
-            <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://digiquip.github.io/dq-website/blog/mdx-blog-post</link>
-            <guid>https://digiquip.github.io/dq-website/blog/mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<!-- -->
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Our principles of development]]></title>
-            <link>https://digiquip.github.io/dq-website/blog/principles-of-development</link>
-            <guid>https://digiquip.github.io/dq-website/blog/principles-of-development</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.]]></description>
-            <content:encoded><![CDATA[<p>These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="general-principles">General principles<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#general-principles" class="hash-link" aria-label="Direct link to General principles" title="Direct link to General principles">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="proper-layers">Proper Layers<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#proper-layers" class="hash-link" aria-label="Direct link to Proper Layers" title="Direct link to Proper Layers">​</a></h3>
-<p>We have a properly layered structure of our software. The easiest three layers to identify is our Database, Backends and Frontends. Obviously, we can have several of each, but there is an important principle in this layering: We do not allow functions that belong in one layer to be set in another. Examples: We do not set database logic in the backend layer, and we do not apply security measures in the frontend if it should be in the backend.</p>
-<p>Another important thing about the layers is that we treat them as freestanding and with a purpose of their own. We should be able to have two backends talking to the same database without repeating code (see “DRY” below).  We should have proper security on every layer. We should make every layer usable by multiple other layers (so that we don’t make a backend specifically for only one frontend).</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-obvious-ones">The obvious ones<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#the-obvious-ones" class="hash-link" aria-label="Direct link to The obvious ones" title="Direct link to The obvious ones">​</a></h3>
-<p><em>KISS (Keep It Simple, Short)</em> and <em>DRY (Don’t Repeat Yourself)</em>.</p>
-<p>Not fully test-driven development, but test-focused
-Starting everything with writing the test is the ideal, but not always practical. Our principle is that we will strive to write tests for most, especially now that AI is helping us.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="small-prs">Small PRs<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#small-prs" class="hash-link" aria-label="Direct link to Small PRs" title="Direct link to Small PRs">​</a></h3>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="principles-for-database-development">Principles for database Development<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#principles-for-database-development" class="hash-link" aria-label="Direct link to Principles for database Development" title="Direct link to Principles for database Development">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="uuids-for-primary-keys-pk">UUIDs for Primary Keys (PK)<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#uuids-for-primary-keys-pk" class="hash-link" aria-label="Direct link to UUIDs for Primary Keys (PK)" title="Direct link to UUIDs for Primary Keys (PK)">​</a></h3>
-<p>There are pros and cons with having UUIDs for PKs, where size is the biggest con. In our scenario, where we have several databases where we potentially want to merge over time, UUIDs will ensure that we can avoid PK conflicts. Also, it is a nice and simple security measure.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-default-values-restrictions-and-triggers">Use default values, restrictions and triggers<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#use-default-values-restrictions-and-triggers" class="hash-link" aria-label="Direct link to Use default values, restrictions and triggers" title="Direct link to Use default values, restrictions and triggers">​</a></h3>
-<p>Following the principle of proper layering, we use these functions to make sure that the database makes it easy for the backend to stay “DRY”. E.g. we make PK values by default rather than having the backend creating them (you can always set a default value yourself if you need to). If we know that a field only should have specifically formatted strings, don’t just set the schema for string, but set the restriction also. In general, you should be able to read a schema and understand what the database wants as content.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="databases-are-testable">Databases are testable!<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#databases-are-testable" class="hash-link" aria-label="Direct link to Databases are testable!" title="Direct link to Databases are testable!">​</a></h3>
-<p>Like everything else, databases are testable, and we should write tests that makes sure that we are achieving what we need while maintaining regression consistency.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="clean-up-after-yourself-and-others">Clean up after yourself and others<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#clean-up-after-yourself-and-others" class="hash-link" aria-label="Direct link to Clean up after yourself and others" title="Direct link to Clean up after yourself and others">​</a></h3>
-<p>If you find stuff in the schema that is no longer in use or you are writing functionality that replaces something, create a migration that removes the unneeded stuff.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="migrations-goes-both-ways">Migrations goes both ways<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#migrations-goes-both-ways" class="hash-link" aria-label="Direct link to Migrations goes both ways" title="Direct link to Migrations goes both ways">​</a></h3>
-<p>Often, to save a bit of time, migrations contain “up” but not “down”. Don’t save that time – write the “down” unless there is a very good reason not to.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="for-us-json-is-ok-to-use-in-the-schema">For us, JSON is OK to use in the schema<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#for-us-json-is-ok-to-use-in-the-schema" class="hash-link" aria-label="Direct link to For us, JSON is OK to use in the schema" title="Direct link to For us, JSON is OK to use in the schema">​</a></h3>
-<p>A controversial subject for some, but we are OK with using JSON as a field type if it removes unneeded complexities elsewhere.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="principles-for-backend-development">Principles for backend development<a href="https://digiquip.github.io/dq-website/blog/principles-of-development#principles-for-backend-development" class="hash-link" aria-label="Direct link to Principles for backend development" title="Direct link to Principles for backend development">​</a></h2>]]></content:encoded>
-            <category>development</category>
-            <category>howto</category>
-            <category>internal</category>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://digiquip.github.io/dq-website/blog/first-blog-post</link>
-            <guid>https://digiquip.github.io/dq-website/blog/first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.]]></description>
-            <content:encoded><![CDATA[<p>These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet.</p>
-<p>God fredag!og god helg!</p>]]></content:encoded>
-            <category>hola</category>
-            <category>docusaurus</category>
         </item>
     </channel>
 </rss>

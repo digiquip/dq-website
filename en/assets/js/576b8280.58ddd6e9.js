@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[928],{6048:e=>{e.exports=JSON.parse('{"label":"videos","permalink":"/dq-website/en/blog/tags/videos","allTagsPath":"/dq-website/en/blog/tags","count":1,"unlisted":false}')}}]);
