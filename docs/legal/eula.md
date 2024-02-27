@@ -2,44 +2,53 @@
 sidebar_position: 1
 ---
 
-# End User License Agreement (EULA)
-*Last update: Jan 27, 2023*
+# Bruksvilkår (EULA)
 
-By using our digital channels, you accept these terms of use.
+*Sist oppdatert: 27 januar 2023*
 
-## 1. Permitted use
-Unless otherwise agreed, you may only use content from our digital channels for non-commercial, personal purposes and/or to learn about DigiQuip products and services, and solely in accordance with these terms of use.
+Ved bruk av våre digitale kanaler aksepterer du disse vilkårene for bruk.
 
-## 2. Prohibited use
-By using our digital channels, you agree that you will not:
+## 1. Tillatt bruk
 
-* Use our digital channels in violation of these terms of use.
-* Copy, modify or imitate the work, deconstruct or dismantle the site, or otherwise attempt to discover the source code or allow a third party to do so.
-* Sell, assign, sublicense, distribute, commercially exploit, or otherwise transfer rights or make available to a third party, content or services in any manner.
-* Use or launch an automated system, including, but not limited to: "robots," "spiders," or "offline readers" that use the site in a manner that sends more requests to the server in a given period of time than would be reasonably expected of a human using a typical online browser.
-* Use our digital channels in a manner that damages, disables, overburdens or impairs the channels or interferes with other parties' use and enjoyment of the channels.
-* Mirror or include the channels in whole or in part in any other channel.
-* Attempt to gain unauthorized access to our digital channels.
-* Access our digital channels in any manner other than within the framework that DigiQuip provides for access to the channels.
-* Use our digital channels for any purpose or in any manner prohibited by these terms.
-* Any unauthorized use of the content or the channels that may violate patent, copyright, trademark, and other laws.
+Hvis ikke annet er avtalt kan du kun benytte innhold fra våre digitale kanaler til ikke-kommersielt, personlig formål, og/eller for å lære om DigiQuip produkter og tjenester, og utelukkende i samsvar med bruksvilkårene.
 
-## 3. Copyright and Trademarks
-Our digital channels are protected by applicable copyright law and other laws, including trademark and copyright protection laws. Our digital channels, including all works in the channels, belong to and are the property of DigiQuip or its licensors (if any). DigiQuip has all the copyright to the content. If there is no specific permission to use specific content, the content may not be copied, reproduced, modified, published, uploaded, posted, transmitted, performed, or distributed in any way, and you agree not to modify, rent, loan, sell, distribute, broadcast or create derivative works of the content on the site, partially or in its entirety, in any way. DigiQuip's logo and other trademarks used by DigiQuip from time to time are trademarks and the property of DigiQuip.
+## 2. Forbudt bruk
 
-## 4. Information and material you register and share with us
-You guarantee that you have the necessary rights to the material you register or share in our digital channels and that you give us permission to use and publish this material. You guarantee that you do not intend to deceive or provide misleading information, and that the material you provide does not violate these terms of use.
+Ved å benytte våre digitale kanaler sier du deg enig i at du ikke vil:
 
-## 5. Links to Third-Party Websites
-Links to or information about third-party websites are provided solely for your convenience. If you use these links, you will leave our digital channels. Such links or information do not imply that DigiQuip endorses, recommends, or sponsors third-party websites or the information contained therein. DigiQuip is not responsible for the availability of such websites. DigiQuip is not responsible or liable for such websites or their contents. If you use links to external sites, you will leave our digital channels and be subject to the terms and privacy policies in effect on those sites.
+* Bruke våre digitale kanaler i strid med disse bruksvilkårene.
+* Kopiere, modifisere eller imitere arbeidet, dekonstruere eller demontere siden, eller på annen måte forsøke å oppdage kildekoden eller tillate en tredjepart å gjøre det.
+* Selge, tildele, viderelisensiere, distribuere, utnytte kommersielt, eller på annen måte overføre rettigheter til eller tilgjengeliggjøre for en tredjepart, innhold eller tjenester på noen måte.
+* Benytte eller starte et automatisert system, inkludert, men ikke begrenset til: «roboter», «spiders» eller «offline readers» som benytter siden på en måte som sender flere forespørsler til serveren i en gitt tidsperiode enn det som vil være rimelig å anta at et menneske kan produsere ved å benytte vanlig online nettleser.
+* Bruke våre digitale kanaler på en måte som ødelegger, deaktiverer, overbelaster eller forringer kanalene eller forstyrrer andre parters bruk og glede av kanalene.
+* Speile eller inkludere kanalene helt eller delvis i enhver annen kanal.
+* Forsøke å få uautorisert tilgang til våre digitale kanaler.
+* Få tilgang til våre digitale kanaler på en annen måte enn innenfor de rammene som DigiQuip tilbyr for tilgang til kanalene.
+* Benytte våre digitale kanaler til et formål eller på en måte som forbys i henhold til vilkårene.
+* Enhver uautorisert bruk av innholdet eller av kanalene som kan være i strid med patent-, opphavsrett, varemerker og andre lover.
 
-## 6. File Downloading
-DigiQuip cannot guarantee or be held responsible for files available for download through our digital channels being free of viruses or other harmful data code, files, or programs.
+## 3. Opphavsrett og varemerker
 
-## 7. Disclaimer/Limitation of Liability
-DigiQuip and our partners make no warranty for the suitability, reliability, availability, timeliness, security, or accuracy of our digital channels or their contents. All information, software, products, services, and graphics are offered "as is", without any form of warranty.
+Våre digitale kanaler er beskyttet av gjeldende åndsverkslovgivning og andre lover, inkludert lover om beskyttelse av varemerker og opphavsrett. Våre digitale kanaler, inkludert alle åndsverk i kanalene, tilhører og er DigiQuip eller dets lisensgivere (hvis noen) sin eiendom. DigiQuip har all opphavsrett til innholdet. Dersom det ikke er gitt spesifikk tillatelse til å bruke bestemt innhold, skal innholdet ikke kopieres, reproduseres, endres, publiseres, lastes opp, postes, overføres, utføres eller distribueres på noen måte, og du godtar å ikke endre, leie, låne, selge, distribuere, kringkaste eller opprette imitert arbeid av innholdet på siden, delvis eller i sin helhet, på noen måte. DigiQuip sin logo og andre merker som brukes av DigiQuip fra tid til annen er varemerker og DigiQuip sin eiendom.
 
-To the extent permitted by applicable law, under no circumstances shall DigiQuip be liable for any losses or damages in any form arising from or in connection with the use of our digital channels, whether based on contract, compensation, neglect, liability, and even if DigiQuip has been informed of the possibility of damage.
+## 4. Informasjon og materiale du registrerer og deler hos oss
 
-## 8. Indemnification
-You understand and agree that you are personally responsible for your own conduct in our digital channels. You agree to indemnify, defend and hold DigiQuip, affiliated companies, partners, licensees, employees, agents, and all third-party information services harmless from and against all claims, losses, expenses, damages and costs (including but not limited to direct, incidental, consequential and indirect damages) and reasonable legal fees resulting from or arising out of or in connection with your use, misuse or inability to use our digital channels or the content, or any breach of these terms.
+Du garanterer at du har nødvendige rettigheter til materiale du registrerer eller deler i våre digitale kanaler og at du gir oss, godkjenning til å bruke og publisere dette materialet. Du garanterer at du ikke har til hensikt å bedra eller gi misvisende informasjon, og at materialet du leverer ikke bryter disse bruksvilkårene.
+
+## 5. Lenker til tredjepartsnettsider
+
+Lenker til eller informasjon om tredjepartsnettsider er kun ment for din bekvemmelighet. Dersom du benytter disse lenkene, vil du forlate våre digitale kanaler. Slike lenker eller informasjon betyr ikke at DigiQuip bidrar, anbefaler eller sponser tredjeparts nettsider, eller informasjonen der. DigiQuip er ikke ansvarlig for tilgjengeligheten til slike nettsteder. DigiQuip er ikke ansvarlig eller forpliktet til slike nettsider eller innholdet på disse. Dersom du benytter lenkene til eksterne sider vil du forlate våre digitale kanaler og være underlagt bruksvilkårene og personvernet som er gjeldene på disse sidene.
+
+## 6. Nedlasting av filer
+
+DigiQuip kan ikke garantere eller stå innenfor at filene som er tilgjengelig for nedlasting via våre digitale kanaler er fri for virus eller annen skadelig datakode, filer eller programmer.
+
+## 7. Ansvarsfraskrivelse/begrensning av ansvar
+
+DigiQuip og våre samarbeidspartnere gir ingen garanti for våre digitale kanalers eller innholdets egnethet, pålitelighet, tilgjengelighet, tidsriktighet, sikkerhet eller nøyaktighet. All informasjon, programvare, produkter, tjenester og grafiske elementer tilbys «as is», uten noen form for garanti.
+
+Så langt det lar seg gjøre innenfor gitt lovgivning skal DigiQuip ikke under noen omstendigheter holdes ansvarlig for eventuelle tap eller skader i noen form, som måtte oppstå ved eller i forbindelse med bruk av våre digitale kanaler, uansett om det er basert på en kontrakt, erstatning, forsømmelse, ansvar, og selv om DigiQuip har blitt informert om muligheten for skade.
+
+## 8. Erstatning
+
+Du forstår og godtar at du står personlig ansvarlig for egen oppførsel i våre digitale kanaler. Du samtykker til å erstatte, forsvare og holde DigiQuip, tilknyttede selskaper, partnere, lisensgivere, ansatte, agenter, og alle tredjeparts informasjonstjenester utenfor skade fra og mot alle krav, tap, utgifter, skader og kostnader (inkludert, men ikke begrenset til direkte, tilfeldige, følgeskader og indirekte skader) og realistiske advokatutgifter som et resultat av eller som skyldes bruk, misbruk eller manglende evne til å bruke våre digitale kanaler eller innholdet, eller ethvert brudd på disse vilkårene.

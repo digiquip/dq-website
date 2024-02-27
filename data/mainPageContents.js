@@ -1,6 +1,7 @@
 import Translate, { translate } from '@docusaurus/Translate';
 import youtubePlayList from './youtubePlayList.js'
 import partnersBrandLogoList from './partnersBrandLogo.js';
+import Link from '@docusaurus/Link';
 
 const youtubeVideoBanner = 'img/iframe-banner.jpg';
 
@@ -31,9 +32,9 @@ const safeuseContent = {
         <>
             <p><Translate>home.safeuse.arg1</Translate></p>
             <p><Translate>home.safeuse.arg2</Translate></p>
-            <p><Translate>home.safeuse.arg3</Translate></p>
         </>
     ),
+    link: "competence",
 };
 
 const consolidateWorkContent = {
@@ -55,6 +56,7 @@ const consolidateWorkContent = {
             </ul>
         </>
     ),
+    link: "workequipment",
 };
 
 const shareInfoContent = {
@@ -68,8 +70,6 @@ const shareInfoContent = {
     description: (
         <>
             <p><Translate>home.share.arg1</Translate></p>
-            <p><Translate>home.share.arg2</Translate></p>
-            <p><Translate>home.share.arg3</Translate></p>
             <ul>
                 <li><Translate>home.share.point1</Translate></li>
                 <li><Translate>home.share.point2</Translate></li>
@@ -77,6 +77,7 @@ const shareInfoContent = {
             </ul>
         </>
     ),
+    link: "modellibrary",
 }
 
 const expertInspContent = {
@@ -90,7 +91,6 @@ const expertInspContent = {
     description: (
         <>
             <p><Translate>home.expert.arg1</Translate></p>
-            <p><Translate>home.expert.arg2</Translate></p>
             <ul>
                 <li><Translate>home.expert.point1</Translate></li>
                 <li><Translate>home.expert.point2</Translate></li>
@@ -98,6 +98,7 @@ const expertInspContent = {
             </ul>
         </>
     ),
+    link: "expertcontrol",
 }
 
 

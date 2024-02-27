@@ -2,19 +2,19 @@
 sidebar_position: 2
 ---
 
-# Colours
+# Farger
 
-We strive for a simple and strict colour palette with distinct differences.
-​
-In our solution, we use colours for highlighting important content, while in marketing, we also bring some flavour to details.​
-​
-Our marketing materials are dark and restricted while our software is mainly light with colour stack variants. We strive to uphold a minimum contrast ratio of 3:1 (WCAG AA 18pt+) in our software to support legibility in challenging weather conditions.
+Vi jobber for gjennomgående å bruke en enkel og streng fargepalett med tydelige forskjeller.
 
-### Website branding colours
+I våre løsninger bruker vi farger for å fremheve viktig innhold, mens vi i markedsføring bruker farger for å skape liv og interesse.
+
+Markedsføringsmateriellet vårt er primært reversert (mørk bakgrunn og lyst innhold), mens våre løsninger er primært på lys bakgrunn. Vi forsøker å holde en minimumskontrast på 3:1 (WCAG AA 18pt+) for å sikre synlighet og lesbarhet i krevende lysforhold.
+
+### Fargepalett for våre websider
 ![Website branding colours](./website_branding_colours.png)
 
-### Software interface colours
+### Fargepalett i våre løsninger
 ![Website branding colours](./software_interface_colours.png)
 
-### Software interface colours
+### Fargepalett i våre løsninger for statusvisning
 ![Website status colours](./software_status_colours.png)

@@ -2,58 +2,60 @@
 sidebar_position: 2
 ---
 
-# Privacy Policy
-**Last update: Feb 15, 2023**
+# Personvernerklæring
+*Sist oppdatert: 27 januar 2023*
 
-## Introduction
+## Innledning
 
-DigiQuip AS is responsible for processing personal information we have registered and processed in connection with your customer relationship with the company. We also process personal information in connection with previous and potential customers.
+DigiQuip AS er behandlingsansvarlig for personopplysninger vi har registrert og behandler i forbindelse med ditt kundeforhold med virksomheten. Vi behandler også personopplysninger i forbindelse med tidligere kunder og potensielle kunder.
 
-In this privacy policy, we provide you with information about the personal information we process, for what purposes we process it, what third parties are involved, information about your rights, and how we secure the information we have about you.
+I denne personvernerklæringen gir vi deg blant annet informasjon om hvilke personopplysninger vi behandler, for hvilke formål vi behandler dem, hvilke tredjeparter som er involvert, informasjon om dine rettigheter og ikke minst hvordan vi sikrer informasjonen vi har om deg.
 
-If you have questions about how we process your personal information, feel free to contact us.
+Hvis du har spørsmål om hvordan vi behandler personopplysningene er du velkommen til å ta kontakt med oss.
 
-## What personal information does DigiQuip AS have about you?
+## Hvilke personopplysninger har DigiQuip AS om deg?
 
-Personal information is any information that can be linked to you as an individual. We register information such as name, telephone number and email address on our customers' contact persons. DigiQuip's customer base is mainly businesses, but in cases where a private individual is a customer, address will also be registered.
+Personopplysninger er alle opplysninger som kan knyttes til deg som enkeltperson. Vi registrerer opplysninger som navn, telefonnummer og epostadresse på våre kunders kontaktpersoner. DigiQuip sin kundemasse er hovedsakelig bedrifter, men i de tilfeller hvor en privatperson er kunde, vil også adresse registreres.
 
-On our customers' user accounts, we register usernames, first names, last names, telephone numbers, email addresses, and which customer the user is linked to.
+På våre kunders brukerkontoer registreres brukernavn, fornavn, etternavn, telefonnummer, e-postadresse, samt hvilken kunde brukeren er knyttet til.
 
-In order to provide our customers with an efficient and good service, all inquiries will be documented in our case system. Only information that is relevant to the nature of the case will be stored in the cases.
+For å gi våre kunder en effektiv og god service, vil alle henvendelser dokumenteres i vårt sakssystem. Det vil i sakene kun bli lagret opplysninger som er relevante for sakens natur.
 
-## What does DigiQuip AS use your personal information for?
+## Hva bruker DigiQuip AS personopplysningene til?
 
-DigiQuip's personal information is mainly used to perform work in connection with our services and fulfill the contractual relationship. Personal information about contact persons for our customers is necessary to have a contact surface for good dialogue between us and our customers.
+DigiQuip sine personopplysninger brukes i hovedsak til å utføre arbeid i forbindelse med våre tjenester og oppfylle avtaleforholdet. Personopplysninger om kontaktpersoner til våre kunder er nødvendige for å ha en kontaktflate for god dialog mellom oss og våre kunder.
 
-Personal information associated with our customers' user accounts is necessary to have a unique identity on the user accounts that we can grant access and rights to. User accounts are necessary to fulfill the contract for the delivery of services. Contact information such as email address and telephone number is necessary for the services to function at a technical level, but also to assist users with support functions. Mobile phone numbers are also used for user authentication.
+Personopplysninger tilknyttet våre kunders brukerkontoer er nødvendig for å ha en entydig identitet på brukerkontoene som vi kan gi tilganger og rettigheter til. Brukerkontoene er nødvendig for å kunne oppfylle avtalen om leveranse av tjenester. Kontaktinformasjon som e-postadresse og telefonnummer er nødvendig for at tjenestene skal fungere på teknisk nivå, men også for å kunne bistå brukere med støttefunksjoner. Mobiltelefonnummer benyttes i tillegg ved autentisering av brukere.
 
-In some cases, personal contact information will be used to notify about service disruptions or relevant changes in the services. Registered contact persons for customers will also receive information and marketing materials related to the services offered up to 2 times per month. We rely on your feedback to work for continuous improvement of our services. This is a central part of our quality management and information security systems. Therefore, we will use name, telephone number, and email address to send you user and customer surveys up to 2 times a year, in accordance with the guidelines in the Personal Data Act § 1, cf. GDPR article 6.1 f).
+Enkeltpersoners kontaktinformasjon vil i noen tilfeller benyttes til å varsle om driftsforstyrrelser eller relevante endringer i tjenestene. Kunders registrerte kontaktpersoner vil i tillegg motta informasjon og markedsføringsmateriell relatert til tjenestene som tilbys inntil 2 ganger per måned. Vi er avhengig av dine tilbakemeldinger for å arbeide for kontinuerlig forbedring av våre tjenester. Dette er en sentral del av våre systemer for kvalitetsstyring og informasjonssikkerhet. Derfor vil vi benytte navn, telefonnummer og e-postadresse for å sende deg bruker- og kundeundersøkelser inntil 2 ganger i året, iht. retningslinjene i personopplysningsloven §1, jf. GDPR artikkel 6.1 f).
 
-## Who do we share your information with?
-The personal information we are responsible for processing is primarily used to fulfill the contract. In cases where third-party providers assist, contact and user information can be exchanged with these providers. No personal information will be shared with third parties for marketing purposes.
+## Hvem deler vi dine opplysninger med?
+Personopplysningene vi er behandlingsansvarlig for brukes i all hovedsak for å oppfylle avtaleforholdet. I de tilfeller tredjeparts leverandører bistår, kan kontakt- og brukerinformasjon bli utvekslet med disse. Ingen personopplysninger vil deles med tredjeparter for markedsføringsformål.
 
-## Geographic storage of personal information
-Your personal information is stored in our own systems, which are managed in Norway. Our systems are run by a reputable international cloud provider with distributed data centers all over the world, but are exclusively under our control.
+## Geografisk lagring av personopplysningene
+Dine personopplysninger blir lagret i våre egne systemer som håndteres i Norge. Våre systemer kjøres hos en anerkjent internasjonal skyleverandør med distribuerte datasentre over hele verden, men er utelukkende under vår kontroll.
 
-## How long do we store your personal data?
-In accordance with the Personal Data Act §1, cf. GDPR Article 17, we will not store your personal data for longer than is necessary to carry out the purpose of the processing.
+## Hvor lenge lagrer vi personopplysningene om deg?
+I henhold til personopplysningsloven §1, jf. GDPR artikkel 17, vil vi ikke lagre dine personopplysninger lenger enn det som er nødvendig for å gjennomføre formålet med behandlingen.
 
-Personal data relating to users is stored as long as the user is active. A user account will be deactivated upon termination, either by the entire customer relationship or by the individual user, and the personal data associated with the user is quarantined for 30 days after deactivation before the user is deleted.
+Personopplysninger knyttet til brukere lagres så lenge brukeren er aktiv. En brukerkonto vil bli deaktivert ved oppsigelse, enten av hele kundeforholdet eller av enkeltbrukeren, og personopplysningene som er knyttet til brukeren ligger i karantene i 30 dager etter deaktivering før brukeren slettes.
 
-In our case system, information about completed cases relating to individuals is stored as long as the customer relationship is active. Our CRM and ERP systems also store information about customers' contact persons.
+I vårt sakssystem lagres opplysninger om gjennomførte saker knyttet til enkeltpersoner så lenge kundeforholdet er aktivt. I våre CRM og ERP systemer lagres i tillegg opplysninger om kunders kontaktpersoner.
 
-At the end of the customer relationship, registered personal data in the case system will be anonymised or deleted after 3 years, in line with the general limitation period. In the CRM and ERP systems, personal data is stored in line with §13 of the Bookkeeping Act. This information is anonymised or deleted when the mandatory retention period of 5 years has expired.
+Ved avslutning av kundeforholdet vil registrerte personopplysninger i sakssystemet bli anonymisert eller slettet etter 3 år, i tråd med alminnelig foreldelsesfrist. I CRM og ERP systemene lagres personopplysninger i tråd med bokføringslovens §13. Disse opplysningene blir anonymisert eller slettet når den pliktige oppbevaringstiden på 5 år er utløpt.
 
-## Your rights
+## Dine rettigheter
 
-You have a number of rights with regards to your personal information that we are processing as the controller. These rights include:
+Du har en rekke rettigheter overfor oss som behandlingsansvarlig for dine personopplysninger.
 
-* Right to access your personal information (GDPR Article 15)
-* Right to receive a copy of your personal information (GDPR Article 20)
-* Right to object to processing (GDPR Article 21)
-* Right to correct inaccurate information (GDPR Article 16)
-* Right to have your personal information deleted or processing restricted (GDPR Articles 17 and 18)
+Du har blant annet:
 
-If you believe we are processing your personal information without a legal basis or if you want to exercise your rights, you may contact us. Our contact information can be found on our website. We will respond to your request as soon as possible and usually within 30 days.
+* Rett til innsyn i bruk av dine personopplysninger (GDPR artikkel 15)
+* Rett til utlevering av dine personopplysninger (GDPR artikkel 20)
+* Rett til å fremme en innsigelse (GDPR artikkel 21)
+* Rett til å be om korrigering av opplysninger (GDPR artikkel 16)
+* Rett til å få dine personopplysninger slettet eller at behandlingen begrenses (GDPR artikkel 17 og 18)
 
-You may also file a complaint with the Data Protection Authority, but we ask you to contact us first so that any misunderstandings can be cleared up in the best possible way.
+Hvis du mener vi behandler dine personopplysninger uten rettslig grunnlag eller på andre måter ønsker å gjøre bruk av dine rettigheter, henvender du deg til oss. Se kontaktinformasjon på våre nettsider. Vi vil besvare din henvendelse så snart som mulig, og normalt innen 30 dager.
+
+Du kan også klage til Datatilsynet, men vi anmoder deg om først å kontakte oss slik at eventuelle misforståelser kan avklares på beste måte.
