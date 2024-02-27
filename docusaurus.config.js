@@ -12,7 +12,7 @@ const linkHtml =  ' <span> <svg width="13" height="12" viewBox="0 0 13 12" fill=
 const config = {
   title: 'DigiQuip - familiarization and competence overview',
   tagline: 'Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence.',
-  favicon: 'img/favicon-16x16.png',
+  favicon: 'img/dq.ico',
 
   // Set the production url of your site here
   url: 'https://digiquip.github.io',
@@ -188,16 +188,16 @@ const config = {
               {
                 label: 'Privacy Policy',
                 to: '/docs/legal/privacy-policy'
+              },
+              {
+                label: 'Avtalevilkår',
+                to: '/docs/legal/terms'
               }
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'Services Status (Uptime)',
                 href: 'https://uptime.statuscake.com/?TestID=f9dgQKO3Az',

@@ -2,17 +2,17 @@
 sidebar_position: 1
 ---
 
-# Vår logo og ikoner
+# The logo and icon
 
-### Om logoen og hvordan vi bruker den
+### About the logo and how to use it
 
-> Hjelmen representerer våre brukere på anleggsplasser, samtidig som fargen representerer vårt mål om å bedre sikkerheten på alle plasser der det utføres arbeid og er avledet av varselsfargen (ANSI Z535). Fonten er basert på typen "Inter", som vi bruker i våre brukerflater.
+> The hard hat represents our users at working sites, while the colour represent our goal to improve safety and derives from the safety colour (ANSI Z535). The font derives from our legible UI Inter font we use in our user interface.
 
-Sørg for å respektere minimum marg og størrelse:
+Please respect the safe area and minimum size:
 
 ![Logo instructions](./logo_instructions.png)
 
-### Logovarianter for nedlasting
+### Logo variations for download
 
 | Description | Preview | PNG     | SVG
 | ----------- | ------- | ------- | ---------
