@@ -1,0 +1,803 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Denne siden kræsjet.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Tilbake til toppen",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigering i blogginnlegg",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nyere artikler",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Tidligere artikler",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arkivet",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arkiv",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.post.plurals": {
+    "message": "En artikkel|{count} artikler",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} artikler merket med \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Se alle tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigering i artikler",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Nyere artikler",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Eldre artikler",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} dokument|{count} dokumenter",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Bytt mellom lys og mørk modus (nåværende er {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mørk modus",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "lys modus",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Navigeringshjelp",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Ett dokument tagget|{count} dokumenter tagget",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} med \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Dokumentsiden",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Forrige",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Neste",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versjon: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Dette er et ikke-ferdigstilt dokument {siteTitle} {versionLabel} versjon.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Denne dokumentasjonen er for {siteTitle} {versionLabel}, som ikke lenger vedlikeholdes.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For oppdatert dokumentasjon, se {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "siste versjon",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Endre denne siden",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direkte link til {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " på {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " av {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "sist oppdatert {atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Siden ble ikke funnet",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versjoner",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tagger:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "varsom",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "fare",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "noter",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tips",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "advarsel",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Lukk",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Naviger i siste blogginlegg",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopiert",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kopier koden til utklippstavlen",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopier",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Automatisk linjebrekking",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Utvid sidenavigering for '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Slå sammen sidenavigering for '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Hoved",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "Vi fant ikke det du lette etter.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Vær vennlig å kontakte eieren av nettstedet som linket til denne siden og informer dem om feilen.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Språk",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "På denne siden",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Ett minutts lesning|{readingTime} minutters lesning",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Les mer",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Les mer om {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Forsiden",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Slå sammen navigasjonsmeny",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Slå sammen navigasjonsmeny",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Dokumentasjon sidenavigering",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Lukk navigeringen",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Tilbake til hovedmeny",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Slå av/på navigering",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Utvid sidenavigering",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Utvid sidenavigering",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Forsøk igjen",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Hopp til hovedinnholdet",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tagger",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Ulistede sider",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Denne siden er ikke listet. Søkemotorer vil ikke indeksere den, og bare brukere med linken vil kunne nå den.",
+    "description": "The unlisted content banner message"
+  },
+  "header.title": {
+    "message": "DigiQuip - familiarization and competence overview",
+    "description": "The title of the header"
+  },
+  "header.subtitle": {
+    "message": "Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence.",
+    "description": "The subtitle of the header"
+  },
+  "general.readmore": {
+    "message": "Les mer",
+    "description": "The label used to link to the full article"
+  },
+  "general.contactus.title": {
+    "message": "Vil du vite mer? Kontakt oss",
+    "description": "The label used to link to the contact page"
+  },
+  "home.banner.title1": {
+    "message": "Løsninger for sikker bruk av",
+    "description": "The title of the home page"
+  },
+  "home.banner.title2": {
+    "message": "maskiner og utstyr",
+    "description": "The title of the home page part two"
+  },
+  "home.safety.title": {
+    "message": "Sikkerhet på arbeidsplassen",
+    "description": "The title of the safety section on the home page"
+  },
+  "home.safety.what": {
+    "message": "Vår programvare gjør det enkelt å tilrettelegge for effektive og trygge arbeidsplasser. Dette gjør vi ved å samle mennesker og maskiner i en plattform.",
+    "description": "The description of the safety section on the home page"
+  },
+  "home.safety.how": {
+    "message": "I DigiQuip kan bedrifter gjennomføre opplæring, kontrollere arbeidsutstyr og finne viktige dokumenter og informasjon.",
+    "description": "The how part of the description of the safety section on the home page"
+  },
+  "home.safeuse.title": {
+    "message": "Sikker bruk av arbeidsutstyr krever nødvendig opplæring og kompetanse",
+    "description": "The title of the safe use of machinery section on the home page"
+  },
+  "home.safeuse.arg1": {
+    "message": "DigiQuip forenkler håndteringen av kompetanse, opplæring og dokumentasjon. Vi har en unik løsning for gjennomføring og administrasjon av utstyrsspesifikk opplæring. I tillegg gir løsningen oversikt over kurs, kompetansebevis, prosjekterfaring og utdanning.",
+    "description": "The first argument of the safe use of machinery section on the home page"
+  },
+  "home.safeuse.arg2": {
+    "message": "Når brukerne skanner QR-koden på maskinen, ser de umiddelbart hvilken kompetanse de trenger, status og om maskinen kan tas i bruk.",
+    "description": "The second argument of the safe use of machinery section on the home page"
+  },
+  "home.safeuse.arg3": {
+    "message": "By placing QR codes on machines or equipment, users gain immediate access to their own competency status for the specific work equipment.",
+    "description": "The third argument of the safe use of machinery section on the home page"
+  },
+  "home.consolidate.title": {
+    "message": "Samle alt arbeidsutstyr og dokumentasjon i en plattform",
+    "description": "The title of the consolidate your training section on the home page"
+  },
+  "home.consolidate.arg1": {
+    "message": "I DigiQuip har bedrifter kontroll på viktig informasjon, alt fra brukermanualer, CE-dokumenter, kompetansekrav til kontrollstatus.",
+    "description": "The first argument of the consolidate your training section on the home page"
+  },
+  "home.consolidate.arg2": {
+    "message": "Denne informasjonen er lett tilgjengelig for brukerne fra maskinens QR-kode.",
+    "description": "The second argument of the consolidate your training section on the home page"
+  },
+  "home.consolidate.point1": {
+    "message": "Samle og tilgjengeliggjør viktige dokumenter.",
+    "description": "The first point of the consolidate your training section on the home page"
+  },
+  "home.consolidate.point2": {
+    "message": "Hold oversikt over både daglige og årlige kontroller.",
+    "description": "The second point of the consolidate your training section on the home page"
+  },
+  "home.consolidate.point3": {
+    "message": "Få kontroll på kompetansekrav.",
+    "description": "The third point of the consolidate your training section on the home page"
+  },
+  "home.share.title": {
+    "message": "Fra modellregisteret deler leverandører effektivt og kostnadsfritt informasjon og innhold",
+    "description": "The title of the share knowledge and experience section on the home page"
+  },
+  "home.share.arg1": {
+    "message": "I modellregisteret registrerer og oppdaterer leverandører produktinformasjon, dokumenter, kompetansekrav og opplæring. Innholdet lagres et sted, og deles med mange.",
+    "description": "The first argument of the share knowledge and experience section on the home page"
+  },
+  "home.share.arg2": {
+    "message": "With information and content in one place, everyone has access to updated information on various models at all times.",
+    "description": "The second argument of the share knowledge and experience section on the home page"
+  },
+  "home.share.arg3": {
+    "message": "Our model library is free and open to all. This is how we facilitate better, simpler, and faster information sharing for everyone working with machinery and equipment.",
+    "description": "The third argument of the share knowledge and experience section on the home page"
+  },
+  "home.share.point1": {
+    "message": "Brukermanualer og instrukser.",
+    "description": "The first point of the share knowledge and experience section on the home page"
+  },
+  "home.share.point2": {
+    "message": "Produktspesifikasjoner.",
+    "description": "The second point of the share knowledge and experience section on the home page"
+  },
+  "home.share.point3": {
+    "message": "Videoer, bilder og opplæring.",
+    "description": "The third point of the share knowledge and experience section on the home page"
+  },
+  "home.expert.title": {
+    "message": "Effektiv gjennomføring og dokumentasjon av sakkyndig kontroll",
+    "description": "The title of the expertise and experience section on the home page"
+  },
+  "home.expert.arg1": {
+    "message": "Med vår løsning planlegger og gjennomfører inspektører sakkyndig kontroll. Maskineier får også full oversikt over status, kontrollfrister og nødvendig dokumentasjon.",
+    "description": "The first argument of the expertise and experience section on the home page"
+  },
+  "home.expert.arg2": {
+    "message": "Machine owners also gain complete visibility into the status, inspection deadlines, and necessary documentation.",
+    "description": "The second argument of the expertise and experience section on the home page"
+  },
+  "home.expert.point1": {
+    "message": "Effektiviser planleggingen med god maskinoversikt.",
+    "description": "The first point of the expertise and experience section on the home page"
+  },
+  "home.expert.point2": {
+    "message": "Spar tid ved hjelp av fleksible sjekklister.",
+    "description": "The second point of the expertise and experience section on the home page"
+  },
+  "home.expert.point3": {
+    "message": "Gjennomfør og dokumenter enkelt hver årskontroll.",
+    "description": "The third point of the expertise and experience section on the home page"
+  },
+  "home.ourpartners.title": {
+    "message": "Noen av våre samarbeidspartnere",
+    "description": "The title of the our partners section on the home page"
+  },
+  "home.contact.title":
+  {
+    "message": "Ønsker du tilgang til maskininformasjon, opplæring og bedre oversikt over kompetanse?",
+    "description": "The title of the contact section on the home page"
+  },
+  "home.contact.button":
+  {
+    "message": "Kontakt oss",
+    "description": "The button label of the contact section on the home page"
+  },
+  "competence.banner.title1": {
+    "message": "Sørg for nødvendig opplæring",
+    "description": "The title of the competence page part one"
+  },
+  "competence.banner.title2": {
+    "message": "og oppnå bedre resultater",
+    "description": "The title of the competence page part two"
+  },
+  "competence.banner.title3": {
+    "message": "Kompetanse er en viktig faktor for både fremdrift og sikkerhet.",
+    "description": "The title of the banner(image) competence page part three"
+  },
+  "competence.banner.arg1": {
+    "message": "Feil bruk av arbeidsutstyr øker risikoen på arbeidsplassen. Derfor er det viktig at arbeidsgivere har oversikt og gir nødvendig opplæring når det trengs.",
+    "description": "The first argument of the competence progress and safety section on the competence page"
+  },
+  "competence.banner.arg2": {
+    "message": "Vi har gjort det enkelt å gjennomføre utstyrsspesifikk opplæring. I tillegg er det enkelt å holde oversikt over en rekke typer kompetanse, alt fra utdanning til erfaring.",
+    "description": "The second argument of the competence progress and safety section on the competence page"
+  },
+  "competence.practical_training.title1": {
+    "message": "Sørg for riktig kompetans",
+    "description": "The title of the practical training section on the competence page"
+  },
+  "competence.practical_training.title2": {
+    "message": "når det trengs",
+    "description": "The second title of the practical training section on the competence page"
+  },
+  "competence.practical_training.arg1": {
+    "message": "I DigiQuip holder bedrifter oversikt over kompetansebevis, kurs, utstyrsspesifikk opplæring, fagbrev og prosjekterfaring på et sted. I kombinasjon med gode maskinoversikter, er løsningen spesielt godt egnet for alle som jobber med arbeidsutstyr.",
+    "description": "The first argument of the practical training section on the competence page"
+  },
+  "competence.practical_training.arg2": {
+    "message": "Med oversikt over mennesker, kompetansekrav og arbeidsutstyr i en plattform, blir det enklere å holde oversikt og gjøre grep når det trengs.",
+    "description": "The second argument of the practical training section on the competence page"
+  },
+  "competence.practical_training.img_description": {
+    "message": "Practical training.",
+    "description": "The description of practical training image in practical training section on the competence page"
+  },
+  "competence.digital_training.title": {
+    "message": "Vi har gjort det enkelt å gjennomføre utstyrsspesifikk opplæring",
+    "description": "The first title of the digital training section on the competence page"
+  },
+  "competence.digital_training.arg1": {
+    "message": "I følge norske lover og regler skal arbeidsgiver alltid sørge for nødvendig opplæring. Det betyr at det skal gis opplæring i bruk av et bestemt arbeidsutstyr før bruk, og dette skal dokumenteres.",
+    "description": "The first argument of the digital training section on the competence page"
+  },
+  "competence.digital_training.arg2": {
+    "message": "DigiQuip er den eneste løsningen hvor bedrifter fullt ut kan løse utstyrsspesifikk opplæring. Bedrifter styrer selv når opplæring er påkrevd, og ansatte gjennomfører opplæringen praktisk eller digitalt. Samtidig som opplæringen skjer, blir den automatisk dokumentert og lagret, og følger den ansatte uavhengig arbeidsgiver.",
+    "description": "The second argument of the digital training section on the competence page"
+  },
+  "competence.digital_training.img_description": {
+    "message": "Digital dokumentasjon av opplæring.",
+    "description": "The description of digital training image in digital training section on the competence page"
+  },
+  "competence.grouphelp.title1": {
+    "message": "I DigiQuip får bedrifter",
+    "description": "The first title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.title2": {
+    "message": "oversikt over kompetanse på",
+    "description": "The second title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.title3": {
+    "message": "tvers av team",
+    "description": "The third title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.title4": {
+    "message": " when needed",
+    "description": "The fourth title of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.arg": {
+    "message": "Oversikt på tvers av avdelinger og bedrifter trenger ikke være en krevende øvelse. Hvis du trenger å sjekke enkeltpersoners kompetanse for en rekke maskiner, har vår løsning verktøyene du trenger.",
+    "description": "The argument of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.arg2": {
+    "message": "Vi vet at det kan være krevende å identifisere hvem som trenger, og ikke trenger, opplæring, og derfor har vi rapporter som gjør denne jobben enklere.",
+    "description": "The second argument of the grouphelp section on the competence page"
+  },
+  "competence.grouphelp.img_description": {
+    "message": "Identifiser kompetansegap.",
+    "description": "The description of grouphelp image in grouphelp section on the competence page"
+  },
+  "workequipment.banner.title1": {
+    "message": "Bedre prosesser med",
+    "description": "The first title of the work equipment page"
+  },
+  "workequipment.banner.title2": {
+    "message": "maskiner og utstyr samlet",
+    "description": "The second title of the work equipment page"
+  },
+  "workequipment.banner.title3": {
+    "message": "i en plattform",
+    "description": "The third title of the work equipment page"
+  },
+  "workequipment.banner.title4": {
+    "message": "Effektiviser interne prosesser ved å samle alt arbeidsutstyr et sted.",
+    "description": "The fourth title of the work equipment page"
+  },
+  "workequipment.banner.arg1": {
+    "message": "CE-dokumenter, brukermanualer og kontrollrapporter er ofte spredt over ulike systemer, og dette blir i praksis tidkrevende.",
+    "description": "The first argument of the work equipment banner"
+  },
+  "workequipment.banner.arg2": {
+    "message": "For en bedrift som håndterer maskiner og utstyr, er det viktig for effektiviteten at disse dokumentene er lett tilgjengelige. Dette sikrer at tid kan brukes på å få ting gjort, heller enn på administrativt arbeid.",
+    "description": "The second argument of the work equipment banner"
+  },
+  "workequipment.systematized_documentation.title": {
+    "message": "Systematisert dokumentasjon",
+    "description": "The title of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.arg1": {
+    "message": "Bedrifter som har maskiner og utstyr i DigiQuip oppnår bedre oversikt og kontroll. Når bedrifter samler alle dokumenter og informasjon et sted, spares tid og penger.",
+    "description": "The first argument of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.arg2": {
+    "message": "Og ikke minst, slipper de ansatte å gjøre samme jobben flere ganger.",
+    "description": "The second argument of the systematized documentation section in the work equipment page"
+  },
+  "workequipment.systematized_documentation.point1": {
+    "message": "Maskin- og utstyrsoversikt",
+    "description": "The first point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.systematized_documentation.point2": {
+    "message": "Dokumentasjon",
+    "description": "The second point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.systematized_documentation.point3": {
+    "message": "Kontrollinformasjon",
+    "description": "The third point of the systematized documentation section on the work equipment page"
+  },
+  "workequipment.machines_equipment.title1": {
+    "message": "Årlig og daglig kontroll av",
+    "description": "The first title of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.title2": {
+    "message": "maskiner og utstyr",
+    "description": "The second title of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.arg1": {
+    "message": "Få enkel oversikt over siste kontrollstatus og kommende årskontroller. Sakkyndig kontrollinformasjon føres enten inn manuelt eller kan hentes inn fra andre systemer.",
+    "description": "The first argument of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.arg2": {
+    "message": "Hvis maskin eller utstyr krever daglig kontroll, vil en bruker som skanner maskinens QR-kode få en påminnelse om dette. Denne daglige kontrollen blir samtidig loggført.",
+    "description": "The second argument of the machine equipment section in the work equipment page"
+  },
+  "workequipment.machines_equipment.point1": {
+    "message": "Sakkyndig kontroll",
+    "description": "The first point of the machine equipment section on the work equipment page"
+  },
+  "workequipment.machines_equipment.point2": {
+    "message": "Daglig kontroll",
+    "description": "The second point of the machine equipment section on the work equipment page"
+  },
+  "workequipment.machines_equipment.point3": {
+    "message": "Historikk og kommende kontroller",
+    "description": "The third point of the machine equipment section on the work equipment page"
+  },
+  "workequipment.specific_competence.title1": {
+    "message": "Lag digital utstyrsspesifikk",
+    "description": "The first title of the specific competence section in the work equipment page"
+  },
+  "workequipment.specific_competence.title2": {
+    "message": "opplæring",
+    "description": "The second title of the specific competence section in the work equipment page"
+  },
+  "workequipment.specific_competence.arg1": {
+    "message": "Velg mellom egne digitale opplæringer eller bruk leverandørens.",
+    "description": "The first argument of the specific competence section in the work equipment page"
+  },
+  "workequipment.specific_competence.arg2": {
+    "message": "I DigiQuip kan du lage egne opplæringer. Opplæringen inneholder støtte for videoer og obligatorisk quiz."
+  },
+  "workequipment.specific_competence.img_description": {
+    "message": "Få oversikt over din utstyrsspesifikk kompetanse.",
+    "description": "The description of specific competence image in specific competence section on the work equipment page"
+  },
+
+"modellibrary.banner.title1": {
+  "message": "En plattform for innhold og",
+  "description": "The first title of the model library banner section on the model library page"
+},
+"modellibrary.banner.title2": {
+  "message": "informasjon",
+  "description": "The second title of the model library banner section on the model library page"
+},
+"modellibrary.banner.title3": {
+  "message": "I modellregisteret oppretter og deler leverandører informasjon og innhold.",
+  "description": "The third title of the model library banner section on the model library page"
+},
+"modellibrary.banner.arg1": {
+  "message": "Informasjonen opprettes, deles og oppdateres et sted. Dette er tids- og kostnadsbesparende for alle: Leverandør, kunde og brukere.",
+  "description": "The first argument of the model library banner section in the model library page"
+},
+"modellibrary.banner.arg2": {
+  "message": "Modellregisteret er kostnadsfritt fordi vi ønsker å bidra til sikrere arbeidsplasser. Vi mener at jo mer informasjon som deles, desto bedre er utgangspunktet for at maskiner og utstyr blir brukt riktig.",
+  "description": "The second argument of the model library banner section in the model library page"
+},
+"modellibrary.library.title": {
+  "message": "Samle informasjon og innhold et sted og del med mange",
+  "description": "The title of the library section on the model library page"
+},
+"modellibrary.library.arg1": {
+  "message": "Hvorfor bruke 100 mapper til brukermanualer, videoer, dokumenter og spesifikasjoner når alt kan samles i et modellregister?",
+  "description": "The first argument of the library section in the model library page"
+},
+"modellibrary.library.arg2": {
+  "message": "Med innhold tilgjengelig fra én løsning får alle alltid tilgang til siste oppdaterte informasjon når de trenger det.",
+  "description": "The second argument of the library section in the model library page"
+},
+"modellibrary.library.point1": {
+  "message":"Mindre support",
+  "description": "The first point of the library section on the model library page"
+},
+
+"modellibrary.library.point2": {
+  "message":"Forutsigbart",
+  "description": "The second point of the library section on the model library page"
+},
+"modellibrary.library.point3": {
+  "message":"Brukervennlig",
+  "description": "The third point of the library section on the model library page"
+},
+  "modellibrary.easy_training.title": {
+    "message": "Bruk videoer for enkel opplæring",
+    "description": "The title of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg1": {
+    "message": "Videoer er en enkel måte å lære brukere om utstyr og maskiner. For utleiebedrifter og leverandører minimerer opplæringsvideoer support og sikrer riktig bruk.",
+    "description": "The first argument of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg2": {
+    "message": "Å produsere gode videoer kan være ressurskrevende, både med tanke på fag og tid. Innholdet må planlegges, filmes, redigeres, og krever ofte flere runder med justeringer. Derfor kan vi bidra i denne prosessen..",
+    "description": "The second argument of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg3": {
+    "message": "Vi samarbeider tett med våre kunder - eksempelvis",
+    "description": "The third argument of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg4": {
+    "message": "for en uforpliktende prat om deres behov, så finner vi en god løsning.",
+    "description": "The fourth argument of the easy training section on the model library page"
+  },
+
+"expertcontrol.banner.title1": {
+  "message":"En enkel løsning for sakkyndig kontroll",
+  "description": "The title of the expert control page"
+},
+"expertcontrol.banner.title2": {
+  "message":"BRAREG hjelper kontrollører med å utføre årskontroll.",
+  "description": "The title of the expert control page"
+},
+"expertcontrol.banner.arg1": {
+  "message":"BRAREG er en videreutvikling av 123Service, der kontrollører fra hele landet gjennomfører sakkyndige kontroller til sammen over 500 hver uke. Løsningen støtter en enkel flyt og gjør dokumentasjon digitalt tilgjengelig. I tillegg finnes det gjennomarbeidede sjekklister i henhold til norm for kontrollomfang.",
+  "description": "The first argument of the expert control section in the expert control page"
+},
+"expertcontrol.banner.arg2": {
+  "message":"Fra mobil eller nettbrett, er det enkelt å gjennomføre inspeksjonen.",
+  "description": "The first argument of the expert control section in the expert control page"
+},
+"expertcontrol.easyflow.title": {
+  "message":"Enkel flyt på kontroll",
+  "description": "The title of easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.arg1": {
+  "message":"BRAREG gir kontrollører en enkel kontrollflyt. Løsningen inkluderer sjekklister, og disse kan lett tilpasses.",
+  "description": "The first argument of the easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.arg2": {
+  "message":"Flyten er som følger: Søk opp eller les av QR-koden, start kontrollen, jobb deg gjennom sjekklisten og dokumentér. Bilder kan også legges ved. Ferdigstill deretter rapporten og del den til de som skal ha den.",
+  "description": "The second argument of the easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.arg3": {
+  "message":"Når kontrollen er ferdig, oppdateres også registeret slik at registeret alltid har riktig status.",
+  "description": "The third argument of the easy flow section in the expert control page"
+},
+
+"expertcontrol.easyflow.point1": {
+  "message":"Enkel flyt med start, gjennomfør, ferdigstill og del.",
+  "description": "The first point of the easy flow section on the expert control page"
+},
+"expertcontrol.easyflow.point2": {
+  "message":"Enkelt oppslag med søk eller QR-kode avlesing for å begynne.",
+  "description": "The second point of the easy flow section on the expert control page"
+},
+"expertcontrol.easyflow.point3": {
+  "message":"Bruk planleggingsmodulen eller start kontrollen på stedet.",
+  "description": "The third point of the easy flow section on the expert control page"
+},
+"expertcontrol.easyflow.img_description": {
+  "message": "Enkel flyt, enkelt oppslag.",
+  "description": "The description of easy flow image in section on the competence page"
+},
+"expertcontrol.inspection.title": {
+  "message": "Tilgjengelig kontrollhistorikk",
+  "description": "The title of inspection section in the expert control page"
+},
+"expertcontrol.inspection.arg": {
+  "message": "Kontrollhistorikk kan gjøres tilgjengelig på tvers av virksomheter og andre systemer. Registeret gjør det også enklere å unngå duplikater av samme maskin. Dette sikrer at alle kontroller blir knyttet til riktig maskin, uavhengig eier og bruker.",
+  "description": "The first argument of the inspection section in the expert control page"
+},
+"expertcontrol.inspection.point1": {
+  "message": "En maskin har én forekomst i registeret som muliggjør komplett kontrollhistorikk på tvers av virksomheter.",
+  "description": "The first point of the inspection section on the expert control page"
+},
+"expertcontrol.inspection.point2": {
+  "message": "Maskineier har tilgang til kontrollhistorikk på sine maskiner.",
+  "description": "The second point of the inspection section on the expert control page"
+},
+"expertcontrol.inspection.img_description": {
+  "message": "Komplett kontrollhistorikk for utstyret.",
+  "description": "The description of  image in section on the competence page"
+},
+"expertcontrol.logs.title": {
+  "message":"Rapporter og loggføring gjør både daglig arbeid og revisjon enklere",
+  "description": "The title of logs section in the expert control page"
+},
+
+"expertcontrol.logs.arg": {
+  "message":"Våre kunder erfarer at det i BRAREG er enkelt å finne svar på spørsmål revisor lurer på, som for eksempel hvor mange kontroller som er gjennomført innenfor hver kategori, hvilke sjekklister som er anvendt, hvor mange kontroller som har blitt låst opp igjen og hvordan en holder oversikt over når kontroller skal gjennomføres.",
+  "description": "The first argument of the logs section in the expert control page"
+},
+
+"expertcontrol.logs.point1": {
+  "message":"Utstyrsrapport som gir oversikt over kommende kontroller.",
+  "description": "The first point of the logs section on the expert control page"
+},
+
+"expertcontrol.logs.point2": {
+  "message":"Liste som gir oversikt over gjennomførte kontroller.",
+  "description": "The second point of the logs section on the expert control page"
+},
+"expertcontrol.logs.point3": {
+  "message":"Logg som gir full oversikt i alt som er gjort i løsningen.",
+  "description": "The third point of the logs section on the expert control page"
+},
+
+"expertcontrol.logs.img_description": {
+  "message": "Rapporter for kommende kontroller, utførte kontroller og sjekklistebruk.",
+  "description": "The description of image in section on the competence page"
+},
+
+
+"aboutus.banner.title1": {
+  "message":"Slik startet det",
+  "description": "The title of banner section in the aboutus page"
+},
+"aboutus.banner.title2": {
+  "message":"Etter å ha bygget opp en utleievirksomhet over flere år, opplevde Lars et tydelig behov for å forbedre sikkerheten til kundene.",
+  "description": "The second title of banner section in the aboutus page"
+},
+"aboutus.banner.arg1": {
+  "message":"Feil bruk av maskiner kan være meget risikabelt og føre til alvorlige skader, og i verste fall dødsfall. Mangel på digital og strukturert produktinformasjon og samarbeid i bransjen var en av de største utfordringene.",
+  "description": "The first argument of the banner section in the aboutus page"
+},
+"aboutus.banner.arg2": {
+  "message":"Behovet var tydelig – å tilby markedet en digital plattform som sentraliserer informasjonsmateriell for utleiebedrifter og entrepenører i samarbeid med forhandlere og produsenter og enkelt tilgjengeliggjøre denne informasjonen for maskinbrukerene.",
+  "description": "The second argument of the banner section in the aboutus page"
+},
+"aboutus.banner.arg3": {
+  "message":"Lars etablerte DigiQuip i 2019.",
+  "description": "The third argument of the banner section in the aboutus page"
+},
+"aboutus.contact.title": {
+  "message":"DigiQuip hjelper bedrifter å løse utstyrsspesifikk opplæring, årlige inspeksjoner og mye mer.",
+  "description": "The title of contact section in the aboutus page"
+}
+}

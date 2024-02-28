@@ -9,6 +9,7 @@ export default function HomepageFeatures(props) {
   let img =  props.record.img;
   let description =  props.record.description;
   let button = <Translate>general.readmore</Translate>
+  let link = props.record.link;
 
   return (
     <section className={className}>
@@ -24,7 +25,7 @@ export default function HomepageFeatures(props) {
         <div className={clsx('col col--7')}>
           <div className='sikker-content'>
             {description}
-            <Button label={button} isIcon={true} />
+            <Button label={button} isIcon={true} link={link}/>
           </div>
         </div>
       </div>

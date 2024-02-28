@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Our docs explained
+# En plass for dokumentasjon
 
-Some would think we share too much, but we would rather be open while we works fast than spend time on hiding our internal workings. In this section you'll find everything from legal stuff to developer principles and our style guide. We trust you to not abuse this and ask before you use if you are uncertain about any of the information.
+Noen synes kanskje vi deler for mye, men vi vil heller være åpne og arbeide raskt mot bedre løsninger sammen, enn å bruke tid på å skjule informasjon som kan være viktig. Her vil du finne juridiske dokumenter, prinsipper for våre utviklere og vår design guide. Vi stoler på at du ikke misbruker informasjonen.

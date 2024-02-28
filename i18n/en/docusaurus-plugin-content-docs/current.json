@@ -10,5 +10,17 @@
   "sidebar.tutorialSidebar.category.Legal stuff": {
     "message": "Legal stuff",
     "description": "The label for category Legal stuff in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Good to know": {
+    "message": "Good to know",
+    "description": "The label for category Good to know in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.For developers": {
+    "message": "For developers",
+    "description": "The label for category For developers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Brand material": {
+    "message": "Brand material",
+    "description": "The label for category Brand material in sidebar tutorialSidebar"
   }
 }

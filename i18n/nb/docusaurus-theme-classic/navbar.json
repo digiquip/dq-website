@@ -1,0 +1,34 @@
+{
+  "logo.alt": {
+    "message": "DigiQuip logoen",
+    "description": "DigiQuip logo"
+  },
+  "item.label.Solutions": {
+    "message": "Løsninger",
+    "description": "Navigering til løsninger"
+  },
+  "item.label.Competence": {
+    "message": "Kompetanse",
+    "description": "Navigering til ressurser"
+  },
+  "item.label.Workequipment": {
+    "message": "Arbeidsutstyr",
+    "description": "Navigering til arbeidsutstyr"
+  },
+  "item.label.Modellibrary": {
+    "message": "Modellregister",
+    "description": "Navigering til modelbibliotek"
+  },
+  "item.label.Expertcontrol": {
+    "message": "Sakkyndig kontroll",
+    "description": "Navigering til sakkyndig kontroll"
+  },
+  "item.label.About us": {
+    "message": "Om oss",
+    "description": "Navigering til om oss"
+  },
+  "item.label.Pricing": {
+    "message": "Priser",
+    "description": "Navigering til priser"
+  }
+}

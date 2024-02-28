@@ -7,8 +7,28 @@
     "message": "Solutions",
     "description": "Navbar item with label Solutions"
   },
+  "item.label.Competence": {
+    "message": "Competence",
+    "description": "Navigering til ressurser"
+  },
+  "item.label.Workequipment": {
+    "message": "Work equipment",
+    "description": "Navigering til arbeidsutstyr"
+  },
+  "item.label.Modellibrary": {
+    "message": "Model library",
+    "description": "Navigering til modelbibliotek"
+  },
+  "item.label.Expertcontrol": {
+    "message": "Expert control",
+    "description": "Navigering til sakkyndig kontroll"
+  },
   "item.label.About us": {
     "message": "About us",
     "description": "Navbar item with label About us"
+  },
+  "item.label.Pricing": {
+    "message": "Pricing",
+    "description": "Navbar item with label Pricing"
   }
 }

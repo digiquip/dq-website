@@ -1,17 +1,17 @@
 ---
 slug: why-use-videos
-title: Why videos are a nice fit for equipment training
+title: Hvorfor bruke videoer i opplæring
 authors: [christian]
 tags: [videos, training]
-image: img/digiquip-social-card.jpg
+image: img/videoprod2.jpg
 ---
+Vi har alle prøvd å lære oss å bruke noe nytt. Det letteste er å få noen til å gi opplæring. Men, det kan være at du er alene og må finne ut av en feil eller komme igang. Hva gjør du da?
+
+<!-- truncate -->
 
 ![Picture of video production](./videoprod1.webp)
 
 ## Brukervideoer blir et supplement til brukermanualer
-Vi har alle prøvd å lære oss å bruke noe nytt. Det letteste er å få noen til å gi opplæring. Men, det kan være at du er alene og må finne ut av en feil eller komme igang. Hva gjør du da?
-
-<!-- truncate -->
 
 Etter at internett, og spesielt YouTube be introdusert i 2005, ble videoer et mer tilgjengelig alternativ til brukermanualer. Nå florerer det med brukervideoer på nettet. Ifølge Cisco er **30% av dagens trafikk** på internet video. Robert Kyncl, tidligere VP Global Content fra YouTube spår at videoer kommer til å oppta **90% av all trafikk** på internet. Problemet er å finne det som passer ditt behov og er til å stole på.
 

@@ -1,14 +1,10 @@
 ---
-slug: principles-of-development
-title: Our principles of development
-authors: [andreas]
-tags: [development, howto, internal]
-image: img/digiquip-social-card.jpg
+sidebar_position: 1
 ---
 
-These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.
+# Principles for development
 
-<!-- truncate -->
+These are general guidelines when developing for DigiQuip. Whenever you feel that they don’t apply to your current task, stop and think and then discuss it with someone else in the team to make sure that we avoid to many deviations from these principles.
 
 ## General principles
 
@@ -19,12 +15,16 @@ We have a properly layered structure of our software. The easiest three layers t
 Another important thing about the layers is that we treat them as freestanding and with a purpose of their own. We should be able to have two backends talking to the same database without repeating code (see “DRY” below).  We should have proper security on every layer. We should make every layer usable by multiple other layers (so that we don’t make a backend specifically for only one frontend).
 
 ### The obvious ones
-*KISS (Keep It Simple, Short)* and *DRY (Don’t Repeat Yourself)*.
 
-Not fully test-driven development, but test-focused
+**KISS (Keep It Simple, Short)** and **DRY (Don’t Repeat Yourself)**.
+
+**Not fully test-driven, but test-focused.**
 Starting everything with writing the test is the ideal, but not always practical. Our principle is that we will strive to write tests for most, especially now that AI is helping us.
 
-### Small PRs
+
+### Peer Reviews in Small PRs
+
+All code needs to be reviewed by someone else within the organisation before it published (both for dev/staging and production environments). We do this through Pull Requests (PRs) in Github and we keep the PRs small and clean. Make sure that you don't include other commits into your PR that comes from other branches - try to rebase instead.
 
 ## Principles for database Development
 
@@ -48,3 +48,4 @@ A controversial subject for some, but we are OK with using JSON as a field type 
 
 ## Principles for backend development
 
+### Swagger and OpenAPI for documentation
