@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digiquip.github.io/blog</id>
-    <title>DigiQuip - familiarization and competence overview Blog</title>
+    <title>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</title>
     <updated>2024-01-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://digiquip.github.io/blog"/>
-    <subtitle>DigiQuip - familiarization and competence overview Blog</subtitle>
+    <subtitle>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</subtitle>
     <icon>https://digiquip.github.io/img/dq.ico</icon>
     <entry>
         <title type="html"><![CDATA[Hvorfor bruke videoer i opplæring]]></title>
