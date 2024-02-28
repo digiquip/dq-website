@@ -287,11 +287,11 @@
     "description": "The unlisted content banner message"
   },
   "header.title": {
-    "message": "DigiQuip - familiarization and competence overview",
+    "message": "DigiQuip – utstyrsspesifikk opplæring og kompetanseoversikt",
     "description": "The title of the header"
   },
   "header.subtitle": {
-    "message": "Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence.",
+    "message": "Våre løsninger legger til rette for utstyrsspesifikk opplæring på både eget og innleid utstyr, og gir oversikt over dokumentert og sertifisert kompetanse.",
     "description": "The subtitle of the header"
   },
   "general.readmore": {
