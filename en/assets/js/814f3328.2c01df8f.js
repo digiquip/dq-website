@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[5512],{4352:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Why videos are a nice fit for equipment training","permalink":"/en/blog/why-use-videos","unlisted":false}]}')}}]);
