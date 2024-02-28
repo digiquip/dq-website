@@ -125,24 +125,24 @@ const config = {
             position: 'left',
             sidebarid: 'tutorialSidebar',
           },
-          {
-            to: '/price',
-            label: 'Pricing',
-            position: 'left',
-            sidebarid: 'tutorialSidebar',
-          },
+          // {
+          //  to: '/price',
+          //  label: 'Pricing',
+          //  position: 'left',
+          //  sidebarid: 'tutorialSidebar',
+          //},
           {
             type: 'localeDropdown',
             position: 'right',
             sidebarid: 'tutorialSidebar',
           },
-          {
-            to: '/blog',
-            html: '<span class=btn_wrapper><span class=btn_text>Contact us</span> <span class=btn_text>Contact us</span> </span> ',
-            position: 'right',
-            className:'white-btn btn',
-            sidebarid: 'tutorialSidebar',
-          },
+          //{
+          //  to: '/blog',
+          //  html: '<span class=btn_wrapper><span class=btn_text>Contact us</span> <span class=btn_text>Contact us</span> </span> ',
+          //  position: 'right',
+          //  className:'white-btn btn',
+          //  sidebarid: 'tutorialSidebar',
+          //},
         ],
       },
       footer: {
