@@ -130,7 +130,7 @@ const config = {
           //  label: 'Pricing',
           //  position: 'left',
           //  sidebarid: 'tutorialSidebar',
-          //},
+          // },
           {
             type: 'localeDropdown',
             position: 'right',
