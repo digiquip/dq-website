@@ -32,7 +32,7 @@ export default function ContactUs() {
                         </a>
                         <a href="tel:+47 90 77 35 24" aria-label="+47 90 77 35 24" target="_self">
                           <span className="btn__wrapper">
-                            <span className="btn__text">+47 90 77 35 24</span>
+                            <span className="btn__text">+47 45 48 85 25</span>
                           </span>
                         </a>
                       </div>

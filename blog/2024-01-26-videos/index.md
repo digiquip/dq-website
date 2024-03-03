@@ -1,8 +1,8 @@
 ---
 slug: why-use-videos
-title: Hvorfor bruke videoer i opplæring
+title: Hvorfor bruke videoer i opplæring?
 authors: [christian]
-tags: [videos, training]
+tags: [videoer]
 image: img/videoprod2.jpg
 ---
 Vi har alle prøvd å lære oss å bruke noe nytt. Det letteste er å få noen til å gi opplæring. Men, det kan være at du er alene og må finne ut av en feil eller komme igang. Hva gjør du da?
