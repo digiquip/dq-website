@@ -33,12 +33,6 @@ function Contact() {
     return (
         <section className='about-contact section-pd'>
             <div className="container">
-                <div className='home-contact-content'>
-                    <h2><Translate>aboutus.contact.title</Translate></h2>
-                    <div className='home-contact-btn'>
-                        <ContactUsButton />
-                    </div>
-                </div>
                 <div className='home-contact-img'><img src='img/home-contact.webp'></img></div>
             </div>
 

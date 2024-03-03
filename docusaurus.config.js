@@ -10,12 +10,12 @@ const linkHtml =  ' <span> <svg width="13" height="12" viewBox="0 0 13 12" fill=
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DigiQuip - familiarization and competence overview',
-  tagline: 'Our solutions make familiarization possible for both own and hired equipment, and provide a collected overview of documented and certified competence.',
+  title: 'DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon',
+  tagline: 'Våre løsninger legger til rette for utstyrsspesifikk opplæring på både eget og innleid utstyr, og gir oversikt over dokumentert og sertifisert kompetanse.',
   favicon: 'img/dq.ico',
 
   // Set the production url of your site here
-  url: 'https://digiquip.github.io',
+  url: 'https://digiquip.no',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -130,7 +130,7 @@ const config = {
           //  label: 'Pricing',
           //  position: 'left',
           //  sidebarid: 'tutorialSidebar',
-          //},
+          // },
           {
             type: 'localeDropdown',
             position: 'right',
