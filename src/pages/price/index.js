@@ -25,7 +25,9 @@ function PriceComponent() {
   const rendeInspectorsSwitch = (param) => {
 
     switch (true) {
-      case (param <= 1):
+      case (param < 1):
+        return 0;
+      case (param >= 1 && param <= 1):
         return 990;
       case (param > 1 && param <= 2):
         return 1790;
@@ -46,7 +48,9 @@ function PriceComponent() {
   const rendePeopleSwitch = (param) => {
 
     switch (true) {
-      case (param <= 24):
+      case (param < 1):
+        return 0;
+      case (param >= 1 && param <= 24):
         return 890;
       case (param > 24 && param <= 100):
         return 3290;
@@ -65,7 +69,9 @@ function PriceComponent() {
   const renderEquipmentSwitch = (param) => {
 
     switch (true) {
-      case (param <= 50):
+      case (param < 1):
+        return 0;
+      case (param >= 1 && param <= 50):
         return 390;
       case (param > 50 && param <= 100):
         return 690;
@@ -81,7 +87,7 @@ function PriceComponent() {
         return 7490;
       default:
        setCustomPrice(true)
-        setEquipment(param)
+       setEquipment(param)
         return 7490;
     }
   }
@@ -216,6 +222,10 @@ function PriceComponent() {
 
                               </div>
                             </div>
+
+                            <p>
+                              DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy.
+                            </p>
                           </div>
 
 
@@ -273,7 +283,7 @@ function PriceComponent() {
                             {/* popup calculator */}
 
                             {isCustomPrice && <CustomPricePopUp />}
-                            <a href='#' className='startupcost'>Etableringskostnad 5000 kroner </a>
+                           
           
 
                           </div>
@@ -310,6 +320,10 @@ function PriceComponent() {
                                 <input type="range" min="0" max={inspectorsMaxValue} value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)} className="calculator-input calculator-range" />
                               </div>
                             </div>
+
+                            <p>
+                            DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy.
+                            </p>
                           </div>
 
                           <div className="pricing-right">
@@ -337,8 +351,8 @@ function PriceComponent() {
                                 </div>
                                 <div className="btn-container">
                                   <a href="#" target="_blank">
-                                    <button className="calculator-button" disabled={!estimatedTotal}>
-                                      <span className="btn-t-1">Start</span>
+                                    <button className="calculator-button" disabled={!inspectorsCost}>
+                                      <span className="btn-t-1">Start building</span>
                                     </button>
                                   </a>
                                   <div className="calculator-link">
@@ -348,7 +362,7 @@ function PriceComponent() {
                               </div>
                             </div>}
                             {isCustomPrice && <CustomPricePopUp />}
-                            <a href='#' className='startupcost'>Etableringskostnad 5000 kroner </a>
+                           
                           </div>
                         </div>
                       </div>
