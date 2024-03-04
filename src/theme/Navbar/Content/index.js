@@ -50,7 +50,7 @@ export default function ContentWrapper(props) {
   const mobileSidebar = useNavbarMobileSidebar();
   const [leftItems, rightItems] = splitNavbarItems(items);
   let newNavItemBlog = {
-    label: "Blog",
+    label: "Blogg",
     position: "left",
     sidebarid: "tutorialSidebar",
     to: "/blog"

@@ -1,5 +1,5 @@
 ---
-slug: utstyrsspesifikk opplæring
+slug: utstyrsspesifikk-opplaering
 title: Nødvendig opplæring får folk trygt hjem
 authors: [cathrine]
 tags: [opplæring]
