@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[9792],{4930:e=>{e.exports=JSON.parse('{"label":"videoer","permalink":"/blog/tags/videoer","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
