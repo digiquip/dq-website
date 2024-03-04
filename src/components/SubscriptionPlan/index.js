@@ -15,7 +15,6 @@ export default function SubscriptionPlan() {
             <li><img src='img/tik.svg' /> Dokumenter. </li>
             <li><img src='img/tik.svg' /> Opplæringsmateriell. </li>
           </ul>
-          <a className="btn" href="#" title=''>Kontakt oss</a>
         </div>
       </div>
 
@@ -26,13 +25,12 @@ export default function SubscriptionPlan() {
             <h4>DigiQuip</h4>
             <p>Løsning for opplæring og kontroll av maskiner. Utstyrsspesifikk opplæring, oversikt og ulike type kontroller av arbeidsutstyr. </p>
           </div>
-          <div className='package-price'> 1580 kroner* </div>
+          <div className='package-price'> fra 1280 kroner </div>
           <ul>
             <li><img src='img/tik.svg' /> Utstyrsspesifikk opplæring. </li>
             <li><img src='img/tik.svg' /> Kompetanseoversikt. </li>
             <li><img src='img/tik.svg' /> Kontroll på arbeidsutstyr. </li>
           </ul>
-          <a className="btn" href="#" title=''>Kontakt oss</a>
         </div>
       </div>
 
@@ -42,13 +40,12 @@ export default function SubscriptionPlan() {
             <h4>BRAREG</h4>
             <p>For sakkyndige kontrollører. BRAREG er et fleksibelt kontrollsystem for planlegging, gjennomføring og oppfølging. </p>
           </div>
-          <div className='package-price'> 1790 kroner* </div>
+          <div className='package-price'> fra 990 kroner </div>
           <ul>
             <li><img src='img/tik.svg' /> Gjennomføring sakkyndig kontroll.</li>
             <li><img src='img/tik.svg' /> Planlegging og oppfølging.</li>
             <li><img src='img/tik.svg' /> Fleksible sjekklister.</li>
           </ul>
-          <a className="btn" href="#" title=''>Kontakt oss</a>
         </div>
       </div>
 

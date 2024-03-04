@@ -181,7 +181,7 @@ function PriceComponent() {
                   <div className="w-tab-content">
                     <div className="w-tab-pane w--tab-active">
 
-                      <div className='tab-nav-dis'>*Pris beregnes ut fra antall maskiner, utstyr og personer, og eventuelle tillegstjenester.</div>
+                      <div className='tab-nav-dis'>Pris beregnes ut fra mengde arbeidsutstyr og antall personer.</div>
                       <div className="calculator-html w-embed">
                         <div className="pricing-row">
 
@@ -224,7 +224,7 @@ function PriceComponent() {
                             </div>
 
                             <p>
-                              DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy.
+                              Etableringskostnad 5000 kroner. Alle priser er eks. mva.
                             </p>
                           </div>
 
@@ -245,7 +245,6 @@ function PriceComponent() {
                                   {equipment > 0 && <div className="conferencing-cost-text">
                                     <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {equipment} maskiner og utstyr)
                                     </span>
-                                    <img alt="" src="img/info-icon.svg" />
                                   </div>}
                                   <hr className="calculator-hr" />
                                 </div>}
@@ -257,7 +256,6 @@ function PriceComponent() {
                                   {people > 0 && <div className="conferencing-cost-text">
                                     <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {people} personer)
                                     </span>
-                                    <img alt="" src="img/info-icon.svg" />
                                   </div>}
                                   <hr className="calculator-hr" />
                                 </div>}
@@ -266,16 +264,6 @@ function PriceComponent() {
                                 <div className="ui-set est">
                                   <span className="est-text">Beregnet månedlig kostnad</span>
                                   <span className="total-cost-text" id="videototalCost">kr {equipmentCost + peopleCost}</span>
-                                </div>
-                                <div className="btn-container">
-                                  <a href="#" target="_blank">
-                                    <button className="calculator-button" disabled={!estimatedTotal}>
-                                      <span className="btn-t-1">Start</span>
-                                    </button>
-                                  </a>
-                                  <div className="calculator-link">
-                                    <a href="#" target="_blank">Ta kontakt med oss</a>
-                                  </div>
                                 </div>
                               </div>
                             </div>}
@@ -300,13 +288,13 @@ function PriceComponent() {
 
                   <div className="w-tab-content">
                     <div className="w-tab-pane w--tab-active">
-                    <div class="tab-nav-dis">*Pris beregnes ut fra antall inspektører. Ubegrenset antall kontroller og maskiner.</div>
+                    <div class="tab-nav-dis">Pris beregnes ut fra antall personer. Ubegrenset mengde arbeidsutstyr og antall kontroller.</div>
                       <div className="calculator-html w-embed">
                         <div className="pricing-row">
                           <div className="pricing-left">
                             <div className="slider-container">
                               <div className="ui-set">
-                                <span className="sub-heading"> Antall inspektører</span>
+                                <span className="sub-heading"> Antall personer</span>
                                 <span className="input-container">
                                   <input type="number" min="0" value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)} className="calculator-input" />
                                   {inspectors > inspectorsMaxValue ? <div class="tooltip">
@@ -322,7 +310,8 @@ function PriceComponent() {
                             </div>
 
                             <p>
-                            DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy.
+                            Etableringskostnad 5000 kroner.
+                            Alle priser er eks. mva.
                             </p>
                           </div>
 
@@ -335,12 +324,11 @@ function PriceComponent() {
                               </div>
                               <div className='calculator-price'>
                                 {inspectorsCost > 0 && <div className="ui-set cost-section">
-                                  <span className="sub-heading">Arbeidsutstyr</span>
+                                  <span className="sub-heading">Personer</span>
                                   <span id="confCost">kr {inspectorsCost}</span>
                                   {inspectors > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {inspectors} inspektører)
+                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {inspectors} personer)
                                     </span>
-                                    <img alt="" src="img/info-icon.svg" />
                                   </div>}
                                   <hr className="calculator-hr" />
                                 </div>}
@@ -348,16 +336,6 @@ function PriceComponent() {
                                 <div className="ui-set est">
                                   <span className="est-text">Beregnet månedlig kostnad</span>
                                   <span className="total-cost-text" id="videototalCost">kr {inspectorsCost}</span>
-                                </div>
-                                <div className="btn-container">
-                                  <a href="#" target="_blank">
-                                    <button className="calculator-button" disabled={!inspectorsCost}>
-                                      <span className="btn-t-1">Start building</span>
-                                    </button>
-                                  </a>
-                                  <div className="calculator-link">
-                                    <a href="#" target="_blank">Ta kontakt med oss</a>
-                                  </div>
                                 </div>
                               </div>
                             </div>}
@@ -389,7 +367,7 @@ function CustomPricePopUp() {
       <div className="calculator-count">
         <div className="c2-v2-content">
           <img alt="build" src="img/calc-edit.svg" />
-          <div className="alt-view-heading">Oisann på utsiden av kalkulatoren! <br /> Det ordner vi. </div>
+          <div className="alt-view-heading">Oi sann på utsiden av kalkulatoren! <br /> Det ordner vi. </div>
           <div className="alt-view-content">Ta kontakt så blir vi enige om en god pris.</div>
           <div className="btn-container">
             <a href="#" target="_blank">
@@ -425,7 +403,7 @@ function AboutIntegrations() {
               <div className={clsx("col col--4 margin-bottom--lg")}>
                 <div className='call-action'>
                 <h3>Kompetanseregisteret</h3>
-                <p>Sentralregisterets Kompetanseregister (K-reg) lagrer og utsteder kompetansebevis. Hent kompetansebevis fra K-reg til DigiQuip. Se <a href="https://sentralregisteret.no/kompetanseregisteret/" target="_blank">Kompetanseregisteret</a> for mer informasjon.</p> 
+                <p>Sentralregisterets Kompetanseregister (K-reg) lagrer og utsteder kompetansebevis. Snart kan du hente kompetansebevis fra K-reg til DigiQuip. Se <a href="https://sentralregisteret.no/kompetanseregisteret/" target="_blank">Kompetanseregisteret</a> for mer informasjon.</p> 
                 <p>Integrasjonen har ingen ekstra kostnad.</p> 
                 </div>
               </div>

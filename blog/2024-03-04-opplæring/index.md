@@ -14,14 +14,14 @@ Poenget med arbeidsmiljøloven er å sikre trygge arbeidsplasser, og budskapet e
 + Arbeidsgiver skal gi de ansatte nødvendig opplæring [(ref. aml. §3-2)](https://lovdata.no/LTI/lov/2005-06-17-62/§3-2), og 
 + Ansatte har medvirkningsplikt [(ref. aml. §2-3)](https://lovdata.no/LTI/lov/2005-06-17-62/§2-3)
 
-Selv om alle på arbeidsplassen skal bidra, hviler det endelige ansvaret alltid hos arbeidsgiver. En arbeidsgiver må derfor stille seg spørsmålet: **Kan personen bruke akkurat den maskinen?** 
+Selv om alle på arbeidsplassen skal bidra, hviler det endelige ansvaret alltid hos arbeidsgiver. En arbeidsgiver må derfor stille seg spørsmålet: **Kan personen bruke akkurat denne maskinen?** 
 
 ## Hva er utstyrsspesifikk opplæring?
 Utstyrsspesifikk opplæring, også kalt typeopplæring og maskinspesifikk opplæring, er opplæring på en bestemt maskin før bruk. 
 
 > Kan maskinen eller utstyret være farlig? Usikker? Gjennomfør opplæring. 
 
-**Merk**: Utstyrsspesifikk opplæring er noe annet enn et sertifikat eller kurs, det gjelder bestemt maskinen eller utstyret som skal brukes. 
+**Merk**: Utstyrsspesifikk opplæring er noe annet enn et sertifikat eller kurs, det gjelder bestemt maskin eller utstyr som skal brukes. 
 
 ## Hvorfor?
 Opplæring lønner seg. Riktig bruk av maskiner og utstyr har mange fordeler! Helt åpenbart vil utstyrsspesifikk opplæring føre til økt sikkerhet på arbeidsplassen. 
