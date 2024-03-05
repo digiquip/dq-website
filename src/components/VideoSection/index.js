@@ -10,6 +10,7 @@ export default function VideoSection({ withoutAutoPlay, withPlay, poster }) {
      <iframe
        src={value ? withPlay : withoutAutoPlay}
        title="Understanding DigiQuip"
+       allow="autoplay"
      ></iframe>
      {value ? (
        ""
