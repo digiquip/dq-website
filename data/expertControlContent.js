@@ -24,7 +24,7 @@ const expertControlBannerData =
     ),
     img: "",
     withPlay: youtubePlayList.expertControlVideoLink.withPaly,
-    withoutAutoPlay: youtubePlayList.expertControlVideoLink.withoutAutoPlay,
+    withoutAutoPlay: '', //youtubePlayList.expertControlVideoLink.withoutAutoPlay,
     youtubeVideoBanner: youtubeVideoBanner,
 }
 

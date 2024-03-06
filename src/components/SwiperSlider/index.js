@@ -27,7 +27,7 @@ export default function SwiperSlider() {
         <SwiperSlide>
           <div className='slider-item'>
             <iframe id="ytplayer-133075" frameBorder="0"
-              allowFullScreen=""
+              allowFullScreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               title="Husqvarna K535i Liten kappsag - Hvordan bruke"
               src={playVideo ? youtubePlayList.easyTraining.withPlay : youtubePlayList.easyTraining.withoutAutoPlay}>
