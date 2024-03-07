@@ -50,9 +50,9 @@ function PriceComponent() {
     switch (true) {
       case (param < 1):
         return 0;
-      case (param >= 1 && param <= 24):
+      case (param >= 1 && param <= 25):
         return 890;
-      case (param > 24 && param <= 100):
+      case (param > 26 && param <= 100):
         return 3290;
       case (param > 100 && param <= 175):
         return 4990;
@@ -224,7 +224,7 @@ function PriceComponent() {
                             </div>
 
                             <p>
-                              Etableringskostnad 5000 kroner. Alle priser er eks. mva.
+                              Etableringskostnad 5000 kroner. Alle priser er eks. mva. For ytterligere detaljer se vår detaljerte <a href="https://digiquip.no/docs/prices/detailed-price-list">prisliste</a>
                             </p>
                           </div>
 
@@ -311,7 +311,7 @@ function PriceComponent() {
 
                             <p>
                             Etableringskostnad 5000 kroner.
-                            Alle priser er eks. mva.
+                            Alle priser er eks. mva. For ytterligere detaljer se vår detaljerte <a href="https://digiquip.no/docs/prices/detailed-price-list">prisliste</a>
                             </p>
                           </div>
 
