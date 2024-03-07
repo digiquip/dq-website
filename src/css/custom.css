@@ -1756,8 +1756,8 @@ span#confCost {
   font-weight: 600;
 }
 .calculator-input[type=number] {
-  padding: .5rem 1rem;
-  width: 100px;
+  padding: .5rem .5rem;
+  width: 120px;
   text-align: center;
   border: 1px solid #e5e5e5;
   border-radius: 5px;

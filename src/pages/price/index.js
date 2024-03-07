@@ -52,7 +52,7 @@ function PriceComponent() {
         return 0;
       case (param >= 1 && param <= 25):
         return 890;
-      case (param > 26 && param <= 100):
+      case (param > 25 && param <= 100):
         return 3290;
       case (param > 100 && param <= 175):
         return 4990;
