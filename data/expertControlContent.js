@@ -38,7 +38,6 @@ const easyFlowData =
     ),
     descriptionWithHTML: (
         <>
-            <p><Translate>expertcontrol.easyflow.arg1</Translate></p>
             <p><Translate>expertcontrol.easyflow.arg2</Translate></p>
         </>
     ),

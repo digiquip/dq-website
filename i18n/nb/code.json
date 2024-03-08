@@ -679,12 +679,13 @@
   "description": "The title of the expert control page"
 },
 "expertcontrol.banner.title2": {
-  "message":"BRAREG hjelper kontrollører med å utføre årskontroll.",
+  "message":"BRAREG er vår løsning for sakkyndig kontroll og service.",
   "description": "The title of the expert control page"
 },
 "expertcontrol.banner.arg1": {
-  "message":"BRAREG er en videreutvikling av 123Service, der kontrollører fra hele landet gjennomfører sakkyndige kontroller til sammen over 500 hver uke. Løsningen støtter en enkel flyt og gjør dokumentasjon digitalt tilgjengelig. I tillegg finnes det gjennomarbeidede sjekklister i henhold til norm for kontrollomfang.",
+  "message":"Å håndtere inspeksjoner og kontroller med penn og papir kan være tidkrevende og ineffektivt. Med Brareg kontrollsystem blir hverdagen til kontrolløren betydelig forenklet. ", 
   "description": "The first argument of the expert control section in the expert control page"
+
 },
 "expertcontrol.banner.arg2": {
   "message":"Fra mobil eller nettbrett, er det enkelt å gjennomføre inspeksjonen.",
@@ -695,13 +696,8 @@
   "description": "The title of easy flow section in the expert control page"
 },
 
-"expertcontrol.easyflow.arg1": {
-  "message":"BRAREG gir kontrollører en enkel kontrollflyt. Løsningen inkluderer sjekklister, og disse kan lett tilpasses.",
-  "description": "The first argument of the easy flow section in the expert control page"
-},
-
 "expertcontrol.easyflow.arg2": {
-  "message":"Flyten er som følger: Søk opp eller les av QR-koden, start kontrollen, jobb deg gjennom sjekklisten og dokumentér. Bilder kan også legges ved. Ferdigstill deretter rapporten og del den til de som skal ha den.",
+  "message":"Flyten er som følger: Søk opp eller les av QR-koden, start kontrollen, jobb deg gjennom sjekklisten og dokumenter med bilder. Ferdigstill deretter rapporten og del den til de som skal ha den.",
   "description": "The second argument of the easy flow section in the expert control page"
 },
 
@@ -715,11 +711,11 @@
   "description": "The first point of the easy flow section on the expert control page"
 },
 "expertcontrol.easyflow.point2": {
-  "message":"Enkelt oppslag med søk eller QR-kode avlesing for å begynne.",
+  "message":"Standardiserte sjekklister som enkelt kan endres og tilpasses.",
   "description": "The second point of the easy flow section on the expert control page"
 },
 "expertcontrol.easyflow.point3": {
-  "message":"Bruk planleggingsmodulen eller start kontrollen på stedet.",
+  "message":"Du kan også lage egne sjekklister.",
   "description": "The third point of the easy flow section on the expert control page"
 },
 "expertcontrol.easyflow.img_description": {
@@ -731,11 +727,11 @@
   "description": "The title of inspection section in the expert control page"
 },
 "expertcontrol.inspection.arg": {
-  "message": "Kontrollhistorikk kan gjøres tilgjengelig på tvers av virksomheter og andre systemer. Registeret gjør det også enklere å unngå duplikater av samme maskin. Dette sikrer at alle kontroller blir knyttet til riktig maskin, uavhengig eier og bruker.",
+  "message": "Kontrollhistorikk kan gjøres tilgjengelig på tvers av virksomheter og andre systemer. Registeret gjør det også enklere å unngå duplikater av samme maskin. Dette sikrer at alle kontroller blir knyttet til riktig maskin, uavhengig eier og bruker",
   "description": "The first argument of the inspection section in the expert control page"
 },
 "expertcontrol.inspection.point1": {
-  "message": "En maskin har én forekomst i registeret som muliggjør komplett kontrollhistorikk på tvers av virksomheter.",
+  "message": "Gjennom vår integrasjon med Digiquip gir vi maskineiere enkel tilgang til kontrollhistorikken for sine maskiner",
   "description": "The first point of the inspection section on the expert control page"
 },
 "expertcontrol.inspection.point2": {
@@ -744,7 +740,7 @@
 },
 "expertcontrol.inspection.img_description": {
   "message": "Komplett kontrollhistorikk for utstyret.",
-  "description": "The description of  image in section on the competence page"
+  "description": "The description of image in section on the competence page"
 },
 "expertcontrol.logs.title": {
   "message":"Rapporter og loggføring gjør både daglig arbeid og revisjon enklere",
