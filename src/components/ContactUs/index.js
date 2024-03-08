@@ -21,7 +21,7 @@ export default function ContactUs() {
                         <h3>Tom Freddy Braathen</h3>
                         <a href="mailto:salg@digiquip.no" className="btn__lined" aria-label="salg@digiquip.no" target="_self">
                           <span className="btn__wrapper">
-                            <span className="btn__text">salg@digiquip.no</span>
+                            <span className="btn__text">tfb@digiquip.no</span>
                             <span className="btn__icon">
                               <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 10.1667L10.1667 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -32,7 +32,7 @@ export default function ContactUs() {
                         </a>
                         <a href="tel:+47 90 77 35 24" aria-label="+47 90 77 35 24" target="_self">
                           <span className="btn__wrapper">
-                            <span className="btn__text">+47 90 77 35 24</span>
+                            <span className="btn__text">+47 45 48 85 25</span>
                           </span>
                         </a>
                       </div>

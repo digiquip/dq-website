@@ -799,5 +799,14 @@
 "aboutus.contact.title": {
   "message":"DigiQuip hjelper bedrifter å løse utstyrsspesifikk opplæring, årlige inspeksjoner og mye mer.",
   "description": "The title of contact section in the aboutus page"
+},
+
+"aboutus.team.title": {
+  "message":"Mød vores team",
+  "description": "The title of team section in the aboutus page"
+},
+"aboutus.team.button_lavel": {
+  "message":"book et møde",
+  "description": "The button lavel of team section in the aboutus page"
 }
 }

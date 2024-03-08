@@ -173,7 +173,7 @@ function PriceComponent() {
     <>
       <section className="pricing_calculator_section section-pd">
         <div className="container">
-            <h2>Pricing Calculator<span className='orange'>.</span></h2>
+            <h2>Priskalkulator<span className='orange'>.</span></h2>
           <div className="pricing-center">
             <div className="tab-container">
               <Tabs className="tabs-menu">
@@ -181,14 +181,14 @@ function PriceComponent() {
                   <div className="w-tab-content">
                     <div className="w-tab-pane w--tab-active">
 
-                      <div className='tab-nav-dis'>DigiQuip Lorem Ipsum has been the industry's standard dummy.</div>
+                      <div className='tab-nav-dis'>Pris beregnes ut fra mengde arbeidsutstyr og antall personer.</div>
                       <div className="calculator-html w-embed">
                         <div className="pricing-row">
 
                           <div className="pricing-left">
                             <div className="slider-container">
                               <div className="ui-set">
-                                <span className="sub-heading">  Equipment </span>
+                                <span className="sub-heading"> Arbeidsutstyr </span>
                                 <span className="input-container">
                                   <input type="number" min="0" value={equipment} onChange={e => onTodoChange(e.target.value, 'equipment', 0)} className="calculator-input" />
                                   {equipment > equipmentMaxValue ? <div class="tooltip">
@@ -207,7 +207,7 @@ function PriceComponent() {
 
                             <div className="slider-container">
                               <div className="ui-set">
-                                <span className="sub-heading"> People </span>
+                                <span className="sub-heading"> Personer </span>
                                 <span className="input-container">
                                   <input type="number" min="0" value={people} onChange={e => onTodoChange(e.target.value, 'people', 1)} id="participantsInput" className="calculator-input" />
                                   {people > peopleMaxValue ? <div class="tooltip">
@@ -224,7 +224,7 @@ function PriceComponent() {
                             </div>
 
                             <p>
-                              DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy.
+                              Etableringskostnad 5000 kroner. Alle priser er eks. mva.
                             </p>
                           </div>
 
@@ -234,48 +234,36 @@ function PriceComponent() {
                             {!isCustomPrice && <div className='calculator-one'>
                               <div className='calculator-view'>
                                 <h6>
-                                  <img src='img/estimated-cost.svg' /> Your estimated  cost
+                                  <img src='img/estimated-cost.svg' /> Beregnet månedlig kostnad
                                 </h6>
                               </div>
                               <div className='calculator-price'>
 
                                 {equipmentCost > 0 && <div className="ui-set cost-section">
-                                  <span className="sub-heading">Equipment</span>
+                                  <span className="sub-heading">Arbeidsutstyr</span>
                                   <span id="confCost">kr {equipmentCost}</span>
                                   {equipment > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> to {equipment} equipment)
+                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {equipment} maskiner og utstyr)
                                     </span>
-                                    <img alt="" src="img/info-icon.svg" />
                                   </div>}
                                   <hr className="calculator-hr" />
                                 </div>}
 
 
                                 {peopleCost > 0 && <div className="ui-set cost-section">
-                                  <span className="sub-heading">People</span>
+                                  <span className="sub-heading">Personer</span>
                                   <span id="confCost">kr {peopleCost}</span>
                                   {people > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> to {people} people)
+                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {people} personer)
                                     </span>
-                                    <img alt="" src="img/info-icon.svg" />
                                   </div>}
                                   <hr className="calculator-hr" />
                                 </div>}
 
 
                                 <div className="ui-set est">
-                                  <span className="est-text">Estimated Total</span>
+                                  <span className="est-text">Beregnet månedlig kostnad</span>
                                   <span className="total-cost-text" id="videototalCost">kr {equipmentCost + peopleCost}</span>
-                                </div>
-                                <div className="btn-container">
-                                  <a href="#" target="_blank">
-                                    <button className="calculator-button" disabled={!estimatedTotal}>
-                                      <span className="btn-t-1">Start building</span>
-                                    </button>
-                                  </a>
-                                  <div className="calculator-link">
-                                    <a href="#" target="_blank">Talk to one of our experts</a>
-                                  </div>
                                 </div>
                               </div>
                             </div>}
@@ -300,13 +288,13 @@ function PriceComponent() {
 
                   <div className="w-tab-content">
                     <div className="w-tab-pane w--tab-active">
-                    <div class="tab-nav-dis">Brareg Lorem Ipsum has been the industry's standard dummy.</div>
+                    <div class="tab-nav-dis">Pris beregnes ut fra antall personer. Ubegrenset mengde arbeidsutstyr og antall kontroller.</div>
                       <div className="calculator-html w-embed">
                         <div className="pricing-row">
                           <div className="pricing-left">
                             <div className="slider-container">
                               <div className="ui-set">
-                                <span className="sub-heading">  Inspectors </span>
+                                <span className="sub-heading"> Antall personer</span>
                                 <span className="input-container">
                                   <input type="number" min="0" value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)} className="calculator-input" />
                                   {inspectors > inspectorsMaxValue ? <div class="tooltip">
@@ -322,7 +310,8 @@ function PriceComponent() {
                             </div>
 
                             <p>
-                            DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy DigiQuip Lorem Ipsum has been the industry's standard dummy.
+                            Etableringskostnad 5000 kroner.
+                            Alle priser er eks. mva.
                             </p>
                           </div>
 
@@ -330,34 +319,23 @@ function PriceComponent() {
                             {!isCustomPrice && <div className='calculator-one'>
                               <div className='calculator-view'>
                                 <h6>
-                                  <img src='img/estimated-cost.svg' /> Your estimated  cost
+                                  <img src='img/estimated-cost.svg' /> Beregnet månedlig kostnad
                                 </h6>
                               </div>
                               <div className='calculator-price'>
                                 {inspectorsCost > 0 && <div className="ui-set cost-section">
-                                  <span className="sub-heading">Equipment</span>
+                                  <span className="sub-heading">Personer</span>
                                   <span id="confCost">kr {inspectorsCost}</span>
                                   {inspectors > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> to {inspectors} equipment)
+                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {inspectors} personer)
                                     </span>
-                                    <img alt="" src="img/info-icon.svg" />
                                   </div>}
                                   <hr className="calculator-hr" />
                                 </div>}
 
                                 <div className="ui-set est">
-                                  <span className="est-text">Estimated Total</span>
+                                  <span className="est-text">Beregnet månedlig kostnad</span>
                                   <span className="total-cost-text" id="videototalCost">kr {inspectorsCost}</span>
-                                </div>
-                                <div className="btn-container">
-                                  <a href="#" target="_blank">
-                                    <button className="calculator-button" disabled={!inspectorsCost}>
-                                      <span className="btn-t-1">Start building</span>
-                                    </button>
-                                  </a>
-                                  <div className="calculator-link">
-                                    <a href="#" target="_blank">Talk to one of our experts</a>
-                                  </div>
                                 </div>
                               </div>
                             </div>}
@@ -389,11 +367,11 @@ function CustomPricePopUp() {
       <div className="calculator-count">
         <div className="c2-v2-content">
           <img alt="build" src="img/calc-edit.svg" />
-          <div className="alt-view-heading">Let's build a <br />custom plan </div>
-          <div className="alt-view-content">Help us understand what you need, and we’ll propose a suitable solution for you.</div>
+          <div className="alt-view-heading">Oi sann på utsiden av kalkulatoren! <br /> Det ordner vi. </div>
+          <div className="alt-view-content">Ta kontakt så blir vi enige om en god pris.</div>
           <div className="btn-container">
             <a href="#" target="_blank">
-              <button className="btn-t-1 calculator-button">Talk to one of our experts</button>
+              <button className="btn-t-1 calculator-button">Kontakt oss</button>
             </a>
           </div>
         </div>
@@ -411,52 +389,34 @@ function AboutIntegrations() {
     <section className='about-integrations section-pd'>
       <div className="container">
         <div className='integrations-center'>
-          <h2>About our integrations<span className='orange'>.</span> </h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <h2>Integrasjoner<span className='orange'>.</span> </h2>
+          <p>Integrasjoner er et av våre viktigste satsningsområder.</p>
           <div className="row">
             <div className={clsx("col col--4 margin-bottom--lg")}>
                 <div className='call-action'>
-                <h3>integrations 01</h3>
-                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <h3>Skreddersøm</h3>
+                <p>I 2024 setter vi fart på integrasjonsarbeidet. For størst mulig fleksibilitet bruker vi integrasjonsplattformen <a href="https://www.snaplogic.com/" target="_blank">Snaplogic</a>, og flere av kundene våre har allerede benyttet seg av muligheten for skreddersydde integrasjoner.</p>
+                <p>Pris på forespørsel.</p> 
                 </div>
               </div>
+              
               <div className={clsx("col col--4 margin-bottom--lg")}>
                 <div className='call-action'>
-                <h3>integrations 02</h3>
-                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </div>
-              </div>
-
-              <div className={clsx("col col--4 margin-bottom--lg")}>
-                <div className='call-action'>
-                <h3>integrations 02</h3>
-                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <h3>Kompetanseregisteret</h3>
+                <p>Sentralregisterets Kompetanseregister (K-reg) lagrer og utsteder kompetansebevis. Snart kan du hente kompetansebevis fra K-reg til DigiQuip. Se <a href="https://sentralregisteret.no/kompetanseregisteret/" target="_blank">Kompetanseregisteret</a> for mer informasjon.</p> 
+                <p>Integrasjonen har ingen ekstra kostnad.</p> 
                 </div>
               </div>
 
               <div className={clsx("col col--4 margin-bottom--lg")}>
                 <div className='call-action'>
-                <h3>integrations 02</h3>
-                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <h3>Maskinregisteret</h3>
+                <p>Sentralregisterets Maskinregister (M-reg) er et register for arbeidsmaskiner og utstyr. Hent arbeidsutstyr og sakkyndig kontroll fra M-reg til DigiQuip. Se <a href="" target="_blank">Maskinregisteret</a> for mer informasjon.</p>
+                <p>Integrasjonen har ingen ekstra kostnad.</p> 
                 </div>
+                
               </div>
-
-              <div className={clsx("col col--4 margin-bottom--md")}>
-                <div className='call-action'>
-                <h3>integrations 02</h3>
-                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </div>
-              </div>
-
-              <div className={clsx("col col--4 margin-bottom--md")}>
-                <div className='call-action'>
-                <h3>integrations 02</h3>
-                <p>Reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </div>
-              </div>
-            
             </div>
-          
         </div>
       </div>
     </section>
@@ -471,8 +431,8 @@ function PricePageBanner() {
       <section className='homepage-banner'>
         <div className={clsx('hero-25 hero hero--primary heroBanner')}>
           <div className="container">
-            <h1 className='section-title'>Our Prices<span className='orange'>.</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitet aliqua.</p>
+            <h1 className='section-title'>Priser<span className='orange'>.</span></h1>
+            <p>Se våre priseksempler og beregn månedlig kostnad i priskalkulatoren nedenfor.</p>
             <div className="row">
               <SubscriptionPlan />
             </div>

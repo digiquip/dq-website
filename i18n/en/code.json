@@ -802,5 +802,14 @@
 "aboutus.contact.title": {
   "message":"DigiQuip helps you solve equipment training, machine inspections and in general to get the control you need",
   "description": "The title of contact section in the aboutus page"
+},
+
+"aboutus.team.title": {
+  "message":"Meet Our Team",
+  "description": "The title of team section in the aboutus page"
+},
+"aboutus.team.button_lavel": {
+  "message":"book a meeting",
+  "description": "The button lavel of team section in the aboutus page"
 }
 }

@@ -2,100 +2,52 @@ import clsx from 'clsx';
 import MainLayout from '../../components/MainLayout';
 import Translate from '@docusaurus/Translate';
 import ContactUsButton from '../../components/ContactBtn';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import TeamList from "../../../data/teamList.js";
+import BrandLogo from '../../components/BrandLogo/index.js';
 
 
 function MeetTeam() {
-
+  const [users, setUsers] = useState([]);
+  useEffect(() => {
+    setUsers(TeamList.teamDataSource);
+  }, []);
   return (
     <section className='ourteamsec'>
       <div class="container">
         <div class="row">
           <div className={clsx("col col--12")}>
-            <h1 className='section-title'>Meet Our Team<span className='orange'>.</span></h1>
+            <h1 className='section-title'> <Translate>aboutus.team.title</Translate><span className='orange'>.</span></h1>
           </div>
         </div>
 
         <div className="team-row">
-          <div className="team-item margin-bottom--lg">
-            <div class="team-member text--center">
-              <div class="team-img">
-                <img src="img/competence-images/tom_freddy.webp" alt="" />
+          {users && users?.map((item) => (
+            <div key={item.id} className="team-item margin-bottom--lg">
+              <div class="team-member text--center">
+                <div class="team-img">
+                   <BrandLogo Img={item.image} width={''} height={''} alt={''} />
+                </div>
+                <div className='team-details'>
+                  <h6 class="team-title">{item.fullName}</h6>
+                  <p>{item.designation}</p>
+                  <div className='detail-email'>
+                    <a href={`mailto: ${item.emailAddress}`}>
+                      <img src="img/email-icon.svg" alt="" />
+                      {item.emailAddress}
+                    </a>
+                    <a href={`tel: ${item.mobileNumber}`}>
+                      <img src="img/call-icon.svg" alt="" />
+                      {item.mobileNumber}
+                    </a>
+                  </div>
+                  <a href={`${item.contantLink}`} className='btn-book' title='book-meeting'> 
+                    <Translate>aboutus.team.button_lavel</Translate> 
+                  </a>
+                </div>
               </div>
-              <div className='team-details'>
-              <h6 class="team-title">John Marshall</h6>
-              <p>Designer</p>
-              <div className='detail-email'>
-                <a href="mailto:webmaster@gmail.com"> <img src="img/email-icon.svg" alt="" />webmaster@gmail.com</a>
-                <a href="tel:+4733378901"> <img src="img/call-icon.svg" alt="" /> +47 333 78 901</a>
-               </div>
-              <a href='#' className='btn-book' title='book-meeting'>book a meeting</a>
             </div>
-            </div>
-          </div>
-
-          
-
-          <div className="team-item margin-bottom--lg">
-            <div class="team-member text--center">
-              <div class="team-img">
-                <img src="img/competence-images/tom_freddy.webp" alt="" />
-              </div>
-              <div className='team-details'>
-              <h6 class="team-title">John Marshall</h6>
-              <p>Designer</p>
-              <div className='detail-email'>
-                <a href="mailto:webmaster@gmail.com"> <img src="img/email-icon.svg" alt="" />webmaster@gmail.com</a>
-                <a href="tel:+4733378901"> <img src="img/call-icon.svg" alt="" /> +47 333 78 901</a>
-               </div>
-              <a href='#' className='btn-book' title='book-meeting'>book a meeting</a>
-            </div>
-            </div>
-          </div>
-
-
-          <div className="team-item margin-bottom--lg">
-            <div class="team-member text--center">
-              <div class="team-img">
-                <img src="img/competence-images/tom_freddy.webp" alt="" />
-              </div>
-              <div className='team-details'>
-              <h6 class="team-title">John Marshall</h6>
-              <p>Designer</p>
-              <div className='detail-email'>
-                <a href="mailto:webmaster@gmail.com"> <img src="img/email-icon.svg" alt="" />webmaster@gmail.com</a>
-                <a href="tel:+4733378901"> <img src="img/call-icon.svg" alt="" /> +47 333 78 901</a>
-               </div>
-              <a href='#' className='btn-book' title='book-meeting'>book a meeting</a>
-            </div>
-            </div>
-          </div>
-
-
-          <div className="team-item margin-bottom--lg">
-            <div class="team-member text--center">
-              <div class="team-img">
-                <img src="img/competence-images/tom_freddy.webp" alt="" />
-              </div>
-              <div className='team-details'>
-              <h6 class="team-title">John Marshall</h6>
-              <p>Designer</p>
-              <div className='detail-email'>
-                <a href="mailto:webmaster@gmail.com"> <img src="img/email-icon.svg" alt="" />webmaster@gmail.com</a>
-                <a href="tel:+4733378901"> <img src="img/call-icon.svg" alt="" /> +47 333 78 901</a>
-               </div>
-              <a href='#' className='btn-book' title='book-meeting'>book a meeting</a>
-            </div>
-            </div>
-          </div>
-
-
-
-
-          
-
-          
-
+          ))}
         </div>
       </div>
     </section>

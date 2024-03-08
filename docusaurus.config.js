@@ -69,7 +69,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/digiquip-social-card.jpg',
       colorMode: {
         defaultMode: 'light',
@@ -125,12 +124,12 @@ const config = {
             position: 'left',
             sidebarid: 'tutorialSidebar',
           },
-          // {
-          //  to: '/price',
-          //  label: 'Pricing',
-          //  position: 'left',
-          //  sidebarid: 'tutorialSidebar',
-          // },
+          {
+            to: '/price',
+            label: 'Pricing',
+            position: 'left',
+            sidebarid: 'tutorialSidebar',
+          },
           {
             type: 'localeDropdown',
             position: 'right',
