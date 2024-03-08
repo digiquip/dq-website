@@ -22,10 +22,7 @@ const expertControlBannerData =
             <p><Translate>expertcontrol.banner.arg2</Translate></p>
         </>
     ),
-    img: "",
-    withPlay: youtubePlayList.expertControlVideoLink.withPaly,
-    withoutAutoPlay: youtubePlayList.expertControlVideoLink.withoutAutoPlay,
-    youtubeVideoBanner: youtubeVideoBanner,
+    img: "img/expert-control/expert-control-banner.jpg",
 }
 
 const easyFlowData =
