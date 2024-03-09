@@ -87,7 +87,7 @@ const expertInspContent = {
             <span className="orange">.</span>
         </h2>
     ),
-    img: require("@site/static/img/last.png").default,
+    img: require("@site/static/img/last.jpg").default,
     description: (
         <>
             <p><Translate>home.expert.arg1</Translate></p>
