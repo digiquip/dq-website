@@ -53,7 +53,7 @@ const teamDataSource =
     designation: 'CEO',
     emailAddress:'andreas@digiquip.no',
     mobileNumber:'+47 97599799',
-    image:'team_imgs/AndreasLydersen.png',
+    image:'team_imgs/andreas.jpg',
     contactLink: 'https://outlook.office.com/bookwithme/user/9f93e8df70fe42af9b51c1a8c7dc998a@digiquip.no?anonymous&ep=plink'
 }
 ]
