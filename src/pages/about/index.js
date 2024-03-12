@@ -41,9 +41,9 @@ function MeetTeam() {
                       {item.mobileNumber}
                     </a>
                   </div>
-                  <a href={`${item.contactLink}`} target="_blank" className='btn-book' title='book-meeting'> 
-                    <Translate>aboutus.team.button_lavel</Translate> 
-                  </a>
+                  {
+                    item.contactLink != '' ? <a href={`${item.contactLink}`} target="_blank" className='btn-book' title='book-meeting'> <Translate>aboutus.team.button_lavel</Translate> </a> : ''
+                  }
                 </div>
               </div>
             </div>
