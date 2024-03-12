@@ -16,7 +16,7 @@ export default function Banner(props) {
             <BrandLogo Img={data.img} width={''} height={''} alt={''} />
           </div>
           :
-         data.withoutAutoPlay && <VideoSection withoutAutoPlay={data.withoutAutoPlay} withPlay={data.withPlay} poster={data.youtubeVideoBanner} />
+         data.withPlay && <VideoSection withoutAutoPlay={data.withoutAutoPlay} withPlay={data.withPlay} poster={data.youtubeVideoBanner} />
         }
         <div className="row">
           <div className={clsx("col col--7")}>

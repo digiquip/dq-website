@@ -1,11 +1,15 @@
 import React from 'react';
 import Translate, {translate} from '@docusaurus/Translate';
 import PaginatorNavLink from '@theme/PaginatorNavLink';
+import SocialShare from '../../components/SocialShare';
+import { useBlogPost } from '@docusaurus/theme-common/internal';
 
 export default function BlogPostPaginatorWrapper(props) {
   const {nextItem, prevItem} = props;
-
+  const {metadata, isBlogPostPage} = useBlogPost();
   return (
+
+    <>  <SocialShare props={metadata} />
     <nav
       className="pagination-nav docusaurus-mt-lg blog-post-center"
       aria-label={translate({
@@ -39,5 +43,6 @@ export default function BlogPostPaginatorWrapper(props) {
         />
       )}
     </nav>
+    </>
   );
 }
