@@ -41,7 +41,7 @@ function MeetTeam() {
                       {item.mobileNumber}
                     </a>
                   </div>
-                  <a href={`${item.contantLink}`} className='btn-book' title='book-meeting'> 
+                  <a href={`${item.contactLink}`} target="_blank" className='btn-book' title='book-meeting'> 
                     <Translate>aboutus.team.button_lavel</Translate> 
                   </a>
                 </div>

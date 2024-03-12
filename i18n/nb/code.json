@@ -798,11 +798,11 @@
 },
 
 "aboutus.team.title": {
-  "message":"Mød vores team",
+  "message":"Møt teamet",
   "description": "The title of team section in the aboutus page"
 },
 "aboutus.team.button_lavel": {
-  "message":"book et møde",
+  "message":"Avtal et møte",
   "description": "The button lavel of team section in the aboutus page"
 }
 }

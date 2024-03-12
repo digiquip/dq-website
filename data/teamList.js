@@ -6,28 +6,55 @@ const teamDataSource =
     id:1,
     fullName: 'Tom Freddy Braathen',
     designation: 'Chief Commercial Officer',
-    emailAddress:'webmaster@gmail.com',
-    mobileNumber:'+47 333 78 901',
+    emailAddress:'tfb@digiquip.no',
+    mobileNumber:'+47 45488525',
     image:'img/competence-images/tom_freddy.webp',
-    contantLink: 'https://outlook.office.com/bookwithme/user/91ccd91ccb974029aaff26e951e8fe2f%40digiquip.no/meetingtype/09705449-c7ee-4131-b1b9-3e961b18baf2?anonymous'
+    contactLink: ''
 },
 {
     id:2,
     fullName: 'Cathrine Westbye',
-    designation: 'Marketing Expert',
-    emailAddress:'webmaster@gmail.com',
-    mobileNumber:'+47 333 78 901',
+    designation: 'Solution Manager, Competence',
+    emailAddress:'cw@digiquip.no',
+    mobileNumber:'+47 90470526',
     image:'team_imgs/CathrineWestbye.jpeg',
-    contantLink: 'https://outlook.office.com/bookwithme/user/91ccd91ccb974029aaff26e951e8fe2f%40digiquip.no/meetingtype/09705449-c7ee-4131-b1b9-3e961b18baf2?anonymous'
+    contactLink: ''
 },
 {
     id:3,
+    fullName: 'Ibtisam Andersen',
+    designation: 'Solution Manager, Controls',
+    emailAddress:'ibtisam@digiquip.no',
+    mobileNumber:'+47 96861313',
+    image:'team_imgs/ibtisam.jpeg',
+    contactLink: ''
+},
+{
+    id:4,
+    fullName: 'Kevin André Hovland',
+    designation: 'Support Engineer',
+    emailAddress:'kah@digiquip.no',
+    mobileNumber:'+47 41371495',
+    image:'team_imgs/kevin.jpg',
+    contactLink: ''
+},
+{
+    id:3,
+    fullName: 'Lars Sørby',
+    designation: 'Founder',
+    emailAddress:'lars@digiquip.no',
+    mobileNumber:'+47 41339219',
+    image:'team_imgs/lars.jpg',
+    contactLink: ''
+},
+{
+    id:5,
     fullName: 'Andreas Lydersen',
-    designation: 'Product Expert',
-    emailAddress:'webmaster@gmail.com',
-    mobileNumber:'+47 333 78 901',
+    designation: 'CEO',
+    emailAddress:'andreas@digiquip.no',
+    mobileNumber:'+47 97599799',
     image:'team_imgs/AndreasLydersen.png',
-    contantLink: 'https://outlook.office.com/bookwithme/user/91ccd91ccb974029aaff26e951e8fe2f%40digiquip.no/meetingtype/09705449-c7ee-4131-b1b9-3e961b18baf2?anonymous'
+    contactLink: 'https://outlook.office.com/bookwithme/user/9f93e8df70fe42af9b51c1a8c7dc998a@digiquip.no?anonymous&ep=plink'
 }
 ]
 
