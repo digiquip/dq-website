@@ -48,9 +48,9 @@ const brandList = [
       alt: "",
     },
     {
-      Img: "img/partner-logos/renta.svg",
-      width: 141,
-      height: 110,
+      Img: "img/partner-logos/renta.png",
+      width: 120,
+      height: 51,
       alt: "",
     },
   ];
