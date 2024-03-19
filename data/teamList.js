@@ -9,7 +9,7 @@ const teamDataSource =
     emailAddress:'tfb@digiquip.no',
     mobileNumber:'+47 45488525',
     image:'img/competence-images/tom_freddy.webp',
-    contactLink: ''
+    contactLink: 'https://outlook.office.com/bookwithme/user/738fbc66e13643ae8133926efedcf889@digiquip.no/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?anonymous&ep=mcard'
 },
 {
     id:2,
@@ -18,7 +18,7 @@ const teamDataSource =
     emailAddress:'cw@digiquip.no',
     mobileNumber:'+47 90470526',
     image:'team_imgs/CathrineWestbye.jpeg',
-    contactLink: ''
+    contactLink: 'https://outlook.office.com/bookwithme/user/91ccd91ccb974029aaff26e951e8fe2f%40digiquip.no/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?anonymous&isanonymous=true'
 },
 {
     id:3,
@@ -34,7 +34,7 @@ const teamDataSource =
     fullName: 'Kevin André Hovland',
     designation: 'Support Engineer',
     emailAddress:'kah@digiquip.no',
-    mobileNumber:'+47 41371495',
+    mobileNumber:'+47 99260197',
     image:'team_imgs/kevin.jpg',
     contactLink: ''
 },
