@@ -45,7 +45,7 @@ const teamDataSource =
     emailAddress:'lars@digiquip.no',
     mobileNumber:'+47 41339219',
     image:'team_imgs/lars.jpg',
-    contactLink: ''
+    contactLink: 'https://outlook-sdf.office.com/bookwithme/user/b65c9380e5e34e97ad39e8386158d7dd@digiquip.no/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?anonymous&ep=mcard'
 },
 {
     id:5,
