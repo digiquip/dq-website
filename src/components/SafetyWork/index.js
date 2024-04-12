@@ -25,6 +25,7 @@ export default function SafetyWork({title, description, withoutAutoPlay, withPla
               <iframe
                 src={value ? withPlay : withoutAutoPlay}
                 title="Understanding DigiQuip"
+                referrerPolicy="strict-origin-when-cross-origin"
               ></iframe>
               {value ? (
                 ""

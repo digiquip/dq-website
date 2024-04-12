@@ -8,7 +8,7 @@ const youtubeVideoBanner = 'img/iframe-banner.jpg';
 const safetyWork = [
     {
         title: translate({ message: "home.safety.title" }),
-        withPlay: youtubePlayList.safetyVideoLink.withPaly,
+        withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
         withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
         youtubeVideoBanner: youtubeVideoBanner,
         description: (

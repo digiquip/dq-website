@@ -27,6 +27,7 @@ export default function VideoSection({ withoutAutoPlay, withPlay, poster }) {
        src={value ? withPlay : withoutAutoPlay}
        title="Understanding DigiQuip"
        allow="autoplay"
+       referrerPolicy="strict-origin-when-cross-origin"
      ></iframe>
      {value ? (
        ""

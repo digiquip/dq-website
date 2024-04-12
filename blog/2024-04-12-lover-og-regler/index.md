@@ -19,7 +19,7 @@ Det er viktig å huske at disse lovene og forskriftene ikke er ment som hindre, 
 ## Så hva skjer når en maskinfører skanner en DigiQuip QR-kode? 
 I denne videoen viser jeg hvor mye viktig informasjon som er samlet et sted, og som kun er et tastetrykk unna via en QR-kode.
 
-<iframe width="700" height="680" src="https://www.youtube.com/embed/3gABhbtYzXA?si=k-jwr_LVfoIKwiE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="680" src="https://www.youtube-nocookie.com/embed/3gABhbtYzXA?si=k-jwr_LVfoIKwiE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Vil du vite mer?
 Jeg kan nås på telefon 41 33 92 19, e-post lars@digiquip.no 

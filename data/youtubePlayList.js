@@ -1,29 +1,33 @@
+const youtube_url = "https://www.youtube-nocookie.com/embed/";
+const youtube_autoplay = "?autoplay=1";
+const youtube_noautoplay = "?autoplay=0";
+const youtube_params = "&cc_load_policy=0&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&playsinline=1&rel=0&wmode=opaque&start=0";
+const youtube_widgetid = "&widgetid=";
 
 const safetyVideoLink =
 {
-
-    withoutAutoPlay: "https://www.youtube.com/embed/HHi45YCFPBc?autoplay=0&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=1",
-    withPaly: "https://www.youtube.com/embed/HHi45YCFPBc?autoplay=1&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=1"
+    withoutAutoPlay: youtube_url + "HHi45YCFPBc" + youtube_noautoplay + youtube_params + youtube_widgetid + "1",
+    withAutoPlay: youtube_url + "HHi45YCFPBc" + youtube_autoplay + youtube_params + youtube_widgetid + "1"
 }
 
 const easyflowVideoLink = {
-    withoutAutoPlay: "https://www.youtube.com/embed/Lgg8cZHoiH4?autoplay=0&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=4",
-    withPaly: "https://www.youtube.com/embed/Lgg8cZHoiH4?autoplay=1&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=4"
+    withoutAutoPlay: youtube_url + "Lgg8cZHoiH4" + youtube_noautoplay + youtube_params + youtube_widgetid + "4",
+    withAutoPlay: youtube_url + "Lgg8cZHoiH4" + youtube_autoplay + youtube_params + youtube_widgetid + "4"
 }
 
 const inspectionVideoLink = {
-    withoutAutoPlay: "https://www.youtube.com/embed/aKWABYqQR2Q?autoplay=0&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=3",
-    withPaly: "https://www.youtube.com/embed/aKWABYqQR2Q?autoplay=1&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=3"
+    withoutAutoPlay: youtube_url + "aKWABYqQR2Q" + youtube_noautoplay + youtube_params + youtube_widgetid + "3",
+    withAutoPlay: youtube_url + "aKWABYqQR2Q" + youtube_autoplay + youtube_params + youtube_widgetid + "3"
 }
 
 const logsVideoLink = {
-    withoutAutoPlay: "https://www.youtube.com/embed/jxjmZ4mG1tA?autoplay=0&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=2",
-    withPaly: "https://www.youtube.com/embed/jxjmZ4mG1tA?autoplay=1&cc_load_policy=0&controls=2&disablekb=0&enablejsapi=1&fs=1&iv_load_policy=3&modestbranding=0&origin=https%3A%2F%2Fstg.digiquip.com&playsinline=1&rel=0&wmode=opaque&start=0&widgetid=2"
+    withoutAutoPlay: youtube_url + "jxjmZ4mG1tA" + youtube_noautoplay + youtube_params + youtube_widgetid + "2",
+    withAutoPlay: youtube_url + "jxjmZ4mG1tA" + youtube_autoplay + youtube_params + youtube_widgetid + "2"
 }
 
 const easyTraining = {
-    withoutAutoPlay: 'https://www.youtube.com/embed/WWZ7bptGkA8?autoplay=0&amp;cc_load_policy=0&amp;controls=2&amp;disablekb=0&amp;enablejsapi=1&amp;fs=1&amp;iv_load_policy=3&amp;modestbranding=0&amp;origin=https%3A%2F%2Fstg.digiquip.com&amp;playsinline=1&amp;rel=0&amp;wmode=opaque&amp;start=0&amp;widgetid=1',
-    withPlay: 'https://www.youtube.com/embed/WWZ7bptGkA8?autoplay=1&amp;cc_load_policy=0&amp;controls=2&amp;disablekb=0&amp;enablejsapi=1&amp;fs=1&amp;iv_load_policy=3&amp;modestbranding=0&amp;origin=https%3A%2F%2Fstg.digiquip.com&amp;playsinline=1&amp;rel=0&amp;wmode=opaque&amp;start=0&amp;widgetid=1'
+    withoutAutoPlay: youtube_url + "WWZ7bptGkA8" + youtube_noautoplay + youtube_params + youtube_widgetid + "1",
+    withAutoPlay: youtube_url + "WWZ7bptGkA8" + youtube_autoplay + youtube_params + youtube_widgetid + "1"
 }
 
 const youtubePlayList = {
