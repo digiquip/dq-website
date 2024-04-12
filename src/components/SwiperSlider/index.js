@@ -30,6 +30,7 @@ export default function SwiperSlider() {
               allowFullScreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               title="Husqvarna K535i Liten kappsag - Hvordan bruke"
+              referrerPolicy="strict-origin-when-cross-origin"
               src={playVideo ? youtubePlayList.easyTraining.withPlay : youtubePlayList.easyTraining.withoutAutoPlay}>
 
             </iframe>

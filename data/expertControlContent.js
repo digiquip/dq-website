@@ -54,7 +54,7 @@ const easyFlowData =
             </ul>
         </>
     ),
-    withPlay: youtubePlayList.easyflowVideoLink.withPaly,
+    withPlay: youtubePlayList.easyflowVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.easyflowVideoLink.withoutAutoPlay,
     youtubeVideoBanner: youtubeEasyFlowVideoBanner,
 }
@@ -87,7 +87,7 @@ const inspectionData =
             </ul>
         </>
     ),
-    withPlay: youtubePlayList.inspectionVideoLink.withPaly,
+    withPlay: youtubePlayList.inspectionVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.inspectionVideoLink.withoutAutoPlay,
     youtubeVideoBanner: youtubeInspectionVideoBanner,
 }
@@ -121,7 +121,7 @@ const logsData =
             </ul>
         </>
     ),
-    withPlay: youtubePlayList.logsVideoLink.withPaly,
+    withPlay: youtubePlayList.logsVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.logsVideoLink.withoutAutoPlay,
     youtubeVideoBanner: youtubeLogsVideoBanner,
 }
