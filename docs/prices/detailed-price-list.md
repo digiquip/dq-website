@@ -58,7 +58,7 @@ Ved oppstart påløper en etableringskostnad på 5000 kroner. Tjenester og bista
 
 Se ["Generelle avtalevilkår"](https://digiquip.no/docs/legal/terms#6-vederlag-og-betalingsbestemmelser) for vilkår knyttet til prisjusteringer.
 
-For spørsmål om priser, kontakt Tom Freddy for en nærmere prat på tfb@digiquip.no eller telefon +47 90 77 35 24.
+For spørsmål om priser, kontakt Tom Freddy for en nærmere prat på tfb@digiquip.no eller telefon +47 45 48 85 25.
 
 ## Etiketter  
 
