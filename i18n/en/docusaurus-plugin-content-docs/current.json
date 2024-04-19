@@ -3,24 +3,28 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.DigiQuip use cases": {
-    "message": "DigiQuip use cases",
-    "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Legal stuff": {
+  "sidebar.tutorialSidebar.category.Juridisk": {
     "message": "Legal stuff",
     "description": "The label for category Legal stuff in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Good to know": {
+  "sidebar.tutorialSidebar.category.Hendig informasjon": {
     "message": "Good to know",
     "description": "The label for category Good to know in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.For developers": {
+  "sidebar.tutorialSidebar.category.For utviklere": {
     "message": "For developers",
     "description": "The label for category For developers in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Brand material": {
+  "sidebar.tutorialSidebar.category.Designguide": {
     "message": "Brand material",
     "description": "The label for category Brand material in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Om løsningene våre": {
+    "message": "About our solutions",
+    "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Priser": {
+    "message": "Pricing",
+    "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
   }
 }

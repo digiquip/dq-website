@@ -1,4 +1,8 @@
 {
+  "theme.generic.and": {
+    "message": "og",
+    "description": "The conjunction used to join two words or phrases"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Denne siden kræsjet.",
     "description": "The title of the fallback page when the page crashed"
@@ -668,6 +672,14 @@
   "modellibrary.easy_training.arg3": {
     "message": "Vi samarbeider tett med våre kunder - eksempelvis",
     "description": "The third argument of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg3_part2": {
+    "message": "og vår partner",
+    "description": "and our partner"
+  },
+  "modellibrary.easy_training.arg3_part3": {
+    "message": "for å sikre optimalt resultat ut ifra tid og ressurser",
+    "description": "to ensure a successful outcome with optimal use of time and resources"
   },
   "modellibrary.easy_training.arg4": {
     "message": "for en uforpliktende prat om deres behov, så finner vi en god løsning.",
