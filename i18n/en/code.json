@@ -1,4 +1,8 @@
 {
+  "theme.generic.and": {
+    "message": "and",
+    "description": "The conjunction used to join two words or phrases"
+  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
@@ -667,6 +671,14 @@
   "modellibrary.easy_training.arg3": {
     "message": "We work closely with our clients - such as",
     "description": "The third argument of the easy training section on the model library page"
+  },
+  "modellibrary.easy_training.arg3_part2": {
+    "message": "and our partner",
+    "description": "and our partner"
+  },
+  "modellibrary.easy_training.arg3_part3": {
+    "message": "to ensure a successful outcome with optimal use of time and resources",
+    "description": "to ensure a successful outcome with optimal use of time and resources"
   },
   "modellibrary.easy_training.arg4": {
     "message": "us for a non-binding discussion about your needs, and we’ll find a good solution together.",
