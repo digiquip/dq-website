@@ -6,12 +6,6 @@ const brandList = [
       alt: "",
     },
     {
-      Img: "img/partner-logos/fosby-logo.svg",
-      width: 64,
-      height: 64,
-      alt: "",
-    },
-    {
       Img: "img/partner-logos/hesselberg-logo.svg",
       width: 184,
       height: 24,
@@ -51,6 +45,12 @@ const brandList = [
       Img: "img/partner-logos/renta.png",
       width: 120,
       height: 51,
+      alt: "",
+    },
+    {
+      Img: "img/partner-logos/ramirent.png",
+      width: 143,
+      height: 24,
       alt: "",
     },
   ];
