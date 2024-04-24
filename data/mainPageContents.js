@@ -1,6 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate';
 import youtubePlayList from './youtubePlayList.js'
 import partnersBrandLogoList from './partnersBrandLogo.js';
+import eventDetail from './eventContant.js';
+
 import Link from '@docusaurus/Link';
 
 const youtubeVideoBanner = 'img/iframe-banner.jpg';
@@ -20,18 +22,6 @@ const safetyWork = [
     },
 ];
 
-const eventBlock = {
-    event: <Translate>home.event.type</Translate>,
-    date : <Translate>home.event.date</Translate>,
-    title: <Translate>home.event.title</Translate>,
-    description: <Translate>home.event.description</Translate>,
-    signup: <Translate>home.event.signup</Translate>,
-    presentors: [
-        {name: 'Tom Freddy Braathen', image: 'img/competence-images/tom_freddy.webp'},
-        {name: 'Cathrine Westbye', image: 'team_imgs/CathrineWestbye.jpeg'},
-        {name: 'Ibtisam Andersen', image: 'team_imgs/ibtisam.jpeg'},
-    ]
-};
 
 const safeuseContent = {
     className: "sikker-bruk light-bg-grey",
@@ -113,9 +103,8 @@ const expertInspContent = {
     link: "expertcontrol",
 }
 
-
 const brandLogoPartners = partnersBrandLogoList.brandList;
-
+const eventBlock = eventDetail;
 
 const mainPageContentRecords = {
     safetyWork,

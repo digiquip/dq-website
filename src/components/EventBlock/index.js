@@ -17,9 +17,9 @@ export default function EventBlock(props) {
             <h5 className="">{date}</h5>
         <div className="row">
           <div className={clsx("col col--7")}>
-            <h3>{title}</h3>
+            <h3>{title}<span className="orange">.</span></h3>
             <p>{description}</p>
-            <Button label={signup} link="#" />
+            <Button label={signup} link="/event" />
           </div>
           <div className={clsx("col col--5")}>
             <div className="presentors">
