@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[7194],{5104:e=>{e.exports=JSON.parse('{"label":"M-REG","permalink":"/en/blog/tags/m-reg","allTagsPath":"/en/blog/tags","count":1,"unlisted":false}')}}]);

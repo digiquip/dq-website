@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digiquip.no/blog</id>
     <title>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</title>
-    <updated>2024-04-12T00:00:00.000Z</updated>
+    <updated>2024-04-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://digiquip.no/blog"/>
     <subtitle>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</subtitle>
     <icon>https://digiquip.no/img/dq.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Pon Cat innleder strategisk samarbeid med DigiQuip for å forbedre digital opplæring gjennom Maskinregisterets QR-kode]]></title>
+        <id>https://digiquip.no/blog/pon-cat</id>
+        <link href="https://digiquip.no/blog/pon-cat"/>
+        <updated>2024-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lillestrøm, 25.4.24 - Pon Cat, Norges ledende leverandør av Caterpillar-maskiner, kunngjør en banebrytende utvidelse av sitt tilbud gjennom et nytt samarbeid med DigiQuip.]]></summary>
+        <content type="html"><![CDATA[<p>Lillestrøm, 25.4.24 - Pon Cat, Norges ledende leverandør av Caterpillar-maskiner, kunngjør en banebrytende utvidelse av sitt tilbud gjennom et nytt samarbeid med DigiQuip.</p>
+<p>Dette partnerskapet vil direkte integrere DigiQuips innovative digitale opplæringsteknologier i Pon Cats produktportefølje, tilgjengelig via QR-koder på maskinene registrert i Maskinregisteret (M-REG). Dette radikalt forenkler måten maskinførere lærer og interagerer med utstyret på og øker både sikkerhet og effektivitet.</p>
+<p><img decoding="async" loading="lazy" alt="Fra venstre: Andreas Lydersen, daglig leder DigiQuip, Ole Petter Holene, adm.dir. Pon Equipment, og Roar Sømoen, daglig leder Sentralregisteret. (Foto: Njål Hagen)" src="https://digiquip.no/assets/images/pon-cat-mreg-918f1d8d47bfb8f1c10ccda42bd0bae7.jpg" width="1000" height="655" class="img_ev3q"></p>
+<p><strong>Revolusjonerende tilgang til opplæring og sikkerhetskontroller</strong>
+Ved å skanne Maskinsregisterets QR-kode på maskinen, vil brukere enkelt finne DigiQuips system for å gjennomføre utstyrsspesifikk opplæring for nettopp den maskinen de arbeider med. I tillegg vil DigiQuip tilby muligheter for å verifisere sertifisert opplæring og utføre daglige sikkerhetskontroller. "Vi i Pon Cat kan maskinene vi selger, og den kunnskapen ønsker vi å dele digitalt med våre kunder. DigiQuip’s initiativ for å tilrettelegge for trygg bruk av maskiner passer godt inn i vår filosofi, for trygghet er noe av det viktigste vi kan gi våre kunder," sier Ole Petter Holene, administrerende direktør i Pon Cat.</p>
+<p><strong>Forbedret sikkerhet og effektivitet for maskinførere</strong>
+Denne tjenesten representerer et signifikant fremskritt i måten Pon Cat fremmer både læring og sikkerhet på arbeidsplassen. "Vårt mål er å gjøre opplæring mer tilgjengelig og relevant for våre kunder, og dermed øke både effektivitet og sikkerhet," legger Holene til.</p>
+<p><strong>Engasjer deg i en tryggere og mer informert fremtid</strong>
+Vi oppfordrer alle kunder og interessenter til å benytte seg av denne nye muligheten. For ytterligere informasjon, besøk Pon Cat og DigiQuip sine nettsider eller kontakt våre presseansvarlige.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="om-pon-cat">Om Pon Cat<a href="https://digiquip.no/blog/pon-cat#om-pon-cat" class="hash-link" aria-label="Direkte link til Om Pon Cat" title="Direkte link til Om Pon Cat">​</a></h3>
+<p>Pon Cat er den autoriserte forhandleren av Caterpillar i Norge, og tilbyr robuste løsninger og service til en rekke industrielle behov.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="om-digiquip">Om DigiQuip<a href="https://digiquip.no/blog/pon-cat#om-digiquip" class="hash-link" aria-label="Direkte link til Om DigiQuip" title="Direkte link til Om DigiQuip">​</a></h3>
+<p>Digiquip er navet som enkelt kobler maskin- og utstyrsparken din med all dokumentasjon, kontrollrutiner, krav til sertifikat og nødvendig opplæring – slik at riktig folk bruker riktig maskin på riktig måte.</p>
+<p>Ta kontakt for en demo eller for å komme igang med våre løsninger.</p>
+<p><strong>Tom Freddy Braathen</strong>
+<a href="mailto:tfb@digiquip.no" target="_blank" rel="noopener noreferrer">tfb@digiquip.no</a>
++47-454-88-525</p>
+<p><strong>Andreas N. Lydersen</strong>
+<a href="mailto:andreas@digiquip.no" target="_blank" rel="noopener noreferrer">andreas@digiquip.no</a>
++47-975-99-799</p>]]></content>
+        <author>
+            <name>Andreas N. Lydersen</name>
+            <uri>https://github.com/alydersen</uri>
+        </author>
+        <category label="pressemeldinger" term="pressemeldinger"/>
+        <category label="integrasjoner" term="integrasjoner"/>
+        <category label="M-REG" term="M-REG"/>
+        <category label="Sentralregisteret" term="Sentralregisteret"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Trygg maskin- og utstyrsbruk]]></title>
         <id>https://digiquip.no/blog/trygg-maskin-og-utstyrsbruk</id>

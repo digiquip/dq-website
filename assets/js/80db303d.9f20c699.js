@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[3572],{1464:e=>{e.exports=JSON.parse('{"label":"pressemeldinger","permalink":"/blog/tags/pressemeldinger","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
