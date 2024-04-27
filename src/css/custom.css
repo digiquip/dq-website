@@ -539,6 +539,15 @@
    padding: 0rem 4rem 3rem 4rem;
    background-color: #fff;
  }
+ .our-partners-section .brand-carousel-item {
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .our-partners-section .brand-carousel-item a{
+  display: block;
+ }
  
  .banner-img {
    overflow: hidden;

@@ -38,12 +38,12 @@ function OurPartners(props) {
     slidesToSlide: 1,
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1024, min: 580 },
     items: 4,
     slidesToSlide: 1,
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 580, min: 0 },
     items: 2,
     slidesToSlide: 1,
   },
@@ -58,23 +58,19 @@ function OurPartners(props) {
         <Carousel
           responsive={responsive}
           autoPlay={true}
-          autoPlaySpeed={4000}
+          autoPlaySpeed={2000}
           infinite={true}
           arrows={false}
+          draggable={false}
         >
-      {brandList.map((props, idx) => (
-          <div className='brand-logo'  key={idx}>
-            <a href={props.link} target="_blank">
-            <BrandLogo key={idx} {...props} />
-            </a>
-          </div>
-        ))}
+          {brandList.map((props, idx) => (
+              <div className='brand-logo brand-carousel-item'  key={idx}>
+                <a href={props.link} target="_blank">
+                <BrandLogo key={idx} {...props} />
+                </a>
+              </div>
+            ))}
         </Carousel>
-        {/* {brandList.map((props, idx) => (
-          <div className='brand-logo'>
-            <BrandLogo key={idx} {...props} />
-          </div>
-        ))} */}
       </div>
     </section>
   );
