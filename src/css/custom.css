@@ -505,6 +505,66 @@
  }
  
  /* NAVBAR CSS */
+
+
+/* EVENT BLOCK CSS */
+
+.event-block-section {
+  color: #fff;
+  padding: 5rem 0px;
+  background-color: var(--ifm-color-primary);
+}
+.event-block-section .ebtitle {
+  padding: 1px;
+  border-bottom: 2px solid var(--ifm-color-primary-light);
+  display: inline-block;
+}
+.event-block-section h5 {
+  font-size: 15px;
+}
+.event-block-section .presentors {
+  display: flex;
+  justify-content: space-evenly;
+}
+.event-block-section .presentors .presenter {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  flex-direction: column;
+}
+.event-block-section .presentors .presenter p {
+  font-size: 14px;
+}
+.event-block-section .presentors .team-image{
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  margin: 0rem auto 1.3rem;
+  border: solid 0.2rem var(--ifm-color-orange);
+  max-width: 143px;
+}
+
+@media(max-width:996px) {
+  .event-block-section .presentors {
+    margin-top: 3rem;
+  }
+  .event-block-section .presentors .team-image {
+    max-width: 100px;
+  }
+}
+@media(max-width:576px) {
+  .event-block-section .presentors {
+    flex-direction: column;
+  }
+  .event-block-section .presentors .team-image {
+    max-width: 140px;
+  }
+  .event-block-section .presentors .team-image {
+    margin: 0rem auto 0.5rem;
+  }
+}
+  /* EVENT BLOCK CSS */
+
  
  .hero {
    text-align: left !important;

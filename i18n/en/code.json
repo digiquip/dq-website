@@ -823,5 +823,26 @@
 "aboutus.team.button_lavel": {
   "message":"book a meeting",
   "description": "The button lavel of team section in the aboutus page"
+},
+
+"home.event.type": {
+  "message":"Wabinar",
+  "description": "The event type in the home page"
+},
+"home.event.date": {
+  "message":"Thursday 25 April 09:00-10:00",
+  "description": "The event start time in the home page"
+},
+"home.event.title": {
+  "message":"Use your customer data in several marketing channels",
+  "description": "The title of event in the home page"
+},
+"home.event.description": {
+  "message":"Do you want to ensure a better customer experience with the use of customer data, also on the website? In this webinar, we take you through how to collect and utilize customer data in the best possible way, so that customers keep coming back to you.",
+  "description": "The description of event in home page"
+},
+"home.event.signup": {
+  "message":"Sign up here",
+  "description": "The signup button of event in the home page"
 }
 }
