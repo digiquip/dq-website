@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[2924],{583:e=>{e.exports=JSON.parse('{"label":"oppl\xe6ring","permalink":"/blog/tags/opplaering","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
