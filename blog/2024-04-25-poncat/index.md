@@ -29,7 +29,7 @@ Pon Cat er den autoriserte forhandleren av Caterpillar i Norge, og tilbyr robust
 
 ### Om DigiQuip
 
-Digiquip er navet som enkelt kobler maskin- og utstyrsparken din med all dokumentasjon, kontrollrutiner, krav til sertifikat og nødvendig opplæring – slik at riktig folk bruker riktig maskin på riktig måte. 
+DigiQuip er navet som enkelt kobler maskin- og utstyrsparken din med all dokumentasjon, kontrollrutiner, krav til sertifikat og nødvendig opplæring – slik at riktig folk bruker riktig maskin på riktig måte. 
 
 Ta kontakt for en demo eller for å komme igang med våre løsninger.
 

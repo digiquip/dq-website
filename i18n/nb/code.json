@@ -743,7 +743,7 @@
   "description": "The first argument of the inspection section in the expert control page"
 },
 "expertcontrol.inspection.point1": {
-  "message": "Gjennom vår integrasjon med Digiquip gir vi maskineiere enkel tilgang til kontrollhistorikken for sine maskiner",
+  "message": "Gjennom vår integrasjon med DigiQuip gir vi maskineiere enkel tilgang til kontrollhistorikken for sine maskiner",
   "description": "The first point of the inspection section on the expert control page"
 },
 "expertcontrol.inspection.point2": {
@@ -820,7 +820,7 @@
 
 
 "home.event.type": {
-  "message":"Wabinar",
+  "message":"Webinar",
   "description": "The event type in the home page"
 },
 "home.event.date": {

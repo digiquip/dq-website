@@ -826,7 +826,7 @@
 },
 
 "home.event.type": {
-  "message":"Wabinar",
+  "message":"Webinar",
   "description": "The event type in the home page"
 },
 "home.event.date": {

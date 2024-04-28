@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import clsx from "clsx";
 import MainLayout from "../../components/MainLayout";
-import eventDetail from "../../../data/eventContant";
+import eventDetail from "../../../data/eventContent";
 
 function EventDetail() {
 

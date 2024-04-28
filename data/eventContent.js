@@ -13,8 +13,4 @@ const eventDetail = {
     ]
 };
 
-// const eventDetail = {
-//     eventBLock
-// }
-
 export default eventDetail
