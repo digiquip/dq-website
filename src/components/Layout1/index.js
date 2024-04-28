@@ -58,8 +58,7 @@ function OurPartners(props) {
 export default function Layout1() {
 
 const [safetyWorkContent , setSafetyWorkContent] = useState([])
-const [eventBLockContent , seteventBLockContent] = useState([])
-
+const [eventBlockContent , setEventBlockContent] = useState([])
 const [brandList , setBrandList] = useState([])
 const [safeuseContent , setSafeuseContent] = useState({})
 const [consolidateContent , setConsolidateContent] = useState({})
@@ -70,7 +69,7 @@ useEffect(() => {
   let ignore = false;
     if (!ignore) {
       setSafetyWorkContent(mainPageContentRecords.safetyWork);
-      seteventBLockContent(mainPageContentRecords.eventBlock);
+      setEventBlockContent(mainPageContentRecords.eventBlock);
       setBrandList(mainPageContentRecords.brandLogoPartners);
       setSafeuseContent(mainPageContentRecords.safeuseContent);
       setConsolidateContent(mainPageContentRecords.consolidateWorkContent);
@@ -82,16 +81,16 @@ useEffect(() => {
     ignore = true;
   }
  
-}, [safetyWorkContent, eventBLockContent, brandList, safeuseContent, consolidateContent, shareInfoContent, expertInspContent]);
+}, [safetyWorkContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent, expertInspContent]);
 
-
+// {eventBlockContent && <EventBlock record={eventBlockContent}/>}
 
   return (
     <section>
       {safetyWorkContent && safetyWorkContent.map((props, idx) => (
         <SafetyWork key={idx} {...props} />
       ))}
-      {eventBLockContent && <EventBlock record={eventBLockContent}/>}
+      
       {safeuseContent && <Safeuse items={safeuseContent}/>}
       {consolidateContent && <ConsolidateWork items={consolidateContent}/>}
       {shareInfoContent && <ShareInformation items={shareInfoContent}/>}

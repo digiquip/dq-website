@@ -1,7 +1,7 @@
 import Translate, { translate } from '@docusaurus/Translate';
 import youtubePlayList from './youtubePlayList.js'
 import partnersBrandLogoList from './partnersBrandLogo.js';
-import eventDetail from './eventContant.js';
+import eventDetail from './eventContent.js';
 
 import Link from '@docusaurus/Link';
 
