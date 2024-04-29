@@ -255,7 +255,7 @@ function PriceComponent() {
                                   <span className="sub-heading">Arbeidsutstyr</span>
                                   <span id="confCost">kr {equipmentCost}</span>
                                   {equipment > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {equipment} maskiner og utstyr)
+                                    <span className="avg-call-length-small">(Inntil {equipment} maskiner og utstyr)
                                     </span>
                                   </div>}
                                   <hr className="calculator-hr" />
@@ -266,7 +266,7 @@ function PriceComponent() {
                                   <span className="sub-heading">Personer</span>
                                   <span id="confCost">kr {peopleCost}</span>
                                   {people > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {people} personer)
+                                    <span className="avg-call-length-small">(Inntil {people} personer)
                                     </span>
                                   </div>}
                                   <hr className="calculator-hr" />
@@ -339,7 +339,7 @@ function PriceComponent() {
                                   <span className="sub-heading">Personer</span>
                                   <span id="confCost">kr {inspectorsCost}</span>
                                   {inspectors > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {inspectors} personer)
+                                    <span className="avg-call-length-small">(Inntil {inspectors} personer)
                                     </span>
                                   </div>}
                                   <hr className="calculator-hr" />
