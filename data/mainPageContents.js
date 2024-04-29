@@ -1,6 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate';
 import youtubePlayList from './youtubePlayList.js'
 import partnersBrandLogoList from './partnersBrandLogo.js';
+import eventDetail from './eventContent.js';
+
 import Link from '@docusaurus/Link';
 
 const youtubeVideoBanner = 'img/iframe-banner.jpg';
@@ -101,12 +103,12 @@ const expertInspContent = {
     link: "expertcontrol",
 }
 
-
 const brandLogoPartners = partnersBrandLogoList.brandList;
-
+const eventBlock = eventDetail;
 
 const mainPageContentRecords = {
     safetyWork,
+    eventBlock,
     safeuseContent,
     consolidateWorkContent,
     shareInfoContent,

@@ -1,4 +1,6 @@
 import HomepageFeatures from "../HomepageFeatures";
+import EventBlock from '../EventBlock';
+
 import BrandLogo from "../BrandLogo";
 import HomeContactBanner from "../HomeContactBanner";
 import SafetyWork from "../SafetyWork";
@@ -80,6 +82,7 @@ function OurPartners(props) {
 export default function Layout1() {
 
 const [safetyWorkContent , setSafetyWorkContent] = useState([])
+const [eventBlockContent , setEventBlockContent] = useState([])
 const [brandList , setBrandList] = useState([])
 const [safeuseContent , setSafeuseContent] = useState({})
 const [consolidateContent , setConsolidateContent] = useState({})
@@ -90,6 +93,7 @@ useEffect(() => {
   let ignore = false;
     if (!ignore) {
       setSafetyWorkContent(mainPageContentRecords.safetyWork);
+      setEventBlockContent(mainPageContentRecords.eventBlock);
       setBrandList(mainPageContentRecords.brandLogoPartners);
       setSafeuseContent(mainPageContentRecords.safeuseContent);
       setConsolidateContent(mainPageContentRecords.consolidateWorkContent);
@@ -101,16 +105,16 @@ useEffect(() => {
     ignore = true;
   }
  
-}, [safetyWorkContent, brandList, safeuseContent, consolidateContent, shareInfoContent, expertInspContent]);
+}, [safetyWorkContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent, expertInspContent]);
 
-
+// {eventBlockContent && <EventBlock record={eventBlockContent}/>}
 
   return (
     <section>
       {safetyWorkContent && safetyWorkContent.map((props, idx) => (
         <SafetyWork key={idx} {...props} />
       ))}
-    
+      
       {safeuseContent && <Safeuse items={safeuseContent}/>}
       {consolidateContent && <ConsolidateWork items={consolidateContent}/>}
       {shareInfoContent && <ShareInformation items={shareInfoContent}/>}

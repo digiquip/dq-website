@@ -4,7 +4,7 @@ sidebar_position: 5
 # Prisliste og etiketter
 *Sist oppdatert: 06.mars 2024*
 
-På denne siden finner du priser og informasjon om etiketter. 
+På denne siden finner du priser og informasjon om etiketter.
 
 Trenger du ikke en detaljert oversikt? Bruk vår [priskalkulator](https://digiquip.no/price) for et raskere prisoverslag.
 
@@ -37,7 +37,7 @@ Antall personer|Pris per måned|
 |Flere?|Ta kontakt for pris.|
 
 :::tip
-Enkeltpersoner kan alltid registrere sin kompetanse i DigiQuip, og dette er gratis. Forskjellen fra prislisten over er at arbeidsgiver eller andre ikke oversikt. 
+Enkeltpersoner kan alltid registrere sin kompetanse i DigiQuip, og dette er gratis. Forskjellen fra prislisten over er at arbeidsgiver eller andre ikke får oversikt.
 :::
 
 ## BRAREG
@@ -91,4 +91,4 @@ Størrelse      | Pris        |
 
 ![BRAREG-labels](/img/BRAREG-labels.png)
 
-Send oss en e-post på support@digiquip.no for å bestille. 
+Send oss en e-post på support@digiquip.no for å bestille.

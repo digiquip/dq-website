@@ -17,7 +17,7 @@ Skann denne og test selv:
 
 import GenieGS1932 from '/img/GenieGS1932.png';
 
-<img src={GenieGS1932} alt="Siamese cat" style={{width:300}} />
+<img src={GenieGS1932} style={{width:300}} />
 
 ### Sakkyndig kontroll
 Sjekk om maskinen er kontrollert og se detaljer om siste inspeksjon.
@@ -43,13 +43,21 @@ Finn aktuelle brukermanualer.
 ### Start loggføring av vedlikehold
 Start loggføring av vedlikehold. Vedlikehold er en tilleggsmodul.
 
- Hvem kan se hva ||
-|--------------|--|
-|Sakkyndig kontroll|Alle|
-|Inspeksjon før bruk|Innlogget|
-|Utstyrsspesifikk opplæring|Innlogget|
-|Kompetansebevis|Innlogget|
-|Dokumenter|Alle|
-|Videoer|Alle|
-|Brukermanualer|Alle|
-|Vedlikehold|Innlogget|
+### Innhold og tilgang
+
+Hva brukerne som skanner QR-koden kan finne av informasjon og gjøre avhenger av om de er logget inn og type rolle i systemet.
+
+| | | |
+|--------------|--|-|
+|Sakkyndig kontrolldata|Alle| |
+|Gjennomføre daglig kontroll|Innloggede brukere| |
+|Utstyrsspesifikk opplæring|Innloggede brukere| Digital opplæring er kun tilgjengelig for organisasjonsbrukere* |
+|Kompetansebevis|Innloggede brukere| |
+|Dokumenter|Alle| |
+|Videoer|Alle| |
+|Brukermanualer|Alle| |
+|Vedlikehold|Innloggede brukere| Tilgjengelig dersom organisasjonen har modulen|
+
+*En organisasjonsbruker er en bruker som hører til en organisasjon som abonnerer på DigiQuip løsningen. De fleste utleieselskaper har derimot åpnet opp for at digital opplæring skal være tilgjengelig for alle registrerte brukere uavhengig organisasjon, det betyr at brukere kan registrere seg og få digital opplæring gratis.
+
+For ytterligere detaljer eller spørsmål ta kontakt med Tom Freddy på tfb@digiquip.no / +47 45 48 85 25, eller book et møte med den du vil fra teamet [book et møte](https://digiquip.no/about)

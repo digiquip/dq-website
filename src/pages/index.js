@@ -53,26 +53,6 @@ export default function Home() {
       }
     });
 
-
-
-    // let navLink = document.querySelectorAll('.navbar');
-    // let navLink1 = document.querySelector('.navbar');
-    // if (navLink) {
-    //   navLink.forEach(function (link) {
-    //     link.addEventListener('click', function (e) {
-    //       //e.preventDefault();
-    //       console.log(navLink)
-    //       setTimeout(() => {
-    //         navLink1.classList.add("my-class");
-    //         navLink1.classList.add("up");
-    //       })
-
-
-    //     })
-    //   })
-
-    // }
-
   })
 
   return (

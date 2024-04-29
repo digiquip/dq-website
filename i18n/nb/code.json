@@ -743,7 +743,7 @@
   "description": "The first argument of the inspection section in the expert control page"
 },
 "expertcontrol.inspection.point1": {
-  "message": "Gjennom vår integrasjon med Digiquip gir vi maskineiere enkel tilgang til kontrollhistorikken for sine maskiner",
+  "message": "Gjennom vår integrasjon med DigiQuip gir vi maskineiere enkel tilgang til kontrollhistorikken for sine maskiner",
   "description": "The first point of the inspection section on the expert control page"
 },
 "expertcontrol.inspection.point2": {
@@ -816,5 +816,27 @@
 "aboutus.team.button_lavel": {
   "message":"Avtal et møte",
   "description": "The button lavel of team section in the aboutus page"
+},
+
+
+"home.event.type": {
+  "message":"Webinar",
+  "description": "The event type in the home page"
+},
+"home.event.date": {
+  "message":"Torsdag 25. april 09:00-10:00",
+  "description": "The event start time in the home page"
+},
+"home.event.title": {
+  "message":"Bruk kundedataene dine i flere markedsføringskanaler",
+  "description": "The title of event in the home page"
+},
+"home.event.description": {
+  "message":"Ønsker du å sikre en bedre kundeopplevelse med bruk av kundedata, også på nettsiden? I dette webinaret tar vi deg gjennom hvordan du samler inn og utnytter kundedata på best mulig måte, slik at kundene stadig kommer tilbake til deg.",
+  "description": "The description of event in home page"
+},
+"home.event.signup": {
+  "message":"Meld deg på her",
+  "description": "The signup button of event in the home page"
 }
 }
