@@ -13,7 +13,7 @@ function PriceComponent() {
   const [people, setPeople] = useState(25);
   const [inspectors, setInspectors] = useState(2);
   const [equipmentMaxValue, setEquipmentMaxValue] = useState(7501);
-  const [peopleMaxValue, setpeopleMaxValue] = useState(501);
+  const [peopleMaxValue, setpeopleMaxValue] = useState(1001);
   const [inspectorsMaxValue, setInspectorsMaxValue] = useState(32);
   const [equipmentCost, setEquipmentCost] = useState(0);
   const [peopleCost, setPeopleCost] = useState(0);
@@ -58,11 +58,23 @@ function PriceComponent() {
         return 4990;
       case (param > 175 && param <= 250):
         return 6590;
-      case (param > 251 && param <= 500):
-        return 12490;
+      case (param > 250 && param <= 325):
+        return 8090;
+      case (param > 325 && param <= 400):
+        return 9490;
+      case (param > 400 && param <= 475):
+        return 10790;
+      case (param > 475 && param <= 550):
+        return 11990;
+      case (param > 550 && param <= 625):
+        return 13090;
+      case (param > 625 && param <= 700):
+        return 14090;
+      case (param > 700 && param <= 1000):
+        return 18090;
       default:
         setCustomPrice(true)
-        return 12490;
+        return 18090;
     }
   }
 
@@ -243,7 +255,7 @@ function PriceComponent() {
                                   <span className="sub-heading">Arbeidsutstyr</span>
                                   <span id="confCost">kr {equipmentCost}</span>
                                   {equipment > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {equipment} maskiner og utstyr)
+                                    <span className="avg-call-length-small">(Inntil {equipment} maskiner og utstyr)
                                     </span>
                                   </div>}
                                   <hr className="calculator-hr" />
@@ -254,7 +266,7 @@ function PriceComponent() {
                                   <span className="sub-heading">Personer</span>
                                   <span id="confCost">kr {peopleCost}</span>
                                   {people > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {people} personer)
+                                    <span className="avg-call-length-small">(Inntil {people} personer)
                                     </span>
                                   </div>}
                                   <hr className="calculator-hr" />
@@ -327,7 +339,7 @@ function PriceComponent() {
                                   <span className="sub-heading">Personer</span>
                                   <span id="confCost">kr {inspectorsCost}</span>
                                   {inspectors > 0 && <div className="conferencing-cost-text">
-                                    <span className="avg-call-length-small">( <span id="confMinutes">1</span> til {inspectors} personer)
+                                    <span className="avg-call-length-small">(Inntil {inspectors} personer)
                                     </span>
                                   </div>}
                                   <hr className="calculator-hr" />
