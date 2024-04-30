@@ -28,7 +28,7 @@ Number of people|Monthly costs|
 |Up to 100|3290|
 |Up to 175|4990|
 |Up to 250|6590|
-|Up to 325|10490|
+|Up to 325|8090|
 |Up to 400|9490|
 |Up to 475|10790|
 |Up to 550|11990|
