@@ -28,7 +28,13 @@ Number of people|Monthly costs|
 |Up to 100|3290|
 |Up to 175|4990|
 |Up to 250|6590|
-|Up to 500|12490|
+|Up to 325|10490|
+|Up to 400|9490|
+|Up to 475|10790|
+|Up to 550|11990|
+|Up to 625|13090|
+|Up to 700|14090|
+|Up to 1000|18090|
 
 :::tip
 Individuals can always register themselves and their competence for free in DigiQuip. The difference versus the paid version is that employers will not have access to the person nor get any overview of their competence.
