@@ -2356,6 +2356,17 @@ span#confCost {
   padding: 20px;
   border-radius: 8px;
 }
+.e-keydetails .e-keydetails-item .e-keydetails-title {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.e-keydetails .e-keydetails-item {
+  margin-bottom: 10px;
+}
+.e-keydetails .e-keydetails-item .e-keydetails-item-desc{
+  font-size: 14px;
+  margin-bottom: 0;
+}
 .signup-form-service input:not([type=submit]){padding: 12px 2px !important;}
 .signup-form-service p, .signup-form-service a, .eventpage-wrapper .presentors .presenter p {font-size: 14px;}
 .signup-form-service a {color: var(--ifm-color-orange);}
