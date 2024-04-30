@@ -14,8 +14,6 @@ for (let i = 1; i <= numKeyPoints; i++) {
     });
 }
 
-console.log(keyPoints)
-
 const eventDetail = {
     event: <Translate>home.event.type</Translate>,
     date : <Translate>home.event.date</Translate>,
