@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### Om logoen og hvordan vi bruker den
 
-> Hjelmen representerer våre brukere på anleggsplasser, samtidig som fargen representerer vårt mål om å bedre sikkerheten på alle plasser der det utføres arbeid og er avledet av varselsfargen (ANSI Z535). Fonten er basert på typen "Inter", som vi bruker i våre brukerflater.
+> Hjelmen representerer våre brukere på anleggsplasser, samtidig som fargen representerer vårt mål om å bedre sikkerheten på alle plasser der det utføres arbeid og er avledet av varselsfargen (ANSI Z535). Fonten er basert på typen "Inter".
 
 Sørg for å respektere minimum marg og størrelse:
 

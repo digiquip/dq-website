@@ -15,7 +15,7 @@
    --ifm-color-primary-lightest: #f8884b;
    --ifm-code-font-size: 95%;
    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-   --ifm-font-family-base: 'Inter';
+   --ifm-font-family-base: 'Lato';
    /* --ifm-color-orange: #f05a09; */
    --ifm-color-orange: #f05a09;
    --ifm-bg-grey:#f6f6f6;
@@ -34,85 +34,42 @@
    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
    --ifm-color-orange: #f05a09;
  }
- 
- /* font-face */
+
  @font-face {
-   font-family: 'Aeonik-regular';
-   src: url('/static/fonts/Aeonik-Light.woff2') format('woff2'),
-     url('/static/fonts/Aeonik-Medium.woff2') format('woff2'),
-     url('/static/fonts/Aeonik-Regular.woff2') format('truetype');
-   font-weight: normal;
-   font-style: normal;
-   font-display: swap;
- }
- 
- @font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-Thin.ttf') format('truetype');
+  font-family: 'Lato';
+  src: url('/static/fonts/Lato-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-ExtraLight.ttf') format('truetype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-Light.ttf') format('truetype');
+  font-family: 'Lato';
+  src: url('/static/fonts/Lato-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-Regular.ttf') format('truetype');
+  font-family: 'Lato';
+  src: url('/static/fonts/Lato-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-Bold.ttf') format('truetype');
+  font-family: 'Lato';
+  src: url('/static/fonts/Lato-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('/static/fonts/Inter-Black.ttf') format('truetype');
+  font-family: 'Lato';
+  src: url('/static/fonts/Lato-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -199,8 +156,8 @@
  
  /* button css end */
  .image-title {
-   font-size: 1rem;
-   line-height: 1.5rem;
+   font-size: 17px;
+   line-height: 25px;
    color: hsla(0, 0%, 7%, .8);
    padding-left: 0.375rem;
  }
@@ -214,43 +171,57 @@
  }
  
  h2 {
-   font-size: 2.5rem;
-   line-height: 3rem;
-   font-family: 'Aeonik-regular';
+   font-size: 40px;
+   line-height: 50px;
+   font-family: 'Lato';
  }
  
  h1 {
-   font-size: 2.5rem;
-   line-height: 3rem;
-   font-family: 'Aeonik-regular';
+   font-size: 40px;
+   line-height: 50px;
+   font-family: 'Lato';
  }
  
  h3 {
-   font-size: 2rem;
-   line-height: 2.375rem;
+   font-size: 30px;
+   line-height: 37px;
  }
  
  h5,
  p {
-   font-size: 1.25rem;
+   font-size: 17px;
  }
  
  p {
-   font-family: 'Inter', sans-serif;
-   line-height: 1.75rem;
+   font-family: 'Lato', sans-serif;
+   line-height: 25px;
  }
  
  .orange {
    color: var(--ifm-color-orange);
  }
  
+.footer__title {
+   font-size: 17px;
+   line-height: 25px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+ }
+
+ .footer__link-item {
+   font-size: 15px;
+   line-height: 25px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+ }
+
  h1,
  h2,
  h3,
  h4,
  h5,
  h6 {
-   font-family: Aeonik-Regular;
+   font-family: 'Lato', sans-serif;
    font-weight: 700;
  }
  
@@ -262,9 +233,9 @@
  }
  
  a {
-   font-size: 1.125rem;
-   line-height: 1.375rem;
-   font-family: 'Inter', sans-serif;
+   font-size: 17px;
+   line-height: 25px;
+   font-family: 'Lato', sans-serif;
    font-weight: 400;
  }
  
@@ -288,7 +259,7 @@
  }
  
 .navbar__items .navbar__item{
-  margin-left:2rem;
+  margin-left: 2rem;
  }
  .header-right .navbar__item{
   margin-left: 1.9rem;
@@ -299,8 +270,8 @@
   }
  nav .navbar__items a{
    position: relative;
-   font-size: 1.125rem;
-   line-height: 1.375rem;
+   font-size: 17px;
+   line-height: 25px;
    z-index: 1;
    color:currentColor;
    font-weight: 400;
@@ -520,7 +491,7 @@
   display: inline-block;
 }
 .event-block-section h5 {
-  font-size: 15px;
+  font-size: 17px;
 }
 .event-block-section .presentors {
   display: flex;
@@ -670,7 +641,7 @@
 }
 .swiper-button-next:after, .swiper-button-prev:after {
   color: rgb(255, 255, 255);
-  font-size: 15px !important;
+  font-size: 17px !important;
   font-weight: bold;
 }
 .swiper-pagination{
@@ -723,7 +694,7 @@ background-color: #fff;
 }
  .sikker-content ul li,
  .section-list li{ 
-   font-size: 1.25rem;
+   font-size: 17px;
    margin-bottom: 1rem;
    list-style: none;
    position: relative;
@@ -1037,11 +1008,11 @@ background-color: #fff;
 /* blog css */
 
 .table-of-contents__link {
-  font-size: 0.8rem;
+  font-size: 17px;
 }
 .menu__link{
-  font-weight: 600;
-  font-size: 0.8rem;
+  font-weight: 700;
+  font-size: 17px;
   color: #000;
   padding: 0.5rem 0.6rem;
 }
@@ -1053,15 +1024,15 @@ background-color: #fff;
   color:var(--ifm-color-orange);
 }
 aside nav li a{
-  font-size: 0.8rem;
+  font-size: 17px;
   padding: 0.4rem 1em;
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: 700;
 }
 aside nav .sidebarItemTitle_pO2u,
 .sidebarItemTitle_node_modules-\@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module {
   padding: 0.5rem 1em;
-  font-size: 0.9rem !important;
+  font-size: 17px !important;
   border-radius: 3px;
   color: #fff;
   font-weight: 600 !important;
@@ -1081,33 +1052,29 @@ aside nav li {
 }
 .markdown >  h1,
 .markdown >  h2 a{
-  line-height: 1.3;
-  font-size: 2rem;
+  line-height: 50px;
+  font-size: 40px;
   margin-bottom: 2rem;
-  font-family: Aeonik-Regular;
+  font-family: Lato;
   font-weight: 700;
   width: 100%;
 }
 .markdown > h2 {
-  font-size: 1.7rem;
+  font-size: 30px;
   line-height: normal;
-  font-weight: 600;
-  /* font-family: Roobert,sans-serif; */
-  font-weight: 600;
+  font-weight: 700;
 }
 .markdown > h3 {
-  font-size: 1.3rem;
-  /* font-family: Roobert, sans-serif; */
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 700;
   line-height: normal;
   margin-bottom: 0.5rem;
 }
 .markdown > p,
 .markdown > p a,
 .markdown ul li {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  letter-spacing: -.01rem;
+  font-size: 17px;
+  line-height: 25px;
   white-space: pre-line;
 }
 .markdown > p a {
@@ -1128,17 +1095,17 @@ aside nav li {
 }
 
 .markdown strong {
-  font-weight: 600;
+  font-weight: 700;
   color: #282727;
-  font-family: Inter, sans-serif;
+  font-family: Lato, sans-serif;
 }
 .markdown table {
   width: 100%;
 }
 .markdown table td a{
   color: var(--ifm-color-orange);
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   transition: 0.5s;
   text-decoration-color: hsla(30,1%,53%,.251)!important;
   text-decoration-thickness: 1px!important;
@@ -1159,9 +1126,9 @@ aside nav li {
 }
 .markdown blockquote p,
 .markdown blockquote p a{
-  font-weight: 600;
-  font-size: 0.9rem;
-  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
   color: #000000;
 }
 .markdown blockquote p a{
@@ -1255,7 +1222,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   color: #f05d23;
   margin-bottom: 0px;
   line-height: normal;
-  font-size: 1.1rem !important;
+  font-size: 17px !important;
 }
 .cardContainer_fWXF {
   background-color: rgb(240 93 35 / 2%) !important;
@@ -1291,8 +1258,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   padding: .5rem 1.5rem;
   border: 0;
   cursor: pointer;
-  /* font-family: America,sans-serif; */
-  font-size: 0.9rem;
+  font-size: 17px;
   background-color: var(--ifm-bg-grey);
   border-radius: 50px;
   transition: 0.5s;
@@ -1328,20 +1294,20 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
 }
 
 .post-content a {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   margin-bottom: 0.8rem;
   display: inline-block;
-  line-height: 1.600rem;
+  line-height: 25px;
 }
 .post-content a:hover {
   color: var(--ifm-color-orange);
   text-decoration: underline;
 }
 .post-content p{
-  font-family: America,sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-family: Lato,sans-serif;
+  font-size: 17px;
+  line-height: 25px;
   color: #606060;
 }
 .blog-post-center{
@@ -1349,15 +1315,15 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   margin: auto;
   }
   .blog-post-center header h1{
-      font-family: America,sans-serif;
-      font-weight: 600;
+      font-family: Lato,sans-serif;
+      font-weight: 700;
       margin-bottom: 0.5rem !important;
       line-height: normal !important;
   }
   .blog-post-center .avatar__name a {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--ifm-color-orange);
-    font-size: 1rem;
+    font-size: 17px;
     margin-bottom: 0px;
 }
 .blog-post-center .avatar__name a:hover{
@@ -1411,7 +1377,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   padding-right: 15px;
 }
 .team-member p {
-  font-size: 0.9rem;
+  font-size: 17px;
   color: rgba(0,0,0,0.8);
 }
 .team-member .btn-book {
@@ -1420,9 +1386,9 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   padding: 0.5rem 1rem;
   display: block;
   border-radius: 0.5rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 17px;
   border: solid 1px var(--ifm-color-primary);
   margin-top: auto;
   transition: 0.5s;
@@ -1439,7 +1405,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   display: flex;
   margin: 0.6rem 0px;
   justify-content: center;
-  font-size: 0.9rem;
+  font-size: 17px;
   align-items: center;
 }
 .detail-email a img {
@@ -1464,7 +1430,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
  
  @media(min-width: 768px) {
    html {
-     font-size: 1.5vw;
+     font-size: 17px;
    }
  
    .our-partner-logo {
@@ -1494,9 +1460,9 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
  
  @media (min-width: 1024px) {
    h1 {
-     font-size: 5.625rem;
-     line-height: 6.125rem;
-     font-family: 'Aeonik-regular';
+     font-size: 55px;
+     line-height: 65px;
+     font-family: 'Lato';
      margin-bottom: 4rem;
    }
  
@@ -1519,7 +1485,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
    }
  
    html {
-     font-size: 1.11vw;
+     font-size: 1vw;
    }
  
    .videosection button{
@@ -1929,7 +1895,7 @@ margin: auto;
   flex: 1;
   justify-content: center !important;;
   align-items: center !important;;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20.8px;
   display: flex;
 }
@@ -1975,8 +1941,8 @@ margin: auto;
 
 .sub-heading,
 span#confCost {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
 }
 .calculator-input[type=number] {
   padding: .5rem .5rem;
@@ -2014,7 +1980,7 @@ span#confCost {
   margin-bottom: 2rem;
 }
 .pricing-left p {
-  font-size: 1rem;
+  font-size: 17px;
 }
 .calculator-range {
   position: relative;
@@ -2032,9 +1998,9 @@ span#confCost {
   border-radius: 50px;
 }
 .calculator-button, .calculator-input {
-  font-family: Inter,sans-serif;
+  font-family: Lato,sans-serif;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 17px;
 }
 .calculator-button:disabled,
 .calculator-button:disabled:hover {
@@ -2071,7 +2037,7 @@ span#confCost {
   top: 1rem;
   position: absolute;
   z-index: 1;
-  font-size: .9rem;
+  font-size: 17px;
   box-shadow: 1px 2px 2px 1px #ccccccc7;
 }
 
@@ -2090,16 +2056,16 @@ span#confCost {
 
 
 .package-list h4 {
-  font-size: 2rem;
+  font-size: 30px;
   margin-bottom: 1rem;
 }
 .package-list p {
-  font-size: 0.9rem;
-  line-height: 1.5rem;
+  font-size: 17px;
+  line-height: 25px;
   color: #000;
 }
 .package-list .package-price {
-  font-size: 1.8rem;
+  font-size: 30px;
   font-weight: 700;
   margin: 1rem 0px;
   color: var(--ifm-color-orange);
@@ -2118,7 +2084,7 @@ span#confCost {
 
 .package-list ul li {
   margin-bottom: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 17px;
   padding-left: 20px;
   position: relative;
 }
@@ -2131,8 +2097,8 @@ span#confCost {
   border-radius: 0.6rem;
   color:  var(--ifm-color-orange);
   border: 1px solid  var(--ifm-color-orange);
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 17px;
   transition: all 0.1s ease 0s;
   margin-top: auto;
 }
@@ -2149,9 +2115,9 @@ span#confCost {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
-  font-weight: 800;
-  font-family: Inter,sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  font-family: Lato,sans-serif;
 }
 .calculator-view h6 img {
   width: 40px;
@@ -2183,14 +2149,14 @@ span#confCost {
   align-items: center;
 }
 .est-text {
-  font-size: 1rem;
+  font-size: 17px;
   color: #666;
-  font-weight: 600;
+  font-weight: 700;
   padding: .7rem 0;
 }
 .total-cost-text {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 .est {
   border-top: 1px solid #ddd;
@@ -2215,18 +2181,18 @@ span#confCost {
 }
 .btn-t-1 {
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
 }
 .btn-t-2 {
   color: rgba(255,255,255,.64);
-  font-weight: 500;
+  font-weight: 400;
 }
 .calculator-link a {
   text-align: center;
   margin-top: 1rem;
   display: block;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   color: var(--ifm-color-orange);
   text-decoration: underline;
 }
@@ -2248,18 +2214,18 @@ span#confCost {
 }
 .alt-view-heading {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.3;
 }
 .alt-view-content {
   color: #666;
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 17px;
   margin: 1.5rem 0;
 }
 .mainblog .margin-bottom--xl h1{
   line-height: 1.4;
-    font-size: 2rem;
+    font-size: 30px;
     margin-bottom: 2rem;
     width: 100%;
 }
@@ -2274,11 +2240,11 @@ span#confCost {
   margin-bottom: 1.5rem;
 }
 .call-action h3 {
-  font-size: 1.6rem;
+  font-size: 30px;
 }
 
 .call-action p {
-  font-size: 1.1rem;
+  font-size: 17px;
 }
 
 .is-divider {
@@ -2365,7 +2331,7 @@ span#confCost {
   border-radius: 8px;
 }
 .e-keydetails .e-keydetails-item .e-keydetails-title {
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 3px;
 }
 .e-keydetails .e-keydetails-item {
