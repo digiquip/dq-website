@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ### About the logo and how to use it
 
-> The hard hat represents our users at working sites, while the colour represent our goal to improve safety and derives from the safety colour (ANSI Z535). The font derives from our legible UI Inter font we use in our user interface.
+> The hard hat represents our users at working sites, while the colour represent our goal to improve safety and derives from the safety colour (ANSI Z535). The font derives from our legible UI Inter font.
 
 Please respect the safe area and minimum size:
 

@@ -517,11 +517,11 @@
     "description": "The description of grouphelp image in grouphelp section on the competence page"
   },
   "workequipment.banner.title1": {
-    "message": "Bedre prosesser med",
+    "message": "Bedre prosesser med ",
     "description": "The first title of the work equipment page"
   },
   "workequipment.banner.title2": {
-    "message": "maskiner og utstyr samlet",
+    "message": "maskiner og utstyr samlet ",
     "description": "The second title of the work equipment page"
   },
   "workequipment.banner.title3": {
