@@ -241,7 +241,8 @@
  
  a,
  a:hover {
-   text-decoration: none;
+   text-decoration: underline;
+   color: var(--ifm-color-orange);
  }
  
  .hero--primary {
@@ -1924,7 +1925,7 @@ margin: auto;
   padding: 2rem;
   border: solid 1px #eaeaea;
   border-radius: 1.2rem;
-  min-height: 550px;
+  min-height: 200px;
 
 }
 .ui-set {
@@ -1934,7 +1935,7 @@ margin: auto;
   flex-wrap: wrap;
 }
 .calculator-price {
-  min-height: 410px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
 }
@@ -2150,19 +2151,17 @@ span#confCost {
 }
 .est-text {
   font-size: 17px;
-  color: #666;
   font-weight: 700;
   padding: .7rem 0;
 }
 .total-cost-text {
-  font-size: 1.3rem;
+  font-size: 17px;
   font-weight: 700;
 }
 .est {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #000;
   margin-top: auto;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 .btn-container {
   margin-top: 1.2rem;
