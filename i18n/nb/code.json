@@ -838,5 +838,30 @@
 "home.event.signup": {
   "message":"Meld deg på her",
   "description": "The signup button of event in the home page"
+},
+
+"home.event.keypoints_title1": {
+  "message": "00:00: <b>Hvordan komme i gang + demo</b>",
+  "description": "The title of first keypoint"
+},
+"home.event.keypoints_desc1": {
+  "message": "Cathrine Westbye (løsningssjef, kompetanse) i DigiQuip forteller om vår nye teknologisatsing.",
+  "description": "The description of first keypoint"
+},
+"home.event.keypoints_title2": {
+  "message": "30:00: <b>Lorem ipsum dolor sit amet</b>",
+  "description": "The title of second keypoint"
+},
+"home.event.keypoints_desc2": {
+  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut consequat lectus, iaculis tincidunt tellus.",
+  "description": "The description of second keypoint"
+},
+"home.event.keypoints_title3": {
+  "message": "50:00 <b>Fusce semper sapien id risus tincidunt</b>",
+  "description": "The title of third keypoint"
+},
+"home.event.keypoints_desc3": {
+  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "description": "The description of third keypoint"
 }
 }

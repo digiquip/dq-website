@@ -114,6 +114,16 @@ function EventDetail() {
                     {/* Event Detail */}
                     <div className="e-description">
                       <p>{eventDetail.description}</p>
+                      <div>
+                        <ul className="e-keydetails">
+                            {eventDetail.keypoints && eventDetail.keypoints.map((item, index) => (
+                              <li key={index} className="e-keydetails-item">
+                                  <p className="e-keydetails-title" dangerouslySetInnerHTML={{ __html: item.title }} />
+                                  <p className="e-keydetails-item-desc">{item.description}</p>
+                              </li>
+                            ))}
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
