@@ -33,7 +33,13 @@ Antall personer|Pris per måned|
 |Inntil 100 personer|3290|
 |Inntil 175 personer|4990|
 |Inntil 250 personer|6590|
-|Inntil 500 personer|12490|
+|Inntil 325 personer|8090|
+|Inntil 400 personer|9490|
+|Inntil 475 personer|10790|
+|Inntil 550 personer|11990|
+|Inntil 625 personer|13090|
+|Inntil 700 personer|14090|
+|Inntil 1000 personer|18090|
 |Flere?|Ta kontakt for pris.|
 
 :::tip
