@@ -1414,6 +1414,16 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1.menu_
   margin-right: 7px;
   margin-top: 3px;
 }
+.price-additional-main{
+    margin-top: 20px;
+}
+.price-additional-options{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
 
 
 
