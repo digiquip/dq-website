@@ -197,7 +197,6 @@ function PriceComponent() {
   };
 
   const rendeAdditionalCostSwitch = (param) => {
-
     switch (true) {
       case (param < 1):
         return 0;
@@ -275,13 +274,21 @@ function PriceComponent() {
                                   <span className="sub-heading"> Ytterligere alternativer: </span>
                                 </div>
                                 <div className="price-additional-options">
-                                    <label className="checkbox cursor-pointer">
+                                <label class="checkbox-container checkbox cursor-pointer">Vedlikehold
+                                      <input type="checkbox"
+                                        checked={isMaintenance}
+                                        onChange={handleMaintenanceChange}
+                                      />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                
+                                    {/* <label className="checkbox cursor-pointer">
                                       <input type="checkbox"
                                       checked={isMaintenance}
                                       onChange={handleMaintenanceChange}
                                       />
                                       Vedlikehold
-                                    </label>
+                                    </label> */}
                                   </div>
                               </div>
 
