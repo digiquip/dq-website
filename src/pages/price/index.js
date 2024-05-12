@@ -114,6 +114,7 @@ function PriceComponent() {
 
 
   const onTodoChange = (value, inputValType, indexPostion) => {
+    console.log('in');
 
     if (inputValType == 'people') {
 
@@ -131,6 +132,9 @@ function PriceComponent() {
       
         console.log(value , equipment, equipmentMaxValue + 'Value greter equipment >= equipmentMaxValue')
        }
+      if ( isMaintenance ) {
+       setAdditionalCost(rendeAdditionalCostSwitch(value))
+      }
 
     } else if (inputValType == 'inspectors') {
 
@@ -141,9 +145,6 @@ function PriceComponent() {
 
     let isPriceHaveCastumValue =  checkIsCustomPrice(value);
     setCustomPrice(isPriceHaveCastumValue)
-    if ( isMaintenance ) {
-     setAdditionalCost(rendeAdditionalCostSwitch(equipment))
-    }
   }
 
   const checkIsCustomPrice = (value) => {
