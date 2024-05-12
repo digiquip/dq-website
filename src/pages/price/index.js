@@ -114,7 +114,6 @@ function PriceComponent() {
 
 
   const onTodoChange = (value, inputValType, indexPostion) => {
-    console.log('in');
 
     if (inputValType == 'people') {
 
