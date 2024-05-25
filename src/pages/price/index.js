@@ -20,6 +20,8 @@ function PriceComponent() {
   const [inspectorsCost, setInspectorsCost] = useState(0);
   const [estimatedTotal, setEstimatedTotal] = useState(0);
   const [isCustomPrice, setCustomPrice] = useState(false);
+  const [isMaintenance, setIsMaintenance] = useState(false);
+  const [additionalCost, setAdditionalCost] = useState(0);
 
 
   const rendeInspectorsSwitch = (param) => {
@@ -129,6 +131,9 @@ function PriceComponent() {
       
         console.log(value , equipment, equipmentMaxValue + 'Value greter equipment >= equipmentMaxValue')
        }
+      if ( isMaintenance ) {
+       setAdditionalCost(rendeAdditionalCostSwitch(value))
+      }
 
     } else if (inputValType == 'inspectors') {
 
@@ -179,6 +184,36 @@ function PriceComponent() {
 
     return 100 * (min) / (max);
 
+  }
+
+  const handleMaintenanceChange = (e) => {
+    setIsMaintenance(e.target.checked);
+    if ( e.target.checked ) {
+      setAdditionalCost(rendeAdditionalCostSwitch(equipment))
+    } else {
+     setAdditionalCost(0);
+    }
+  };
+
+  const rendeAdditionalCostSwitch = (param) => {
+    switch (true) {
+      case (param < 1):
+        return 0;
+      case (param >= 1 && param <= 100):
+        return 490;
+      case (param > 100 && param <= 500):
+        return 1190;
+      case (param > 500 && param <= 1500):
+        return 2090;
+      case (param > 1500 && param <= 2500):
+        return 3990;
+      case (param > 2500 && param <= 5000):
+        return 4690;
+      case (param > 5000 && param <= 7500):
+        return 6090;
+      default:
+        return 0;
+    }
   }
 
   return (
@@ -233,6 +268,29 @@ function PriceComponent() {
                                 <input type="range" min="0" max={peopleMaxValue} value={people} onChange={e => onTodoChange(e.target.value, 'people', 1)} id="peopleSlider" className="calculator-input calculator-range" />
 
                               </div>
+                              <div className="price-additional-main">
+                                <div className="ui-set">
+                                  <span className="sub-heading"> Ytterligere alternativer: </span>
+                                </div>
+                                <div className="price-additional-options">
+                                <label class="checkbox-container checkbox cursor-pointer">Vedlikehold
+                                      <input type="checkbox"
+                                        checked={isMaintenance}
+                                        onChange={handleMaintenanceChange}
+                                      />
+                                      <span class="checkmark"></span>
+                                    </label>
+                                
+                                    {/* <label className="checkbox cursor-pointer">
+                                      <input type="checkbox"
+                                      checked={isMaintenance}
+                                      onChange={handleMaintenanceChange}
+                                      />
+                                      Vedlikehold
+                                    </label> */}
+                                  </div>
+                              </div>
+
                             </div>
 
                             <p>
@@ -268,10 +326,16 @@ function PriceComponent() {
                                   <hr className="calculator-hr" />
                                 </div>}
 
+                                {isMaintenance && <div className="ui-set cost-section">
+                                  <span className="sub-heading">Vedlikehold</span>
+                                  <span id="confCost">kr {additionalCost}</span>
+                                  <hr className="calculator-hr" />
+                                </div>}
+
 
                                 <div className="ui-set est">
                                   <span className="est-text">Beregnet månedlig kostnad</span>
-                                  <span className="total-cost-text" id="videototalCost">kr {equipmentCost + peopleCost}</span>
+                                  <span className="total-cost-text" id="videototalCost">kr {equipmentCost + peopleCost + additionalCost}</span>
                                 </div>
                               </div>
                             </div>}
