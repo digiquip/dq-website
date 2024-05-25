@@ -131,6 +131,12 @@ const config = {
             sidebarid: 'tutorialSidebar',
           },
           {
+            to: 'https://pim.digiquip.com/authenticate/idp/init?destination=none&interactionMode=signIn&existingSessionId=',
+            label: 'Login',
+            position: 'right',
+            sidebarid: 'loginButton',
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
             sidebarid: 'tutorialSidebar',
