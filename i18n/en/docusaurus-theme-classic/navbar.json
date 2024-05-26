@@ -34,5 +34,9 @@
   "item.label.Login": {
     "message": "Login",
     "description": "Navbar item with label Login"
+  },
+  "item.label.Scan QR": {
+    "message": "Scan QR",
+    "description": "Navbar element with label Scan"
   }
 }
