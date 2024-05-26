@@ -34,5 +34,9 @@
   "item.label.Login": {
     "message": "Logg Inn",
     "description": "Navbar element med etikett Logg inn"
+  },
+  "item.label.Scan QR": {
+    "message": "Skann QR",
+    "description": "Navbar element med etikett Scan"
   }
 }
