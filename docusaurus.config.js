@@ -140,7 +140,7 @@ const config = {
             to: 'https://qr.digiquip.com/scan',
             label: 'Scan QR',
             position: 'right',
-            sidebarid: 'loginButton',
+            sidebarid: 'scanButton',
           },
           {
             type: 'localeDropdown',
