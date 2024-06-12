@@ -23,7 +23,7 @@ import GenieGS1932 from '/img/GenieGS1932.png';
 Sjekk om maskinen er kontrollert og se detaljer om siste inspeksjon.
 
 ### Inspeksjon før bruk (aka daglig kontroll)
-En påminnelse om å sjekke maskinen før bruk, og loggføre at det er gjort. Denne bekreftelsen er gyldig i 12 timer, og følger hver enkelt person.
+En påminnelse om å sjekke maskinen før bruk, og loggføre at det er gjort enten med eller uten sjekklister. Denne bekreftelsen er gyldig i 12 timer, og følger hver enkelt person.
 
 ### Utstyrsspesifikk opplæring
 Sjekk egen status for opplæring eller gjennomfør en opplæring.
