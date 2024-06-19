@@ -52,6 +52,13 @@ import checklistaddpictures from '/img/pre-use-inspection-checklists/checklistad
 
 Til slutt kan det være nyttig å hente inn eventuelle kommentarer, spørsmålstype kommentar. Det kan være fornuftig å sette denne til et frivillig felt ved å sette feltet "er nødvendig" til av.
 
+## Lag sjekklisten på flere språk
+Sjekklister kan lages på flere språk. Gå til fanen "oversettelser" og legg inn de språkene du ønsker. Her må du manuelt legge inn innhold for alternative språk. Har du for eksempel laget en sjekkliste på norsk og svensk, vil en bruker med svensk språk få den svenske varianten.
+
+import checklisttranslations from '/img/pre-use-inspection-checklists/checklisttranslations.png';
+
+<img src={checklisttranslations} style={{width:800}} />
+
 ## For forhåndsvisning
 Se fanen "test skjema".
 
