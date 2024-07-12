@@ -66,15 +66,17 @@ Se ["Generelle avtalevilkår"](https://digiquip.no/docs/legal/terms#6-vederlag-o
 
 For spørsmål om priser, kontakt Tom Freddy for en nærmere prat på tfb@digiquip.no eller telefon +47 45 48 85 25.
 
-## Etiketter  
+## Merker og tagger
 
 :::tip
-Med QR-kode på maskiner og utstyr gjør du det enkelt for alle å finne informasjon og gjennomføre opplæring, vedlikehold og kontroller.
+Med skannbare merker på maskiner og utstyr gjør du det enkelt for alle å finne informasjon og gjennomføre opplæring, vedlikehold og kontroller.
 :::
 
 ![DQ-QR-labels](/img/scann-qr-code.jpg)
 
 ### DigiQuip
+
+En NFC-tagg koster 40 kr/stk. og kommer i størrelsen 38 x 13 x 4,5 mm.
 
 Størrelse     |Pris| 
 | ------------|----|

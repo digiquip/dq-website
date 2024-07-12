@@ -19,7 +19,7 @@ Selv om alle på arbeidsplassen skal bidra, hviler det endelige ansvaret alltid 
 ## Hva er utstyrsspesifikk opplæring?
 Utstyrsspesifikk opplæring, også kalt typeopplæring og maskinspesifikk opplæring, er opplæring på en bestemt maskin før bruk. 
 
-> Kan maskinen eller utstyret være farlig? Usikker? Gjennomfør opplæring. 
+> Kan maskinen eller utstyret være farlig? Usikker? Gjennomfør opplæring.
 
 **Merk**: Utstyrsspesifikk opplæring er noe annet enn et sertifikat eller kurs, det gjelder bestemt maskin eller utstyr som skal brukes. 
 
