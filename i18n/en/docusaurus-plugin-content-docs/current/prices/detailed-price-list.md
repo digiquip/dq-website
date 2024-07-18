@@ -57,13 +57,17 @@ Start costs 5000 NOK. We'll also provide various services at a cost of 1400 NOK 
 
 For a price talk or other questions reach out to Tom Freddy at tfb@digiquip.no / +47 45 48 85 25.
 
-## Stickers  
+## Stickers and tags
 
 :::tip
-With QR codes attached on your equipment you're making it easy for the end-users to find relevant and useful information, such as trainings, maintenance and controls.
+With QR codes or NFC tags attached on your equipment you're making it easy for the end-users to find relevant and useful information, such as trainings, maintenance and controls.
 :::
 ![DQ-QR-labels](/img/scann-qr-code.jpg)
 ### DigiQuip
+
+NFC tags comes at the cost of 40 kr a piece. Size 38 x 13 x 4,5 mm.
+
+Stickers:
 
 Size    |Cost| 
 | ------------|----|

@@ -445,15 +445,15 @@
     "description": "The title of the banner(image) competence page part three"
   },
   "competence.banner.arg1": {
-    "message": "Feil bruk av arbeidsutstyr øker risikoen på arbeidsplassen. Derfor er det viktig at arbeidsgivere har oversikt og gir nødvendig opplæring når det trengs.",
+    "message": "Feil bruk av arbeidsutstyr øker risikoen på arbeidsplassen. Derfor er det viktig at arbeidsgivere har oversikt og gir nødvendig opplæring når det trengs",
     "description": "The first argument of the competence progress and safety section on the competence page"
   },
   "competence.banner.arg2": {
-    "message": "Vi har gjort det enkelt å gjennomføre utstyrsspesifikk opplæring. I tillegg er det enkelt å holde oversikt over en rekke typer kompetanse, alt fra utdanning til erfaring.",
+    "message": "Hvordan skal du oppnå at riktige folk bruker riktig utstyr på riktig måte? Et tiltak er å ha kontroll på at arbeideren kan bruke arbeidsutstyret trygt.",
     "description": "The second argument of the competence progress and safety section on the competence page"
   },
   "competence.practical_training.title1": {
-    "message": "Sørg for riktig kompetans",
+    "message": "Sørg for riktig kompetanse",
     "description": "The title of the practical training section on the competence page"
   },
   "competence.practical_training.title2": {
@@ -473,7 +473,7 @@
     "description": "The description of practical training image in practical training section on the competence page"
   },
   "competence.digital_training.title": {
-    "message": "Vi har gjort det enkelt å gjennomføre utstyrsspesifikk opplæring",
+    "message": "Det skal være enkelt å gjennomføre utstyrsspesifikk opplæring",
     "description": "The first title of the digital training section on the competence page"
   },
   "competence.digital_training.arg1": {
@@ -489,15 +489,15 @@
     "description": "The description of digital training image in digital training section on the competence page"
   },
   "competence.grouphelp.title1": {
-    "message": "I DigiQuip får bedrifter",
+    "message": "Kompetanse minimerer",
     "description": "The first title of the grouphelp section on the competence page"
   },
   "competence.grouphelp.title2": {
-    "message": "oversikt over kompetanse på",
+    "message": "risiko på",
     "description": "The second title of the grouphelp section on the competence page"
   },
   "competence.grouphelp.title3": {
-    "message": "tvers av team",
+    "message": "arbeidsplassen",
     "description": "The third title of the grouphelp section on the competence page"
   },
   "competence.grouphelp.title4": {
@@ -505,15 +505,15 @@
     "description": "The fourth title of the grouphelp section on the competence page"
   },
   "competence.grouphelp.arg": {
-    "message": "Oversikt på tvers av avdelinger og bedrifter trenger ikke være en krevende øvelse. Hvis du trenger å sjekke enkeltpersoners kompetanse for en rekke maskiner, har vår løsning verktøyene du trenger.",
+    "message": "Med oversikt over hvem som trenger og ikke trenger opplæring, er det enklere å gjøre riktige tiltak. Dette fordrer oversikt over både personer og utstyr.",
     "description": "The argument of the grouphelp section on the competence page"
   },
   "competence.grouphelp.arg2": {
-    "message": "Vi vet at det kan være krevende å identifisere hvem som trenger, og ikke trenger, opplæring, og derfor har vi rapporter som gjør denne jobben enklere.",
+    "message": "DigiQuip sørger for at du får den oversikten du trenger. Slik kan risikoen for at feil folk bruker utstyret på feil måte reduseres betydelig.",
     "description": "The second argument of the grouphelp section on the competence page"
   },
   "competence.grouphelp.img_description": {
-    "message": "Identifiser kompetansegap.",
+    "message": " ",
     "description": "The description of grouphelp image in grouphelp section on the competence page"
   },
   "workequipment.banner.title1": {
@@ -565,7 +565,7 @@
     "description": "The third point of the systematized documentation section on the work equipment page"
   },
   "workequipment.machines_equipment.title1": {
-    "message": "Årlig og daglig kontroll av",
+    "message": "Kontroll av",
     "description": "The first title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.title2": {
@@ -573,19 +573,19 @@
     "description": "The second title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg1": {
-    "message": "Få enkel oversikt over siste kontrollstatus og kommende årskontroller. Sakkyndig kontrollinformasjon føres enten inn manuelt eller kan hentes inn fra andre systemer.",
+    "message": "Hold oversikt over siste status og nødvendige kontroller, alt fra årlig, daglig eller vedlikehold.",
     "description": "The first argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg2": {
-    "message": "Hvis maskin eller utstyr krever daglig kontroll, vil en bruker som skanner maskinens QR-kode få en påminnelse om dette. Denne daglige kontrollen blir samtidig loggført.",
+    "message": "Krever arbeidsutstyret inspeksjon før bruk (daglig kontroll), kan fagarbeideren enten bruke løsningen til å bekrefte eller gå gjennom en relevant sjekkliste. Kontrollen blir samtidig loggført.",
     "description": "The second argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.point1": {
-    "message": "Sakkyndig kontroll",
+    "message": "Sakkyndig, daglig og vedlikeholdskontroll",
     "description": "The first point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point2": {
-    "message": "Daglig kontroll",
+    "message": "Sjekklister",
     "description": "The second point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point3": {
@@ -608,7 +608,7 @@
     "message": "I DigiQuip kan du lage egne opplæringer. Opplæringen inneholder støtte for videoer og obligatorisk quiz."
   },
   "workequipment.specific_competence.img_description": {
-    "message": "Få oversikt over din utstyrsspesifikk kompetanse.",
+    "message": "Få oversikt over din utstyrsspesifikke opplæring.",
     "description": "The description of specific competence image in specific competence section on the work equipment page"
   },
 
@@ -637,11 +637,11 @@
   "description": "The title of the library section on the model library page"
 },
 "modellibrary.library.arg1": {
-  "message": "Hvorfor bruke 100 mapper til brukermanualer, videoer, dokumenter og spesifikasjoner når alt kan samles i et modellregister?",
+  "message": "Brukermanualer, videoer og dokumenter krever mye administrasjon. Unngå merarbeid med lagring og deling digitalt",
   "description": "The first argument of the library section in the model library page"
 },
 "modellibrary.library.arg2": {
-  "message": "Med innhold tilgjengelig fra én løsning får alle alltid tilgang til siste oppdaterte informasjon når de trenger det.",
+  "message": "Med innhold direkte tilgjengelig fra leverandører får alle alltid tilgang til siste oppdaterte informasjon når de trenger det. Dette betyr:",
   "description": "The second argument of the library section in the model library page"
 },
 "modellibrary.library.point1": {
@@ -650,40 +650,28 @@
 },
 
 "modellibrary.library.point2": {
-  "message":"Forutsigbart",
+  "message":"Mer forutsigbarhet",
   "description": "The second point of the library section on the model library page"
 },
 "modellibrary.library.point3": {
-  "message":"Brukervennlig",
+  "message":"Bedre brukervennlighet",
   "description": "The third point of the library section on the model library page"
 },
   "modellibrary.easy_training.title": {
-    "message": "Bruk videoer for enkel opplæring",
+    "message": "Videoer er et eksempel på innhold som raskt kan deles med mange",
     "description": "The title of the easy training section on the model library page"
   },
   "modellibrary.easy_training.arg1": {
-    "message": "Videoer er en enkel måte å lære brukere om utstyr og maskiner. For utleiebedrifter og leverandører minimerer opplæringsvideoer support og sikrer riktig bruk.",
+    "message": "Videoer er en enkel måte å presentere informasjon om hvordan bruke utstyr og maskiner. For utleiebedrifter og leverandører minimerer opplæringsvideoer support og sikrer riktig bruk.",
     "description": "The first argument of the easy training section on the model library page"
   },
   "modellibrary.easy_training.arg2": {
-    "message": "Å produsere gode videoer kan være ressurskrevende, både med tanke på fag og tid. Innholdet må planlegges, filmes, redigeres, og krever ofte flere runder med justeringer. Derfor kan vi bidra i denne prosessen..",
+    "message": "Ofte er det tungt å distribuere videoer, og deling digitalt gjør denne jobben betydelig enklere. Kanskje videoen gir sluttbrukeren akkurat det svaret han eller hun trengte for å bruke utstyret riktig.",
     "description": "The second argument of the easy training section on the model library page"
   },
   "modellibrary.easy_training.arg3": {
-    "message": "Vi samarbeider tett med våre kunder - eksempelvis",
+    "message": "NB: Folk er forskjellige, har ulikt utgangspunkt og lærer på ulik måte. Derfor er det helt avgjørende at arbeidsgiver gjør en vurdering av hva som er nødvendig opplæring for sine ansatte",
     "description": "The third argument of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg3_part2": {
-    "message": "og vår partner",
-    "description": "and our partner"
-  },
-  "modellibrary.easy_training.arg3_part3": {
-    "message": "for å sikre optimalt resultat ut ifra tid og ressurser",
-    "description": "to ensure a successful outcome with optimal use of time and resources"
-  },
-  "modellibrary.easy_training.arg4": {
-    "message": "for en uforpliktende prat om deres behov, så finner vi en god løsning.",
-    "description": "The fourth argument of the easy training section on the model library page"
   },
 
 "expertcontrol.banner.title1": {

@@ -2353,6 +2353,28 @@ span#confCost {
   opacity: 1;
 }
 
+/* src/css/custom.css */
+details {
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: var(--ifm-color-primary)
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details[open] summary {
+  color: #000000;
+}
+
+details p {
+  margin: 0.5em 0 0;
+}
+
 
 /* EVENT PAGE CSS */
 .eventpage-wrapper *,

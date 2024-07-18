@@ -26,5 +26,9 @@
   "sidebar.tutorialSidebar.category.Priser": {
     "message": "Pricing",
     "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
-  }
+  },
+  "sidebar.tutorialSidebar.category.Bruk av programvaren DigiQuip": {
+  "message": "Resources",
+  "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
+}
 }

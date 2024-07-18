@@ -32,8 +32,7 @@ function EasyTraining() {
               <h3 className='section-title'><Translate>modellibrary.easy_training.title</Translate></h3>
               <p><Translate>modellibrary.easy_training.arg1</Translate></p>
               <p><Translate>modellibrary.easy_training.arg2</Translate></p>
-              <p><Translate>modellibrary.easy_training.arg3</Translate> <a target="_blank" href='https://www.husqvarna.com/no/?gad_source=1&gclid=CjwKCAiAqNSsBhAvEiwAn_tmxR0CsqRUUVQjIObtyAq8osa7etLF8pwgwBBfLcI6NWsDcZKfFSYzMBoCrhYQAvD_BwE&gclsrc=aw.ds'>Husqvarna</a> <Translate>theme.generic.and</Translate> <a href='https://stubbeservice.no/'>Stubbeservice</a>   - <Translate>modellibrary.easy_training.arg3_part2</Translate> <a href="https://www.urusmedia.no/">Urus Media</a> <Translate>modellibrary.easy_training.arg3_part3</Translate>.</p>
-              <p><a href='#'><Translate>home.contact.button</Translate></a>  <Translate>modellibrary.easy_training.arg4</Translate></p>
+              <p><Translate>modellibrary.easy_training.arg3</Translate></p>
             </div>
           </div>
           <div className={clsx("col col--6")}>
