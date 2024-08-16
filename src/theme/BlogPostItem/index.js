@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 import { useLocation } from '@docusaurus/router';
-import { useBlogPost } from '@docusaurus/theme-common/internal';
+import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
 import clsx from 'clsx';
 import BrandLogo from '../../components/BrandLogo';
 
