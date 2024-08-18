@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[6178],{995:e=>{e.exports=JSON.parse('{"label":"Lovverk","permalink":"/en/blog/tags/lovverk","allTagsPath":"/en/blog/tags","count":1,"unlisted":false}')}}]);
