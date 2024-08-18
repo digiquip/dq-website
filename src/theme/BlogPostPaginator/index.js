@@ -2,7 +2,7 @@ import React from 'react';
 import Translate, {translate} from '@docusaurus/Translate';
 import PaginatorNavLink from '@theme/PaginatorNavLink';
 import SocialShare from '../../components/SocialShare';
-import { useBlogPost } from '@docusaurus/theme-common/internal';
+import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
 
 export default function BlogPostPaginatorWrapper(props) {
   const {nextItem, prevItem} = props;
