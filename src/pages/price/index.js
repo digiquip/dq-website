@@ -238,9 +238,9 @@ function PriceComponent() {
                                 <span className="sub-heading"> Arbeidsutstyr </span>
                                 <span className="input-container">
                                   <input type="number" min="0" value={equipment} onChange={e => onTodoChange(e.target.value, 'equipment', 0)} className="calculator-input" />
-                                  {equipment > equipmentMaxValue ? <div class="tooltip">
-                                    <span class="tooltiparrow"></span>
-                                    <span class="tooltiptext">Choose a value less than {equipmentMaxValue}</span>
+                                  {equipment > equipmentMaxValue ? <div className="tooltip">
+                                    <span className="tooltiparrow"></span>
+                                    <span className="tooltiptext">Choose a value less than {equipmentMaxValue}</span>
                                   </div> : ''}
                                 </span>
                               </div>
@@ -257,9 +257,9 @@ function PriceComponent() {
                                 <span className="sub-heading"> Personer </span>
                                 <span className="input-container">
                                   <input type="number" min="0" value={people} onChange={e => onTodoChange(e.target.value, 'people', 1)} id="participantsInput" className="calculator-input" />
-                                  {people > peopleMaxValue ? <div class="tooltip">
-                                    <span class="tooltiparrow"></span>
-                                    <span class="tooltiptext">Choose a value less than {peopleMaxValue}</span>
+                                  {people > peopleMaxValue ? <div className="tooltip">
+                                    <span className="tooltiparrow"></span>
+                                    <span className="tooltiptext">Choose a value less than {peopleMaxValue}</span>
                                   </div> : ''}
                                 </span>
                               </div>
@@ -273,12 +273,12 @@ function PriceComponent() {
                                   <span className="sub-heading"> Ytterligere alternativer: </span>
                                 </div>
                                 <div className="price-additional-options">
-                                <label class="checkbox-container checkbox cursor-pointer">Vedlikehold
+                                <label className="checkbox-container checkbox cursor-pointer">Vedlikehold
                                       <input type="checkbox"
                                         checked={isMaintenance}
                                         onChange={handleMaintenanceChange}
                                       />
-                                      <span class="checkmark"></span>
+                                      <span className="checkmark"></span>
                                     </label>
                                 
                                     {/* <label className="checkbox cursor-pointer">
@@ -360,7 +360,7 @@ function PriceComponent() {
 
                   <div className="w-tab-content">
                     <div className="w-tab-pane w--tab-active">
-                    <div class="tab-nav-dis">Pris beregnes ut fra antall personer. Ubegrenset mengde arbeidsutstyr og antall kontroller.</div>
+                    <div className="tab-nav-dis">Pris beregnes ut fra antall personer. Ubegrenset mengde arbeidsutstyr og antall kontroller.</div>
                       <div className="calculator-html w-embed">
                         <div className="pricing-row">
                           <div className="pricing-left">
@@ -369,9 +369,9 @@ function PriceComponent() {
                                 <span className="sub-heading"> Antall personer</span>
                                 <span className="input-container">
                                   <input type="number" min="0" value={inspectors} onChange={e => onTodoChange(e.target.value, 'inspectors', 0)} className="calculator-input" />
-                                  {inspectors > inspectorsMaxValue ? <div class="tooltip">
-                                    <span class="tooltiparrow"></span>
-                                    <span class="tooltiptext">Choose a value less than {inspectorsMaxValue}</span>
+                                  {inspectors > inspectorsMaxValue ? <div className="tooltip">
+                                    <span className="tooltiparrow"></span>
+                                    <span className="tooltiptext">Choose a value less than {inspectorsMaxValue}</span>
                                   </div> : ''}
                                 </span>
                               </div>

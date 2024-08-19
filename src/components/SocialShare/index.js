@@ -13,9 +13,9 @@ export default function SocialShare({ props }) {
     console.log('shareUrl :- ', shareUrl)
     const title = props.title || '';
     return (
-        <div class="blog-share text-center">
-            <div class="is-divider medium"></div>
-            <div class="social-icons">
+        <div className="blog-share text-center">
+            <div className="is-divider medium"></div>
+            <div className="social-icons">
 
             {/* `${pathOfImage}` */}
 

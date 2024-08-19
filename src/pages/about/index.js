@@ -14,8 +14,8 @@ function MeetTeam() {
   }, []);
   return (
     <section className='ourteamsec'>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <div className={clsx("col col--12")}>
             <h1 className='section-title'> <Translate>aboutus.team.title</Translate><span className='orange'>.</span></h1>
           </div>
@@ -24,12 +24,12 @@ function MeetTeam() {
         <div className="team-row">
           {users && users?.map((item) => (
             <div key={item.id} className="team-item margin-bottom--lg">
-              <div class="team-member text--center">
-                <div class="team-img">
+              <div className="team-member text--center">
+                <div className="team-img">
                    <BrandLogo Img={item.image} width={''} height={''} alt={''} />
                 </div>
                 <div className='team-details'>
-                  <h6 class="team-title">{item.fullName}</h6>
+                  <h6 className="team-title">{item.fullName}</h6>
                   <p>{item.designation}</p>
                   <div className='detail-email'>
                     <a href={`mailto: ${item.emailAddress}`}>

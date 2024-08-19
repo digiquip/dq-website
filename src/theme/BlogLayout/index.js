@@ -85,7 +85,7 @@ export default function BlogLayoutWrapper(props) {
           <div className={clsx('hero-25  hero hero--primary heroBanner')}>
             <div className="container">
               <h1 className='section-title'>God lesing<span className='orange'>.</span></h1>
-              <nav class="categories-blog">
+              <nav className="categories-blog">
                 {tags.map((items, i) => (
                   <a
                     key={i}
