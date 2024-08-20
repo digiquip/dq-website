@@ -27,12 +27,6 @@ function ShareInformation(props) {
   return <HomepageFeatures record={shareInformation} />;
 }
 
-function ExpertInspections(props) {
-  const expertInspections = props.items;
-  return <HomepageFeatures record={expertInspections} />;
-}
-
-
 function OurPartners(props) {
   const responsive = {
     desktop: {
@@ -94,7 +88,6 @@ const [brandList , setBrandList] = useState([])
 const [safeuseContent , setSafeuseContent] = useState({})
 const [consolidateContent , setConsolidateContent] = useState({})
 const [shareInfoContent , setShareInfoContent] = useState({})
-const [expertInspContent , setExpertInspContent] = useState({})
 
 useEffect(() => {
   let ignore = false;
@@ -105,14 +98,13 @@ useEffect(() => {
       setSafeuseContent(mainPageContentRecords.safeuseContent);
       setConsolidateContent(mainPageContentRecords.consolidateWorkContent);
       setShareInfoContent(mainPageContentRecords.shareInfoContent);
-      setExpertInspContent(mainPageContentRecords.expertInspContent);
     }
 
   return () => { 
     ignore = true;
   }
  
-}, [safetyWorkContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent, expertInspContent]);
+}, [safetyWorkContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent]);
 
 // {eventBlockContent && <EventBlock record={eventBlockContent}/>}
 
@@ -125,7 +117,6 @@ useEffect(() => {
       {safeuseContent && <Safeuse items={safeuseContent}/>}
       {consolidateContent && <ConsolidateWork items={consolidateContent}/>}
       {shareInfoContent && <ShareInformation items={shareInfoContent}/>}
-      {expertInspContent && <ExpertInspections items={expertInspContent}/>}
       <HomeContactBanner />
       {brandList  && <OurPartners items={brandList}/> }
     </section>

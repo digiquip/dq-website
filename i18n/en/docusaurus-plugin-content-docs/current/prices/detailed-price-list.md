@@ -40,17 +40,6 @@ Number of people|Monthly costs|
 Individuals can always register themselves and their competence for free in DigiQuip. The difference versus the paid version is that employers will not have access to the person nor get any overview of their competence.
 :::
 
-## BRAREG
-
-Number of people|Monthly costs|
-|---------------|--|
-|1|990|
-|2|1790|
-|Up to 4|3000|
-|Up to 8|3600|
-|Up to 16|4200|
-|Up to 32|7000|
-
 ## Other costs
 
 Start costs 5000 NOK. We'll also provide various services at a cost of 1400 NOK per hour. For price changes see our ["general terms"](https://digiquip.no/en/docs/legal/terms)
@@ -77,13 +66,5 @@ Size    |Cost|
 | Group | 75| 
 
 Group: One large, one medium and two small stickers.
-
-### BRAREG
-
-Size      | Cost       | 
-|--------------|------------ |
-| Medium control sticker 54x50mm|25| 
-| Large control sticker 90x40mm|35|
-| QR code|25|
 
 Order by contacting us at support@digiquip.no
