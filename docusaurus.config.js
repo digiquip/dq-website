@@ -109,13 +109,6 @@ const config = {
                 sidebarid: 'tutorialSidebar',
                 to:'/modellibrary',
               },
-              {
-                //  html: 'Expert control' + linkHtml,
-                label: 'Expertcontrol',
-                // type: 'docSidebar',
-                sidebarid: 'tutorialSidebar',
-                to:'/expertcontrol',
-              },
             ]
           },
           {

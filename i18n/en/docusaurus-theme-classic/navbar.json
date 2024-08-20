@@ -19,10 +19,6 @@
     "message": "Model library",
     "description": "Navigering til modelbibliotek"
   },
-  "item.label.Expertcontrol": {
-    "message": "Expert control",
-    "description": "Navigering til sakkyndig kontroll"
-  },
   "item.label.About us": {
     "message": "About us",
     "description": "Navbar item with label About us"

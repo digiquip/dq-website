@@ -82,27 +82,6 @@ const shareInfoContent = {
     link: "modellibrary",
 }
 
-const expertInspContent = {
-    className: "consolidate-section",
-    title: (
-        <h2 className="section-title"><Translate>home.expert.title</Translate>
-            <span className="orange">.</span>
-        </h2>
-    ),
-    img: require("@site/static/img/last.jpg").default,
-    description: (
-        <>
-            <p><Translate>home.expert.arg1</Translate></p>
-            <ul>
-                <li><Translate>home.expert.point1</Translate></li>
-                <li><Translate>home.expert.point2</Translate></li>
-                <li><Translate>home.expert.point3</Translate></li>
-            </ul>
-        </>
-    ),
-    link: "expertcontrol",
-}
-
 const brandLogoPartners = partnersBrandLogoList.brandList;
 const eventBlock = eventDetail;
 
@@ -112,7 +91,6 @@ const mainPageContentRecords = {
     safeuseContent,
     consolidateWorkContent,
     shareInfoContent,
-    expertInspContent,
     brandLogoPartners,
 }
 

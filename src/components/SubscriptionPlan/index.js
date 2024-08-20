@@ -33,22 +33,6 @@ export default function SubscriptionPlan() {
           </ul>
         </div>
       </div>
-
-      <div className={clsx("col col--4 margin-bottom--md")}>
-        <div className="package-list">
-          <div className='package-title'>
-            <h4>BRAREG</h4>
-            <p>For sakkyndige kontrollører. BRAREG er et fleksibelt kontrollsystem for planlegging, gjennomføring og oppfølging. </p>
-          </div>
-          <div className='package-price'> fra 990 kroner </div>
-          <ul>
-            <li><img src='img/tik.svg' /> Gjennomføring sakkyndig kontroll.</li>
-            <li><img src='img/tik.svg' /> Planlegging og oppfølging.</li>
-            <li><img src='img/tik.svg' /> Fleksible sjekklister.</li>
-          </ul>
-        </div>
-      </div>
-
     </>
 
   )

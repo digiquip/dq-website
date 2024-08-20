@@ -46,18 +46,6 @@ Antall personer|Pris per måned|
 Enkeltpersoner kan alltid registrere sin kompetanse i DigiQuip, og dette er gratis. Forskjellen fra prislisten over er at arbeidsgiver eller andre ikke får oversikt.
 :::
 
-## BRAREG
-
-Antall personer|Pris per måned|
-|---------------|--|
-|Inntil 1 person|990|
-|Inntil 2 personer|1790|
-|Inntil 4 personer|3000|
-|Inntil 8 personer|3600|
-|Inntil 16 personer|4200|
-|Inntil 32 personer|7000|
-|Flere?|Ta kontakt for pris.|
-
 ## Kontakt og vilkår
 
 Ved oppstart påløper en etableringskostnad på 5000 kroner. Tjenester og bistand faktureres med 1400 kroner per påbegynte time.
@@ -88,15 +76,5 @@ Størrelse     |Pris|
 Ark: En stor, en medium og to små.
 
 ![DQ-QR-labels](/img/DQ-QR-labels.png)
-
-### BRAREG
-
-Størrelse      | Pris        | 
-|--------------|------------ |
-| Medium kontrolletikett 54x50mm|25| 
-| Stor kontrolletikett 90x40mm|35|
-| QR kode|25|
-
-![BRAREG-labels](/img/BRAREG-labels.png)
 
 Send oss en e-post på support@digiquip.no for å bestille.

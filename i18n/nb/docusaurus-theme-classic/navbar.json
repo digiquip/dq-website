@@ -19,10 +19,6 @@
     "message": "Modellregister",
     "description": "Navigering til modelbibliotek"
   },
-  "item.label.Expertcontrol": {
-    "message": "Sakkyndig kontroll",
-    "description": "Navigering til sakkyndig kontroll"
-  },
   "item.label.About us": {
     "message": "Om oss",
     "description": "Navigering til om oss"
