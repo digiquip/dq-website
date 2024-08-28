@@ -8,38 +8,38 @@ På denne siden finner du priser og informasjon om etiketter.
 
 Trenger du ikke en detaljert oversikt? Bruk vår [priskalkulator](https://digiquip.no/price) for et raskere prisoverslag.
 
-## DigiQuip
+# DigiQuip
 
-Maskiner og utstyr 
+## Maskiner og utstyr
 
 Mengde arbeidsutstyr|Pris per måned| Tilleggspris m/vedlikehold|
 |--|--|--|
-|Inntil 50 utstyr|390|490|
-|Inntil 100 utstyr|690|490|
-|Inntil 500 utstyr|1490|1190|
-|Inntil 1500 utstyr|2490|2090|
-|Inntil 2500 utstyr|4490|3990|
-|Inntil 5000 utstyr|5490|4690|
-|Inntil 7500 utstyr|7490|6090|
+|Inntil 50 utstyr|490|290|
+|Inntil 100 utstyr|890|690|
+|Inntil 500 utstyr|1890|1490|
+|Inntil 1500 utstyr|3190|2690|
+|Inntil 2500 utstyr|5690|4990|
+|Inntil 5000 utstyr|6890|5890|
+|Inntil 7500 utstyr|9390|7690|
 |Flere?|Ta kontakt for pris.|||
 
 + Vedlikehold: Tilleggsmodul for loggføring og dokumentasjon av vedlikehold.
 
-Kompetanse
+## Kompetanse
 
 Antall personer|Pris per måned|
 |--------------|--|
-|Inntil 25 personer|890|
-|Inntil 100 personer|3290|
-|Inntil 175 personer|4990|
-|Inntil 250 personer|6590|
-|Inntil 325 personer|8090|
-|Inntil 400 personer|9490|
-|Inntil 475 personer|10790|
-|Inntil 550 personer|11990|
-|Inntil 625 personer|13090|
-|Inntil 700 personer|14090|
-|Inntil 1000 personer|18090|
+|Inntil 25 personer|990|
+|Inntil 100 personer|4190|
+|Inntil 175 personer|6290|
+|Inntil 250 personer|8290|
+|Inntil 325 personer|10190|
+|Inntil 400 personer|11990|
+|Inntil 475 personer|13990|
+|Inntil 550 personer|14990|
+|Inntil 625 personer|16390|
+|Inntil 700 personer|17690|
+|Inntil 1000 personer|22690|
 |Flere?|Ta kontakt for pris.|
 
 :::tip
