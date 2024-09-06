@@ -53,27 +53,27 @@ function PriceComponent() {
       case (param < 1):
         return 0;
       case (param >= 1 && param <= 25):
-        return 890;
+        return 990;
       case (param > 25 && param <= 100):
-        return 3290;
+        return 4190;
       case (param > 100 && param <= 175):
-        return 4990;
+        return 6290;
       case (param > 175 && param <= 250):
-        return 6590;
+        return 8290;
       case (param > 250 && param <= 325):
-        return 8090;
+        return 10190;
       case (param > 325 && param <= 400):
-        return 9490;
-      case (param > 400 && param <= 475):
-        return 10790;
-      case (param > 475 && param <= 550):
         return 11990;
+      case (param > 400 && param <= 475):
+        return 13990;
+      case (param > 475 && param <= 550):
+        return 14990;
       case (param > 550 && param <= 625):
-        return 13090;
+        return 16390;
       case (param > 625 && param <= 700):
-        return 14090;
+        return 17690;
       case (param > 700 && param <= 1000):
-        return 18090;
+        return 22690;
       default:
         setCustomPrice(true)
         return 18090;
@@ -86,23 +86,23 @@ function PriceComponent() {
       case (param < 1):
         return 0;
       case (param >= 1 && param <= 50):
-        return 390;
+        return 490;
       case (param > 50 && param <= 100):
-        return 690;
+        return 890;
       case (param > 100 && param <= 500):
-        return 1490;
+        return 1890;
       case (param > 500 && param <= 1500):
-        return 2490;
+        return 3190;
       case (param > 1500 && param <= 2500):
-        return 4490;
+        return 5690;
       case (param > 2500 && param <= 5000):
-        return 5490;
+        return 6890;
       case (param > 5000 && param <= 7500):
-        return 7490;
+        return 9390;
       default:
        setCustomPrice(true)
        setEquipment(param)
-        return 7490;
+        return 9390;
     }
   }
 
@@ -199,18 +199,20 @@ function PriceComponent() {
     switch (true) {
       case (param < 1):
         return 0;
-      case (param >= 1 && param <= 100):
-        return 490;
+        case (param >= 1 && param <= 50):
+          return 290;
+      case (param >= 50 && param <= 100):
+        return 690;
       case (param > 100 && param <= 500):
-        return 1190;
+        return 1490;
       case (param > 500 && param <= 1500):
-        return 2090;
+        return 2690;
       case (param > 1500 && param <= 2500):
-        return 3990;
+        return 4990;
       case (param > 2500 && param <= 5000):
-        return 4690;
+        return 5890;
       case (param > 5000 && param <= 7500):
-        return 6090;
+        return 7690;
       default:
         return 0;
     }
@@ -375,7 +377,7 @@ function CustomPricePopUp() {
           <div className="alt-view-heading">Oi sann på utsiden av kalkulatoren! <br /> Det ordner vi. </div>
           <div className="alt-view-content">Ta kontakt så blir vi enige om en god pris.</div>
           <div className="btn-container">
-            <a href="#" target="_blank">
+            <a href="https://digiquip.no/about" target="kontakt">
               <button className="btn-t-1 calculator-button">Kontakt oss</button>
             </a>
           </div>
