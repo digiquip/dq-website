@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 # Prisliste og etiketter
-*Sist oppdatert: 06.mars 2024*
+*Sist oppdatert: september 2024*
 
 På denne siden finner du priser og informasjon om etiketter.
 

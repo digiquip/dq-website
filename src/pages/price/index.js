@@ -387,10 +387,6 @@ function CustomPricePopUp() {
   )
 }
 
-
-
-
-
 function AboutIntegrations() {
   return (
     <section className='about-integrations section-pd'>
@@ -439,7 +435,7 @@ function PricePageBanner() {
         <div className={clsx('hero-25 hero hero--primary heroBanner')}>
           <div className="container">
             <h1 className='section-title'>Priser<span className='orange'>.</span></h1>
-            <p>Se våre priseksempler og beregn månedlig kostnad i priskalkulatoren nedenfor.</p>
+            <p>Beregn månedlig kostnad i priskalkulatoren nedenfor.</p>
             <div className="row">
               <SubscriptionPlan />
             </div>

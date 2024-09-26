@@ -15,10 +15,6 @@
     "message": "Arbeidsutstyr",
     "description": "Navigering til arbeidsutstyr"
   },
-  "item.label.Modellibrary": {
-    "message": "Modellregister",
-    "description": "Navigering til modelbibliotek"
-  },
   "item.label.About us": {
     "message": "Om oss",
     "description": "Navigering til om oss"
@@ -28,7 +24,7 @@
     "description": "Navigering til priser"
   },
   "item.label.Login": {
-    "message": "Logg Inn",
+    "message": "Logg inn",
     "description": "Navbar element med etikett Logg inn"
   },
   "item.label.Scan QR": {

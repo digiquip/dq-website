@@ -26,14 +26,6 @@ function DigitalTraining(props) {
   );
 }
 
-function GroupHelp(props) {
-  const groupHelpContent = props.items;
-  return (
-    <CompetenceGrid record={groupHelpContent} />
-  );
-}
-
-
 function CompetenceContactus() {
   return (
    <ContactUs/>
@@ -54,21 +46,19 @@ export default function Competence() {
         setCompetenceContent(competenceRecords.competenceBannerData);
         setPracticalTraining(competenceRecords.practicalTrainingData);
         setDigitalTraining(competenceRecords.digitalTrainingData);
-        setGroupHelp(competenceRecords.groupHelpData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [competence, practicalTraining, digitalTraining, groupHelp]);
+  }, [competence, practicalTraining, digitalTraining]);
 
   return (
     <MainLayout>
       {competence && <CompetenceBanner items={competence}/>}
       {practicalTraining && <PracticalTraining items={practicalTraining}/>}
       {digitalTraining && <DigitalTraining items={digitalTraining}/>}
-      {groupHelp && <GroupHelp items={groupHelp}/>}
       <CompetenceContactus />
     </MainLayout>
   );

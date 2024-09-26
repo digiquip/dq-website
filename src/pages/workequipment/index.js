@@ -27,14 +27,6 @@ function MachinesEquipment(props) {
   );
 }
 
-function SpecificCompetence(props) {
-  const data = props.items;
-  
-  return (
-<CompetenceGrid record={data} />
-  );
-}
-
 function CompetenceContactus() {
   return (
 <ContactUs/>
@@ -47,28 +39,25 @@ export default function Workequipment() {
   const [workEquipment , setWorkEquipmentContent] = useState({})
   const [documentation , setDocumentationContent] = useState({})
   const [machines , setMachinesContent] = useState({})
-  const [competence , setCompetenceContent] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setWorkEquipmentContent(workequipmentRecords.workEquipmentBannerData);
         setDocumentationContent(workequipmentRecords.systematizedDocumentationData);
         setMachinesContent(workequipmentRecords.machinesEquipmentData);
-        setCompetenceContent(workequipmentRecords.specificCompetenceData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [workEquipment, documentation, machines, competence]);
+  }, [workEquipment, documentation, machines]);
 
   return (
     <MainLayout>
         {workEquipment && <WorkeQuipmentBanner items={workEquipment} />}
         {documentation && <SystematizedDocumentation items={documentation}/>}
         {machines &&  <MachinesEquipment items={machines} />}
-        {competence && <SpecificCompetence items={competence} />}
         <CompetenceContactus />
     </MainLayout> 
   );

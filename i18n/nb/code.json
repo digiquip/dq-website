@@ -307,11 +307,11 @@
     "description": "The label used to link to the contact page"
   },
   "home.banner.title1": {
-    "message": "Løsninger for sikker bruk av",
+    "message": "Løsninger for tryggere bruk av",
     "description": "The title of the home page"
   },
   "home.banner.title2": {
-    "message": "maskiner og utstyr",
+    "message": "arbeidsutstyr",
     "description": "The title of the home page part two"
   },
   "home.safety.title": {
@@ -319,23 +319,23 @@
     "description": "The title of the safety section on the home page"
   },
   "home.safety.what": {
-    "message": "Vår programvare gjør det enkelt å tilrettelegge for effektive og trygge arbeidsplasser. Dette gjør vi ved å samle mennesker og maskiner i en plattform.",
+    "message": "DigiQuip er navet som enkelt kobler maskin- og utstyrsparken din med tilgjengelig dokumentasjon, kontrollrutiner, sikkerhetsopplæring og spesifikk maskin- og utstyrsopplæring.",
     "description": "The description of the safety section on the home page"
   },
   "home.safety.how": {
-    "message": "I DigiQuip kan bedrifter gjennomføre opplæring, kontrollere arbeidsutstyr og finne viktige dokumenter og informasjon.",
+    "message": "- Slik at riktig folk bruker riktig maskin på riktig måte. ",
     "description": "The how part of the description of the safety section on the home page"
   },
   "home.safeuse.title": {
-    "message": "Sikker bruk av arbeidsutstyr krever nødvendig opplæring og kompetanse",
+    "message": "Riktig bruk av arbeidsutstyr avhenger av nødvendig opplæring og kompetanse",
     "description": "The title of the safe use of machinery section on the home page"
   },
   "home.safeuse.arg1": {
-    "message": "DigiQuip forenkler håndteringen av kompetanse, opplæring og dokumentasjon. Vi har en unik løsning for gjennomføring og administrasjon av utstyrsspesifikk opplæring. I tillegg gir løsningen oversikt over kurs, kompetansebevis, prosjekterfaring og utdanning.",
+    "message": "DigiQuip er et teknologiselskap som forenkler håndteringen av kompetanse, opplæring og dokumentasjon. Vi har unike løsninger for gjennomføring av utstyrsspesifikk opplæring, også kalt typeopplæring eller maskinspesifikk opplæring. I tillegg kan løsningene våre brukes til å holde oversikt over kurs, kompetansebevis, prosjekterfaring og utdanning.",
     "description": "The first argument of the safe use of machinery section on the home page"
   },
   "home.safeuse.arg2": {
-    "message": "Når brukerne skanner QR-koden på maskinen, ser de umiddelbart hvilken kompetanse de trenger, status og om maskinen kan tas i bruk.",
+    "message": "Ute i felt? Ved å skanne en QR-kode eller annet kjennemerke får vedkommende direkte svar på om han eller hun har riktig og nødvendig dokumentert opplæring for å bruke nettopp den maskinen, verktøyet eller sikkerhetsutstyret. Rapportering eller gjennomføring av opplæring kan gjøres øyeblikkelig. Slik bidrar vi til at riktig folk bruker riktig utstyr på riktig måte.",
     "description": "The second argument of the safe use of machinery section on the home page"
   },
   "home.safeuse.arg3": {
@@ -343,56 +343,28 @@
     "description": "The third argument of the safe use of machinery section on the home page"
   },
   "home.consolidate.title": {
-    "message": "Samle alt arbeidsutstyr og dokumentasjon i en plattform",
+    "message": "Full kontroll på arbeidsutstyr og dokumentasjon",
     "description": "The title of the consolidate your training section on the home page"
   },
   "home.consolidate.arg1": {
-    "message": "I DigiQuip har bedrifter kontroll på viktig informasjon, alt fra brukermanualer, CE-dokumenter, kompetansekrav til kontrollstatus.",
+    "message": "Inspeksjoner, dokumenter og brukermanualer for arbeidsutstyr skal alltid være lett tilgjengelig når det trengs. Hvorfor? Dette gjør det enklere å sørge for at arbeidsutstyr tas godt vare på og kun brukes når det kan brukes.",
     "description": "The first argument of the consolidate your training section on the home page"
   },
   "home.consolidate.arg2": {
-    "message": "Denne informasjonen er lett tilgjengelig for brukerne fra maskinens QR-kode.",
+    "message": "Ute i felt? Når en yrkesarbeider eller inspektør skanner utstyrets kjennemerke, kan personen finne siste kontrollstatus, dokumenter og brukermanual. I tillegg kan for eksempel en daglig kontroll raskt gjennomføres og dokumenteres, enten med eller uten en digital sjekkliste.",
     "description": "The second argument of the consolidate your training section on the home page"
   },
   "home.consolidate.point1": {
-    "message": "Samle og tilgjengeliggjør viktige dokumenter.",
+    "message": "Sjekklister for maskiner og utstyr.",
     "description": "The first point of the consolidate your training section on the home page"
   },
   "home.consolidate.point2": {
-    "message": "Hold oversikt over både daglige og årlige kontroller.",
+    "message": "Gjennomføring av inspeksjoner av utstyr til riktig tid.",
     "description": "The second point of the consolidate your training section on the home page"
   },
   "home.consolidate.point3": {
-    "message": "Få kontroll på kompetansekrav.",
+    "message": "Sanntidsoverblikk ved hjelp av dashboards.",
     "description": "The third point of the consolidate your training section on the home page"
-  },
-  "home.share.title": {
-    "message": "Fra modellregisteret deler leverandører effektivt og kostnadsfritt informasjon og innhold",
-    "description": "The title of the share knowledge and experience section on the home page"
-  },
-  "home.share.arg1": {
-    "message": "I modellregisteret registrerer og oppdaterer leverandører produktinformasjon, dokumenter, kompetansekrav og opplæring. Innholdet lagres et sted, og deles med mange.",
-    "description": "The first argument of the share knowledge and experience section on the home page"
-  },
-  "home.share.arg2": {
-    "message": "With information and content in one place, everyone has access to updated information on various models at all times.",
-    "description": "The second argument of the share knowledge and experience section on the home page"
-  },
-  "home.share.arg3": {
-    "message": "Our model library is free and open to all. This is how we facilitate better, simpler, and faster information sharing for everyone working with machinery and equipment.",
-    "description": "The third argument of the share knowledge and experience section on the home page"
-  },
-  "home.share.point1": {
-    "message": "Brukermanualer og instrukser.",
-    "description": "The first point of the share knowledge and experience section on the home page"
-  },
-  "home.share.point2": {
-    "message": "Produktspesifikasjoner.",
-    "description": "The second point of the share knowledge and experience section on the home page"
-  },
-  "home.share.point3": {
-    "message": "Videoer, bilder og opplæring.",
-    "description": "The third point of the share knowledge and experience section on the home page"
   },
   "home.expert.title": {
     "message": "Effektiv gjennomføring og dokumentasjon av sakkyndig kontroll",
@@ -424,7 +396,7 @@
   },
   "home.contact.title":
   {
-    "message": "Ønsker du tilgang til maskininformasjon, opplæring og bedre oversikt over kompetanse?",
+    "message": "Opptatt av riktig bruk av arbeidsutstyr til riktig tid?",
     "description": "The title of the contact section on the home page"
   },
   "home.contact.button":
@@ -441,31 +413,31 @@
     "description": "The title of the competence page part two"
   },
   "competence.banner.title3": {
-    "message": "Kompetanse er en viktig faktor for både fremdrift og sikkerhet.",
+    "message": "Kompetanse er viktig for arbeidsmiljøet, fremdrift og sikkerhet.",
     "description": "The title of the banner(image) competence page part three"
   },
   "competence.banner.arg1": {
-    "message": "Feil bruk av arbeidsutstyr øker risikoen på arbeidsplassen. Derfor er det viktig at arbeidsgivere har oversikt og gir nødvendig opplæring når det trengs",
+    "message": "De beste jobber kontinuerlig for å sikre riktig bruk av arbeidsutstyr, og forstår viktigheten av et trygt arbeidsmiljø.",
     "description": "The first argument of the competence progress and safety section on the competence page"
   },
   "competence.banner.arg2": {
-    "message": "Hvordan skal du oppnå at riktige folk bruker riktig utstyr på riktig måte? Et tiltak er å ha kontroll på at arbeideren kan bruke arbeidsutstyret trygt.",
+    "message": "Et viktig grep er riktig opplæring til riktig tid.",
     "description": "The second argument of the competence progress and safety section on the competence page"
   },
   "competence.practical_training.title1": {
-    "message": "Sørg for riktig kompetanse",
+    "message": "Riktig kompetanse",
     "description": "The title of the practical training section on the competence page"
   },
   "competence.practical_training.title2": {
-    "message": "når det trengs",
+    "message": "når det trengs.",
     "description": "The second title of the practical training section on the competence page"
   },
   "competence.practical_training.arg1": {
-    "message": "I DigiQuip holder bedrifter oversikt over kompetansebevis, kurs, utstyrsspesifikk opplæring, fagbrev og prosjekterfaring på et sted. I kombinasjon med gode maskinoversikter, er løsningen spesielt godt egnet for alle som jobber med arbeidsutstyr.",
+    "message": "DigiQuip tilbyr ende-til-ende løsninger for utstyrsspesifikk opplæring, og vi er opptatt av at dette skal være enkelt å gjennomføre når det trengs. I tillegg får du oversikt over annen sikkerhetsopplæring (kompetansebevis og kurs), fagbrev og prosjekterfaring.",
     "description": "The first argument of the practical training section on the competence page"
   },
   "competence.practical_training.arg2": {
-    "message": "Med oversikt over mennesker, kompetansekrav og arbeidsutstyr i en plattform, blir det enklere å holde oversikt og gjøre grep når det trengs.",
+    "message": "Opplæring skal tilpasses hver enkelt ansatt og avhenger av både motivasjon og erfaring. Som bruker av DigiQuip kan utstyrsspesifikk opplæring skje som e-læring eller praktisk. Praktisk opplæring vil si at opplæringen gis av noen som kan til en eller flere andre. Fordelene med praktisk opplæring er flere, men vi velger å trekke frem to: Sosialt og aktivt. Deltakerne kan stille spørsmål og teste ut den spesifikke maskinen eller utstyret underveis, som er positivt både for det sosiale og at det gir en aktiv læring.",
     "description": "The second argument of the practical training section on the competence page"
   },
   "competence.practical_training.img_description": {
@@ -473,15 +445,15 @@
     "description": "The description of practical training image in practical training section on the competence page"
   },
   "competence.digital_training.title": {
-    "message": "Det skal være enkelt å gjennomføre utstyrsspesifikk opplæring",
+    "message": "Utstyrsspesifikk opplæring.",
     "description": "The first title of the digital training section on the competence page"
   },
   "competence.digital_training.arg1": {
-    "message": "I følge norske lover og regler skal arbeidsgiver alltid sørge for nødvendig opplæring. Det betyr at det skal gis opplæring i bruk av et bestemt arbeidsutstyr før bruk, og dette skal dokumenteres.",
+    "message": "Arbeidsgiver skal alltid sørge for nødvendig opplæring. For arbeidsutstyr som krever særlig forsiktighet ved bruk, skal det alltid gis opplæring på det spesifikke arbeidsutstyret som skal brukes før bruk. Denne opplæringen går under begrepene utstyrsspesifikk, typeopplæring, maskinspesifikk med mer.",
     "description": "The first argument of the digital training section on the competence page"
   },
   "competence.digital_training.arg2": {
-    "message": "DigiQuip er den eneste løsningen hvor bedrifter fullt ut kan løse utstyrsspesifikk opplæring. Bedrifter styrer selv når opplæring er påkrevd, og ansatte gjennomfører opplæringen praktisk eller digitalt. Samtidig som opplæringen skjer, blir den automatisk dokumentert og lagret, og følger den ansatte uavhengig arbeidsgiver.",
+    "message": "DigiQuip er en komplett løsning for utstyrsspesifikk opplæring. Som arbeidsgiver styrer du selv når opplæring er påkrevd, og ansatte gjennomfører opplæringen praktisk eller digitalt. Samtidig som opplæringen skjer, blir opplæringen dokumentert og lagret. I et eget dashboard kan du i sanntid holde oversikt over alle opplæringer.",
     "description": "The second argument of the digital training section on the competence page"
   },
   "competence.digital_training.img_description": {
@@ -533,23 +505,23 @@
     "description": "The fourth title of the work equipment page"
   },
   "workequipment.banner.arg1": {
-    "message": "CE-dokumenter, brukermanualer og kontrollrapporter er ofte spredt over ulike systemer, og dette blir i praksis tidkrevende.",
+    "message": "Når en bedrift håndterer mange maskiner og utstyr, er det viktig at dokumenter, manualer og rapporter er systematisert og lett tilgjengelig når folk trenger det.",
     "description": "The first argument of the work equipment banner"
   },
   "workequipment.banner.arg2": {
-    "message": "For en bedrift som håndterer maskiner og utstyr, er det viktig for effektiviteten at disse dokumentene er lett tilgjengelige. Dette sikrer at tid kan brukes på å få ting gjort, heller enn på administrativt arbeid.",
+    "message": "De fleste maskiner og utstyr skal kontrolleres, og dette må skje til rett tid. Kontroll av arbeidsutstyr kan forenkles ved hjelp av digitale sjekklister med standardrapportering. Digitale sjekklister for maskiner og utstyr gjør det enklere å gjennomføre og dokumentere, alt fra type daglig til årlig kontroll.",
     "description": "The second argument of the work equipment banner"
   },
   "workequipment.systematized_documentation.title": {
-    "message": "Systematisert dokumentasjon",
+    "message": "Systematisert dokumentasjon.",
     "description": "The title of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg1": {
-    "message": "Bedrifter som har maskiner og utstyr i DigiQuip oppnår bedre oversikt og kontroll. Når bedrifter samler alle dokumenter og informasjon et sted, spares tid og penger.",
+    "message": "DigiQuip er navet som enkelt kobler maskin- og utstyrsparken din med tilgjengelig dokumentasjon og kontrollrutiner. Når du henter inn og samler alle dokumenter og informasjon ett sted, sparer du tid og penger.",
     "description": "The first argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg2": {
-    "message": "Og ikke minst, slipper de ansatte å gjøre samme jobben flere ganger.",
+    "message": "Og ikke minst, slipper de ansatte å gjøre samme jobben flere ganger som er bra for arbeidsmiljøet.",
     "description": "The second argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.point1": {
@@ -561,7 +533,7 @@
     "description": "The second point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point3": {
-    "message": "Kontrollinformasjon",
+    "message": "Kontrollhistorikk og status",
     "description": "The third point of the systematized documentation section on the work equipment page"
   },
   "workequipment.machines_equipment.title1": {
@@ -569,15 +541,15 @@
     "description": "The first title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.title2": {
-    "message": "maskiner og utstyr",
+    "message": "maskiner og utstyr.",
     "description": "The second title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg1": {
-    "message": "Hold oversikt over siste status og nødvendige kontroller, alt fra årlig, daglig eller vedlikehold.",
+    "message": "I DigiQuip kan du holde oversikt over siste status og nødvendige kontroller, alt fra årlig, daglig og vedlikehold.",
     "description": "The first argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg2": {
-    "message": "Krever arbeidsutstyret inspeksjon før bruk (daglig kontroll), kan fagarbeideren enten bruke løsningen til å bekrefte eller gå gjennom en relevant sjekkliste. Kontrollen blir samtidig loggført.",
+    "message": "Om for eksempel daglig kontroll av arbeidsutstyret skal gjennomføres, vil yrkesarbeideren se dette når han eller hun skanner QR-koden, eller annet kjennemerke, på utstyret. Personen vil finne muligheten til å bekrefte eller gå gjennom en relevant sjekkliste samtidig som dette dokumenteres. Som maskineier kan du finne all historikk og detaljer på hvert enkelt arbeidsutstyr.",
     "description": "The second argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.point1": {
@@ -585,93 +557,12 @@
     "description": "The first point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point2": {
-    "message": "Sjekklister",
+    "message": "Digitale sjekklister for maskiner og utstyr",
     "description": "The second point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point3": {
-    "message": "Historikk og kommende kontroller",
+    "message": "Dashboard med historikk og kommende kontroller",
     "description": "The third point of the machine equipment section on the work equipment page"
-  },
-  "workequipment.specific_competence.title1": {
-    "message": "Lag digital utstyrsspesifikk",
-    "description": "The first title of the specific competence section in the work equipment page"
-  },
-  "workequipment.specific_competence.title2": {
-    "message": "opplæring",
-    "description": "The second title of the specific competence section in the work equipment page"
-  },
-  "workequipment.specific_competence.arg1": {
-    "message": "Velg mellom egne digitale opplæringer eller bruk leverandørens.",
-    "description": "The first argument of the specific competence section in the work equipment page"
-  },
-  "workequipment.specific_competence.arg2": {
-    "message": "I DigiQuip kan du lage egne opplæringer. Opplæringen inneholder støtte for videoer og obligatorisk quiz."
-  },
-  "workequipment.specific_competence.img_description": {
-    "message": "Få oversikt over din utstyrsspesifikke opplæring.",
-    "description": "The description of specific competence image in specific competence section on the work equipment page"
-  },
-
-"modellibrary.banner.title1": {
-  "message": "En plattform for innhold og",
-  "description": "The first title of the model library banner section on the model library page"
-},
-"modellibrary.banner.title2": {
-  "message": "informasjon",
-  "description": "The second title of the model library banner section on the model library page"
-},
-"modellibrary.banner.title3": {
-  "message": "I modellregisteret oppretter og deler leverandører informasjon og innhold.",
-  "description": "The third title of the model library banner section on the model library page"
-},
-"modellibrary.banner.arg1": {
-  "message": "Informasjonen opprettes, deles og oppdateres et sted. Dette er tids- og kostnadsbesparende for alle: Leverandør, kunde og brukere.",
-  "description": "The first argument of the model library banner section in the model library page"
-},
-"modellibrary.banner.arg2": {
-  "message": "Modellregisteret er kostnadsfritt fordi vi ønsker å bidra til sikrere arbeidsplasser. Vi mener at jo mer informasjon som deles, desto bedre er utgangspunktet for at maskiner og utstyr blir brukt riktig.",
-  "description": "The second argument of the model library banner section in the model library page"
-},
-"modellibrary.library.title": {
-  "message": "Samle informasjon og innhold et sted og del med mange",
-  "description": "The title of the library section on the model library page"
-},
-"modellibrary.library.arg1": {
-  "message": "Brukermanualer, videoer og dokumenter krever mye administrasjon. Unngå merarbeid med lagring og deling digitalt",
-  "description": "The first argument of the library section in the model library page"
-},
-"modellibrary.library.arg2": {
-  "message": "Med innhold direkte tilgjengelig fra leverandører får alle alltid tilgang til siste oppdaterte informasjon når de trenger det. Dette betyr:",
-  "description": "The second argument of the library section in the model library page"
-},
-"modellibrary.library.point1": {
-  "message":"Mindre support",
-  "description": "The first point of the library section on the model library page"
-},
-
-"modellibrary.library.point2": {
-  "message":"Mer forutsigbarhet",
-  "description": "The second point of the library section on the model library page"
-},
-"modellibrary.library.point3": {
-  "message":"Bedre brukervennlighet",
-  "description": "The third point of the library section on the model library page"
-},
-  "modellibrary.easy_training.title": {
-    "message": "Videoer er et eksempel på innhold som raskt kan deles med mange",
-    "description": "The title of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg1": {
-    "message": "Videoer er en enkel måte å presentere informasjon om hvordan bruke utstyr og maskiner. For utleiebedrifter og leverandører minimerer opplæringsvideoer support og sikrer riktig bruk.",
-    "description": "The first argument of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg2": {
-    "message": "Ofte er det tungt å distribuere videoer, og deling digitalt gjør denne jobben betydelig enklere. Kanskje videoen gir sluttbrukeren akkurat det svaret han eller hun trengte for å bruke utstyret riktig.",
-    "description": "The second argument of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg3": {
-    "message": "NB: Folk er forskjellige, har ulikt utgangspunkt og lærer på ulik måte. Derfor er det helt avgjørende at arbeidsgiver gjør en vurdering av hva som er nødvendig opplæring for sine ansatte",
-    "description": "The third argument of the easy training section on the model library page"
   },
 "aboutus.banner.title1": {
   "message":"Slik startet det",
@@ -686,7 +577,7 @@
   "description": "The first argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg2": {
-  "message":"Behovet var tydelig – å tilby markedet en digital plattform som sentraliserer informasjonsmateriell for utleiebedrifter og entrepenører i samarbeid med forhandlere og produsenter og enkelt tilgjengeliggjøre denne informasjonen for maskinbrukerene.",
+  "message":"Behovet var tydelig å tilby markedet en digital plattform som sentraliserer informasjonsmateriell for utleiebedrifter og entrepenører i samarbeid med forhandlere og produsenter og enkelt tilgjengeliggjøre denne informasjonen for maskinbrukerene.",
   "description": "The second argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg3": {

@@ -12,29 +12,29 @@ On this page you'll find detailed prices for our solutions and stickers. All pri
 ### Equipment
 Number of equipment|Monthly costs|Additional costs w/maintenance|
 |--|--|--|
-|Up to 50|390|490|
-|Up to 100|690|490|
-|Up to 500|1490|1190|
-|Up to 1500|2490|2090|
-|Up to 2500|4490|3990|
-|Up to 5000|5490|4690|
-|Up to 7500|7490|6090|
+|Up to 50|490|290|
+|Up to 100|890|690|
+|Up to 500|1890|1490|
+|Up to 1500|3190|2690|
+|Up to 2500|5690|4990|
+|Up to 5000|6890|5890|
+|Up to 7500|9390|7690|
 
 ### Competence
 
 Number of people|Monthly costs|
 |--------------|--|
-|Up to 25|890|
-|Up to 100|3290|
-|Up to 175|4990|
-|Up to 250|6590|
-|Up to 325|8090|
-|Up to 400|9490|
-|Up to 475|10790|
-|Up to 550|11990|
-|Up to 625|13090|
-|Up to 700|14090|
-|Up to 1000|18090|
+|Up to 25|990|
+|Up to 100|4190|
+|Up to 175|6290|
+|Up to 250|8290|
+|Up to 325|10190|
+|Up to 400|11990|
+|Up to 475|13990|
+|Up to 550|14990|
+|Up to 625|16390|
+|Up to 700|17690|
+|Up to 1000|22690|
 
 :::tip
 Individuals can always register themselves and their competence for free in DigiQuip. The difference versus the paid version is that employers will not have access to the person nor get any overview of their competence.

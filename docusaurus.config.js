@@ -102,13 +102,6 @@ const config = {
                 sidebarid: 'tutorialSidebar',
                 to: '/workequipment'
               },
-              {
-                // html: 'Model register' + linkHtml,
-                label: 'Modellibrary',
-                // type: 'docSidebar',
-                sidebarid: 'tutorialSidebar',
-                to:'/modellibrary',
-              },
             ]
           },
           {
@@ -125,13 +118,13 @@ const config = {
           },
           {
             to: 'https://pim.digiquip.com/authenticate/idp/init?destination=none&interactionMode=signIn&existingSessionId=',
-            label: 'Login',
+            label: 'Log in',
             position: 'right',
             sidebarid: 'loginButton',
           },
           {
             to: 'https://qr.digiquip.com/scan',
-            label: 'Scan QR',
+            label: 'Scan QR code',
             position: 'right',
             sidebarid: 'scanButton',
           },
