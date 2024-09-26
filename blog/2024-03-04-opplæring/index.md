@@ -43,7 +43,7 @@ Og flere fordeler kan listes opp! Men når alt kommer til alt, dette handler om 
 
 For mer informasjon, så har Arbeidstilsynet en god beskrivelse [her](https://www.arbeidstilsynet.no/regelverk/forskrifter/forskrift-om-utforelse-av-arbeid/3/10/10-4/).
 
-Slik kan bedriften sjekke fakta, fremfor magefølelsen, rundt spørsmålet "kan jeg bruke denne maskinen?". 
+Slik kan du sjekke fakta, fremfor magefølelsen, rundt spørsmålet "kan jeg bruke denne maskinen?". 
 
 ![Bilde](trygt-hjem.png)
 

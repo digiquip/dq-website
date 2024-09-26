@@ -39,7 +39,7 @@ Se kapittel administrasjon av maskiner og utstyr for mer informasjon.
 
 ## 4. Innstillinger for opplæring
 
-Når bedriften skal bruke DigiQuip for gjennomføring av utstyrsspesifikk kompetanse, må dere ta stilling til hvordan opplæringen skal godkjennes og hvem som kan gi opplæring til andre.
+Når bruke DigiQuip skal brukes for gjennomføring av utstyrsspesifikk kompetanse, må dere ta stilling til hvordan opplæringen skal godkjennes og hvem som kan gi opplæring til andre.
 
 Se kapittel administrasjon av egen og andres kompetanse for mer informasjon.
 
