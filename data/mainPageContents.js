@@ -22,9 +22,30 @@ const safetyWork = [
     },
 ];
 
+const newsContent = [
+    {
+        isVideo: true,
+        title: translate({ message: "home.safety.title" }),
+        withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
+        withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
+        youtubeVideoBanner: youtubeVideoBanner,
+        imageBanner: '',
+        description: translate({ message: "home.safety.what" }),
+    },
+    {
+        isVideo: false,
+        title: translate({ message: "home.safety.title" }),
+        withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
+        withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
+        youtubeVideoBanner: '',
+        imageBanner: youtubeVideoBanner,
+        description: translate({ message: "home.safety.what" }),
+    },
+];
+
 
 const safeuseContent = {
-    className: "sikker-bruk light-bg-grey",
+    className: "sikker-bruk",
     title: (
         <h2 className="section-title"><Translate>home.safeuse.title</Translate><span className="orange">.</span>
         </h2>
@@ -87,6 +108,7 @@ const eventBlock = eventDetail;
 
 const mainPageContentRecords = {
     safetyWork,
+    newsContent,
     eventBlock,
     safeuseContent,
     consolidateWorkContent,

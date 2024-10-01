@@ -8,6 +8,7 @@ import {
   useNavbarMobileSidebar,
 } from '@docusaurus/theme-common/internal';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import ButtonDropdown from "../../../components/ContactUsDropdown";
 
 function useNavbarItems() {
   // TODO temporary casting until ThemeConfig type is improved
@@ -75,6 +76,7 @@ export default function ContentWrapper(props) {
           //respective navbar items => more flexible
           <>
             <NavbarItems items={rightItems} />
+            <ButtonDropdown />
           </>
         }
       />

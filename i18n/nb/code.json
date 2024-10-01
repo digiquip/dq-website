@@ -752,5 +752,21 @@
 "home.event.keypoints_desc3": {
   "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "description": "The description of third keypoint"
-}
+},
+  "navbar.label.contact": {
+    "message": "Kgokaganyo",
+    "description": "Navbar item with label Contact"
+  },
+  "navbar.label.contact_us": {
+    "message": "Ikgokaganye le Rena",
+    "description": "Navbar item with label Contact Us"
+  },
+  "navbar.label.book_meeting": {
+    "message": "Beakanya Seboka",
+    "description": "Navbar item with label Book a Meeting"
+  },
+  "home.news.title": {
+    "message": "Ditaba tša Morago bjale",
+    "description": "Title of Latest News"
+  }
 }
