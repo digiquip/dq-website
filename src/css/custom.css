@@ -616,6 +616,12 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.news-section-detail .read-more {
+    padding: 2px 5px!important;
+    font-size: 12px;
+    float: right;
+    text-decoration: none;
+}
 
  .saferyworksection {
    padding-bottom: 6rem;

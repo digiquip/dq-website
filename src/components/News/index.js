@@ -2,6 +2,7 @@ import clsx from "clsx";
 import { useState } from "react";
 import BrandLogo from "../BrandLogo";
 import PlayButton from "../PlayVideoBtn";
+import Link from '@docusaurus/Link';
 
 // SafetyWork component
 export default function News({title, description, withoutAutoPlay, withPlay, youtubeVideoBanner, isVideo, imageBanner }) {
@@ -29,6 +30,7 @@ export default function News({title, description, withoutAutoPlay, withPlay, you
                     <span className="orange">.</span>
                 </h3>
                 <p className="news-detail">{description}</p>
+                    <Link className="btn red-btn read-more" href="#">Read More</Link>
             </div>
         </div>
     </section>);

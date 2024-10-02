@@ -43,3 +43,9 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+@media (max-width: 996px) {
+    .dropdown {
+        display: none;
+    }
+}
