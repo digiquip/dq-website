@@ -31,6 +31,7 @@ const newsContent = [
         youtubeVideoBanner: youtubeVideoBanner,
         imageBanner: '',
         description: translate({ message: "home.safety.what" }),
+        blogLink: '#',
     },
     {
         isVideo: false,
@@ -40,6 +41,7 @@ const newsContent = [
         youtubeVideoBanner: '',
         imageBanner: youtubeVideoBanner,
         description: translate({ message: "home.safety.what" }),
+        blogLink: '#',
     },
 ];
 
