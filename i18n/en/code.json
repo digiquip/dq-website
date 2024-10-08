@@ -319,23 +319,23 @@
     "description": "The title of the safety section on the home page"
   },
   "home.safety.what": {
-    "message": "We are developing a platform for training, control, and monitoring of machinery.",
+    "message": "DigiQuip is the hub that easily connects your machinery and equipment fleet with available documentation, inspection procedures, safety training, and specific machine and equipment training.",
     "description": "The description of the safety section on the home page"
   },
   "home.safety.how": {
-    "message": "Our software is designed to make it easier to facilitate an efficient and safe workplace.",
+    "message": "-So that the right people use the right machine in the right way.",
     "description": "The how part of the description of the safety section on the home page"
   },
   "home.safeuse.title": {
-    "message": "Safe use of work equipment requires necessary training and expertise",
+    "message": "Correct use of equipment depends on the necessary training and competence",
     "description": "The title of the safe use of machinery section on the home page"
   },
   "home.safeuse.arg1": {
-    "message": "DigiQuip simplifies the management of competence, training, and documentation for businesses. The software provides a complete overview of courses, competency certificates, training, project experience, and professional qualifications.",
+    "message": "DigiQuip is a technology company that simplifies the management of competence, training, and documentation. We offer unique solutions for conducting equipment-specific training, also known as type training or machine-specific training. In addition, our solutions can be used to keep track of courses, competence certificates, project experience, and education.",
     "description": "The first argument of the safe use of machinery section on the home page"
   },
   "home.safeuse.arg2": {
-    "message": "With DigiQuip, the only software offering equipment-specific training, it becomes easier for employers to administer the required training.",
+    "message": "At the construction site? By scanning a QR code or another identifier, individuals receive instant confirmation of whether they have the appropriate and necessary documented training to use that specific machine, tool, or safety equipment. Reporting or completion of training can be done immediately. This ensures that the right people use the right equipment in the right way.",
     "description": "The second argument of the safe use of machinery section on the home page"
   },
   "home.safeuse.arg3": {
@@ -343,44 +343,32 @@
     "description": "The third argument of the safe use of machinery section on the home page"
   },
   "home.consolidate.title": {
-    "message": "Consolidate all work equipment and documentation into one platform",
+    "message": "Full control over equipment and documentation",
     "description": "The title of the consolidate your training section on the home page"
   },
   "home.consolidate.arg1": {
-    "message": "DigiQuip makes it easy for businesses to gather and share crucial information such as user manuals, CE documents, competency requirements, and inspection status.",
+    "message": "Inspections, documents, and user manuals for equipment should always be easily accessible when needed. Why? This makes it easier to ensure that equipment is well-maintained and only used when it is safe to do so.",
     "description": "The first argument of the consolidate your training section on the home page"
   },
   "home.consolidate.arg2": {
-    "message": "By scanning the QR code on the machine or equipment, the user easily accesses relevant information, including inspection status, user manual, training, and most importantly, competency.",
+    "message": "At the construction site? When a worker or inspector scans the equipment's identifier, they can find the latest inspection status, documents, and user manual. Additionally, a pre-use inspection can be quickly carried out and documented, either with or without a digital checklist.",
     "description": "The second argument of the consolidate your training section on the home page"
   },
   "home.consolidate.point1": {
-    "message": "Consolidate and make important documents accessible.",
+    "message": "Digital checklists for machines and equipment.",
     "description": "The first point of the consolidate your training section on the home page"
   },
   "home.consolidate.point2": {
-    "message": "Keep track of both daily and annual inspections.",
+    "message": "Perform equipment inspections at the right time.",
     "description": "The second point of the consolidate your training section on the home page"
   },
   "home.consolidate.point3": {
-    "message": "Gain control over competency requirements.",
+    "message": "Real-time dashboards.",
     "description": "The third point of the consolidate your training section on the home page"
   },
   "home.share.title": {
-    "message": "Suppliers efficiently share information and content through our model registry",
+    "message": "Suppliers efficiently share information and content",
     "description": "The title of the share knowledge and experience section on the home page"
-  },
-  "home.share.arg1": {
-    "message": "For easy sharing of product information, documents, competency requirements, and training, we have built a model library.",
-    "description": "The first argument of the share knowledge and experience section on the home page"
-  },
-  "home.share.arg2": {
-    "message": "With information and content in one place, everyone has access to updated information on various models at all times.",
-    "description": "The second argument of the share knowledge and experience section on the home page"
-  },
-  "home.share.arg3": {
-    "message": "Our model library is free and open to all. This is how we facilitate better, simpler, and faster information sharing for everyone working with machinery and equipment.",
-    "description": "The third argument of the share knowledge and experience section on the home page"
   },
   "home.share.point1": {
     "message": "User manuals and instructions.",
@@ -424,7 +412,7 @@
   },
   "home.contact.title":
   {
-    "message": "Do you want easy access to equipment information, familiarization and a better overview of your competencies?",
+    "message": "Focused on the right use of equipment at the right time?",
     "description": "The title of the contact section on the home page"
   },
   "home.contact.button":
@@ -461,11 +449,11 @@
     "description": "The second title of the practical training section on the competence page"
   },
   "competence.practical_training.arg1": {
-    "message": "DigiQuip is the only solution that encompasses competency certificates, courses, equipment training, qualifications, and experience in one platform. Hence, it is particularly well-suited for those using machinery and equipment.",
+    "message": "DigiQuip offers end-to-end solutions for equipment-specific training, and we are committed to making this easy to implement when needed. Additionally, you will have an overview of other safety training (competence certificates and courses), qualifications, and project experience.",
     "description": "The first argument of the practical training section on the competence page"
   },
   "competence.practical_training.arg2": {
-    "message": "With an overview of people, competence requirements, and work equipment in one platform, it becomes easier for organisations to both plan and action when needed.",
+    "message": "Training should be tailored to each individual employee and depends on both motivation and experience. As a user of DigiQuip, equipment-specific training can take place as e-learning or practical training. Practical training means that the training is provided by someone knowledgeable to one or more others. The benefits of practical training are numerous, but we would like to highlight two: social and active. Participants can ask questions and test the specific machine or equipment along the way, which is beneficial for both social interaction and active learning.",
     "description": "The second argument of the practical training section on the competence page"
   },
   "competence.practical_training.img_description": {
@@ -477,11 +465,11 @@
     "description": "The first title of the digital training section on the competence page"
   },
   "competence.digital_training.arg1": {
-    "message": "According to Norwegian law and rules, employers must always provide necessary training. This includes training in the use of specific work equipment before its use.",
+    "message": "Employers must always provide the necessary training. For equipment that requires particular caution during use, training must always be given prior to use. This training is referred to as equipment-specific, type training, machine-specific, and more.",
     "description": "The first argument of the digital training section on the competence page"
   },
   "competence.digital_training.arg2": {
-    "message": "DigiQuip is the only service which help companies solving this challenge. Companies determine when training is required, and employees undergo practical or digital training.",
+    "message": "DigiQuip is a comprehensive solution for equipment-specific training. As an employer, you have control over when training is required, and employees can complete their training either practically or digitally. While the training is taking place, it is documented and stored. In a dedicated dashboard, you can keep track of all training in real-time.",
     "description": "The second argument of the digital training section on the competence page"
   },
   "competence.digital_training.img_description": {
@@ -529,23 +517,23 @@
     "description": "The fourth title of the work equipment page"
   },
   "workequipment.banner.arg1": {
-    "message": "CE documents, user manuals, and inspection reports are often scattered across different systems, which can be time-consuming in practice.",
+    "message": "When a business manages many machines and equipment, it is important that documents, manuals, and reports are organised and readily available when people need them.",
     "description": "The first argument of the work equipment banner"
   },
   "workequipment.banner.arg2": {
-    "message": "For a company handling machinery and equipment, it is crucial for efficiency that these documents are easily accessible. This ensures that time is spent on performing tasks rather than on administrative work.",
+    "message": "Most machines and equipment requires inspections, and this must happen in a timely manner. The inspection of work equipment can be streamlined using digital checklists with standard reporting. Digital checklists for machines and equipment make it easier to carry out and document everything from pre-use to annual inspections.",
     "description": "The second argument of the work equipment banner"
   },
   "workequipment.systematized_documentation.title": {
-    "message": "Systematized documentation",
+    "message": "Systematised documentation",
     "description": "The title of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg1": {
-    "message": "Companies with machinery and equipment in DigiQuip gain better overview and control over documentation. Gathering all documentation digitally in one place, as opposed to archives, emails, and various systems, saves businesses both time and money. Moreover, employees are spared from doing the same job repeatedly.",
+    "message": "DigiQuip is the hub that easily connects your machinery and equipment fleet with available documentation and control procedures. By collecting and centralising all documents and information in one place, you save time and money.",
     "description": "The first argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg2": {
-    "message": "Gain quick and easy access to specifications, user manuals, and training models through our model library. Easily add other documents associated with individual equipment.",
+    "message": "And not least, employees no longer have to repeat the same tasks multiple times, which is beneficial for the working environment.",
     "description": "The second argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.point1": {
@@ -557,11 +545,11 @@
     "description": "The second point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point3": {
-    "message": "Control information",
+    "message": "Inspection history and status",
     "description": "The third point of the systematized documentation section on the work equipment page"
   },
   "workequipment.machines_equipment.title1": {
-    "message": "Annual and daily inspections of",
+    "message": "Inspection of",
     "description": "The first title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.title2": {
@@ -569,120 +557,24 @@
     "description": "The second title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg1": {
-    "message": "Get a simple overview of the latest inspection status and upcoming annual inspections. Expert control information is entered either manually or automatically from other inspection systems.",
+    "message": "In DigiQuip, you can keep track of the latest status and necessary inspections, ranging from annual to pre-use and maintenance inspections.",
     "description": "The first argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg2": {
-    "message": "If a machine or equipment requires daily inspection, a user scanning the machine's QR code will receive a reminder. This daily check is simultaneously logged.",
+    "message": "For example, if a pre-use inspection of the work equipment is to be conducted, the worker will see this when they scan the QR code or other identifier on the equipment. The person will find the option to confirm or go through a relevant checklist while this is documented. As the machine owner, you can find all history and details for each individual piece of work equipment.",
     "description": "The second argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.point1": {
-    "message": "Expert inspection",
+    "message": "Expert, pre-use and maintenance inspections",
     "description": "The first point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point2": {
-    "message": "Daily inspection",
+    "message": "Digital checklists for machines and equipment",
     "description": "The second point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point3": {
-    "message": "History and upcoming inspections",
+    "message": "Dashboard with history and upcoming inspections",
     "description": "The third point of the machine equipment section on the work equipment page"
-  },
-
-
-  "workequipment.specific_competence.title1": {
-    "message": "Create digital equipment-",
-    "description": "The first title of the specific competence section in the work equipment page"
-  },
-  "workequipment.specific_competence.title2": {
-    "message": "specific training",
-    "description": "The second title of the specific competence section in the work equipment page"
-  },
-  "workequipment.specific_competence.arg1": {
-    "message": "In DigiQuip, businesses can create their own digital training programs. Digital training includes videos and quizzes.",
-    "description": "The first argument of the specific competence section in the work equipment page"
-  },
-  "workequipment.specific_competence.arg2": {
-    "message": "If the supplier has already created content, it will be accessible for the machine or equipment. The choice of digital training to be used is managed by the company.",
-    "description": "The second argument of the specific competence section in the work equipment page"
-  },
-  "workequipment.specific_competence.img_description": {
-    "message": "Get an overview of your equipment specific competence.",
-    "description": "The description of specific competence image in specific competence section on the work equipment page"
-  },
-
-"modellibrary.banner.title1": {
-  "message": "A platform for content and",
-  "description": "The first title of the model library banner section on the model library page"
-},
-"modellibrary.banner.title2": {
-  "message": "product information",
-  "description": "The second title of the model library banner section on the model library page"
-},
-"modellibrary.banner.title3": {
-  "message": "In DigiQuip, suppliers create and share information and content with all their customers.",
-  "description": "The third title of the model library banner section on the model library page"
-},
-"modellibrary.banner.arg1": {
-  "message": "The information is created, shared, and updated on a single platform. This is time and cost-effective for everyone involved, including suppliers, customers, and users.",
-  "description": "The first argument of the model library banner section in the model library page"
-},
-"modellibrary.banner.arg2": {
-  "message": "The model library is free because we aim to contribute to safer workplaces. We believe that the more information that is shared, the better the foundation for the proper use of machinery and equipment.",
-  "description": "The second argument of the model library banner section in the model library page"
-},
-"modellibrary.library.title": {
-  "message": "A digital content library for structured information and content",
-  "description": "The title of the library section on the model library page"
-},
-"modellibrary.library.arg1": {
-  "message": "Why use 100 folders for user manuals, videos, documents, and specifications when everything can be consolidated in a model registry? This way, all content becomes accessible from one solution, allowing customers to access the latest information when they need it.",
-  "description": "The first argument of the library section in the model library page"
-},
-"modellibrary.library.arg2": {
-  "message": "The greatest advantage of the system is that all information can be stored and shared in one place. It's cost-free to provide maximum value to everyone in the value chain – from supplier to machine user.",
-  "description": "The second argument of the library section in the model library page"
-},
-"modellibrary.library.point1": {
-  "message":"Reduced supplier-customer support",
-  "description": "The first point of the library section on the model library page"
-},
-
-"modellibrary.library.point2": {
-  "message":"Predictable",
-  "description": "The second point of the library section on the model library page"
-},
-"modellibrary.library.point3": {
-  "message":"User-friendly",
-  "description": "The third point of the library section on the model library page"
-},
-  "modellibrary.easy_training.title": {
-    "message": "Use videos for easy training",
-    "description": "The title of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg1": {
-    "message": "Videos are an easy way to educate users about equipment and machinery. For rental companies and suppliers, training videos minimize support and ensure proper usage.",
-    "description": "The first argument of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg2": {
-    "message": "The challenge with producing good videos is that it can be resource-intensive. The content needs to be planned, filmed, edited, and often requires multiple rounds of adjustments. Therefore, we can assist in this process.",
-    "description": "The second argument of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg3": {
-    "message": "We work closely with our clients - such as",
-    "description": "The third argument of the easy training section on the model library page"
-  },
-  "modellibrary.easy_training.arg3_part2": {
-    "message": "and our partner",
-    "description": "and our partner"
-  },
-  "modellibrary.easy_training.arg3_part3": {
-    "message": "to ensure a successful outcome with optimal use of time and resources",
-    "description": "to ensure a successful outcome with optimal use of time and resources"
-  },
-  "modellibrary.easy_training.arg4": {
-    "message": "us for a non-binding discussion about your needs, and we’ll find a good solution together.",
-    "description": "The fourth argument of the easy training section on the model library page"
   },
 "aboutus.banner.title1": {
   "message":"How it started",

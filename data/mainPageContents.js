@@ -102,7 +102,6 @@ const shareInfoContent = {
             </ul>
         </>
     ),
-    link: "modellibrary",
 }
 
 const brandLogoPartners = partnersBrandLogoList.brandList;
@@ -114,7 +113,6 @@ const mainPageContentRecords = {
     eventBlock,
     safeuseContent,
     consolidateWorkContent,
-    shareInfoContent,
     brandLogoPartners,
 }
 

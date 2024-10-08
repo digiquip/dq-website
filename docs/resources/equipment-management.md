@@ -14,10 +14,6 @@ Hvorfor administrasjon av modeller? En bedrift har 1000 maskiner fordelt på 100
 
 :::
 
-## Modellregisteret
-
-Leverandører kan gratis legge inn modeller og informasjon i DigiQuips modellregister. Leverandøren legger som minimum inn modellnavn, og kan også legge til ytterligere informasjon om kompetansekrav, krav til sakkyndig kontroll, brukermanualer og andre dokumenter og opplæringsmateriell. Denne informasjonen blir således tilgjengelig for alle som brukere DigiQuip.
-
 ## Opprett modeller og legg til arbeidsutstyr
 
 Legg til maskiner manuelt, vha integrasjoner eller import.

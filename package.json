@@ -15,23 +15,22 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.5.2",
-    "@docusaurus/plugin-content-docs": "^3.1.1",
+    "@docusaurus/plugin-content-docs": "^3.5.2",
     "@docusaurus/preset-classic": "^3.5.2",
     "@docusaurus/theme-common": "^3.5.2",
     "@mdx-js/react": "^3.0.0",
-    "@studio-freight/lenis": "^1.0.34",
-    "@studio-freight/react-lenis": "^0.0.43",
-    "clsx": "^2.0.0",
+    "clsx": "^2.1.1",
     "gsap": "^3.12.5",
-    "prism-react-renderer": "^2.3.0",
+    "lenis": "^1.1.13",
+    "prism-react-renderer": "^2.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-multi-carousel": "^2.8.5",
-    "swiper": "^11.0.5"
+    "swiper": "^11.1.12"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.1.1",
-    "@docusaurus/types": "^3.1.1"
+    "@docusaurus/module-type-aliases": "^3.5.2",
+    "@docusaurus/types": "^3.5.2"
   },
   "browserslist": {
     "production": [

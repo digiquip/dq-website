@@ -14,10 +14,6 @@ Why manage equipment on the model level? A company has 1,000 machines across 100
 
 :::
 
-## Model registry
-
-Suppliers can enter models and information into DigiQuip's model registry free of charge. The supplier must at least enter the model name, and can also add additional information about competence requirements, requirements for expert inspection, user manuals, and other documents and training materials. This information then becomes available to all users of DigiQuip.
-
 ## Create models and add equipment
 
 Add machines manually, via integrations, or import.

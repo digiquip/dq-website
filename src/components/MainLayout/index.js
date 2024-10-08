@@ -1,7 +1,7 @@
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import { useEffect } from 'react';
-import { Lenis as ReactLenis } from '@studio-freight/react-lenis'
+import { Lenis as ReactLenis } from 'lenis/react'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
 
