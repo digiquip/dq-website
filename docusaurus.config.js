@@ -123,8 +123,8 @@ const config = {
             sidebarid: 'loginButton',
           },
           {
-            to: 'https://qr.digiquip.com/scan',
-            label: 'Scan QR code',
+            to: 'https://qr.digiquip.com',
+            label: 'KVIPP (Beta)',
             position: 'right',
             sidebarid: 'scanButton',
           },
