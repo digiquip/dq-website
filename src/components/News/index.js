@@ -15,7 +15,7 @@ export default function News({title, description, withoutAutoPlay, withPlay, you
     return (<section className="news-section">
         <div className="card">
             <div className="row">
-                <div className={clsx("col col--4")}>
+                <div className={clsx("col col--5")}>
                     <div className="news-section-detail">
                         <h2 className="news-title">
                             <Link href={blogLink}>
@@ -25,10 +25,12 @@ export default function News({title, description, withoutAutoPlay, withPlay, you
                         </h2>
                         <p className="news-detail"><small>{description}</small></p>
                         {/*<Link className="btn red-btn read-more" href={blogLink}>Read More</Link>*/}
-                        <Button label={button} isIcon={true} link={blogLink} btnType={'dark'} btnSize={'sm'}/>
+                        <div className='news-readmore'>
+                            <Button label={button} isIcon={true} link={blogLink} btnType={'dark'} />
+                        </div>
                     </div>
                 </div>
-                <div className={clsx("col col--7 col--offset-1")}>
+                <div className={clsx("col col--6 col--offset-1")}>
                     <div className="videosection">
                         {isVideo ? <>
                             {value ? "" : <BrandLogo Img={youtubeVideoBanner} width={''} height={''} alt={''}/>}
