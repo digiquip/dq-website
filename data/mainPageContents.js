@@ -33,16 +33,6 @@ const newsContent = [
         description: translate({ message: "home.safety.what" }),
         blogLink: '#',
     },
-    {
-        isVideo: false,
-        title: translate({ message: "home.safety.title" }),
-        withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
-        withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
-        youtubeVideoBanner: '',
-        imageBanner: youtubeVideoBanner,
-        description: translate({ message: "home.safety.what" }),
-        blogLink: '#',
-    },
 ];
 
 

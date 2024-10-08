@@ -630,13 +630,6 @@
     font-size: 22px;
     font-weight: 700;
 }
-.news-section-detail .news-detail {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 .news-section-detail .read-more {
     padding: 0px 8px!important;
     font-size: 12px;
