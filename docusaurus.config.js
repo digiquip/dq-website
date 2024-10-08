@@ -117,6 +117,12 @@ const config = {
             sidebarid: 'tutorialSidebar',
           },
           {
+            to: '/docs/intro',
+            label: 'Dokumentasjon',
+            position: 'left',
+            sidebarid: 'tutorialSidebar',
+          },
+          {
             to: 'https://pim.digiquip.com/authenticate/idp/init?destination=none&interactionMode=signIn&existingSessionId=',
             label: 'Log in',
             position: 'right',
@@ -165,15 +171,6 @@ const config = {
                 href: 'mailto:support@digiquip.no'
               }
             ]
-          },
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
           },
           {
             title: 'Legal stuff',
