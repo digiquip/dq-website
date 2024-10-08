@@ -26,8 +26,7 @@ const newsContent = [
     {
         isVideo: true,
         title: translate({ message: "home.safety.title" }),
-        withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
-        withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
+        dyntubeKey: 'ghwAaiPaWEehuom5vH0VQ',
         youtubeVideoBanner: youtubeVideoBanner,
         imageBanner: '',
         description: translate({ message: "home.safety.what" }),

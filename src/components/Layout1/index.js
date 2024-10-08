@@ -112,6 +112,17 @@ useEffect(() => {
  
 }, [setNewsContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent]);
 
+  useEffect(() => {
+    // Load the Dyntube script when the component mounts
+    if (typeof window !== 'undefined' && !window._dyntube_v1_init) {
+      window._dyntube_v1_init = true;
+      const script = document.createElement('script');
+      script.src = "https://embed.dyntube.com/v1.0/dyntube.js";
+      script.async = true;
+      document.head.appendChild(script);
+    }
+  }, []);
+
 // {eventBlockContent && <EventBlock record={eventBlockContent}/>}
 
   return (
