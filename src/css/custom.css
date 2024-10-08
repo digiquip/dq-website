@@ -598,18 +598,18 @@
    color: #f05a08;
  }
 
+ /* NEWS SECTION STYLING */
  .news-section-main{
      margin-top: 4rem;
- }
- .news-section-detail{
-     padding: 10px;
  }
 .news-section {
     padding-bottom: 6rem;
     background-color: #fff;
 }
-.news-section .videosection{
-    border-radius: var(--ifm-card-border-radius)
+.news-section .card {
+    padding: 12px;
+    /*box-shadow: none;*/
+    border-radius: 24px;
 }
 .news-section img {
     transition: 0.3s ease;
