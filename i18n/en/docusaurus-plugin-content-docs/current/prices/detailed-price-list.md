@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Solution prices
 
-*Last updated: 6th March 2024*
+*Last updated: October 2024*
 
 On this page you'll find detailed prices for our solutions and stickers. All prices are presented in our currency, Norwegian krone (NOK).
 
@@ -24,7 +24,8 @@ Number of equipment|Monthly costs|Additional costs w/maintenance|
 
 Number of people|Monthly costs|
 |--------------|--|
-|Up to 25|990|
+|Up to 25|1590|
+|Up to 50|2490|
 |Up to 100|4190|
 |Up to 175|6290|
 |Up to 250|8290|

@@ -9,7 +9,7 @@ export default function SubscriptionPlan() {
             <h4>Priseksempel</h4>
             <p>Løsning for opplæring og kontroll av maskiner.</p>
           </div>
-          <div className='package-price'> fra 1480 kroner </div>
+          <div className='package-price'> fra 1590 kroner </div>
           <ul>
             <li><img src='img/tik.svg' /> Utstyrsspesifikk opplæring. </li>
             <li><img src='img/tik.svg' /> Kompetanseoversikt. </li>

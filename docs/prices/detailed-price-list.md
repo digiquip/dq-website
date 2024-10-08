@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 # Prisliste og etiketter
-*Sist oppdatert: september 2024*
+*Sist oppdatert: oktober 2024*
 
 På denne siden finner du priser og informasjon om etiketter.
 
@@ -29,7 +29,8 @@ Mengde arbeidsutstyr|Pris per måned| Tilleggspris m/vedlikehold|
 
 Antall personer|Pris per måned|
 |--------------|--|
-|Inntil 25 personer|990|
+|Inntil 25 personer|1590|
+|Inntil 50 personer|2490|
 |Inntil 100 personer|4190|
 |Inntil 175 personer|6290|
 |Inntil 250 personer|8290|
