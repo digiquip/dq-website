@@ -31,6 +31,15 @@ const teamDataSource =
 },
 {
     id:4,
+    fullName: 'Olav Landmark Pedersen',
+    designation: 'Tech Lead',
+    emailAddress:'olav@digiquip.no',
+    mobileNumber:'+47 92686493',
+    image:'team_imgs/olav.jpg',
+    contactLink: ''
+},
+{
+    id:5,
     fullName: 'Kevin André Hovland',
     designation: 'Support Engineer',
     emailAddress:'kah@digiquip.no',
@@ -39,7 +48,7 @@ const teamDataSource =
     contactLink: ''
 },
 {
-    id:3,
+    id:6,
     fullName: 'Lars Sørby',
     designation: 'Founder',
     emailAddress:'lars@digiquip.no',
@@ -48,7 +57,7 @@ const teamDataSource =
     contactLink: 'https://outlook-sdf.office.com/bookwithme/user/b65c9380e5e34e97ad39e8386158d7dd@digiquip.no/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?anonymous&ep=mcard'
 },
 {
-    id:5,
+    id:7,
     fullName: 'Andreas Lydersen',
     designation: 'CEO',
     emailAddress:'andreas@digiquip.no',
