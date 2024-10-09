@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { Lenis as ReactLenis } from 'lenis/react'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
+import ButtonDropdown from "../ContactUsDropdown";
 
 // MainLayout component
 export default function MainLayout({ children }) {
@@ -51,6 +52,7 @@ export default function MainLayout({ children }) {
           {children}
         </main>
       </Layout>
+      <ButtonDropdown />
     </ReactLenis>
   );
 }
