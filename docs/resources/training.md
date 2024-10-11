@@ -58,9 +58,6 @@ import createtraining from '/img/resources-FAQ/createtraining.png';
 ## Legg til video:
 Legg til link til video. Videolinker opprettes fra Youtube. Har du ikke Youtube konto fra før, opprett firmakonto, last opp videoer der og legg deretter til linken i DigiQuip. Videoen må være satt til offentlig for å bli publisert.
 
-Se denne videoen for inspirasjon:
-<iframe width="800" height="680" src="https://www.youtube-nocookie.com/embed/n-SojrgM_nE?si=M1s723blVg_6o-Vq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Lag quiz:
 Lag gjerne 7-10 kontrollspørsmål med tre svaralternativer. Hvert svaralternativ bør ha ett riktig svar. Spørsmålene må relatere seg til instruksjonsvideo og/eller brukermanual, og sørg for at testen blir så praktisk rettet som mulig.
 
