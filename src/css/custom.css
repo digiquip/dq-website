@@ -603,7 +603,7 @@
      margin-top: 4rem;
  }
 .news-section {
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     background-color: #fff;
 }
 .news-section .card {
@@ -626,6 +626,7 @@
 
 .news-section-detail .news-title {
     margin-bottom: 4px;
+    line-height: 0;
 }
 .news-section-detail .news-title a{
     text-decoration: none;

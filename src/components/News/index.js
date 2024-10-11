@@ -13,7 +13,6 @@ export default function News({title, description, dyntubeKey, youtubeVideoBanner
     let button = <Translate>general.readmore</Translate>
 
     return (<section className="news-section">
-        <div className="card">
             <div className="row">
                 <div className={clsx("col col--5")}>
                     <div className="news-section-detail">
@@ -48,7 +47,6 @@ export default function News({title, description, dyntubeKey, youtubeVideoBanner
                     </div>
                 </div>
             </div>
-        </div>
         </section>
     );
 }

@@ -13,7 +13,11 @@
     margin: 0 5px;
 }
 .dropdown-btn{
-    padding: 8px 15px!important;
+    padding: 0!important;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    font-size: 15px;
 }
 
 /* Dropdown content (hidden by default) */
@@ -52,8 +56,4 @@
     display: block;
 }
 
-@media (max-width: 996px) {
-    .dropdown {
-        display: none;
-    }
-}
+
