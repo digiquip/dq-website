@@ -24,12 +24,12 @@ const safetyWork = [
 
 const newsContent = [
     {
-        isVideo: true,
-        title: translate({ message: "home.safety.title" }),
+        isVideo: false,
+        title: translate({ message: "home.news.news1title" }),
         dyntubeKey: 'ghwAaiPaWEehuom5vH0VQ',
         youtubeVideoBanner: youtubeVideoBanner,
-        imageBanner: '',
-        description: translate({ message: "home.safety.what" }),
+        imageBanner: '/img/NCC.png',
+        description: translate({ message: "home.news.news1desc" }),
         blogLink: '#',
     },
 ];

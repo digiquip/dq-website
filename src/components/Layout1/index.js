@@ -130,9 +130,6 @@ useEffect(() => {
         {newsContent.length ?
             <div className="container">
               <div className="news-section-main">
-                <h2 className="section-title"><Translate>home.news.title</Translate>
-                  <span className="orange">.</span>
-                </h2>
                 <div className="row">
                   {newsContent && newsContent.map((props, idx) => (
                       <div className={clsx("col col--12")} key={idx}>
