@@ -6,8 +6,13 @@ export default function Button(props) {
   let label = props.label;
   let isIcon = props.isIcon;
   let link = props.link;
-  return (
-    <Link to={link} className='white-btn btn'>
+  let btnType = props.btnType || 'light';
+  let btnSize = props.btnSize || 'md';
+  let buttonClass = btnType === "dark" ? "red-btn white-btn btn" : "white-btn btn";
+  buttonClass += btnSize === "sm" ? " btn-sm" : "";
+
+    return (
+    <Link to={link} className={buttonClass}>
       <span className="btn_wrapper">
         <span className="btn_text">{label}</span>
         <span className="btn_text">{label}</span>

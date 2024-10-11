@@ -1,9 +1,11 @@
 import HomepageFeatures from "../HomepageFeatures";
 import EventBlock from '../EventBlock';
+import clsx from 'clsx';
 
 import BrandLogo from "../BrandLogo";
 import HomeContactBanner from "../HomeContactBanner";
 import SafetyWork from "../SafetyWork";
+import News from "../News";
 import Translate from '@docusaurus/Translate';
 import mainPageContentRecords from "../../../data/mainPageContents";
 import { useState } from "react";
@@ -48,7 +50,8 @@ function OurPartners(props) {
 
   const brandList = props.items;
   return (
-    <section className="our-partners-section">
+    <section className="our-partners-section light-bg-grey">
+      <div className="container">
       <h2 className="section-title"><Translate>home.ourpartners.title</Translate>
         <span className="orange">.</span>
       </h2>
@@ -75,6 +78,7 @@ function OurPartners(props) {
           </div>
         ))} */}
       </div>
+      </div>
     </section>
   );
 }
@@ -82,7 +86,8 @@ function OurPartners(props) {
 // Layout1 components
 export default function Layout1() {
 
-const [safetyWorkContent , setSafetyWorkContent] = useState([])
+const [newsContent , setNewsContent] = useState([])
+// const [safetyWorkContent , setSafetyWorkContent] = useState([])
 const [eventBlockContent , setEventBlockContent] = useState([])
 const [brandList , setBrandList] = useState([])
 const [safeuseContent , setSafeuseContent] = useState({})
@@ -92,7 +97,8 @@ const [shareInfoContent , setShareInfoContent] = useState({})
 useEffect(() => {
   let ignore = false;
     if (!ignore) {
-      setSafetyWorkContent(mainPageContentRecords.safetyWork);
+      setNewsContent(mainPageContentRecords.newsContent);
+      // setSafetyWorkContent(mainPageContentRecords.safetyWork);
       setEventBlockContent(mainPageContentRecords.eventBlock);
       setBrandList(mainPageContentRecords.brandLogoPartners);
       setSafeuseContent(mainPageContentRecords.safeuseContent);
@@ -104,21 +110,45 @@ useEffect(() => {
     ignore = true;
   }
  
-}, [safetyWorkContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent]);
+}, [setNewsContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent]);
+
+  useEffect(() => {
+    // Load the Dyntube script when the component mounts
+    if (typeof window !== 'undefined' && !window._dyntube_v1_init) {
+      window._dyntube_v1_init = true;
+      const script = document.createElement('script');
+      script.src = "https://embed.dyntube.com/v1.0/dyntube.js";
+      script.async = true;
+      document.head.appendChild(script);
+    }
+  }, []);
 
 // {eventBlockContent && <EventBlock record={eventBlockContent}/>}
 
   return (
-    <section>
-      {safetyWorkContent && safetyWorkContent.map((props, idx) => (
-        <SafetyWork key={idx} {...props} />
-      ))}
-      
-      {safeuseContent && <Safeuse items={safeuseContent}/>}
-      {consolidateContent && <ConsolidateWork items={consolidateContent}/>}
-      {shareInfoContent && <ShareInformation items={shareInfoContent}/>}
-      <HomeContactBanner />
-      {brandList  && <OurPartners items={brandList}/> }
-    </section>
-  );
+      <section>
+        {newsContent.length ?
+            <div className="container">
+              <div className="news-section-main">
+                <div className="row">
+                  {newsContent && newsContent.map((props, idx) => (
+                      <div className={clsx("col col--12")} key={idx}>
+                        <News {...props} />
+                      </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            : null}
+
+        {/*{safetyWorkContent && safetyWorkContent.map((props, idx) => (*/}
+        {/*    <SafetyWork key={idx} {...props} />*/}
+            {/*))}*/}
+            {brandList && <OurPartners items={brandList}/>}
+            {safeuseContent && <Safeuse items={safeuseContent}/>}
+            {consolidateContent && <ConsolidateWork items={consolidateContent}/>}
+            {shareInfoContent && <ShareInformation items={shareInfoContent}/>}
+            <HomeContactBanner/>
+      </section>
+);
 }

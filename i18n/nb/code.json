@@ -643,5 +643,29 @@
 "home.event.keypoints_desc3": {
   "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "description": "The description of third keypoint"
-}
+},
+  "navbar.label.contact": {
+    "message": "Kontakt",
+    "description": "Navbar item with label Contact"
+  },
+  "navbar.label.contact_us": {
+    "message": "Kontaktskjema",
+    "description": "Navbar item with label Contact Us"
+  },
+  "navbar.label.book_meeting": {
+    "message": "Book et møte",
+    "description": "Navbar item with label Book a Meeting"
+  },
+  "home.news.title": {
+    "message": "Ditaba tša Morago bjale",
+    "description": "Title of Latest News"
+  },
+  "home.news.news1title": {
+    "message": "NCC tar i bruk DigiQuip",
+    "description": "First title of the news"
+  },
+  "home.news.news1desc": {
+    "message": "Løsningen fra DigiQuip er allerede tatt i bruk på flere av NCC Norges byggeprosjekter, med Båstadlund arbeids- og aktivitetssenter i Halden kommune, som et av pilotprosjektene. 'Med DigiQuips løsning kan vi nå tilpasse opplæringen både til det spesifikke arbeidsutstyret og den enkelte arbeidstakers kompetanse. Dette gjør at vi effektivt kan møte kravene til utstyrsspesifikk opplæring og sikre trygg håndtering av nytt og eksisterende utstyr' understreker Kirsten Haneborg, HMS-sjef i NCC Building Norge.",
+    "description": "First description of the news"
+  }
 }

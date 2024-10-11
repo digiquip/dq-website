@@ -22,9 +22,21 @@ const safetyWork = [
     },
 ];
 
+const newsContent = [
+    {
+        isVideo: false,
+        title: translate({ message: "home.news.news1title" }),
+        dyntubeKey: 'ghwAaiPaWEehuom5vH0VQ',
+        youtubeVideoBanner: youtubeVideoBanner,
+        imageBanner: '/img/NCC.png',
+        description: translate({ message: "home.news.news1desc" }),
+        blogLink: '/blog/NCC-Ramirent-samarbeid',
+    },
+];
+
 
 const safeuseContent = {
-    className: "sikker-bruk light-bg-grey",
+    className: "sikker-bruk",
     title: (
         <h2 className="section-title"><Translate>home.safeuse.title</Translate><span className="orange">.</span>
         </h2>
@@ -86,6 +98,7 @@ const eventBlock = eventDetail;
 
 const mainPageContentRecords = {
     safetyWork,
+    newsContent,
     eventBlock,
     safeuseContent,
     consolidateWorkContent,
