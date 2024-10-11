@@ -61,14 +61,6 @@ import connectidentifier from '/img/resources-FAQ/connectidentifier.png';
 
 <img src={connectidentifier} style={{width:800}} />
 
-Se denne videoen for mer informasjon:
-
-<iframe width="800" height="680" src="https://www.youtube-nocookie.com/embed/tjKjuB22FiQ?si=FpS-PQSjFMFnQIJ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-og denne for ytterligere demonstrasjon av hvordan koble QR-koder:
-
-<iframe width="800" height="680" src="https://www.youtube-nocookie.com/embed/S5tKzK571qI?si=UWUZEbJAWNRBWQ-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Priser
 
 Klistremerker kommer i tre størrelser: Små (30x50mm), medium (54x90mm) og store (90x150mm). 

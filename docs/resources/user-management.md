@@ -20,9 +20,6 @@ import addusers from '/img/resources-FAQ/addusers.png';
 
 <img src={addusers} style={{width:800}} />
 
-Se denne videoen for hvordan legge til en og en bruker:
-<iframe width="800" height="680" src="https://www.youtube-nocookie.com/embed/qpn3Yn3WmvI?si=R_dzgp6DVlr-MVuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 For csv/excel importen, legg til følgende informasjon i gitt rekkefølge:
 
 1.Fornavn.
