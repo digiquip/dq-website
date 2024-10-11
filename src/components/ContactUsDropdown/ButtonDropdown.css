@@ -13,11 +13,10 @@
     margin: 0 5px;
 }
 .dropdown-btn{
-    padding: 0!important;
-    height: 70px;
-    width: 70px;
+    padding: 10px!important;
+    height: 65px;
+    width: 65px;
     border-radius: 100%;
-    font-size: 15px;
 }
 
 /* Dropdown content (hidden by default) */
@@ -34,6 +33,7 @@
     color: black;
     right: 0;
     bottom: 100%;
+    text-align: center;
 }
 
 /* Dropdown links */
