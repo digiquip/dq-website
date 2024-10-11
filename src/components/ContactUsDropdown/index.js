@@ -7,8 +7,8 @@ export default function ButtonDropdown() {
     return (
         <div className="contactUsDropdown">
             <div className="dropdown">
-                <button className="btn red-btn dropdown-btn">
-                    <img src="/icons/phone.svg" alt="Contact Us" />
+                <button className="btn dropdown-btn">
+                    <img src="/icons/contact.svg" alt="Contact Us" />
                 </button>
                 <div className="dropdown-content">
                     <Link href="https://us21.list-manage.com/contact-form?u=45bf490556cbc57d81d50c4f6&form_id=fb2b014417ac7312f80a8bb815f52ab5" target="_blank"><Translate>navbar.label.contact_us</Translate></Link>

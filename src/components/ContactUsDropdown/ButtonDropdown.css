@@ -13,10 +13,12 @@
     margin: 0 5px;
 }
 .dropdown-btn{
-    padding: 10px!important;
-    height: 65px;
-    width: 65px;
+    padding: 8px !important;
+    height: 48px;
+    width: 48px;
     border-radius: 100%;
+    cursor: pointer;
+    background-color: var(--ifm-color-orange) !important
 }
 
 /* Dropdown content (hidden by default) */
