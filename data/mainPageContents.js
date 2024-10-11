@@ -30,7 +30,7 @@ const newsContent = [
         youtubeVideoBanner: youtubeVideoBanner,
         imageBanner: '/img/NCC.png',
         description: translate({ message: "home.news.news1desc" }),
-        blogLink: '#',
+        blogLink: '/blog/NCC-Ramirent-samarbeid',
     },
 ];
 
