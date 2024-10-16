@@ -4,7 +4,7 @@ export default function ContactUsButton() {
 
   return (
    
-          <a href='#' className='white-btn red-btn btn'>
+          <a href='https://digiquip.no/about' className='white-btn red-btn btn'>
             <span className="btn_wrapper">
               <span className="btn_text"><Translate>home.contact.button</Translate></span>
               <span className="btn_text"><Translate>home.contact.button</Translate></span>

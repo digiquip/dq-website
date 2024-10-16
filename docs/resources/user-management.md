@@ -21,14 +21,15 @@ import addusers from '/img/resources-FAQ/addusers.png';
 <img src={addusers} style={{width:800}} />
 
 For csv/excel importen, legg til følgende informasjon i gitt rekkefølge:
-
 1.Fornavn.
 2.Etternavn.
 3.E-post. Dette blir personens brukernavn og kan ikke endres.
-4.Telefon. For norske telefonnumre: 8-sifre og uten landskode. Løsningen støtter pt. kun norske mobilnumre.
-5.Språk. Bruk NO for norsk. Oversikt over øvrige landskoder kan lastes ned fra løsningen.
-6.Avdeling. Om ikke avdelingen allerede er opprettet, blir denne automatisk opprettet, og sjekk derfor om avdelingen er plassert riktig i organisasjonstreet.
-7.Intern eller ekstern bruker. Intern og ekstern har henholdsvis tallkodene 1 og 2.
+4.Telefon. For norske telefonnumre: 8-sifre og uten landskode.
+5.Landskode. Eksempelvis 47 for norske telefonnumre, uten + og 00.
+6.Språk. Bruk NO for norsk. Oversikt over øvrige landskoder kan lastes ned fra løsningen.
+7.Avdeling. Om ikke avdelingen allerede er opprettet, blir denne automatisk opprettet. Sjekk derfor om avdelingen er plassert riktig i organisasjonstreet.
+8.Intern eller ekstern bruker. Intern og ekstern har henholdsvis tallkodene 1 og 2.
+9.Fødselsdato. Dag, måned og år, f.eks. 10.12.1990.
 
 ## Tilganger
 

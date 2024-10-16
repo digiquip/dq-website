@@ -17,10 +17,12 @@ For CSV/Excel import, add the following information in the given order:
 1.First name.
 2.Last name.
 3.Email. This will be the person's username and cannot be changed.
-4.Phone. For Norwegian phone numbers: 8 digits without the country code. Currently, the solution only supports Norwegian mobile numbers when importing.
-5.Language. Use NO for Norwegian. An overview of other country codes can be downloaded from the solution.
-6.Department. If the department has not already been created, it will be created automatically. Therefore, check if the department is placed correctly in the organisation tree.
-7.Internal or external user. Internal and external have the numeric codes 1 and 2, respectively.
+4.Phone. For Norwegian phone numbers: 8 digits without the country code.
+5.Country code. For Norwegian phone numbers add 47, without + and 00.
+6.Language. Use NO for Norwegian. An overview of other country codes can be downloaded from the solution.
+7.Department. If the department has not already been created, it will be created automatically. Therefore, check if the department is placed correctly in the organisation tree.
+8.Internal or external user. Internal and external have the numeric codes 1 and 2, respectively.
+9.Birth date, in format dd.mm.yyyy. For example 24.12.1990.
 
 ## Roles
 
