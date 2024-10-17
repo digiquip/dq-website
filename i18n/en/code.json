@@ -670,5 +670,13 @@
   "home.news.title": {
     "message": "hallo",
     "description": "Title of Latest News"
+  },
+  "home.news.news1title": {
+    "message": "NCC uses DigiQuip",
+    "description": "First title of the news"
+  },
+  "home.news.news1desc": {
+    "message": "The solution from DigiQuip has already been put into use on several of NCC Norway's construction projects, with the Båstadlund work and activity center in Halden municipality as one of the pilot projects. 'With DigiQuip's solution, we can now adapt the training to both the specific work equipment and the individual employee's skills. This means that we can effectively meet the requirements for equipment-specific training and ensure safe handling of new and existing equipment' emphasizes Kirsten Haneborg, HSE manager at NCC Building Norway.",
+    "description": "First description of the news"
   }
 }

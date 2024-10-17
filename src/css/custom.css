@@ -265,6 +265,8 @@
  
 .navbar__items .navbar__item{
   margin-left: 2rem;
+  display: inline-block;
+  white-space: nowrap;
  }
  .header-right .navbar__item{
   margin-left: 1.9rem;
