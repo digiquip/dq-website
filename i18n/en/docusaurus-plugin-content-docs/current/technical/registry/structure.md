@@ -2,8 +2,6 @@
 sidebar_position: 2
 ---
 
-Here is the English translation with markdown formatting preserved:
-
 # Structure
 
 The main purpose of our solutions is to connect people and assets / work equipment through skills and actions. In general, such connections will occur as people acquire skills and perform actions, while assets, usually categorized by brand/model/type, requires specific skills or actions. An example of such a connection is:
