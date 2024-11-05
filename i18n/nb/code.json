@@ -661,11 +661,11 @@
     "description": "Title of Latest News"
   },
   "home.news.news1title": {
-    "message": "NCC tar i bruk DigiQuip",
+    "message": "Vi har lansert Kvipp",
     "description": "First title of the news"
   },
   "home.news.news1desc": {
-    "message": "Løsningen fra DigiQuip er allerede tatt i bruk på flere av NCC Norges byggeprosjekter, med Båstadlund arbeids- og aktivitetssenter i Halden kommune, som et av pilotprosjektene. 'Med DigiQuips løsning kan vi nå tilpasse opplæringen både til det spesifikke arbeidsutstyret og den enkelte arbeidstakers kompetanse. Dette gjør at vi effektivt kan møte kravene til utstyrsspesifikk opplæring og sikre trygg håndtering av nytt og eksisterende utstyr' understreker Kirsten Haneborg, HMS-sjef i NCC Building Norge.",
+    "message": "Et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort. Kvipp er en digital tjeneste som er utviklet for å møte behovet for rask og enkel tilgang til utstyrsspesifikk opplæring og dokumentasjon, akkurat når og der det trengs.",
     "description": "First description of the news"
   }
 }
