@@ -275,6 +275,11 @@
     flex: 0 0 auto;
     justify-content: flex-end;
   }
+ @media (max-width: 996px) {
+     .navbar__items.header-right {
+        display: none;
+     }
+}
  nav .navbar__items a{
    position: relative;
    font-size: 17px;
