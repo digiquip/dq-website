@@ -68,12 +68,13 @@ export default function ContentWrapper(props) {
           <>
             {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
             <NavbarLogo />
-            <NavbarItems items={leftItems} />
+
           </>
         }
         right={
           //respective navbar items => more flexible
           <>
+            <NavbarItems items={leftItems} />
             <NavbarItems items={rightItems} />
           </>
         }
