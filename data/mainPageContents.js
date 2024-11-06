@@ -24,13 +24,11 @@ const safetyWork = [
 
 const newsContent = [
     {
-        isVideo: false,
+        isVideo: true,
         title: translate({ message: "home.news.news1title" }),
-        dyntubeKey: 'ghwAaiPaWEehuom5vH0VQ',
-        youtubeVideoBanner: youtubeVideoBanner,
-        imageBanner: '/img/NCC.png',
+        dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
         description: translate({ message: "home.news.news1desc" }),
-        blogLink: '/blog/NCC-Ramirent-samarbeid',
+        blogLink: '/blog/kvipp-utstyrsspesifikk-opplæring',
     },
 ];
 
