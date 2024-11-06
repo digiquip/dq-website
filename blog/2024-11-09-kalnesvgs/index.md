@@ -15,7 +15,13 @@ Kalnes videregående skole bruker DigiQuip både for utstyrsspesifikk opplæring
 
 Se mer om hva utstyrsspesifikk opplæring handler om i denne videoen:
 
-<iframe title="Kalnesvgs-utstyrsspesifikk" width="700" height="700" frameborder="0" src="https://videos.dyntube.com/iframes/wmuRdrlpHE9n6SheoLwIw" frameborder="0" allowfullscreen=""></iframe>
+<div style={{ position: 'relative', paddingBottom: '100%', height: 0, overflow: 'hidden' }}>
+    <iframe
+        title="Kalnesvgs-utstyrsspesifikk"
+        src="https://videos.dyntube.com/iframes/wmuRdrlpHE9n6SheoLwIw"
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+    ></iframe>
+</div>  
 
 ## Sjekklister for daglig kontroll
 
