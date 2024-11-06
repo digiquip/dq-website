@@ -2,11 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://digiquip.no/en/blog</id>
     <title>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</title>
-    <updated>2024-11-10T00:00:00.000Z</updated>
+    <updated>2024-11-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://digiquip.no/en/blog"/>
     <subtitle>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</subtitle>
     <icon>https://digiquip.no/en/img/dq.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Nyhet! Superenkel opplæring med Kvipp]]></title>
+        <id>https://digiquip.no/en/blog/kvipp-utstyrsspesifikk-opplæring</id>
+        <link href="https://digiquip.no/en/blog/kvipp-utstyrsspesifikk-opplæring"/>
+        <updated>2024-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kvipp er et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort.]]></summary>
+        <content type="html"><![CDATA[<p>Kvipp er et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort.</p>
+<iframe width="560" height="315" src="https://videos.dyntube.com/iframes/eLqplnYzDEOWb0EkiVfiA" title="Kvipp" frameborder="0" allow="autoplay; fullscreen"></iframe>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bransjen-har-et-behov-for-å-gjøre-utstyrsspesifikk-opplæring-enkelt">Bransjen har et behov for å gjøre utstyrsspesifikk opplæring enkelt<a href="https://digiquip.no/en/blog/kvipp-utstyrsspesifikk-oppl%C3%A6ring#bransjen-har-et-behov-for-%C3%A5-gj%C3%B8re-utstyrsspesifikk-oppl%C3%A6ring-enkelt" class="hash-link" aria-label="Direct link to Bransjen har et behov for å gjøre utstyrsspesifikk opplæring enkelt" title="Direct link to Bransjen har et behov for å gjøre utstyrsspesifikk opplæring enkelt">​</a></h2>
+<p>I DigiQuip har vi vært tidlig ute med å sette fokus på utstyrsspesifikk opplæring. Nå har vi gått mange runder for å gjøre opplæring enkelt i felt. Vårt mål er å sørge for at dokumentasjonen kan skje mest mulig friksjonsfritt i en ellers så hektisk hverdag. Vi har testet konseptet på leverandører og utleiekunder, og fått høre "helt genialt".</p>
+<p><a href="https://no.linkedin.com/in/kristine-kjeldsen-b989662" target="_blank" rel="noopener noreferrer">Kristine Kjeldsen</a>, fra <a href="https://www.brandity.no/" target="_blank" rel="noopener noreferrer">Brandity</a>, har intervjuet og testet ut løsningen med forskjellige entreprenører, og responsen har vært fantastisk!</p>
+<p>"Dette er noe vi har savnet og akkurat dette har vi faktisk etterlyst"</p>
+<p>"Bare kjør på, dette trenger bransjen"</p>
+<p>"Det treffer utrolig godt på enkelhet, det er helt avgjørende"</p>
+<p>"Det er veldig bra at det ikke er innlogging, passord osv, da hadde de ikke brukt det så mye"</p>
+<p>Etter intervjuene trekker Kristine frem at det er et tydelig behov for å kunne bedre organisere og registrere opplæring der det er krav knyttet til utstyr - det vil si få det gjort kjapt og enkelt og at du har informasjonen samlet slik du trenger det - gjerne i form av å kunne samle og filtrere på PERSON og UTSTYR.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hvordan-gjennomføres-opplæring-med-kvipp">Hvordan gjennomføres opplæring med Kvipp?<a href="https://digiquip.no/en/blog/kvipp-utstyrsspesifikk-oppl%C3%A6ring#hvordan-gjennomf%C3%B8res-oppl%C3%A6ring-med-kvipp" class="hash-link" aria-label="Direct link to Hvordan gjennomføres opplæring med Kvipp?" title="Direct link to Hvordan gjennomføres opplæring med Kvipp?">​</a></h2>
+<p>For å gi eller få utstyrsspesifikk opplæring med Kvipp, er det to ting som må identifiseres: Personen og arbeidsutstyret.</p>
+<ol>
+<li>Personen. Det viktigste er at personen som gir eller får opplæring får identifisert seg. Derfor bestemte vi oss for å la folk skanne ID-kort som eneste krav for å bruke løsningen for opplæring. For å bruke Kvipp kan du skanne HMS-kortet ditt eller la kunstig intelligens tolke f.eks. førerkortet ditt.</li>
+<li>Arbeidsutstyret. For å identifisere utstyr kan du enten la kunstig intelligens identifisere utstyret eller skanne utstyrets QR-kode. Mye arbeidsutstyr har QR-koder fra f.eks. M-reg eller DigiQuip, og da vil Kvipp gjenkjenne nøyaktig hvilket utstyr det er.</li>
+</ol>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Fordel!</div><div class="admonitionContent_BuS1"><p>Det er ikke krav til innlogging eller registrering av utstyr.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hvorfor-kvipp">Hvorfor Kvipp?<a href="https://digiquip.no/en/blog/kvipp-utstyrsspesifikk-oppl%C3%A6ring#hvorfor-kvipp" class="hash-link" aria-label="Direct link to Hvorfor Kvipp?" title="Direct link to Hvorfor Kvipp?">​</a></h2>
+<p>Kvipp representerer en stor forenkling og effektivisering av opplæringen ute i felt:</p>
+<ul>
+<li>Ingen innlogging nødvendig: Ansatte kan raskt verifisere sin opplæring ved å skanne sitt ID-kort (f.eks. HMS-kort).</li>
+<li>Enkelt maskinsøk: Skann enkelt maskiner gjennom Maskinregisteret/DigiQuip sin QR-kode, eller bruk vår KI-teknologi til å gjenkjenne maskinen ved hjelp av serienummerplaten. Ikke nødvendig å legge til noe utstyr, opplæring kan gjennomføres uansett.</li>
+<li>Automatisk dokumentasjonssjekk: Systemet kontrollerer at nødvendig dokumentasjon er på plass og gjør det mulig å gi opplæring via tjenesten der det mangler.</li>
+<li>Ryddig e-postlagring: Alt av dokumentasjon sendes automatisk til brukerens e-post for enkel arkivering og tilgang senere.</li>
+<li>Sømløs dokumentkontroll: Perfekt for vernerunder. Skann maskinen og HMS-kortet for å kontrollere at alt er i orden.</li>
+</ul>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Test Kvipp</div><div class="admonitionContent_BuS1"><p>Test selv: <a href="https://kvipp.it/" target="_blank" rel="noopener noreferrer">https://kvipp.it/</a></p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hva-skjer-videre">Hva skjer videre?<a href="https://digiquip.no/en/blog/kvipp-utstyrsspesifikk-oppl%C3%A6ring#hva-skjer-videre" class="hash-link" aria-label="Direct link to Hva skjer videre?" title="Direct link to Hva skjer videre?">​</a></h2>
+<p>Først har vi løst behovet for opplæring i felt. Vi kommer fremover til å jobbe mer med å gjøre det enkelt også på kontoret, f.eks. få oversikt over hvem som kan/ikke kan hva. Og andre behov.</p>
+<p><img decoding="async" loading="lazy" alt="Bilde" src="https://digiquip.no/en/assets/images/tommelopp-aa3fe918c66e8e0ad5cb59e1fd99cae8.png" width="1280" height="806" class="img_ev3q"></p>]]></content>
+        <category label="opplæring" term="opplæring"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NCC Norge tar i bruk DigiQuip]]></title>
         <id>https://digiquip.no/en/blog/NCC-Ramirent-samarbeid</id>
