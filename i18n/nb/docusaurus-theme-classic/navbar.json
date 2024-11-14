@@ -4,16 +4,16 @@
     "description": "DigiQuip logo"
   },
   "item.label.Solutions": {
-    "message": "Løsninger",
+    "message": "Produkter",
     "description": "Navigering til løsninger"
   },
   "item.label.Competence": {
-    "message": "Kompetanse",
-    "description": "Navigering til ressurser"
+    "message": "Kvipp",
+    "description": "Navigering til kvipp"
   },
   "item.label.Workequipment": {
-    "message": "Arbeidsutstyr",
-    "description": "Navigering til arbeidsutstyr"
+    "message": "DigiQuip",
+    "description": "Navigering til digiquip"
   },
   "item.label.About us": {
     "message": "Om oss",

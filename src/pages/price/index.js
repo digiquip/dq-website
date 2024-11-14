@@ -224,7 +224,7 @@ function PriceComponent() {
     <>
       <section className="pricing_calculator_section section-pd">
         <div className="container">
-            <h2>Priskalkulator<span className='orange'>.</span></h2>
+            <h2>Priskalkulator for full pakke<span className='orange'>.</span></h2>
           <div className="pricing-center">
             <div className="tab-container">
               <Tabs className="tabs-menu">
@@ -400,16 +400,14 @@ function AboutIntegrations() {
             <div className={clsx("col col--4 margin-bottom--lg")}>
                 <div className='call-action'>
                 <h3>Skreddersøm</h3>
-                <p>I 2024 setter vi fart på integrasjonsarbeidet. For størst mulig fleksibilitet bruker vi integrasjonsplattformen <a href="https://www.snaplogic.com/" target="_blank">Snaplogic</a>, og flere av kundene våre har allerede benyttet seg av muligheten for skreddersydde integrasjoner.</p>
-                <p>Pris på forespørsel.</p> 
+                <p>Vi kan integrasjoner! <a href="https://digiquip.no/about" target="_blank">Ta kontakt med Andreas eller Olav for en prat</a> .</p>
                 </div>
               </div>
               
               <div className={clsx("col col--4 margin-bottom--lg")}>
                 <div className='call-action'>
                 <h3>Kompetanseregisteret</h3>
-                <p>Sentralregisterets Kompetanseregister (K-reg) lagrer og utsteder kompetansebevis. Snart kan du hente kompetansebevis fra K-reg til DigiQuip. Se <a href="https://sentralregisteret.no/kompetanseregisteret/" target="_blank">Kompetanseregisteret</a> for mer informasjon.</p> 
-                <p>Integrasjonen har ingen ekstra kostnad.</p> 
+                <p>Sentralregisterets Kompetanseregister (K-reg) lagrer og utsteder kompetansebevis. Snart kan du hente kompetansebevis fra K-reg til DigiQuip. Se <a href="https://sentralregisteret.no/kompetanseregisteret/" target="_blank">Kompetanseregisteret</a> for mer informasjon.</p>  
                 </div>
               </div>
 
@@ -417,7 +415,6 @@ function AboutIntegrations() {
                 <div className='call-action'>
                 <h3>Maskinregisteret</h3>
                 <p>Sentralregisterets Maskinregister (M-reg) er et register for arbeidsmaskiner og utstyr. Hent arbeidsutstyr og sakkyndig kontroll fra M-reg til DigiQuip. Se <a href="" target="_blank">Maskinregisteret</a> for mer informasjon.</p>
-                <p>Integrasjonen har ingen ekstra kostnad.</p> 
                 </div>
                 
               </div>
@@ -437,7 +434,7 @@ function PricePageBanner() {
         <div className={clsx('hero-25 hero hero--primary heroBanner')}>
           <div className="container">
             <h1 className='section-title'>Priser<span className='orange'>.</span></h1>
-            <p>Beregn månedlig kostnad i priskalkulatoren nedenfor.</p>
+            <p>Beregn månedlig kostnad for full pakke i priskalkulatoren nedenfor.</p>
             <div className="row">
               <SubscriptionPlan />
             </div>

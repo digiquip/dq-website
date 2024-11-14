@@ -323,7 +323,7 @@
     "description": "The description of the safety section on the home page"
   },
   "home.safety.how": {
-    "message": "- Slik at riktig folk bruker riktig maskin på riktig måte. ",
+    "message": "- Slik at riktig folk bruker riktig maskin på riktig måte.",
     "description": "The how part of the description of the safety section on the home page"
   },
   "home.safeuse.title": {
@@ -405,135 +405,79 @@
     "description": "The button label of the contact section on the home page"
   },
   "competence.banner.title1": {
-    "message": "Sørg for nødvendig opplæring",
+    "message": "Kvipp er en superenkel løsning for å",
     "description": "The title of the competence page part one"
   },
-  "competence.banner.title2": {
-    "message": "og oppnå bedre resultater",
-    "description": "The title of the competence page part two"
-  },
-  "competence.banner.title3": {
-    "message": "Kompetanse er viktig for arbeidsmiljøet, fremdrift og sikkerhet.",
-    "description": "The title of the banner(image) competence page part three"
-  },
-  "competence.banner.arg1": {
-    "message": "De beste jobber kontinuerlig for å sikre riktig bruk av arbeidsutstyr, og forstår viktigheten av et trygt arbeidsmiljø.",
-    "description": "The first argument of the competence progress and safety section on the competence page"
-  },
-  "competence.banner.arg2": {
-    "message": "Et viktig grep er riktig opplæring til riktig tid.",
-    "description": "The second argument of the competence progress and safety section on the competence page"
-  },
+"competence.banner.title2": {
+  "message": "dokumentere utstyrsspesifikk opplæring. Gratis",
+  "description": "The title of the competence page part two"
+},
   "competence.practical_training.title1": {
-    "message": "Riktig kompetanse",
+    "message": "Gjennomfør og dokumenter",
     "description": "The title of the practical training section on the competence page"
   },
   "competence.practical_training.title2": {
-    "message": "når det trengs.",
+    "message": "opplæring i felt",
     "description": "The second title of the practical training section on the competence page"
   },
   "competence.practical_training.arg1": {
-    "message": "DigiQuip tilbyr ende-til-ende løsninger for utstyrsspesifikk opplæring, og vi er opptatt av at dette skal være enkelt å gjennomføre når det trengs. I tillegg får du oversikt over annen sikkerhetsopplæring (kompetansebevis og kurs), fagbrev og prosjekterfaring.",
+    "message": "Kvipp er en digital tjeneste som er utviklet for å møte behovet for rask og enkel tilgang til utstyrsspesifikk opplæring og dokumentasjon, akkurat når og der det trengs.",
     "description": "The first argument of the practical training section on the competence page"
   },
   "competence.practical_training.arg2": {
-    "message": "Opplæring skal tilpasses hver enkelt ansatt og avhenger av både motivasjon og erfaring. Som bruker av DigiQuip kan utstyrsspesifikk opplæring skje som e-læring eller praktisk. Praktisk opplæring vil si at opplæringen gis av noen som kan til en eller flere andre. Fordelene med praktisk opplæring er flere, men vi velger å trekke frem to: Sosialt og aktivt. Deltakerne kan stille spørsmål og teste ut den spesifikke maskinen eller utstyret underveis, som er positivt både for det sosiale og at det gir en aktiv læring.",
+    "message": "Helt gratis og uten innlogging!",
     "description": "The second argument of the practical training section on the competence page"
   },
-  "competence.practical_training.img_description": {
-    "message": "Praktisk opplæring.",
-    "description": "The description of practical training image in practical training section on the competence page"
+"kvipp.point1": {
+  "message": "Finn utstyret enkelt. Skann enten kjennetegn på utstyret eller la kunstig intelligens gjenkjenne utstyrstypen",
+  "description": "kvipp benefits in bullet points no.1"
+},
+  "kvipp.point2": {
+    "message": "Identifiser person. Skann enten HMS-kort eller la kunstig intelligens tolke førerkortet ditt",
+    "description": "kvipp benefits in bullet points no.2"
   },
-  "competence.digital_training.title": {
-    "message": "Utstyrsspesifikk opplæring.",
-    "description": "The first title of the digital training section on the competence page"
-  },
-  "competence.digital_training.arg1": {
-    "message": "Arbeidsgiver skal alltid sørge for nødvendig opplæring. For arbeidsutstyr som krever særlig forsiktighet ved bruk, skal det alltid gis opplæring på det spesifikke arbeidsutstyret som skal brukes før bruk. Denne opplæringen går under begrepene utstyrsspesifikk, typeopplæring, maskinspesifikk med mer.",
-    "description": "The first argument of the digital training section on the competence page"
-  },
-  "competence.digital_training.arg2": {
-    "message": "DigiQuip er en komplett løsning for utstyrsspesifikk opplæring. Som arbeidsgiver styrer du selv når opplæring er påkrevd, og ansatte gjennomfører opplæringen praktisk eller digitalt. Samtidig som opplæringen skjer, blir opplæringen dokumentert og lagret. I et eget dashboard kan du i sanntid holde oversikt over alle opplæringer.",
-    "description": "The second argument of the digital training section on the competence page"
-  },
-  "competence.digital_training.img_description": {
-    "message": "Digital dokumentasjon av opplæring.",
-    "description": "The description of digital training image in digital training section on the competence page"
-  },
-  "competence.grouphelp.title1": {
-    "message": "Kompetanse minimerer",
-    "description": "The first title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.title2": {
-    "message": "risiko på",
-    "description": "The second title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.title3": {
-    "message": "arbeidsplassen",
-    "description": "The third title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.title4": {
-    "message": " when needed",
-    "description": "The fourth title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.arg": {
-    "message": "Med oversikt over hvem som trenger og ikke trenger opplæring, er det enklere å gjøre riktige tiltak. Dette fordrer oversikt over både personer og utstyr.",
-    "description": "The argument of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.arg2": {
-    "message": "DigiQuip sørger for at du får den oversikten du trenger. Slik kan risikoen for at feil folk bruker utstyret på feil måte reduseres betydelig.",
-    "description": "The second argument of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.img_description": {
-    "message": " ",
-    "description": "The description of grouphelp image in grouphelp section on the competence page"
-  },
+  "kvipp.point3": {
+    "message": "Gjennomfør opplæring og få kompetansebevis (pdf) rett i innboksen",
+    "description": "kvipp benefits in bullet points no.3"
+},
+"competence.digital_training.title": {
+  "message": "Kvipp bedrift",
+  "description": "The title of the Kvipp bedrift section"
+},
+"competence.digital_training.arg1": {
+  "message": "I Kvipp bedrift får du oversikt over alle opplæringer og kan enkelt gjennomføre gap-analyser.",
+  "description": "About kvipp bedrift no 1"
+},
+"competence.digital_training.arg2": {
+  "message": "Vi slipper beta-versjonen i desember.",
+  "description": "About kvipp bedrift no 2"
+},
   "workequipment.banner.title1": {
-    "message": "Bedre prosesser med ",
+    "message": "I DigiQuip får du oversikt over om utstyret er trygt å bruke og om opplæringen er på plass",
     "description": "The first title of the work equipment page"
   },
-  "workequipment.banner.title2": {
-    "message": "maskiner og utstyr samlet ",
-    "description": "The second title of the work equipment page"
-  },
-  "workequipment.banner.title3": {
-    "message": "i en plattform",
-    "description": "The third title of the work equipment page"
-  },
-  "workequipment.banner.title4": {
-    "message": "Effektiviser interne prosesser ved å samle alt arbeidsutstyr et sted.",
-    "description": "The fourth title of the work equipment page"
-  },
-  "workequipment.banner.arg1": {
-    "message": "Når en bedrift håndterer mange maskiner og utstyr, er det viktig at dokumenter, manualer og rapporter er systematisert og lett tilgjengelig når folk trenger det.",
-    "description": "The first argument of the work equipment banner"
-  },
-  "workequipment.banner.arg2": {
-    "message": "De fleste maskiner og utstyr skal kontrolleres, og dette må skje til rett tid. Kontroll av arbeidsutstyr kan forenkles ved hjelp av digitale sjekklister med standardrapportering. Digitale sjekklister for maskiner og utstyr gjør det enklere å gjennomføre og dokumentere, alt fra type daglig til årlig kontroll.",
-    "description": "The second argument of the work equipment banner"
-  },
   "workequipment.systematized_documentation.title": {
-    "message": "Systematisert dokumentasjon.",
+    "message": "Kompetanse og dokumentasjon.",
     "description": "The title of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg1": {
-    "message": "DigiQuip er navet som enkelt kobler maskin- og utstyrsparken din med tilgjengelig dokumentasjon og kontrollrutiner. Når du henter inn og samler alle dokumenter og informasjon ett sted, sparer du tid og penger.",
+    "message": "I DigiQuip kan du systematisere og få oversikt over kompetanse, både kurs og opplæring. Våre løsninger legger til rette for utstyrsspesifikk opplæring på både eget og innleid utstyr, og gir oversikt over dokumentert og sertifisert kompetanse.",
     "description": "The first argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg2": {
-    "message": "Og ikke minst, slipper de ansatte å gjøre samme jobben flere ganger som er bra for arbeidsmiljøet.",
+    "message": "Når utstyrsspesifikk opplæring gjennomføres blir det samtidig dokumentert. Dermed har du oversikt over hvem som kan/ikke kan bruke ulikt arbeidsutstyr.",
     "description": "The second argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.point1": {
-    "message": "Maskin- og utstyrsoversikt",
+    "message": "Gjennomfør opplæring praktisk eller digitalt",
     "description": "The first point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point2": {
-    "message": "Dokumentasjon",
+    "message": "Styr hvem som kan gi opplæring og godkjenn opplæring",
     "description": "The second point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point3": {
-    "message": "Kontrollhistorikk og status",
+    "message": "Dashboard og rapporter",
     "description": "The third point of the systematized documentation section on the work equipment page"
   },
   "workequipment.machines_equipment.title1": {
@@ -549,7 +493,7 @@
     "description": "The first argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg2": {
-    "message": "Om for eksempel daglig kontroll av arbeidsutstyret skal gjennomføres, vil yrkesarbeideren se dette når han eller hun skanner QR-koden, eller annet kjennemerke, på utstyret. Personen vil finne muligheten til å bekrefte eller gå gjennom en relevant sjekkliste samtidig som dette dokumenteres. Som maskineier kan du finne all historikk og detaljer på hvert enkelt arbeidsutstyr.",
+    "message": "Bruk relevante sjekklister for å gjennomføre ulike kontroller. Som maskineier kan du finne all historikk og detaljer på hvert enkelt arbeidsutstyr.",
     "description": "The second argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.point1": {

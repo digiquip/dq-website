@@ -85,19 +85,19 @@ const config = {
         items: [       
           {
             type: "dropdown",
-            label: 'Solutions',
+            label: 'Products',
             position: 'left',
             items: [
               {
                 // html: 'Competence' + linkHtml,
-                label: 'Competence',
+                label: 'Kvipp',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
                 to:'/competence',
               }, 
               {
                 // html: 'Work equipment' + linkHtml,
-                label: 'Workequipment',
+                label: 'DigiQuip',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
                 to: '/workequipment'

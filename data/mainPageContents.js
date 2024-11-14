@@ -46,7 +46,7 @@ const safeuseContent = {
             <p><Translate>home.safeuse.arg2</Translate></p>
         </>
     ),
-    link: "competence",
+    link: "workequipment",
 };
 
 const consolidateWorkContent = {

@@ -1,3 +1,4 @@
+import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 
 const competenceBannerData =
@@ -9,14 +10,6 @@ const competenceBannerData =
             <Translate>competence.banner.title2</Translate><span className="orange">.</span>
         </>
     ),
-    descriptionWithHTML: (
-        <>
-            <h3><Translate>competence.banner.title3</Translate></h3>
-            <p><Translate>competence.banner.arg1</Translate></p>
-            <p><Translate>competence.banner.arg2</Translate></p>
-        </>
-    ),
-    img: "img/competence-images/competence-banner-img.webp",
 }
 
 const practicalTrainingData =
@@ -34,9 +27,16 @@ const practicalTrainingData =
             <p><Translate>competence.practical_training.arg2</Translate></p>
         </>
     ),
-    img: "img/competence-images/practical-training.webp",
-    imgDescriptions: (<><Translate>competence.practical_training.img_description</Translate></>),
-    isUnorderedList: false
+    img: "img/kvipp.png",
+    isUnorderedList: true,
+    unorderedListData: (
+        <>
+            <ul className='section-list'>
+                <li><Translate>kvipp.point1</Translate></li>
+                <li><Translate>kvipp.point2</Translate></li>
+                <li><Translate>kvipp.point3</Translate></li>
+            </ul>
+        </>)
 };
 
 const digitalTrainingData =
@@ -84,13 +84,9 @@ const groupHelpData =
     isUnorderedList: false
 };
 
-
-
 const CompetenceRecords = {
     competenceBannerData,
     practicalTrainingData,
-    digitalTrainingData,
-    groupHelpData,
 }
 
 

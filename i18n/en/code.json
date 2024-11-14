@@ -421,87 +421,43 @@
     "description": "The button label of the contact section on the home page"
   },
   "competence.banner.title1": {
-    "message": "Provide necessary training",
+    "message": "Kvipp is a super simple solution for",
     "description": "The title of the competence page part one"
   },
   "competence.banner.title2": {
-    "message": "for better results",
+    "message": "documenting training. Free of charge",
     "description": "The title of the competence page part two"
   },
-  "competence.banner.title3": {
-    "message": "Competence is important for progress and safety.",
-    "description": "The title of the banner(image) competence page part three"
-  },
-  "competence.banner.arg1": {
-    "message": "Competent individuals are trained in the proper use of tools and equipment, reducing the risk of accidents and injuries associated with improper handling. Therefore, it is important that employers have an overview and provide necessary training when needed.",
-    "description": "The first argument of the competence progress and safety section on the competence page"
-  },
-  "competence.banner.arg2": {
-    "message": "DigiQuip is a comprehensive competence solution that is particularly well-suited for those working with equipment. Our platform makes equipment training easy, and in addition employers can keep an overview of various competence such as education and experience.",
-    "description": "The second argument of the competence progress and safety section on the competence page"
-  },
   "competence.practical_training.title1": {
-    "message": "Right competence in the right",
+    "message": "Do equipment-training",
     "description": "The title of the practical training section on the competence page"
   },
   "competence.practical_training.title2": {
-    "message": "place at the right time",
+    "message": " in the field",
     "description": "The second title of the practical training section on the competence page"
   },
   "competence.practical_training.arg1": {
-    "message": "DigiQuip offers end-to-end solutions for equipment-specific training, and we are committed to making this easy to implement when needed. Additionally, you will have an overview of other safety training (competence certificates and courses), qualifications, and project experience.",
+    "message": "Kvipp is a digital service designed to meet the need for quick and easy access to equipment-specific training and documentation, exactly when and where it is needed.",
     "description": "The first argument of the practical training section on the competence page"
   },
   "competence.practical_training.arg2": {
-    "message": "Training should be tailored to each individual employee and depends on both motivation and experience. As a user of DigiQuip, equipment-specific training can take place as e-learning or practical training. Practical training means that the training is provided by someone knowledgeable to one or more others. The benefits of practical training are numerous, but we would like to highlight two: social and active. Participants can ask questions and test the specific machine or equipment along the way, which is beneficial for both social interaction and active learning.",
+    "message": "Completely free and without signing in!",
     "description": "The second argument of the practical training section on the competence page"
   },
-  "competence.practical_training.img_description": {
-    "message": "Practical training.",
-    "description": "The description of practical training image in practical training section on the competence page"
+  "kvipp.point1": {
+  "message": "Easily find the equipment. Scan either the identification markings on the equipment or allow artificial intelligence to recognise the type of equipment",
+  "description": "kvipp benefits in bullet points no.1"
+},
+  "kvipp.point2": {
+    "message": "Identify the person. Scan either your HSE card or let artificial intelligence interpret your driver's license",
+    "description": "kvipp benefits in bullet points no.2"
   },
-  "competence.digital_training.title": {
-    "message": "We've simplified equipment training",
-    "description": "The first title of the digital training section on the competence page"
-  },
-  "competence.digital_training.arg1": {
-    "message": "Employers must always provide the necessary training. For equipment that requires particular caution during use, training must always be given prior to use. This training is referred to as equipment-specific, type training, machine-specific, and more.",
-    "description": "The first argument of the digital training section on the competence page"
-  },
-  "competence.digital_training.arg2": {
-    "message": "DigiQuip is a comprehensive solution for equipment-specific training. As an employer, you have control over when training is required, and employees can complete their training either practically or digitally. While the training is taking place, it is documented and stored. In a dedicated dashboard, you can keep track of all training in real-time.",
-    "description": "The second argument of the digital training section on the competence page"
-  },
-  "competence.digital_training.img_description": {
-    "message": "Practical training issued via QR-code.",
-    "description": "The description of digital training image in digital training section on the competence page"
-  },
-  "competence.grouphelp.title1": {
-    "message": "Having a complete overview of",
-    "description": "The first title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.title2": {
-    "message": "competence across teams",
-    "description": "The second title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.title3": {
-    "message": "makes it easier to follow up",
-    "description": "The third title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.title4": {
-    "message": " when needed",
-    "description": "The fourth title of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.arg": {
-    "message": " Don't let gaining insights across departments and companies be a challenging task. If you need to check an individual's competence for specific machines, our solution has the tools you need.",
-    "description": "The argument of the grouphelp section on the competence page"
-  },
-  "competence.grouphelp.img_description": {
-    "message": "Groups help to identify competence gaps.",
-    "description": "The description of grouphelp image in grouphelp section on the competence page"
+  "kvipp.point3": {
+    "message": "Conduct training and receive your diploma (PDF) directly in your inbox",
+    "description": "kvipp benefits in bullet points no.3"
   },
   "workequipment.banner.title1": {
-    "message": "Improved processes with",
+    "message": "In DigiQuip, you get an overview of whether the equipment is safe to use and if the training is in place",
     "description": "The first title of the work equipment page"
   },
   "workequipment.banner.title2": {
@@ -525,27 +481,27 @@
     "description": "The second argument of the work equipment banner"
   },
   "workequipment.systematized_documentation.title": {
-    "message": "Systematised documentation",
+    "message": "Competence and documentation",
     "description": "The title of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg1": {
-    "message": "DigiQuip is the hub that easily connects your machinery and equipment fleet with available documentation and control procedures. By collecting and centralising all documents and information in one place, you save time and money.",
+    "message": "In DigiQuip, you can systematize and gain an overview of competence, including courses and training. Our solutions facilitate equipment training on both owned and leased equipment, providing an overview of documented and certified competence.",
     "description": "The first argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg2": {
-    "message": "And not least, employees no longer have to repeat the same tasks multiple times, which is beneficial for the working environment.",
+    "message": "When equipment training is conducted, it is simultaneously documented. This way, you have an overview of who can and cannot use various work equipment.",
     "description": "The second argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.point1": {
-    "message": "Machinery and equipment overview",
+    "message": "Perform training practically or digitally",
     "description": "The first point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point2": {
-    "message": "Documentation",
+    "message": "Control who can provide training and approve training",
     "description": "The second point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point3": {
-    "message": "Inspection history and status",
+    "message": "Dashboard and reports",
     "description": "The third point of the systematized documentation section on the work equipment page"
   },
   "workequipment.machines_equipment.title1": {
