@@ -1,4 +1,4 @@
-import MainLayout from '../../components/MainLayout';
+import MainLayout from '../../components/MainLayout/index.js';
 import CompetenceGrid from '../../components/CompetenceGrid/index.js';
 import ContactUs from '../../components/ContactUs/index.js';
 import Banner from '../../components/Banner/index.js';

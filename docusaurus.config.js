@@ -89,18 +89,18 @@ const config = {
             position: 'left',
             items: [
               {
-                // html: 'Competence' + linkHtml,
+                // html: 'Kvipp' + linkHtml,
                 label: 'Kvipp',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
-                to:'/competence',
+                to:'/kvipp',
               }, 
               {
-                // html: 'Work equipment' + linkHtml,
+                // html: 'Full pakke' + linkHtml,
                 label: 'DigiQuip',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
-                to: '/workequipment'
+                to: '/fullpakke'
               },
             ]
           },

@@ -1,6 +1,6 @@
-import ContactUs from '../../components/ContactUs';
-import MainLayout from '../../components/MainLayout';
-import CompetenceGrid from '../../components/CompetenceGrid';
+import ContactUs from '../../components/ContactUs/index.js';
+import MainLayout from '../../components/MainLayout/index.js';
+import CompetenceGrid from '../../components/CompetenceGrid/index.js';
 import Banner from '../../components/Banner/index.js';
 import { useEffect, useState } from 'react';
 import workequipmentRecords from "../../../data/workequipmentContents.js";

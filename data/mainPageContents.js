@@ -28,7 +28,7 @@ const newsContent = [
         title: translate({ message: "home.news.news1title" }),
         dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
         description: translate({ message: "home.news.news1desc" }),
-        blogLink: '/blog/kvipp-utstyrsspesifikk-opplæring',
+        blogLink: '/kvipp',
     },
 ];
 
