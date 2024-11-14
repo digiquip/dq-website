@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # Sjekklister
@@ -10,7 +10,7 @@ import checklistexample from '/img/pre-use-inspection-checklists/checklistexampl
 
 <img src={checklistexample} style={{width:800}} />
 
-### Opprett sjekklister
+### Opprett sjekklister for "daglig kontroll" eller "vedlikehold"
 Sjekklister lages under "innstillinger > sjekklister". Her kan du lage sjekklister for inspeksjon før bruk og vedlikehold. Vedlikehold har ulike underkategorier: "generell", "forberedelse", "250 timer", "500 timer" og "1000 timer".
 
 import createchecklists from '/img/resources-FAQ/createchecklists.png';
@@ -62,7 +62,7 @@ Se fanen "test skjema".
 
 ### Knytt sjekkliste til arbeidsutstyr
 
-Knytning til arbeidsutstyr gjør du via modell. Gå til modelloversikten og legg til aktuell sjekkliste. Når du knytter en sjekkliste til modell, vil sjekklisten automatisk være knyttet opp mot alt utstyr av denne typen.
+Knytning til arbeidsutstyr gjør du via modell. Gå til modelloversikten og legg til aktuell sjekkliste. Når du knytter en sjekkliste til modell, vil sjekklisten automatisk være knyttet opp mot alt utstyr av denne typen. Du kan også knytte en sjekkliste til flere modeller samtidig ved å merke av for boksene til venstre for modellene i listen.
 
 import checklisttomodel from '/img/pre-use-inspection-checklists/checklisttomodel.png';
 
@@ -83,12 +83,47 @@ import radio from '/img/pre-use-inspection-checklists/radio.png';
 
 <img src={radio} style={{width:250}} />
 
+
+
 ### Finn logg over utførte inspeksjoner
 Detaljene finner du loggført på det enkelte arbeidsutstyr under fanen "daglig kontroll" eller "vedlikehold". Sjekk om maskinen er kontrollert og se detaljer om siste inspeksjon.
 
 import checklistlog from '/img/pre-use-inspection-checklists/checklistlog.png';
 
 <img src={checklistlog} style={{width:800}} />
+
+
+### Opprett sjekkliste for sakkynig kontroll
+
+Gå til menyen "Innstillinger > Sjekklister > Legg til".                                                                                 Velg deretter kategori "**sakkyndig kontroll**" som type sjekkliste.
+* Navnet du gir sjekklisten her, vil bli brukt som tittel på kontrollrapporten som genereres etter at kontrollen er utført. 
+Det er derfor viktig å velge et beskrivende navn.
+
+
+import leggtilsjekkliste from '/img/resources-FAQ/leggtilsjekkliste.png'; 
+
+<img src={leggtilsjekkliste} style={{width:400}} />
+
+* Velg "**periodisk kontroll**" som mal.
+* Legg til undertitler for hver side.
+* Legg til sjekkpunkter.   
+* Del opp i sider basert på utstyrsdeler eller kategorier. Eksempler på sider kan være: ***"Dokumenter/Merking" (for dokumentasjon og merkingskontroll) "Kurv/Plattform" (for kontroll av plattform eller kurv)*** osv.        
+
+import malperiodiskkontroll from '/img/resources-FAQ/malperiodiskkontroll.png'; 
+
+ <img src={malperiodiskkontroll} style={{width:400}} />
+
+* Når sjekklisten er klar, naviger til **"Test skjema"**.
+* Kontroller at sjekkpunktene vises korrekt både på mobil og nettbrett.
+* Hvis alt ser bra ut, velg **"Lagre"** for å lagre endringene.
+
+import testskjema from '/img/resources-FAQ/testskjema.png'; 
+
+ <img src={testskjema} style={{width:400}} />
+
+* Når sjekklisten er klar, kan den nå kobles til [modell](/docs/resources/checklists#knytt-sjekkliste-til-arbeidsutstyr)
+
+
 
 # Lykke til!
 
