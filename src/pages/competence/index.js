@@ -19,13 +19,6 @@ function PracticalTraining(props) {
   );
 }
 
-function DigitalTraining(props) {
-  const digitalTrainingContent = props.items;
-  return (
-    <CompetenceGrid record={digitalTrainingContent} />
-  );
-}
-
 function CompetenceContactus() {
   return (
    <ContactUs/>
@@ -38,27 +31,23 @@ export default function Competence() {
 
   const [competence , setCompetenceContent] = useState({})
   const [practicalTraining , setPracticalTraining] = useState({})
-  const [digitalTraining , setDigitalTraining] = useState({})
-  const [groupHelp , setGroupHelp] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setCompetenceContent(competenceRecords.competenceBannerData);
         setPracticalTraining(competenceRecords.practicalTrainingData);
-        setDigitalTraining(competenceRecords.digitalTrainingData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [competence, practicalTraining, digitalTraining]);
+  }, [competence, practicalTraining]);
 
   return (
     <MainLayout>
       {competence && <CompetenceBanner items={competence}/>}
       {practicalTraining && <PracticalTraining items={practicalTraining}/>}
-      {digitalTraining && <DigitalTraining items={digitalTraining}/>}
       <CompetenceContactus />
     </MainLayout>
   );

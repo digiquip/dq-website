@@ -12,16 +12,14 @@ function HomepageHeader() {
             <div className={clsx('hero hero--primary heroBanner')}>
                 <div className="container">
                     <div className="row">
-                        <div className={clsx("col col--5")}>
+                        <div className={clsx("col col--150")}>
                             <h1 className='section-title'><Translate>home.safety.title</Translate><span
                                 className='orange'>.</span>
                             </h1>
                             <p><Translate>home.safety.what</Translate></p>
                             <p><Translate>home.safety.how</Translate></p>
                         </div>
-                        <div className={clsx("col col--7")}>
-                            <div className='banner-img'><img src='img/home-banner.webp'></img></div>
-                        </div>
+                        <div className={clsx("col col--")}>                        </div>
                     </div>
                 </div>
                 <span className="bg"></span>

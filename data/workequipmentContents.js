@@ -6,20 +6,9 @@ const workEquipmentBannerData =
     className: "workequipmentbanner",
     titleWithHTML: (
         <>
-            <Translate>workequipment.banner.title1</Translate><br></br>
-            <Translate>workequipment.banner.title2</Translate> <br></br>
-            <Translate>workequipment.banner.title3</Translate><span className="orange">.</span>
+            <Translate>workequipment.banner.title1</Translate><span className="orange">.</span>
         </>
     ),
-
-    descriptionWithHTML: (
-        <>
-            <h3><Translate>workequipment.banner.title4</Translate></h3>
-            <p><Translate>workequipment.banner.arg1</Translate></p>
-            <p><Translate>workequipment.banner.arg2</Translate></p>
-        </>
-    ),
-    img: "img/workequipment/work-equipment-banner.webp",
 }
 
 
@@ -37,7 +26,7 @@ const systematizedDocumentationData = {
             <p><Translate>workequipment.systematized_documentation.arg2</Translate></p>
         </>
     ),
-    img: "img/workequipment/systematized-documentation.webp",
+    img: "img/sikkerbruk.webp",
     imgDescriptions: "",
     isUnorderedList: true,
     unorderedListData: (

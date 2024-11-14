@@ -1,6 +1,6 @@
 /**
  * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
+ * bundles Infima by default. Infima is a CSS framework
  * work well for content-centric websites.
  */
  
@@ -595,6 +595,7 @@
    overflow: hidden;
    border-radius: 1.5rem;
    margin-bottom: 1.75rem;
+   float: right;
  }
  
  .banner-img img {
