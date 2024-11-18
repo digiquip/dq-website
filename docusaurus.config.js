@@ -194,7 +194,7 @@ const config = {
             items: [
               {
                 label: 'Services Status (Uptime)',
-                href: 'https://uptime.statuscake.com/?TestID=f9dgQKO3Az',
+                href: 'https://status.kvipp.io',
               },
             ],
           },
