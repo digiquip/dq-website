@@ -11,7 +11,7 @@ const linkHtml =  ' <span> <svg width="13" height="12" viewBox="0 0 13 12" fill=
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon',
-  tagline: 'Våre løsninger legger til rette for utstyrsspesifikk opplæring på både eget og innleid utstyr, og gir oversikt over dokumentert og sertifisert kompetanse.',
+  tagline: 'DigiQuip er navet som enkelt kobler maskin- og utstyrsparken din med tilgjengelig dokumentasjon, kontrollrutiner, sikkerhetsopplæring og spesifikk maskin- og utstyrsopplæring.',
   favicon: 'img/dq.ico',
 
   // Set the production url of your site here

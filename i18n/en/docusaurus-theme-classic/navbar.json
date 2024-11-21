@@ -3,9 +3,9 @@
     "message": "The DigiQuip logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Solutions": {
-    "message": "Solutions",
-    "description": "Navbar item with label Solutions"
+  "item.label.Products": {
+    "message": "Products",
+    "description": "Navbar item with label Products"
   },
   "item.label.Competence": {
     "message": "Competence",
@@ -23,9 +23,9 @@
     "message": "Pricing",
     "description": "Navbar item with label Pricing"
   },
-  "item.label.Login": {
-    "message": "Login",
-    "description": "Navbar item with label Login"
+  "item.label.Sign in": {
+    "message": "Sign in",
+    "description": "Navbar item with label Sign in"
   },
   "item.label.Scan QR": {
     "message": "Scan QR",
