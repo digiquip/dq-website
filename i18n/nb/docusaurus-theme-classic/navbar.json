@@ -3,9 +3,9 @@
     "message": "DigiQuip logoen",
     "description": "DigiQuip logo"
   },
-  "item.label.Solutions": {
+  "item.label.Products": {
     "message": "Produkter",
-    "description": "Navigering til løsninger"
+    "description": "Navigering til produkter"
   },
   "item.label.Competence": {
     "message": "Kvipp",
@@ -23,7 +23,7 @@
     "message": "Priser",
     "description": "Navigering til priser"
   },
-  "item.label.Login": {
+  "item.label.Sign in": {
     "message": "Logg inn",
     "description": "Navbar element med etikett Logg inn"
   },
