@@ -1,6 +1,7 @@
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
 import youtubePlayList from "./youtubePlayList";
+import embeddedForm from "./EmbeddedForm";
 
 const competenceBannerData =
 {
@@ -28,12 +29,13 @@ const practicalTrainingData =
             <p><Translate>competence.practical_training.arg2</Translate></p>
         </>
     ),
-    mediaType: 'dyntube', // 'image' || 'youtube' || 'dyntube'
+    mediaType: 'embedded', // 'image' || 'youtube' || 'dyntube' || 'embedded'
     dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',
     img: "img/kvipp.png",
+    embedCode: embeddedForm,
     isUnorderedList: true,
     unorderedListData: (
         <>

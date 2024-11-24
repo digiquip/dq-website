@@ -41,7 +41,7 @@ export default function CompetenceGrid(props) {
                   : data.mediaType === 'youtube' ?
                       <VideoSection withoutAutoPlay={data.withoutAutoPlay} withPlay={data.withPlay}
                                     poster={data.youtubeVideoBanner}/>
-                      :
+                      : data.mediaType === 'dyntube' ?
                       <div className="videosection">
                         <div
                             data-dyntube-key={data.dyntubeKey}
@@ -50,6 +50,12 @@ export default function CompetenceGrid(props) {
                         ></div>
                         {value ? ("") : (<PlayButton onClick={() => setValue("play")}/>)}
                       </div>
+                          : data.mediaType === 'embedded' ? <>
+                            <div
+                                className="embed-container"
+                                dangerouslySetInnerHTML={{__html: data.embedCode}}
+                            />
+                          </> : null
               }
 
             </div>
