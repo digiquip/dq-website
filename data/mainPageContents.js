@@ -1,5 +1,4 @@
 import Translate, { translate } from '@docusaurus/Translate';
-import youtubePlayList from './youtubePlayList.js'
 import partnersBrandLogoList from './partnersBrandLogo.js';
 import eventDetail from './eventContent.js';
 
@@ -10,9 +9,6 @@ const youtubeVideoBanner = 'img/iframe-banner.jpg';
 const safetyWork = [
     {
         title: translate({ message: "home.safety.title" }),
-        withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
-        withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
-        youtubeVideoBanner: youtubeVideoBanner,
         description: (
             <>
                 <p><Translate>home.safety.what</Translate></p>
@@ -30,6 +26,13 @@ const newsContent = [
         description: translate({ message: "home.news.news1desc" }),
         blogLink: '/kvipp',
     },
+    {
+        isVideo: false,
+        title: translate({ message: "home.news.news2title" }),
+        imageBanner: '/img/HMD-HANDSHAKE.jpg',
+        description: translate({ message: "home.news.news2desc" }),
+        blogLink: '/blog/hadeland-maskindrift',
+    },
 ];
 
 
@@ -46,7 +49,7 @@ const safeuseContent = {
             <p><Translate>home.safeuse.arg2</Translate></p>
         </>
     ),
-    link: "workequipment",
+    link: "fullpakke",
 };
 
 const consolidateWorkContent = {
@@ -68,7 +71,7 @@ const consolidateWorkContent = {
             </ul>
         </>
     ),
-    link: "workequipment",
+    link: "fullpakke",
 };
 
 const shareInfoContent = {
@@ -98,7 +101,6 @@ const mainPageContentRecords = {
     safetyWork,
     newsContent,
     eventBlock,
-    safeuseContent,
     consolidateWorkContent,
     brandLogoPartners,
 }

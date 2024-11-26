@@ -1,4 +1,5 @@
 import Link from '@docusaurus/Link';
+import React from 'react';
 import Translate from '@docusaurus/Translate';
 import youtubePlayList from "./youtubePlayList";
 import embeddedForm from "./EmbeddedForm";
@@ -17,6 +18,7 @@ const competenceBannerData =
 const practicalTrainingData =
 {
     className: "practical-training-section",
+    blogLink: '/kvipp',
     titleWithHTML: (
         <>
             <Translate>competence.practical_training.title1</Translate>  <br></br>
@@ -29,7 +31,7 @@ const practicalTrainingData =
             <p><Translate>competence.practical_training.arg2</Translate></p>
         </>
     ),
-    mediaType: 'embedded', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    mediaType: 'dyntube', // 'image' || 'youtube' || 'dyntube' || 'embedded'
     dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
@@ -44,58 +46,52 @@ const practicalTrainingData =
                 <li><Translate>kvipp.point2</Translate></li>
                 <li><Translate>kvipp.point3</Translate></li>
             </ul>
+            <div className="btn-container"> 
+            <a href="https://kvipp.it/" target="Kvipp">
+              <button className="btn-t-1 calculator-button">Test Kvipp</button>
+            </a>
+          </div>
+        </>
+        ),
+};
+
+const kvippBedriftData =
+{
+    className: "kvipp-bedrift-section",
+    titleWithHTML: (
+        <>
+            <Translate>competence.kvipp_bedrift.title1</Translate>  <br></br>
+            <Translate>competence.kvipp_bedrift.title2</Translate>
+        </>
+    ),
+    descriptionWithHTML: (
+        <>
+            <p><Translate>competence.kvipp_bedrift.arg1</Translate></p>
+            <p><Translate>competence.kvipp_bedrift.arg2</Translate></p>
+        </>
+    ),
+    mediaType: 'embedded', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+    withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
+    withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
+    youtubeVideoBanner: 'img/iframe-banner.jpg',
+    img: "img/kvipp.png",
+    embedCode: embeddedForm,
+    isUnorderedList: true,
+    unorderedListData: (
+        <>
+            <ul className='section-list'>
+                <li><Translate>kvippBedrift.point1</Translate></li>
+                <li><Translate>kvippBedrift.point2</Translate></li>
+                <li><Translate>kvippBedrift.point3</Translate></li>
+            </ul>
         </>)
-};
-
-const digitalTrainingData =
-{
-    className: "qrissue-section light-bg-grey",
-    titleWithHTML: (
-        <>
-            <Translate>competence.digital_training.title</Translate>
-        </>
-    ),
-    descriptionWithHTML: (
-        <>
-            <p><Translate>competence.digital_training.arg1</Translate></p>
-            <p><Translate>competence.digital_training.arg2</Translate></p>
-        </>
-    ),
-    img: "img/competence-images/QR-code-img.webp",
-    imgDescriptions: (<Translate>competence.digital_training.img_description</Translate>),
-    isUnorderedList: false
-};
-
-
-const groupHelpData =
-{
-    className: "grouphelp-section",
-    titleWithHTML: (
-        <>
-            <Translate>competence.grouphelp.title1</Translate> <br></br>
-            <Translate>competence.grouphelp.title2</Translate> <br></br>
-            <Translate>competence.grouphelp.title3</Translate>
-        </>
-    ),
-    descriptionWithHTML: (
-        <>
-            <p><Translate>competence.grouphelp.arg</Translate></p>
-            <p><Translate>competence.grouphelp.arg2</Translate></p>
-        </>
-    ),
-    img: "img/competence-images/groups-help.webp",
-    imgDescriptions: (
-        <>
-            <Translate>competence.grouphelp.img_description</Translate>
-        </>
-    ),
-    isUnorderedList: false
 };
 
 const CompetenceRecords = {
     competenceBannerData,
     practicalTrainingData,
+    kvippBedriftData,
 }
-
 
 export default CompetenceRecords;

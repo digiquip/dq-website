@@ -35,7 +35,8 @@ DigiQuip-løsningen er utviklet med tanke på å gi en praktisk og brukervennlig
 
 NCC Norge planlegger å fortsette utrullingen av DigiQuip-løsningen på flere av sine prosjekter i tiden som kommer.
 
-Kontaktinformasjon:
+**Kontaktinformasjon:**
+
 For NCC Norge:
 Kirsten Haneborg
 HMS-sjef
@@ -53,5 +54,3 @@ Tom Freddy Braathen
 CCO
 +47 454 88 525
 tfb@digiquip.no
-
-Publisert 11.oktober 2024.

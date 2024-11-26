@@ -34,14 +34,14 @@ export default function SubscriptionPlan() {
       </div>      <div className={clsx("col col--4 margin-bottom--md")}>
         <div className="package-list">
           <div className='package-title'>
-            <h4>Full pakke</h4>
-            <p>Løsning for både opplæring, registrering av ulik kompetanse og kontroll av maskiner ved hjelp av sjekklister. Støtter både daglig og årlig kontroll samt vedlikehold.</p>
+            <h4>Kontroll av utstyr</h4>
+            <p>Løsning for registrering og kontroll av utstyr. Bruk QR-koder/tags for å gjøre det enkelt å identifisere utstyret og gjennomføre ulike handlinger.</p>
           </div>
-          <div className='package-price'> fra 1590 kroner </div>
+          <div className='package-price'> Ta kontakt for pris </div>
           <ul>
-            <li><img src='img/tik.svg' /> Utstyrsspesifikk opplæring. </li>
-            <li><img src='img/tik.svg' /> Kompetanseoversikt. </li>
-            <li><img src='img/tik.svg' /> Daglig og årlig kontroll av arbeidsutstyr. </li>
+            <li><img src='img/tik.svg' /> Utstyrsoversikt. </li>
+            <li><img src='img/tik.svg' /> Daglig og årlig kontroll. </li>
+            <li><img src='img/tik.svg' /> Sjekklister. </li>
           </ul>
         </div>
       </div>

@@ -425,37 +425,64 @@
     "description": "The title of the competence page part one"
   },
   "competence.banner.title2": {
-    "message": "documenting training. Free of charge",
+    "message": "documenting equipment-specific training. Free",
     "description": "The title of the competence page part two"
   },
   "competence.practical_training.title1": {
-    "message": "Do equipment-training",
+    "message": "Kvipp - carry out",
     "description": "The title of the practical training section on the competence page"
   },
   "competence.practical_training.title2": {
-    "message": " in the field",
+    "message": "and document training",
     "description": "The second title of the practical training section on the competence page"
   },
   "competence.practical_training.arg1": {
-    "message": "Kvipp is a digital service designed to meet the need for quick and easy access to equipment-specific training and documentation, exactly when and where it is needed.",
+    "message": "Kvipp is a service developed to meet the need for fast and simple equipment training and documentation (PDF).",
     "description": "The first argument of the practical training section on the competence page"
   },
   "competence.practical_training.arg2": {
-    "message": "Completely free and without signing in!",
-    "description": "The second argument of the practical training section on the competence page"
+    "message": "Without complicated login processes or equipment registration, digital documentation of training is easier than ever."
   },
   "kvipp.point1": {
-  "message": "Easily find the equipment. Scan either the identification markings on the equipment or allow artificial intelligence to recognise the type of equipment",
-  "description": "kvipp benefits in bullet points no.1"
-},
+    "message": "Easily accessible: Free and without login",
+    "description": "kvipp benefits in bullet points no.1"
+  },
   "kvipp.point2": {
-    "message": "Identify the person. Scan either your HSE card or let artificial intelligence interpret your driver's license",
+    "message": "Simple and secure identification: Scan Norwegian HSE cards or driving licences for quick, secure, and efficient personal identification",
     "description": "kvipp benefits in bullet points no.2"
   },
   "kvipp.point3": {
-    "message": "Conduct training and receive your diploma (PDF) directly in your inbox",
+    "message": "Innovative equipment recognition: Scan the equipment's characteristics (e.g., DigiQuip or Reginn QR code) or let artificial intelligence recognise the type",
     "description": "kvipp benefits in bullet points no.3"
   },
+  "competence.kvipp_bedrift.title1": {
+    "message": "Streamline training and documentation",
+    "description": "The title of the practical training section on the competence page"
+  },
+  "competence.kvipp_bedrift.title2": {
+    "message": "with Kvipp Bedrift.",
+    "description": "The second title of the practical training section on the competence page"
+  },
+  "competence.kvipp_bedrift.arg1": {
+    "message": "Kvipp Bedrift is coming soon! Sign up now to receive updates and access promotional offers.",
+    "description": "The first argument of the practical training section on the competence page"
+  },
+  "competence.kvipp_bedrift.arg2": {
+    "message": "With Kvipp Bedrift you will get among other things:",
+    "description": "The second argument of the practical training section on the competence page"
+  },
+  "kvippBedrift.point1": {
+    "message": "Overview of all equipment training",
+    "description": "kvipp bedrift benefits in bullet points no.1"
+  },
+  "kvippBedrift.point2": {
+    "message": "The ability to perform simple gap analyses",
+    "description": "kvipp bedrift benefits in bullet points no.2"
+  },
+  "kvippBedrift.point3": {
+    "message": "Grouping of people and equipment",
+    "description": "kvipp bedrift benefits in bullet points no.3"
+},
   "workequipment.banner.title1": {
     "message": "In DigiQuip, you get an overview of whether the equipment is safe to use and if the training is in place",
     "description": "The first title of the work equipment page"
@@ -634,5 +661,13 @@
   "home.news.news1desc": {
     "message": "A super easy tool that lets you document training in the field using your mobile and HSE card. Kvipp is a digital service developed to meet the need for quick and easy access to equipment training and documentation, exactly when and where it’s needed.",
     "description": "First description of the news"
+},
+"home.news.news2title": {
+    "message": "Hadeland Maskindrift is investing in DigiQuip",
+    "description": "First title of the news 2"
+  },
+  "home.news.news2desc": {
+    "message": "\"With checklists for daily control, we can certainly save at least 1 million kroner a year!\" - Morten Amundsen, Hadeland Maskindrift (HMD). With DigiQuip's solutions, HMD cuts costs, and not least improves work on safety, efficiency, and competence.",
+    "description": "First description of the news 2"
   }
 }

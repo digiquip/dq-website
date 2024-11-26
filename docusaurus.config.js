@@ -96,11 +96,11 @@ const config = {
                 to:'/kvipp',
               }, 
               {
-                // html: 'Full pakke' + linkHtml,
+                // html: 'Fullpakke' + linkHtml,
                 label: 'DigiQuip',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
-                to: '/fullpakke'
+                to: '/fullpakke',
               },
             ]
           },
@@ -124,7 +124,7 @@ const config = {
           },
           {
             to: 'https://pim.digiquip.com/authenticate/idp/init?destination=none&interactionMode=signIn&existingSessionId=',
-            label: 'Log in',
+            label: 'Logg inn',
             position: 'right',
             sidebarid: 'loginButton',
           },

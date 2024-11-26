@@ -43,8 +43,8 @@ export default function Workequipment() {
     let ignore = false;
       if (!ignore) {
         setWorkEquipmentContent(workequipmentRecords.workEquipmentBannerData);
-        setDocumentationContent(workequipmentRecords.systematizedDocumentationData);
         setMachinesContent(workequipmentRecords.machinesEquipmentData);
+        setDocumentationContent(workequipmentRecords.systematizedDocumentationData);
       }
   
     return () => { 
@@ -56,8 +56,8 @@ export default function Workequipment() {
   return (
     <MainLayout>
         {workEquipment && <WorkeQuipmentBanner items={workEquipment} />}
-        {documentation && <SystematizedDocumentation items={documentation}/>}
         {machines &&  <MachinesEquipment items={machines} />}
+        {documentation && <SystematizedDocumentation items={documentation}/>}
         <CompetenceContactus />
     </MainLayout> 
   );
