@@ -1,4 +1,6 @@
 import Translate from '@docusaurus/Translate';
+import youtubePlayList from "./youtubePlayList";
+import embeddedForm from "./EmbeddedForm";
 
 
 const workEquipmentBannerData =
@@ -10,35 +12,6 @@ const workEquipmentBannerData =
         </>
     ),
 }
-
-
-const systematizedDocumentationData = {
-    className: "systematizedd-section",
-    titleWithHTML: (
-        <>
-            <Translate>workequipment.systematized_documentation.title</Translate>
-        </>
-    ),
-
-    descriptionWithHTML: (
-        <>
-            <p><Translate>workequipment.systematized_documentation.arg1</Translate></p>
-            <p><Translate>workequipment.systematized_documentation.arg2</Translate></p>
-        </>
-    ),
-    img: "img/sikkerbruk.webp",
-    imgDescriptions: "",
-    isUnorderedList: true,
-    unorderedListData: (
-        <>
-            <ul className='section-list'>
-                <li><Translate>workequipment.systematized_documentation.point1</Translate></li>
-                <li><Translate>workequipment.systematized_documentation.point2</Translate></li>
-                <li><Translate>workequipment.systematized_documentation.point3</Translate></li>
-            </ul>
-        </>)
-}
-
 
 const machinesEquipmentData = {
     className: "machines-equipment-section light-bg-grey",
@@ -55,8 +28,13 @@ const machinesEquipmentData = {
             <p><Translate>workequipment.machines_equipment.arg2</Translate></p>
         </>
     ),
+    mediaType: 'image', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+    withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
+    withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
+    youtubeVideoBanner: 'img/iframe-banner.jpg',
     img: "img/workequipment/daily-inspections.webp",
-    imgDescriptions: "",
+    embedCode: embeddedForm,
     isUnorderedList: true,
     unorderedListData: (
         <>
@@ -69,41 +47,42 @@ const machinesEquipmentData = {
     )
 }
 
-
-const specificCompetenceData =
-{
-    className: "practical-training-section",
+const systematizedDocumentationData = {
+    className: "systematizedd-section",
     titleWithHTML: (
         <>
-            <Translate>workequipment.specific_competence.title1</Translate> <br></br>
-            <Translate>workequipment.specific_competence.title2</Translate>
+            <Translate>workequipment.systematized_documentation.title</Translate>
         </>
     ),
 
     descriptionWithHTML: (
         <>
-            <p><Translate>workequipment.specific_competence.arg1</Translate></p>
-            <p><Translate>workequipment.specific_competence.arg2</Translate></p>
+            <p><Translate>workequipment.systematized_documentation.arg1</Translate></p>
+            <p><Translate>workequipment.systematized_documentation.arg2</Translate></p>
         </>
     ),
-
-    img: "img/workequipment/QR_kode_EN.webp",
-    imgDescriptions: (
+    mediaType: 'image', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+    withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
+    withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
+    youtubeVideoBanner: 'img/iframe-banner.jpg',
+    img: "img/competence-images/practical-training.webp",
+    embedCode: embeddedForm,
+    isUnorderedList: true,
+    unorderedListData: (
         <>
-            <Translate>workequipment.specific_competence.img_description</Translate>
-        </>
-    ),
-    isUnorderedList: false
-};
-
-
+            <ul className='section-list'>
+                <li><Translate>workequipment.systematized_documentation.point1</Translate></li>
+                <li><Translate>workequipment.systematized_documentation.point2</Translate></li>
+                <li><Translate>workequipment.systematized_documentation.point3</Translate></li>
+            </ul>
+        </>)
+}
 
 const WorkEquipmentRecords = {
     workEquipmentBannerData,
-    systematizedDocumentationData,
     machinesEquipmentData,
-    specificCompetenceData
+    systematizedDocumentationData,
 }
-
 
 export default WorkEquipmentRecords;

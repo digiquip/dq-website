@@ -19,6 +19,13 @@ function PracticalTraining(props) {
   );
 }
 
+function KvippBedrift(props) {
+  const kvippBedriftContent = props.items;
+  return (
+    <CompetenceGrid record={kvippBedriftContent} />
+  );
+}
+
 function CompetenceContactus() {
   return (
    <ContactUs/>
@@ -31,23 +38,26 @@ export default function Competence() {
 
   const [competence , setCompetenceContent] = useState({})
   const [practicalTraining , setPracticalTraining] = useState({})
+  const [kvippBedrift , setKvippBedrift] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setCompetenceContent(competenceRecords.competenceBannerData);
         setPracticalTraining(competenceRecords.practicalTrainingData);
+        setKvippBedrift(competenceRecords.kvippBedriftData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [competence, practicalTraining]);
+  }, [competence, practicalTraining, kvippBedrift]);
 
   return (
     <MainLayout>
       {competence && <CompetenceBanner items={competence}/>}
       {practicalTraining && <PracticalTraining items={practicalTraining}/>}
+      {kvippBedrift && <KvippBedrift items={kvippBedrift}/>}
       <CompetenceContactus />
     </MainLayout>
   );

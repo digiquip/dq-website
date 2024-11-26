@@ -634,7 +634,7 @@
 
 .news-section-detail .news-title {
     margin-bottom: 2.25rem;
-    line-height: 0;
+    line-height: 1;
 }
 .news-section-detail .news-title a{
     text-decoration: none;
@@ -1000,7 +1000,7 @@ background-color: #fff;
  }
  
  .practical-training-section,
- .grouphelp-section,
+ .kvipp-bedrift-section,
  .competence-contactu-sec,
  .systematizedd-section,
  .library-content {
