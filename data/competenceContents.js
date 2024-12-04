@@ -1,4 +1,3 @@
-import Link from '@docusaurus/Link';
 import React from 'react';
 import Translate from '@docusaurus/Translate';
 import youtubePlayList from "./youtubePlayList";
@@ -15,20 +14,21 @@ const competenceBannerData =
     ),
 }
 
-const practicalTrainingData =
+const kvippBenefitsData =
 {
-    className: "practical-training-section",
+    className: "kvipp-benefits-section",
     blogLink: '/kvipp',
     titleWithHTML: (
         <>
-            <Translate>competence.practical_training.title1</Translate>  <br></br>
-            <Translate>competence.practical_training.title2</Translate>
+            <Translate>kvippbenefits.title1</Translate>  <br></br>
+            <Translate>kvippbenefits.title2</Translate>
         </>
     ),
     descriptionWithHTML: (
         <>
-            <p><Translate>competence.practical_training.arg1</Translate></p>
-            <p><Translate>competence.practical_training.arg2</Translate></p>
+            <p><Translate>kvippbenefits.arg1</Translate></p>
+            <p><Translate>kvippbenefits.arg2</Translate></p>
+            <p><Translate>kvippbenefits.arg3</Translate></p>
         </>
     ),
     mediaType: 'dyntube', // 'image' || 'youtube' || 'dyntube' || 'embedded'
@@ -41,11 +41,6 @@ const practicalTrainingData =
     isUnorderedList: true,
     unorderedListData: (
         <>
-            <ul className='section-list'>
-                <li><Translate>kvipp.point1</Translate></li>
-                <li><Translate>kvipp.point2</Translate></li>
-                <li><Translate>kvipp.point3</Translate></li>
-            </ul>
             <div className="btn-container"> 
             <a href="https://kvipp.it/" target="Kvipp">
               <button className="btn-t-1 calculator-button">Test Kvipp</button>
@@ -55,23 +50,50 @@ const practicalTrainingData =
         ),
 };
 
-const kvippBedriftData =
+const kvippGetStartedData =
 {
-    className: "kvipp-bedrift-section",
+    className: "kvipp-getstarted-section",
     titleWithHTML: (
         <>
-            <Translate>competence.kvipp_bedrift.title1</Translate>  <br></br>
-            <Translate>competence.kvipp_bedrift.title2</Translate>
+            <Translate>kvipp-get-started.title1</Translate>
         </>
     ),
     descriptionWithHTML: (
         <>
-            <p><Translate>competence.kvipp_bedrift.arg1</Translate></p>
-            <p><Translate>competence.kvipp_bedrift.arg2</Translate></p>
+            <p><Translate>kvipp-get-started.arg1</Translate></p>
         </>
     ),
-    mediaType: 'embedded', // 'image' || 'youtube' || 'dyntube' || 'embedded'
-    dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+    mediaType: 'image', // 'image' || 'dyntube' || 'embedded'
+    dyntubeKey: 'cWUjx9Cc0Ua3VDfyW0rVQ',
+    youtubeVideoBanner: 'img/iframe-banner.jpg',
+    img: "img/kvipp.png",
+    embedCode: embeddedForm,
+    isUnorderedList: true,
+    unorderedListData: (
+        <>
+            <ul className='section-list'>
+                <li><Translate>kvipp-get-started.point1</Translate></li>
+                <li><Translate>kvipp-get-started.point2</Translate></li>
+                <li><Translate>kvipp-get-started.point3</Translate></li>
+            </ul>
+        </>),
+};
+
+const kvippSituationData =
+{
+    className: "kvipp-situation-section",
+    titleWithHTML: (
+        <>
+            <Translate>kvipp-situation.title1</Translate>
+        </>
+    ),
+    descriptionWithHTML: (
+        <>
+            <p><Translate>kvipp-situation.arg1</Translate></p>
+        </>
+    ),
+    mediaType: 'dyntube', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    dyntubeKey: 'cWUjx9Cc0Ua3VDfyW0rVQ',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',
@@ -81,17 +103,18 @@ const kvippBedriftData =
     unorderedListData: (
         <>
             <ul className='section-list'>
-                <li><Translate>kvippBedrift.point1</Translate></li>
-                <li><Translate>kvippBedrift.point2</Translate></li>
-                <li><Translate>kvippBedrift.point3</Translate></li>
+                <li><Translate>kvipp-situation.point1</Translate></li>
+                <li><Translate>kvipp-situation.point2</Translate></li>
+                <li><Translate>kvipp-situation.point3</Translate></li>
             </ul>
-        </>)
+        </>),
 };
 
 const CompetenceRecords = {
     competenceBannerData,
-    practicalTrainingData,
-    kvippBedriftData,
+    kvippBenefitsData,
+    kvippGetStartedData,
+    kvippSituationData,
 }
 
 export default CompetenceRecords;

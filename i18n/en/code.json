@@ -483,6 +483,66 @@
     "message": "Grouping of people and equipment",
     "description": "kvipp bedrift benefits in bullet points no.3"
 },
+"bedrift.banner.title1": {
+  "message": "bedrifttitle",
+  "description": "The first title of the work equipment page"
+},
+"bedrift.benefits.title1": {
+  "message": "benefits",
+  "description": "kvipp bedrift benefits"
+},
+"bedrift.benefits.title2": {
+  "message": "benefits 2",
+  "description": "part two kvipp bedrift benefits"
+},
+"bedrift.benefits.arg1": {
+  "message": "arg1.",
+  "description": "arg1"
+},
+"bedrift.benefits.arg2": {
+  "message": "arg2.",
+  "description": "arg2"
+},
+"bedrift.benefits.arg3": {
+  "message": "arg3.",
+  "description": "arg3"
+},
+"bedrift.benefits.point1": {
+  "message": "11",
+  "description": "111"
+},
+"bedrift.benefits.point2": {
+  "message": "1122",
+  "description": "1112"
+},
+"bedrift.benefits.point3": {
+  "message": "112233",
+  "description": "111233"
+},
+"bedrift.campaign.title": {
+  "message": "campaign",
+  "description": "campaign"
+},
+"bedrift.campaign.arg1": {
+  "message": "campaign arg1",
+  "description": "campaign arg1"
+},
+"bedrift.campaign.arg2": {
+  "message": "campaign arg2",
+  "description": "campaign arg2"
+},
+"bedrift.campaign.point1": {
+  "message": "campaign point 1",
+  "description": "campaign point 1"
+},
+"bedrift.campaign.point2": {
+  "message": "campaign point 2",
+  "description": "campaign point 2"
+},
+"bedrift.campaign.point3": {
+  "message": "campaign point 45",
+  "description": "campaign point 3"
+},
   "workequipment.banner.title1": {
     "message": "In DigiQuip, you get an overview of whether the equipment is safe to use and if the training is in place",
     "description": "The first title of the work equipment page"

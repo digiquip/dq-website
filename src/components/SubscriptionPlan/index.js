@@ -7,28 +7,25 @@ export default function SubscriptionPlan() {
         <div className="package-list">
           <div className='package-title'>
             <h4>Kvipp</h4>
-            <p>Superenkel løsning for gjennomføring og dokumentasjon av utstyrsspesifikk opplæring. Ingen krav til innlogging eller registrering av utstyr. <a href="https://kvipp.it/" target="_blank">Klikk HER for å teste selv.</a></p>
+            <p>Superenkel løsning for gjennomføring og dokumentasjon av utstyrsspesifikk opplæring, uten innlogging eller administrasjon. <a href="https://kvipp.it/" target="_blank">Klikk HER for å teste selv.</a></p>
           </div>
           <div className='package-price'> GRATIS </div>
           <ul>
-            <li><img src='img/tik.svg' /> Egenerklæring. </li>
-            <li><img src='img/tik.svg' /> Praktisk opplæring. </li>
-            <li><img src='img/tik.svg' /> Dokumentasjon (pdf). </li>
+            <li><img src='img/tik.svg' /> Gjennomfør opplæring </li>
+            <li><img src='img/tik.svg' /> Last ned egne opplæringsbevis (pdf) </li>
           </ul>
         </div>
       </div>
       <div className={clsx("col col--4 margin-bottom--md")}>
         <div className="package-list">
           <div className='package-title'>
-            <h4>Kvipp bedrift</h4>
-            <p>Oversikt over utstyrsspesifikk opplæring. I denne løsningen vil virksomheten få oversikt over hvem som kan/ikke kan bruke hvilket utstyr. Kommer snart!
-            </p>
+            <h4>Kvipp Bedrift</h4>
+            <p>Oversikt utstyrsspesifikk opplæring og dokumentasjon. Lanseres i januar. Gratis prøveperiode? <a href="https://digiquip.no/bedrift" target="_blank">Gå hit og registrer deg.</a></p>
           </div>
           <div className='package-price'> 1390 kroner </div>
           <ul>
-            <li><img src='img/tik.svg' /> Dashboard og rapporter. </li>
-            <li><img src='img/tik.svg' /> Gruppering av mennesker og utstyr. </li>
-            <li><img src='img/tik.svg' /> Kunstig intelligens! </li>
+            <li><img src='img/tik.svg' /> Oversikt og gapanalyser. </li>
+            <li><img src='img/tik.svg' /> Opplæringsbevis (digitale og pdf). </li>
           </ul>
         </div>
       </div>      <div className={clsx("col col--4 margin-bottom--md")}>
@@ -40,8 +37,7 @@ export default function SubscriptionPlan() {
           <div className='package-price'> Ta kontakt for pris </div>
           <ul>
             <li><img src='img/tik.svg' /> Utstyrsoversikt. </li>
-            <li><img src='img/tik.svg' /> Daglig og årlig kontroll. </li>
-            <li><img src='img/tik.svg' /> Sjekklister. </li>
+            <li><img src='img/tik.svg' /> Periodisk kontroll med eller uten sjekklister. </li>
           </ul>
         </div>
       </div>

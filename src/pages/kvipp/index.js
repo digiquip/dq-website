@@ -12,17 +12,23 @@ function CompetenceBanner(props) {
   );
 }
 
-function PracticalTraining(props) {
-  const practicalTrainingContent = props.items;
+function KvippBenefits(props) {
+  const kvippBenefitsContent = props.items;
   return (
-    <CompetenceGrid record={practicalTrainingContent} />
+    <CompetenceGrid record={kvippBenefitsContent} />
   );
 }
 
-function KvippBedrift(props) {
-  const kvippBedriftContent = props.items;
+function KvippGetStarted(props) {
+  const kvippGetStartedContent = props.items;
   return (
-    <CompetenceGrid record={kvippBedriftContent} />
+    <CompetenceGrid record={kvippGetStartedContent} />
+  );
+}
+function KvippSituation(props) {
+  const kvippSituationContent = props.items;
+  return (
+    <CompetenceGrid record={kvippSituationContent} />
   );
 }
 
@@ -37,27 +43,30 @@ function CompetenceContactus() {
 export default function Competence() {
 
   const [competence , setCompetenceContent] = useState({})
-  const [practicalTraining , setPracticalTraining] = useState({})
-  const [kvippBedrift , setKvippBedrift] = useState({})
+  const [kvippBenefits , setKvippBenefits] = useState({})
+  const [kvippGetStarted , setKvippGetStarted] = useState({})
+  const [kvippSituation , setKvippSituation] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setCompetenceContent(competenceRecords.competenceBannerData);
-        setPracticalTraining(competenceRecords.practicalTrainingData);
-        setKvippBedrift(competenceRecords.kvippBedriftData);
+        setKvippBenefits(competenceRecords.kvippBenefitsData);
+        setKvippGetStarted(competenceRecords.kvippGetStartedData);
+        setKvippSituation(competenceRecords.kvippSituationData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [competence, practicalTraining, kvippBedrift]);
+  }, [competence, kvippBenefits, kvippGetStarted, kvippSituation]);
 
   return (
     <MainLayout>
       {competence && <CompetenceBanner items={competence}/>}
-      {practicalTraining && <PracticalTraining items={practicalTraining}/>}
-      {kvippBedrift && <KvippBedrift items={kvippBedrift}/>}
+      {kvippBenefits && <KvippBenefits items={kvippBenefits}/>}
+      {kvippGetStarted && <KvippGetStarted items={kvippGetStarted}/>}
+      {kvippSituation && <KvippSituation items={kvippSituation}/>}
       <CompetenceContactus />
     </MainLayout>
   );

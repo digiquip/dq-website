@@ -96,11 +96,18 @@ const config = {
                 to:'/kvipp',
               }, 
               {
-                // html: 'Fullpakke' + linkHtml,
-                label: 'DigiQuip',
+                // html: 'bedrift' + linkHtml,
+                label: 'Kvipp Bedrift',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
-                to: '/fullpakke',
+                to:'/bedrift',
+              }, 
+              {
+                // html: 'kontroll' + linkHtml,
+                label: 'Kontroll',
+                // type: 'docSidebar',
+                sidebarid: 'tutorialSidebar',
+                to: '/kontroll',
               },
             ]
           },

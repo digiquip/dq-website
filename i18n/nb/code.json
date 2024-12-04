@@ -405,67 +405,126 @@
     "description": "The button label of the contact section on the home page"
   },
   "competence.banner.title1": {
-    "message": "Kvipp er en superenkel løsning for å",
+    "message": "Kvipp er en superenkel, og gratis, løsning for å",
     "description": "The title of the competence page part one"
   },
 "competence.banner.title2": {
-  "message": "dokumentere utstyrsspesifikk opplæring. Gratis",
+  "message": "dokumentere utstyrsspesifikk opplæring",
   "description": "The title of the competence page part two"
 },
-  "competence.practical_training.title1": {
-    "message": "Kvipp - gjennomfør",
+  "kvippbenefits.title1": {
+    "message": "Kom i gang nå",
     "description": "The title of the practical training section on the competence page"
   },
-  "competence.practical_training.title2": {
-    "message": "og dokumenter opplæring",
+  "kvippbenefits.title2": {
+    "message": "- ingen administrasjon eller forberedelser trengs",
     "description": "The second title of the practical training section on the competence page"
   },
-  "competence.practical_training.arg1": {
+  "kvippbenefits.arg1": {
     "message": "Kvipp er en tjeneste utviklet for å møte behovet for rask og enkel utstyrsspesifikk opplæring og dokumentasjon (PDF).",
     "description": "The first argument of the practical training section on the competence page"
   },
-  "competence.practical_training.arg2": {
+  "kvippbenefits.arg2": {
     "message": "Uten kompliserte innloggingsprosesser eller registrering av utstyr, er digital dokumentasjon av opplæring enklere enn noen gang."
   },
-"kvipp.point1": {
-  "message": "Lett tilgjengelig: Gratis og uten innlogging",
-  "description": "kvipp benefits in bullet points no.1"
+"kvippbenefits.arg3": {
+  "message": "Slik at du kan starte å bruke Kvipp når som helst hvor somt helst, helt uten forberedelser eller forpliktelser."
 },
-  "kvipp.point2": {
-    "message": "Enkel og sikker identifikasjon: Skann HMS-kort eller førerkort for en rask, sikker og effektiv identifisering av person",
-    "description": "kvipp benefits in bullet points no.2"
-  },
-  "kvipp.point3": {
-    "message": "Innovativ utstyrsgjenkjenning: Skann utstyrets kjennetegn (f.eks. DigiQuip eller Reginn QR-kode) eller la kunstig intelligens gjenkjenne typen",
-    "description": "kvipp benefits in bullet points no.3"
-},
-"competence.kvipp_bedrift.title1": {
-  "message": "Effektiviser opplæring og dokumentasjon",
+"kvipp-get-started.title1": {
+  "message": "Hva trenger du?",
   "description": "The title of the practical training section on the competence page"
 },
-"competence.kvipp_bedrift.title2": {
-  "message": "med Kvipp Bedrift.",
-  "description": "The second title of the practical training section on the competence page"
-},
-"competence.kvipp_bedrift.arg1": {
-  "message": "Kvipp Bedrift kommer snart! Meld deg på nå for å få oppdateringer og tilgang til kampanjetilbud.",
-  "description": "The first argument of the practical training section on the competence page"
-},
-"competence.kvipp_bedrift.arg2": {
-  "message": "Med Kvipp Bedrift får du blant annet:",
+"kvipp-get-started.arg1": {
+  "message": "For å bruke Kvipp trenger du:",
   "description": "The second argument of the practical training section on the competence page"
 },
-"kvippBedrift.point1": {
-"message": "Oversikt over all utstyrsspesifikk opplæring",
+"kvipp-get-started.point1": {
+"message": "Mobiltelefon med kamera og tilgang til internett.",
 "description": "kvipp bedrift benefits in bullet points no.1"
 },
-"kvippBedrift.point2": {
-  "message": "Muligheten til å gjøre enkle gap-analyser",
+"kvipp-get-started.point2": {
+  "message": "Arbeidsutstyr. Skann kjennetegn (QR-kode) eller noe",
   "description": "kvipp bedrift benefits in bullet points no.2"
 },
-"kvippBedrift.point3": {
-  "message": "Gruppering av mennesker og utstyr",
+"kvipp-get-started.point3": {
+  "message": "HMS-kort eller førerkort.",
   "description": "kvipp bedrift benefits in bullet points no.3"
+},
+"kvipp-situation.title1": {
+"message": "Opplæring i forbindelse med overlevering av utstyr",
+"description": "The first title of the work equipment page"
+},
+"kvipp-situation.arg1": {
+  "message": "Se på videoen",
+  "description": "The second argument of the practical training section on the competence page"
+},
+"kvipp-situation.point1": {
+  "message": "Hi there.",
+  "description": "example point 1"
+},
+"kvipp-situation.point2": {
+  "message": "Hallo.",
+  "description": "example point 2"
+},
+"kvipp-situation.point3": {
+  "message": "Ferdig.",
+  "description": "example point 3"
+},
+"bedrift.banner.title1": {
+  "message": "Opplæringsbevis samlet et sted med Kvipp Bedrift",
+  "description": "Kvipp Bedrift title"
+},
+"bedrift.benefits.title1": {
+  "message": "Lansering av Kvipp Bedrift.",
+  "description": "kvipp bedrift benefits"
+},
+"bedrift.benefits.title2": {
+  "message": "Kommer i januar 2025.",
+  "description": "part two kvipp bedrift benefits"
+},
+"bedrift.benefits.arg1": {
+  "message": "Vi jobber med Kvipp Bedrift. For bare NOK 1390,- per måned (eks. mva) får bedriften oversikt over all utstyrsspesifikk opplæring og dokumenter.",
+  "description": "bedrift benefits arg1"
+},
+"bedrift.benefits.arg2": {
+  "message": "Allerede nå ønsker vi å invitere inn bedrifter som trenger kontroll på dokumentasjon av opplæring til en gratis 14 dagers prøveperiode - helt uten forpliktelser.",
+  "description": "bedrift benefits arg2"
+},
+"bedrift.benefits.point1": {
+  "message": "Dokumentasjon: Hent ut alle opplæringsbevis (digitalt og pdf)",
+  "description": "111"
+},
+"bedrift.benefits.point2": {
+  "message": "Oversikt: All gjennomført opplæring samlet et sted",
+  "description": "1112"
+},
+"bedrift.benefits.point3": {
+  "message": "Gapanalyser: Grupper personer og utstyr og få oversikt over hvem som har eller mangler opplæring",
+  "description": "111233"
+},
+"bedrift.campaign.title": {
+  "message": "campaign",
+  "description": "campaign"
+},
+"bedrift.campaign.arg1": {
+  "message": "campaign arg1",
+  "description": "campaign arg1"
+},
+"bedrift.campaign.arg2": {
+  "message": "campaign arg2",
+  "description": "campaign arg2"
+},
+"bedrift.campaign.point1": {
+  "message": "campaign point 1",
+  "description": "campaign point 1"
+},
+"bedrift.campaign.point2": {
+  "message": "campaign point 2",
+  "description": "campaign point 2"
+},
+"bedrift.campaign.point3": {
+  "message": "campaign point 45",
+  "description": "campaign point 3"
 },
   "workequipment.banner.title1": {
     "message": "I DigiQuip får du oversikt over om utstyret er trygt å bruke og om opplæringen er på plass",
@@ -620,11 +679,11 @@
     "description": "Title of Latest News"
   },
   "home.news.news1title": {
-    "message": "Vi har lansert Kvipp",
+    "message": "Dokumenter opplæring med Kvipp - gratis",
     "description": "First title of the news"
   },
   "home.news.news1desc": {
-    "message": "Et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort. Kvipp er en digital tjeneste som er utviklet for å møte behovet for rask og enkel tilgang til utstyrsspesifikk opplæring og dokumentasjon, akkurat når og der det trengs.",
+    "message": "Opplev rask og enkel tilgang til utstyrsspesifikk opplæring og dokumentasjon med Kvipp! Med HMS-kortet kan du raskt og sikkert identifisere deg - uten å logge inn. Utstyret gjenkjennes enkelt med kamera og kunstig intelligens - uten administrasjon. PS: Sjekk ut animasjonsvideoen vår.",
     "description": "First description of the news"
   },
   "home.news.news2title": {
