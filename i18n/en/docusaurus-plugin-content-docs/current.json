@@ -29,6 +29,10 @@
   },
   "sidebar.tutorialSidebar.category.Bruk av programvaren DigiQuip": {
   "message": "Resources",
-  "description": "The label for category DigiQuip use cases in sidebar tutorialSidebar"
+  "description": "The label for category DigiQuip resources in sidebar tutorialSidebar"
+},
+"sidebar.tutorialSidebar.category.Bruk av Kvipp": {
+"message": "Resources",
+"description": "The label Kvipp resources in sidebar tutorialSidebar"
 }
 }

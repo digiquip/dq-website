@@ -420,104 +420,103 @@
     "message": "Contact us",
     "description": "The button label of the contact section on the home page"
   },
-  "competence.banner.title1": {
-    "message": "Kvipp is a super simple solution for",
+"competence.banner.title1": {
+    "message": "Kvipp is a super simple, and free, solution for",
     "description": "The title of the competence page part one"
-  },
-  "competence.banner.title2": {
-    "message": "documenting equipment-specific training. Free",
+},
+"competence.banner.title2": {
+    "message": "documenting equipment-specific training",
     "description": "The title of the competence page part two"
-  },
-  "competence.practical_training.title1": {
-    "message": "Kvipp - carry out",
-    "description": "The title of the practical training section on the competence page"
-  },
-  "competence.practical_training.title2": {
-    "message": "and document training",
-    "description": "The second title of the practical training section on the competence page"
-  },
-  "competence.practical_training.arg1": {
-    "message": "Kvipp is a service developed to meet the need for fast and simple equipment training and documentation (PDF).",
-    "description": "The first argument of the practical training section on the competence page"
-  },
-  "competence.practical_training.arg2": {
-    "message": "Without complicated login processes or equipment registration, digital documentation of training is easier than ever."
-  },
-  "kvipp.point1": {
-    "message": "Easily accessible: Free and without login",
-    "description": "kvipp benefits in bullet points no.1"
-  },
-  "kvipp.point2": {
-    "message": "Simple and secure identification: Scan Norwegian HSE cards or driving licences for quick, secure, and efficient personal identification",
-    "description": "kvipp benefits in bullet points no.2"
-  },
-  "kvipp.point3": {
-    "message": "Innovative equipment recognition: Scan the equipment's characteristics (e.g., DigiQuip or Reginn QR code) or let artificial intelligence recognise the type",
-    "description": "kvipp benefits in bullet points no.3"
-  },
-  "competence.kvipp_bedrift.title1": {
-    "message": "Streamline training and documentation",
-    "description": "The title of the practical training section on the competence page"
-  },
-  "competence.kvipp_bedrift.title2": {
-    "message": "with Kvipp Bedrift.",
-    "description": "The second title of the practical training section on the competence page"
-  },
-  "competence.kvipp_bedrift.arg1": {
-    "message": "Kvipp Bedrift is coming soon! Sign up now to receive updates and access promotional offers.",
-    "description": "The first argument of the practical training section on the competence page"
-  },
-  "competence.kvipp_bedrift.arg2": {
-    "message": "With Kvipp Bedrift you will get among other things:",
-    "description": "The second argument of the practical training section on the competence page"
-  },
-  "kvippBedrift.point1": {
-    "message": "Overview of all equipment training",
-    "description": "kvipp bedrift benefits in bullet points no.1"
-  },
-  "kvippBedrift.point2": {
-    "message": "The ability to perform simple gap analyses",
-    "description": "kvipp bedrift benefits in bullet points no.2"
-  },
-  "kvippBedrift.point3": {
-    "message": "Grouping of people and equipment",
-    "description": "kvipp bedrift benefits in bullet points no.3"
+},
+"kvippbenefits.title1": {
+    "message": "Get started now",
+    "description": "The title of the first section on the Kvipp page"
+},
+"kvippbenefits.title2": {
+    "message": "- all you need is a mobile phone, ID card, and some work equipment",
+    "description": "The second title of the first section on the Kvipp page"
+},
+"kvippbenefits.arg1": {
+    "message": "Kvipp is a service developed to meet the need for quick and easy equipment-specific training and documentation (PDF).",
+    "description": "The first argument of the first Kvipp section"
+},
+"kvippbenefits.arg2": {
+    "message": "Without complicated login processes or equipment registration, digital documentation of equipment-specific training is easier than ever."
+},
+"kvippbenefits.arg3": {
+    "message": "You can start using Kvipp anytime, anywhere, with no preparation or commitments required. All you need is a phone, internet access, and a health and safety card (or driving licence)."
+},
+"kvipp-get-started.title1": {
+    "message": "How to get started?",
+    "description": "Kvipp section two, 1"
+},
+"kvipp-get-started.arg1": {
+    "message": "Kvipp is a web-based solution. The first step is to go to the website kvipp.it. From there, you will receive further guidance on how to use the solution. You will need:",
+    "description": "Kvipp section two, arg 1"
+},
+"kvipp-get-started.point1": {
+    "message": "Mobile phone with a camera and internet access. No access to a camera? Check the camera settings for the browser you are using.",
+    "description": "Kvipp section two, point 1"
+},
+"kvipp-get-started.point2": {
+    "message": "Work equipment. Scan the identifier (QR code/NFC tag) or let artificial intelligence recognise the equipment.",
+    "description": "Kvipp section two, point 2"
+},
+"kvipp-get-started.point3": {
+    "message": "Health and safety card or driving licence. You can either scan the QR code on the health and safety card or use artificial intelligence to recognise your name from, for example, the driving licence.",
+    "description": "Kvipp section two, point 3"
+},
+"kvipp-situation.title1": {
+    "message": "Training in connection with renting equipment",
+    "description": "Kvipp section 3, title"
+},
+"kvipp-situation.arg1": {
+    "message": "An example of a situation where Kvipp simplifies training is when e.g. a company rents some equipment. With Kvipp, the rental company can provide training and ensure that documentation is stored digitally and with the right content immediately.",
+    "description": "Kvipp section 3, arg 1"
+},
+"kvipp-situation.point1": {
+    "message": "Receive training",
+    "description": "Kvipp section 3, point 1"
+},
+"kvipp-situation.point2": {
+    "message": "Get documentation immediately",
+    "description": "Kvipp section 3, point 2"
+},
+"kvipp-situation.point3": {
+    "message": "Save the documentation digitally",
+    "description": "Kvipp section 3, point 3"
 },
 "bedrift.banner.title1": {
-  "message": "bedrifttitle",
-  "description": "The first title of the work equipment page"
+    "message": "Kvipp Bedrift gives you full control over training with minimal effort",
+    "description": "Kvipp Bedrift title"
 },
 "bedrift.benefits.title1": {
-  "message": "benefits",
-  "description": "kvipp bedrift benefits"
+    "message": "Kvipp Bedrift",
+    "description": "Kvipp Bedrift benefits"
 },
 "bedrift.benefits.title2": {
-  "message": "benefits 2",
-  "description": "part two kvipp bedrift benefits"
+    "message": "launching in January 2025.",
+    "description": "part two Kvipp Bedrift benefits"
 },
 "bedrift.benefits.arg1": {
-  "message": "arg1.",
-  "description": "arg1"
+  "message": "For just NOK 1390 per month (ex. VAT), the organisation gains an overview of all equipment-specific training and documentation - always available and updated.",
+  "description": "bedrift benefits arg1"
 },
 "bedrift.benefits.arg2": {
-  "message": "arg2.",
-  "description": "arg2"
-},
-"bedrift.benefits.arg3": {
-  "message": "arg3.",
-  "description": "arg3"
+  "message": "We would like to invite organisations that need control over training documentation to a free 14-day trial period - completely without obligations. Sign up using the form.",
+  "description": "bedrift benefits arg2"
 },
 "bedrift.benefits.point1": {
-  "message": "11",
-  "description": "111"
+  "message": "Your employees are automatically and securely added to Kvipp bedrift via the Norwegian HMS card integration.",
+  "description": "bedrift benefits point 1"
 },
 "bedrift.benefits.point2": {
-  "message": "1122",
-  "description": "1112"
+  "message": "Equipment and documentation are automatically included into the overview after training has been completed.",
+  "description": "bedrift benefits point 2"
 },
 "bedrift.benefits.point3": {
-  "message": "112233",
-  "description": "111233"
+  "message": "Real-time overview and gap analysis. Stay informed about who has or lacks training.",
+  "description": "bedrift benefits point 3"
 },
 "bedrift.campaign.title": {
   "message": "campaign",
@@ -544,7 +543,7 @@
   "description": "campaign point 3"
 },
   "workequipment.banner.title1": {
-    "message": "In DigiQuip, you get an overview of whether the equipment is safe to use and if the training is in place",
+    "message": "Get an overview of whether the equipment is safe to use",
     "description": "The first title of the work equipment page"
   },
   "workequipment.banner.title2": {
@@ -600,7 +599,7 @@
     "description": "The second title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg1": {
-    "message": "In DigiQuip, you can keep track of the latest status and necessary inspections, ranging from annual to pre-use and maintenance inspections.",
+    "message": "Keep track of the latest status and necessary inspections, ranging from annual to pre-use and maintenance inspections.",
     "description": "The first argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg2": {
@@ -714,12 +713,12 @@
     "message": "hallo",
     "description": "Title of Latest News"
   },
-  "home.news.news1title": {
-    "message": "We have launched Kvipp",
+"home.news.news1title": {
+    "message": "Document training with Kvipp - for free",
     "description": "First title of the news"
-  },
-  "home.news.news1desc": {
-    "message": "A super easy tool that lets you document training in the field using your mobile and HSE card. Kvipp is a digital service developed to meet the need for quick and easy access to equipment training and documentation, exactly when and where it’s needed.",
+},
+"home.news.news1desc": {
+    "message": "Experience quick and easy access to equipment training and documentation with Kvipp! With your HMS-card, you can quickly and securely identify yourself - without logging in. The equipment is easily recognised using the camera and artificial intelligence - with no administration required. P.S. Check out our animation video.",
     "description": "First description of the news"
 },
 "home.news.news2title": {

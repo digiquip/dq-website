@@ -19,6 +19,7 @@ function BedriftBenefits(props) {
   );
 }
 
+// DRAFT 
 function BedriftCampaign(props) {
   const bedriftcampaignContent = props.items;
   return (
@@ -44,20 +45,19 @@ export default function Bedrift() {
       if (!ignore) {
         setBedriftContent(bedriftRecords.bedriftBannerData);
         setBedriftBenefits(bedriftRecords.bedriftbenefitsData);
-        setBedriftCampaign(bedriftRecords.bedriftcampaignData);
+        // DRAFT setBedriftCampaign(bedriftRecords.bedriftcampaignData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [bedrift, bedriftbenefits, bedriftcampaign]);
+  }, [bedrift, bedriftbenefits]);
 
   return (
     <MainLayout>
       {bedrift && <BedriftBanner items={bedrift}/>}
       {bedriftbenefits && <BedriftBenefits items={bedriftbenefits}/>}
-      {bedriftcampaign && <BedriftCampaign items={bedriftcampaign}/>}
       <CompetenceContactus />
     </MainLayout>
   );

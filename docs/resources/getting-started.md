@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::note[Før du leser videre:]
 
-Beskrivelsen nedenfor gjelder hovedsakelig for kunder som skal bruke programvaren DigiQuip som et system for kontroll på kompetanse og arbeidsutstyr. Dersom behovet er et spesialisert tilleggsprogram i eksisterende systemlandskap (integrasjon, widget e.l.), eller en løsning kun for opplæring for fagarbeidere ute i felt, [ta kontakt](https://digiquip.no/about).
+Beskrivelsen nedenfor gjelder hovedsakelig for kunder som skal bruke programvaren DigiQuip som et system for kontroll på kompetanse og arbeidsutstyr. Beskrivelsene her gjelder ikke Kvipp (beskrivelser vil komme). Dersom behovet er et spesialisert tilleggsprogram i eksisterende systemlandskap (integrasjon, widget e.l.), eller en løsning kun for opplæring for fagarbeidere ute i felt, [ta kontakt](https://digiquip.no/about).
 
 :::
 

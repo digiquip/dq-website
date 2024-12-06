@@ -66,7 +66,7 @@ const kvippGetStartedData =
     mediaType: 'image', // 'image' || 'dyntube' || 'embedded'
     dyntubeKey: 'cWUjx9Cc0Ua3VDfyW0rVQ',
     youtubeVideoBanner: 'img/iframe-banner.jpg',
-    img: "img/kvipp.png",
+    img: "img/SKANNER-SERIEPLATE.jpg",
     embedCode: embeddedForm,
     isUnorderedList: true,
     unorderedListData: (
@@ -76,7 +76,8 @@ const kvippGetStartedData =
                 <li><Translate>kvipp-get-started.point2</Translate></li>
                 <li><Translate>kvipp-get-started.point3</Translate></li>
             </ul>
-        </>),
+        </>
+    ),
 };
 
 const kvippSituationData =
@@ -93,7 +94,7 @@ const kvippSituationData =
         </>
     ),
     mediaType: 'dyntube', // 'image' || 'youtube' || 'dyntube' || 'embedded'
-    dyntubeKey: 'cWUjx9Cc0Ua3VDfyW0rVQ',
+    dyntubeKey: 'xV5cqsg0OEWk5fHEMMNxSA',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',

@@ -103,11 +103,11 @@ const config = {
                 to:'/bedrift',
               }, 
               {
-                // html: 'kontroll' + linkHtml,
-                label: 'Kontroll',
+                // html: 'trygg-maskin' + linkHtml,
+                label: 'Trygg Maskin',
                 // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
-                to: '/kontroll',
+                to: '/trygg-maskin',
               },
             ]
           },

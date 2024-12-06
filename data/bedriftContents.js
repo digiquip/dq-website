@@ -28,7 +28,7 @@ const bedriftbenefitsData = {
             <p><Translate>bedrift.benefits.arg2</Translate></p>
         </>
     ),
-    mediaType: 'image', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    mediaType: 'embedded', // 'image' || 'youtube' || 'dyntube' || 'embedded'
     dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
@@ -46,6 +46,8 @@ const bedriftbenefitsData = {
         </>
     )
 }
+
+// campaign draft
 
 const bedriftcampaignData = {
     className: "bedrift-campaign-section",
@@ -82,7 +84,6 @@ const bedriftcampaignData = {
 const bedriftRecords = {
     bedriftBannerData,
     bedriftbenefitsData,
-    bedriftcampaignData,
 }
 
 export default bedriftRecords;
