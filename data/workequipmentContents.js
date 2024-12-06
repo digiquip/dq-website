@@ -47,6 +47,7 @@ const machinesEquipmentData = {
     )
 }
 
+// UNPUBLISHED:
 const systematizedDocumentationData = {
     className: "systematizedd-section",
     titleWithHTML: (
@@ -82,7 +83,6 @@ const systematizedDocumentationData = {
 const WorkEquipmentRecords = {
     workEquipmentBannerData,
     machinesEquipmentData,
-    systematizedDocumentationData,
 }
 
 export default WorkEquipmentRecords;

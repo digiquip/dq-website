@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import VideoSection from "../VideoSection";
-import PlayButton from "../PlayVideoBtn";
 import {useEffect, useState} from "react";
 
 // CompetenceGrid component
@@ -48,7 +47,6 @@ export default function CompetenceGrid(props) {
                             data-controls="false"
                             style={{width: '100%', height: 'auto'}}
                         ></div>
-                        {value ? ("") : (<PlayButton onClick={() => setValue("play")}/>)}
                       </div>
                           : data.mediaType === 'embedded' ? <>
                             <div

@@ -999,13 +999,22 @@ background-color: #fff;
    max-width: 39.25rem;
  }
  
- .practical-training-section,
- .kvipp-bedrift-section,
+ .kvipp-benefits-section,
+ .bedriftbenefits-section,
+ .bedrift-campaign-section,
  .competence-contactu-sec,
  .systematizedd-section,
  .library-content {
    background-color: #fff;
  }
+
+.kvipp-getstarted-section {
+  background-color: #F6F6F6;
+}
+
+.kvipp-situation-section {
+  background-color: #fff;
+}
  
  .hero .hero-content {
    color: #fff;

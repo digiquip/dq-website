@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import { useState } from "react";
 import BrandLogo from "../BrandLogo";
-import PlayButton from "../PlayVideoBtn";
 import Link from '@docusaurus/Link';
 import Button from "../Button";
 import Translate from "@docusaurus/Translate";
@@ -40,7 +39,6 @@ export default function News({title, description, dyntubeKey, youtubeVideoBanner
                                 data-controls="false"
                                 style={{width: '100%', height: 'auto'}}
                             ></div>
-                            {value ? ("") : (<PlayButton onClick={() => setValue("play")}/>)}
                         </> : <>
                             <Link href={blogLink}>
                                 <BrandLogo Img={imageBanner} width={''} height={''} alt={''}/>
