@@ -10,7 +10,8 @@ The registry contains core information for the services connected to Kvipp and p
 
 ## Authentication
 
-"Basic Authentication" is now used for the endpoints. Username and password are provided to parties with relevant needs. Please contact us at support@digiquip.no.
+"OAuth 2.0 Authentication" is now used for the endpoints. The required
+information to setup authentication is provided to parties with relevant needs. Please contact us at support@digiquip.no.
 
 ## Data Quality Requirements
 

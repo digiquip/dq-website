@@ -4,13 +4,14 @@ sidebar_position: 1
 
 # Om registeret
 
-Registeret inneholder kjerneiformasjon for tjenestene som er tilknyttet Kvipp og delvis DigiQuip. Det er et passivt register og vil bare i liten grad utføre operasjoner med unntak av enkle oppgaver som å generere PDFer og bilder, samt sende ut epostmeldinger. Det er tilgjenglig for test og produksjon på følgende adresser:
+Registeret inneholder kjerneinformasjon for tjenestene som er tilknyttet Kvipp og delvis DigiQuip. Det er et passivt register og vil bare i liten grad utføre operasjoner med unntak av enkle oppgaver som å generere PDFer og bilder, samt sende ut epostmeldinger. Det er tilgjenglig for test og produksjon på følgende adresser:
 * [For testing: https://test-registry.kvipp.io](https://test-registry.kvipp.io) ( [Swagger dokumentasjon på /docs](https://test-registry.kvipp.io/docs))
 * [Live: https://registry.kvipp.io](https://registry.kvipp.io) ( [Swagger dokumentasjon på /docs](https://registry.kvipp.io/docs))
 
 ## Autentisering
 
-Det benyttes nå "Basic Authentication" for endepunktene. Brukernavn og passord gis ut til parter med relevant behov. Ta kontakt med oss på support@digiquip.no.
+Det benyttes nå "OAuth 2.0 Authentication" for endepunktene. Nødvendig oppkoblings
+informasjon gis ut til parter med relevant behov. Ta kontakt med oss på support@digiquip.no.
 
 ## Krav om datakvalitet
 
