@@ -567,84 +567,93 @@
     "description": "The second argument of the work equipment banner"
   },
   "workequipment.systematized_documentation.title": {
-    "message": "Competence and documentation",
+    "message": "Full control with the Maintenance module",
     "description": "The title of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg1": {
-    "message": "In DigiQuip, you can systematize and gain an overview of competence, including courses and training. Our solutions facilitate equipment training on both owned and leased equipment, providing an overview of documented and certified competence.",
+    "message": "With the Maintenance module, you get full insight into the condition of your equipment fleet, both in the field and at the office.",
     "description": "The first argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg2": {
-    "message": "When equipment training is conducted, it is simultaneously documented. This way, you have an overview of who can and cannot use various work equipment.",
+    "message": "Hide.",
     "description": "The second argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.point1": {
-    "message": "Perform training practically or digitally",
+    "message": "Easily log maintenance through QR code with your mobile.",
     "description": "The first point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point2": {
-    "message": "Control who can provide training and approve training",
+    "message": "Link maintenance tasks to custom checklists.",
     "description": "The second point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point3": {
-    "message": "Dashboard and reports",
+    "message": "Generate reports and gain a complete overview of your machinery fleet",
     "description": "The third point of the systematized documentation section on the work equipment page"
   },
   "workequipment.machines_equipment.title1": {
-    "message": "Inspection of",
+    "message": "Important information –",
     "description": "The first title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.title2": {
-    "message": "machines and equipment",
+    "message": "always easily accessible.",
     "description": "The second title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg1": {
-    "message": "Keep track of the latest status and necessary inspections, ranging from annual to pre-use and maintenance inspections.",
+    "message": "With Trygg Maskin, operators quickly access everything they need for safe and efficient use via a QR code attached to the equipment",
     "description": "The first argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg2": {
-    "message": "For example, if a pre-use inspection of the work equipment is to be conducted, the worker will see this when they scan the QR code or other identifier on the equipment. The person will find the option to confirm or go through a relevant checklist while this is documented. As the machine owner, you can find all history and details for each individual piece of work equipment.",
+    "message": "Hide.",
     "description": "The second argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.point1": {
-    "message": "Expert, pre-use and maintenance inspections",
+    "message": "Easily perform pre-use inspections.",
     "description": "The first point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point2": {
-    "message": "Digital checklists for machines and equipment",
+    "message": "Access user manuals, instructional videos, and important documents.",
     "description": "The second point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point3": {
-    "message": "Dashboard with history and upcoming inspections",
+    "message": "View the status of expert controls to ensure everything is in order before use.",
     "description": "The third point of the machine equipment section on the work equipment page"
-  },
-"aboutus.banner.title1": {
-  "message":"How it started",
-  "description": "The title of banner section in the aboutus page"
 },
 "workequipment.machineinsights.title": {
-  "message":"en tittel om dashboards eller noe sånt",
-  "description": "insights title"
+  "message":"Streamlined Expert Control – ",
+  "description": "The first title of the machine Insights section in the work equipment page"
+},
+"workequipment.machineinsights.title2": {
+  "message":"always in order.",
+  "description": "The second title of the machine Insights section in the work equipment page"
 },
 "workequipment.machineinsights.arg1": {
-  "message":"noe tekst 1",
-  "description": "insightsarg1"
+  "message":"The expert control module makes it easy to perform both expert inspections and other controls for your equipment fleet.",
+  "description": "The first argument of the machine Insights section in the work equipment page"
 },
 "workequipment.machineinsights.arg2": {
-  "message":"noe tekst 2",
+  "message":"Hide",
   "description": "insightsarg2"
 },
 "workequipment.machineinsights.point1": {
-  "message":"heisann",
-  "description": "insightbulletpoint1"
+  "message":"Give inspectors access to start expert control through QR code on the equipment.",
+  "description": "The first point of the machine Insights section on the work equipment page"
 },
 "workequipment.machineinsights.point2": {
-  "message":"hei",
-  "description": "insightsbulletpoint3"
+  "message":"Document deviations with photos and descriptions.",
+  "description": "The second point of the machine Insights section on the work equipment page"
 },
 "workequipment.machineinsights.point3": {
-  "message":"hallo",
-  "description": "insightsbulletpoint3"
+  "message":"Keep track of inspection documents and inspection status, available to both inspectors and equipment users.",
+  "description": "he third point of the machine Insights section on the work equipment page"
+},
+"workequipment.machineinsights.point4": {
+  "message":"Easily follow-up and close deviations afterward.",
+  "description": "The fourth point of the machine Insights section on the work equipment page"
+},
+"aboutus.banner.title1": {
+  "message":"How it started",
+  "description": "The title of banner section in the aboutus page"
+
 },
 "aboutus.banner.title2": {
   "message":"Through years of building a rental business, Lars saw a clear need to improve safety for customers.",
