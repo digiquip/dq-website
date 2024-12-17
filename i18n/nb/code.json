@@ -527,61 +527,93 @@
   "description": "campaign point 3"
 },
   "workequipment.banner.title1": {
-    "message": "Med Trygg Maskin får du full kontroll på maskiner og utstyr",
+    "message": "Trygg Maskin – forenkler vedlikehold og sikrer trygg bruk",
     "description": "The first title of the work equipment page"
   },
   "workequipment.systematized_documentation.title": {
-    "message": "Kompetanse og dokumentasjon.",
+    "message": "Full kontroll med Vedlikeholds-modulen.",
     "description": "The title of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg1": {
-    "message": "I DigiQuip kan du systematisere og få oversikt over kompetanse, både kurs og opplæring. Våre løsninger legger til rette for utstyrsspesifikk opplæring på både eget og innleid utstyr, og gir oversikt over dokumentert og sertifisert kompetanse.",
+    "message": "Med tilleggsmodulen Vedlikehold får du full oversikt over maskinparkens tilstand, både i felt og på kontoret.",
     "description": "The first argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.arg2": {
-    "message": "Når utstyrsspesifikk opplæring gjennomføres blir det samtidig dokumentert. Dermed har du oversikt over hvem som kan/ikke kan bruke ulikt arbeidsutstyr.",
+    "message": "Skjult.",
     "description": "The second argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.point1": {
-    "message": "Gjennomfør opplæring praktisk eller digitalt",
+    "message": "Loggfør vedlikehold enkelt via QR-kode med mobilen.",
     "description": "The first point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point2": {
-    "message": "Styr hvem som kan gi opplæring og godkjenn opplæring",
+    "message": "Knytt opp vedlikeholdsoppdrag mot egendefinerte sjekklister",
     "description": "The second point of the systematized documentation section on the work equipment page"
   },
   "workequipment.systematized_documentation.point3": {
-    "message": "Dashboard og rapporter",
+    "message": "Generer rapporter og få en komplett oversikt over maskinparken",
     "description": "The third point of the systematized documentation section on the work equipment page"
   },
   "workequipment.machines_equipment.title1": {
-    "message": "Kontroll av",
+    "message": "Viktig informasjon – ",
     "description": "The first title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.title2": {
-    "message": "maskiner og utstyr.",
+    "message": "alltid lett tilgjengelig.",
     "description": "The second title of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg1": {
-    "message": "Med løsningen kan du holde oversikt over siste status og nødvendige kontroller, alt fra årlig, daglig og vedlikehold.",
+    "message": "Med Trygg Maskin får maskinbrukeren rask tilgang til alt som trengs for trygg og effektiv bruk via en QR-kode festet på maskinen.",
     "description": "The first argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.arg2": {
-    "message": "Bruk relevante sjekklister for å gjennomføre ulike kontroller. Som maskineier kan du finne all historikk og detaljer på hvert enkelt arbeidsutstyr.",
+    "message": "Skjult.",
     "description": "The second argument of the machine equipment section in the work equipment page"
   },
   "workequipment.machines_equipment.point1": {
-    "message": "Sakkyndig, daglig og vedlikeholdskontroll",
+    "message": "Utfør daglige kontroller enkelt.",
     "description": "The first point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point2": {
-    "message": "Digitale sjekklister for maskiner og utstyr",
+    "message": "Få tilgang til brukermanualer, instruksjonsvideoer og viktige dokumenter",
     "description": "The second point of the machine equipment section on the work equipment page"
   },
   "workequipment.machines_equipment.point3": {
-    "message": "Dashboard med historikk og kommende kontroller",
+    "message": "Se status for periodiske kontroller for å sikre at alt er i orden før bruk.",
     "description": "The third point of the machine equipment section on the work equipment page"
   },
+  "workequipment.machineinsights.title": {
+  "message":"Effektiv periodisk kontroll – alltid i ",
+  "description": "The first title of the machine Insights section in the work equipment page"
+},
+"workequipment.machineinsights.title2": {
+"message":"system",
+"description": "The second title of the machine Insights section in the work equipment page"
+},
+"workequipment.machineinsights.arg1": {
+  "message":"Tilleggsmodulen Periodisk kontroll gjør det enkelt å utføre både sakkyndig kontroll og andre inspeksjoner for maskinparken din.",
+  "description": "The first argument of the machine Insights section in the work equipment page"
+},
+"workequipment.machineinsights.arg2": {
+  "message":"Skjult",
+  "description": "insightsarg2"
+},
+"workequipment.machineinsights.point1": {
+  "message":"Gi kontrollører tilgang til å starte inspeksjoner via QR-kode på maskinen.",
+  "description": "The first point of the machine Insights section on the work equipment page"
+},
+"workequipment.machineinsights.point2": {
+  "message":"Dokumenter avvik med bilder og beskrivelser.",
+  "description": "The second point of the machine Insights section on the work equipment page"
+},
+"workequipment.machineinsights.point3": {
+  "message":"Hold oversikt over kontrolldokumenter og kontrollstatus, tilgjengelig for både kontrollører og maskinbrukere.",
+  "description": "The third point of the machine Insights section on the work equipment page"
+},
+"workequipment.machineinsights.point4": {
+  "message":"Følg enkelt opp og lukk avvik i etterkant.",
+  "description": "The fourth point of the machine Insights section on the work equipment page"
+},
 "aboutus.banner.title1": {
   "message":"Slik startet det",
   "description": "The title of banner section in the aboutus page"

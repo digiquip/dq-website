@@ -1008,7 +1008,8 @@ background-color: #fff;
    background-color: #fff;
  }
 
-.kvipp-getstarted-section {
+.kvipp-getstarted-section, 
+.machineinsights-section {
   background-color: #F6F6F6;
 }
 

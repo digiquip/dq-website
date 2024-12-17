@@ -26,7 +26,12 @@ function MachinesEquipment(props) {
     <CompetenceGrid record={data} />
   );
 }
-
+function MachineInsights(props) {
+  const data = props.items;
+  return (
+    <CompetenceGrid record={data} />
+  );
+}
 function CompetenceContactus() {
   return (
 <ContactUs/>
@@ -39,12 +44,14 @@ export default function Workequipment() {
   const [workEquipment , setWorkEquipmentContent] = useState({})
   const [documentation , setDocumentationContent] = useState({})
   const [machines , setMachinesContent] = useState({})
+  const [machineinsights, setMachineInsightsContent] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setWorkEquipmentContent(workequipmentRecords.workEquipmentBannerData);
         setMachinesContent(workequipmentRecords.machinesEquipmentData);
         setDocumentationContent(workequipmentRecords.systematizedDocumentationData);
+        setMachineInsightsContent(workequipmentRecords.machineinsightsData);
       }
   
     return () => { 
@@ -58,6 +65,7 @@ export default function Workequipment() {
         {workEquipment && <WorkeQuipmentBanner items={workEquipment} />}
         {machines &&  <MachinesEquipment items={machines} />}
         {documentation && <SystematizedDocumentation items={documentation}/>}
+        {machineinsights && <MachineInsights items={machineinsights}/>}
         <CompetenceContactus />
     </MainLayout> 
   );
