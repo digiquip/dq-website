@@ -622,6 +622,30 @@
   "message":"How it started",
   "description": "The title of banner section in the aboutus page"
 },
+"workequipment.machineinsights.title": {
+  "message":"en tittel om dashboards eller noe sånt",
+  "description": "insights title"
+},
+"workequipment.machineinsights.arg1": {
+  "message":"noe tekst 1",
+  "description": "insightsarg1"
+},
+"workequipment.machineinsights.arg2": {
+  "message":"noe tekst 2",
+  "description": "insightsarg2"
+},
+"workequipment.machineinsights.point1": {
+  "message":"heisann",
+  "description": "insightbulletpoint1"
+},
+"workequipment.machineinsights.point2": {
+  "message":"hei",
+  "description": "insightsbulletpoint3"
+},
+"workequipment.machineinsights.point3": {
+  "message":"hallo",
+  "description": "insightsbulletpoint3"
+},
 "aboutus.banner.title2": {
   "message":"Through years of building a rental business, Lars saw a clear need to improve safety for customers.",
   "description": "The second title of banner section in the aboutus page"
