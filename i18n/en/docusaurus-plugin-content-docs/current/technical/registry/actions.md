@@ -11,7 +11,7 @@ In the Registry database the concept of **actions** are things that can be perfo
 - Pre-use Inspection
 - Repair
 
-These *actions* can have possible documents associated with them. These documents can be of any type and can be linked to the action. The *action* and the *document* must be created in the Registry before linking the two together.
+These *actions* can have possible documents associated with them. These documents can be of any type and can be linked to the action. The *action* and the *document* must be created in the Registry before linking the two together, via an *action document*. The *action document* is simply a linking between the two object via a pivot table.
 
 In some cases the action can both contain data and metadata in for form of structured data. In the Registry they can be stored as JSON data. The data field is intended to contain the main content of the action, while the meta_data field is intended to contain any potential metadata. If you have data, and possibly metadata, in addtion to a document associated with the action it is encouraged to both post the structured data in the action itself and the document in the Registry. The data is stored as a field with the action and the document can be linked via Action Documents.
 
@@ -80,7 +80,7 @@ The fields that are available for the action document are the following:
 | Source System    | `source_system` | YES       | String indicating the name of the product or system where the information originated. The use of the product name is encouraged. |
 | Source Reference | `document_id`   | YES       | String containing the identifier in the source (external) system's database                                                      |
 
-The action document is created by performing a `POST /actions/{action_id}/documents` request to the Registry API. The regular CRUD operations are present for the action documents except for the GET operation. In order to see the action documents, these can be seen by either performing a `GET /actions/{action_id}` via the `action_documents` field or by performing a `GET /documents/{document_id}` request via the `action_documents` field.
+The action document is created by performing a `POST /actions/{action_id}/action_documents` request to the Registry API. The regular CRUD operations are present for the action documents except for the GET operation. In order to see the action documents, these can be seen by either performing a `GET /actions/{action_id}` via the `action_documents` field or by performing a `GET /documents/{document_id}` request via the `action_documents` field.
 
 
 ### Required steps before creating an Action Document
@@ -239,7 +239,7 @@ Let us assume that we got a response with containing the following `id` in the r
 
 ### Creating the Action Document
 
-The action document can be added to the registry by the `POST /actions/b7aca305-8c8c-41de-90a9-ee392b7645ce/documents` endpoint with the following JSON body:
+The action document can be added to the registry by the `POST /actions/b7aca305-8c8c-41de-90a9-ee392b7645ce/action_documents` endpoint with the following JSON body:
 
 ```JSON
 {
