@@ -49,7 +49,7 @@ const safeuseContent = {
             <p><Translate>home.safeuse.arg2</Translate></p>
         </>
     ),
-    link: "fullpakke",
+    link: "trygg-maskin",
 };
 
 const consolidateWorkContent = {
@@ -71,7 +71,7 @@ const consolidateWorkContent = {
             </ul>
         </>
     ),
-    link: "fullpakke",
+    link: "trygg-maskin",
 };
 
 const shareInfoContent = {
