@@ -1,11 +1,12 @@
-import clsx from 'clsx';
-import MainLayout from '../../components/MainLayout';
 import { useEffect, useState } from 'react';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import Translate from '@docusaurus/Translate';
-import SubscriptionPlan from '../../components/SubscriptionPlan';
+
 import ContactUs from '../../components/ContactUs';
+import MainLayout from '../../components/MainLayout';
+import SubscriptionPlan from '../../components/SubscriptionPlan';
+import TabItem from '@theme/TabItem';
+import Tabs from '@theme/Tabs';
+import Translate from '@docusaurus/Translate';
+import clsx from 'clsx';
 
 function AboutIntegrations() {
   return (
@@ -45,12 +46,24 @@ function AboutIntegrations() {
 
 
 function PricePageBanner() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <>
       <section className='homepage-banner'>
         <div className={clsx('hero-25 hero hero--primary heroBanner')}>
           <div className="container">
             <h1 className='section-title'>Priser<span className='orange'>.</span></h1>
+            <div className="elfsight-app-81cbe388-1724-4e56-b24d-e9cbcb69c3f4" data-elfsight-app-lazy />
             <div className="row">
               <SubscriptionPlan />
             </div>
