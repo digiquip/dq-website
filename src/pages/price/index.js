@@ -38,6 +38,7 @@ function AboutIntegrations() {
                 
               </div>
             </div>
+            <div class="elfsight-app-6030280a-de24-4c4c-bb05-b9a0c60cb56e" data-elfsight-app-lazy />
         </div>
       </div>
     </section>
