@@ -21,6 +21,13 @@ const brandList = [
       link: "https://www.hmd.as/",
     },
     {
+      Img: "img\partner-logos\af-logo.svg",
+      width: 120,
+      height: 30,
+      alt: "",
+      link: "https://www.afgruppen.no/",
+    },
+    {
       Img: "img/partner-logos/MIRA-logo.png",
       width: 120,
       height: 30,

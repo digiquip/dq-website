@@ -999,22 +999,20 @@ background-color: #fff;
    max-width: 39.25rem;
  }
  
- .kvipp-benefits-section,
- .bedriftbenefits-section,
- .bedrift-campaign-section,
+ .kvipp-getstarted-section,
+ .bedriftgroups-section,
  .competence-contactu-sec,
  .systematizedd-section,
  .library-content {
    background-color: #fff;
  }
 
-.kvipp-getstarted-section, 
+ .kvipp-benefits-section,
+.bedriftbenefits-section,
+.bedrift-equipment-section,
+.kvipp-situation-section,
 .machineinsights-section {
   background-color: #F6F6F6;
-}
-
-.kvipp-situation-section {
-  background-color: #fff;
 }
  
  .hero .hero-content {

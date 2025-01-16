@@ -487,60 +487,71 @@
     "description": "Kvipp section 3, point 3"
 },
 "bedrift.banner.title1": {
-    "message": "Kvipp Bedrift gives you full control over training with minimal effort",
-    "description": "Kvipp Bedrift title"
+  "message": "Kvipp Bedrift gives you full control over training with minimal effort",
+  "description": "Kvipp Business title"
 },
 "bedrift.benefits.title1": {
-    "message": "Kvipp Bedrift",
-    "description": "Kvipp Bedrift benefits"
+  "message": "With Kvipp Bedrift",
+  "description": "kvipp business benefits"
 },
 "bedrift.benefits.title2": {
-    "message": "launching in January 2025.",
-    "description": "part two Kvipp Bedrift benefits"
+  "message": "you gain an overview of training.",
+  "description": "part two kvipp business benefits"
 },
 "bedrift.benefits.arg1": {
-  "message": "For just NOK 1390 per month (ex. VAT), the organisation gains an overview of all equipment-specific training and documentation - always available and updated.",
-  "description": "bedrift benefits arg1"
-},
-"bedrift.benefits.arg2": {
-  "message": "We would like to invite organisations that need control over training documentation to a free 14-day trial period - completely without obligations. Sign up using the form.",
-  "description": "bedrift benefits arg2"
+  "message": "For just NOK 1390 per month (excl. VAT), the company gains an overview of all equipment-specific training and documentation - always available and up to date.",
+  "description": "business benefits arg1"
 },
 "bedrift.benefits.point1": {
-  "message": "Your employees are automatically and securely added to Kvipp bedrift via the Norwegian HMS card integration.",
-  "description": "bedrift benefits point 1"
+  "message": "Your employees are automatically and securely added to the solution via the HSE card integration",
+  "description": "business benefits point 1"
 },
 "bedrift.benefits.point2": {
-  "message": "Equipment and documentation are automatically included into the overview after training has been completed.",
-  "description": "bedrift benefits point 2"
+  "message": "Equipment and documentation are automatically added to the overview after training is completed",
+  "description": "business benefits point 2"
 },
 "bedrift.benefits.point3": {
-  "message": "Real-time overview and gap analysis. Stay informed about who has or lacks training.",
-  "description": "bedrift benefits point 3"
+  "message": "Overview and gap analyses in real time. Get a continuous overview of who has or lacks training",
+  "description": "business benefits point 3"
 },
-"bedrift.campaign.title": {
-  "message": "campaign",
-  "description": "campaign"
+"bedrift.groups.title1": {
+  "message": "What is the status of",
+  "description": "kvipp business groups"
 },
-"bedrift.campaign.arg1": {
-  "message": "campaign arg1",
-  "description": "campaign arg1"
+"bedrift.groups.title2": {
+  "message": "equipment-specific training in our company?",
+  "description": "part two kvipp groups benefits"
 },
-"bedrift.campaign.arg2": {
-  "message": "campaign arg2",
-  "description": "campaign arg2"
+"bedrift.groups.arg1": {
+  "message": "An overview of completed training is available in Kvipp Bedrift. If you use the HSE card, the person and training are automatically linked to the correct organisation.",
+  "description": "business groups arg1"
 },
-"bedrift.campaign.point1": {
-  "message": "campaign point 1",
-  "description": "campaign point 1"
+"bedrift.groups.point1": {
+  "message": "Check what training each person has",
+  "description": "business groups 1"
 },
-"bedrift.campaign.point2": {
-  "message": "campaign point 2",
-  "description": "campaign point 2"
+"bedrift.groups.point2": {
+  "message": "Check who can use which work equipment",
+  "description": "business groups 2"
 },
-"bedrift.campaign.point3": {
-  "message": "campaign point 45",
-  "description": "campaign point 3"
+"bedrift.groups.point3": {
+  "message": "Create groups with individuals and equipment, and gain an overview of status and progression. In the screenshot, you can see that individuals have training on half of the equipment in the group, and you will be able to drill down to more details.",
+  "description": "business groups 3"
+},
+"bedrift.equipment.title": {
+  "message": "Registration and labelling of equipment ensures better quality."
+},
+"bedrift.equipment.arg1": {
+  "message": "By investing a little time in registering your equipment, you can achieve both increased efficiency and better accuracy in the naming of the equipment for which training is provided. This ensures a more precise overview, documentation, and easier follow-up later."
+},
+"bedrift.equipment.arg2": {
+  "message": "Although artificial intelligence can be used to recognise equipment each time, there is still a possibility that the equipment may be misread or that employees become uncertain about what should be scanned."
+},
+"bedrift.equipment.arg3": {
+  "message": "If the equipment is difficult to recognise or may be confused with something else, we recommend that it is labelled with QR codes/tags. This way, you can ensure that the training is correctly recorded."
+},
+"bedrift.equipment.arg4": {
+  "message": "In Kvipp Business, you have the opportunity to register and label equipment directly from your mobile. Use QR codes or tags on the equipment to ensure accurate information."
 },
   "workequipment.banner.title1": {
     "message": "Get an overview of whether the equipment is safe to use",
