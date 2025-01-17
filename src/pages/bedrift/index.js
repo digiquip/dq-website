@@ -19,11 +19,17 @@ function BedriftBenefits(props) {
   );
 }
 
-// DRAFT 
-function BedriftCampaign(props) {
-  const bedriftcampaignContent = props.items;
+function BedriftGroups(props) {
+  const bedriftgroupsContent = props.items;
   return (
-    <CompetenceGrid record={bedriftcampaignContent} />
+    <CompetenceGrid record={bedriftgroupsContent} />
+  );
+}
+
+function BedriftEquipment(props) {
+  const bedriftequipmentContent = props.items;
+  return (
+    <CompetenceGrid record={bedriftequipmentContent} />
   );
 }
 
@@ -39,25 +45,29 @@ export default function Bedrift() {
 
   const [bedrift , setBedriftContent] = useState({})
   const [bedriftbenefits , setBedriftBenefits] = useState({})
-  const [bedriftcampaign , setBedriftCampaign] = useState({})
+  const [bedriftgroups , setBedriftGroups] = useState({})
+  const [bedriftequipment , setBedriftEquipment] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setBedriftContent(bedriftRecords.bedriftBannerData);
         setBedriftBenefits(bedriftRecords.bedriftbenefitsData);
-        // DRAFT setBedriftCampaign(bedriftRecords.bedriftcampaignData);
+        setBedriftGroups(bedriftRecords.bedriftgroupsData);
+        setBedriftEquipment(bedriftRecords.bedriftequipmentData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [bedrift, bedriftbenefits]);
+  }, [bedrift, bedriftbenefits, bedriftequipment, bedriftgroups]);
 
   return (
     <MainLayout>
       {bedrift && <BedriftBanner items={bedrift}/>}
       {bedriftbenefits && <BedriftBenefits items={bedriftbenefits}/>}
+      {bedriftgroups && <BedriftGroups items={bedriftgroups}/>}
+      {bedriftequipment && <BedriftEquipment items={bedriftequipment}/>}
       <CompetenceContactus />
     </MainLayout>
   );

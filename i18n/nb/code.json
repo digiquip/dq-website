@@ -475,20 +475,16 @@
   "description": "Kvipp Bedrift title"
 },
 "bedrift.benefits.title1": {
-  "message": "Kvipp Bedrift",
+  "message": "Med Kvipp Bedrift",
   "description": "kvipp bedrift benefits"
 },
 "bedrift.benefits.title2": {
-  "message": "lanseres i januar 2025.",
+  "message": "får du oversikt over opplæring.",
   "description": "part two kvipp bedrift benefits"
 },
 "bedrift.benefits.arg1": {
   "message": "For bare NOK 1390,- per måned (eks. mva) får bedriften oversikt over all utstyrsspesifikk opplæring og dokumentasjon - alltid tilgjengelig og oppdatert.",
   "description": "bedrift benefits arg1"
-},
-"bedrift.benefits.arg2": {
-  "message": "Allerede nå ønsker vi å invitere inn bedrifter som trenger kontroll på dokumentasjon av opplæring til en gratis 14 dagers prøveperiode - helt uten forpliktelser. Bruk skjema for å melde deg på.",
-  "description": "bedrift benefits arg2"
 },
 "bedrift.benefits.point1": {
   "message": "Dine ansatte legges automatisk, og sikkert, til i Kvipp Bedrift via HMS-kort integrasjonen",
@@ -502,29 +498,44 @@
   "message": "Oversikt og gapanalyser i realtid. Få løpende oversikt over hvem som har eller mangler opplæring",
   "description": "bedrift benefits point 3"
 },
-"bedrift.campaign.title": {
-  "message": "campaign",
-  "description": "campaign"
+"bedrift.groups.title1": {
+  "message": "Hva er status for",
+  "description": "kvipp bedrift groups"
 },
-"bedrift.campaign.arg1": {
-  "message": "campaign arg1",
-  "description": "campaign arg1"
+"bedrift.groups.title2": {
+  "message": "utstyrsspesifikk opplæring hos oss?",
+  "description": "part two kvipp groups benefits"
 },
-"bedrift.campaign.arg2": {
-  "message": "campaign arg2",
-  "description": "campaign arg2"
+"bedrift.groups.arg1": {
+  "message": "Oversikt over gjennomførte opplæringer er tilgjengelig i Kvipp Bedrift. Hvis dere bruker HMS-kort, blir person og opplæring automatisk lagt til riktig virksomhet.",
+  "description": "bedrift groups arg1"
 },
-"bedrift.campaign.point1": {
-  "message": "campaign point 1",
-  "description": "campaign point 1"
+"bedrift.groups.point1": {
+  "message": "Sjekk hva hver person har av opplæring",
+  "description": "bedrift groups 1"
 },
-"bedrift.campaign.point2": {
-  "message": "campaign point 2",
-  "description": "campaign point 2"
+"bedrift.groups.point2": {
+  "message": "Sjekk hvem som kan bruke hvilket arbeidsutstyr",
+  "description": "bedrift groups 2"
 },
-"bedrift.campaign.point3": {
-  "message": "campaign point 45",
-  "description": "campaign point 3"
+"bedrift.groups.point3": {
+  "message": "Lag grupper med personer og utstyr, og få oversikt over status og progresjon. I skjermbilde ser du at personene har opplæring på halvparten av utstyret i gruppen, og du vil kunne drille ned til flere detaljer",
+  "description": "bedrift groups 3"
+},
+"bedrift.equipment.title": {
+  "message": "Registrering og merking av utstyr gir bedre kvalitet."
+},
+"bedrift.equipment.arg1": {
+  "message": "Ved å investere litt tid i å registrere utstyret ditt, kan du oppnå både økt effektivitet og bedre nøyaktighet i navngivningen av utstyret som det gis opplæring på. Dette sikrer en mer presis oversikt, dokumentasjon og enklere oppfølging senere."
+},
+"bedrift.equipment.arg2": {
+  "message": "Selv om kunstig intelligens kan brukes for å kjenne igjen utstyr fra gang til gang, er det fortsatt en mulighet for at utstyret blir lest feil eller at de ansatte blir usikre på hva som skal skannes."
+},
+"bedrift.equipment.arg3": {
+  "message": "Dersom utstyret er vanskelig å kjenne igjen eller kan forveksles, er vår anbefaling er at det merkes med QR-koder/tags. På den måten kan du sikre at opplæringen blir korrekt registrert."
+},
+"bedrift.equipment.arg4": {
+  "message": "I Kvipp Bedrift har du mulighet til å registrere og merke opp utstyr direkte fra mobilen. Bruk QR-koder eller tags på utstyret for å sikre nøyaktig informasjon."
 },
   "workequipment.banner.title1": {
     "message": "Trygg Maskin – forenkler vedlikehold og sikrer trygg bruk",
@@ -543,8 +554,7 @@
     "description": "The second argument of the systematized documentation section in the work equipment page"
   },
   "workequipment.systematized_documentation.point1": {
-    "message": "Loggfør vedlikehold enkelt via QR-kode med mobilen.",
-    "description": "The first point of the systematized documentation section on the work equipment page"
+    "message": "Loggfør vedlikehold enkelt via QR-kode med mobilen."
   },
   "workequipment.systematized_documentation.point2": {
     "message": "Knytt opp vedlikeholdsoppdrag mot egendefinerte sjekklister",
