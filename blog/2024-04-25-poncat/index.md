@@ -16,7 +16,7 @@ Dette partnerskapet vil direkte integrere DigiQuips innovative digitale opplæri
 
 **Revolusjonerende tilgang til opplæring og sikkerhetskontroller**
 Ved å skanne Maskinsregisterets QR-kode på maskinen, vil brukere enkelt finne DigiQuips system for å gjennomføre utstyrsspesifikk opplæring for nettopp den maskinen de arbeider med. I tillegg vil DigiQuip tilby muligheter for å verifisere sertifisert opplæring og utføre daglige sikkerhetskontroller. "Vi i Pon Cat kan maskinene vi selger, og den kunnskapen ønsker vi å dele digitalt med våre kunder. DigiQuip’s initiativ for å tilrettelegge for trygg bruk av maskiner passer godt inn i vår filosofi, for trygghet er noe av det viktigste vi kan gi våre kunder," sier Ole Petter Holene, administrerende direktør i Pon Cat.
- 
+
 **Forbedret sikkerhet og effektivitet for maskinførere**
 Denne tjenesten representerer et signifikant fremskritt i måten Pon Cat fremmer både læring og sikkerhet på arbeidsplassen. "Vårt mål er å gjøre opplæring mer tilgjengelig og relevant for våre kunder, og dermed øke både effektivitet og sikkerhet," legger Holene til.
  
