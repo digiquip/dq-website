@@ -42,7 +42,7 @@ import kontrollside from '/img/resources-FAQ/kontrollside.png';
 <img src={kontrollside} style={{width:800}} />
 
 
-- Opprett [sjekkliste](/docs/resources/checklists#opprett-sjekkliste-for-sakkynig-kontroll) for sakkyndig kontroll og knytt sjekkliste til en eller flere [modeller](/docs/resources/checklists#knytt-sjekkliste-til-arbeidsutstyr)
+- Opprett [sjekkliste](/docs/DigiQuip/checklists#opprett-sjekkliste-for-sakkynig-kontroll) for sakkyndig kontroll og knytt sjekkliste til en eller flere [modeller](/docs/DigiQuip/checklists#knytt-sjekkliste-til-arbeidsutstyr)
 
 
 ## Logg

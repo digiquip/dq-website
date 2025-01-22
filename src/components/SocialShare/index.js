@@ -28,12 +28,12 @@ export default function SocialShare({ props }) {
          </a>
 
 
-         <a href={'https://www.linkedin.com/shareArticle?mini=true&amp;url=' + `${shareUrl}` + '&amp;title=' + `${title}`} 
-              target="_blank"
-              title="Share on LinkedIn"
-              rel="noopener nofollow">
-              <BrandLogo Img={linkedinIcon} width={''} height={''} alt={''} />
-          </a>
+         <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(title)}`}
+        target="_blank"
+        title="Share on LinkedIn"
+        rel="noopener noreferrer nofollow">
+        <BrandLogo Img={linkedinIcon} width={''} height={''} alt={''} />
+        </a>
           
            
 

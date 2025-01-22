@@ -1,27 +1,31 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 ---
 # Arbeidsutstyr
 ## Identifisering av maskiner og utstyr
-Ta frem telefonen og gå til kvipp.it
 
-**Kunstig intelligens og maskinlæring** lar deg ta bilde av utstyret for å gjenkjenne det. Da er strategien at du må finne noe på utstyret som viser type og modell. Det kan være:
-+ Serienummerplate
-+ Merke eller logo
-+ QR-koder. Hvis det er en QR-kode i bildet, er løsning såpass avansert at den også leser den.
+**Kunstig intelligens og maskinlæring** gjør det mulig å gjenkjenne utstyr ved hjelp av bilder. For at systemet skal kunne identifisere utstyret korrekt, er det viktig å finne spesifikke kjennetegn som viser hvilken type og modell det er. Du bør se etter følgende elementer:
 
-En hack dersom du ikke finner noe å skanne, er å skrive ned type og modell på et ark og la løsningen lese den.
++ Serienummerplate: Denne platen inneholder ofte viktig informasjon om utstyret.
++ Merke eller logo: Merkene kan bidra til rask identifisering av merke og modell.
++ QR-koder: Hvis utstyret har en QR-kode, kan systemet lese denne automatisk, noe som gjør prosessen enda enklere. **Skann en QR-kode** fra DigiQuip, Reginn, Kvipp eller BRAREG, og informasjonen vil bli tolket.
 
-**Skann en QR-kode** fra DigiQuip, Reginn, Kvipp eller BRAREG, og informasjonen vil bli tolket.
+[Test selv her](https://kvipp.it)
 
 ## Merk opp arbeidsutstyr (anbefales)
-Selv om løsningen benytter gode bibliotek for kunstig intelligens og maskinlæring, er det alltid en risiko for at feil informasjon blir lest av og lagt inn. Dersom en person skanner en maskin og ikke legger merke til at det er f.eks. feil type, så vil også maskinen bli registrert feil. Dette gir følgefeil for senere hvor også gjennomført opplæring kan bli dokumentert uriktig. Derfor for best mulig nøyaktighet, anbefaler vi at dere setter på merker.
+Med Kvipp Bedrift kan dere også merke opp utstyr med QR-koder. Med QR-koder kan du gjøre det enklere for ansatte å sjekke status på sin opplæring og dokumentasjon.
 
-Koble til en QR-kode:
-Under "tillatelser" i Kvipp Bedrift definerer dere hvem som skal kunne koble til en QR-kode. Denne rollen heter "utstyrseier". 
+Selv om løsningen benytter avanserte biblioteker for kunstig intelligens og maskinlæring, er det viktig å være klar over at det alltid kan oppstå risiko for feilregistrering av informasjon. For eksempel, hvis en person skanner en maskin og overser at at det er feil type, vil dette føre til at maskinen blir registrert feil. Konsekvensene av dette kan bli betydelige, spesielt fordi det kan påvirke dokumentasjonen av opplæring og andre prosesser i ettertid.
 
+**Koble til en QR-kode:**
+Under "tillatelser" i Kvipp Bedrift definerer dere hvem som skal kunne koble til en QR-kode. Denne rollen heter "utstyrseier".
+
+Deretter kan utstyret merkes opp, og dette gjør dere best i felt:
 + Ta et bilde av utstyret
 + Velg "koble QR-kode"
 + Ferdig!
 
-QR-koder kan dere bestille av oss. Se her: digiquip.no/docs/prices/detailed-price-list
+QR-koder kan dere bestille av oss. [Klikk her for mer informasjon](https://digiquip.no/docs/prices/detailed-price-list)
+
+## Hvordan får jeg opp utstyr i Kvipp Bedrift?
+Utstyr legges automatisk til etter hvert som opplæring blir registrert.

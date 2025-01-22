@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import ContactUs from '../../components/ContactUs';
 import MainLayout from '../../components/MainLayout';
-import SubscriptionPlan from '../../components/SubscriptionPlan';
 import TabItem from '@theme/TabItem';
 import Tabs from '@theme/Tabs';
 import Translate from '@docusaurus/Translate';
