@@ -83,8 +83,6 @@ import radio from '/img/pre-use-inspection-checklists/radio.png';
 
 <img src={radio} style={{width:250}} />
 
-
-
 ### Finn logg over utførte inspeksjoner
 Detaljene finner du loggført på det enkelte arbeidsutstyr under fanen "daglig kontroll" eller "vedlikehold". Sjekk om maskinen er kontrollert og se detaljer om siste inspeksjon.
 
@@ -92,10 +90,10 @@ import checklistlog from '/img/pre-use-inspection-checklists/checklistlog.png';
 
 <img src={checklistlog} style={{width:800}} />
 
+### Opprett sjekkliste for sakkyndig kontroll
 
-### Opprett sjekkliste for sakkynig kontroll
-
-Gå til menyen "Innstillinger > Sjekklister > Legg til".                                                                                 Velg deretter kategori "**sakkyndig kontroll**" som type sjekkliste.
+Gå til menyen "Innstillinger > Sjekklister > Legg til".                                                                                 
+Velg deretter kategori "**sakkyndig kontroll**" som type sjekkliste.
 * Navnet du gir sjekklisten her, vil bli brukt som tittel på kontrollrapporten som genereres etter at kontrollen er utført. 
 Det er derfor viktig å velge et beskrivende navn.
 
@@ -107,7 +105,7 @@ import leggtilsjekkliste from '/img/resources-FAQ/leggtilsjekkliste.png';
 * Velg "**periodisk kontroll**" som mal.
 * Legg til undertitler for hver side.
 * Legg til sjekkpunkter.   
-* Del opp i sider basert på utstyrsdeler eller kategorier. Eksempler på sider kan være: ***"Dokumenter/Merking" (for dokumentasjon og merkingskontroll) "Kurv/Plattform" (for kontroll av plattform eller kurv)*** osv.        
+* Del opp i sider basert på utstyrsdeler eller kategorier. Eksempler på sider kan være: ***"Dokumenter/Merking" (for dokumentasjon og merkingskontroll) "Kurv/Plattform" (for kontroll av plattform eller kurv)*** osv.
 
 import malperiodiskkontroll from '/img/resources-FAQ/malperiodiskkontroll.png'; 
 
@@ -121,9 +119,7 @@ import testskjema from '/img/resources-FAQ/testskjema.png';
 
  <img src={testskjema} style={{width:400}} />
 
-* Når sjekklisten er klar, kan den nå kobles til [modell](/docs/resources/checklists#knytt-sjekkliste-til-arbeidsutstyr)
-
-
+* Når sjekklisten er klar, kan den nå kobles til [modell](/docs/DigiQuip/checklists#knytt-sjekkliste-til-arbeidsutstyr)
 
 # Lykke til!
 

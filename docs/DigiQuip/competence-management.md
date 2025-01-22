@@ -44,7 +44,7 @@ import competencereport from '/img/resources-FAQ/competencereport.png';
 
 ## Gjennomføring av utstyrsspesifikk opplæring
 
-Dersom det viser seg at ansatte mangler nødvendig opplæring, kan opplæring gjennomføres digitalt eller praktisk. Eventuelt kan tidligere dokumentasjon lastes opp. Bedriften styrer selv hvem som kan gi opplæring. Les mer om opplæring [her](https://digiquip.no/docs/resources/training).
+Dersom det viser seg at ansatte mangler nødvendig opplæring, kan opplæring gjennomføres digitalt eller praktisk. Eventuelt kan tidligere dokumentasjon lastes opp. Bedriften styrer selv hvem som kan gi opplæring.
 
 ## Godkjenning
 
