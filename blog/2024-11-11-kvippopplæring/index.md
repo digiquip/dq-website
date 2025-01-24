@@ -55,3 +55,5 @@ Test selv: https://kvipp.it/
 Først har vi løst behovet for opplæring i felt. Vi kommer fremover til å jobbe mer med å gjøre det enkelt også på kontoret, f.eks. få oversikt over hvem som kan/ikke kan hva. Og andre behov.
 
 ![Bilde](tommelopp.png)
+
+<div class="elfsight-app-3bee04e9-6a3d-4095-8b12-161ea93d6953" data-elfsight-app-lazy></div>
