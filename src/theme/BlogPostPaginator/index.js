@@ -9,7 +9,9 @@ export default function BlogPostPaginatorWrapper(props) {
   const {metadata, isBlogPostPage} = useBlogPost();
   return (
 
-    <>  <SocialShare props={metadata} />
+    <>
+    <div className="elfsight-app-40f7f869-862f-4fca-8b20-4dc354b7dc2a" data-elfsight-app-lazy></div>
+    <SocialShare props={metadata} />
     <nav
       className="pagination-nav docusaurus-mt-lg blog-post-center"
       aria-label={translate({

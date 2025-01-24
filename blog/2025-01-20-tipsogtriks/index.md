@@ -56,3 +56,5 @@ Spørsmål? Ta kontakt og så hjelper vi dere i gang!
 
 **Test selv da vel! For moro skyld, ser du her en QR-kode for en tommestokk:**
 ![Bilde](tommestokk.jpg)
+
+<div class="elfsight-app-6030280a-de24-4c4c-bb05-b9a0c60cb56e" data-elfsight-app-lazy></div>
