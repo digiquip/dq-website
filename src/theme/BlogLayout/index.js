@@ -15,6 +15,16 @@ export default function BlogLayoutWrapper(props) {
   const { sidebar, toc, children, ...layoutProps } = props;
   const hasSidebar = sidebar && sidebar?.items?.length > 0;
 
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   useEffect(() => {
     let ignore = false;
@@ -114,6 +124,13 @@ export default function BlogLayoutWrapper(props) {
                 {children}
               </main>
             </div>
+            {/\/blog\/?$/.test(location.pathname) && 
+              <div
+                className="elfsight-app-ffc7fb08-4ac1-4121-8929-9cb66e965724"
+                data-elfsight-app-lazy
+                style={{ margin: '20px 0' }}
+              ></div>
+            }
           </div>
         </section>
       </Layout>

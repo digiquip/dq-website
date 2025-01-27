@@ -158,3 +158,5 @@ I Kvipp Bedrift oppdateres all opplæring i sanntid. Som leder kan du enkelt fin
     <div>**Merking av utstyr.** For å bruke Kvipp trenger dere ikke å merke opp noe utstyr, men det kan fungere som gode påminnelser.</div>
   </div>
 </details>
+
+<div className="elfsight-app-3bee04e9-6a3d-4095-8b12-161ea93d6953" data-elfsight-app-lazy style={{marginTop: "30px"}}></div>
