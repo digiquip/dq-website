@@ -56,4 +56,4 @@ Først har vi løst behovet for opplæring i felt. Vi kommer fremover til å job
 
 ![Bilde](tommelopp.png)
 
-<div class="elfsight-app-3bee04e9-6a3d-4095-8b12-161ea93d6953" data-elfsight-app-lazy></div>
+<div className="elfsight-app-3bee04e9-6a3d-4095-8b12-161ea93d6953" data-elfsight-app-lazy></div>
