@@ -4,10 +4,46 @@
         <title>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</title>
         <link>https://digiquip.no/en/blog</link>
         <description>DigiQuip - Utstyrsspesifikk opplæring og kompetansedokumentasjon Blog</description>
-        <lastBuildDate>Thu, 30 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Tid og penger å spare på administrasjon?]]></title>
+            <link>https://digiquip.no/en/blog/spart-tid-opplæring</link>
+            <guid>https://digiquip.no/en/blog/spart-tid-opplæring</guid>
+            <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kvipp er et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort - når som helst og alltid tilgjengelig. Med Kvipp trenger du ikke gjøre noe forarbeid eller etterarbeid, som betyr at du kan spare mye tid sammenlignet med penn og papir samt f.eks. andre løsninger der brukere må legges til og registreres for å komme i gang. Og aller viktigst, du kan starte når som helst!]]></description>
+            <content:encoded><![CDATA[<p>Kvipp er et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort - når som helst og alltid tilgjengelig. Med Kvipp trenger du ikke gjøre noe forarbeid eller etterarbeid, som betyr at du kan spare mye tid sammenlignet med penn og papir samt f.eks. andre løsninger der brukere må legges til og registreres for å komme i gang. Og aller viktigst, du kan starte når som helst!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bransjen-har-et-behov-for-å-gjøre-utstyrsspesifikk-opplæring-raskt-og-enkelt">Bransjen har et behov for å gjøre utstyrsspesifikk opplæring raskt og enkelt<a href="https://digiquip.no/en/blog/spart-tid-oppl%C3%A6ring#bransjen-har-et-behov-for-%C3%A5-gj%C3%B8re-utstyrsspesifikk-oppl%C3%A6ring-raskt-og-enkelt" class="hash-link" aria-label="Direct link to Bransjen har et behov for å gjøre utstyrsspesifikk opplæring raskt og enkelt" title="Direct link to Bransjen har et behov for å gjøre utstyrsspesifikk opplæring raskt og enkelt">​</a></h2>
+<p>Med Kvipp er det eneste du trenger for å gjennomføre og dokumentere utstyrsspesifikk opplæring (også kalt typeopplæring) mobil og ID-kort (vi anbefaler HMS-kort). Dere kan starte med Kvipp når som helst, og siden Kvipp digitaliserer opplæringsprosessen, er det interessant å tenke gjennom hvor mye tid brukt på administrasjon som kan frigjøres til andre ting.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hvordan-kan-du-spare-tid-med-kvipp">Hvordan kan du spare tid med Kvipp?<a href="https://digiquip.no/en/blog/spart-tid-oppl%C3%A6ring#hvordan-kan-du-spare-tid-med-kvipp" class="hash-link" aria-label="Direct link to Hvordan kan du spare tid med Kvipp?" title="Direct link to Hvordan kan du spare tid med Kvipp?">​</a></h2>
+<p><strong>1.Kan brukes uten forberedelser.</strong>
+For å sjekke, få eller gi opplæring i Kvipp, trenger dere <em>ikke</em> å opprette brukere i forkant. Det betyr at dere eliminerer tid brukt på å legge til brukere og eventuelt styr med innlogging. Det eneste deltakerne trenger å gjøre er å skanne HMS-kort, førerkort eller annen ID. Å registrere, gi eller få opplæring er altså tilgjengelig med kun noen få tastetrykk fra nettsiden kvipp.it <a href="https://kvipp.it/" target="_blank" rel="noopener noreferrer">(Klikk her for å komme til Kvipp)</a></p>
+<p>Kvipp gjør det også superenkelt å sjekke om noen har nødvendig utstyrsspesifikk opplæring. Dersom du skal ta en runde på byggeplassen, tar du med mobilen, går til nettsiden kvipp.it og ber om å få skanne HMS-kort og utstyr. Da får du svar på om opplæring er dokumentert.</p>
+<p><strong>2.Ikke noe etterarbeid.</strong>
+Når opplæringen skjer, blir opplæringen samtidig dokumentert. Dersom dere bruker HMS-kort, blir også opplæringen lagt til riktig virksomhet med en gang. Den som har fått opplæring kan enten laste ned opplæringsbevis eller sende det på e-post. Dersom bedriften ønsker oversikt over all opplæring (Kvipp Bedrift), oppdateres alle oversikter i sanntid.</p>
+<p><strong>3.Ingen manuell arkivering.</strong>
+All opplæring blir automatisk lagret og arkivert digitalt samtidig som opplæringen skjer. Når arkiveringsarbeidet er automatisert, minimerer dere tid brukt til å skrive ut, sende, arkivere, finne frem og så videre, og ikke minst reduserer dette sannsynligheten for at dokumentasjonen blir borte.</p>
+<p>Slik kan du sikre effektivitet og produktivitet på arbeidsplassen fremfor administrasjon.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hvordan-er-det-mulig-å-fjerne-før--og-etterarbeid">Hvordan er det mulig å fjerne før- og etterarbeid?<a href="https://digiquip.no/en/blog/spart-tid-oppl%C3%A6ring#hvordan-er-det-mulig-%C3%A5-fjerne-f%C3%B8r--og-etterarbeid" class="hash-link" aria-label="Direct link to Hvordan er det mulig å fjerne før- og etterarbeid?" title="Direct link to Hvordan er det mulig å fjerne før- og etterarbeid?">​</a></h2>
+<p>Fordi Kvipp benytter seg av kunstig intelligens og Arbeidstilsynets HMS-kort API, kan du ta bilde av utstyr og ID-kort og sette i gang med opplæring når som helst.</p>
+<p>Vi bruker flere etablerte bibliotek for kunstig intelligens og maskinlæring slik at du kan ta bilde av et utstyr og få det gjenkjent. Det samme gjelder førerkort og pass.</p>
+<p>Med HMS-kort API-et får vi til enhver tid siste oppdaterte informasjon om fornavn, etternavn, fødselsdato og virksomhet. Det betyr at det er mulig å koble opplæringen direkte til riktig virksomhet.</p>
+<p>Dermed kan du digitalisere opplæringsprosessen - slik at prosessen blir bedre og enklere for alle.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kvipp-i-felt-og-kvipp-bedrift-på-kontoret">Kvipp i felt og Kvipp Bedrift på kontoret<a href="https://digiquip.no/en/blog/spart-tid-oppl%C3%A6ring#kvipp-i-felt-og-kvipp-bedrift-p%C3%A5-kontoret" class="hash-link" aria-label="Direct link to Kvipp i felt og Kvipp Bedrift på kontoret" title="Direct link to Kvipp i felt og Kvipp Bedrift på kontoret">​</a></h3>
+<p>Mange lurer på...Hva er gratis og hva koster penger?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hva-får-jeg-med-kvipp">Hva får jeg med Kvipp?<a href="https://digiquip.no/en/blog/spart-tid-oppl%C3%A6ring#hva-f%C3%A5r-jeg-med-kvipp" class="hash-link" aria-label="Direct link to Hva får jeg med Kvipp?" title="Direct link to Hva får jeg med Kvipp?">​</a></h2>
+<p>Kvipp er gratis. Kvipp er løsningen du finner på nettsiden kvipp.it Hvem som helst kan bruke Kvipp, det eneste dere trenger å gjøre er å gå til nettsiden og sette i gang.</p>
+<p>I Kvipp kan du se, dokumentere, gjennomføre (få eller gi) og laste ned opplæringsbevis (PDF).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hva-får-jeg-med-kvipp-bedrift">Hva får jeg med Kvipp Bedrift?<a href="https://digiquip.no/en/blog/spart-tid-oppl%C3%A6ring#hva-f%C3%A5r-jeg-med-kvipp-bedrift" class="hash-link" aria-label="Direct link to Hva får jeg med Kvipp Bedrift?" title="Direct link to Hva får jeg med Kvipp Bedrift?">​</a></h2>
+<p>Kvipp Bedrift koster fra 1390 kroner per måned (eks mva). Kvipp Bedrift er laget for å få oversikt over alle ansatte og gjøre gapanalyser. Med funksjonaliteten "grupper" får dere oversikt over hvem som kan hva, og bruksområdene er flere. Legg til personer og utstyr for å se status og progresjon, f.eks. halvparten har opplæring på utstyret som finnes i gruppen.</p>
+<p>Med Kvipp Bedrift kan dere også sette på QR-koder på utstyr. Med merker på utstyret kan det være enklere å huske og det reduserer sannsynligheten for duplikater.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sjekk-selv-hvor-mye-tid-du-kan-spare-med-kvipp">Sjekk selv hvor mye tid du kan spare med Kvipp<a href="https://digiquip.no/en/blog/spart-tid-oppl%C3%A6ring#sjekk-selv-hvor-mye-tid-du-kan-spare-med-kvipp" class="hash-link" aria-label="Direct link to Sjekk selv hvor mye tid du kan spare med Kvipp" title="Direct link to Sjekk selv hvor mye tid du kan spare med Kvipp">​</a></h2>
+<p>Her kan du gjøre et grovt estimat på hvor mye tid du kan spare på digital gjennomføring og dokumentasjon av utstyrsspesifikk opplæring.</p>
+<div class="elfsight-app-6030280a-de24-4c4c-bb05-b9a0c60cb56e" data-elfsight-app-lazy="true"></div>]]></content:encoded>
+            <category>opplæring</category>
+        </item>
         <item>
             <title><![CDATA[Kontroll på opplæring]]></title>
             <link>https://digiquip.no/en/blog/forskrift-om-utførelse-av-arbeid-10-4</link>
