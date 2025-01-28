@@ -3,14 +3,14 @@ slug: spart-tid-opplæring
 title: Tid og penger å spare på administrasjon?
 tags: [opplæring]
 authors: [cathrine]
-image: img/startpage.png
+image: img/calculator.png
 ---
-Kvipp er et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort - når som helst og alltid tilgjengelig. Med Kvipp trenger du ikke gjøre noe forarbeid eller etterarbeid, som betyr at du kan spare mye tid sammenlignet med penn og papir samt f.eks. andre løsninger der brukere må legges til og registreres for å komme i gang. Og aller viktigst, du kan starte når som helst!
+Kvipp er et superenkelt verktøy som lar deg dokumentere opplæring i felt med mobilen og HMS-kort - når som helst og alltid tilgjengelig. Med Kvipp trenger du ikke gjøre noe forarbeid eller etterarbeid.
 <!-- truncate -->
 
 ## Bransjen har et behov for å gjøre utstyrsspesifikk opplæring raskt og enkelt
 
-Med Kvipp er det eneste du trenger for å gjennomføre og dokumentere utstyrsspesifikk opplæring (også kalt typeopplæring) mobil og ID-kort (vi anbefaler HMS-kort). Dere kan starte med Kvipp når som helst, og siden Kvipp digitaliserer opplæringsprosessen, er det interessant å tenke gjennom hvor mye tid brukt på administrasjon som kan frigjøres til andre ting.
+Med Kvipp er det eneste du trenger for å gjennomføre og dokumentere utstyrsspesifikk opplæring (også kalt typeopplæring) mobil og ID-kort (vi anbefaler HMS-kort). Dere kan starte med Kvipp når som helst, og siden Kvipp digitaliserer opplæringsprosessen, er det interessant å tenke gjennom hvor mye tid brukt på administrasjon som kan frigjøres til andre ting. Og aller viktigst, du kan starte når som helst!
 
 ## Hvordan kan du spare tid med Kvipp?
 
