@@ -3,7 +3,7 @@ slug: tips-og-triks
 title: Jobb smartere med utstyrsspesifikk opplæring
 tags: [opplæring]
 authors: [cathrine]
-image: img/skanner-serieplate.jpg
+image: img/SKANNER-SERIEPLATE.jpg
 ---
 Tips til deg som har ansvar for utstyrsspesifikk opplæring - og kudos til deg for at du setter opplæring på agendaen.
 <!-- truncate -->
