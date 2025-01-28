@@ -27,6 +27,16 @@ All opplæring blir automatisk lagret og arkivert digitalt samtidig som opplæri
 
 Slik kan du sikre effektivitet og produktivitet på arbeidsplassen fremfor administrasjon.
 
+## Hvordan er det mulig å fjerne før- og etterarbeid?
+
+Fordi Kvipp benytter seg av kunstig intelligens og Arbeidstilsynets HMS-kort API, kan du ta bilde av utstyr og ID-kort og sette i gang med opplæring når som helst.
+
+Vi bruker flere etablerte bibliotek for kunstig intelligens og maskinlæring slik at du kan ta bilde av et utstyr og få det gjenkjent. Det samme gjelder førerkort og pass. 
+
+Med HMS-kort API-et får vi til enhver tid siste oppdaterte informasjon om fornavn, etternavn, fødselsdato og virksomhet. Det betyr at det er mulig å koble opplæringen direkte til riktig virksomhet.
+
+Dermed kan du digitalisere opplæringsprosessen - slik at prosessen blir bedre og enklere for alle.
+
 ### Kvipp i felt og Kvipp Bedrift på kontoret
 Mange lurer på...Hva er gratis og hva koster penger?
 
