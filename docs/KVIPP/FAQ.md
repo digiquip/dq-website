@@ -32,7 +32,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Kan jeg sette på merker selv?</summary>
   <div>
-    <div>Ja. I Kvipp Bedrift er det funksjonalitet for å gi tilgang til å sette på merker og gjøres enkelt ute i felt. [Les mer om merking av utstyr her](/docs/Kvipp/equipment)</div>
+    <div>Ja. I Kvipp Bedrift er det funksjonalitet for å gi tilgang til å sette på merker og gjøres enkelt ute i felt.</div>
   </div>
 </details>
 

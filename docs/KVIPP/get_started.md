@@ -49,7 +49,7 @@ Velg "gi opplæring" og gå gjennom den generelle sjekklisten. Legg til deltaker
 <br/>
 
 # For løpende oversikt 
-I Kvipp Bedrift oppdateres all opplæring i sanntid. Som leder kan du enkelt finne ut hvilken opplæring folkene dine har, hvem som kan bruke hvilket utstyr og ikke minst gruppere utstyr og folk for å få holde oversikt over eventuelle gap og progresjon. [Les mer om personer og Kvipp Bedrift her](/docs/Kvipp/persons)
+I Kvipp Bedrift oppdateres all opplæring i sanntid. Som leder kan du enkelt finne ut hvilken opplæring folkene dine har, hvem som kan bruke hvilket utstyr og ikke minst gruppere utstyr og folk for å få holde oversikt over eventuelle gap og progresjon.
 <br/>
 
 # Tips for å komme godt i gang
