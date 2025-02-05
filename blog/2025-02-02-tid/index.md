@@ -27,6 +27,11 @@ All opplæring blir automatisk lagret og arkivert digitalt samtidig som opplæri
 
 Slik kan du sikre effektivitet og produktivitet på arbeidsplassen fremfor administrasjon.
 
+## Sjekk selv hvor mye tid du kan spare med Kvipp
+Her kan du gjøre et grovt estimat på hvor mye tid du kan spare på digital gjennomføring og dokumentasjon av utstyrsspesifikk opplæring.
+
+<div class="elfsight-app-6030280a-de24-4c4c-bb05-b9a0c60cb56e" data-elfsight-app-lazy></div>
+
 ## Hvordan er det mulig å fjerne før- og etterarbeid?
 
 Fordi Kvipp benytter seg av kunstig intelligens og Arbeidstilsynets HMS-kort API, kan du ta bilde av utstyr og ID-kort og sette i gang med opplæring når som helst.
@@ -36,23 +41,3 @@ Vi bruker flere etablerte bibliotek for kunstig intelligens og maskinlæring sli
 Med HMS-kort API-et får vi til enhver tid siste oppdaterte informasjon om fornavn, etternavn, fødselsdato og virksomhet. Det betyr at det er mulig å koble opplæringen direkte til riktig virksomhet.
 
 Dermed kan du digitalisere opplæringsprosessen - slik at prosessen blir bedre og enklere for alle.
-
-### Kvipp i felt og Kvipp Bedrift på kontoret
-Mange lurer på...Hva er gratis og hva koster penger?
-
-## Hva får jeg med Kvipp?
-
-Kvipp er gratis. Kvipp er løsningen du finner på nettsiden kvipp.it Hvem som helst kan bruke Kvipp, det eneste dere trenger å gjøre er å gå til nettsiden og sette i gang.
-
-I Kvipp kan du se, dokumentere, gjennomføre (få eller gi) og laste ned opplæringsbevis (PDF).
-
-## Hva får jeg med Kvipp Bedrift?
-
-Kvipp Bedrift koster fra 1390 kroner per måned (eks mva). Kvipp Bedrift er laget for å få oversikt over alle ansatte og gjøre gapanalyser. Med funksjonaliteten "grupper" får dere oversikt over hvem som kan hva, og bruksområdene er flere. Legg til personer og utstyr for å se status og progresjon, f.eks. halvparten har opplæring på utstyret som finnes i gruppen.
-
-Med Kvipp Bedrift kan dere også sette på QR-koder på utstyr. Med merker på utstyret kan det være enklere å huske og det reduserer sannsynligheten for duplikater.
-
-## Sjekk selv hvor mye tid du kan spare med Kvipp
-Her kan du gjøre et grovt estimat på hvor mye tid du kan spare på digital gjennomføring og dokumentasjon av utstyrsspesifikk opplæring.
-
-<div class="elfsight-app-6030280a-de24-4c4c-bb05-b9a0c60cb56e" data-elfsight-app-lazy></div>

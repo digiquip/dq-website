@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Personer og opplæring
+# Personer og utstyrsspesifikk opplæring
 
 ## Identifisering av person
 
@@ -16,7 +16,7 @@ Vi anbefaler alltid at det er QR-koden på HMS-kortet som brukes. Ved å bruke H
 
 [Test selv her](https://kvipp.it)
 
-## Registrering av opplæring
+## Registrering av utstyrsspesifikk opplæring
 Når du skal i gang med utstyrsspesifikk opplæring, kan du enten få opplæring av noen andre eller eventuelt fylle ut en egenerklæring.
 
 Hvis du har opplæring dokumentert på et ark, kan du også ta et bilde av det og lagre det i Kvipp. Dermed blir det enklere å vise frem dokumentasjon på kort varsel.

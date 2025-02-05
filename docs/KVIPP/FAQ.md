@@ -7,7 +7,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Hvem kan bruke Kvipp?</summary>
   <div>
-    <div>Hvem som helst med et ID-kort og mobil bruke Kvipp. Siden Kvipp kan brukes uavhengig adminstrasjon av brukere og utstyr samt innlogging, så er det mulig å starte opp med Kvipp når som helst helt uten forpliktelser</div>
+    <div>Hvem som helst med et ID-kort og mobil kan ta i bruk Kvipp. Siden Kvipp kan brukes uavhengig adminstrasjon av brukere og utstyr eller innlogging, så er det mulig å starte opp med Kvipp når som helst.</div>
   </div>
 </details>
 
@@ -30,9 +30,9 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 </details>
 
 <details>
-  <summary>Kan jeg sette på merker selv?</summary>
+  <summary>Kan jeg sette på QR-koder selv?</summary>
   <div>
-    <div>Ja. I Kvipp Bedrift er det funksjonalitet for å gi tilgang til å sette på merker og gjøres enkelt ute i felt.</div>
+    <div>Ja. I Kvipp Bedrift får du funksjonalitet for å koble til QR-koder.</div>
   </div>
 </details>
 

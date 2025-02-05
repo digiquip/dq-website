@@ -136,8 +136,8 @@ const config = {
             sidebarid: 'loginButton',
           },
           {
-            to: 'https://qr.digiquip.com',
-            label: 'KVIPP (Beta)',
+            to: 'https://kvipp.it',
+            label: 'Kvipp',
             position: 'right',
             sidebarid: 'scanButton',
           },
