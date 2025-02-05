@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 # FAQ
 Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret du leter etter!
