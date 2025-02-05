@@ -27,9 +27,9 @@ const newsContent = [
     {
         isVideo: false,
         title: translate({ message: "home.news.news2title" }),
-        imageBanner: '/img/HMD-HANDSHAKE.jpg',
+        imageBanner: '/img/in-the-office.jpg',
         description: translate({ message: "home.news.news2desc" }),
-        blogLink: '/blog/hadeland-maskindrift',
+        blogLink: '/bedrift',
     },
 ];
 //Avpublisert

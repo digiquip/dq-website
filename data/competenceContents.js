@@ -75,7 +75,8 @@ const kvippGetStartedData =
                 <li><Translate>kvipp-get-started.point1</Translate></li>
                 <li><Translate>kvipp-get-started.point2</Translate></li>
                 <li><Translate>kvipp-get-started.point3</Translate></li>
-            </ul>
+                <button className="button"><a href="docs/Kvipp/get_started">Les mer her</a></button>
+                </ul>
         </>
     ),
 };
@@ -108,7 +109,8 @@ const kvippSituationData =
                 <li><Translate>kvipp-situation.point2</Translate></li>
                 <li><Translate>kvipp-situation.point3</Translate></li>
             </ul>
-        </>),
+        </>
+    ),
 };
 
 const CompetenceRecords = {

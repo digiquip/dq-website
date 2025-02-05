@@ -26,13 +26,6 @@ function BedriftGroups(props) {
   );
 }
 
-function BedriftEquipment(props) {
-  const bedriftequipmentContent = props.items;
-  return (
-    <CompetenceGrid record={bedriftequipmentContent} />
-  );
-}
-
 function CompetenceContactus() {
   return (
    <ContactUs/>
@@ -46,28 +39,25 @@ export default function Bedrift() {
   const [bedrift , setBedriftContent] = useState({})
   const [bedriftbenefits , setBedriftBenefits] = useState({})
   const [bedriftgroups , setBedriftGroups] = useState({})
-  const [bedriftequipment , setBedriftEquipment] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setBedriftContent(bedriftRecords.bedriftBannerData);
         setBedriftBenefits(bedriftRecords.bedriftbenefitsData);
         setBedriftGroups(bedriftRecords.bedriftgroupsData);
-        setBedriftEquipment(bedriftRecords.bedriftequipmentData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [bedrift, bedriftbenefits, bedriftequipment, bedriftgroups]);
+  }, [bedrift, bedriftbenefits, bedriftgroups]);
 
   return (
     <MainLayout>
       {bedrift && <BedriftBanner items={bedrift}/>}
-      {bedriftbenefits && <BedriftBenefits items={bedriftbenefits}/>}
       {bedriftgroups && <BedriftGroups items={bedriftgroups}/>}
-      {bedriftequipment && <BedriftEquipment items={bedriftequipment}/>}
+      {bedriftbenefits && <BedriftBenefits items={bedriftbenefits}/>}
       <CompetenceContactus />
     </MainLayout>
   );
