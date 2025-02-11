@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Getting Started
+# Get started
 
 We've created Kvipp to make documenting equipment-specific training in the field super easy, with no preparation required. Here's a guide to get you started.
 

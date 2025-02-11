@@ -119,19 +119,19 @@ const config = {
           },
           {
             to: '/price',
-            label: 'Pricing',
+            label: 'Prices',
             position: 'left',
             sidebarid: 'tutorialSidebar',
           },
           {
             to: '/docs/intro',
-            label: 'Dokumentasjon',
+            label: 'Documentation',
             position: 'left',
             sidebarid: 'tutorialSidebar',
           },
           {
             to: 'https://pim.digiquip.com/authenticate/idp/init?destination=none&interactionMode=signIn&existingSessionId=',
-            label: 'Logg inn',
+            label: 'Sign in',
             position: 'right',
             sidebarid: 'loginButton',
           },

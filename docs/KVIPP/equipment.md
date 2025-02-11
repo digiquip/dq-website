@@ -12,6 +12,9 @@ sidebar_position: 3
 
 [Test selv her](https://kvipp.it)
 
+## Hvordan får jeg opp utstyr i Kvipp Bedrift?
+Utstyr legges automatisk til etter hvert som opplæring blir registrert.
+
 ## Merk opp arbeidsutstyr (anbefales)
 Med Kvipp Bedrift kan dere også merke opp utstyr med QR-koder. Med QR-koder kan du gjøre det enklere for ansatte å sjekke status på sin opplæring og dokumentasjon.
 
@@ -26,6 +29,3 @@ Deretter kan utstyret merkes opp, og dette gjør dere best i felt:
 + Ferdig!
 
 QR-koder kan dere bestille av oss. [Klikk her for mer informasjon](https://digiquip.no/docs/prices/detailed-price-list)
-
-## Hvordan får jeg opp utstyr i Kvipp Bedrift?
-Utstyr legges automatisk til etter hvert som opplæring blir registrert.
