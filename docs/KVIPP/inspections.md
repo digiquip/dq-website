@@ -15,5 +15,10 @@ Slik gjør dere det:
 
 Dersom opplæring mangler, gi opplæring på stedet eller la personen fylle ut egenerklæring.
 
-Sjekk ut denne videoen:
-https://videos.dyntube.com/iframes/RagdFEqUmnxpnnfxFy6A
+<div style={{ aspectRatio: '16/9' }}>
+  <iframe
+    title="vernerunde"
+    src="https://videos.dyntube.com/iframes/RagdFEqUmnxpnnfxFy6A"
+    style={{ width: '100%', height: '100%' }}
+  ></iframe>
+</div>

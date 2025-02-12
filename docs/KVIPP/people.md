@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Personer og utstyrsspesifikk opplæring
+# Opplæring
 
 ## Identifisering av person
 
@@ -21,6 +21,14 @@ Når du skal i gang med utstyrsspesifikk opplæring, kan du enten få opplæring
 
 Hvis du har opplæring dokumentert på et ark, kan du også ta et bilde av det og lagre det i Kvipp. Dermed blir det enklere å vise frem dokumentasjon på kort varsel.
 
+<div style={{ aspectRatio: '16/9' }}>
+  <iframe
+    title="vernerunde"
+    src="https://videos.dyntube.com/iframes/C3R5cJxnE6L248gmCGWXg"
+    style={{ width: '100%', height: '100%' }}
+  ></iframe>
+</div>
+
 ## Gi opplæring
 For å gi opplæring, må du først ha nødvendig kompetanse på utstyret. Kvipp speiler dette kravet ved at personen må ha dokumentert opplæring. Når opplæring er registrert, kommer valget "gi opplæring" opp og en opplæringssesjon kan startes.
 
@@ -30,6 +38,14 @@ For å gi opplæring, må du først ha nødvendig kompetanse på utstyret. Kvipp
 + Legg til deltakerne til slutt ved å ta bilde eller skanne ID-kort
 
 Husk: Bruk HMS-kortet dersom dere har det slik at opplæringen havner på riktig virksomhet med en gang.
+
+<div style={{ aspectRatio: '16/9' }}>
+  <iframe
+    title="vernerunde"
+    src="https://videos.dyntube.com/iframes/YyUBl77xl02ZSwS52q8JCw"
+    style={{ width: '100%', height: '100%' }}
+  ></iframe>
+</div>
 
 ## Oversikt over opplæring
 I Kvipp Bedrift finner du oversikt over opplæring og du kan laste ned opplæringsbevis. Du kan sjekke ut all opplæringen til en person, hvem som kan bruke et utstyr eller lage grupper som gir deg mer oversikt over flere personer og utstyr.

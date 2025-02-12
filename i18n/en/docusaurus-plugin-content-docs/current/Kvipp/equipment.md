@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# Work equipment
+# Equipment
 ## Identification of machines and equipment
 
 **Artificial intelligence and machine learning** enable the recognition of equipment through images. For the system to identify the equipment correctly, it is essential to find specific characteristics that indicate the type and model. You should look for the following elements:

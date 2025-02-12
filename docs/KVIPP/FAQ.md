@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 9
 ---
 # FAQ
 Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret du leter etter!
@@ -32,7 +32,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Kan jeg sette på QR-koder selv?</summary>
   <div>
-    <div>Ja. I Kvipp Bedrift får du funksjonalitet for å koble til QR-koder.</div>
+    <div>Ja. I Kvipp Bedrift er det funksjonalitet for å koble til QR-koder.</div>
   </div>
 </details>
 
@@ -46,7 +46,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Får jeg et opplæringsbevis?</summary>
   <div>
-    <div>Ja. Alle som har opplæring i Kvipp kan laste ned eller få tilsendt opplæringsbevis (PDF). Når du er inne i løsningen, finner du muligheten til å legge til e-post. Når du legger til e-post blir alle opplæringsbevis alltid automatisk sendt.</div>
+    <div>Ja. Alle som har opplæring i Kvipp kan laste ned eller få tilsendt opplæringsbevis (PDF). Når du har identifisert deg, kan du i nedtrekksmenyen ved navnet ditt legge til e-post. Når du legger til e-post blir alle opplæringsbevis alltid automatisk sendt. Første gangen du legger til e-post får du alle opplæringsbevis, mens du senere vil få ett og ett.</div>
   </div>
 </details>
 
@@ -58,9 +58,23 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 </details>
 
 <details>
+  <summary>Hvor finner jeg brukermanual?</summary>
+  <div>
+    <div>I Kvipp finner du ikke noen brukermanual enda. Denne muligheten vil komme etter hvert.</div>
+  </div>
+</details>
+
+<details>
   <summary>Kan jeg styre hvem som skal gi opplæring på vegne av min virksomhet?</summary>
   <div>
-    <div>Ja. I Kvipp Bedrift styrer du hvem som kan gi opplæring på vegne av din virksomhet.</div>
+    <div>Ja. I Kvipp Bedrift styrer du hvem som kan gi opplæring på vegne av virksomheten din.</div>
+  </div>
+</details>
+
+<details>
+  <summary>Hva skjer med selve bildet når jeg tar bilde av pass, førerkort eller annet ID-kort?</summary>
+  <div>
+    <div>Vi leser av informasjonen og deretter forkastes bildet. Kun fornavn, etternavn og fødselsdato blir lagret.</div>
   </div>
 </details>
 

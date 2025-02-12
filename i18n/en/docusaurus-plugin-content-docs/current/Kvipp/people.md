@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# People and Training
+# People and trainings
 
 ## Identification of persons
 
@@ -22,7 +22,7 @@ When you are about to start equipment training, you can either receive training 
 If you have training documented on a piece of paper, you can also take a photo of it and save it in Kvipp. This makes it easier to present documentation at short notice.
 
 ## Providing training
-To provide training, you must first have the necessary competence on the equipment. Kvipp reflects this requirement by ensuring that the individual must have documented training. Once training is registered, the option "provide training" will appear, and a training session can be initiated.
+To provide training, you must first have the necessary competence on the equipment. Kvipp reflects this requirement by ensuring that the individua must have documented training. Once training is registered, the option "provide training" will appear, and a training session can be initiated.
 
 + Identify yourself and the equipment
 + Start by selecting "start training"
