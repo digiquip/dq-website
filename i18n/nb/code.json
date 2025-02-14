@@ -714,11 +714,11 @@
     "description": "First description of the news"
   },
   "home.news.news2title": {
-    "message": "Få oversikt over all utstyrsspesifikk opplæring",
+    "message": "Manglende dokumentasjon førte til arbeidsstans",
     "description": "First title of the news 2"
   },
   "home.news.news2desc": {
-    "message": "Trenger du oversikt over hvem som har hvilken opplæring eller hente opp dokumentasjon? I Kvipp Bedrift kan du enkelt sjekke hvilken utstyrsspesifikk opplæring som er gjennomført, hente ut dokumentasjon og gjøre egne gap-analyser.",
+    "message": "Måtte løse utstyrsspesifikk opplæring enkelt! Både sikkerhet og effektivitet er avgjørende i bygg- og anleggsbransjen. Systemer som sikrer at arbeidere har nødvendig opplæring og dokumentasjon er viktig. Utfordringer knyttet til utstyrsspesifikk opplæring fører ofte til forsinkelser på byggeplasser rundt om i Norge. Den digitale plattformen Kvipp løser utfordringene på en effektiv og brukervennlig måte.",
     "description": "First description of the news 2"
   }
 }

@@ -27,9 +27,9 @@ const newsContent = [
     {
         isVideo: false,
         title: translate({ message: "home.news.news2title" }),
-        imageBanner: '/img/in-the-office.jpg',
+        imageBanner: '/img/betonmast.jpg',
         description: translate({ message: "home.news.news2desc" }),
-        blogLink: '/bedrift',
+        blogLink: '/blog/betonmast-vitasbygg-utstyrsspesifikk-vernerunde',
     },
 ];
 //Avpublisert
