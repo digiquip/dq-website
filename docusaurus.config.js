@@ -119,13 +119,13 @@ const config = {
           },
           {
             to: '/price',
-            label: 'Prices',
+            label: 'Priser',
             position: 'left',
             sidebarid: 'tutorialSidebar',
           },
           {
             to: '/docs/intro',
-            label: 'Documentation',
+            label: 'Dokumentasjon',
             position: 'left',
             sidebarid: 'tutorialSidebar',
           },
