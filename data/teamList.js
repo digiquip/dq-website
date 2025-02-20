@@ -39,15 +39,6 @@ const teamDataSource =
     contactLink: ''
 },
 {
-    id:5,
-    fullName: 'Kevin André Hovland',
-    designation: 'Support Engineer',
-    emailAddress:'kah@digiquip.no',
-    mobileNumber:'+47 99260197',
-    image:'team_imgs/kevin.jpg',
-    contactLink: ''
-},
-{
     id:6,
     fullName: 'Lars Sørby',
     designation: 'Founder',
