@@ -37,6 +37,18 @@ import imageAI from '/img/imageAI.jpg';
 
 <img src={imageAI} style={{width:200}} />
 
+Test it! Scan the QR code below:
+
+import tommestokk from '/img/tommestokk.jpg';
+
+<img src={tommestokk} style={{width:400}} />
+
+<br/>
+<br/>
+or click here: ***https://kvipp.it/id/GMTRPFF1***
+
+**Now you can test out how to register, check and give training to others.**
+
 ## Training Status
 Once both the person and equipment are identified, you'll see your training status.
 

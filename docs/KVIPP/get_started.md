@@ -36,6 +36,21 @@ import imageAI from '/img/imageAI.jpg';
 
 <img src={imageAI} style={{width:200}} />
 
+<br/>
+<br/>
+
+Test selv! Skann denne QR-koden for tommestokk:
+
+import tommestokk from '/img/tommestokk.jpg';
+
+<img src={tommestokk} style={{width:400}} />
+
+<br/>
+<br/>
+eller klikk her: ***https://kvipp.it/id/GMTRPFF1***
+
+**Nå kan du teste hvordan registrere opplæring, sjekke og gi opplæring til andre. Husk å identifisere deg selv også.**
+
 ## Opplæringsstatus
 Når både person og utstyr er identifisert, får du opplæringsstatus.
 
