@@ -47,6 +47,41 @@ Husk: Bruk HMS-kortet dersom dere har det slik at opplæringen havner på riktig
   ></iframe>
 </div>
 
+## Flere utstyr i en opplæringssesjon
+Med rollen "lærer" kan det gis opplæring på flere utstyr i samme opplæringssesjon.
+
+- Tildel myndigheten lærer i Kvipp Bedrift. Dette gjør du på siden som heter tillatelser.
+- Personen som skal gi opplæring velger å gi opplæring på vegne av virksomheten og får dermed muligheten til å legge til flere utstyr.
+- I opplæringssesjonen går læreren gjennom sjekklisten en gang. Det vil si at dersom noen av sjekkpunktene varierer er ikke utstyret egnet å være del i samme sesjon.
+
+**Tillatelser i Kvipp Bedrift:**
+
+import myndighetlærer from '/img/myndighetlærer.png';
+
+<img src={myndighetlærer} style={{width:1100}} />
+
+**Flere utstyr:**
+
+Med rollen "lærer":
+- Gå til kvipp.it
+- Skann HMS-kort
+- Skann et utstyr (og sørg for at du er "good to go")
+- Velg start opplæring. Da kommer alternativet for å legge til flere utstyr opp
+- Gå gjennom sjekklisten og legg til deltakerne på slutten av sesjonen
+
+import flereutstyr from '/img/flereutstyr.png';
+
+<img src={flereutstyr} style={{width:250}} />
+
+<br/>
+<br/>
+Merk at rollen "lærer" er en tilleggsrolle.
+- Administrator: 190 kr per person (tre administratorer er inkludert)
+- Lærer: 90 kr per person
+- Utstyrseier: 90 kr per person
+
+*Administratorer kan alltid gis rollene lærer og utstyrseier som inkludert i prisen.*
+
 ## Oversikt over opplæring
 I Kvipp Bedrift finner du oversikt over opplæring og du kan laste ned opplæringsbevis. Du kan sjekke ut all opplæringen til en person, hvem som kan bruke et utstyr eller lage grupper som gir deg mer oversikt over flere personer og utstyr.
 
