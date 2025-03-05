@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 ---
-# Stuff
+# Material
 Here you can look at material and print your own.
 
 ## Brochure about trainings (in Norwegian only)
