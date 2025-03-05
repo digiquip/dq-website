@@ -30,8 +30,8 @@ import kvipp_screenshot_person from '/img/kvipp_screenshot_person.jpg';
 <br/>
 
 ## Scan or take a picture of the equipment you'll be using
-+ Marked equipment: Use the QR code option and scan QR codes from DigiQuip, Reginn (M-reg) or BRAREG.
-+ Unmarked equipment: Take a picture that includes the make and model, e.g. the serial number plate.
++ QR codes: Use the QR code option and scan QR codes from DigiQuip, Reginn (M-reg) or BRAREG.
++ Recognition: Take a picture that includes the make and model, e.g. the serial number plate.
 
 import imageAI from '/img/imageAI.jpg';
 
@@ -62,10 +62,10 @@ Select "give training" and go through the general checklist. Add the participant
 <br/>
 
 # For ongoing overview
-In Kvipp Business, all training is updated in real time. As a manager, you can easily find out what training your people have, who can use which equipment and, importantly, group equipment and people to keep track of any gaps and progress.
+In Kvipp Admin, all training is updated in real time. As a manager, you can easily find out what training your people have, who can use which equipment and, importantly, group equipment and people to keep track of any gaps and progress.
 <br/>
 
-# Tips for a smooth start
+# Get started!
 
 To ensure everyone documents their training in Kvipp, we recommend communicating the importance of this and making it easy to remember. A couple of tricks that can make it easier to remember are to put up information and make sure the website is saved to the home screen.
 

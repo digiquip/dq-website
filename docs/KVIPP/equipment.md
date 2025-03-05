@@ -7,7 +7,6 @@ sidebar_position: 3
 **Kunstig intelligens og maskinlæring** gjør det mulig å gjenkjenne utstyr ved hjelp av bilder. For at systemet skal kunne identifisere utstyret korrekt, er det viktig å finne spesifikke kjennetegn som viser hvilken type og modell det er. Du bør se etter følgende elementer:
 
 + Serienummerplate: Denne platen inneholder ofte viktig informasjon om utstyret.
-+ Merke eller logo: Merkene kan bidra til rask identifisering av merke og modell.
 + QR-koder: Hvis utstyret har en QR-kode, kan systemet lese denne automatisk, noe som gjør prosessen enda enklere. **Skann en QR-kode** fra DigiQuip, Reginn, Kvipp eller BRAREG, og informasjonen vil bli tolket.
 
 Kvipp Bedrift kunder kan **legge til utstyr manuelt**. Med rollen "utstyrseier" får personen opp muligheten til å søke og legge til utstyr manuelt. I Kvipp Bedrift, gå til "tillatelser" og gi tilgang til aktuelle personer. I Kvipp vil personen automatisk få muligheten til å legge til via "søk etter merke og modell":
