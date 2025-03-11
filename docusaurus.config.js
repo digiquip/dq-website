@@ -4,9 +4,9 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
-const linkHtml =  ' <span> <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 6H12M12 6L7.2 1M12 6L7.2 11" stroke="#E96847"></path></svg> </span> ';
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -19,6 +19,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -46,18 +47,33 @@ const config = {
     }
   },
 
-  presets: [
 
+  presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          postsPerPage: 6,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,47 +81,42 @@ const config = {
       }),
     ],
   ],
-  scripts: [{src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'digiquip.no'}],
+  scripts: [{ src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'digiquip.no' }],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/digiquip-social-card.jpg',
+      // Replace with your project's social card
+      image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,
-        respectPrefersColorScheme: true,
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: '',
-        
         logo: {
           alt: 'DigiQuip Logo',
           src: 'img/logo.svg',
         },
-        items: [       
+        items: [
           {
             type: "dropdown",
             label: 'Products',
             position: 'left',
             items: [
               {
-                // html: 'Kvipp' + linkHtml,
                 label: 'Kvipp',
-                // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
-                to:'/kvipp',
-              }, 
+                to: '/kvipp',
+              },
               {
-                // html: 'bedrift' + linkHtml,
                 label: 'Kvipp Bedrift',
-                // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
-                to:'/bedrift',
-              }, 
+                to: '/bedrift',
+              },
               {
-                // html: 'trygg-maskin' + linkHtml,
                 label: 'Trygg Maskin',
-                // type: 'docSidebar',
                 sidebarid: 'tutorialSidebar',
                 to: '/trygg-maskin',
               },
@@ -124,11 +135,12 @@ const config = {
             sidebarid: 'tutorialSidebar',
           },
           {
-            to: '/docs/intro',
-            label: 'Dokumentasjon',
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            sidebarid: 'tutorialSidebar',
+            label: 'Dokumentasjon',
           },
+
           {
             to: 'https://pim.digiquip.com/authenticate/idp/init?destination=none&interactionMode=signIn&existingSessionId=',
             label: 'Sign in',
@@ -146,13 +158,6 @@ const config = {
             position: 'right',
             sidebarid: 'tutorialSidebar',
           },
-          //{
-          //  to: '/blog',
-          //  html: '<span class=btn_wrapper><span class=btn_text>Contact us</span> <span class=btn_text>Contact us</span> </span> ',
-          //  position: 'right',
-          //  className:'white-btn btn',
-          //  sidebarid: 'tutorialSidebar',
-          //},
         ],
       },
       footer: {
