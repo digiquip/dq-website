@@ -78,7 +78,7 @@ const config = {
       image: 'img/digiquip-social-card.jpg',
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       navbar: {
