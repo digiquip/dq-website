@@ -31,7 +31,7 @@ Go to the web page kvipp.it:
 2) Add e-mail address
 3) Documentation will be sent by e-mail
 
-In Kvipp Bedrift, the documentation will automatically be added to the right person and documentation can be downloaded.
+In Kvipp Bedrift, the documentation will automatically be added to the right person and documentation can easily be downloaded.
 
 import kariemailEN from '/img/kariemailEN.jpg';
 
