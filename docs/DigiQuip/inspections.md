@@ -4,7 +4,6 @@ sidebar_position: 7
 
 # Sakkyndig kontroll#
 
-
 I henhold til forskrift om utførelse av arbeid [kapittel 13](https://lovdata.no/dokument/SF/forskrift/2011-12-06-1357/KAPITTEL_3-4#%C2%A713-4), er det en rekke arbeidsutstyr som skal kontrolleres årlig med det formål at det skal være fullt forsvarlig å bruke det.  
 
 
@@ -18,40 +17,107 @@ Med DigiQuip får maskineiere en enkel og effektiv måte å gjennomføre og admi
 - 	Effektivitet: DigiQuip forenkler prosessen med å gjennomføre kontroller, registrere avvik og planlegge fremtidige kontroller, noe som sparer tid og ressurser.
 
 :::
-
-## For deg som er kontrollør: 
-
-- Skann QR-koden på utstyret.
-- Velg "Start inspeksjon" i kontroll-vinduet.
-- Sjekklisten er forhåndsutfylt med "OK".
-- Registrer eventuelle feil med bilder og kommentarer.
-- Fullfør inspeksjonen ved å godkjenne eller underkjenne utstyret.
-- Når inspeksjonen er ferdig, lagres status og dokumentasjon.
-- Ved etterkontroll: marker avvik som utbedret, legg til dato og godkjenning.
-- Status og dokuemntasjon oppdateres.
-
-
-## For deg som administrerer og planlegger kontroll av utstyr
-
-- Få oversikt over alt utstyr registrert med en eller flere sakkyndige kontroller på kontrollsiden.
-- Filtrer på dato, for eksempel kommende kontroller, og få en liste over kontroller med forfallsdato.
-- Eksporter listen til Excel for å sortere etter ulike felt eller fordele på avdeling eller kontrollører.
  
-import kontrollside from '/img/resources-FAQ/kontrollside.png';
+import startinspection from '/img/workequipment/Startinspection.png';
 
-<img src={kontrollside} style={{width:800}} />
+<img src={startinspection} style={{ float: 'right', width: 250, marginLeft: 20 }} />
+
+### Gjennomfør sakkyndig kontroll: 
+
+- For å starte en kontroll, skann QR-koden på utstyret.
+- Velg **"Start inspeksjon**"
+- Registrer eventuelle feil med bilder og kommentarer.
+- Sjekk at **"Sist kontroll"** og **"Neste kontroll"** dato er korrekt.
+- Legg til timeteller **(Obligatorisk)** 
+- Velg bruk anbefalt **(JA/Nei)** 
+<font color="red">Merk!</font> Bruk anbefalt er satt til **(Nei)** som standard.
+- **Ferdigstilt** inspeksjon.
 
 
+### Start etterkontroll:
+
+Dersom det ble registrert avvik under kontrollen, kan du gjennomføre en etterkontroll på den samme kontrollen.
+
+import deviationcheck from '/img/workequipment/deviationcheck.png';
+
+<img src={deviationcheck} style={{ float: 'right', width: 250, marginLeft: 20 }} /> 
+
+
+**Skann QR-koden** på utstyret.
+- Knappen som tidligere het **"Start inspeksjon"** vil nå endres til **"Start etterkontroll".**
+- Etterkontroll-knappen er tilgjengelig i 8 måneder fra siste kontroll.
+- Du kan legge til nye bilder
+- Du kan legge til kommentar
+<font color="red">Merk!</font> Ikke slett tidligere bilder og kommentar. 
+
+
+## Administrer og planlegg kontroll av utstyr
+
+- Få full oversikt over alt registrert utstyr med sakkyndige kontroller på **kontrollsiden.**
+- **Filtrer etter dato** (f.eks. kommende kontroller) og se forfallsdatoer.
+- Klikk på utstyret for å gå til fanen for sakkyndig kontroll.
+- **Eksporter til Excel** for sortering, avdelingsfordeling, kontrollører eller revisjonsrapportering.
+- Eksporter liste over utstyr som har **avvik**. Denne listen blir oppdatert når avviket er rettet.
+ 
+import controlpage from '/img/workequipment/controlpage.png';
+
+<img src={controlpage} style={{width:900}} />
+
+### Sjekkliste
 - Opprett [sjekkliste](/docs/DigiQuip/checklists#opprett-sjekkliste-for-sakkynig-kontroll) for sakkyndig kontroll og knytt sjekkliste til en eller flere [modeller](/docs/DigiQuip/checklists#knytt-sjekkliste-til-arbeidsutstyr)
 
 
-## Logg
+# FAQ
+Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret du leter etter!
 
-Logg for sakkyndig kontroll, daglig kontroll og vedlikehold finner dere loggført per maskin under respektive faner. Eksempel:
+<details>
+  <summary>Jeg har skannet QR-koden, men ser ikke knappen "Start inspeksjon". Hvorfor?</summary>
+  <div>
+    <div>Dette kan skyldes:</div>
+    <div>Du har ikke rollen som kontrollør → Kontakt administrator </div>
+    <div>Det er ingen sjekkliste knyttet til utstyret → Kontakt administrator </div>
+  </div>
+</details>
 
-import inspectionsdocumented from '/img/resources-FAQ/inspectionsdocumented.png';
+<details>
+  <summary>Kan jeg redigere en ferdigstilt kontroll hvis jeg har glemt å endre dato/anbefalt bruk?</summary>
+  <div>
+    <div>Ja, følg disse stegene:</div>
+    <div> Gå til Admin → Maskiner og utstyr → Velg utstyr → Gå til Sakkyndig kontroll fanen</div>
+    <div>Finn kontrollen som skal redigeres </div>
+    <div>Klikk på de tre prikkene ( ⋮ ) til høyre</div>
+    <div>Velg "Lås opp"</div>
+    <div>Deretter velg "Rediger"for å gjøre endringer  </div>
+  </div>
+</details>
 
-<img src={inspectionsdocumented} style={{width:800}} />
+<details>
+  <summary>Kan jeg starte en kontroll og lagre den for å fortsette senere?</summary>
+  <div>
+    <div>Ja, det er mulig!</div>
+    <div>Bruk "Lagre og avslutt"-knappen på siste side i sjekklisten. Alternativt kan du bare gå ut av siden – kontrollen lagres automatisk </div>
+    <div>Vi anbefaler å skru av "Forhåndsutfylt med OK" i sjekklisten</div>
+  </div>
+</details>
+
+<details>
+  <summary>Hvorfor får jeg ikke koblet en sjekkliste til en modell?</summary>
+  <div>
+    <div>Dette kan skyldes: </div>
+    <div>Manglende rettigheter → Du må ha administratorrolle for å koble sjekklister</div>
+    <div>Ingen sjekklister tilgjengelig** → Sjekk at det er opprettet sjekklister i systemet.</div>
+  </div>
+</details>
+
+<details>
+  <summary>Hvordan endrer jeg en sjekkliste som er koblet til en modell?</summary>
+  <div>
+    <div>Ja, det er mulig!</div>
+    <div>Bruk "Lagre og avslutt"-knappen på siste side i sjekklisten. Alternativt kan du bare gå ut av siden – kontrollen lagres automatisk </div>
+    <div>Vi anbefaler å skru av "Forhåndsutfylt med OK" i sjekklisten</div>
+  </div>
+</details>
+
 
 
 I DigiQuip får maskineiere kontroll på sakkyndig kontroll og vi er integrert med både Maskinregisteret (M-reg.) og BRAREG.
