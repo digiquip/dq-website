@@ -798,7 +798,7 @@ background-color: #fff;
 }
 
 .hero {
-  padding: 10.1875rem 0 5rem !important;
+  padding: 5.1875rem 0 5rem !important;
 }
 
 /* COMPETENCE PAGE CSS */
@@ -1111,7 +1111,8 @@ aside nav li a:hover {
 }
 
 aside nav li {
-  margin-top: 0px !important;
+  margin-top: 5px !important;
+  padding-top: 5px;
 }
 
 .markdown>h1,
