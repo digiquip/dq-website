@@ -90,20 +90,23 @@ import checklistlog from '/img/pre-use-inspection-checklists/checklistlog.png';
 
 <img src={checklistlog} style={{width:800}} />
 
-### Opprett sjekkliste for sakkyndig kontroll
+### Sjekkliste for sakkyndig kontroll
 
-Gå til menyen "Innstillinger > Sjekklister > Legg til".                                                                                 
-Velg deretter kategori "**sakkyndig kontroll**" som type sjekkliste.
-* Navnet du gir sjekklisten her, vil bli brukt som tittel på kontrollrapporten som genereres etter at kontrollen er utført. 
-Det er derfor viktig å velge et beskrivende navn.
+DigiQuip har standardiserte sjekklister tilgjengelig. Kontakt support for tilgang, eller opprett en ny sjekkliste ved å følge disse stegene:
+
+* Gå til menyen "Innstillinger > Sjekklister > Legg til".                                                                                 
+* Velg kategori: Sakkyndig kontroll.
+* Navngi sjekklisten – dette blir tittelen på kontrollrapporten 
+* Velg om sjekkpunktene skal være forhåndsutfylt med "OK" eller ikke.
+<font color="red">Merk!</font> Denne innstillingen kan endres når som helst etter at sjekklisten er opprettet.
+* Velg opprett
 
 
-import leggtilsjekkliste from '/img/resources-FAQ/leggtilsjekkliste.png'; 
+import Addchecklist from '/img/workequipment/Addchecklist.png'; 
 
-<img src={leggtilsjekkliste} style={{width:400}} />
+<img src={Addchecklist} style={{width:800}} />
 
-* Velg "**periodisk kontroll**" som mal.
-* Legg til undertitler for hver side.
+* Legg til hovedtittelen.
 * Legg til sjekkpunkter.   
 * Del opp i sider basert på utstyrsdeler eller kategorier. Eksempler på sider kan være: ***"Dokumenter/Merking" (for dokumentasjon og merkingskontroll) "Kurv/Plattform" (for kontroll av plattform eller kurv)*** osv.
 
