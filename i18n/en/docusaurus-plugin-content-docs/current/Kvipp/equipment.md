@@ -2,7 +2,6 @@
 sidebar_position: 3
 ---
 # Equipment
-## Identifying Machines and Equipment
 
 **Artificial intelligence and machine learning** enable equipment recognition using images. For the system to correctly identify the equipment, it's crucial to find specific characteristics indicating its brand and model. Look for the following:
 
