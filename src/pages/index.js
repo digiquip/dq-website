@@ -9,6 +9,7 @@ import Translate from '@docusaurus/Translate';
 function HomepageHeader() {
     return (
         <section className='homepage-banner'>
+           <div class="elfsight-app-d10311ae-313f-4b43-8b4f-edcd5204f038" data-elfsight-app-lazy></div>
             <div className={clsx('hero hero--primary heroBanner')}>
                 <div className="container">
                     <div className="row">
@@ -18,6 +19,8 @@ function HomepageHeader() {
                             </h1>
                             <p><Translate>home.safety.what</Translate></p>
                             <p><Translate>home.safety.how</Translate></p>
+                        </div>
+                        <div className={clsx("col col--")}>
                         </div>
                         <div className={clsx("col col--")}>                        </div>
                     </div>
@@ -62,6 +65,13 @@ export default function Home() {
     });
 
   })
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.async = true;
+    document.body.appendChild(script);
+  });
 
   return (
     <>
