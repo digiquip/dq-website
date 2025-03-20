@@ -38,10 +38,6 @@ Samarbeidet mellom DigiQuip, Betonmast og VitasBygg viser hvordan Kvipp effektiv
 
 **-Vår visjon er å være Norges ledende løsning for enkel og sporbar utstyrsspesifikk opplæring og tryggere bruk av arbeidsutstyr,** forklarer Tom Freddy Braathen, Chief Commercial Officer i DigiQuip. **Vi er stolte av samarbeidet med Betonmast, en av Norges ledende byggentreprenører, og deler deres mål om at alle skal komme trygt hjem hver dag.**
 
-DigiQuip-løsningen er utviklet med tanke på brukervennlighet og skreddersydd opplæring. Med støtte for instruksjonsvideoer, sjekklister og kunnskapstester bidrar plattformen til en trygg og godt forberedt arbeidsstyrke.
-
-**-Vår visjon er å heve standarden for sikkerhet og opplæring i bransjen, og vi er stolte over å støtte Hadeland Maskindrift i dette arbeidet. DigiQuip forenkler dokumentasjonen og kompetansesikringen, noe som betyr økt trygghet for både arbeidsgiver og arbeidstaker,** avslutter Braathen i DigiQuip.
-
 **Kontaktinformasjon:**
 
 For Betonmast Østfold:

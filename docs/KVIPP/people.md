@@ -19,7 +19,7 @@ Vi anbefaler alltid at det er QR-koden på HMS-kortet som brukes. Ved å bruke H
 ## Registrering av utstyrsspesifikk opplæring
 Når du skal i gang med utstyrsspesifikk opplæring, kan du enten få opplæring av noen andre eller eventuelt fylle ut en egenerklæring.
 
-Hvis du har opplæring dokumentert på et ark, kan du også ta et bilde av det og lagre det i Kvipp. Dermed blir det enklere å vise frem dokumentasjon på kort varsel.
+Hvis du allerede har et dokument, kan du laste opp det. Dermed blir det enklere å vise frem dokumentasjon på kort varsel.
 
 <div style={{ aspectRatio: '16/9' }}>
   <iframe
@@ -30,7 +30,7 @@ Hvis du har opplæring dokumentert på et ark, kan du også ta et bilde av det o
 </div>
 
 ## Gi opplæring
-For å gi opplæring, må du først ha nødvendig kompetanse på utstyret. Kvipp speiler dette kravet ved at personen må ha dokumentert opplæring. Når opplæring er registrert, kommer valget "gi opplæring" opp og en opplæringssesjon kan startes.
+For å gi opplæring, må du først registrere din kompetanse. Når opplæring er registrert, kommer valget "gi opplæring" opp og opplæringssesjonen kan startes.
 
 + Identifiser deg selv og utstyret
 + Start ved å velge "gi opplæring"
