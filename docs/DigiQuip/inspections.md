@@ -64,7 +64,7 @@ import controlpage from '/img/workequipment/controlpage.png';
 <img src={controlpage} style={{width:900}} />
 
 ### Sjekkliste
-- Opprett [sjekkliste](/docs/DigiQuip/checklists#opprett-sjekkliste-for-sakkynig-kontroll) for sakkyndig kontroll og knytt sjekkliste til en eller flere [modeller](/docs/DigiQuip/checklists#knytt-sjekkliste-til-arbeidsutstyr)
+- Opprett [sjekkliste](/docs/DigiQuip/checklists#sjekkliste-for-sakkyndig-kontroll) for sakkyndig kontroll og knytt sjekkliste til en eller flere [modeller](/docs/DigiQuip/checklists#knytt-sjekkliste-til-arbeidsutstyr)
 
 
 # FAQ

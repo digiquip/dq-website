@@ -1,27 +1,32 @@
 ---
 sidebar_position: 1
 ---
+# Updates 2025
+<details>
+  <summary>**DigiQuip-Inspection Date: 18.03.2025**</summary>
+  <div>
+    <div><strong>Unlock Function</strong></div>
+    <div>Administrators and the original inspector can now unlock completed inspections.</div>
 
-# Oppdateringer 2025
+    <div><strong>Save and Close Function</strong></div>
+    <div>Inspections that are not completed are automatically saved as drafts.</div>
+    <div>Drafts have the status "Not Inspected" and will not appear on the QR code landing page until finalized.</div>
 
-**DigiQuip og kontroller, mars 2025**
+    <div><strong>Pre-filling "OK" in Checklists</strong></div>
+    <div>A new toggle function allows users to enable or disable the pre-filling of "OK" in checklists.</div>
+    <div>This provides better control if an inspection is not completed immediately but needs to be continued later. More info can be found 
+[here](/docs/DigiQuip/checklists#sjekkliste-for-sakkyndig-kontroll).</div>
 
-**Opplåsingsfunksjon for fullførte sakkyndige kontroller**
-- Administratorer og brukeren som opprinnelig opprettet kontrollen, kan nå låse opp og redigere en kontroll hvis den ble markert som fullført ved en feil. 
-- Den eksisterende løsningen forblir uendret: kun avvik som må utbedres, vil være tilgjengelige etter at kontrollen er fullført.
+    <div><strong>Retrieving Documents from BraReg</strong></div>
+    <div>All documents related to the equipment and production year are now fetched directly from BraReg.</div>
 
-**Lagre og lukk-funksjon**
-- Dersom man starter en inspeksjon uten å fullføre, lagres den som et utkast.
-- Denne inspeksjonen får statusen «Ikke kontrollert» og vises ikke på landingssiden for QR-kode før den er ferdigstilt.
+    <div><strong>Bug Fixes</strong></div>
+    <div>Corrected status in DigiQuip when equipment is set to "Not Approved" due to a Level 2 defect.</div>
+    <div>Fixed an issue preventing some equipment from properly linking to BraReg.</div>
+    <div>Resolved a synchronization issue for inspections from BraReg that already had an existing connection.</div>
 
-**Mulighet for å skru av/på forhåndsutfylling av «OK» i sjekklister**
-- Ny bryterfunksjon lar brukere aktivere eller deaktivere forhåndsutfylling av "OK" i sjekklister. 
-- Dette gir bedre kontroll dersom en inspeksjon ikke fullføres med én gang, men skal jobbes videre med senere.
+    <div><strong>For more information, see [here](/docs/DigiQuip/inspections)</strong></div>
+  </div>
+</details>
 
-**Henting av dokumenter og produksjonsår fra BraReg**
-- Vi henter alle dokumenter knyttet til objektet og produksjonsåret fra BraReg.
 
-**Feilretting**
-- Løst feilen der enkelte utstyr ikke kunne kobles riktig til BraReg.
-- Rettet feil i synkronisering av kontroller fra BraReg som allerede hadde en eksisterende kobling.
-- Løst feil status i DigiQuip når utstyr er satt til "Ikke godkjent" med 2’e
