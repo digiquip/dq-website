@@ -1,27 +1,30 @@
 ---
 sidebar_position: 1
 ---
-
 # Oppdateringer 2025
+<details>
+  <summary>**DigiQuip-Kontrollverktøy Dato-18.03.2025**</summary>
+  <div>
+    <div><strong>Lås opp-funksjon</strong></div>
+    <div>Administratorer og opprinnelig kontrollør kan nå låse opp ferdigstilte kontroller.</div>
 
-**DigiQuip og kontroller, mars 2025**
+    <div><strong>Lagre og lukk-funksjon</strong></div>
+    <div>Inspeksjoner som ikke fullføres lagres som utkast.</div>
+    <div>Utkast har status «Ikke kontrollert» og vises ikke i QR-kode landingsside før ferdigstilt.</div>
 
-**Opplåsingsfunksjon for fullførte sakkyndige kontroller**
-- Administratorer og brukeren som opprinnelig opprettet kontrollen, kan nå låse opp og redigere en kontroll hvis den ble markert som fullført ved en feil. 
-- Den eksisterende løsningen forblir uendret: kun avvik som må utbedres, vil være tilgjengelige etter at kontrollen er fullført.
+    <div><strong>Forhåndsutfylling av "OK" i sjekklister</strong></div>
+    <div>Ny bryterfunksjon lar brukere aktivere eller deaktivere forhåndsutfylling av "OK" i sjekklister. </div>
+    <div> Dette gir bedre kontroll dersom en inspeksjon ikke fullføres med én gang, men skal jobbes videre med senere. Mer info finner du 
+[her](/docs/DigiQuip/checklists#sjekkliste-for-sakkyndig-kontroll) 
+.</div>
 
-**Lagre og lukk-funksjon**
-- Dersom man starter en inspeksjon uten å fullføre, lagres den som et utkast.
-- Denne inspeksjonen får statusen «Ikke kontrollert» og vises ikke på landingssiden for QR-kode før den er ferdigstilt.
+    <div><strong>Henting av dokumenter fra BraReg</strong></div>
+    <div>Vi henter alle dokumenter knyttet til objektet og produksjonsåret direkte fra BraReg.</div>
 
-**Mulighet for å skru av/på forhåndsutfylling av «OK» i sjekklister**
-- Ny bryterfunksjon lar brukere aktivere eller deaktivere forhåndsutfylling av "OK" i sjekklister. 
-- Dette gir bedre kontroll dersom en inspeksjon ikke fullføres med én gang, men skal jobbes videre med senere.
-
-**Henting av dokumenter og produksjonsår fra BraReg**
-- Vi henter alle dokumenter knyttet til objektet og produksjonsåret fra BraReg.
-
-**Feilretting**
-- Løst feilen der enkelte utstyr ikke kunne kobles riktig til BraReg.
-- Rettet feil i synkronisering av kontroller fra BraReg som allerede hadde en eksisterende kobling.
-- Løst feil status i DigiQuip når utstyr er satt til "Ikke godkjent" med 2’e
+    <div><strong>Feilrettinger</strong></div>
+    <div>Riktig status i DigiQuip når utstyr settes til «Ikke godkjent» med 2’er-feil.</div>
+    <div>Fikset tilkoblingsfeil mellom enkelte utstyr og BraReg.</div>
+    <div>Rettet feil i synkronisering av kontroller fra BraReg med eksisterende kobling.</div>
+   <div><strong>For mer info ler [her](/docs/DigiQuip/inspections)</strong></div>
+  </div>
+</details>

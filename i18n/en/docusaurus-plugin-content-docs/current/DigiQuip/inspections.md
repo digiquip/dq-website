@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Expert Control#
+#Expert Control#
 
 According to the regulations on work execution [Chapter 13](https://lovdata.no/dokument/SF/forskrift/2011-12-06-1357/KAPITTEL_3-4#%C2%A713-4), various types of work equipment must undergo an annual inspection to ensure it is safe to use.
 
