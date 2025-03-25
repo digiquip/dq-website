@@ -643,7 +643,6 @@
   "description": "The button lavel of team section in the aboutus page"
 },
 
-
 "home.event.type": {
   "message":"Webinar",
   "description": "The event type in the home page"
@@ -720,5 +719,13 @@
   "home.news.news2desc": {
     "message": "Måtte løse utstyrsspesifikk opplæring enkelt! Både sikkerhet og effektivitet er avgjørende i bygg- og anleggsbransjen. Systemer som sikrer at arbeidere har nødvendig opplæring og dokumentasjon er viktig. Utfordringer knyttet til utstyrsspesifikk opplæring fører ofte til forsinkelser på byggeplasser rundt om i Norge. Den digitale plattformen Kvipp løser utfordringene på en effektiv og brukervennlig måte.",
     "description": "First description of the news 2"
+  },
+  "home.news.news3title": {
+    "message": "Hei",
+    "description": "First title of the news 3"
+  },
+  "home.news.news3desc": {
+    "message": "Nå skal vi ha et spennende webinar",
+    "description": "First description of the news 3"
   }
 }

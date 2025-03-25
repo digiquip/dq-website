@@ -757,5 +757,13 @@
   "home.news.news2desc": {
     "message": "We needed to easily manage equipment-specific training! Both safety and efficiency are crucial in the construction industry. Systems that ensure workers have the necessary training and documentation are essential. Challenges related to equipment-specific training often lead to delays on construction sites across Norway. The Kvipp digital platform solves these challenges in an efficient and user-friendly way.",
     "description": "Second description of the news"
+  },
+  "home.news.news3title": {
+    "message": "Hei",
+    "description": "First title of the news 3"
+  },
+  "home.news.news3desc": {
+    "message": "Nå skal vi ha et spennende webinar",
+    "description": "First description of the news 3"
   }
 }
