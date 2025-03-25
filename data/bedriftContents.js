@@ -32,7 +32,7 @@ const bedriftgroupsData = {
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',
-    img: "img/prosjekt-holtskogen.jpg",
+    img: "img/kvipp-admin/KvippAdminGap.jpg",
     embedCode: embeddedForm,
     isUnorderedList: true,
     unorderedListData: (
@@ -59,12 +59,11 @@ const bedriftbenefitsData = {
             <p><Translate>bedrift.benefits.arg1</Translate></p>
         </>
     ),
-    mediaType: 'embedded', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    mediaType: 'image', // 'image' ||'dyntube' || 'embedded'
     dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
-    youtubeVideoBanner: 'img/iframe-banner.jpg',
-    img: "img/workequipment/daily-inspections.webp",
+    img: "img/kvipp-admin/KvippAdminPerson.jpg",
     embedCode: embeddedForm,
     isUnorderedList: true,
     unorderedListData: (
