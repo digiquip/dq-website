@@ -31,6 +31,13 @@ const newsContent = [
         description: translate({ message: "home.news.news2desc" }),
         blogLink: '/blog/betonmast-vitasbygg-utstyrsspesifikk-vernerunde',
     },
+    {
+    isVideo: false,
+    title: translate({ message: "home.news.news3title" }),
+    imageBanner: '/img/webinarMar25.png',
+    description: translate({ message: "home.news.news3desc" }),
+    blogLink: '/blog/webinar-betonmast-AF-utstyrsspesifikk',
+    },
 ];
 //Avpublisert
 const consolidateWorkContent = {

@@ -721,11 +721,11 @@
     "description": "First description of the news 2"
   },
   "home.news.news3title": {
-    "message": "Hei",
+    "message": "Webinar 8.april: AF & Betonmast deler hvordan de løser utstyrsspesifikk opplæring",
     "description": "First title of the news 3"
   },
   "home.news.news3desc": {
-    "message": "Nå skal vi ha et spennende webinar",
-    "description": "First description of the news 3"
+    "message": "I dette webinaret vil Thomas Mahler Askheim (AF) og Jan Erik Hansen (Betonmast) gi dere et innblikk i hvordan deres virksomheter enkelt gjennomfører og dokumenterer utstyrsspesifikk opplæring, og ikke minst hvordan dette blir en mer og mer integrert del av hverdagen.",
+    "description": "nyhetssak3"
   }
 }
