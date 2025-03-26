@@ -4,7 +4,7 @@ title: Webinar - Hvordan lykkes med utstyrsspesifikk opplæring?
 tags: [pressemeldinger]
 image: img/webinarAFBetonmastMar25.png
 ---
-Opplæring og dokumentasjon trenger ikke å være komplisert! Vi inviterer til et 45-minutters webinar hvor vi tar for oss hvorfor og hvordan løse utstyrsspesifikk opplæring.
+Opplæring og dokumentasjon trenger ikke å være komplisert! I dette webinaret vil Thomas Mahler Askheim fra AF og Jan Erik Hansen fra Betonmast fortelle mer om hvordan de enkelt integrerer utstyrsspesifikk opplæring i hverdagen.
 <!-- truncate -->
 
 Som webinar-deltaker får du tilgang til en spesialpris på løsningen.
