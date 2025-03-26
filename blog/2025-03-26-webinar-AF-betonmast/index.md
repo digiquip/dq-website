@@ -16,7 +16,7 @@ Med oss har vi:
 
 ![Bilde](webinarAFBetonmastMar25.png)
 
-📅 Dato: Tirsdag 8. april
+📅 Dato: Tirsdag 8. april 2025
 
 🕒 Tid: 09.00-09.45
 
