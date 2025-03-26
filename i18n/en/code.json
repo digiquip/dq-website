@@ -759,11 +759,11 @@
     "description": "Second description of the news"
   },
   "home.news.news3title": {
-    "message": "Hei",
+    "message": "Webinar 8th April: AF & Betonmast talks about how to solve training and documentation",
     "description": "First title of the news 3"
   },
   "home.news.news3desc": {
-    "message": "Nå skal vi ha et spennende webinar",
+    "message": "In this webinar you will meet Thomas Mahler Askheim (AF) and Jan Erik Hansen (Betonmast) where you will get more insights about how they solve training and documentation.",
     "description": "First description of the news 3"
   }
 }
