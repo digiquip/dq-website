@@ -3,7 +3,9 @@ sidebar_position: 2
 ---
 # Opplæring
 
-## Identifisering av person
+For å bruke Kvipp til å gjennomføre utstyrsspesifikk opplæring trenger du kun å identifisere person og utstyr. Dette kan gjøres helt uten innlogging eller registrering. Kvipp er tilgjengelig fra nettsiden kvipp.it.
+
+## Identifisere person
 
 For identifikasjon av person kan følgende brukes:
 + HMS-kort (anbefales)
@@ -12,12 +14,12 @@ For identifikasjon av person kan følgende brukes:
 + Pass
 + Kvipp QR-kode
 
-Vi anbefaler alltid at det er QR-koden på HMS-kortet som brukes. Ved å bruke HMS-kortet blir opplæringen automatisk koblet opp mot både riktig person og virksomhet. På den måten vil virksomheten automatisk få løpende oversikt over all opplæring (Kvipp Bedrift).
+Vi anbefaler alltid at det er QR-koden på HMS-kortet som brukes. Ved å bruke HMS-kortet blir opplæringen automatisk koblet opp mot både riktig person og virksomhet, og virksomheten får automatisk løpende oversikt over all opplæring (Kvipp Bedrift).
 
 [Test selv her](https://kvipp.it)
 
 ## Registrering av utstyrsspesifikk opplæring
-Når du skal i gang med utstyrsspesifikk opplæring, kan du enten få opplæring av noen andre eller eventuelt fylle ut en egenerklæring.
+Når du skal i gang med utstyrsspesifikk opplæring, kan du enten få opplæring av noen andre eller fylle ut en egenerklæring.
 
 Hvis du allerede har et dokument, kan du laste opp det. Dermed blir det enklere å vise frem dokumentasjon på kort varsel.
 
@@ -30,12 +32,12 @@ Hvis du allerede har et dokument, kan du laste opp det. Dermed blir det enklere 
 </div>
 
 ## Gi opplæring
-For å gi opplæring, må du først registrere din kompetanse. Når opplæring er registrert, kommer valget "gi opplæring" opp og opplæringssesjonen kan startes.
+For å gi opplæring, må du først registrere egen opplæring. Så får du valget "gi opplæring" opp og opplæringssesjonen kan startes.
 
-+ Identifiser deg selv og utstyret
-+ Start ved å velge "gi opplæring"
-+ Gå gjennom en generell sjekkliste
-+ Legg til deltakerne til slutt ved å ta bilde eller skanne ID-kort
+1. Identifiser deg selv og utstyret
+2. Start ved å velge "gi opplæring"
+3. Gå gjennom en generell sjekkliste
+4. Legg til deltakerne til slutt ved å ta bilde eller skanne ID-kort. Det er ingen øvre grense for hvor mange deltakere som kan legges til
 
 Husk: Bruk HMS-kortet dersom dere har det slik at opplæringen havner på riktig virksomhet med en gang.
 
@@ -80,22 +82,28 @@ Merk at rollen "lærer" er en tilleggsrolle.
 - Lærer: 90 kr per person
 - Utstyrseier: 90 kr per person
 
-*Administratorer kan alltid gis rollene lærer og utstyrseier som inkludert i prisen.*
+*Administratorer kan alltid gis rollene lærer og Utstyrseier som inkludert i prisen.*
 
 ## Oversikt over opplæring
 I Kvipp Bedrift finner du oversikt over opplæring og du kan laste ned opplæringsbevis. Du kan sjekke ut all opplæringen til en person, hvem som kan bruke et utstyr eller lage grupper som gir deg mer oversikt over flere personer og utstyr.
 
 ## Gruppering og oversikt
-Du kan enkelt opprette grupper med personer og utstyr. Ved å gruppere får rask oversikt over status, opplæringsgap og det blir lettere å sikre at disse tettes.
+Du kan enkelt opprette grupper med personer og utstyr. Ved å gruppere får rask oversikt over status, opplæringsgap og det blir lettere å sikre at disse tettes. I tillegg kan du printe QR-kode for gruppen. Når du skanner den QR-koden får du opp alt utstyret i gruppa, og dermed har du blant annet en snarvei til å starte opplæring på mange utstyr samtidig.
 
-Grupper har som formål å forenkle arbeidet med å sikre at folk har nødvendig opplæring. Vi vet at folk er ulike og derfor er gruppefunksjonaliteten meget fleksibel. Kanskje du ønsker å gruppere etter fag, for å planlegge når du ansetter nye eller som et midlertidig prosjekt. Uansett, test ut grupper for dette.
+Grupper har som formål å forenkle arbeidet med å sikre at folk har nødvendig opplæring. Kanskje du ønsker å gruppere etter fag, for å planlegge når du ansetter nye eller som et midlertidig prosjekt, så kan du teste ut grupper for dette.
 
-import groups from '/img/groups.jpg';
+import groups from '/img/kvipp-docs-people/groups.jpg';
 
  <img src={groups} style={{width:700}} />
 
-## Hvem kan lære opp på vegne av min virksomhet?
+## Lære opp andre på vegne av vår virksomhet
 Hvis du ønsker å definere hvem som er lærer på vegne av din virksomhet, går du til "tillatelser" og velger personer som lærere. I dokumentasjonen vil det da fremkomme at vedkommende har gitt opplæring på vegne av virksomheten, som gjør det ekstra sporbart.
+
+Med rollen “lærer” havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som læreren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype.
+
+import lessons from '/img/kvipp-docs-people/lessons.jpg';
+
+ <img src={lessons} style={{width:700}} />
 
 ## Har du allerede utstyrsspesifikk opplæring i DigiQuip?
 For å få over utstyrsspesifikk opplæring fra DigiQuip til Kvipp, trengs følgende informasjon:
