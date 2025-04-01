@@ -108,7 +108,6 @@ export default function About() {
     <MainLayout>
       <MeetTeam />
       <HomepageHeader />
-      <Contact />
     </MainLayout>
   );
 }

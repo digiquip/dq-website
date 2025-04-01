@@ -3,7 +3,6 @@ import EventBlock from '../EventBlock';
 import clsx from 'clsx';
 
 import BrandLogo from "../BrandLogo";
-import HomeContactBanner from "../HomeContactBanner";
 import SafetyWork from "../SafetyWork";
 import News from "../News";
 import Translate from '@docusaurus/Translate';
@@ -148,7 +147,6 @@ useEffect(() => {
             {safeuseContent && <Safeuse items={safeuseContent}/>}
             {consolidateContent && <ConsolidateWork items={consolidateContent}/>}
             {shareInfoContent && <ShareInformation items={shareInfoContent}/>}
-            <HomeContactBanner/>
       </section>
 );
 }

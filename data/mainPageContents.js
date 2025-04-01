@@ -1,8 +1,5 @@
 import Translate, { translate } from '@docusaurus/Translate';
 import partnersBrandLogoList from './partnersBrandLogo.js';
-import eventDetail from './eventContent.js';
-
-import Link from '@docusaurus/Link';
 
 const safetyWork = [
     {
@@ -64,12 +61,10 @@ const consolidateWorkContent = {
 //Avpublisert
 
 const brandLogoPartners = partnersBrandLogoList.brandList;
-const eventBlock = eventDetail;
 
 const mainPageContentRecords = {
     safetyWork,
     newsContent,
-    eventBlock,
     brandLogoPartners,
 }
 

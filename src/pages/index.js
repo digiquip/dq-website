@@ -10,6 +10,7 @@ function HomepageHeader() {
     return (
         <section className='homepage-banner'>
            <div class="elfsight-app-d10311ae-313f-4b43-8b4f-edcd5204f038" data-elfsight-app-lazy></div>
+          <div class="elfsight-app-954fa691-f581-4d70-a48d-6ba7822b0756" data-elfsight-app-lazy></div>
             <div className={clsx('hero hero--primary heroBanner')}>
                 <div className="container">
                     <div className="row">
