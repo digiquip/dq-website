@@ -2,8 +2,25 @@
 sidebar_position: 1
 ---
 # Oppdateringer 2025
+
+På denne siden publiserer vi løpende informasjon om produktnyheter. Vi startet med dette i mars 2025.
+
 <details>
-  <summary>**DigiQuip-Kontrollverktøy Dato-18.03.2025**</summary>
+  <summary>**Kvipp - Grupper og QR-koder, legge til folk manuelt, opplæringssesjoner og søk - 31.03.2025**</summary>
+  <div>
+    <div><strong>QR-kode for grupper</strong></div>
+    <div>Generer og print ut en QR-kode som gjelder flere utstyr og personer lagt til ei gruppe. Gå til grupper og velg “KVIPP ID”. Denne QR-koden kan du printe og henge opp, og når noen skanner den får personen opp alt utstyr i gruppa. Når du gir opplæring kan du også bruke QR-koden til å legge til samtlige personer fra gruppa.</div>
+    <br/>
+    <div><strong>Legge til personer manuelt til Kvipp Bedrift</strong></div>
+    <div>Flere har etterspurt muligheten for å legge til folk manuelt i Kvipp Bedrift. Vi har lagt til en funksjon der du kan søke opp på fornavn, etternavn og fødselsdato - se “+” knappen på siden med personer. Viktig: Personen må ha identifisert seg via kvipp.it først for å dukke opp i søket. På den måten er det mer kontroll på at riktige personer legges til.</div>
+    <br/>
+    <div><strong>Søke på deltakere og utstyrstyper i opplæringssesjoner</strong></div>
+    <div>Med rollen “lærer” havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som læreren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype.</div>
+  </div>
+</details>
+
+<details>
+  <summary>**DigiQuip - Kontrollverktøy - 18.03.2025**</summary>
   <div>
     <div><strong>Lås opp-funksjon</strong></div>
     <div>Administratorer og opprinnelig kontrollør kan nå låse opp ferdigstilte kontroller.</div>

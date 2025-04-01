@@ -2,6 +2,23 @@
 sidebar_position: 1
 ---
 # Updates 2025
+
+On this page, we publish ongoing information about product news. We started this in March 2025.
+
+<details>
+  <summary>**Kvipp - Groups and QR codes, adding people manually, training sessions and search - 03/31/2025**</summary>
+  <div>
+    <div><strong>QR code for groups</strong></div>
+    <div>Generate and print a QR code that applies to multiple equipment and people added to a group. Go to groups and select “KVIPP ID”. You can print and hang this QR code, and when someone scans it, the person gets all the equipment in the group. When you provide training, you can also use the QR code to add all the people from the group.</div>
+    <br/>
+    <div><strong>Adding people manually to Kvipp Admin</strong></div>
+    <div>Several people have requested the ability to add people manually in Kvipp Admin. We have added a function where you can search by first name, last name and date of birth - see the “+” button on the people page. Important: The person must have identified themselves via kvipp.it first to appear in the search. This way, there is more control over ensuring that the correct people are added.</div>
+    <br/>
+    <div><strong>Search for participants and equipment types in training sessions</strong></div>
+    <div>With the role of "teacher", all training sessions end up in an overview. The overview includes all the people the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type.</div>
+  </div>
+</details>
+
 <details>
   <summary>**DigiQuip-Inspection Date: 18.03.2025**</summary>
   <div>
@@ -28,5 +45,3 @@ sidebar_position: 1
     <div><strong>For more information, see [here](/docs/DigiQuip/inspections)</strong></div>
   </div>
 </details>
-
-

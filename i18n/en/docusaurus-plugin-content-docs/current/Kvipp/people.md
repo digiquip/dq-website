@@ -57,12 +57,22 @@ Note that the "teacher" role is an additional role.
 In Kvipp Bedrift, you will find an overview of training, and you can download training certificates. You can check all training for an individual, who is authorised to use a piece of equipment, or create groups that give you a clearer view of multiple individuals and equipment.
 
 ## Groups and overview
-You can easily create groups with individuals and equipment. By grouping, you will quickly have an overview of status, training gaps, and it becomes easier to ensure these are addressed.
+You can easily create groups with people and equipment. By grouping, you get a quick overview of status, training gaps, and it becomes easier to ensure these are closed. In addition, you can print a QR code for the group. When you scan that QR code, you get all the equipment in the group, giving you a shortcut to start training on many equipment items simultaneously.
 
-The purpose of groups is to simplify the work of ensuring that people have the necessary training. We understand that individuals are different, which is why the group functionality is very flexible. Perhaps you want to group by subject, plan for when you hire new staff, or manage a temporary project. Whatever the case, try out groups for this purpose.
+Groups are intended to simplify the work of ensuring that people have the necessary training. Perhaps you want to group by subject, to plan when you hire new employees, or as a temporary project, you can test out groups for this.
 
-## Who can train others on behalf of my organisation?
-If you wish to define who can train on behalf of your organisation, go to "permissions" and select individuals as trainers. In the documentation, it will then show that the person has provided training on behalf of the organisation, making it extra traceable.
+import groupsEN from '/img/kvipp-docs-people/groupsEN.jpg';
+
+ <img src={groupsEN} style={{width:700}} />
+
+## Trainings on behalf of my organisation
+If you want to define who is a teacher on behalf of your company, go to "authorities" and select people as teachers. In the documentation, it will then appear that the person has provided training on behalf of the company, which makes it extra traceable.
+
+With the role of "teacher", all training sessions end up in an overview. The overview includes all the people the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type.
+
+import lessonsEN from '/img/kvipp-docs-people/lessonsEN.jpg';
+
+ <img src={lessonsEN} style={{width:700}} />
 
 ## Do you already have trainings in DigiQuip?
 To transfer equipment-specific training from DigiQuip to Kvipp, the following information is required:
