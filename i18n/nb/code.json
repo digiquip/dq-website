@@ -721,11 +721,11 @@
     "description": "First description of the news 2"
   },
   "home.news.news3title": {
-    "message": "Webinar 8.april: AF & Betonmast deler hvordan de løser utstyrsspesifikk opplæring",
+    "message": "Webinar 8.april: AF & Betonmast deler sine erfaringer rundt utstyrsspesifikk opplæring",
     "description": "First title of the news 3"
   },
   "home.news.news3desc": {
-    "message": "Opplæring og dokumentasjon trenger ikke å være komplisert! I dette webinaret vil Thomas Mahler Askheim fra AF og Jan Erik Hansen fra Betonmast fortelle mer om hvordan de enkelt integrerer utstyrsspesifikk opplæring i hverdagen.",
+    "message": "Opplæring og dokumentasjon trenger ikke å være komplisert! I dette webinaret deler Thomas Mahler Askheim fra AF og Jan Erik Hansen fra Betonmast sine erfaringer. I tillegg sørger Andreas Lydersen fra DigiQuip for at dere får et innblikk i hvordan opplæring og dokumentasjon kan løses med Kvipp.",
     "description": "nyhetssak3"
   }
 }
