@@ -3845,9 +3845,9 @@ estree-util-to-js@^2.0.0:
     source-map "^0.7.0"
 
 estree-util-value-to-estree@^3.0.1:
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/estree-util-value-to-estree/-/estree-util-value-to-estree-3.1.2.tgz"
-  integrity sha512-S0gW2+XZkmsx00tU2uJ4L9hUT7IFabbml9pHh2WQqFmAbxit++YGZne0sKJbNwkj9Wvg9E4uqWl4nCIFQMmfag==
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/estree-util-value-to-estree/-/estree-util-value-to-estree-3.3.3.tgz"
+  integrity sha512-Db+m1WSD4+mUO7UgMeKkAwdbfNWwIxLt48XF2oFU9emPfXkIu+k5/nlOj313v7wqtAPo0f9REhUvznFrPkG8CQ==
   dependencies:
     "@types/estree" "^1.0.0"
 
@@ -4684,9 +4684,9 @@ ignore@^5.2.0, ignore@^5.2.4:
   integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
 
 image-size@^1.0.2:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/image-size/-/image-size-1.1.1.tgz"
-  integrity sha512-541xKlUw6jr/6gGuk92F+mYM5zaFAc5ahphvkqvNe2bQ6gVBkd6bfrmVJ2t4KDAfikAYZyIqTnktX3i6/aQDrQ==
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/image-size/-/image-size-1.2.1.tgz"
+  integrity sha512-rH+46sQJ2dlwfjfhCyNx5thzrv+dtmBIhPHk0zgRUukHzZ/kRueTJXoYYsclBaKcSMBWuGbOFXtioLpzTb5euw==
   dependencies:
     queue "6.0.2"
 
@@ -6900,6 +6900,11 @@ react-dom@*, "react-dom@^16.6.0 || ^17.0.0 || ^18.0.0", react-dom@^18.0.0, react
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
 
+react-elfsight-widget@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/react-elfsight-widget/-/react-elfsight-widget-1.1.2.tgz"
+  integrity sha512-FT/H1f3jtrTD1jqpubl+wyqE/FfJM6TpbfpUFpDoYoofoVzPAbjGiqKs1t8IQh2D3zeoP72IgfP5/idyKyabzw==
+
 react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
@@ -6985,7 +6990,7 @@ react-router@^5.3.4, react-router@>=5, react-router@5.3.4:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react@*, "react@^16.13.1 || ^17.0.0 || ^18.0.0", "react@^16.6.0 || ^17.0.0 || ^18.0.0", react@^18.0.0, react@^18.3.1, "react@>= 16.8.0 < 19.0.0", react@>=15, react@>=16, react@>=16.0.0, react@>=17.0.0:
+react@*, "react@^16.13.1 || ^17.0.0 || ^18.0.0", "react@^16.6.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0 || ^19.0.0", react@^18.0.0, react@^18.3.1, "react@>= 16.8.0 < 19.0.0", react@>=15, react@>=16, react@>=16.0.0, react@>=17.0.0:
   version "18.3.1"
   resolved "https://registry.npmjs.org/react/-/react-18.3.1.tgz"
   integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==

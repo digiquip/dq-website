@@ -4,6 +4,7 @@ import ContactUs from '../../components/ContactUs/index.js';
 import Banner from '../../components/Banner/index.js';
 import competenceRecords from "../../../data/competenceContents.js";
 import { useEffect, useState } from 'react';
+import { ElfsightWidget } from 'react-elfsight-widget';
 
 function CompetenceBanner(props) {
   const competenceContent = props.items;
@@ -67,6 +68,7 @@ export default function Competence() {
       {kvippBenefits && <KvippBenefits items={kvippBenefits}/>}
       {kvippGetStarted && <KvippGetStarted items={kvippGetStarted}/>}
       {kvippSituation && <KvippSituation items={kvippSituation}/>}
+      <ElfsightWidget widgetId="954fa691-f581-4d70-a48d-6ba7822b0756" style={{padding: "50px 1rem 0"}}/>
       <CompetenceContactus />
     </MainLayout>
   );
