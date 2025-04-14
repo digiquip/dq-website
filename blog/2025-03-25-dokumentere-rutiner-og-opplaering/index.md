@@ -1,7 +1,7 @@
 ---
 slug: dokumentasjon
 title: Nøkkelen til suksess ligger i gode, skriftlige rutiner
-tags: [pressemeldinger]
+tags: [opplæring]
 image: img/TFogAndreas.png
 ---
 Arbeidstilsynet publiserte nylig en artikkel om viktigheten av opplæring og dokumentasjon. Bevissthet og ryddighet dokumentert i enkle rutiner rekker langt, så kan du heller bruke energien på å løse de få unntakene som tar deg helt i mål.

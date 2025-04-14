@@ -1,7 +1,7 @@
 ---
 slug: geir-schau
 title: Sååå enkelt!
-tags: [pressemeldinger]
+tags: [dobørste]
 image: img/Geir.jpg
 ---
 Bruk dobørsten! Verksmester Geir Schau er dritt lei av at folk ikke bruker dobørsten.
@@ -21,7 +21,7 @@ I videoen ser du hvordan Geir Schau enkelt gir og dokumenterer opplæring på do
 1. Gå til kvipp.it i nettleseren din
 2. Skann HMS-kort (eller annen ID)
 3. Skann utstyr eller QR-kode
-4. Gjennomføring av opplæring og dokumentasjon gjør dere samtidig
+4. Gjennomfør opplæring (dokumentasjonen skjer automatisk!)
 5. Ferdig!
 
 ### Lovpålagt opplæring har aldri vært enklere

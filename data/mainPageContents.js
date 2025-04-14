@@ -22,11 +22,11 @@ const newsContent = [
         blogLink: '/kvipp',
     },
     {
-        isVideo: false,
+        isVideo: true,
         title: translate({ message: "home.news.news2title" }),
-        imageBanner: '/img/betonmast.jpg',
+        dyntubeKey: 'wu7ssjnHDk6cNSBlWDoww',
         description: translate({ message: "home.news.news2desc" }),
-        blogLink: '/blog/betonmast-vitasbygg-utstyrsspesifikk-vernerunde',
+        blogLink: '/blog/geir-schau',
     },
     {
     isVideo: false,
