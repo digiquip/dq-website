@@ -1,7 +1,7 @@
 ---
 slug: webinar-betonmast-AF-utstyrsspesifikk
 title: Webinar - Hvordan lykkes AF og Betonmast med utstyrsspesifikk opplæring?
-tags: [pressemeldinger]
+tags: [opplæring]
 image: img/webinarAFBetonmastMar25.png
 ---
 Opplæring og dokumentasjon trenger ikke å være komplisert! AF og Betonmast deler sine erfaringer.
@@ -40,4 +40,5 @@ Kontakt Tom Freddy Bråthen på tfb@digiquip.no eller telefon 45488525.
 
 Hvis du først og fremst vil ha en demo, kan du også bruke skjemaet på denne siden og vi tar kontakt med deg.
 
-<div class="elfsight-app-954fa691-f581-4d70-a48d-6ba7822b0756" data-elfsight-app-lazy></div>
+<!-- Elfsight Contact Form | Book demo med tid - innebygd -->
+<div class="elfsight-app-8601984d-0d6c-4f1a-bb3f-495f303d2c44" data-elfsight-app-lazy></div>
