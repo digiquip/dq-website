@@ -99,7 +99,7 @@ import groups from '/img/kvipp-docs-people/groups.jpg';
 ## Lære opp andre på vegne av vår virksomhet
 Hvis du ønsker å definere hvem som er lærer på vegne av din virksomhet, går du til "tillatelser" og velger personer som lærere. I dokumentasjonen vil det da fremkomme at vedkommende har gitt opplæring på vegne av virksomheten, som gjør det ekstra sporbart.
 
-Med rollen “lærer” havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som læreren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype.
+Med rollen “lærer” havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som læreren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype. Her har du også mulighet til å ettersende dokumentasjon (PDF) direkte per e-post. Trykk deg inn på sesjonen, velg personer, og legg inn e-post adresse for mottaker.
 
 import lessons from '/img/kvipp-docs-people/lessons.jpg';
 

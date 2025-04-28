@@ -68,7 +68,9 @@ import groupsEN from '/img/kvipp-docs-people/groupsEN.jpg';
 ## Trainings on behalf of my organisation
 If you want to define who is a teacher on behalf of your company, go to "authorities" and select people as teachers. In the documentation, it will then appear that the person has provided training on behalf of the company, which makes it extra traceable.
 
-With the role of "teacher", all training sessions end up in an overview. The overview includes all the people the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type.
+With the role of "teacher", all training sessions end up in an overview. The overview includes all the people the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type. 
+
+You can also send documentation post the training by clicking through to the session, selecting who and add recipient e-mail adress.
 
 import lessonsEN from '/img/kvipp-docs-people/lessonsEN.jpg';
 

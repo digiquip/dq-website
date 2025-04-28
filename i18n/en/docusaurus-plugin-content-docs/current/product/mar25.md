@@ -6,6 +6,24 @@ sidebar_position: 1
 On this page, we publish ongoing information about product news. We started this in March 2025.
 
 <details>
+  <summary>**Kvipp - Forward documentation by email - 29.04.2025**</summary>
+  <div>
+    <div><strong>Email</strong></div>
+    <div>When people with the "teacher" role have provided training, these sessions appear in lessons. We have added a function to send the document (PDF) by email. Select the people you wish to send documentation on behalf of and add the desired recipient</div>
+    <br/>
+  </div>
+</details>
+
+<details>
+  <summary>**Kvipp - Search for people or equipment in a lesson - 02.04.2025**</summary>
+  <div>
+    <div><strong>Search in lessons</strong></div>
+    <div>When people with the "teacher" role have provided training, these sessions appear in training lessons. We have added the ability to search for equipment and people to make it easier to find information afterwards. This is particularly relevant for training sessions with external participants, e.g. when a machine supplier provides training to a customer</div>
+    <br/>
+  </div>
+</details>
+
+<details>
   <summary>**Kvipp - Groups and QR codes, adding people manually, training sessions and search - 03/31/2025**</summary>
   <div>
     <div><strong>QR code for groups</strong></div>
