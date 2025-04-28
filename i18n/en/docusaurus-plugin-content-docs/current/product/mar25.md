@@ -5,6 +5,45 @@ sidebar_position: 1
 
 On this page, we publish ongoing information about product news. We started this in March 2025.
 
+<details><summary>Thinking</summary>
+
+I need to translate the provided text from Norwegian to British English. The content is within two collapsible sections (HTML details/summary elements) that appear to be describing features or updates of a system called "Kvipp". Let me analyze and translate each section.
+
+First section:
+- Title: **Kvipp - Ettersend dokumentasjon per e-post - 29.04.2025**
+- Summary/Heading: **E-post**
+- Content: Information about sending documentation via email when people with "teacher" roles have provided training
+
+Second section:
+- Title: **Kvipp - Søk opp personer eller utstyr i en opplæringssesjon - 02.04.2025**
+- Summary/Heading: **Søk i opplæringssesjoner**
+- Content: Information about searching for equipment and people in training sessions
+
+I need to translate all this text while preserving the HTML structure. I'll make sure to use British English spelling and conventions.
+
+Here's my translation:
+# ---
+
+</details>
+
+<details>
+  <summary>**Kvipp - Forward documentation by email - 29.04.2025**</summary>
+  <div>
+    <div><strong>Email</strong></div>
+    <div>When people with the "teacher" role have provided training, these sessions appear in lessons. We have added a function to send the document (PDF) by email. Select the people you wish to send documentation on behalf of and add the desired recipient</div>
+    <br/>
+  </div>
+</details>
+
+<details>
+  <summary>**Kvipp - Search for people or equipment in a lesson - 02.04.2025**</summary>
+  <div>
+    <div><strong>Search in lessons</strong></div>
+    <div>When people with the "teacher" role have provided training, these sessions appear in training lessons. We have added the ability to search for equipment and people to make it easier to find information afterwards. This is particularly relevant for training sessions with external participants, e.g. when a machine supplier provides training to a customer</div>
+    <br/>
+  </div>
+</details>
+
 <details>
   <summary>**Kvipp - Groups and QR codes, adding people manually, training sessions and search - 03/31/2025**</summary>
   <div>
