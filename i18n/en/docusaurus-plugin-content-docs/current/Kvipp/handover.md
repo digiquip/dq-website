@@ -31,14 +31,14 @@ Go to the web page kvipp.it:
 2) Add e-mail address
 3) Documentation will be sent by e-mail
 
-In Kvipp Bedrift, the documentation will automatically be added to the right person and documentation can easily be downloaded.
+In Kvipp Bedrift, the documentation will automatically be added to the right person and documentation can easily be downloaded. You can also send documentation post the training by clicking through to the session, selecting who and add recipient e-mail adress.
 
 import kariemailEN from '/img/kariemailEN.jpg';
 
  <img src={kariemailEN} style={{width:350}} />
 
 ## Completed training sessions
-In Kvipp Bedrift, you can find all training sessions that persons with the roles "teachers", including external persons. Documentation can be downloaded.
+In Kvipp Bedrift, you can find all training sessions that persons with the roles "teachers", including external persons. Documentation can be downloaded or forwarded by e-mail.
 
 ## Can I include multiple equipment types in the same session?
 Yes, if you're a Kvipp Bedrift customer, you can assign the role "teacher" and they will be able to add multiple equipment types to the same session.

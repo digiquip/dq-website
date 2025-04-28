@@ -5,27 +5,6 @@ sidebar_position: 1
 
 On this page, we publish ongoing information about product news. We started this in March 2025.
 
-<details><summary>Thinking</summary>
-
-I need to translate the provided text from Norwegian to British English. The content is within two collapsible sections (HTML details/summary elements) that appear to be describing features or updates of a system called "Kvipp". Let me analyze and translate each section.
-
-First section:
-- Title: **Kvipp - Ettersend dokumentasjon per e-post - 29.04.2025**
-- Summary/Heading: **E-post**
-- Content: Information about sending documentation via email when people with "teacher" roles have provided training
-
-Second section:
-- Title: **Kvipp - Søk opp personer eller utstyr i en opplæringssesjon - 02.04.2025**
-- Summary/Heading: **Søk i opplæringssesjoner**
-- Content: Information about searching for equipment and people in training sessions
-
-I need to translate all this text while preserving the HTML structure. I'll make sure to use British English spelling and conventions.
-
-Here's my translation:
-# ---
-
-</details>
-
 <details>
   <summary>**Kvipp - Forward documentation by email - 29.04.2025**</summary>
   <div>
