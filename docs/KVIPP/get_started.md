@@ -72,7 +72,13 @@ I Kvipp Bedrift oppdateres all opplæring i sanntid. Som leder kan du enkelt fin
 For å sikre at alle dokumenterer sin opplæring i Kvipp, anbefaler vi å kommunisere viktigheten av dette og gjøre det enkelt å huske. Et par triks som kan gjøre det enklere å huske er å henge opp informasjon og sørge for at nettsiden blir lagret på hjemskjerm.
 
 ## Informasjon
-Sørg for at alle ansatte er klar over at opplæring skal dokumenteres digitalt via [kvipp.it](https://kvipp.it)
+Sørg for at alle ansatte er klar over at opplæring skal dokumenteres digitalt via [kvipp.it](https://kvipp.it). Husk også at dere skal ha rutiner og instrukser for opplæring. Ta det som en del av andre møter dere har, f.eks. statusmøter eller medarbeidersamtaler.
+
+## Deleger
+Vi anbefaler involvering av personer med interesse, motivasjon og kompetanse i utrullingen fra første dag. F.eks. en engasjert arbeidsleder, håndverker eller andre i felt kan dra med seg andre på laget til å gjennomføre opplæring og få dette etablert som en rutine.
+
+## Inkluder opplæring på vernerunder
+Fra tid til annen, sett opplæring som tema på vernerunden og gjør stikkprøver. Dette er med på å skape bevissthet og dere kan følge opp eventuell manglende opplæring raskt. Se mer på siden "vernerunde".
 
 ## Plakater
 Bruk plakater som påminnelser. Last ned herifra eller ta kontakt med oss for print.
