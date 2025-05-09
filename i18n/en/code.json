@@ -751,19 +751,27 @@
     "description": "First description of the news"
   },
   "home.news.news2title": {
-    "message": "So simple",
+    "message": "SD Byggentreprenør avoids reactions from Arbeidstilsynet",
     "description": "Second title of the news"
   },
   "home.news.news2desc": {
-    "message": "Use the toilet brush! Geir Schau is absolutely fed up with people not using the toilet brush.",
+    "message": "An unannounced visit from the Norwegian Labour Inspection Authority can be a stressful experience for any business. For SD Byggentreprenør AS, such a visit became the start of a journey to improve their HSE routines and ensure they followed the rules for training on dangerous work equipment – a process that can be valuable for all businesses wishing to strengthen their HSE practices.",
     "description": "Second description of the news"
   },
   "home.news.news3title": {
-    "message": "Webinar 8th April: AF & Betonmast talks about how to solve training and documentation",
-    "description": "First title of the news 3"
+    "message": "So simple",
+    "description": "Title of the news 3"
   },
   "home.news.news3desc": {
-    "message": "In this webinar, Thomas Mahler Askheim (AF) and Jan Erik Hansen (Betonmast) talks about how their businesses easily carry out and document equipment-specific training.",
-    "description": "First description of the news 3"
-  }
+    "message": "Use the toilet brush! Geir Schau is absolutely fed up with people not using the toilet brush!",
+    "description": "News 3 description"
+  },
+  "home.news.news4title": {
+    "message": "Webinar 8th April: AF & Betonmast talks about how to solve training and documentation",
+    "description": "Title of the news 4"
+  },
+"home.news.news4desc": {
+  "message": "In this webinar, Thomas Mahler Askheim (AF) and Jan Erik Hansen (Betonmast) talks about how their businesses easily carry out and document equipment-specific training.",
+  "description": "News 4 description"
+}
 }

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-# Solution prices
+# Roles and QR codes
 
 *Last updated: April 2025*
 
