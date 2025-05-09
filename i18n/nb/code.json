@@ -713,19 +713,27 @@
     "description": "First description of the news"
   },
   "home.news.news2title": {
-    "message": "Sååå enkelt",
+    "message": "SD Byggentreprenør AS unngår pålegg fra Arbeidstilsynet",
     "description": "First title of the news 2"
   },
   "home.news.news2desc": {
-    "message": "Bruk dobørsten! Verksmester Geir Schau er dritt lei av at folk ikke bruker dobørsten.",
+    "message": "Et uanmeldt besøk fra Arbeidstilsynet kan være en stressende opplevelse for enhver bedrift. For SD Byggentreprenør AS ble et slikt besøk starten på en reise for å forbedre deres HMS-rutiner og sikre at de fulgte reglene for opplæring på farlig arbeidsutstyr – en prosess som kan være verdifull for alle bedrifter som ønsker å styrke sin HMS-praksis.",
     "description": "First description of the news 2"
   },
   "home.news.news3title": {
-    "message": "Webinar 8.april: AF & Betonmast deler sine erfaringer rundt utstyrsspesifikk opplæring",
+    "message": "Sååå enkelt..",
     "description": "First title of the news 3"
   },
   "home.news.news3desc": {
-    "message": "Opplæring og dokumentasjon trenger ikke å være komplisert! I dette webinaret deler Thomas Mahler Askheim fra AF og Jan Erik Hansen fra Betonmast sine erfaringer. I tillegg sørger Andreas Lydersen fra DigiQuip for at dere får et innblikk i hvordan opplæring og dokumentasjon kan løses med Kvipp.",
+    "message": "Bruk dobørsten! Verksmester Geir Schau er dritt lei av at folk ikke bruker dobørsten!",
     "description": "nyhetssak3"
-  }
+  },
+  "home.news.news4title": {
+    "message": "Webinar 8.april: AF & Betonmast delte sine erfaringer rundt utstyrsspesifikk opplæring",
+    "description": "Title of the news 4"
+  },
+"home.news.news4desc": {
+  "message": "Opplæring og dokumentasjon trenger ikke å være komplisert! I dette webinaret delte Thomas Mahler Askheim fra AF og Jan Erik Hansen fra Betonmast sine erfaringer. I tillegg sørget Andreas Lydersen fra DigiQuip for at dere fikk et innblikk i hvordan opplæring og dokumentasjon kan løses med Kvipp.",
+  "description": "News 4 description"
+}
 }

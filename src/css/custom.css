@@ -2304,7 +2304,11 @@ nav.navbar.navbar--fixed-top.my-class:after {
 }
 
 .integrations-center h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.0rem;
+}
+
+.prices-center h2 {
+  margin-bottom: 1.0rem;
 }
 
 .call-action h3 {

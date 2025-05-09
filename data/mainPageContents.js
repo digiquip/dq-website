@@ -22,19 +22,26 @@ const newsContent = [
         blogLink: '/kvipp',
     },
     {
-        isVideo: true,
+        isVideo: false,
         title: translate({ message: "home.news.news2title" }),
-        dyntubeKey: 'wu7ssjnHDk6cNSBlWDoww',
+        imageBanner: '/img/articles/SDbygg.jpg',
         description: translate({ message: "home.news.news2desc" }),
-        blogLink: '/blog/geir-schau',
+        blogLink: '/blog/SD-tilsyn-dokumentasjon-utstyr',
     },
     {
-    isVideo: false,
+    isVideo: true,
     title: translate({ message: "home.news.news3title" }),
-    imageBanner: '/img/webinarMar25.png',
+    dyntubeKey: 'wu7ssjnHDk6cNSBlWDoww',
     description: translate({ message: "home.news.news3desc" }),
-    blogLink: '/blog/webinar-betonmast-AF-utstyrsspesifikk',
+    blogLink: '/blog/geir-schau',
     },
+    {
+        isVideo: false,
+        title: translate({ message: "home.news.news4title" }),
+        imageBanner: '/img/webinarMar25.png',
+        description: translate({ message: "home.news.news4desc" }),
+        blogLink: '/blog/webinar-betonmast-AF-utstyrsspesifikk',
+        },
 ];
 //Avpublisert
 const consolidateWorkContent = {
