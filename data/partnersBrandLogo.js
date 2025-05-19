@@ -49,6 +49,13 @@ const brandList = [
       link: "https://www.eir.no/",
     },
     {
+      Img: "img/partner-logos/SL.webp",
+      width: 120,
+      height: 30,
+      alt: "",
+      link: "https://www.stenlegging.no/",
+    },
+    {
       Img: "img/partner-logos/KALNES-logo.svg",
       width: 120,
       height: 30,
@@ -75,6 +82,27 @@ const brandList = [
       height: 30,
       alt: "",
       link: "https://www.hesselberg.no/",
+    },
+    {
+      Img: "img/partner-logos/skaaret.png",
+      width: 120,
+      height: 30,
+      alt: "",
+      link: "https://skaaret.no/",
+    },
+      {
+      Img: "img/partner-logos/hermansen.png",
+      width: 100,
+      height: 30,
+      alt: "",
+      link: "https://hermansenmaskin.no/",
+    },
+          {
+      Img: "img/partner-logos/vestbyVGS.svg",
+      width: 100,
+      height: 30,
+      alt: "",
+      link: "https://afk.no/vestby-vgs/",
     },
   ];
 
