@@ -7,7 +7,9 @@ For utstyr som "krever særlig forsiktighet ved bruk" så **skal alle ansatte ha
 
 import flytlovkrav from '/img/flytlovkrav.jpg';
 
-<img src={flytlovkrav} style={{width:800}} /> 
+<img src={flytlovkrav} style={{width:800}} />
+
+*Fra forskrift om utførelse av arbeid.*
 
 Merk: Utstyrsspesifikk opplæring kommer i tillegg til kompetansebevis, sertifikater og kurs, og det er viktig at virksomheten har rutiner for dette. Se kap. 10 og 11 i forskrift om utførelse av arbeid for mer informasjon.
 
