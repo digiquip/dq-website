@@ -15,6 +15,12 @@ Pkt 3: Evt utarbeidelse av en skriftlig instruks
 - Store maskiner skal alltid ha utstyrsspesifikk opplæring. Krever bruken sertifikat, så skal du ha utstyrsspesifikk opplæring før du bruker maskinen.
 - For mindre utstyr (f.eks. håndholdt) kan det være tilstrekkelig å få utstyrsspesifikk opplæring på en type innad i kategorien forutsatt at typene er "like". Få med dette inn i deres skriftlige policy for opplæring.
 
+import flytlovkrav from '/img/flytlovkrav.jpg';
+
+<img src={flytlovkrav} style={{width:800}} />
+
+*Fra forskrift om utførelse av arbeid.*
+
 Merk: Utstyrsspesifikk opplæring kommer i tillegg til kompetansebevis, sertifikater og kurs, og det er viktig at virksomheten har rutiner for dette og at de ansatte selv er klar over opplæringskravene. Se kap. 10 og 11 i forskrift om utførelse av arbeid for mer informasjon.
 
 ## Utrulling av Kvipp
