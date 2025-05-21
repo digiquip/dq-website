@@ -10,6 +10,10 @@ Pkt 1: Nødvendig opplæring
 Pkt 2: Personlig verneutstyr og opplæring i bruk
 Pkt 3: Evt utarbeidelse av en skriftlig instruks
 
+import flytlovkrav from '/img/flytlovkrav.jpg';
+
+<img src={flytlovkrav} style={{width:800}} />
+
 ## Hovedregelen er utstyrsspesifikk opplæring
 
 - Store maskiner skal alltid ha utstyrsspesifikk opplæring. Krever bruken sertifikat, så skal du ha utstyrsspesifikk opplæring før du bruker maskinen.

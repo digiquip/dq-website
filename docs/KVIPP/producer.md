@@ -16,6 +16,10 @@ Når du som leverandør av maskiner og utstyr gir utstyrsspesifikk opplæring, k
 ## Hva er utstyrsspesifikk opplæring
 For utstyr som "krever særlig forsiktighet ved bruk" så **skal alle ansatte ha nødvendig opplæring i bruk av arbeidsutstyret og kun ansatte som har fått opplæring skal bruke det.** Dette er arbeidsgivers ansvar. Skal en ansatt for eksempel bruke en tandemvals Volvo DD25B, er det nettopp den type arbeidsutstyr det skal gis opplæring i (forskrift om utførelse av arbeid kap. 10). Dette kalles utstyrsspesifikk opplæring på fagspråket. Noen kaller det også typeopplæring, produkt- eller maskinspesifikk opplæring.
 
+import flytlovkrav from '/img/flytlovkrav.jpg';
+
+<img src={flytlovkrav} style={{width:800}} />
+
 Merk: Utstyrsspesifikk opplæring kommer i tillegg til kompetansebevis, sertifikater og kurs, og det er viktig at virksomheten har rutiner for dette og at de ansatte selv er klar over opplæringskravene. Se kap. 10 og 11 i forskrift om utførelse av arbeid for mer informasjon.
 
 ## Slik gir du opplæring
