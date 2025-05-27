@@ -61,6 +61,16 @@ Når både person og utstyr er identifisert, får du opplæringsstatus.
 ## Når du har registrert at du kan bruke utstyret, kan du gi opplæring til andre.
 Velg "gi opplæring" og gå gjennom den generelle sjekklisten. Legg til deltakerne på slutten av sesjonen.
 
+**Se denne videoen for hvordan det gjøres, helt uten forarbeid!**
+
+<div style={{ aspectRatio: '1/1' }}>
+  <iframe
+    title="flyt"
+    src="https://videos.dyntube.com/iframes/3GrTJx2KUCJGrpy0CPYg"
+    style={{ width: '40%', height: '100%' }}
+  ></iframe>
+</div>
+
 <br/>
 
 # For løpende oversikt 
