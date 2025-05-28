@@ -646,10 +646,77 @@
   "message":"Easily follow-up and close deviations afterward.",
   "description": "The fourth point of the machine Insights section on the work equipment page"
 },
+"services.banner.title1": {
+  "message":"Training routines and documentation makes the work smoother",
+  "description": "servicestitle1"
+},
+"services.banner.title2": {
+  "message":"- and it's easy to implement",
+  "description": "servicestitle2"
+},
+"serviceswhy.title1": {
+  "message":"With training guidelines",
+  "description": "serviceswhy.title1"
+},
+"serviceswhy.title2": {
+  "message":"everyone knows what's expected",
+  "description": "serviceswhy.title2"
+},
+"serviceswhy.arg1": {
+  "message":"Employers are responsible for ensuring that workers receive training before using work equipment, and must have training routines in place. With documented guidelines and routines, you increase safety whilst reducing the likelihood of work stoppages.",
+  "description": "serviceswhy.arg1"
+},
+"serviceswhy.arg2": {
+  "message":"This involves having risk assessments in place for categories of equipment you use, and routines for when and how necessary training should be conducted and documented.",
+  "description": "serviceswhy.arg2"
+},
+"serviceswhy.arg3": {
+  "message":"Our experience shows that without routines and written procedures, you risk work being halted during inspections. We can help you establish this documentation, and you decide how often it makes sense to update it.",
+  "description": "serviceswhy.arg3"
+},
+"services-what.title1": {
+  "message":"Have you had an inspection or are you submitting a tender?",
+  "description": "services-what.title1"
+},
+"services-what.arg1": {
+  "message":"If you're inspected by the Labour Inspection Authority, they focus on whether the organisation has documented procedures and guidelines showing which training requirements apply to people using machinery and equipment. The same applies to tenders - it's important to demonstrate that the organisation only allows employees with necessary competence to use machinery and equipment, and not least how you solve this in practice. We help you achieve:",
+  "description": "services-what.arg1"
+},
+"services-what.point1": {
+  "message":"Risk assessment and evaluation of training needs",
+  "description": "services-what.point1"
+},
+"services-what.point2": {
+  "message":"Routines for documented safety training and equipment-specific training",
+  "description": "services-what.point2"
+},
+"services-what.point3": {
+  "message":"Documentation",
+  "description": "services-what.point3"
+},
+"services-how.title1": {
+  "message":"Documented safety training in practice",
+  "description": "services-how.title1"
+},
+"services-how.arg1": {
+  "message":"By focusing on equipment you actually use, you define what training is necessary. It's a good strategy for freeing up time for practical work with the best possible quality!",
+  "description": "services-how.arg1"
+},
+"services-how.point1": {
+  "message":"Certified safety training is standardised and must always be completed. Equipment-specific training will always be a requirement.",
+  "description": "services-how.point1"
+},
+"services-how.point2": {
+  "message":"Documented safety training is given by someone with competence, but there's no certification requirement. The organisation defines who should provide the training.",
+  "description": "services-how.point2"
+},
+"services-how.point3": {
+  "message":"Documented safety training consists of theoretical and practical parts. This means equipment-specific training can be covered in the same session - if the guidelines say so.",
+  "description": "services-how.point3"
+},
 "aboutus.banner.title1": {
   "message":"How it started",
   "description": "The title of banner section in the aboutus page"
-
 },
 "aboutus.banner.title2": {
   "message":"Through years of building a rental business, Lars saw a clear need to improve safety for customers.",
