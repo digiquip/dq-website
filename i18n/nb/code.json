@@ -609,6 +609,74 @@
   "message":"Følg enkelt opp og lukk avvik i etterkant.",
   "description": "The fourth point of the machine Insights section on the work equipment page"
 },
+"services.banner.title1": {
+  "message":"Opplæringsrutiner og dokumentasjon gjør hverdagen smidigere",
+  "description": "servicestitle1"
+},
+"services.banner.title2": {
+  "message":"- og det er enkelt å få på plass",
+  "description": "servicestitle2"
+},
+"serviceswhy.title1": {
+  "message":"Med retningslinjer for opplæring",
+  "description": "serviceswhy.title1"
+},
+"serviceswhy.title2": {
+  "message":"vet alle vet hva som forventes",
+  "description": "serviceswhy.title2"
+},
+"serviceswhy.arg1": {
+  "message":"Arbeidsgiver har ansvar for å sikre at arbeidstakere får opplæring før bruk av arbeidsutstyr, og skal ha rutiner for opplæring. Med dokumenterte retningslinjer og rutiner øker dere sikkerheten samtidig som sannsynligheten for stans i arbeidet reduseres.",
+  "description": "serviceswhy.arg1"
+},
+"serviceswhy.arg2": {
+  "message":"Dette handler om å ha på plass risikovurdering for grupperinger av utstyr dere bruker,og rutiner for når og hvordan nødvendig opplæring skal gjennomføres og dokumenteres.",
+  "description": "serviceswhy.arg2"
+},
+"serviceswhy.arg3": {
+  "message":"Vår erfaring er at uten rutiner og skriftlige prosedyrer, risikerer dere ved tilsyn at arbeidet stanses. Denne dokumentasjonen kan vi hjelpe dere å lande, og dere bestemmer selv hvor ofte det gir mening å oppdatere den.",
+  "description": "serviceswhy.arg3"
+},
+"services-what.title1": {
+  "message":"Har du fått tilsyn eller skal du levere et anbud?",
+  "description": "services-what.title1"
+},
+"services-what.arg1": {
+  "message":"Får du tilsyn av Arbeidstilsynet, er Arbeidstilsynet opptatt av at virksomheten har dokumenterte prosedyrer og retningslinjer som viser hvilke opplæringskrav som gjelder for personer som bruker maskiner og utstyr. Det samme gjelder for anbud, det er viktig å kunne vise til at virksomheten kun tillater ansatte med nødvendig kompetanse å bruke maskiner og utstyr, og ikke minst hvordan dere løser det i praksis. Vi hjelper dere i mål med:",
+  "description": "services-what.arg1"
+},
+"services-what.point1": {
+  "message":"Risikovurdering og vurdering av opplæringsbehov",
+  "description": "services-what.point1"
+},
+"services-what.point2": {
+  "message":"Rutiner for dokumentert sikkerhetsopplæring og utstyrsspesifikk opplæring",
+  "description": "services-what.point2"
+},
+"services-what.point3": {
+  "message":"Dokumentasjon",
+  "description": "services-what.point3"
+},
+"services-how.title1": {
+  "message":"Dokumentert sikkerhetsopplæring i praksis",
+  "description": "services-how.title1"
+},
+"services-how.arg1": {
+  "message":"Med fokus på utstyr dere faktisk skal bruke definerer dere selv hva som trengs av nødvendig opplæring. Det er en god strategi for å frigjøre tid til praktisk arbeid med best mulig kvalitet!",
+  "description": "services-how.arg1"
+},
+"services-how.point1": {
+  "message":"Sertifisert sikkerhetsopplæring er standardisert og skal alltid gjennomføres. Da er også utstyrsspesifikk opplæring et krav.",
+  "description": "services-how.point1"
+},
+"services-how.point2": {
+  "message":"Dokumentert sikkerhetsopplæring gis av noen som har kompetanse, men det er ingen krav til sertifisering. Virksomheten definerer hvem som skal gi opplæringen.",
+  "description": "services-how.point2"
+},
+"services-how.point3": {
+  "message":"Dokumentert sikkerhetsopplæring består av en teoretisk og praktisk del. Det betyr at utstyrsspesifikk opplæring kan dekkes inn i samme sesjon - hvis retningslinjene sier det.",
+  "description": "services-how.point3"
+},
 "aboutus.banner.title1": {
   "message":"Slik startet det",
   "description": "The title of banner section in the aboutus page"
