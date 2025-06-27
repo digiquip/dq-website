@@ -663,15 +663,15 @@
   "description": "serviceswhy.title2"
 },
 "serviceswhy.arg1": {
-  "message":"Employers are responsible for ensuring that workers receive training before using work equipment, and must have training routines in place. With documented guidelines and routines, you increase safety whilst reducing the likelihood of work stoppages.",
+  "message":"Employers are responsible for risk assessing equipment that may be dangerous, and then ensuring that workers receive training before using the work equipment.",
   "description": "serviceswhy.arg1"
 },
 "serviceswhy.arg2": {
-  "message":"This involves having risk assessments in place for categories of equipment you use, and routines for when and how necessary training should be conducted and documented.",
+  "message":"With this documentation, you increase safety while reducing the likelihood of work stoppages.",
   "description": "serviceswhy.arg2"
 },
 "serviceswhy.arg3": {
-  "message":"Our experience shows that without routines and written procedures, you risk work being halted during inspections. We can help you establish this documentation, and you decide how often it makes sense to update it.",
+  "message":"You create policy and risk assessment in Kvipp Bedrift, and you decide yourself how often it should be revised.",
   "description": "serviceswhy.arg3"
 },
 "services-what.title1": {
@@ -699,19 +699,19 @@
   "description": "services-how.title1"
 },
 "services-how.arg1": {
-  "message":"By focusing on equipment you actually use, you define what training is necessary. It's a good strategy for freeing up time for practical work with the best possible quality!",
+  "message":"Create policy with risk assessment in Kvipp Bedrift, and publish this in Kvipp. You define what training is necessary. Clear clarifications and limitations will save you a lot of time over time! You can easily do this assessment with Kvipp Bedrift.",
   "description": "services-how.arg1"
 },
 "services-how.point1": {
-  "message":"Certified safety training is standardised and must always be completed. Equipment-specific training will always be a requirement.",
+  "message":"Risk assess categories of work equipment.",
   "description": "services-how.point1"
 },
 "services-how.point2": {
-  "message":"Documented safety training is given by someone with competence, but there's no certification requirement. The organisation defines who should provide the training.",
+  "message":"Define which types of equipment may be dangerous.",
   "description": "services-how.point2"
 },
 "services-how.point3": {
-  "message":"Documented safety training consists of theoretical and practical parts. This means equipment-specific training can be covered in the same session - if the guidelines say so.",
+  "message":"Decide whether equipment-specific training is part of documented safety training or should be conducted on all equipment.",
   "description": "services-how.point3"
 },
 "aboutus.banner.title1": {

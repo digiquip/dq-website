@@ -626,15 +626,15 @@
   "description": "serviceswhy.title2"
 },
 "serviceswhy.arg1": {
-  "message":"Arbeidsgiver har ansvar for å sikre at arbeidstakere får opplæring før bruk av arbeidsutstyr, og skal ha rutiner for opplæring. Med dokumenterte retningslinjer og rutiner øker dere sikkerheten samtidig som sannsynligheten for stans i arbeidet reduseres.",
+  "message":"Arbeidsgiver har ansvar for å risikovurdere utstyr som kan være farlig, og deretter sikre at arbeidstakere får opplæring før bruk av arbeidsutstyret.",
   "description": "serviceswhy.arg1"
 },
 "serviceswhy.arg2": {
-  "message":"Dette handler om å ha på plass risikovurdering for grupperinger av utstyr dere bruker,og rutiner for når og hvordan nødvendig opplæring skal gjennomføres og dokumenteres.",
+  "message":"Med denne dokumentasjonen øker dere sikkerheten, samtidig som sannsynligheten for stans i arbeidet reduseres.",
   "description": "serviceswhy.arg2"
 },
 "serviceswhy.arg3": {
-  "message":"Vår erfaring er at uten rutiner og skriftlige prosedyrer, risikerer dere ved tilsyn at arbeidet stanses. Denne dokumentasjonen kan vi hjelpe dere å lande, og dere bestemmer selv hvor ofte det gir mening å oppdatere den.",
+  "message":"Policy og risikovurdering lager dere i Kvipp Bedrift, og dere bestemmer selv hvor ofte den skal revideres. Dokumentet blir lett tilgjengelig for dine ansatte i Kvipp.",
   "description": "serviceswhy.arg3"
 },
 "services-what.title1": {
@@ -642,19 +642,19 @@
   "description": "services-what.title1"
 },
 "services-what.arg1": {
-  "message":"Får du tilsyn av Arbeidstilsynet, er Arbeidstilsynet opptatt av at virksomheten har dokumenterte prosedyrer og retningslinjer som viser hvilke opplæringskrav som gjelder for personer som bruker maskiner og utstyr. Det samme gjelder for anbud: Det er viktig å kunne vise til at virksomheten kun tillater ansatte med nødvendig kompetanse å bruke arbeidsutstyr, og ikke minst hvordan dere løser det i praksis. Vi hjelper dere i mål med:",
+  "message":"Får du tilsyn av Arbeidstilsynet, er Arbeidstilsynet opptatt av at virksomheten kan dokumentere hvilke opplæringskrav som gjelder for personer som bruker maskiner og utstyr. Det samme gjelder for anbud: Det er viktig å kunne vise til at virksomheten kun tillater ansatte med nødvendig kompetanse å bruke arbeidsutstyr, og ikke minst hvordan dere løser det i praksis. Vi hjelper dere i mål med:",
   "description": "services-what.arg1"
 },
 "services-what.point1": {
-  "message":"Risikovurdering og vurdering av opplæringsbehov",
+  "message":"Risikovurdering og vurdering av opplæringsbehov.",
   "description": "services-what.point1"
 },
 "services-what.point2": {
-  "message":"Rutiner for dokumentert sikkerhetsopplæring og utstyrsspesifikk opplæring",
+  "message":"Policy for dokumentert sikkerhetsopplæring og utstyrsspesifikk opplæring.",
   "description": "services-what.point2"
 },
 "services-what.point3": {
-  "message":"Dokumentasjon",
+  "message":"Tilgjengeliggjøring av dokumentasjon for ansatte og andre interessenter.",
   "description": "services-what.point3"
 },
 "services-how.title1": {
@@ -662,19 +662,19 @@
   "description": "services-how.title1"
 },
 "services-how.arg1": {
-  "message":"Med fokus på utstyr dere faktisk skal bruke definerer dere selv hva som trengs av nødvendig opplæring. Det er en god strategi for å frigjøre tid til praktisk arbeid med best mulig kvalitet!",
+  "message":"Lag policy med risikovurdering i Kvipp Bedrift, og publiser dette i Kvipp. Dere definerer hvilken opplæring som er nødvendig. Tydelige avklaringer og begrensninger vil spare dere for mye tid! For eksempel dersom du har fem like sirkelsager, kan du definere at disse dekkes inn i samme opplæring. Uten denne vurderingen dokumentert er kravet fem ulike opplæringer. Vurderingen gjør dere enkelt med Kvipp Bedrift.",
   "description": "services-how.arg1"
 },
 "services-how.point1": {
-  "message":"Sertifisert sikkerhetsopplæring er standardisert og skal alltid gjennomføres. Da er også utstyrsspesifikk opplæring et krav.",
+  "message":"Risikovurder kategorier med arbeidsutstyr.",
   "description": "services-how.point1"
 },
 "services-how.point2": {
-  "message":"Dokumentert sikkerhetsopplæring gis av noen som har kompetanse, men det er ingen krav til sertifisering. Virksomheten definerer hvem som skal gi opplæringen.",
+  "message":"Definer hvilke typer utstyr som kan være farlige.",
   "description": "services-how.point2"
 },
 "services-how.point3": {
-  "message":"Dokumentert sikkerhetsopplæring består av en teoretisk og praktisk del. Det betyr at utstyrsspesifikk opplæring kan dekkes inn i samme sesjon - hvis retningslinjene sier det.",
+  "message":"Beslutt om utstyrsspesifikk opplæring er en del av dokumentert sikkerhetsopplæring eller skal gjennomføres på alt utstyr.",
   "description": "services-how.point3"
 },
 "aboutus.banner.title1": {
