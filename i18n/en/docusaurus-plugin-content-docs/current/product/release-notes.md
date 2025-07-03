@@ -6,6 +6,23 @@ sidebar_position: 1
 On this page, we publish ongoing information about product news. We started this in March 2025.
 
 <details>
+  <summary>**Kvipp - Various improvements in usage and look-and-feel - 01.07.2025**</summary>
+  <div>
+    <div>In June, we made a lot of small improvements to the look and feel. Here are some examples.</div>
+    <br/>
+    <ul>
+      <li>More precise text for uploading previous equipment-specific training</li>
+      <li>Improved how Kvipp interprets ID cards. For HMS cards, for example, you can both scan the QR code and take a picture of your name on the back of the card</li>
+      <li>Table improvements in Kvipp Company</li>
+      <li>Standardization of design and design guide</li>
+      <li>Retrieve training certificates from groups</li>
+    </ul>
+    <br/>
+    <div>PS: In addition, we have been working on a new feature that will make training much easier! More information will come after the summer holidays! 👍</div>
+  </div>
+</details>
+
+<details>
   <summary>**Kvipp - Forward documentation by email - 29.04.2025**</summary>
   <div>
     <div><strong>Email</strong></div>
@@ -27,10 +44,10 @@ On this page, we publish ongoing information about product news. We started this
   <summary>**Kvipp - Groups and QR codes, adding people manually, training sessions and search - 03/31/2025**</summary>
   <div>
     <div><strong>QR code for groups</strong></div>
-    <div>Generate and print a QR code that applies to multiple equipment and people added to a group. Go to groups and select “KVIPP ID”. You can print and hang this QR code, and when someone scans it, the person gets all the equipment in the group. When you provide training, you can also use the QR code to add all the people from the group.</div>
+    <div>Generate and print a QR code that applies to multiple equipment and people added to a group. Go to groups and select "KVIPP ID". You can print and hang this QR code, and when someone scans it, the person gets all the equipment in the group. When you provide training, you can also use the QR code to add all the people from the group.</div>
     <br/>
     <div><strong>Adding people manually to Kvipp Admin</strong></div>
-    <div>Several people have requested the ability to add people manually in Kvipp Admin. We have added a function where you can search by first name, last name and date of birth - see the “+” button on the people page. Important: The person must have identified themselves via kvipp.it first to appear in the search. This way, there is more control over ensuring that the correct people are added.</div>
+    <div>Several people have requested the ability to add people manually in Kvipp Admin. We have added a function where you can search by first name, last name and date of birth - see the "+" button on the people page. Important: The person must have identified themselves via kvipp.it first to appear in the search. This way, there is more control over ensuring that the correct people are added.</div>
     <br/>
     <div><strong>Search for participants and equipment types in training sessions</strong></div>
     <div>With the role of "teacher", all training sessions end up in an overview. The overview includes all the people the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type.</div>

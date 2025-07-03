@@ -2354,27 +2354,34 @@ nav.navbar.navbar--fixed-top.my-class:after {
 }
 
 /* src/css/custom.css */
+details, details *, summary {
+  color: #000 !important;
+  font-size: 20px !important;
+}
 details {
+  border: 1px solid #000 !important;
+  border-radius: 4px;
+  background-color: #fff !important;
   margin: 1em 0;
   padding: 1em;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: var(--ifm-color-primary)
 }
-
+details[open] summary {
+  border-bottom: none;
+}
 summary {
   font-weight: bold;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-bottom: none;
+  padding-bottom: 0.3em;
 }
-
-details[open] summary {
-  color: #000000;
+summary::marker, summary::-webkit-details-marker {
+  color: #f05a09;
 }
-
-details p {
-  margin: 0.5em 0 0;
+details > div {
+  border-top: none !important;
 }
-
 
 /* EVENT PAGE CSS */
 .eventpage-wrapper *,
@@ -2630,4 +2637,14 @@ nav .dropdown--hoverable:hover .navbar__link:after {
   border-color: var(--ifm-color-orange);
   transform: rotate(313deg);
   top: 0px;
+}
+
+details hr {
+  border: none;
+  border-top: 2px solid #f05a09 !important;
+  height: 0;
+  margin: 1em 0;
+}
+details > div:first-child {
+  border-top: 2px solid #f05a09 !important;
 }
