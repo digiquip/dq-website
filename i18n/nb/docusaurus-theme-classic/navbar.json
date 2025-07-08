@@ -30,5 +30,13 @@
   "item.label.Contact us": {
     "message": "Kontakt oss",
     "description": "Navigering til kontakt oss"
+
+  "item.label.Priser": {
+    "message": "Priser",
+    "description": "Navbar element med etikett Priser"
+  },
+  "item.label.Dokumentasjon": {
+    "message": "Dokumentasjon",
+    "description": "Navbar element med etikett Dokumentasjon"
   }
 }
