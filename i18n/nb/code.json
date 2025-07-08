@@ -198,6 +198,34 @@
     "message": "Utvid sidenavigering for '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
+  "signin.title": {
+    "message": "Logg inn",
+    "description": "Sign in page title"
+  },
+  "signin.subtitle": {
+    "message": "Velg hvilken tjeneste du vil logge inn på",
+    "description": "Sign in page subtitle"
+  },
+  "signin.digiquip.description": {
+    "message": "Logg inn for å administrere utstyr, inspeksjoner og kompetanse",
+    "description": "DigiQuip sign in description"
+  },
+  "signin.kvipp.description": {
+    "message": "Logg inn for å finne og administrere utstyrsspesifikk opplæring",
+    "description": "Kvipp sign in description"
+  },
+  "signin.contact.title": {
+    "message": "Ønsker du tilgang? Ta kontakt!",
+    "description": "Contact card title"
+  },
+  "kvipp.freeuse.info.prefix": {
+    "message": "Husk at du alltid kan bruke",
+    "description": "Prefix for Kvipp free use info"
+  },
+  "kvipp.freeuse.info.suffix": {
+    "message": "gratis for å gi og motta opplæring",
+    "description": "Suffix for Kvipp free use info"
+  },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
     "message": "Slå sammen sidenavigering for '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
@@ -339,7 +367,7 @@
     "description": "The second argument of the safe use of machinery section on the home page"
   },
   "home.safeuse.arg3": {
-    "message": "By placing QR codes on machines or equipment, users gain immediate access to their own competency status for the specific work equipment.",
+    "message": "Ved å plassere QR-koder på maskiner eller utstyr får brukere umiddelbar tilgang til sin egen kompetansestatus for det spesifikke arbeidsutstyret.",
     "description": "The third argument of the safe use of machinery section on the home page"
   },
   "home.consolidate.title": {

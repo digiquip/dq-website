@@ -198,6 +198,34 @@
     "message": "Expand sidebar category '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
+  "signin.title": {
+    "message": "Sign in",
+    "description": "Sign in page title"
+  },
+  "signin.subtitle": {
+    "message": "Choose which service you want to sign in to",
+    "description": "Sign in page subtitle"
+  },
+  "signin.digiquip.description": {
+    "message": "Sign in to manage equipment, inspections and competence",
+    "description": "DigiQuip sign in description"
+  },
+  "signin.kvipp.description": {
+    "message": "Sign in to find and manage equipment-specific training",
+    "description": "Kvipp sign in description"
+  },
+  "signin.contact.title": {
+    "message": "Want to subscribe?",
+    "description": "Contact card title"
+  },
+  "kvipp.freeuse.info.prefix": {
+    "message": "Remember that you can always use",
+    "description": "Prefix for Kvipp free use info"
+  },
+  "kvipp.freeuse.info.suffix": {
+    "message": "for free for providing and receiving training",
+    "description": "Suffix for Kvipp free use info"
+  },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"

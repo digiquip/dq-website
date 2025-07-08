@@ -19,10 +19,6 @@
     "message": "Om oss",
     "description": "Navigering til om oss"
   },
-  "item.label.Pricing": {
-    "message": "Priser",
-    "description": "Navigering til priser"
-  },
   "item.label.Sign in": {
     "message": "Logg inn",
     "description": "Navbar element med etikett Logg inn"
