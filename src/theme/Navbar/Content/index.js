@@ -55,8 +55,8 @@ export default function ContentWrapper(props) {
     sidebarid: "tutorialSidebar",
     to: "/blog"
   }
-  // Add Blog based on local lang
-  if(i18n.currentLocale != 'en') { 
+  // Add Blog based on local lang, but only if not already present
+  if (i18n.currentLocale != 'en' && !leftItems.some(item => item.label === 'Blogg')) {
     leftItems.splice(3, 0, newNavItemBlog);
   }
   return (

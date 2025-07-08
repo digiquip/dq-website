@@ -21,10 +21,14 @@
   },
   "item.label.Sign in": {
     "message": "Logg inn",
-    "description": "Navbar element med etikett Logg inn"
+    "description": "Navigering til innlogging"
   },
   "item.label.Scan QR": {
     "message": "Skann QR",
     "description": "Navbar element med etikett Scan"
+  },
+  "item.label.Contact us": {
+    "message": "Kontakt oss",
+    "description": "Navigering til kontakt oss"
   }
 }

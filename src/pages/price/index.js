@@ -59,7 +59,7 @@ function AboutIntegrations() {
       <div className="container">
         <div className='integrations-center'>
           <h2>Integrasjoner<span className='orange'>.</span> </h2>
-          <p>Vi jobber løpende med integrasjoner, og integrasjoner er noe vi kan! <a href="https://digiquip.no/about" target="_blank">Ta kontakt med Andreas eller Olav for å høre mer</a>.</p>
+          <p>Vi jobber løpende med integrasjoner, og integrasjoner er noe vi kan! <a href="https://digiquip.no/contact" target="_blank">Ta kontakt med Andreas eller Olav for å høre mer</a>.</p>
         </div>
       </div>
     </section>

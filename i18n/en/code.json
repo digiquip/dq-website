@@ -826,8 +826,8 @@
     "description": "Navbar item with label Contact"
   },
   "navbar.label.contact_us": {
-    "message": "Contact Us",
-    "description": "Navbar item with label Contact Us"
+    "message": "Contact us",
+    "description": "Navbar item with label Contact us"
   },
   "navbar.label.book_meeting": {
     "message": "Book a Meeting",

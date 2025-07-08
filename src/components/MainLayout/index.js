@@ -4,12 +4,14 @@ import { useEffect } from 'react';
 import { Lenis as ReactLenis } from 'lenis/react'
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/all';
-import ButtonDropdown from "../ContactUsDropdown";
+import ContactUsButton from '../ContactBtn';
+import { useLocation } from 'react-router-dom';
 
 // MainLayout component
 export default function MainLayout({ children }) {
 
   const { siteConfig } = useDocusaurusContext();
+  const location = useLocation();
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -52,7 +54,11 @@ export default function MainLayout({ children }) {
           {children}
         </main>
       </Layout>
-      <ButtonDropdown />
+      {location.pathname !== '/contact' && (
+        <div className="floating-contact-btn">
+          <ContactUsButton />
+        </div>
+      )}
     </ReactLenis>
   );
 }
