@@ -111,12 +111,6 @@ const config = {
             ]
           },
           {
-            to: '/about',
-            label: 'About us',
-            position: 'left',
-            sidebarid: 'tutorialSidebar',
-          },
-          {
             to: '/price',
             label: 'Priser',
             position: 'left',
@@ -128,18 +122,32 @@ const config = {
             position: 'left',
             label: 'Dokumentasjon',
           },
-
+          {
+            to: '/blog',
+            label: 'Blogg',
+            position: 'left',
+            sidebarid: 'tutorialSidebar',
+          },
+          {
+            to: '/contact',
+            label: 'Contact us',
+            position: 'left',
+            className: 'navbar-contact-framed',
+            sidebarid: 'tutorialSidebar',
+          },
           {
             to: '/signin',
             label: 'Sign in',
-            position: 'right',
+            position: 'left',
             sidebarid: 'loginButton',
+            className: 'navbar-signin-btn',
           },
           {
             to: 'https://kvipp.it',
             label: 'Kvipp',
-            position: 'right',
+            position: 'left',
             sidebarid: 'scanButton',
+            className: 'navbar-kvipp-btn',
           },
           {
             type: 'localeDropdown',
