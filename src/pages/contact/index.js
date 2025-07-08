@@ -16,10 +16,8 @@ function MeetTeam() {
   return (
     <section className='ourteamsec kvipp-benefits-section'>
       <div className="container">
-        <div className="row">
-          <div className={clsx("col col--12")}> 
-            <h1 className='about-main-heading'> <Translate>aboutus.team.title</Translate><span className='orange'>.</span></h1>
-          </div>
+        <div className="team-header-container">
+          <h1 className='about-main-heading'> <Translate>aboutus.team.title</Translate><span className='orange'>.</span></h1>
         </div>
         <div className="team-row">
           {users && users?.map((item) => (
