@@ -38,11 +38,9 @@
   "item.label.Blogg": {
     "message": "Blog",
     "description": "Navbar item with label Blogg"
+  },
+  "item.label.Prices": {
     "message": "Prices",
     "description": "Navbar item with label Prices"
-  },
-  "item.label.Dokumentasjon": {
-    "message": "Documentation",
-    "description": "Navbar item with label Documentation"
   }
 }
