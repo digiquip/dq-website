@@ -19,10 +19,6 @@
     "message": "About us",
     "description": "Navbar item with label About us"
   },
-  "item.label.Pricing": {
-    "message": "Pricing",
-    "description": "Navbar item with label Pricing"
-  },
   "item.label.Sign in": {
     "message": "Sign in",
     "description": "Navbar item with label Sign in"

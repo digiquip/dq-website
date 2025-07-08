@@ -130,7 +130,7 @@ const config = {
           },
 
           {
-            to: 'https://pim.digiquip.com/authenticate/idp/init?destination=none&interactionMode=signIn&existingSessionId=',
+            to: '/signin',
             label: 'Sign in',
             position: 'right',
             sidebarid: 'loginButton',

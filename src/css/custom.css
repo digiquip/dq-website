@@ -2648,3 +2648,275 @@ details hr {
 details > div:first-child {
   border-top: 2px solid #f05a09 !important;
 }
+
+/* Sign-in page styles */
+.signInContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem;
+  background: #EBECF0;
+}
+
+.signInCard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.signInTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #131313;
+  margin-bottom: 0.5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.signInSubtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.signInOptionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.signInOptionCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.signInOptionCard:hover {
+  border-color: var(--ifm-color-orange);
+  transform: translateY(-2px);
+}
+
+.signInOptionCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(240, 90, 9, 0.05) 0%, rgba(240, 90, 9, 0.02) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.signInOptionCard:hover::before {
+  opacity: 1;
+}
+
+.signInOptionContent {
+  flex: 1;
+  text-align: center;
+}
+
+.signInOptionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #131313;
+  margin-bottom: 0.5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.signInOptionDescription {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.signInOptionArrow {
+  color: #999;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.signInOptionCard:hover .signInOptionArrow {
+  color: var(--ifm-color-orange);
+  transform: translateX(4px);
+}
+
+.signInContactCard {
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: white;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signInContactCard:hover {
+  border-color: var(--ifm-color-orange);
+}
+
+.signInContactContent {
+  text-align: center;
+}
+
+.signInContactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.signInContactDetailsBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.signInContactSpacer {
+  flex: 1;
+}
+
+.signInContactDetails {
+  text-align: center;
+  color: #131313;
+}
+
+.signInContactImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+.signInContactName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #131313;
+  margin-bottom: 0.5rem;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.signInContactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #131313;
+}
+
+.signInContactLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #131313;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.signInContactLink:hover {
+  color: var(--ifm-color-orange);
+}
+
+.signInContactLink img {
+  width: 16px;
+  height: 16px;
+}
+
+.signInContactTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #131313;
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.signInCardSpacing {
+  margin-bottom: 1rem;
+}
+
+.signInKvippInfoBox {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .signInContainer {
+    padding: 1rem;
+  }
+
+  .signInCard {
+    padding: 1.5rem;
+  }
+
+  .signInTitle {
+    font-size: 1.5rem;
+  }
+
+  .signInOptionCard {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .signInOptionContent {
+    order: 1;
+  }
+
+  .signInContactInfo {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .signInContactImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .signInContactDetails {
+    order: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .signInCard {
+    padding: 1rem;
+  }
+
+  .signInTitle {
+    font-size: 1.25rem;
+  }
+
+  .signInSubtitle {
+    font-size: 0.9rem;
+  }
+}
