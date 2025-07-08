@@ -26,5 +26,13 @@
   "item.label.Scan QR": {
     "message": "Skann QR",
     "description": "Navbar element med etikett Scan"
+  },
+  "item.label.Priser": {
+    "message": "Priser",
+    "description": "Navbar element med etikett Priser"
+  },
+  "item.label.Dokumentasjon": {
+    "message": "Dokumentasjon",
+    "description": "Navbar element med etikett Dokumentasjon"
   }
 }
