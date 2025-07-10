@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import MainLayout from '../../components/MainLayout';
 import Translate from '@docusaurus/Translate';
-import ContactUsButton from '../../components/ContactBtn';
 import { useEffect, useState } from 'react';
 import TeamList from "../../../data/teamList.js";
 import BrandLogo from '../../components/BrandLogo/index.js';
@@ -14,7 +13,7 @@ function MeetTeam() {
     setUsers(TeamList.teamDataSource);
   }, []);
   return (
-    <section className='ourteamsec kvipp-benefits-section'>
+    <section className='ourteamsec section-bg-gray'>
       <div className="container">
         <div className="team-header-container">
           <h1 className='about-main-heading'> <Translate>aboutus.team.title</Translate><span className='orange'>.</span></h1>
@@ -53,13 +52,23 @@ function MeetTeam() {
 }
 
 function HomepageHeader() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
-    <section className='aboutus-story-section section-pd kvipp-benefits-section'>
+    <section className='aboutus-story-section section-pd section-bg-gray'>
       <div className='container'>
         <div className='aboutus-story-grid'>
           <div className='aboutus-story-text'>
             <h2 className='about-main-heading'><Translate>aboutus.banner.title1</Translate><span className='orange'>.</span></h2>
-            <h3><Translate>aboutus.banner.title2</Translate></h3>
+            <h3><Translate>aboutus.banner.intro</Translate></h3>
             <p><Translate>aboutus.banner.arg1</Translate></p>
             <p><Translate>aboutus.banner.arg2</Translate></p>
             <p><Translate>aboutus.banner.arg3</Translate></p>

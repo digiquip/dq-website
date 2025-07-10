@@ -322,76 +322,6 @@ nav .dropdown--show .dropdown__menu {
 /* NAVBAR CSS */
 
 
-/* EVENT BLOCK CSS */
-
-.event-block-section {
-  color: #fff;
-  padding: 5rem 0px;
-  background-color: var(--ifm-color-primary);
-}
-
-.event-block-section .ebtitle {
-  padding: 1px;
-  border-bottom: 2px solid var(--ifm-color-primary-light);
-  display: inline-block;
-}
-
-.event-block-section h5 {
-  font-size: 17px;
-}
-
-.event-block-section .presentors {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.event-block-section .presentors .presenter {
-  display: flex;
-  padding: 5px;
-  align-items: center;
-  flex-direction: column;
-}
-
-.event-block-section .presentors .presenter p {
-  font-size: 14px;
-}
-
-.event-block-section .presentors .team-image {
-  overflow: hidden;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  margin: 0rem auto 1.3rem;
-  border: solid 0.2rem var(--ifm-color-orange);
-  max-width: 143px;
-}
-
-@media(max-width:996px) {
-  .event-block-section .presentors {
-    margin-top: 3rem;
-  }
-
-  .event-block-section .presentors .team-image {
-    max-width: 100px;
-  }
-}
-
-@media(max-width:576px) {
-  .event-block-section .presentors {
-    flex-direction: column;
-  }
-
-  .event-block-section .presentors .team-image {
-    max-width: 140px;
-  }
-
-  .event-block-section .presentors .team-image {
-    margin: 0rem auto 0.5rem;
-  }
-}
-
-/* EVENT BLOCK CSS */
-
-
 .hero {
   text-align: left !important;
   overflow: hidden !important;
@@ -2428,152 +2358,6 @@ details > div {
   border-top: none !important;
 }
 
-/* EVENT PAGE CSS */
-.eventpage-wrapper *,
-.eventpage-wrapper p,
-.eventpage-wrapper h5,
-.eventpage-wrapper h1 {
-  color: #000;
-}
-
-.eventpage-wrapper {
-  padding-top: 3em;
-}
-
-.eventpage-wrapper .eventdetail {
-  position: sticky;
-  top: 0;
-}
-
-.eventpage .ebtitle {
-  padding: 1px;
-  border-bottom: 2px solid var(--ifm-color-primary-light);
-  display: inline-block;
-}
-
-.eventpage-wrapper .presentors {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.eventpage-wrapper .presentors .presenter {
-  display: flex;
-  padding: 20px;
-  cursor: default;
-  border-radius: 8px;
-  align-items: center;
-  transition: 0.2s;
-  flex-direction: column;
-}
-
-.eventpage-wrapper .presentors .presenter:hover {
-  transform: translateY(-10px);
-}
-
-/* .eventpage-wrapper .presentors .presenter p {font-size: 14px;} */
-.eventpage-wrapper .presentors .team-image {
-  overflow: hidden;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  margin: 0rem auto 1.3rem;
-  border: none;
-  max-width: 143px;
-}
-
-.eventpage-wrapper .e-description {
-  padding: 4em 0;
-}
-
-.signup-form-service {
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.e-keydetails .e-keydetails-item .e-keydetails-title {
-  font-size: 17px;
-  margin-bottom: 3px;
-}
-
-.e-keydetails .e-keydetails-item {
-  margin-bottom: 10px;
-}
-
-.e-keydetails .e-keydetails-item .e-keydetails-item-desc {
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.signup-form-service input:not([type=submit]) {
-  padding: 12px 2px !important;
-}
-
-.signup-form-service p,
-.signup-form-service a,
-.eventpage-wrapper .presentors .presenter p {
-  font-size: 14px;
-}
-
-.signup-form-service a {
-  color: var(--ifm-color-orange);
-}
-
-.signup-form-service a:hover {
-  text-decoration: underline;
-}
-
-.signup-form-service input[type=submit],
-.signup-form-service button {
-  transition: .4s ease;
-  color: #fff !important;
-  height: auto !important;
-  border-radius: 3.25rem !important;
-  padding: 0.6rem 2.8125rem !important;
-  border: 1px solid var(--ifm-color-orange);
-  background-color: var(--ifm-color-orange) !important;
-}
-
-.signup-form-service input[type=submit]:hover,
-.signup-form-service button:hover {
-  border: 1px solid var(--ifm-color-orange);
-  color: var(--ifm-color-orange) !important;
-  background-color: #fff !important;
-}
-
-/* Mail Chimp Overwrite */
-.checkbox.subfield {
-  display: flex !important;
-  align-items: center;
-}
-
-#mc_embed_signup .mc-field-group {
-  border: 0;
-}
-
-.checkbox.subfield input {
-  width: auto !important;
-  margin-right: 10px;
-}
-
-.signup-form-service .mce_inline_error {
-  background-color: transparent !important;
-}
-
-@media(max-width: 576px) {
-  .eventpage-wrapper .presentors {
-    flex-direction: column;
-  }
-
-  .eventpage-wrapper .presentors .presenter {
-    margin-bottom: 15px;
-  }
-
-  .eventpage-wrapper .e-description {
-    padding: 2em 0;
-  }
-}
-
-/* EVENT PAGE CSS */
-
 /* HERO */
 .heroBanner {
   padding: 4rem 0;
@@ -3368,8 +3152,10 @@ details > div:first-child {
   color: #222;
 }
 .contact-info-value {
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   color: #131313;
 }
 .contact-info-value a {
@@ -3417,8 +3203,10 @@ details > div:first-child {
   border: 1px solid #eee;
 }
 .contact-info-value {
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   color: #131313;
 }
 .contact-info-value a {
@@ -3430,4 +3218,20 @@ details > div:first-child {
     flex-direction: column;
     gap: 2rem;
   }
+}
+
+.navbar-sidebar .menu__link {
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  padding-top: 0.6em !important;
+  padding-bottom: 0.6em !important;
+  color: #131313 !important;
+}
+
+.theme-doc-sidebar-container .menu__link {
+  font-size: 16px !important;
+}
+
+.section-bg-gray {
+  background-color: #F6F6F6;
 }
