@@ -746,20 +746,16 @@
   "message":"How it started",
   "description": "The title of banner section in the aboutus page"
 },
-"aboutus.banner.title2": {
-  "message":"Through years of building a rental business, Lars saw a clear need to improve safety for customers.",
-  "description": "The second title of banner section in the aboutus page"
-},
 "aboutus.banner.arg1": {
-  "message":"Incorrect use of equipment is potentially very risky and can lead to serious injuries, or, in worst case, even death. The lack of easily accessible and structured product information, as well as limited collaboration in the industry, held back improvement in safety.",
+  "message":"Incorrect use of equipment is potentially very risky and can lead to serious injuries, or, in worst case, even death. The lack of systematic equipment-specific training and documentation was one of the biggest challenges.",
   "description": "The first argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg2": {
-  "message":"The need was clear – to offer the industry a solution that centralizes content for rental companies and businesses, in cooperation with dealers and OEMs, and make this information easily accessible to equipment users.",
+  "message":"The need was clear – to offer the market a digital solution that makes it easy to comply with legal requirements for equipment-specific training and equipment control. The regulations on the execution of work require that everyone who uses dangerous work equipment must have documented training on the specific model they are to operate, and it must be verified.",
   "description": "The second argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg3": {
-  "message":"Lars founded DigiQuip in 2019.",
+  "message":"Lars founded DigiQuip in 2019 to solve this challenge and make HSE work easier.",
   "description": "The third argument of the banner section in the aboutus page"
 },
 "aboutus.contact.title": {
@@ -776,51 +772,7 @@
   "description": "The button lavel of team section in the aboutus page"
 },
 
-"home.event.type": {
-  "message":"Webinar",
-  "description": "The event type in the home page"
-},
-"home.event.date": {
-  "message":"Thursday 25 April 09:00-10:00",
-  "description": "The event start time in the home page"
-},
-"home.event.title": {
-  "message":"Use your customer data in several marketing channels",
-  "description": "The title of event in the home page"
-},
-"home.event.description": {
-  "message":"Do you want to ensure a better customer experience with the use of customer data, also on the website? In this webinar, we take you through how to collect and utilize customer data in the best possible way, so that customers keep coming back to you.",
-  "description": "The description of event in home page"
-},
-"home.event.signup": {
-  "message":"Sign up here",
-  "description": "The signup button of event in the home page"
-},
 
-"home.event.keypoints_title1": {
-  "message": "00:00: <b>How to get started + demo</b>",
-  "description": "The title of first keypoint"
-},
-"home.event.keypoints_desc1": {
-  "message": "Cathrine Westbye (Solution Manager, Competence) in DigiQuip talk about our new technology venture.",
-  "description": "The description of first keypoint"
-},
-"home.event.keypoints_title2": {
-  "message": "30:00: <b>Lorem ipsum dolor sit amet</b>",
-  "description": "The title of second keypoint"
-},
-"home.event.keypoints_desc2": {
-  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut consequat lectus, iaculis tincidunt tellus.",
-  "description": "The description of second keypoint"
-},
-"home.event.keypoints_title3": {
-  "message": "50:00 <b>Fusce semper sapien id risus tincidunt</b>",
-  "description": "The title of third keypoint"
-},
-"home.event.keypoints_desc3": {
-  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  "description": "The description of third keypoint"
-},
   "navbar.label.contact": {
     "message": "Contact",
     "description": "Navbar item with label Contact"

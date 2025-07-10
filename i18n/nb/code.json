@@ -709,20 +709,20 @@
   "message":"Slik startet det",
   "description": "The title of banner section in the aboutus page"
 },
-"aboutus.banner.title2": {
-  "message":"Etter å ha bygget opp en utleievirksomhet over flere år, opplevde Lars et tydelig behov for å forbedre sikkerheten til kundene.",
-  "description": "The second title of banner section in the aboutus page"
+"aboutus.banner.intro": {
+  "message": "Etter å ha bygget opp en utleievirksomhet over flere år, opplevde Lars et tydelig behov for å forbedre sikkerheten til kundene.",
+  "description": "Intro sentence for about us banner"
 },
 "aboutus.banner.arg1": {
-  "message":"Feil bruk av maskiner kan være meget risikabelt og føre til alvorlige skader, og i verste fall dødsfall. Mangel på digital og strukturert produktinformasjon og samarbeid i bransjen var en av de største utfordringene.",
+  "message":"Feil bruk av maskiner kan være meget risikabelt og føre til alvorlige skader, og i verste fall dødsfall. Mangel på systematisk utstyrsspesifikk opplæring og dokumentasjon var en av de største utfordringene.",
   "description": "The first argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg2": {
-  "message":"Behovet var tydelig å tilby markedet en digital plattform som sentraliserer informasjonsmateriell for utleiebedrifter og entrepenører i samarbeid med forhandlere og produsenter og enkelt tilgjengeliggjøre denne informasjonen for maskinbrukerene.",
+  "message":"Behovet var tydelig: Å tilby markedet en digital løsning som gjør det enkelt å oppfylle lovkravene til utstyrsspesifikk opplæring og kontroll på utstyr. Forskrift om utførelse av arbeid krever at alle som bruker farlig arbeidsutstyr skal ha dokumentert opplæring på den spesifikke modellen de skal betjene, og den skal være kontrollert.",
   "description": "The second argument of the banner section in the aboutus page"
 },
 "aboutus.banner.arg3": {
-  "message":"Lars etablerte DigiQuip i 2019.",
+  "message":"Lars og Erik etablerte DigiQuip i 2019 for å løse denne utfordringen og gjøre HMS-arbeidet enklere.",
   "description": "The third argument of the banner section in the aboutus page"
 },
 "aboutus.contact.title": {
@@ -739,51 +739,7 @@
   "description": "The button lavel of team section in the aboutus page"
 },
 
-"home.event.type": {
-  "message":"Webinar",
-  "description": "The event type in the home page"
-},
-"home.event.date": {
-  "message":"Torsdag 25. april 09:00-10:00",
-  "description": "The event start time in the home page"
-},
-"home.event.title": {
-  "message":"Bruk kundedataene dine i flere markedsføringskanaler",
-  "description": "The title of event in the home page"
-},
-"home.event.description": {
-  "message":"Ønsker du å sikre en bedre kundeopplevelse med bruk av kundedata, også på nettsiden? I dette webinaret tar vi deg gjennom hvordan du samler inn og utnytter kundedata på best mulig måte, slik at kundene stadig kommer tilbake til deg.",
-  "description": "The description of event in home page"
-},
-"home.event.signup": {
-  "message":"Meld deg på her",
-  "description": "The signup button of event in the home page"
-},
 
-"home.event.keypoints_title1": {
-  "message": "00:00: <b>Hvordan komme i gang + demo</b>",
-  "description": "The title of first keypoint"
-},
-"home.event.keypoints_desc1": {
-  "message": "Cathrine Westbye (løsningssjef, kompetanse) i DigiQuip forteller om vår nye teknologisatsing.",
-  "description": "The description of first keypoint"
-},
-"home.event.keypoints_title2": {
-  "message": "30:00: <b>Lorem ipsum dolor sit amet</b>",
-  "description": "The title of second keypoint"
-},
-"home.event.keypoints_desc2": {
-  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut consequat lectus, iaculis tincidunt tellus.",
-  "description": "The description of second keypoint"
-},
-"home.event.keypoints_title3": {
-  "message": "50:00 <b>Fusce semper sapien id risus tincidunt</b>",
-  "description": "The title of third keypoint"
-},
-"home.event.keypoints_desc3": {
-  "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  "description": "The description of third keypoint"
-},
   "navbar.label.contact": {
     "message": "Kontakt",
     "description": "Navbar item with label Contact"

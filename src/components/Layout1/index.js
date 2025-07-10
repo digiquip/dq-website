@@ -1,5 +1,4 @@
 import HomepageFeatures from "../HomepageFeatures";
-import EventBlock from '../EventBlock';
 import clsx from 'clsx';
 
 import BrandLogo from "../BrandLogo";
@@ -87,7 +86,6 @@ export default function Layout1() {
 
 const [newsContent , setNewsContent] = useState([])
 // const [safetyWorkContent , setSafetyWorkContent] = useState([])
-const [eventBlockContent , setEventBlockContent] = useState([])
 const [brandList , setBrandList] = useState([])
 const [safeuseContent , setSafeuseContent] = useState({})
 const [consolidateContent , setConsolidateContent] = useState({})
@@ -98,7 +96,6 @@ useEffect(() => {
     if (!ignore) {
       setNewsContent(mainPageContentRecords.newsContent);
       // setSafetyWorkContent(mainPageContentRecords.safetyWork);
-      setEventBlockContent(mainPageContentRecords.eventBlock);
       setBrandList(mainPageContentRecords.brandLogoPartners);
       setSafeuseContent(mainPageContentRecords.safeuseContent);
       setConsolidateContent(mainPageContentRecords.consolidateWorkContent);
@@ -109,7 +106,7 @@ useEffect(() => {
     ignore = true;
   }
  
-}, [setNewsContent, eventBlockContent, brandList, safeuseContent, consolidateContent, shareInfoContent]);
+}, [setNewsContent, brandList, safeuseContent, consolidateContent, shareInfoContent]);
 
   useEffect(() => {
     // Load the Dyntube script when the component mounts
@@ -121,8 +118,6 @@ useEffect(() => {
       document.head.appendChild(script);
     }
   }, []);
-
-// {eventBlockContent && <EventBlock record={eventBlockContent}/>}
 
   return (
       <section>
