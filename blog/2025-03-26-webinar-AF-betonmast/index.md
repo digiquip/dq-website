@@ -26,14 +26,14 @@ Se deler av webinaret her:
 ## Webinar-tilbud
 Kvipp Bedrift: 
 Kr. 1.390,- per organisasjonsnummer per mnd.
--Inkluderer 3 administratorbruker + rollene: lærer og utstyrseier uten ekstra kostnad.
+-Inkluderer 3 administratorbruker + rollene: instruktør og utstyrseier uten ekstra kostnad.
 
 **Gratis onboarding (Verdi Kr. 3.000,-)**
 -Inntil 2 timer med hjelp via Teams for å komme raskt og trygt i gang 
 
 **Ekstra brukere:**
 Kr. 190,- per person per måned for ekstra administratorer
-Kr. 90,- per person per måned for lærer eller utstyrseier
+Kr. 90,- per person per måned for instruktør eller utstyrseier
 Alle priser er eks. mva og gjelder ut april 2025
 
 Kontakt Tom Freddy Bråthen på tfb@digiquip.no eller telefon 45488525.

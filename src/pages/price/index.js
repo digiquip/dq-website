@@ -46,7 +46,7 @@ function AboutPrices() {
       <div className="container">
         <div className='prices-center'>
           <h2>Priser og roller<span className='orange'>.</span> </h2>
-          <p> Kvipp Småbedrift og Kvipp Bedrift har en basepris på 1390 kr inkludert et definert antall roller, se matrise over. Utover standard koster rollene følgende: Administrator 190kr, lærer 90kr og utstyrseier 90kr. Dette er gjeldende hvis dere overstiger antall personer med ekstra roller. <a href="https://digiquip.no/docs/prices/detailed-price-list" target="_blank">Klikk her for flere detaljer om både roller og priser på QR-koder</a>. </p>
+          <p> Kvipp Småbedrift og Kvipp Bedrift har en basepris på 1390 kr inkludert et definert antall roller, se matrise over. Utover standard koster rollene følgende: Administrator 190kr, instruktør 90kr og utstyrseier 90kr. Dette er gjeldende hvis dere overstiger antall personer med ekstra roller. <a href="https://digiquip.no/docs/prices/detailed-price-list" target="_blank">Klikk her for flere detaljer om både roller og priser på QR-koder</a>. </p>
         </div>
       </div>
     </section>

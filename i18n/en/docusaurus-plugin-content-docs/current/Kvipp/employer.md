@@ -96,9 +96,9 @@ import groupsEN from '/img/kvipp-docs-people/groupsEN.jpg';
 
  <img src={groupsEN} style={{width:700}} />
 
-## What is the "teacher" role?
+## What is the "instructor" role?
 
-With the teacher role, the person providing training gets more options:
+With the instructor role, the person providing training gets more options:
 - Can provide training on multiple equipment in the same session.
 - Can provide training on behalf of the company. The training certificate will state that training is given on behalf of the company.
 
@@ -109,7 +109,7 @@ import myndighetlærer from '/img/myndighetlærer.png';
 <img src={myndighetlærer} style={{width:1100}} />
 
 ## Training others on behalf of our company
-With the "teacher" role, all training sessions appear in an overview. The overview includes all people that the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type. Here you also have the option to send documentation (PDF) directly by email.
+With the "instructor" role, all training sessions appear in an overview. The overview includes all people that the instructor has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type. Here you also have the option to send documentation (PDF) directly by email.
 
 import lessons from '/img/kvipp-docs-people/lessons.jpg';
 

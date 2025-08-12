@@ -26,7 +26,7 @@ On this page, we publish ongoing information about product news. We started this
   <summary>**Kvipp - Forward documentation by email - 29.04.2025**</summary>
   <div>
     <div><strong>Email</strong></div>
-    <div>When people with the "teacher" role have provided training, these sessions appear in lessons. We have added a function to send the document (PDF) by email. Select the people you wish to send documentation on behalf of and add the desired recipient</div>
+    <div>When people with the "instructor" role have provided training, these sessions appear in lessons. We have added a function to send the document (PDF) by email. Select the people you wish to send documentation on behalf of and add the desired recipient</div>
     <br/>
   </div>
 </details>
@@ -35,7 +35,7 @@ On this page, we publish ongoing information about product news. We started this
   <summary>**Kvipp - Search for people or equipment in a lesson - 02.04.2025**</summary>
   <div>
     <div><strong>Search in lessons</strong></div>
-    <div>When people with the "teacher" role have provided training, these sessions appear in training lessons. We have added the ability to search for equipment and people to make it easier to find information afterwards. This is particularly relevant for training sessions with external participants, e.g. when a machine supplier provides training to a customer</div>
+    <div>When people with the "instructor" role have provided training, these sessions appear in training lessons. We have added the ability to search for equipment and people to make it easier to find information afterwards. This is particularly relevant for training sessions with external participants, e.g. when a machine supplier provides training to a customer</div>
     <br/>
   </div>
 </details>
@@ -50,7 +50,7 @@ On this page, we publish ongoing information about product news. We started this
     <div>Several people have requested the ability to add people manually in Kvipp Admin. We have added a function where you can search by first name, last name and date of birth - see the "+" button on the people page. Important: The person must have identified themselves via kvipp.it first to appear in the search. This way, there is more control over ensuring that the correct people are added.</div>
     <br/>
     <div><strong>Search for participants and equipment types in training sessions</strong></div>
-    <div>With the role of "teacher", all training sessions end up in an overview. The overview includes all the people the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type.</div>
+    <div>With the role of "instructor", all training sessions end up in an overview. The overview includes all the people the instructor has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type.</div>
   </div>
 </details>
 

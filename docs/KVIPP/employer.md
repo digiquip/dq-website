@@ -102,9 +102,9 @@ import groups from '/img/kvipp-docs-people/groups.jpg';
 
  <img src={groups} style={{width:700}} />
 
-## Hva er rollen "lærer"?
+## Hva er rollen "instruktør"?
 
-Med rollen lærer får den som skal gi opplæring flere valg: 
+Med rollen instruktør får den som skal gi opplæring flere valg: 
 - Kan gi opplæring på flere utstyr i samme sesjon.
 - Kan gi opplæring på vegne av bedriften. På opplæringsbeviset vil det stå at opplæring er gitt på vegne av virksomheten.
 
@@ -114,8 +114,7 @@ import myndighetlærer from '/img/myndighetlærer.png';
 
 <img src={myndighetlærer} style={{width:1100}} />
 
-## Lære opp andre på vegne av vår virksomhet
-Med rollen “lærer” havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som læreren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype. Her har du også mulighet til å ettersende dokumentasjon (PDF) direkte per e-post.
+Med rollen "instruktør" havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som instruktøren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype. Her har du også mulighet til å ettersende dokumentasjon (PDF) direkte per e-post.
 
 import lessons from '/img/kvipp-docs-people/lessons.jpg';
 

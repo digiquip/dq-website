@@ -72,7 +72,7 @@ With the Equipment Owner role, which is given under permissions in Kvipp Admin, 
 
 ## Training on behalf of the company
 
-With the teacher role, the person providing training gets more options:
+With the instructor role, the person providing training gets more options:
 - Can provide training on multiple equipment in the same session.
 - Can provide training on behalf of the company. The training certificate will state that training is given on behalf of the company.
 
@@ -82,7 +82,7 @@ import myndighetlærer from '/img/myndighetlærer.png';
 
 <img src={myndighetlærer} style={{width:700}} />
 
-**One of the main advantages of being a teacher is that all training is stored in a separate overview in Kvipp Admin.** The overview includes all people that the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type. **Here you also have the option to send documentation (PDF) directly by email.**
+**One of the main advantages of being an instructor is that all training is stored in a separate overview in Kvipp Admin.** The overview includes all people that the instructor has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type. **Here you also have the option to send documentation (PDF) directly by email.**
 
 import lessonsEN from '/img/kvipp-docs-people/lessonsEN.jpg';
 

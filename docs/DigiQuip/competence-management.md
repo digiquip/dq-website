@@ -62,8 +62,4 @@ Når opplæring automatisk godkjennes, er det viktig at personen som setter denn
 
 :::
 
-Innstillingene ligger under "innstillinger > kompetanse":
-
-import approvalteachersettings from '/img/resources-FAQ/approvalteachersettings.png';
-
-<img src={approvalteachersettings} style={{width:800}} />
+Innstillingene ligger under "innstillinger > kompetanse".
