@@ -60,7 +60,7 @@ import proof from '/img/kvipp-docs-people/proof.jpg';
 Training certificates can also be sent later, more on this below.
 
 ## Training others on behalf of our company
-With Kvipp Admin, you can get a complete overview of who you have provided training to. With the "teacher" role, all training sessions appear in an overview, and it is possible to send documentation afterwards.
+With Kvipp Admin, you can get a complete overview of who you have provided training to. With the "instructor" role, all training sessions appear in an overview, and it is possible to send documentation afterwards.
 
 **Permissions in Kvipp Admin:**
 
@@ -68,15 +68,15 @@ import myndighetlærer from '/img/myndighetlærer.png';
 
 <img src={myndighetlærer} style={{width:1100}} />
 
-The overview includes all people that the teacher has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type. Here you also have the option to send documentation (PDF) directly by email.
+The overview includes all people that the instructor has trained - both internal and external. To retrieve who has received training, you can search by participant name and equipment type. Here you also have the option to send documentation (PDF) directly by email.
 
 import lessonsEN from '/img/kvipp-docs-people/lessonsEN.jpg';
 
  <img src={lessonsEN} style={{width:700}} />
 
  ## Multiple equipment in one training session
-With the "teacher" role, training can be provided on multiple equipment in the same training session.
+With the "instructor" role, training can be provided on multiple equipment in the same training session.
 
-- Assign the teacher authority in Kvipp Admin. You do this on the page called permissions.
+- Assign the instructor authority in Kvipp Admin. You do this on the page called permissions.
 - The person providing training chooses to provide training on behalf of the company and thus gets the opportunity to add more equipment.
-- In the training session, the teacher goes through the checklist once. This means that if some of the checkpoints vary, the equipment is not suitable to be part of the same session.
+- In the training session, the instructor goes through the checklist once. This means that if some of the checkpoints vary, the equipment is not suitable to be part of the same session.

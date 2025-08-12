@@ -66,7 +66,7 @@ import bevis from '/img/kvipp-docs-people/bevis.jpg';
 Opplæringsbevis kan også ettersendes, mer om dette nedenfor.
 
 ## Lære opp andre på vegne av vår virksomhet
-Med Kvipp Bedrift kan dere få dere full oversikt over hvem dere har gitt opplæring til. Med rollen “lærer” havner alle opplæringssesjonene i en oversikt, og det er mulig å ettersende dokumentasjon.
+Med Kvipp Bedrift kan dere få dere full oversikt over hvem dere har gitt opplæring til. Med rollen "instruktør" havner alle opplæringssesjonene i en oversikt, og det er mulig å ettersende dokumentasjon.
 
 **Tillatelser i Kvipp Bedrift:**
 
@@ -74,15 +74,15 @@ import myndighetlærer from '/img/myndighetlærer.png';
 
 <img src={myndighetlærer} style={{width:1100}} />
 
-Oversikten inkluderer alle personer som læreren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype. Her har du også mulighet til å ettersende dokumentasjon (PDF) direkte per e-post.
+Oversikten inkluderer alle personer som instruktøren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype. Her har du også mulighet til å ettersende dokumentasjon (PDF) direkte per e-post.
 
 import lessons from '/img/kvipp-docs-people/lessons.jpg';
 
  <img src={lessons} style={{width:700}} />
 
  ## Flere utstyr i en opplæringssesjon
-Med rollen "lærer" kan det gis opplæring på flere utstyr i samme opplæringssesjon.
+Med rollen "instruktør" kan det gis opplæring på flere utstyr i samme opplæringssesjon.
 
-- Tildel myndigheten lærer i Kvipp Bedrift. Dette gjør du på siden som heter tillatelser.
+- Tildel myndigheten instruktør i Kvipp Bedrift. Dette gjør du på siden som heter tillatelser.
 - Personen som skal gi opplæring velger å gi opplæring på vegne av virksomheten og får dermed muligheten til å legge til flere utstyr.
-- I opplæringssesjonen går læreren gjennom sjekklisten en gang. Det vil si at dersom noen av sjekkpunktene varierer er ikke utstyret egnet å være del i samme sesjon.
+- I opplæringssesjonen går instruktøren gjennom sjekklisten en gang. Det vil si at dersom noen av sjekkpunktene varierer er ikke utstyret egnet å være del i samme sesjon.

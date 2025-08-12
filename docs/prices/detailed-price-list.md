@@ -15,16 +15,16 @@ Ellers gjelder de samme prisene.
 
 Dersom dere trenger flere brukere, gjelder følgende priser per person per måned (eks. mva.):
 - Administrator: 190 kr
-- Lærer (tilleggsrolle): 90 kr
+- Instruktør (tilleggsrolle): 90 kr
 - Utstyrseier (tilleggsrolle): 90 kr
 
-Administratorer kan ha rollene "Lærer" og "Utstyrseier" uten ekstra kostnad. Dette er inkludert i administratorprisen på 190 kr per person per måned.Kvipp Bedrift inkluderer 3 administratorer i prisen. Har dere flere enn tre personer med en hvilken som helst rolle (administrator, lærer eller utstyrseier), vil det påløpe ekstra kostnader per ekstra person per måned.
+Administratorer kan ha rollene "Instruktør" og "Utstyrseier" uten ekstra kostnad. Dette er inkludert i administratorprisen på 190 kr per person per måned.Kvipp Bedrift inkluderer 3 administratorer i prisen. Har dere flere enn tre personer med en hvilken som helst rolle (administrator, instruktør eller utstyrseier), vil det påløpe ekstra kostnader per ekstra person per måned.
  
 **Ekstra administrator**
 Hvis dere har 4 administratorer, må dere betale for én ekstra administrator: 190 kr per måned.
 
-**Bruker som kun er lærer eller utstyrseier**
-Dersom en person kun har rollen som lærer eller utstyrseier (uten å være administrator), vil kostnaden være 90 kr per måned. Hvis samme person skal ha begge rollene (både lærer og utstyrseier), blir den totale kostnaden 180 kr per måned (90 kr + 90 kr).
+**Bruker som kun er instruktør eller utstyrseier**
+Dersom en person kun har rollen som instruktør eller utstyrseier (uten å være administrator), vil kostnaden være 90 kr per måned. Hvis samme person skal ha begge rollene (både instruktør og utstyrseier), blir den totale kostnaden 180 kr per måned (90 kr + 90 kr).
 
 ## Tjenester
 

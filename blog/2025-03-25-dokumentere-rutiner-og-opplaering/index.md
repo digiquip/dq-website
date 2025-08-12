@@ -16,7 +16,7 @@ Her er noen nøkkelpunkter å ta med seg:
 
 - Store maskiner skal alltid ha utstyrsspesifikk opplæring. Krever bruken sertifikat, så skal du ha utstyrsspesifikk opplæring før du bruker maskinen.
 - For mindre utstyr (f.eks. håndholdt) kan det være tilstrekkelig å få utstyrsspesifikk opplæring på en type innad i kategorien forutsatt at typene er "like". Få med dette inn i deres skriftlige policy for opplæring, for eksempel HMS-håndboken. Sånn blir tydelig både for interne og eksterne når opplæring skal gis og hva som er godt nok, som i seg selv er med på å bygge sunn sikkerhetskultur.
-- I de fleste virksomheter finnes det allerede mange lærere, og opplæring skjer kanskje hele tiden - "kan du vise meg?". Opplæringen skal gis av noen som har erfaring med å bruke utstyret, uten at det stilles krav til noe sertifikat på dette. Kunnskap og erfaring deles ofte best mellom gode kolleger!
+- I de fleste virksomheter finnes det allerede mange instruktører, og opplæring skjer kanskje hele tiden - "kan du vise meg?". Opplæringen skal gis av noen som har erfaring med å bruke utstyret, uten at det stilles krav til noe sertifikat på dette. Kunnskap og erfaring deles ofte best mellom gode kolleger!
 - Når du får praktisk opplæring, f.eks. når du er på kurs, sørg for å bruke et ekstra minutt på å dokumentere at du har fått opplæring på utstyret du brukte i kurset. Da har du både sikret deg kompetansebevis og bevis for at du har utstyrsspesifikk opplæring.
 
 Ved å sørge for skriftlige og tydelige rutiner så kan HMS-ledere sikre et tryggere arbeidsmiljø uten unødvendig byråkrati. Det er nettopp når rutiner og sikkerhetskultur er på plass at byråkrati og usikkerhet minimeres.

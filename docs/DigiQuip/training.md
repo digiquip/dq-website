@@ -26,12 +26,12 @@ import ernexlandingpage from '/img/resources-FAQ/ernexlandingpage.png';
 
 <img src={ernexlandingpage} style={{width:300}} />
 
-Til slutt legges alle deltakerne til i sesjonen ved å skanne QR-koden på lærerens telefon. Deltakerne får opplæringen dokumentert umiddelbart.
+Til slutt legges alle deltakerne til i sesjonen ved å skanne QR-koden på instruktørens telefon. Deltakerne får opplæringen dokumentert umiddelbart.
 
 Hvem som kan gi opplæring er opp til organisasjonen:
 - Alle registrerte brukere uavhengig organisasjon,
 - Registrerte brukere med godkjent kompetanse, eller
-- Utvalgte lærere.
+- Utvalgte instruktører.
 
 ## Gjennomfør en digital opplæring
 

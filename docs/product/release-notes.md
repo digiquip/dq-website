@@ -28,7 +28,7 @@ På denne siden publiserer vi løpende informasjon om produktnyheter. Vi startet
     <summary>**Kvipp - Ettersend dokumentasjon per e-post - 29.04.2025**</summary>
     <div>
       <div><strong>E-post</strong></div>
-      <div>Når personer med rollen "lærer" har gitt opplæring havner disse sesjonene i "opplæringssesjoner". Vi har lagt til en funksjon for å sende dokumentet (PDF) per e-post. Velg personene du ønsker å sende dokumentasjon på vegne av og legg til ønsket mottaker</div>
+      <div>Når personer med rollen "instruktør" har gitt opplæring havner disse sesjonene i "opplæringssesjoner". Vi har lagt til en funksjon for å sende dokumentet (PDF) per e-post. Velg personene du ønsker å sende dokumentasjon på vegne av og legg til ønsket mottaker</div>
       <br/>
     </div>
   </details>
@@ -37,7 +37,7 @@ På denne siden publiserer vi løpende informasjon om produktnyheter. Vi startet
     <summary>**Kvipp - Søk opp personer eller utstyr i en opplæringssesjon - 02.04.2025**</summary>
     <div>
       <div><strong>Søk i opplæringssesjoner</strong></div>
-      <div>Når personer med rollen "lærer" har gitt opplæring havner disse sesjonene i "opplæringssesjoner". Vi har lagt til muligheten for å søke på utstyr og person for å gjøre det enklere å finne frem i etterkant. Dette er særlig aktuelt for opplæringssesjoner med eksterne deltakere, f.eks. når en maskinleverandør gir opplæring til en kunde</div>
+      <div>Når personer med rollen "instruktør" har gitt opplæring havner disse sesjonene i "opplæringssesjoner". Vi har lagt til muligheten for å søke på utstyr og person for å gjøre det enklere å finne frem i etterkant. Dette er særlig aktuelt for opplæringssesjoner med eksterne deltakere, f.eks. når en maskinleverandør gir opplæring til en kunde</div>
       <br/>
     </div>
   </details>
@@ -52,7 +52,7 @@ På denne siden publiserer vi løpende informasjon om produktnyheter. Vi startet
       <div>Flere har etterspurt muligheten for å legge til folk manuelt i Kvipp Bedrift. Vi har lagt til en funksjon der du kan søke opp på fornavn, etternavn og fødselsdato - se "+" knappen på siden med personer. Viktig: Personen må ha identifisert seg via kvipp.it først for å dukke opp i søket. På den måten er det mer kontroll på at riktige personer legges til.</div>
       <br/>
       <div><strong>Søke på deltakere og utstyrstyper i opplæringssesjoner</strong></div>
-      <div>Med rollen "lærer" havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som læreren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype.</div>
+      <div>Med rollen "instruktør" havner alle opplæringssesjonene i en oversikt. Oversikten inkluderer alle personer som instruktøren har gitt opplæring til - både interne og eksterne. For å hente frem hvem som har fått opplæring kan du søke på deltakernavn og utstyrstype.</div>
     </div>
   </details>
 
