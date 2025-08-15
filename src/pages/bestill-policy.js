@@ -21,18 +21,26 @@ function PolicySection() {
       <div className='container'>
         <div className='aboutus-story-grid'>
           <div className='aboutus-story-text bestill-policy-container'>
-            <p className='bestill-policy-intro'>Har du en håndverkerbedrift som bruker maskiner og utstyr? Da har vi en god nyhet til deg! Vi tilbyr nå en skreddersydd policy med risikovurdering slik at du får full kontroll på når opplæring skal gjennomføres og ikke. Vi hjelper deg også i land med all dokumentasjon, både policy og opplæring.</p>
-            <h2 className='bestill-policy-heading'>Bestill policy og risikovurdering<span className='orange'>.</span></h2>
-            <p className='bestill-policy-text'>Som arbeidsgiver må du risikovurdere arbeidsutstyr og konkludere om det kan være farlig å bruke. Dersom risikovurderingen tilsier at utstyret kan føre til skade, må den ansatte ha opplæring før bruk. For like håndholdt verktøy holder det med én opplæring, selv om de er fra forskjellige merker. Dette forutsetter at du har gjort en risikovurdering og dokumentert dette.</p>
-            <p className='bestill-policy-text'>Med dokumentert policy sikrer du deg full oversikt over når opplæring trengs - og når det ikke er nødvendig. Resultatet? Smidigere hverdag for alle og null stress ved tilsyn.</p>
-            <p className='bestill-policy-text'>Med policy og risikovurdering får dere:</p>
-            <ul className='bestill-policy-list'>
-              <li>Full kontroll på hvilken opplæring som skal gis på diverse arbeidsutstyr</li>
-              <li>Solid dokumentasjon, som for eksempel kan vises ved tilsyn</li>
-            </ul>
+            <p className='bestill-policy-intro'>Bedre med spiker enn med penn? Er du en liten håndverksbedrift som heller vil få jobben gjort enn å sitte med kontorarbeid? Bruker du maskiner og utstyr? Vi fikser papirarbeidet så du kan få jobben gjort!</p>
+            <p className='bestill-policy-text'>Vi gjør hverdagen din enklere! DU tar kontakt med oss og så sørger VI for at du får på plass et dokument for policy og risikovurdering av arbeidsutstyr. Dokumentet konkluderer hvilke opplæringskrav som stilles for å bruke arbeidsutstyret.</p>
+            <p className='bestill-policy-text'>Etter at policyen er laget, blir den tilgjengelig for alle dine ansatte i <a href="https://kvipp.it" target="_blank" rel="noopener noreferrer">Kvipp</a>. Magisk? Nei, egentlig veldig enkelt. Når dine ansatte skanner HMS-kortet sitt fanger systemet opp hvor personen jobber og dokumentet kan vises.</p>
+            <p className='bestill-policy-text'>Vi gir nå de første 100 små håndverksbedriftene denne tjenesten helt gratis! Vi definerer små håndverksbedrifter som bedrifter med færre enn ti ansatte, men ta uansett kontakt så finner vi en hyggelig pris!</p>
+            
+            <details className='bestill-policy-accordion'>
+              <summary>Les mer om policy og risikovurdering</summary>
+              <div>
+                <p className='bestill-policy-text'>Som arbeidsgiver må du risikovurdere arbeidsutstyr og konkludere om det kan være farlig å bruke. Dersom risikovurderingen tilsier at utstyret kan føre til skade, må den ansatte ha opplæring før bruk. For like håndholdt verktøy kan det være nok det med én opplæring, selv om de er fra forskjellige merker. Dette forutsetter at du har gjort en risikovurdering og dokumentert dette. Uten dokumentasjon, kreves det opplæring på alle.</p>
+                <p className='bestill-policy-text'>Med dokumentert policy sikrer du deg full oversikt over når opplæring trengs - og når det ikke er nødvendig. Resultatet? Smidigere hverdag for alle og null stress ved tilsyn.</p>
+                <p className='bestill-policy-text'>Med policy og risikovurdering får dere:</p>
+                <ul className='bestill-policy-text' style={{marginLeft: '1.5rem', marginBottom: '1rem', listStyleType: 'disc'}}>
+                  <li>Full kontroll på hvilken opplæring som skal gis på diverse arbeidsutstyr</li>
+                  <li>Solid dokumentasjon, som for eksempel kan vises ved tilsyn</li>
+                </ul>
+                <p className='bestill-policy-text'>Les mer om risikovurdering og opplæring her: <a href="https://www.arbeidstilsynet.no/arbeidstid-og-organisering/opplaring/" target="_blank" rel="noopener noreferrer">https://www.arbeidstilsynet.no/arbeidstid-og-organisering/opplaring/</a></p>
+              </div>
+            </details>
 
-            <p className='bestill-policy-intro'><strong>Bestill komplett policy og risikovurdering: Vi ordner alt papirarbeidet!</strong></p>
-            <p className='bestill-policy-intro'><strong>GRATIS for de 10 første håndverkerbedriftene som bestiller!</strong></p>
+
             
             <div className='bestill-policy-contact-section'>
               <p className='bestill-policy-intro'>Vi kan også kontaktes på telefon eller e-post:</p>
