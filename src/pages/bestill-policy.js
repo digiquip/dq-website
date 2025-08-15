@@ -21,7 +21,7 @@ function PolicySection() {
       <div className='container'>
         <div className='aboutus-story-grid'>
           <div className='aboutus-story-text bestill-policy-container'>
-            <p className='bestill-policy-intro'>Har du en håndverkerbedrift med færre enn ti ansatte som bruker maskiner og utstyr? Da har vi en god nyhet til deg! Vi tilbyr nå en skreddersydd policy med risikovurdering slik at du får full kontroll på når opplæring skal gjennomføres og ikke. Vi hjelper deg også i land med all dokumentasjon, både policy og opplæring.</p>
+            <p className='bestill-policy-intro'>Har du en håndverkerbedrift som bruker maskiner og utstyr? Da har vi en god nyhet til deg! Vi tilbyr nå en skreddersydd policy med risikovurdering slik at du får full kontroll på når opplæring skal gjennomføres og ikke. Vi hjelper deg også i land med all dokumentasjon, både policy og opplæring.</p>
             <h2 className='bestill-policy-heading'>Bestill policy og risikovurdering<span className='orange'>.</span></h2>
             <p className='bestill-policy-text'>Som arbeidsgiver må du risikovurdere arbeidsutstyr og konkludere om det kan være farlig å bruke. Dersom risikovurderingen tilsier at utstyret kan føre til skade, må den ansatte ha opplæring før bruk. For like håndholdt verktøy holder det med én opplæring, selv om de er fra forskjellige merker. Dette forutsetter at du har gjort en risikovurdering og dokumentert dette.</p>
             <p className='bestill-policy-text'>Med dokumentert policy sikrer du deg full oversikt over når opplæring trengs - og når det ikke er nødvendig. Resultatet? Smidigere hverdag for alle og null stress ved tilsyn.</p>
