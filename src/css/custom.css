@@ -3273,7 +3273,7 @@ details > div:first-child {
 
 .bestill-policy-contact-info {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
 }
 
@@ -3293,11 +3293,13 @@ details > div:first-child {
 .bestill-policy-contact-link {
   display: flex;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
-.bestill-policy-contact-arrow {
-  color: var(--ifm-color-orange);
+.bestill-policy-contact-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
 }
 
 .bestill-policy-contact-email {
@@ -3320,4 +3322,13 @@ details > div:first-child {
 .bestill-policy-form-container {
   width: 100%;
   height: 100%;
+}
+
+.bestill-policy-intro {
+  font-size: 20px !important;
+  line-height: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: hsla(0, 0%, 7%, .9);
+  margin-bottom: 2rem;
 }

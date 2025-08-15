@@ -2,74 +2,65 @@ import MainLayout from '../../components/MainLayout/index.js';
 import CompetenceGrid from '../../components/CompetenceGrid/index.js';
 import ContactUs from '../../components/ContactUs/index.js';
 import Banner from '../../components/Banner/index.js';
-import servicesRecords from "../../../data/servicesContents.js";
+import policyRecords from "../../../data/policyContents.js";
 import { useEffect, useState } from 'react';
 import { ElfsightWidget } from 'react-elfsight-widget';
 
-function ServicesBanner(props) {
-  const servicesContent = props.items;
+function PolicyBanner(props) {
+  const policyContent = props.items;
   return (
-    <Banner record={servicesContent} />
+    <Banner record={policyContent} />
   );
 }
 
-function ServicesWhy(props) { 
-  const servicesWhyContent = props.items;
+function PolicyWhy(props) { 
+  const policyWhyContent = props.items;
   return (
-    <CompetenceGrid record={servicesWhyContent} />
+    <CompetenceGrid record={policyWhyContent} />
   );
 }
 
-function ServicesWhat(props) {
-  const servicesWhatContent = props.items;
+function PolicyWhat(props) {
+  const policyWhatContent = props.items;
   return (
-    <CompetenceGrid record={servicesWhatContent} />
-  );
-}
-function ServicesHow(props) {
-  const servicesHowContent = props.items;
-  return (
-    <CompetenceGrid record={servicesHowContent} />
+    <CompetenceGrid record={policyWhatContent} />
   );
 }
 
-function CompetenceContactus() {
+function PolicyContactus() {
   return (
    <ContactUs/>
   );
 }
 
 
-// Services page
-export default function Services() {
+// Policy page
+export default function Policy() {
 
-  const [services , setServicesContent] = useState({})
-  const [servicesWhy , setServicesWhy] = useState({})
-  const [servicesWhat , setServicesWhat] = useState({})
-  const [servicesHow , setServicesHow] = useState({})
+  const [policy , setPolicyContent] = useState({})
+  const [policyWhy , setPolicyWhy] = useState({})
+  const [policyWhat , setPolicyWhat] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
-        setServicesContent(servicesRecords.servicesBannerData);
-        setServicesWhy(servicesRecords.servicesWhyData);
-        setServicesWhat(servicesRecords.servicesWhatData);
-        setServicesHow(servicesRecords.servicesHowData);
+        setPolicyContent(policyRecords.policyBannerData);
+        setPolicyWhy(policyRecords.policyWhyData);
+        setPolicyWhat(policyRecords.policyWhatData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [services, servicesWhy, servicesWhat, servicesHow]);
+  }, [policy, policyWhy, policyWhat]);
 
   return (
     <MainLayout>
-      {services && <ServicesBanner items={services}/>}
-      {servicesWhy && <ServicesWhy items={servicesWhy}/>}
-      {servicesWhat && <ServicesWhat items={servicesWhat}/>}
-      {servicesHow && <ServicesHow items={servicesHow}/>}
-      <ElfsightWidget widgetId="954fa691-f581-4d70-a48d-6ba7822b0756" style={{padding: "50px 1rem 0"}}/>
-      <CompetenceContactus />
+      {policy && <PolicyBanner items={policy}/>}
+      {policyWhy && <PolicyWhy items={policyWhy}/>}
+      {policyWhat && <PolicyWhat items={policyWhat}/>}
+      <ElfsightWidget widgetId="954fa691-f581-4d70-a48d-6ba7822b0756" style={{padding: "10px 1rem 0"}}/>
+      <PolicyContactus />
     </MainLayout>
   );
 }

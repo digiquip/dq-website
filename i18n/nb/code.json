@@ -637,73 +637,81 @@
   "message":"Følg enkelt opp og lukk avvik i etterkant.",
   "description": "The fourth point of the machine Insights section on the work equipment page"
 },
-"services.banner.title1": {
-  "message":"Opplæringsrutiner og dokumentasjon gjør hverdagen smidigere",
-  "description": "servicestitle1"
+"policy.banner.title1": {
+  "message":"En mer smidig og trygg arbeidshverdag",
+  "description": "policy.banner.title1"
 },
-"services.banner.title2": {
-  "message":"- og det er enkelt å få på plass",
-  "description": "servicestitle2"
+"policy.banner.title2": {
+  "message":"med policy for opplæring",
+  "description": "policy.banner.title2"
 },
-"serviceswhy.title1": {
-  "message":"Med retningslinjer for opplæring",
-  "description": "serviceswhy.title1"
+"policywhy.title1": {
+  "message":"Policy gir deg full",
+  "description": "policywhy.title1"
 },
-"serviceswhy.title2": {
-  "message":"vet alle hva som forventes",
-  "description": "serviceswhy.title2"
+"policywhy.title2": {
+  "message":"kontroll på opplæring og krav",
+  "description": "policywhy.title2"
 },
-"serviceswhy.arg1": {
-  "message":"Arbeidsgiver har ansvar for å risikovurdere utstyr som kan være farlig, og deretter sikre at arbeidstakere får opplæring før bruk av arbeidsutstyret.",
-  "description": "serviceswhy.arg1"
+"policywhy.arg1": {
+  "message":"Alle som jobber med maskiner og utstyr må ha en policy der risikoen for skade ved bruk er vurdert og når opplæring skal gjennomføres. Og dette skal være dokumentert.",
+  "description": "policywhy.arg1"
 },
-"serviceswhy.arg2": {
-  "message":"Med denne dokumentasjonen øker dere sikkerheten, samtidig som sannsynligheten for stans i arbeidet reduseres.",
-  "description": "serviceswhy.arg2"
+"policywhy.arg2": {
+  "message":"Med dokumentert policy sikrer du deg full oversikt over når opplæring trengs - og når det ikke er nødvendig. Resultatet? Smidigere hverdag for alle og null stress ved tilsyn.",
+  "description": "policywhy.arg2"
 },
-"serviceswhy.arg3": {
-  "message":"Policy og risikovurdering lager dere i Kvipp Bedrift, og dere bestemmer selv hvor ofte den skal revideres. Dokumentet blir lett tilgjengelig for dine ansatte i Kvipp.",
-  "description": "serviceswhy.arg3"
+"policywhy.arg3": {
+  "message":"Med policy og risikovurdering får dere:",
+  "description": "policywhy.arg3"
 },
-"services-what.title1": {
-  "message":"Har du fått tilsyn eller skal du levere et anbud?",
-  "description": "services-what.title1"
+"policywhy.point1": {
+  "message":"Full kontroll på hvilken opplæring som skal gis på diverse arbeidsutstyr",
+  "description": "policywhy.point1"
 },
-"services-what.arg1": {
-  "message":"Får du tilsyn av Arbeidstilsynet, er Arbeidstilsynet opptatt av at virksomheten kan dokumentere hvilke opplæringskrav som gjelder for personer som bruker maskiner og utstyr. Det samme gjelder for anbud: Det er viktig å kunne vise til at virksomheten kun tillater ansatte med nødvendig kompetanse å bruke arbeidsutstyr, og ikke minst hvordan dere løser det i praksis. Vi hjelper dere i mål med:",
-  "description": "services-what.arg1"
+"policywhy.point2": {
+  "message":"Solid dokumentasjon, som for eksempel kan vises til ved tilsyn",
+  "description": "policywhy.point2"
 },
-"services-what.point1": {
-  "message":"Risikovurdering og vurdering av opplæringsbehov.",
-  "description": "services-what.point1"
+"policy-what.title1": {
+  "message":"Kvipp gjør jobben enkel",
+  "description": "policy-what.title1"
 },
-"services-what.point2": {
-  "message":"Policy for dokumentert sikkerhetsopplæring og utstyrsspesifikk opplæring.",
-  "description": "services-what.point2"
+"policy-what.arg1": {
+  "message":"Kategoriser utstyr smart: Fem like sirkelsager = én opplæring (ikke fem!)",
+  "description": "policy-what.arg1"
 },
-"services-what.point3": {
-  "message":"Tilgjengeliggjøring av dokumentasjon for ansatte og andre interessenter.",
-  "description": "services-what.point3"
+"policy-what.point1": {
+  "message":"",
+  "description": "policy-what.point1"
 },
-"services-how.title1": {
-  "message":"Dokumentert sikkerhetsopplæring i praksis",
-  "description": "services-how.title1"
+"policy-what.point2": {
+  "message":"Få alt på plass: Policy, dokumentasjon og oversikt - alt samlet på ett sted",
+  "description": "policy-what.point2"
 },
-"services-how.arg1": {
-  "message":"Lag policy med risikovurdering i Kvipp Bedrift, og publiser dette i Kvipp. Dere definerer hvilken opplæring som er nødvendig. Tydelige avklaringer og begrensninger vil spare dere for mye tid! For eksempel dersom du har fem like sirkelsager, kan du definere at disse dekkes inn i samme opplæring. Uten denne vurderingen dokumentert er kravet fem ulike opplæringer. Vurderingen gjør dere enkelt med Kvipp Bedrift.",
-  "description": "services-how.arg1"
+"policy-what.point3": {
+  "message":"Slik fungerer det:",
+  "description": "policy-what.point3"
 },
-"services-how.point1": {
-  "message":"Risikovurder kategorier med arbeidsutstyr.",
-  "description": "services-how.point1"
+"policy-what.point4": {
+  "message":"Kategoriser arbeidsutstyr ditt",
+  "description": "policy-what.point4"
 },
-"services-how.point2": {
-  "message":"Definer hvilke typer utstyr som kan være farlige.",
-  "description": "services-how.point2"
+"policy-what.point4b": {
+  "message":"Vurder sannsynlighet for skade og konsekvens",
+  "description": "policy-what.point4b"
 },
-"services-how.point3": {
-  "message":"Beslutt om utstyrsspesifikk opplæring er en del av dokumentert sikkerhetsopplæring eller skal gjennomføres på alt utstyr.",
-  "description": "services-how.point3"
+"policy-what.point4c": {
+  "message":"Få automatisk policy som alle kan følge",
+  "description": "policy-what.point4c"
+},
+"policy-what.point5": {
+  "message":"Med Kvipp vet alle når opplæring trengs, og du slipper unødvendige opplæringer, usikkerhet og skjemaer.",
+  "description": "policy-what.point5"
+},
+"policy-what.contact-button": {
+  "message":"Kontakt oss",
+  "description": "policy-what.contact-button"
 },
 "aboutus.banner.title1": {
   "message":"Slik startet det",
