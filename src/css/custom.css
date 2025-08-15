@@ -170,7 +170,7 @@ html[data-theme="dark"] {
 
 html {
   overscroll-behavior: contain;
-  overscroll-behavior-y: none;
+  /* overscroll-behavior-y: none; */
   /* scroll-behavior: smooth; */
   color: #131313;
   font-size: 3.8vw;
@@ -3234,4 +3234,90 @@ details > div:first-child {
 
 .section-bg-gray {
   background-color: #F6F6F6;
+}
+
+/* Bestill Policy Page Styles */
+.bestill-policy-heading {
+  font-size: 40px;
+  line-height: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.bestill-policy-text {
+  font-size: 17px !important;
+  line-height: 25px;
+  font-family: 'Lato', sans-serif;
+  color: hsla(0, 0%, 7%, .8);
+}
+
+.bestill-policy-list {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bestill-policy-contact-text {
+  margin-bottom: 1.5rem;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bestill-policy-contact-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.bestill-policy-contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bestill-policy-contact-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.bestill-policy-contact-name {
+  margin-bottom: 0.5rem;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bestill-policy-contact-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.bestill-policy-contact-arrow {
+  color: var(--ifm-color-orange);
+}
+
+.bestill-policy-contact-email {
+  margin-left: 0.5rem;
+  color: var(--ifm-color-orange);
+  text-decoration: none;
+}
+
+.bestill-policy-contact-phone {
+  color: var(--ifm-color-orange);
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bestill-policy-container {
+  align-self: flex-start;
+  padding-top: 0;
+}
+
+.bestill-policy-form-container {
+  width: 100%;
+  height: 100%;
 }
