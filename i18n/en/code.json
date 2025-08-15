@@ -674,73 +674,81 @@
   "message":"Easily follow-up and close deviations afterward.",
   "description": "The fourth point of the machine Insights section on the work equipment page"
 },
-"services.banner.title1": {
-  "message":"Training routines and documentation makes the work smoother",
-  "description": "servicestitle1"
+"policy.banner.title1": {
+  "message":"A more efficient and safe workday",
+  "description": "policy.banner.title1"
 },
-"services.banner.title2": {
-  "message":"- and it's easy to implement",
-  "description": "servicestitle2"
+"policy.banner.title2": {
+  "message":"with training policy",
+  "description": "policy.banner.title2"
 },
-"serviceswhy.title1": {
-  "message":"With training guidelines",
-  "description": "serviceswhy.title1"
+"policywhy.title1": {
+  "message":"Get control of training",
+  "description": "policywhy.title1"
 },
-"serviceswhy.title2": {
-  "message":"everyone knows what's expected",
-  "description": "serviceswhy.title2"
+"policywhy.title2": {
+  "message":"with one smart policy",
+  "description": "policywhy.title2"
 },
-"serviceswhy.arg1": {
-  "message":"Employers are responsible for risk assessing equipment that may be dangerous, and then ensuring that workers receive training before using the work equipment.",
-  "description": "serviceswhy.arg1"
+"policywhy.arg1": {
+  "message":"Everyone who works with machines and equipment must have a policy where the risk of injury during use is assessed and when training should be conducted. And this must be documented.",
+  "description": "policywhy.arg1"
 },
-"serviceswhy.arg2": {
-  "message":"With this documentation, you increase safety while reducing the likelihood of work stoppages.",
-  "description": "serviceswhy.arg2"
+"policywhy.arg2": {
+  "message":"With documented policy, you ensure full overview of when training is needed - and when it is not necessary. Result? Smoother everyday life for everyone and zero stress during inspections.",
+  "description": "policywhy.arg2"
 },
-"serviceswhy.arg3": {
-  "message":"You create policy and risk assessment in Kvipp Bedrift, and you decide yourself how often it should be revised.",
-  "description": "serviceswhy.arg3"
+"policywhy.arg3": {
+  "message":"With policy and risk assessment you get:",
+  "description": "policywhy.arg3"
 },
-"services-what.title1": {
-  "message":"Have you had an inspection or are you submitting a tender?",
-  "description": "services-what.title1"
+"policywhy.point1": {
+  "message":"Full control over which training should be given on various work equipment",
+  "description": "policywhy.point1"
 },
-"services-what.arg1": {
-  "message":"If you're inspected by the Labour Inspection Authority, they focus on whether the organisation has documented procedures and guidelines showing which training requirements apply to people using machinery and equipment. The same applies to tenders - it's important to demonstrate that the organisation only allows employees with necessary competence to use machinery and equipment, and not least how you solve this in practice. We help you achieve:",
-  "description": "services-what.arg1"
+"policywhy.point2": {
+  "message":"Solid documentation, which for example can be shown during inspections",
+  "description": "policywhy.point2"
 },
-"services-what.point1": {
-  "message":"Risk assessment and evaluation of training needs",
-  "description": "services-what.point1"
+"policy-what.title1": {
+  "message":"Kvipp makes the job easy",
+  "description": "policy-what.title1"
 },
-"services-what.point2": {
-  "message":"Routines for documented safety training and equipment-specific training",
-  "description": "services-what.point2"
+"policy-what.arg1": {
+  "message":"Categorize equipment smart: Five similar circular saws = one training (not five!)",
+  "description": "policy-what.arg1"
 },
-"services-what.point3": {
-  "message":"Documentation",
-  "description": "services-what.point3"
+"policy-what.point1": {
+  "message":"",
+  "description": "policy-what.point1"
 },
-"services-how.title1": {
-  "message":"Documented safety training in practice",
-  "description": "services-how.title1"
+"policy-what.point2": {
+  "message":"Get everything in place: Policy, documentation and overview - all collected in one place",
+  "description": "policy-what.point2"
 },
-"services-how.arg1": {
-  "message":"Create policy with risk assessment in Kvipp Bedrift, and publish this in Kvipp. You define what training is necessary. Clear clarifications and limitations will save you a lot of time over time! You can easily do this assessment with Kvipp Bedrift.",
-  "description": "services-how.arg1"
+"policy-what.point3": {
+  "message":"This is how it works:",
+  "description": "policy-what.point3"
 },
-"services-how.point1": {
-  "message":"Risk assess categories of work equipment.",
-  "description": "services-how.point1"
+"policy-what.point4": {
+  "message":"Categorize your work equipment",
+  "description": "policy-what.point4"
 },
-"services-how.point2": {
-  "message":"Define which types of equipment may be dangerous.",
-  "description": "services-how.point2"
+"policy-what.point4b": {
+  "message":"Assess probability of injury and consequences",
+  "description": "policy-what.point4b"
 },
-"services-how.point3": {
-  "message":"Decide whether equipment-specific training is part of documented safety training or should be conducted on all equipment.",
-  "description": "services-how.point3"
+"policy-what.point4c": {
+  "message":"Get automatic policy that everyone can follow",
+  "description": "policy-what.point4c"
+},
+"policy-what.point5": {
+  "message":"With Kvipp, everyone knows when training is needed, and you avoid unnecessary training, uncertainty and forms.",
+  "description": "policy-what.point5"
+},
+"policy-what.contact-button": {
+  "message":"Contact us",
+  "description": "policy-what.contact-button"
 },
 "aboutus.banner.title1": {
   "message":"How it started",
