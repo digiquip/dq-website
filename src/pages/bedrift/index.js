@@ -27,6 +27,13 @@ function BedriftGroups(props) {
   );
 }
 
+function BedriftIntegrations(props) {
+  const bedriftIntegrationsContent = props.items;
+  return (
+    <CompetenceGrid record={bedriftIntegrationsContent} />
+  );
+}
+
 function CompetenceContactus() {
   return (
    <ContactUs/>
@@ -40,26 +47,29 @@ export default function Bedrift() {
   const [bedrift , setBedriftContent] = useState({})
   const [bedriftbenefits , setBedriftBenefits] = useState({})
   const [bedriftgroups , setBedriftGroups] = useState({})
+  const [bedriftintegrations , setBedriftIntegrations] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setBedriftContent(bedriftRecords.bedriftBannerData);
         setBedriftBenefits(bedriftRecords.bedriftbenefitsData);
         setBedriftGroups(bedriftRecords.bedriftgroupsData);
+        setBedriftIntegrations(bedriftRecords.bedriftIntegrationsData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [bedrift, bedriftbenefits, bedriftgroups]);
+  }, [bedrift, bedriftbenefits, bedriftgroups, bedriftintegrations]);
 
   return (
     <MainLayout>
       {bedrift && <BedriftBanner items={bedrift}/>}
       {bedriftgroups && <BedriftGroups items={bedriftgroups}/>}
       {bedriftbenefits && <BedriftBenefits items={bedriftbenefits}/>}
-      <ElfsightWidget widgetId="954fa691-f581-4d70-a48d-6ba7822b0756" style={{padding: "50px 1rem 0"}}/>
+      {bedriftintegrations && <BedriftIntegrations items={bedriftintegrations}/>}
+      <ElfsightWidget widgetId="954fa691-f581-4d70-a48d-6ba7822b0756" style={{padding: "20px 1rem 0"}}/>
       <CompetenceContactus />
     </MainLayout>
   );
