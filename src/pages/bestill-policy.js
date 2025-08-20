@@ -33,14 +33,8 @@ function PolicySection() {
         <div className='aboutus-story-grid'>
           <div className='aboutus-story-text bestill-policy-container'>
             <h2 className='bestill-policy-heading'>Vi gir nå de første 100 små håndverksbedriftene policy og risikovurdering helt gratis!</h2>
-            <p className='bestill-policy-text'>Bedre med spiker enn med penn? Er du en liten håndverksbedrift som heller vil få jobben gjort enn å sitte med kontorarbeid? Bruker du maskiner og utstyr? Vi fikser papirarbeidet så du kan få jobben gjort!</p>
-            <p className='bestill-policy-text'>Vi gjør hverdagen din enklere! DU tar kontakt med oss og så sørger VI for at du får på plass et dokument for policy og risikovurdering av arbeidsutstyr. Dokumentet konkluderer hvilke opplæringskrav som stilles for å bruke arbeidsutstyret.</p>
-            <p className='bestill-policy-text'>Etter at policyen er laget, blir den tilgjengelig for alle dine ansatte i <a href="https://kvipp.it" target="_blank" rel="noopener noreferrer">Kvipp</a>. Magisk? Nei, egentlig veldig enkelt. Når dine ansatte skanner HMS-kortet sitt fanger systemet opp hvor personen jobber og dokumentet kan vises.</p>
-            <p className='bestill-policy-text'><em>Vi definerer små håndverksbedrifter som bedrifter med færre enn ti ansatte, men ta uansett kontakt så finner vi en hyggelig pris!</em></p>
             
-
-            
-            <div style={{marginTop: '2rem'}}>
+            <div style={{marginTop: '2rem', marginBottom: '2rem'}}>
               <div className="videosection" style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
                 <iframe
                     src="https://videos.dyntube.com/iframes/pmbvDNwg7keZ9CmVj4sSQ"
@@ -56,6 +50,11 @@ function PolicySection() {
                 ></iframe>
               </div>
             </div>
+            
+            <p className='bestill-policy-text'>Bedre med spiker enn med penn? Er du en liten håndverksbedrift som heller vil få jobben gjort enn å sitte med kontorarbeid? Bruker du maskiner og utstyr? Vi fikser papirarbeidet så du kan få jobben gjort!</p>
+            <p className='bestill-policy-text'>Vi gjør hverdagen din enklere! DU tar kontakt med oss og så sørger VI for at du får på plass et dokument for policy og risikovurdering av arbeidsutstyr. Dokumentet konkluderer hvilke opplæringskrav som stilles for å bruke arbeidsutstyret.</p>
+            <p className='bestill-policy-text'>Etter at policyen er laget, blir den tilgjengelig for alle dine ansatte i <a href="https://kvipp.it" target="_blank" rel="noopener noreferrer">Kvipp</a>. Magisk? Nei, egentlig veldig enkelt. Når dine ansatte skanner HMS-kortet sitt fanger systemet opp hvor personen jobber og dokumentet kan vises.</p>
+            <p className='bestill-policy-text'><em>Vi definerer små håndverksbedrifter som bedrifter med færre enn ti ansatte, men ta uansett kontakt så finner vi en hyggelig pris!</em></p>
             
           </div>
           <div className='aboutus-story-img'>
