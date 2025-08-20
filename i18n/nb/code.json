@@ -550,6 +550,50 @@
   "message": "Lag grupper med personer og utstyr, og få oversikt over status og progresjon. I skjermbilde ser du at personene har opplæring på halvparten av utstyret i gruppen, og du vil kunne drille ned til flere detaljer",
   "description": "bedrift groups 3"
 },
+"bedrift.integrations.title": {
+  "message": "Overfør automatisk all utstyrsspesifikk opplæring til Kompetanseregisteret (K-reg)",
+  "description": "Title for the integrations section on the bedrift page"
+},
+"bedrift.integrations.description": {
+  "message": "Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret (K-Reg). Det inkluderer, i tillegg til intern opplæring,  opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp og har registrerte instruktører. K-reg er et register driftet av Sentralregisteret.",
+  "description": "Description for the integrations section on the bedrift page"
+},
+"bedrift.integrations.link": {
+  "message": "Les mer her",
+  "description": "Link text for the integrations section on the bedrift page"
+},
+"bedrift.integrations.pricing": {
+  "message": "For 500kr per måned får du denne integrasjonen.",
+  "description": "Pricing information for the integrations section on the bedrift page"
+},
+"bedrift.integrations.orderNow": {
+  "message": "Ring oss på 69 83 85 00",
+  "description": "Call to action button text for ordering the integration"
+},
+"bedrift.integrations.emailUs": {
+  "message": "Send oss en e-post, support@digiquip.no",
+  "description": "Email button text for the integration"
+},
+"bedrift.integrations.benefit1": {
+  "message": "Automatisk overholdelse av norske forskrifter",
+  "description": "First benefit of the K-reg integration"
+},
+"bedrift.integrations.benefit2": {
+  "message": "Ingen manuell dataregistrering kreves",
+  "description": "Second benefit of the K-reg integration"
+},
+"bedrift.integrations.benefit3": {
+  "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
+  "description": "Third benefit of the K-reg integration"
+},
+"bedrift.integrations.hmsInfo": {
+  "message": "Kompetanseregisteret har en integrasjon med HMS-reg. Det betyr at du også vil få utstyrsspesifikk opplæring synlig i HMS-reg. Kontakt Sentralregisteret for mer informasjon om dette,",
+  "description": "Information about HMS-reg integration"
+},
+"bedrift.integrations.here": {
+  "message": "her",
+  "description": "Link text for 'here'"
+},
   "workequipment.banner.title1": {
     "message": "Trygg Maskin – forenkler vedlikehold og sikrer trygg bruk",
     "description": "The first title of the work equipment page"

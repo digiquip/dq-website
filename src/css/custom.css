@@ -98,7 +98,101 @@ html[data-theme="dark"] {
 .red-btn {
   background-color: var(--ifm-color-orange) !important;
   color: #fff;
-  border: solid 1px var(--ifm-color-orange) !important;
+}
+
+/* Integration CTA buttons */
+.integration-cta {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.integration-phone-btn,
+.integration-email-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid var(--ifm-color-orange);
+}
+
+.integration-phone-btn {
+  background-color: transparent;
+  color: var(--ifm-color-orange);
+}
+
+.integration-phone-btn:hover {
+  background-color: var(--ifm-color-orange);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(240, 90, 9, 0.3);
+}
+
+.integration-email-btn {
+  background-color: transparent;
+  color: var(--ifm-color-orange);
+}
+
+.integration-email-btn:hover {
+  background-color: var(--ifm-color-orange);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(240, 90, 9, 0.3);
+}
+
+.phone-icon,
+.email-icon {
+  font-size: 16px;
+}
+
+.phone-icon {
+  color: #000;
+}
+
+/* Enhanced integration section styling */
+.bedriftintegrations-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.bedriftintegrations-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.integration-benefits {
+  margin: 20px 0;
+  padding: 15px;
+  background: rgba(240, 90, 9, 0.03);
+  border-radius: 6px;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.benefit-item:last-child {
+  margin-bottom: 0;
+}
+
+.benefit-icon {
+  font-size: 18px;
+  color: #000;
 }
 
 .red-btn:hover {
@@ -808,26 +902,32 @@ background-color: #fff;
 }
 
 .kvipp-getstarted-section,
-.competence-contactu-sec,
 .bedriftgroups-section,
 .systematizedd-section,
-.library-content {
-  background-color: #fff;
+.library-content,
+.machineinsights-section {
+  background-color: #F6F6F6;
 }
 
 .kvipp-benefits-section,
 .bedriftbenefits-section,
 .kvipp-situation-section,
-.machineinsights-section {
+.competence-contactu-sec {
+  background-color: #fff;
+}
+
+.bedriftintegrations-section {
   background-color: #F6F6F6;
 }
+
+
 
 .hero .hero-content {
   color: #fff;
 }
 
 .section-pd {
-  padding: 2.5rem 0 5rem;
+  padding: 1.5rem 0 2rem;
 }
 
 /* COMPETENCE PAGE CSS */
@@ -1635,7 +1735,7 @@ aside nav li {
   }
 
   .section-pd {
-    padding: 5.5rem 0 8.5rem;
+    padding: 1.5rem 0 2rem;
   }
 
   .pricing_calculator_section.section-pd {

@@ -566,6 +566,50 @@
   "message": "Create groups with individuals and equipment, and gain an overview of status and progression. In the screenshot, you can see that individuals have training on half of the equipment in the group, and you will be able to drill down to more details.",
   "description": "business groups 3"
 },
+"bedrift.integrations.title": {
+  "message": "Automatically transfer all equipment-specific training to Kompetanseregisteret (K-reg)",
+  "description": "Title for the integrations section on the bedrift page"
+},
+"bedrift.integrations.description": {
+  "message": "When a person with the role \"instructor\" provides training to any of your employees, the result is automatically uploaded to Kompetanseregisteret (K-Reg). This includes, in addition to internal training, training received from rental companies, manufacturers and others who use Kvipp and have registered instructors. K-reg is a registry operated by Sentralregisteret.",
+  "description": "Description for the integrations section on the bedrift page"
+},
+"bedrift.integrations.link": {
+  "message": "Read more here",
+  "description": "Link text for the integrations section on the bedrift page"
+},
+"bedrift.integrations.pricing": {
+  "message": "For 500kr per month you get this integration.",
+  "description": "Pricing information for the integrations section on the bedrift page"
+},
+"bedrift.integrations.orderNow": {
+  "message": "Call us on 69 83 85 00",
+  "description": "Call to action button text for ordering the integration"
+},
+"bedrift.integrations.emailUs": {
+  "message": "Send us an email, support@digiquip.no",
+  "description": "Email button text for the integration"
+},
+"bedrift.integrations.benefit1": {
+  "message": "Automatic compliance with Norwegian regulations",
+  "description": "First benefit of the K-reg integration"
+},
+"bedrift.integrations.benefit2": {
+  "message": "No manual data entry required",
+  "description": "Second benefit of the K-reg integration"
+},
+"bedrift.integrations.benefit3": {
+  "message": "Ongoing documentation of equipment-specific training",
+  "description": "Third benefit of the K-reg integration"
+},
+"bedrift.integrations.hmsInfo": {
+  "message": "Kompetanseregisteret has an integration with HMS-reg. This means you will also get equipment-specific training visible in HMS-reg. Contact Sentralregisteret for more information about this,",
+  "description": "Information about HMS-reg integration"
+},
+"bedrift.integrations.here": {
+  "message": "click here",
+  "description": "Link text for 'here'"
+},
   "workequipment.banner.title1": {
     "message": "Get an overview of whether the equipment is safe to use",
     "description": "The first title of the work equipment page"
