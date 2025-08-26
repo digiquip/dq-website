@@ -8,6 +8,27 @@ På denne siden publiserer vi løpende informasjon om produktnyheter. Vi startet
 <div className="with-accordions">
   
   <details>
+    <summary>**Kvipp og integrasjon - Automatisk overføring til Kompetanseregisteret - 25.08.2025**</summary>
+    <div>
+      <div><strong>Automatisk overføring av utstyrsspesifikk opplæring</strong></div>
+      <div>Når en person med rollen «instruktør» gir praktisk utstyrsspesifikk opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret. Dette inkluderer både intern opplæring og opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp OG har registrerte instruktører.</div>
+      <br/>
+      <div><strong>Hvorfor integrasjon?</strong></div>
+      <ul>
+        <li><strong>Slipper manuell registrering</strong></li>
+        <li><strong>Løpende dokumentasjon av utstyrsspesifikk opplæring</strong></li>
+        <li><strong>Synlig i HMS-reg via Kompetanseregisteret</strong></li>
+      </ul>
+      <br/>
+      <div><strong>Komplett løsning</strong></div>
+      <div>Integrasjonen håndterer automatisk både norske og utenlandske arbeidstakere, inkluderer opplæringsbevis (PDF) og utstyrsinformasjon (merke og modell).</div>
+      <br/>
+             <div><strong>Kontakt oss for å aktivere integrasjonen</strong></div>
+       <div>Ring oss på <strong>69 83 85 00</strong> eller send e-post til <strong>support@digiquip.no</strong> for å aktivere integrasjonen eller om du har flere spørsmål.</div>
+     </div>
+   </details>
+
+  <details>
     <summary>**Kvipp - Diverse forbedringer i bruk og utseende - 01.07.2025**</summary>
     <div>
       <div>I juni har vi gjort en masse små forbedringer i look and feel. Her er noen eksempler.</div>
