@@ -6,6 +6,27 @@ sidebar_position: 1
 On this page, we publish ongoing information about product news. We started this in March 2025.
 
 <details>
+  <summary>**Kvipp and Integration - Automatic transfer to Kompetanseregisteret - 25.08.2025**</summary>
+  <div>
+    <div><strong>Automatic transfer of equipment-specific training</strong></div>
+    <div>When a person with the role of "instructor" provides practical training to any of your employees, the result is automatically uploaded to Kompetanseregisteret. This includes both internal training and training received from rental companies, manufacturers, and others who use Kvipp AND have registered instructors.</div>
+    <br/>
+    <div><strong>Why integration?</strong></div>
+    <ul>
+      <li><strong>No manual registration required</strong></li>
+      <li><strong>Ongoing documentation of equipment-specific training</strong></li>
+      <li><strong>Visible in HMS-reg via Kompetanseregisteret</strong></li>
+    </ul>
+    <br/>
+    <div><strong>Complete solution</strong></div>
+    <div>The integration automatically handles both Norwegian and foreign workers, includes training certificates (PDF) and equipment information (brand and model).</div>
+    <br/>
+         <div><strong>Contact us to activate the integration</strong></div>
+     <div>Call us at <strong>69 83 85 00</strong> or send an email to <strong>support@digiquip.no</strong> to activate the integration or if you have any questions.</div>
+   </div>
+ </details>
+
+<details>
   <summary>**Kvipp - Various improvements in usage and look-and-feel - 01.07.2025**</summary>
   <div>
     <div>In June, we made a lot of small improvements to the look and feel. Here are some examples.</div>

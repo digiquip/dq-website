@@ -798,6 +798,10 @@
   "message":"How it started",
   "description": "The title of banner section in the aboutus page"
 },
+"aboutus.banner.intro": {
+  "message": "After building up a rental business over several years, Lars experienced a clear need to improve the safety of customers.",
+  "description": "Intro sentence for about us banner"
+},
 "aboutus.banner.arg1": {
   "message":"Incorrect use of equipment is potentially very risky and can lead to serious injuries, or, in worst case, even death. The lack of systematic equipment-specific training and documentation was one of the biggest challenges.",
   "description": "The first argument of the banner section in the aboutus page"

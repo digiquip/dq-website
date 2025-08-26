@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 ---
 # FAQ
 Here are some answers to frequently asked questions. Contact us if you can't find the answer you're looking for!
