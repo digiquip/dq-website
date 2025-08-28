@@ -17,7 +17,7 @@ const newsContent = [
     {
         isVideo: true,
         title: translate({ message: "home.news.news1title" }),
-        dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+        dyntubeKey: 'ijuv7LbG0UyMeCGQBVIDbw',
         description: translate({ message: "home.news.news1desc" }),
         blogLink: '/kvipp',
     },
