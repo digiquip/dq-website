@@ -29,7 +29,7 @@ const machinesEquipmentData = {
         </>
     ),
     mediaType: 'image', // 'image' || 'youtube' || 'dyntube' || 'embedded'
-    dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+    dyntubeKey: 'ijuv7LbG0UyMeCGQBVIDbw',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',
@@ -63,7 +63,7 @@ const systematizedDocumentationData = {
         </>
     ),
     mediaType: 'image', // 'image' || 'youtube' || 'dyntube' || 'embedded'
-    dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+    dyntubeKey: 'ijuv7LbG0UyMeCGQBVIDbw',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',
@@ -96,7 +96,7 @@ const machineinsightsData = {
         </>
     ),
     mediaType: 'image', // 'image' || 'youtube' || 'dyntube' || 'embedded'
-    dyntubeKey: 'QHJgV1aEkWC3457eB8PJw',
+    dyntubeKey: 'ijuv7LbG0UyMeCGQBVIDbw',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',
