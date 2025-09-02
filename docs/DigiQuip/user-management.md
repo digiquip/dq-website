@@ -109,4 +109,4 @@ Ta kontakt ved behov for integrasjoner.
 
 # Lykke til!
 
-For ytterligere detaljer eller spørsmål ta kontakt med din kontaktperson eller book et møte med noen i teamet vårt, [book et møte](https://digiquip.no/about). Du kan også sende oss en e-post på support@digiquip.no.
+For ytterligere detaljer eller spørsmål ta kontakt med din kontaktperson eller book et møte med noen i teamet vårt, [book et møte](/contact). Du kan også sende oss en e-post på support@digiquip.no.

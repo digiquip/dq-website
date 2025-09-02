@@ -56,6 +56,24 @@ Link the checklist to equipment via model. Navigate to the model overview and ad
 
 Details can be found logged for each piece of equipment under the "daily checks" or "maintenance" tab. Check if the machine has been inspected and view details of the last inspection.
 
+### Checklist for expert inspection
+
+**Expert inspection checklists** are used for annual inspections that must be performed by qualified personnel according to regulations. These checklists are more comprehensive than daily checks and are designed to ensure equipment safety and compliance.
+
+Key features:
++ **Comprehensive inspection points**: Cover all critical safety aspects
++ **Regulatory compliance**: Meet legal requirements for annual inspections
++ **Qualified personnel**: Designed for use by certified inspectors
++ **Documentation**: Complete audit trail of inspection results
+
+### Link checklist to equipment
+
+Link the checklist to equipment via model. Navigate to the model overview and add the relevant checklist. Once linked to a model, the checklist will automatically apply to all equipment of that type.
+
+### Find logs of completed inspections
+
+Details can be found logged for each piece of equipment under the "daily checks" or "maintenance" tab. Check if the machine has been inspected and view details of the last inspection.
+
 # Good luck!
 
-For further details or questions, contact your contact person or book a meeting with someone from our team, [book a meeting](https://digiquip.no/about). You can also email us at support@digiquip.no.
+For further details or questions, contact your contact person or book a meeting with someone from our team, [book a meeting](/contact). You can also email us at support@digiquip.no.

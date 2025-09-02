@@ -129,4 +129,4 @@ Vi har også skreddersydde integrasjoner, etter avtale.
 
 
 
-For ytterligere detaljer eller spørsmål ta kontakt med din kontaktperson eller book et møte med noen i teamet vårt, [book et møte](https://digiquip.no/about).
+For ytterligere detaljer eller spørsmål ta kontakt med din kontaktperson eller book et møte med noen i teamet vårt, [book et møte](/contact).

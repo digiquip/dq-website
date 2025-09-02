@@ -47,7 +47,7 @@ export default function BlogLayoutWrapper(props) {
 
           {
             items.props.items && items.props.items.map((element) => (
-              element.content.frontMatter.tags.forEach(ele => {
+              element.content.frontMatter.tags && element.content.frontMatter.tags.forEach(ele => {
                 let jsonObj = {
                   label: ele,
                   permalink: ele

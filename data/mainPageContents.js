@@ -24,24 +24,24 @@ const newsContent = [
     {
         isVideo: false,
         title: translate({ message: "home.news.news2title" }),
-        imageBanner: '/img/articles/SDbygg.jpg',
+        imageBanner: 'img/competence-images/practical-training.webp',
         description: translate({ message: "home.news.news2desc" }),
-        blogLink: '/blog/SD-tilsyn-dokumentasjon-utstyr',
+        blogLink: '/bestill-kreg-integrasjon',
     },
     {
-    isVideo: true,
-    title: translate({ message: "home.news.news3title" }),
-    dyntubeKey: 'wu7ssjnHDk6cNSBlWDoww',
-    description: translate({ message: "home.news.news3desc" }),
-    blogLink: '/blog/geir-schau',
+        isVideo: false,
+        title: translate({ message: "home.news.news3title" }),
+        imageBanner: 'img/articles/RG.png',
+        description: translate({ message: "home.news.news3desc" }),
+        blogLink: '/blog/RG-kvipp',
     },
     {
         isVideo: false,
         title: translate({ message: "home.news.news4title" }),
-        imageBanner: '/img/webinarMar25.png',
+        imageBanner: 'img/articles/SDbygg.jpg',
         description: translate({ message: "home.news.news4desc" }),
-        blogLink: '/blog/webinar-betonmast-AF-utstyrsspesifikk',
-        },
+        blogLink: '/blog/SD-tilsyn-dokumentasjon-utstyr',
+    },
 ];
 //Avpublisert
 const consolidateWorkContent = {

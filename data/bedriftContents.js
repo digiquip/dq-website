@@ -97,15 +97,9 @@ const bedriftIntegrationsData = {
                     <span><Translate>bedrift.integrations.benefit3</Translate></span>
                 </div>
             </div>
-            <p><Translate>bedrift.integrations.pricing</Translate></p>
-            <div className="integration-cta">
-                <a href="tel:69838500" className="integration-phone-btn">
-                    <span className="phone-icon">📞</span>
-                    <span><Translate>bedrift.integrations.orderNow</Translate></span>
-                </a>
-                <a href="mailto:support@digiquip.no?subject=K-reg Integration Order" className="integration-email-btn">
-                    <span className="email-icon">✉️</span>
-                    <span><Translate>bedrift.integrations.emailUs</Translate></span>
+            <div className="integration-cta-single">
+                <a href="/bestill-kreg-integrasjon" className="integration-single-btn">
+                    <span>Les mer og bestill</span>
                 </a>
             </div>
             <br />

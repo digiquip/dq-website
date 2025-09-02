@@ -15,7 +15,7 @@ On this page, we publish ongoing information about product news. We started this
     <ul>
       <li><strong>No manual registration required</strong></li>
       <li><strong>Ongoing documentation of equipment-specific training</strong></li>
-      <li><strong>Visible in HMS-reg via Kompetanseregisteret</strong></li>
+      <li><strong>Visible in HMSREG via Kompetanseregisteret</strong></li>
     </ul>
     <br/>
     <div><strong>Complete solution</strong></div>
@@ -88,7 +88,7 @@ On this page, we publish ongoing information about product news. We started this
     <div><strong>Pre-filling "OK" in Checklists</strong></div>
     <div>A new toggle function allows users to enable or disable the pre-filling of "OK" in checklists.</div>
     <div>This provides better control if an inspection is not completed immediately but needs to be continued later. More info can be found 
-[here](/docs/DigiQuip/checklists#sjekkliste-for-sakkyndig-kontroll).</div>
+[here](/docs/DigiQuip/checklists#checklist-for-expert-inspection).</div>
 
     <div><strong>Retrieving Documents from BraReg</strong></div>
     <div>All documents related to the equipment and production year are now fetched directly from BraReg.</div>

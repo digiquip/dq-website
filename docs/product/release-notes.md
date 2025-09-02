@@ -17,7 +17,7 @@ På denne siden publiserer vi løpende informasjon om produktnyheter. Vi startet
       <ul>
         <li><strong>Slipper manuell registrering</strong></li>
         <li><strong>Løpende dokumentasjon av utstyrsspesifikk opplæring</strong></li>
-        <li><strong>Synlig i HMS-reg via Kompetanseregisteret</strong></li>
+        <li><strong>Synlig i HMSREG via Kompetanseregisteret</strong></li>
       </ul>
       <br/>
       <div><strong>Komplett løsning</strong></div>
