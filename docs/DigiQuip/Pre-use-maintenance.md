@@ -37,4 +37,4 @@ import inspectionsdocumented from '/img/resources-FAQ/inspectionsdocumented.png'
 
 <img src={inspectionsdocumented} style={{width:800}} />
 
-For ytterligere detaljer eller spørsmål ta kontakt med din kontaktperson eller book et møte med noen i teamet vårt, [book et møte](https://digiquip.no/about).
+For ytterligere detaljer eller spørsmål ta kontakt med din kontaktperson eller book et møte med noen i teamet vårt, [book et møte](/contact).

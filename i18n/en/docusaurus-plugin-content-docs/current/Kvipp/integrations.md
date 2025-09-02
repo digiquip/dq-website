@@ -3,21 +3,21 @@ sidebar_position: 7
 ---
 # Integrations
 
-## Kompetanseregisteret (K-Reg) Integration
+# Integration with Kompetanseregisteret (K-REG)
 
-Kompetanseregisteret is a registry operated by Sentralregisteret. Go to sentralregisteret.no to read more about the registry.
+Kompetanseregisteret is a registry operated by Sentralregisteret for registration of various competencies. Equipment-specific training completed in Kvipp can be uploaded directly to K-REG.
 
 ### Automatic transfer of equipment-specific training
 
-When a person with the role of "instructor" provides practical equipment-specific training to any of your employees, the result is automatically uploaded to Kompetanseregisteret. This includes both internal training and training received from rental companies, manufacturers, and others who use Kvipp AND have registered instructors.
+When a person with the role of "instructor" provides practical equipment-specific training to any of your employees, the result is automatically uploaded to K-REG. This includes both internal training and training received from rental companies, manufacturers, and others who use Kvipp AND have registered instructors.
 
-Self-declarations and training provided without the instructor role are NOT uploaded to Kompetanseregisteret.
+Self-declarations and training provided without the instructor role are NOT uploaded.
 
-### Why K-Reg integration?
+### Why K-REG integration?
 
 - **No manual data registration required** - Everything happens automatically after completed training
 - **Ongoing documentation of equipment-specific training** - Complete history of all training
-- **Visible in HMS-reg via Kompetanseregisteret** - Training becomes available in the HMS-reg system
+- **Visible in HMSREG via Kompetanseregisteret** - Training becomes available in the HMSREG system
 
 ### Complete solution
 
@@ -31,17 +31,17 @@ We transfer information about who has received training, from whom (instructor),
 
 ### Organizational control
 
-Each organization can control whether the K-Reg integration should be active. The integration also works for external training provided by authorized instructors.
+Each organization can control whether the K-REG integration should be active. The integration also works for external training provided by authorized instructors.
 
 ### Contact us to activate the integration
 
-Call us at **69 83 85 00** or send an email to **support@digiquip.no** to activate the K-Reg integration for your organization. The price is 500 kroner per month.
+Call us at **69 83 85 00** or send an email to **support@digiquip.no** to activate the K-REG integration for your organization.
 
-## HMS-reg Integration
+## HMSREG integration
 
-Kompetanseregisteret has an integration with HMS-reg. This means that you will also get equipment-specific training visible in HMS-reg. Contact Sentralregisteret for more information about this, [here](https://sentralregisteret.no/kontakt-oss/).
+Kompetanseregisteret has an integration with HMSREG. This means that you will also get equipment-specific training visible in HMSREG.
 
-## Other integrations
+# Other integrations
 
 Kvipp is built to integrate with other systems. Contact us to hear about the possibilities for connecting with your existing systems.
 
@@ -52,16 +52,14 @@ For larger organizations, we can offer API access to integrate Kvipp directly wi
 - Automatically synchronize people and equipment
 - Retrieve training data
 
-## Technical information
-
-### Security
+## Security
 
 All integrations use secure API endpoints with token-based authentication. Data is encrypted in transit and at rest.
 
-### Availability
+## Availability
 
 The integrations are available 24/7 with high uptime. We continuously monitor all integrations to ensure reliable operation.
 
-### Support
+## Support
 
 Technical support for integrations is provided through our support team. Contact us at support@digiquip.no for help with integrations.

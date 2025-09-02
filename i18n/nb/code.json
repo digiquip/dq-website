@@ -478,25 +478,25 @@
   "message": "Identifiser person med HMS-kort eller førerkort. Skann QR-koden på HMS-kortet eller ta bilde av førerkort og la kunstig intelligens gjøre jobben",
   "description": "Kvipp section two, point 3"
 },
-"kvipp-situation.title1": {
-"message": "Opplæring i forbindelse med overlevering av utstyr",
-"description": "Kvipp section 3, title"
+"kvipp-kreg.title1": {
+"message": "Overfør opplæring til Kompetanseregisteret (K-REG), og HMSREG",
+"description": "Kvipp K-REG integration section title"
 },
-"kvipp-situation.arg1": {
-  "message": "Et eksempel på en situasjon der Kvipp forenkler opplæring er utleier-leier forholdet. Med Kvipp kan utleier gi opplæring og sørge for at dokumentasjonen lagres digitalt og med riktig innhold med en gang, f.eks. vil HMS-kortet alltid sørge for sikker identifikasjon. Se på videoen for en nærmere forklaring.",
-  "description": "Kvipp section 3, arg 1"
+"kvipp-kreg.arg1": {
+  "message": "Når en person med rollen «instruktør» gir praktisk utstyrsspesifikk opplæring, kan resultatet lastes automatisk opp i Kompetanseregisteret (K-REG). Dette inkluderer både intern opplæring og opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp og har registrerte instruktører. Egenerklæring og andre opplæringer overføres ikke.",
+  "description": "Kvipp K-REG integration section description"
 },
-"kvipp-situation.point1": {
-  "message": "Få opplæring av noen som kan når utstyr overleveres",
-  "description": "Kvipp section 3, point 1"
+"kvipp-kreg.point1": {
+  "message": "Synlig i HMSREG via Kompetanseregisteret",
+  "description": "Kvipp K-REG integration point 1"
 },
-"kvipp-situation.point2": {
-  "message": "Få dokumentasjon (pdf) på plass med en gang",
-  "description": "Kvipp section 3, point 2"
+"kvipp-kreg.point2": {
+  "message": "Ingen manuell dataregistrering kreves",
+  "description": "Kvipp K-REG integration point 2"
 },
-"kvipp-situation.point3": {
-  "message": "Spar på dokumentasjonen digitalt",
-  "description": "Kvipp section 3, point 3"
+"kvipp-kreg.point3": {
+  "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
+  "description": "Kvipp K-REG integration point 3"
 },
 "bedrift.banner.title1": {
   "message": "Kvipp Bedrift gir deg full oversikt over utstyrsspesifikk opplæring",
@@ -551,11 +551,11 @@
   "description": "bedrift groups 3"
 },
 "bedrift.integrations.title": {
-  "message": "Overfør automatisk all utstyrsspesifikk opplæring til Kompetanseregisteret (K-reg)",
+  "message": "Overfør automatisk all utstyrsspesifikk opplæring til Kompetanseregisteret (K-REG)",
   "description": "Title for the integrations section on the bedrift page"
 },
 "bedrift.integrations.description": {
-  "message": "Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret (K-Reg). Det inkluderer, i tillegg til intern opplæring,  opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp og har registrerte instruktører. K-reg er et register driftet av Sentralregisteret.",
+  "message": "Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret (K-REG). Det inkluderer, i tillegg til intern opplæring,  opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp og har registrerte instruktører. K-REG er et register driftet av Sentralregisteret.",
   "description": "Description for the integrations section on the bedrift page"
 },
 "bedrift.integrations.link": {
@@ -576,19 +576,19 @@
 },
 "bedrift.integrations.benefit1": {
   "message": "Automatisk overholdelse av norske forskrifter",
-  "description": "First benefit of the K-reg integration"
+  "description": "First benefit of the K-REG integration"
 },
 "bedrift.integrations.benefit2": {
   "message": "Ingen manuell dataregistrering kreves",
-  "description": "Second benefit of the K-reg integration"
+  "description": "Second benefit of the K-REG integration"
 },
 "bedrift.integrations.benefit3": {
   "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
-  "description": "Third benefit of the K-reg integration"
+  "description": "Third benefit of the K-REG integration"
 },
 "bedrift.integrations.hmsInfo": {
-  "message": "Kompetanseregisteret har en integrasjon med HMS-reg. Det betyr at du også vil få utstyrsspesifikk opplæring synlig i HMS-reg. Kontakt Sentralregisteret for mer informasjon om dette,",
-  "description": "Information about HMS-reg integration"
+  "message": "Kompetanseregisteret har en integrasjon med HMSREG. Det betyr at du også vil få utstyrsspesifikk opplæring synlig i HMSREG. Kontakt Sentralregisteret for mer informasjon om dette,",
+  "description": "Information about HMSREG integration"
 },
 "bedrift.integrations.here": {
   "message": "her",
@@ -676,6 +676,58 @@
 "workequipment.machineinsights.point3": {
   "message":"Hold oversikt over kontrolldokumenter og kontrollstatus, tilgjengelig for både kontrollører og maskinbrukere.",
   "description": "The third point of the machine Insights section on the work equipment page"
+},
+"kreg.integration.title": {
+  "message": "Integrasjon med K-REG",
+  "description": "Title for K-REG integration page"
+},
+"kreg.integration.description": {
+  "message": "Utstyrsspesifikk opplæring kan lastes direkte opp i K-REG, enten som et tilvalg til Kvipp Bedrift eller frittstående. Videre deler K-REG kompetanse med HMSREG.",
+  "description": "Description of K-REG integration"
+},
+"kreg.integration.benefit1": {
+  "message": "Synlig i HMSREG via Kompetanseregisteret",
+  "description": "First benefit of K-REG integration"
+},
+"kreg.integration.benefit2": {
+  "message": "Ingen manuell dataregistrering kreves",
+  "description": "Second benefit of K-REG integration"
+},
+"kreg.integration.benefit3": {
+  "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
+  "description": "Third benefit of K-REG integration"
+},
+"kreg.integration.kvippBedrift.title": {
+  "message": "Kvipp Bedrift",
+  "description": "Kvipp Bedrift section title"
+},
+"kreg.integration.kvippBedrift.description": {
+  "message": "Med Kvipp Bedrift har du full oversikt over hvem som har hvilke opplæringer og hvem som eventuelt mangler opplæring. Du kan i tillegg dele opplæringer videre til K-REG, og dermed HMSREG.",
+  "description": "Kvipp Bedrift integration description"
+},
+"kreg.integration.kvipp.title": {
+  "message": "Kvipp",
+  "description": "Kvipp section title"
+},
+"kreg.integration.kvipp.description": {
+  "message": "Dersom dere ikke trenger oversikt kan opplæringene lastes direkte opp i K-REG. Dere gjennomfører da alle opplæringer ved hjelp av Kvipp i felt. Systemet sørger deretter for at dette lastes opp i K-REG, og dermed HMSREG.",
+  "description": "Kvipp integration description"
+},
+"kreg.integration.faq.title": {
+  "message": "Hvilke opplæringer blir overført?",
+  "description": "FAQ section title"
+},
+"kreg.integration.faq.description1": {
+  "message": "Praktiske opplæringer utført av noen med rollen \"instruktør\" overføres til K-REG. Egenerklæring og andre opplæringer overføres ikke.",
+  "description": "FAQ first answer"
+},
+"kreg.integration.faq.description2": {
+  "message": "Rollen instruktør settes enten i Kvipp Bedrift eller av oss. Dersom du skal ha den frittstående integrasjonen vil alle i din virksomhet automatisk få rollen instruktør.",
+  "description": "FAQ second answer"
+},
+"kreg.integration.cta": {
+  "message": "For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tfb@digiquip.no eller fylle ut skjemaet.",
+  "description": "Call to action text"
 },
 "workequipment.machineinsights.point4": {
   "message":"Følg enkelt opp og lukk avvik i etterkant.",
@@ -804,6 +856,42 @@
     "message": "Book et møte",
     "description": "Navbar item with label Book a Meeting"
   },
+  "navbar.label.integrations": {
+    "message": "Integrasjoner",
+    "description": "Navbar item with label Integrations"
+  },
+  "navbar.label.kvipp": {
+    "message": "Kvipp",
+    "description": "Navbar item with label Kvipp"
+  },
+  "navbar.label.kvipp_bedrift": {
+    "message": "Kvipp Bedrift",
+    "description": "Navbar item with label Kvipp Bedrift"
+  },
+  "navbar.label.trygg_maskin": {
+    "message": "Trygg Maskin",
+    "description": "Navbar item with label Trygg Maskin"
+  },
+  "navbar.label.products": {
+    "message": "Produkter",
+    "description": "Navbar dropdown label for Products"
+  },
+  "navbar.label.prices": {
+    "message": "Priser",
+    "description": "Navbar item with label Pricing"
+  },
+  "navbar.label.documentation": {
+    "message": "Dokumentasjon",
+    "description": "Navbar item with label Documentation"
+  },
+  "navbar.label.blog": {
+    "message": "Blogg",
+    "description": "Navbar item with label Blog"
+  },
+  "navbar.label.sign_in": {
+    "message": "Logg inn",
+    "description": "Navbar item with label Sign in"
+  },
   "home.news.title": {
     "message": "Nyheter",
     "description": "Title of Latest News"
@@ -817,27 +905,408 @@
     "description": "First description of the news"
   },
   "home.news.news2title": {
-    "message": "SD Byggentreprenør AS unngår pålegg fra Arbeidstilsynet",
-    "description": "First title of the news 2"
+    "message": "Last opp alle opplæringsbevis til K-REG (og HMSREG)",
+    "description": "Second title of the news"
   },
   "home.news.news2desc": {
-    "message": "Et uanmeldt besøk fra Arbeidstilsynet kan være en stressende opplevelse for enhver bedrift. For SD Byggentreprenør AS ble et slikt besøk starten på en reise for å forbedre deres HMS-rutiner og sikre at de fulgte reglene for opplæring på farlig arbeidsutstyr – en prosess som kan være verdifull for alle bedrifter som ønsker å styrke sin HMS-praksis.",
-    "description": "First description of the news 2"
+    "message": "Nå kan du automatisk overføre all utstyrsspesifikk opplæring fra Kvipp til Kompetanseregisteret (K-REG). Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes all nødvendig informasjon og dokumentasjon over til Kompetanseregisteret. Videre deler K-REG kompetanse med HMSREG.",
+    "description": "Second description of the news"
   },
   "home.news.news3title": {
-    "message": "Sååå enkelt..",
-    "description": "First title of the news 3"
+    "message": "Digitalt løft for byggebransjen: RG og DigiQuip gjør opplæring enklere og tryggere",
+    "description": "Third title of the news"
   },
   "home.news.news3desc": {
-    "message": "Bruk dobørsten! Verksmester Geir Schau er dritt lei av at folk ikke bruker dobørsten!",
-    "description": "nyhetssak3"
+    "message": "Rental Group (RG) er tidlig ute med å tilby Kvipp til sine kunder. Samarbeidet skaper reell forskjell for kundene med enkel tilgang til opplæring rett på mobilen, bedre kontroll og oversikt, og alt samlet på ett sted.",
+    "description": "Third description of the news"
   },
   "home.news.news4title": {
-    "message": "Webinar 8.april: AF & Betonmast delte sine erfaringer rundt utstyrsspesifikk opplæring",
-    "description": "Title of the news 4"
+    "message": "SD Byggentreprenør AS unngår pålegg fra Arbeidstilsynet",
+    "description": "Fourth title of the news"
   },
-"home.news.news4desc": {
-  "message": "Opplæring og dokumentasjon trenger ikke å være komplisert! I dette webinaret delte Thomas Mahler Askheim fra AF og Jan Erik Hansen fra Betonmast sine erfaringer. I tillegg sørget Andreas Lydersen fra DigiQuip for at dere fikk et innblikk i hvordan opplæring og dokumentasjon kan løses med Kvipp.",
-  "description": "News 4 description"
+  "home.news.news4desc": {
+  "message": "Et uanmeldt besøk fra Arbeidstilsynet kan være en stressende opplevelse for enhver bedrift. For SD Byggentreprenør AS ble et slikt besøk starten på en reise for å forbedre deres HMS-rutiner og sikre at de fulgte reglene for opplæring på farlig arbeidsutstyr – en prosess som kan være verdifull for alle bedrifter som ønsker å styrke sin HMS-praksis.",
+  "description": "Fourth description of the news"
+},
+"integrations.banner.title1": {
+  "message": "Integrasjoner som forenkler",
+  "description": "Integrations page banner title"
+},
+"integrations.kompetanseregisteret.title1": {
+  "message": "Kompetanseregisteret",
+  "description": "Integrations kompetanseregisteret section title part 1"
+},
+"integrations.kompetanseregisteret.title2": {
+  "message": "med eksisterende systemer",
+  "description": "Integrations kompetanseregisteret section title part 2"
+},
+"integrations.kompetanseregisteret.arg1": {
+  "message": "Våre integrasjoner gjør det enkelt å koble sammen Kvipp med dine eksisterende HMS-systemer og arbeidsflyter. Vi tilbyr API-integrasjoner og standardiserte løsninger som sikrer at data flyter sømløst mellom systemene dine.",
+  "description": "Integrations kompetanseregisteret section description"
+},
+"integrations.kompetanseregisteret.point1": {
+  "message": "API-integrasjoner for automatisk dataoverføring",
+  "description": "Integrations kompetanseregisteret point 1"
+},
+"integrations.kompetanseregisteret.point2": {
+  "message": "Kompatibilitet med alle større HMS-systemer",
+  "description": "Integrations kompetanseregisteret point 2"
+},
+"integrations.kompetanseregisteret.point3": {
+  "message": "Enkel oppsett og konfigurasjon",
+  "description": "Integrations kompetanseregisteret point 3"
+},
+"integrations.onlet.title1": {
+  "message": "Fordeler med",
+  "description": "Integrations onlet section title part 1"
+},
+"integrations.onlet.title2": {
+  "message": "våre integrasjoner",
+  "description": "Integrations onlet section title part 2"
+},
+"integrations.onlet.arg1": {
+  "message": "Våre integrasjoner gir deg flere fordeler som reduserer manuelt arbeid og øker effektiviteten i HMS-arbeidet ditt. Du får automatisk synkronisering av data og reduserer risikoen for feil.",
+  "description": "Integrations onlet section description"
+},
+"integrations.onlet.point1": {
+  "message": "Automatisk synkronisering av opplæringsdata",
+  "description": "Integrations onlet point 1"
+},
+"integrations.onlet.point2": {
+  "message": "Redusert manuell dataregistrering",
+  "description": "Integrations onlet point 2"
+},
+"integrations.onlet.point3": {
+  "message": "Forbedret datakvalitet og nøyaktighet",
+  "description": "Integrations onlet point 3"
+},
+"integrations.tailored.title1": {
+  "message": "Skreddersydd",
+  "description": "Integrations tailored section title part 1"
+},
+"integrations.tailored.title2": {
+  "message": "og konfigurasjon",
+  "description": "Integrations tailored section title part 2"
+},
+"integrations.tailored.arg1": {
+  "message": "Vi gjør det enkelt å komme i gang med våre integrasjoner. Vårt team hjelper deg med oppsett og konfigurasjon, og vi tilbyr omfattende dokumentasjon og support for å sikre en smidig implementering.",
+  "description": "Integrations tailored section description"
+},
+"integrations.tailored.point1": {
+  "message": "Teknisk support under hele implementeringen",
+  "description": "Integrations tailored point 1"
+},
+"integrations.tailored.point2": {
+  "message": "Omfattende dokumentasjon og veiledning",
+  "description": "Integrations tailored point 2"
+},
+"integrations.tailored.point3": {
+  "message": "Kontinuerlig oppfølging og optimalisering",
+  "description": "Integrations tailored point 3"
+},
+"integrations.grid.title": {
+  "message": "Integrasjoner.",
+  "description": "Integrations grid title"
+},
+"integrations.cards.kompetanseregisteret.title": {
+  "message": "Kompetanseregisteret",
+  "description": "Kompetanseregisteret integration card title"
+},
+"integrations.cards.kompetanseregisteret.description": {
+  "message": "Automatisk overføring av utstyrsspesifikk opplæring til Kompetanseregisteret. Når en person med rollen \"instruktør\" gir praktisk utstyrsspesifikk opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret. Videre deler K-REG kompetanse med HMSREG. Les mer på Sentralregisteret.no →",
+  "description": "Kompetanseregisteret integration card description"
+},
+"integrations.cards.kompetanseregisteret.point1": {
+  "message": "Synlig i HMSREG via Kompetanseregisteret",
+  "description": "Kompetanseregisteret integration benefit 1"
+},
+"integrations.cards.kompetanseregisteret.point2": {
+  "message": "Ingen manuell dataregistrering kreves",
+  "description": "Kompetanseregisteret integration benefit 2"
+},
+"integrations.cards.kompetanseregisteret.point3": {
+  "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
+  "description": "Kompetanseregisteret integration benefit 3"
+},
+"integrations.cards.kompetanseregisteret.pricing.kvippBedrift.title": {
+  "message": "Kvipp Bedrift",
+  "description": "Kvipp Bedrift pricing option title"
+},
+"integrations.cards.kompetanseregisteret.pricing.kvippBedrift.description": {
+  "message": "Har du Kvipp Bedrift kan du aktivere integrasjonen som et tilvalg. Ta kontakt med oss for å aktivere.",
+  "description": "Kvipp Bedrift pricing option description"
+},
+
+"integrations.cards.kompetanseregisteret.pricing.kvippBedrift.price": {
+  "message": "500 kr. per måned",
+  "description": "Kvipp Bedrift pricing option price"
+},
+"integrations.cards.kompetanseregisteret.pricing.frittstaende.title": {
+  "message": "Frittstående",
+  "description": "Frittstående pricing option title"
+},
+"integrations.cards.kompetanseregisteret.pricing.frittstaende.description": {
+  "message": "Du kan bruke Kvipp i felt og K-REG (evt HMSREG) for oversikt. For deg som ikke trenger oversikt i Kvipp Bedrift. Alle i virksomheten gis rollen instruktør.",
+  "description": "Frittstående pricing description"
+},
+
+"integrations.cards.kompetanseregisteret.pricing.frittstaende.price": {
+  "message": "990 kr. per måned",
+  "description": "Frittstående pricing option price"
+},
+"integrations.cards.onlet.title": {
+  "message": "Onlet",
+  "description": "Onlet integration card title"
+},
+"integrations.cards.onlet.description": {
+  "message": "Med integrasjonen mellom DigiQuip og Onlet får du automatisk oppdatering av kontrolldata. Når en kontroll er gjennomført i DigiQuip eller når vi mottar kontroller fra M-REG eller Digitool, blir Onlet oppdatert neste dag med status, neste kontrolldato og kontrollrapport.",
+  "description": "Onlet integration card description"
+},
+"integrations.cards.onlet.point1": {
+  "message": "Spar tid – unngå dobbelregistrering",
+  "description": "Onlet integration benefit 1"
+},
+"integrations.cards.onlet.point2": {
+  "message": "Alltid oppdatert neste kontroll-dato",
+  "description": "Onlet integration benefit 2"
+},
+"integrations.cards.onlet.point3": {
+  "message": "Bedre kvalitet og færre feil",
+  "description": "Onlet integration benefit 3"
+},
+"integrations.cards.onlet.pricing.title": {
+  "message": "Full integrasjon med Onlet for sakkyndig kontroll",
+  "description": "Onlet pricing option title"
+},
+"integrations.cards.onlet.pricing.description": {
+  "message": "Vi fakturerer per kontroll som oppdateres i Onlet",
+  "description": "Onlet pricing option description"
+},
+
+"integrations.cards.onlet.pricing.price": {
+  "message": "25 kr per kontroll",
+  "description": "Onlet pricing option price"
+},
+"integrations.cards.onlet.note": {
+  "message": "Merk: Infobric har egne kostnader knyttet til integrasjonen. For mer informasjon, ta kontakt med Infobric: support@infobriconlet.no",
+  "description": "Onlet integration note"
+},
+"integrations.cards.digitool.title": {
+  "message": "DigiTool",
+  "description": "DigiTool integration card title"
+},
+"integrations.cards.digitool.description": {
+  "message": "Automatisk overføring av kontrollstatus og kontrollrapporter fra Digitool til DigiQuip. Dataene blir tilgjengelige med en gang, slik at du alltid ser siste oppdatering. Helt uten forsinkelse og uten ekstra arbeid!",
+  "description": "DigiTool integration card description"
+},
+"integrations.cards.digitool.point1": {
+  "message": "Kontrollstatus og rapporter tilgjengelig direkte i valgt produkt (Kvipp eller Trygg Maskin)",
+  "description": "DigiTool integration benefit 1"
+},
+"integrations.cards.digitool.point2": {
+  "message": "Ingen manuell oppdatering nødvendig",
+  "description": "DigiTool integration benefit 2"
+},
+"integrations.cards.digitool.point3": {
+  "message": "Fungerer sømløst med QR-koder",
+  "description": "DigiTool integration benefit 3"
+},
+"integrations.cards.digitool.pricing.title": {
+  "message": "DigiTool Integrasjon",
+  "description": "DigiTool pricing option title"
+},
+"integrations.cards.digitool.pricing.description": {
+  "message": "Integrasjon med DigiTool for sakkyndig kontroll",
+  "description": "DigiTool pricing option description"
+},
+
+"integrations.cards.digitool.pricing.price": {
+  "message": "Denne integrasjonen er inkludert uten ekstra kostnad.",
+  "description": "DigiTool pricing option price"
+},
+"integrations.cards.maskinregisteret.title": {
+  "message": "Maskinregisteret",
+  "description": "Maskinregisteret integration card title"
+},
+"integrations.cards.maskinregisteret.description": {
+  "message": "Integrasjon med Maskinregisteret (M-REG) for å hente arbeidsutstyr og sakkyndig kontroll automatisk over til DigiQuip.",
+  "description": "Maskinregisteret integration card description"
+},
+"integrations.cards.maskinregisteret.point1": {
+  "message": "Automatisk import av maskiner og utstyr i DigiQuip",
+  "description": "Maskinregisteret integration benefit 1"
+},
+"integrations.cards.maskinregisteret.point2": {
+  "message": "Full oversikt over sakkyndig kontroll utført i Maskinregisteret",
+  "description": "Maskinregisteret integration benefit 2"
+},
+"integrations.cards.maskinregisteret.pricing.title": {
+  "message": "M-REG Integrasjon",
+  "description": "Maskinregisteret pricing option title"
+},
+"integrations.cards.maskinregisteret.pricing.description": {
+  "message": "Automatisk import av maskiner og utstyr fra Maskinregisteret",
+  "description": "Maskinregisteret pricing option description"
+},
+
+"integrations.cards.maskinregisteret.pricing.price": {
+  "message": "Denne integrasjonen er inkludert uten ekstra kostnad.",
+  "description": "Maskinregisteret pricing option price"
+},
+"integrations.cards.skreddersydd.title": {
+  "message": "Skreddersydd",
+  "description": "Skreddersydd integration card title"
+},
+"integrations.cards.skreddersydd.description": {
+  "message": "Har du allerede et system du ønsker at vi skal integrere med? Ta kontakt så finner vi en løsning.",
+  "description": "Skreddersydd integration card description"
+},
+"integrations.cards.skreddersydd.pricing.title": {
+  "message": "Skreddersydd Integrasjon",
+  "description": "Skreddersydd pricing option title"
+},
+"integrations.cards.skreddersydd.pricing.price": {
+  "message": "Kontakt oss!",
+  "description": "Skreddersydd pricing option price"
+},
+"kreg.integration.how.title": {
+  "message": "Slik gjør du det",
+  "description": "How it works section title"
+},
+"kreg.integration.how.scanCard.title": {
+  "message": "SKANN HMS-KORT:",
+  "description": "Scan HMS card section title"
+},
+"kreg.integration.how.scanCard.description": {
+  "message": "Automatisk kobling til virksomhet. Via Arbeidstilsynets API henter Kvipp riktig navn, fødselsdato og virksomhet. Slik blir dokumentasjonen riktig med en gang!",
+  "description": "Scan HMS card description"
+},
+"kreg.integration.how.scanEquipment.title": {
+  "message": "SKANN UTSTYR:",
+  "description": "Scan equipment section title"
+},
+"kreg.integration.how.scanEquipment.description": {
+  "message": "Skann QR-kode (Reginn, DigiQuip) eller ta bilde av utstyret. Fra bilde tolker kunstig intelligens merke og modell. Det eneste du trenger å gjøre er å bekrefte eller endre på navn. PS: Pass på å ta bilde der både merke og modell fanges opp.",
+  "description": "Scan equipment description"
+},
+"kreg.integration.how.description": {
+  "message": "Når opplæring er gitt, overføres ALL nødvendig informasjon og dokumentasjon (PDF) til K-REG. Hvem som har fått og gitt opplæring, hvilket utstyr (merke og modell) og dato.",
+  "description": "How it works description"
+},
+"kreg.integration.how.note": {
+  "message": "Det er kun praktiske opplæringer gitt av personer med rollen instruktør som oversendes. Dette fikser vi når dere skal aktivere integrasjonen.",
+  "description": "How it works note"
+},
+"kreg.integration.pricing.title": {
+  "message": "Priser",
+  "description": "Pricing section title"
+},
+"kreg.integration.pricing.column1": {
+  "message": "Kvipp Småbedrift",
+  "description": "First pricing column header"
+},
+"kreg.integration.pricing.column2": {
+  "message": "Kvipp Bedrift",
+  "description": "Second pricing column header"
+},
+"kreg.integration.pricing.column3": {
+  "message": "Frittstående",
+  "description": "Third pricing column header"
+},
+"kreg.integration.pricing.price1": {
+  "message": "Inkludert",
+  "description": "First pricing option"
+},
+"kreg.integration.pricing.price2": {
+  "message": "500 kr",
+  "description": "Second pricing option"
+},
+"kreg.integration.pricing.price3": {
+  "message": "990 kr",
+  "description": "Third pricing option"
+},
+"kreg.integration.pricing.kvippSmabedrift.title": {
+  "message": "Kvipp Småbedrift:",
+  "description": "Kvipp Småbedrift pricing description title"
+},
+"kreg.integration.pricing.kvippSmabedrift.description": {
+  "message": "For deg som har færre enn ti ansatte gir vi integrasjonen med på kjøpet. Kvipp Småbedrift koster 490 kr per måned. Du styrer hvem som skal ha rollen instruktør.",
+  "description": "Kvipp Småbedrift pricing description"
+},
+"kreg.integration.pricing.kvippBedrift.title": {
+  "message": "Kvipp Bedrift:",
+  "description": "Kvipp Bedrift pricing description title"
+},
+"kreg.integration.pricing.kvippBedrift.description": {
+  "message": "Kvipp Bedrift koster 1390 kr måned. Med både Småbedrift og Bedrift får dere full oversikt over alle opplæringer og flere nyttige tilleggsfunksjoner. Du styrer hvem som skal ha rollen instruktør.",
+  "description": "Kvipp Bedrift pricing description"
+},
+"kreg.integration.pricing.frittstaende.title": {
+  "message": "Frittstående:",
+  "description": "Frittstående pricing description title"
+},
+"kreg.integration.pricing.frittstaende.description": {
+  "message": "Du bruker Kvipp i felt og K-REG (evt HMSREG) for oversikt. For deg som ikke trenger oversikt i Kvipp Bedrift. Alle i virksomheten gis rollen instruktør.",
+  "description": "Frittstående pricing description"
+},
+"integrations.cards.readMore": {
+  "message": "Les mer på Sentralregisteret.no →",
+  "description": "Read more link text"
+},
+"integrations.cards.defaultPrice": {
+  "message": "For 500kr per måned får du denne integrasjonen.",
+  "description": "Default integration price text"
+},
+"integrations.cards.contactEmail": {
+  "message": "Tom Freddy: tfb@digiquip.no",
+  "description": "Contact email text"
+},
+"integrations.cards.orderButton": {
+  "message": "Bestill",
+  "description": "Order button text"
+},
+"onlet.integration.title": {
+  "message": "Integrasjon med Onlet",
+  "description": "Title for Onlet integration page"
+},
+"onlet.integration.description": {
+  "message": "Med integrasjonen mellom DigiQuip og Onlet får du automatisk oppdatering av kontrolldata. Når en kontroll er gjennomført i DigiQuip eller når vi mottar kontroller fra M-REG eller Digitool, blir Onlet oppdatert neste dag med status, neste kontrolldato og kontrollrapport.",
+  "description": "Description of Onlet integration"
+},
+"onlet.integration.benefit1": {
+  "message": "Spar tid – unngå dobbelregistrering",
+  "description": "First benefit of Onlet integration"
+},
+"onlet.integration.benefit2": {
+  "message": "Alltid oppdatert neste kontroll-dato",
+  "description": "Second benefit of Onlet integration"
+},
+"onlet.integration.benefit3": {
+  "message": "Bedre kvalitet og færre feil",
+  "description": "Third benefit of Onlet integration"
+},
+"onlet.integration.faq.title": {
+  "message": "Hvordan fungerer integrasjonen?",
+  "description": "FAQ section title"
+},
+"onlet.integration.faq.description1": {
+  "message": "Når en kontroll er gjennomført i DigiQuip eller når vi mottar kontroller fra M-REG eller Digitool, blir Onlet automatisk oppdatert neste dag med status, neste kontrolldato og kontrollrapport.",
+  "description": "FAQ first answer"
+},
+"onlet.integration.faq.description2": {
+  "message": "Dette eliminerer behovet for manuell dataregistrering og sikrer at all informasjon er oppdatert og synkronisert mellom systemene.",
+  "description": "FAQ second answer"
+},
+"onlet.integration.cta": {
+  "message": "Pris for tjenesten er 25 kr per kontroll. For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tfb@digiquip.no eller fylle ut skjemaet.",
+  "description": "Call to action text"
+},
+"onlet.integration.copyUrl": {
+  "message": "Kopier URL",
+  "description": "Copy URL button title"
+},
+"common.copyUrlAlert": {
+  "message": "URL kopiert til utklippstavlen!",
+  "description": "Copy URL success alert message"
 }
 }

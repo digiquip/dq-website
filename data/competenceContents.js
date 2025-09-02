@@ -81,43 +81,53 @@ const kvippGetStartedData =
     ),
 };
 
-const kvippSituationData =
+const kvippKregData =
 {
-    className: "kvipp-situation-section",
+    className: "kvipp-kreg-section",
     titleWithHTML: (
         <>
-            <Translate>kvipp-situation.title1</Translate>
+            <Translate>kvipp-kreg.title1</Translate>
         </>
     ),
     descriptionWithHTML: (
         <>
-            <p><Translate>kvipp-situation.arg1</Translate></p>
+            <p><Translate>kvipp-kreg.arg1</Translate></p>
+            <div className="integration-benefits">
+                <div className="benefit-item">
+                    <span className="benefit-icon">✓</span>
+                    <span><Translate>kvipp-kreg.point1</Translate></span>
+                </div>
+                <div className="benefit-item">
+                    <span className="benefit-icon">✓</span>
+                    <span><Translate>kvipp-kreg.point2</Translate></span>
+                </div>
+                <div className="benefit-item">
+                    <span className="benefit-icon">✓</span>
+                    <span><Translate>kvipp-kreg.point3</Translate></span>
+                </div>
+            </div>
+            <div className="integration-cta-single">
+                <a href="/bestill-kreg-integrasjon" className="integration-single-btn">
+                    <span>Les mer og bestill</span>
+                </a>
+            </div>
         </>
     ),
-    mediaType: 'dyntube', // 'image' || 'youtube' || 'dyntube' || 'embedded'
+    mediaType: 'image', // 'image' || 'youtube' || 'dyntube' || 'embedded'
     dyntubeKey: 'xV5cqsg0OEWk5fHEMMNxSA',
     withPlay: youtubePlayList.safetyVideoLink.withAutoPlay,
     withoutAutoPlay: youtubePlayList.safetyVideoLink.withoutAutoPlay,
     youtubeVideoBanner: 'img/iframe-banner.jpg',
-    img: "img/kvipp.png",
+    img: "img/SikkerBruk.webp",
     embedCode: embeddedForm,
-    isUnorderedList: true,
-    unorderedListData: (
-        <>
-            <ul className='section-list'>
-                <li><Translate>kvipp-situation.point1</Translate></li>
-                <li><Translate>kvipp-situation.point2</Translate></li>
-                <li><Translate>kvipp-situation.point3</Translate></li>
-            </ul>
-        </>
-    ),
+    isUnorderedList: false
 };
 
 const CompetenceRecords = {
     competenceBannerData,
     kvippBenefitsData,
     kvippGetStartedData,
-    kvippSituationData,
+    kvippKregData,
 }
 
 export default CompetenceRecords;

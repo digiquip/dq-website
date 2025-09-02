@@ -91,6 +91,7 @@ const config = {
           {
             type: "dropdown",
             label: 'Products',
+            translate: 'navbar.label.products',
             position: 'left',
             items: [
               {
@@ -109,6 +110,13 @@ const config = {
                 to: '/trygg-maskin',
               },
             ]
+          },
+          {
+            to: '/integrations',
+            label: 'Integrasjoner',
+            translate: 'navbar.label.integrations',
+            position: 'left',
+            sidebarid: 'tutorialSidebar',
           },
           {
             to: '/price',

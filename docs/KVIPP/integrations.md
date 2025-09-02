@@ -3,21 +3,21 @@ sidebar_position: 7
 ---
 # Integrasjoner
 
-## Kompetanseregisteret (K-Reg) integrasjon
+# Integrasjon med Kompetanseregisteret (K-REG)
 
-Kompetanseregisteret er et register drevet av Sentralregisteret.
+Kompetanseregisteret er et register drevet av Sentralregisteret for registrering av ulik kompetanse. Utstyrsspesifikk opplæring gjennomført i Kvipp kan lastes direkte opp i K-REG. 
 
 ### Automatisk overføring av utstyrsspesifikk opplæring
 
-Når en person med rollen «instruktør» gir praktisk utstyrsspesifikk opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret. Dette inkluderer både intern opplæring og opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp OG har registrerte instruktører.
+Når en person med rollen «instruktør» gir praktisk utstyrsspesifikk opplæring til noen av dine ansatte, lastes resultatet automatisk opp i K-REG. Dette inkluderer både intern opplæring og opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp OG har registrerte instruktører.
 
-Egenerklæring og opplæringer gitt uten instruktør-rollen lastes IKKE over til Kompetanseregisteret.
+Egenerklæring og opplæringer gitt uten rollen instruktør lastes IKKE over.
 
-### Hvorfor K-Reg integrasjon?
+### Hvorfor K-REG integrasjon?
 
 - **Ingen manuell dataregistrering kreves** - Alt skjer automatisk etter fullført opplæring
 - **Løpende dokumentasjon av utstyrsspesifikk opplæring** - Komplett historikk over all opplæring
-- **Synlig i HMS-reg via Kompetanseregisteret** - Opplæringen blir tilgjengelig i HMS-reg
+- **Synlig i HMSREG via Kompetanseregisteret** - Opplæringen blir tilgjengelig i HMSREG
 
 ### Komplett løsning
 
@@ -31,17 +31,17 @@ Vi overfører informasjon om hvem som har fått opplæring, av hvem (instruktør
 
 ### Organisasjonskontroll
 
-Hver organisasjon kan selv styre om K-Reg integrasjonen skal være aktiv. Integrasjonen fungerer også for eksterne opplæringer gitt av autoriserte instruktører.
+Hver organisasjon kan selv styre om K-REG integrasjonen skal være aktiv. Integrasjonen fungerer også for eksterne opplæringer gitt av autoriserte instruktører.
 
 ### Kontakt oss for å aktivere integrasjonen
 
-Ring oss på **69 83 85 00** eller send e-post til **support@digiquip.no** for å aktivere K-Reg integrasjonen for din organisasjon. Prisen er 500 kroner per måned.
+Ring oss på **69 83 85 00** eller send e-post til **support@digiquip.no** for å aktivere K-REG integrasjonen for din organisasjon.
 
-## HMS-reg integrasjon
+## HMSREG integrasjon
 
-Kompetanseregisteret har en integrasjon med HMS-reg. Det betyr at du også vil få utstyrsspesifikk opplæring synlig i HMS-reg. Kontakt Sentralregisteret for mer informasjon om dette, [her](https://sentralregisteret.no/kontakt-oss/).
+Kompetanseregisteret har en integrasjon med HMSREG. Det betyr at du også vil få utstyrsspesifikk opplæring synlig i HMSREG.
 
-## Andre integrasjoner
+# Andre integrasjoner
 
 Kvipp er bygget for å integrere med andre systemer. Kontakt oss for å høre om mulighetene for å koble sammen med dine eksisterende systemer.
 
@@ -52,16 +52,14 @@ For større organisasjoner kan vi tilby API tilgang for å integrere Kvipp direk
 - Automatisk synkronisere personer og utstyr
 - Hente ut opplæringsdata
 
-## Teknisk informasjon
-
-### Sikkerhet
+## Sikkerhet
 
 Alle integrasjoner bruker sikre API-endepunkter med token-basert autentisering. Data krypteres i transit og i hvile.
 
-### Tilgjengelighet
+## Tilgjengelighet
 
 Integrasjonene er tilgjengelige 24/7 med høy oppetid. Vi overvåker alle integrasjoner kontinuerlig for å sikre pålitelig drift.
 
-### Støtte
+## Støtte
 
 Teknisk støtte for integrasjoner tilbys via vårt support-team. Kontakt oss på support@digiquip.no for hjelp med integrasjoner.

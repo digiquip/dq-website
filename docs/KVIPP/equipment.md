@@ -44,4 +44,4 @@ import knyttQR from '/img/kvipp-docs-equipment/knyttQR.jpg';
 
 Ferdig!
 
-QR-koder kan dere bestille av oss. [Klikk her for mer informasjon](https://digiquip.no/docs/prices/detailed-price-list)
+QR-koder kan dere bestille av oss. [Klikk her for mer informasjon](/docs/prices/detailed-price-list)
