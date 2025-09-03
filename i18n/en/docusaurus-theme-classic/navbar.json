@@ -42,5 +42,9 @@
   "item.label.Prices": {
     "message": "Prices",
     "description": "Navbar item with label Prices"
+  },
+  "item.label.Integrasjoner": {
+    "message": "Integrations",
+    "description": "Navbar item with label Integrasjoner"
   }
 }

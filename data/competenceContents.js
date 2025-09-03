@@ -2,6 +2,7 @@ import React from 'react';
 import Translate from '@docusaurus/Translate';
 import youtubePlayList from "./youtubePlayList";
 import embeddedForm from "./EmbeddedForm";
+import Button from '../src/components/Button';
 
 const competenceBannerData =
 {
@@ -42,9 +43,12 @@ const kvippBenefitsData =
     unorderedListData: (
         <>
             <div className="btn-container"> 
-            <a href="https://kvipp.it/" target="Kvipp">
-              <button className="btn-t-1 calculator-button">Test Kvipp</button>
-            </a>
+              <Button 
+                label={<Translate>test-kvipp-button</Translate>}
+                link="https://kvipp.it/" 
+                btnSize="md"
+                isIcon
+              />
           </div>
         </>
         ),
@@ -75,7 +79,11 @@ const kvippGetStartedData =
                 <li><Translate>kvipp-get-started.point1</Translate></li>
                 <li><Translate>kvipp-get-started.point2</Translate></li>
                 <li><Translate>kvipp-get-started.point3</Translate></li>
-                <button className="button"><a href="docs/Kvipp/get_started">Les mer her</a></button>
+                <Button 
+                  label={<Translate>general.readmore</Translate>}
+                  link="docs/Kvipp/get_started" 
+                  btnSize="md"
+                />
                 </ul>
         </>
     ),
@@ -107,9 +115,12 @@ const kvippKregData =
                 </div>
             </div>
             <div className="integration-cta-single">
-                <a href="/bestill-kreg-integrasjon" className="integration-single-btn">
-                    <span>Les mer og bestill</span>
-                </a>
+                <Button 
+                  label={<Translate>read-more-and-order</Translate>}
+                  link="/bestill-kreg-integrasjon" 
+                  btnSize="md"
+                  isIcon
+                />
             </div>
         </>
     ),

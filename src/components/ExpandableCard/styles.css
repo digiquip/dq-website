@@ -42,6 +42,13 @@
   line-height: 1.5;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  /* Truncate text after 3 lines with ellipsis */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 4.5em; /* 3 lines × 1.5 line-height */
 }
 
 /* Modal Overlay Styles */
@@ -57,6 +64,10 @@
   justify-content: center;
   z-index: 1000;
   animation: fadeIn 0.3s ease-out;
+  /* Prevent body scroll when modal is open */
+  overflow: hidden;
+  /* Prevent touch events from reaching the background */
+  touch-action: none;
 }
 
 .modal-content {
@@ -68,6 +79,9 @@
   position: relative;
   overflow: hidden;
   animation: slideIn 0.3s ease-out;
+  /* Ensure modal content can scroll independently */
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-close {
@@ -111,6 +125,33 @@
   padding: 20px;
   max-height: 60vh;
   overflow-y: auto;
+  /* Prevent scroll chaining to parent */
+  overscroll-behavior: contain;
+  /* Smooth scrolling on mobile */
+  -webkit-overflow-scrolling: touch;
+  /* Ensure proper scrolling behavior */
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  /* Prevent horizontal scroll */
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for webkit browsers */
+.modal-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: #999;
 }
 
 .modal-content-wrapper {
@@ -252,14 +293,14 @@
   transition: all 0.3s ease;
   border: 2px solid var(--ifm-color-orange);
   font-family: 'Lato', sans-serif;
-}
-
-.integration-phone-btn {
   background-color: transparent;
   color: var(--ifm-color-orange);
 }
 
-.integration-phone-btn:hover {
+/* Unified hover effect for all integration buttons */
+.integration-phone-btn:hover,
+.integration-email-btn:hover,
+.integration-order-btn:hover {
   background-color: var(--ifm-color-orange);
   color: white;
   text-decoration: none;
@@ -267,23 +308,44 @@
   box-shadow: 0 4px 12px rgba(240, 90, 9, 0.3);
 }
 
-.integration-email-btn {
-  background-color: transparent;
-  color: var(--ifm-color-orange);
-}
-
-.integration-email-btn:hover {
-  background-color: var(--ifm-color-orange);
-  color: white;
-  text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(240, 90, 9, 0.3);
-}
-
+/* Unified icon styles - all icons use the same color */
 .phone-icon,
 .email-icon,
 .order-icon {
   font-size: 16px;
+  color: var(--ifm-color-orange);
+  transition: color 0.3s ease;
+}
+
+/* Icon color changes on hover to match button text */
+.integration-phone-btn:hover .phone-icon,
+.integration-email-btn:hover .email-icon,
+.integration-order-btn:hover .order-icon {
+  color: white;
+}
+
+/* Mobile touch improvements for integration buttons */
+@media (hover: none) and (pointer: coarse) {
+  .integration-phone-btn,
+  .integration-email-btn,
+  .integration-order-btn {
+    /* Remove hover effects on touch devices */
+    transition: none;
+    /* Improve touch performance */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  
+  .integration-phone-btn:active,
+  .integration-email-btn:active,
+  .integration-order-btn:active {
+    /* Add active state for touch feedback */
+    background-color: rgba(240, 90, 9, 0.1);
+    transform: scale(0.98);
+    /* Prevent text selection on touch */
+    -webkit-user-select: none;
+    user-select: none;
+  }
 }
 
 /* Pricing Models Styles */
@@ -366,6 +428,9 @@
   font-family: 'Lato', sans-serif;
   transition: all 0.3s ease;
   background: white;
+  /* Mobile accessibility: ensure minimum touch target size */
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .contact-button:hover {
@@ -379,6 +444,27 @@
   font-size: 1.1rem;
 }
 
+/* Mobile touch improvements for contact buttons */
+@media (hover: none) and (pointer: coarse) {
+  .contact-button {
+    /* Remove hover effects on touch devices */
+    transition: none;
+    /* Improve touch performance */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  
+  .contact-button:active {
+    /* Add active state for touch feedback */
+    background: var(--ifm-color-orange);
+    color: white;
+    transform: scale(0.98);
+    /* Prevent text selection on touch */
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -388,14 +474,15 @@
   }
 }
 
+/* Optimize animations for mobile performance */
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: scale(0.9) translateY(-20px);
+    transform: translateY(-10px);
   }
   to {
     opacity: 1;
-    transform: scale(1) translateY(0);
+    transform: translateY(0);
   }
 }
 
@@ -404,6 +491,8 @@
   .modal-content {
     width: 90vw;
     max-height: 85vh;
+    /* Improve mobile performance */
+    will-change: auto;
   }
   
   .modal-content-wrapper {
@@ -428,6 +517,9 @@
   .modal-content {
     width: 95vw;
     max-height: 90vh;
+    /* Optimize for mobile */
+    border-radius: 15px;
+    margin: 10px;
   }
   
   .modal-content-wrapper {
@@ -450,6 +542,9 @@
   
   .modal-body {
     padding: 20px;
+    /* Improve mobile scrolling */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
   }
   
   .modal-footer {
@@ -460,6 +555,9 @@
     top: 15px;
     right: 15px;
     font-size: 1.5rem;
+    /* Ensure touch target size */
+    min-width: 44px;
+    min-height: 44px;
   }
   
   .pricing-options {
@@ -470,6 +568,8 @@
   .pricing-option {
     min-width: auto;
     width: 100%;
+    /* Remove fixed width constraints */
+    max-width: none;
   }
   
   .modal-contact-buttons {
@@ -480,6 +580,8 @@
   .contact-button {
     justify-content: center;
     padding: 12px 20px;
+    /* Ensure touch target size */
+    min-height: 44px;
   }
   
   .integration-cta {
@@ -491,6 +593,8 @@
   .integration-email-btn {
     justify-content: center;
     padding: 12px 20px;
+    /* Ensure touch target size */
+    min-height: 44px;
   }
   
   .card-title {
@@ -499,10 +603,17 @@
   
   .expandable-card {
     padding: 15px;
+    /* Improve mobile performance */
+    will-change: auto;
   }
   
   .card-preview-text {
     font-size: 0.9rem;
+  }
+  
+  /* Fix grid layout issues on mobile */
+  .pricing-options.two-columns {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -512,12 +623,14 @@
   }
   
   .modal-description {
-    font-size: 17px;
+    font-size: 16px;
+    line-height: 1.5;
   }
   
   .modal-points li {
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 10px;
+    padding-left: 20px;
   }
   
   .modal-price-text {
@@ -525,8 +638,25 @@
   }
   
   .contact-button {
-    font-size: 17px;
-    padding: 10px 16px;
+    font-size: 16px;
+    padding: 12px 18px;
+    /* Ensure minimum touch target on very small screens */
+    min-height: 48px;
+    /* Improve mobile layout */
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .integration-phone-btn,
+  .integration-email-btn,
+  .integration-order-btn {
+    font-size: 16px;
+    padding: 12px 18px;
+    /* Ensure minimum touch target on very small screens */
+    min-height: 48px;
+    /* Improve mobile layout */
+    width: 100%;
+    justify-content: center;
   }
   
   .card-title {
@@ -535,9 +665,213 @@
   
   .expandable-card {
     padding: 12px;
+    /* Remove hover effects on mobile */
+    transition: none;
   }
   
   .card-preview-text {
     font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  /* Ensure adequate spacing between buttons on very small screens */
+  .integration-cta {
+    gap: 8px;
+  }
+  
+  .modal-contact-buttons {
+    gap: 8px;
+  }
+  
+  /* Optimize modal for very small screens */
+  .modal-content {
+    margin: 5px;
+    border-radius: 10px;
+  }
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    padding: 15px;
+  }
+  
+  /* Improve button spacing on very small screens */
+  .pricing-options {
+    gap: 12px;
+  }
+  
+  .pricing-option {
+    padding: 14px;
   }
 }
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Disable hover effects on mobile */
+  .expandable-card:hover {
+    transform: none;
+    border-color: #e0e0e0;
+  }
+  
+  /* Optimize modal performance */
+  .modal-overlay {
+    /* Improve mobile performance */
+    will-change: auto;
+  }
+  
+  .modal-content {
+    /* Optimize for mobile */
+    will-change: auto;
+    /* Prevent horizontal scroll */
+    overflow-x: hidden;
+  }
+  
+  /* Improve touch scrolling */
+  .modal-body {
+    /* Better mobile scrolling */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    /* Prevent scroll chaining */
+    scroll-behavior: smooth;
+  }
+  
+  /* Optimize button interactions */
+  .integration-phone-btn,
+  .integration-email-btn,
+  .integration-order-btn,
+  .contact-button {
+    /* Improve touch performance */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    /* Prevent text selection */
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+/* Very small screen optimizations */
+@media (max-width: 480px) {
+  /* Ensure adequate touch targets */
+  .modal-close {
+    min-width: 48px;
+    min-height: 48px;
+  }
+  
+  /* Improve button spacing */
+  .integration-cta,
+  .modal-contact-buttons {
+    gap: 12px;
+  }
+  
+  /* Optimize modal layout */
+  .modal-content {
+    margin: 8px;
+    border-radius: 12px;
+  }
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    padding: 16px;
+  }
+  
+  /* Better text readability */
+  .modal-description,
+  .modal-points li {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+/* Mobile-specific viewport adjustments */
+@media (max-width: 768px) {
+  /* Ensure modal content fits properly on mobile */
+  .modal-content {
+    /* Use viewport height more effectively */
+    max-height: calc(100vh - 40px);
+    /* Ensure proper mobile layout */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-overlay {
+    /* Improve mobile positioning */
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Ensure proper mobile layout */
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .modal-body {
+    /* Allow body to grow and scroll as needed */
+    flex: 1;
+    overflow-y: auto;
+    /* Remove height constraints that cause cutoff */
+    max-height: none;
+  }
+  
+  .modal-footer {
+    /* Ensure footer stays at bottom and is accessible */
+    flex-shrink: 0;
+    /* Add bottom padding to account for browser UI */
+    padding-bottom: 30px;
+    /* Ensure footer is above any browser elements */
+    z-index: 1000;
+  }
+  
+  /* Ensure buttons are fully visible and accessible */
+  .integration-cta {
+    /* Prevent buttons from being cut off */
+    margin-bottom: 0;
+    /* Ensure adequate spacing from bottom */
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    /* Use almost full viewport height on very small screens */
+    max-height: calc(100vh - 20px);
+    /* Ensure proper mobile layout */
+    margin: 10px;
+  }
+  
+  .modal-overlay {
+    /* Better mobile positioning for very small screens */
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* Ensure proper mobile layout */
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .modal-footer {
+    /* Add extra bottom padding for very small screens */
+    padding-bottom: 40px;
+    /* Ensure footer is fully accessible */
+    margin-bottom: 0;
+  }
+  
+  /* Ensure buttons are fully visible on very small screens */
+  .integration-cta {
+    /* Prevent cutoff on very small screens */
+    margin-bottom: 0;
+    /* Ensure adequate spacing */
+    padding-bottom: 15px;
+  }
+  
+  .integration-phone-btn,
+  .integration-email-btn,
+  .integration-order-btn {
+    /* Ensure buttons are fully accessible */
+    margin-bottom: 0;
+    /* Prevent any cutoff */
+    position: relative;
+    z-index: 1001;
+  }
+}
+

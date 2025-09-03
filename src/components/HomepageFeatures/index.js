@@ -25,7 +25,12 @@ export default function HomepageFeatures(props) {
         <div className={clsx('col col--7')}>
           <div className='sikker-content'>
             {description}
-            <Button label={button} isIcon={true} link={link}/>
+            <Button 
+              label={button} 
+              isIcon={true} 
+              link={link}
+              btnSize="md"
+            />
           </div>
         </div>
       </div>

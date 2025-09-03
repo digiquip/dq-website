@@ -43,31 +43,13 @@ const newsContent = [
         blogLink: '/blog/SD-tilsyn-dokumentasjon-utstyr',
     },
 ];
-//Avpublisert
-const consolidateWorkContent = {
-    className: "consolidate-section",
-    title: (
-        <h2 className="section-title"><Translate>home.consolidate.title</Translate>
-            <span className="orange">.</span>
-        </h2>
-    ),
-    img: require("@site/static/img/platform-img.webp").default,
-    description: (
-        <>
-            <p><Translate>home.consolidate.arg1</Translate></p>
-            <p><Translate>home.consolidate.arg2</Translate></p>
-            <ul>
-                <li><Translate>home.consolidate.point1</Translate></li>
-                <li><Translate>home.consolidate.point2</Translate></li>
-                <li><Translate>home.consolidate.point3</Translate></li>
-            </ul>
-        </>
-    ),
-    link: "trygg-maskin",
-};
-//Avpublisert
+
 
 const brandLogoPartners = partnersBrandLogoList.brandList;
+
+
+
+
 
 const mainPageContentRecords = {
     safetyWork,

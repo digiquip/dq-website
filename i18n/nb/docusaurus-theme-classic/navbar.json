@@ -38,5 +38,9 @@
   "item.label.Dokumentasjon": {
     "message": "Dokumentasjon",
     "description": "Navbar element med etikett Dokumentasjon"
+  },
+  "item.label.Integrasjoner": {
+    "message": "Integrasjoner",
+    "description": "Navbar element med etikett Integrasjoner"
   }
 }

@@ -3,6 +3,7 @@ import Translate from '@docusaurus/Translate';
 import React from 'react';
 import youtubePlayList from "./youtubePlayList";
 import embeddedForm from "./EmbeddedForm";
+import Button from '../src/components/Button';
 
 const bedriftBannerData =
 {
@@ -98,9 +99,12 @@ const bedriftIntegrationsData = {
                 </div>
             </div>
             <div className="integration-cta-single">
-                <a href="/bestill-kreg-integrasjon" className="integration-single-btn">
-                    <span>Les mer og bestill</span>
-                </a>
+                <Button 
+                  label={<Translate>read-more-and-order</Translate>}
+                  link="/bestill-kreg-integrasjon" 
+                  btnSize="md"
+                  isIcon
+                />
             </div>
             <br />
             <p>

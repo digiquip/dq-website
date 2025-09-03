@@ -394,22 +394,7 @@
     "message": "Real-time dashboards.",
     "description": "The third point of the consolidate your training section on the home page"
   },
-  "home.share.title": {
-    "message": "Suppliers efficiently share information and content",
-    "description": "The title of the share knowledge and experience section on the home page"
-  },
-  "home.share.point1": {
-    "message": "User manuals and instructions.",
-    "description": "The first point of the share knowledge and experience section on the home page"
-  },
-  "home.share.point2": {
-    "message": "Product specifications.",
-    "description": "The second point of the share knowledge and experience section on the home page"
-  },
-  "home.share.point3": {
-    "message": "Videos, images, and training.",
-    "description": "The third point of the share knowledge and experience section on the home page"
-  },
+
   "home.expert.title": {
     "message": "Efficient execution and documentation of expert inspections",
     "description": "The title of the expertise and experience section on the home page"
@@ -575,7 +560,7 @@
   "description": "Description for the integrations section on the bedrift page"
 },
 "bedrift.integrations.link": {
-  "message": "Read more here",
+  "message": "Read more",
   "description": "Link text for the integrations section on the bedrift page"
 },
 "bedrift.integrations.pricing": {
@@ -613,26 +598,6 @@
   "workequipment.banner.title1": {
     "message": "Get an overview of whether the equipment is safe to use",
     "description": "The first title of the work equipment page"
-  },
-  "workequipment.banner.title2": {
-    "message": "machines and equipment",
-    "description": "The second title of the work equipment page"
-  },
-  "workequipment.banner.title3": {
-    "message": "in one platform",
-    "description": "The third title of the work equipment page"
-  },
-  "workequipment.banner.title4": {
-    "message": "Streamline internal processes by consolidating all work equipment in one place.",
-    "description": "The fourth title of the work equipment page"
-  },
-  "workequipment.banner.arg1": {
-    "message": "When a business manages many machines and equipment, it is important that documents, manuals, and reports are organised and readily available when people need them.",
-    "description": "The first argument of the work equipment banner"
-  },
-  "workequipment.banner.arg2": {
-    "message": "Most machines and equipment requires inspections, and this must happen in a timely manner. The inspection of work equipment can be streamlined using digital checklists with standard reporting. Digital checklists for machines and equipment make it easier to carry out and document everything from pre-use to annual inspections.",
-    "description": "The second argument of the work equipment banner"
   },
   "workequipment.systematized_documentation.title": {
     "message": "Full control with the Maintenance module",
@@ -994,7 +959,7 @@
   "description": "Title for K-REG integration page"
 },
 "kreg.integration.description": {
-  "message": "Equipment-specific training can be uploaded directly to K-REG, either as an add-on to Kvipp Bedrift or as a standalone solution. Furthermore, K-REG shares competence with HMSREG, which can be practical if the client uses HMSREG.",
+  "message": "Equipment-specific training can be uploaded directly to K-REG, either as an add-on to Kvipp Bedrift or as a standalone solution. Furthermore, K-REG shares competence with HMSREG.",
   "description": "Description of K-REG integration"
 },
 "kreg.integration.benefit1": {
@@ -1049,10 +1014,7 @@
   "message": "Kompetanseregisteret",
   "description": "Kompetanseregisteret integration card title"
 },
-"integrations.cards.kompetanseregisteret.description": {
-  "message": "Automatic transfer of equipment-specific training to the Kompetanseregisteret. When a person with the role of \"instructor\" provides practical equipment-specific training to any of your employees, the result is automatically uploaded to K-REG. Furthermore, K-REG shares competence with HMSREG. Read more at Sentralregisteret.no →",
-  "description": "Kompetanseregisteret integration card description"
-},
+
 "integrations.cards.kompetanseregisteret.point1": {
   "message": "Visible in HMSREG via the Kompetanseregisteret",
   "description": "Kompetanseregisteret integration benefit 1"
@@ -1093,10 +1055,7 @@
   "message": "Onlet",
   "description": "Onlet integration card title"
 },
-"integrations.cards.onlet.description": {
-  "message": "With the integration between DigiQuip and Onlet, you get automatic updates of control data. When a control is completed in DigiQuip or when we receive controls from M-REG or Digitool, Onlet is updated the next day with status, next control date and control report.",
-  "description": "Onlet integration card description"
-},
+
 "integrations.cards.onlet.point1": {
   "message": "Save time – avoid double registration",
   "description": "Onlet integration benefit 1"
@@ -1129,10 +1088,7 @@
   "message": "DigiTool",
   "description": "DigiTool integration card title"
 },
-"integrations.cards.digitool.description": {
-  "message": "Automatic transfer of control status and control reports from Digitool to DigiQuip. The data becomes available immediately, so you always see the latest update. Completely without delay and without extra work!",
-  "description": "DigiTool integration card description"
-},
+
 "integrations.cards.digitool.point1": {
   "message": "Control status and reports available directly in the chosen product (Kvipp or Trygg Maskin)",
   "description": "DigiTool integration benefit 1"
@@ -1161,10 +1117,7 @@
   "message": "Maskinregisteret",
   "description": "Maskinregisteret integration card title"
 },
-"integrations.cards.maskinregisteret.description": {
-  "message": "Integration with the Maskinregisteret (M-REG) to automatically import work equipment and expert control to DigiQuip.",
-  "description": "Maskinregisteret integration card description"
-},
+
 "integrations.cards.maskinregisteret.point1": {
   "message": "Automatic import of machines and equipment in DigiQuip",
   "description": "Maskinregisteret integration benefit 1"
@@ -1189,10 +1142,7 @@
   "message": "Tailored",
   "description": "Skreddersydd integration card title"
 },
-"integrations.cards.skreddersydd.description": {
-  "message": "Do you already have a system you want us to integrate with? Contact us and we'll find a solution.",
-  "description": "Skreddersydd integration card description"
-},
+
 "integrations.cards.skreddersydd.pricing.title": {
   "message": "Tailored Integration",
   "description": "Skreddersydd pricing option title"
@@ -1340,5 +1290,50 @@
 "common.copyUrlAlert": {
   "message": "URL copied to clipboard!",
   "description": "Copy URL success alert message"
+},
+
+"digitool.integration.description": {
+  "message": "Automatic transfer of control status and control reports from Digitool to DigiQuip. The data becomes available immediately, so you always see the latest update. Completely without delay and without extra work!",
+  "description": "Description of DigiTool integration"
+},
+"maskinregisteret.integration.description": {
+  "message": "Integration with the Maskinregisteret (M-REG) to automatically import work equipment and expert control to DigiQuip.",
+  "description": "Description of Maskinregisteret integration"
+},
+"skreddersydd.integration.description": {
+  "message": "Do you already have a system you want us to integrate with? Contact us and we'll find a solution.",
+  "description": "Description of Skreddersydd integration"
+},
+"test-kvipp-button": {
+  "message": "Test Kvipp",
+  "description": "Button text for testing Kvipp"
+},
+"read-more-and-order": {
+  "message": "Read more and order",
+  "description": "Button text for reading more and ordering"
+},
+"prices.banner.title": {
+  "message": "Pricing",
+  "description": "Price page banner title"
+},
+"prices.banner.subtitle": {
+  "message": "Here are our prices. Feel free to contact us for a demo!",
+  "description": "Price page banner subtitle"
+},
+"aboutus.banner.imageAlt": {
+  "message": "How it started",
+  "description": "Alt text for about us banner image"
+},
+"contact.homeImageAlt": {
+  "message": "Contact us",
+  "description": "Alt text for contact home image"
+},
+"contact.form.title": {
+  "message": "Contact us",
+  "description": "Contact form section title"
+},
+"contact.form.description": {
+  "message": "Unsure who you want to talk to or do you have a case that should go to support? See the contact information below or fill out the form.",
+  "description": "Contact form section description"
 }
 }

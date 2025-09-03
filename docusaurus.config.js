@@ -114,7 +114,6 @@ const config = {
           {
             to: '/integrations',
             label: 'Integrasjoner',
-            translate: 'navbar.label.integrations',
             position: 'left',
             sidebarid: 'tutorialSidebar',
           },
