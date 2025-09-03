@@ -26,7 +26,12 @@ export default function News({title, description, dyntubeKey, youtubeVideoBanner
 
                         {/*<Link className="btn red-btn read-more" href={blogLink}>Read More</Link>*/}
                         <div className='news-readmore'>
-                            <Button label={button} isIcon={true} link={blogLink} btnType={'btn_icon'}/>
+                            <Button 
+                                label={button} 
+                                isIcon={true} 
+                                link={blogLink} 
+                                btnSize="md"
+                            />
                         </div>
                     </div>
                 </div>

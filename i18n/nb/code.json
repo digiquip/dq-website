@@ -559,7 +559,7 @@
   "description": "Description for the integrations section on the bedrift page"
 },
 "bedrift.integrations.link": {
-  "message": "Les mer her",
+  "message": "Les mer",
   "description": "Link text for the integrations section on the bedrift page"
 },
 "bedrift.integrations.pricing": {
@@ -905,11 +905,11 @@
     "description": "First description of the news"
   },
   "home.news.news2title": {
-    "message": "Last opp alle opplæringsbevis til K-REG (og HMSREG)",
+    "message": "Last opp opplæringsbevis til K-REG (og HMSREG)",
     "description": "Second title of the news"
   },
   "home.news.news2desc": {
-    "message": "Nå kan du automatisk overføre all utstyrsspesifikk opplæring fra Kvipp til Kompetanseregisteret (K-REG). Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes all nødvendig informasjon og dokumentasjon over til Kompetanseregisteret. Videre deler K-REG kompetanse med HMSREG.",
+    "message": "Nå kan du automatisk overføre utstyrsspesifikk opplæring fra Kvipp til Kompetanseregisteret (K-REG). Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes all nødvendig informasjon og dokumentasjon over til Kompetanseregisteret. Videre deler K-REG kompetanse med HMSREG.",
     "description": "Second description of the news"
   },
   "home.news.news3title": {
@@ -1012,10 +1012,7 @@
   "message": "Kompetanseregisteret",
   "description": "Kompetanseregisteret integration card title"
 },
-"integrations.cards.kompetanseregisteret.description": {
-  "message": "Automatisk overføring av utstyrsspesifikk opplæring til Kompetanseregisteret. Når en person med rollen \"instruktør\" gir praktisk utstyrsspesifikk opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret. Videre deler K-REG kompetanse med HMSREG. Les mer på Sentralregisteret.no →",
-  "description": "Kompetanseregisteret integration card description"
-},
+
 "integrations.cards.kompetanseregisteret.point1": {
   "message": "Synlig i HMSREG via Kompetanseregisteret",
   "description": "Kompetanseregisteret integration benefit 1"
@@ -1058,10 +1055,7 @@
   "message": "Onlet",
   "description": "Onlet integration card title"
 },
-"integrations.cards.onlet.description": {
-  "message": "Med integrasjonen mellom DigiQuip og Onlet får du automatisk oppdatering av kontrolldata. Når en kontroll er gjennomført i DigiQuip eller når vi mottar kontroller fra M-REG eller Digitool, blir Onlet oppdatert neste dag med status, neste kontrolldato og kontrollrapport.",
-  "description": "Onlet integration card description"
-},
+
 "integrations.cards.onlet.point1": {
   "message": "Spar tid – unngå dobbelregistrering",
   "description": "Onlet integration benefit 1"
@@ -1095,10 +1089,7 @@
   "message": "DigiTool",
   "description": "DigiTool integration card title"
 },
-"integrations.cards.digitool.description": {
-  "message": "Automatisk overføring av kontrollstatus og kontrollrapporter fra Digitool til DigiQuip. Dataene blir tilgjengelige med en gang, slik at du alltid ser siste oppdatering. Helt uten forsinkelse og uten ekstra arbeid!",
-  "description": "DigiTool integration card description"
-},
+
 "integrations.cards.digitool.point1": {
   "message": "Kontrollstatus og rapporter tilgjengelig direkte i valgt produkt (Kvipp eller Trygg Maskin)",
   "description": "DigiTool integration benefit 1"
@@ -1128,10 +1119,7 @@
   "message": "Maskinregisteret",
   "description": "Maskinregisteret integration card title"
 },
-"integrations.cards.maskinregisteret.description": {
-  "message": "Integrasjon med Maskinregisteret (M-REG) for å hente arbeidsutstyr og sakkyndig kontroll automatisk over til DigiQuip.",
-  "description": "Maskinregisteret integration card description"
-},
+
 "integrations.cards.maskinregisteret.point1": {
   "message": "Automatisk import av maskiner og utstyr i DigiQuip",
   "description": "Maskinregisteret integration benefit 1"
@@ -1157,10 +1145,7 @@
   "message": "Skreddersydd",
   "description": "Skreddersydd integration card title"
 },
-"integrations.cards.skreddersydd.description": {
-  "message": "Har du allerede et system du ønsker at vi skal integrere med? Ta kontakt så finner vi en løsning.",
-  "description": "Skreddersydd integration card description"
-},
+
 "integrations.cards.skreddersydd.pricing.title": {
   "message": "Skreddersydd Integrasjon",
   "description": "Skreddersydd pricing option title"
@@ -1278,7 +1263,7 @@
   "description": "First benefit of Onlet integration"
 },
 "onlet.integration.benefit2": {
-  "message": "Alltid oppdatert neste kontroll-dato",
+  "message": "Alltid oppdatert neste kontrolldato",
   "description": "Second benefit of Onlet integration"
 },
 "onlet.integration.benefit3": {
@@ -1308,5 +1293,50 @@
 "common.copyUrlAlert": {
   "message": "URL kopiert til utklippstavlen!",
   "description": "Copy URL success alert message"
+},
+
+"digitool.integration.description": {
+  "message": "Automatisk overføring av kontrollstatus og kontrollrapporter fra Digitool til DigiQuip. Dataene blir tilgjengelige med en gang, slik at du alltid ser siste oppdatering. Helt uten forsinkelse og uten ekstra arbeid!",
+  "description": "Description of DigiTool integration"
+},
+"maskinregisteret.integration.description": {
+  "message": "Integrasjon med Maskinregisteret (M-REG) for å hente arbeidsutstyr og sakkyndig kontroll automatisk over til DigiQuip.",
+  "description": "Description of Maskinregisteret integration"
+},
+"skreddersydd.integration.description": {
+  "message": "Har du allerede et system du ønsker at vi skal integrere med? Ta kontakt så finner vi en løsning.",
+  "description": "Description of Skreddersydd integration"
+},
+"test-kvipp-button": {
+  "message": "Test Kvipp",
+  "description": "Button text for testing Kvipp"
+},
+"read-more-and-order": {
+  "message": "Les mer og bestill",
+  "description": "Button text for reading more and ordering"
+},
+"prices.banner.title": {
+  "message": "Priser",
+  "description": "Price page banner title"
+},
+"prices.banner.subtitle": {
+  "message": "Her er våre priser. Ta gjerne kontakt for en demo!",
+  "description": "Price page banner subtitle"
+},
+"aboutus.banner.imageAlt": {
+  "message": "Slik startet det",
+  "description": "Alt text for about us banner image"
+},
+"contact.homeImageAlt": {
+  "message": "Kontakt oss",
+  "description": "Alt text for contact home image"
+},
+"contact.form.title": {
+  "message": "Kontakt oss",
+  "description": "Contact form section title"
+},
+"contact.form.description": {
+  "message": "Usikker på hvem du vil prate med eller har du en sak som skal til support? Se kontaktinformasjonen under eller fyll ut skjemaet.",
+  "description": "Contact form section description"
 }
 }

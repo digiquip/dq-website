@@ -9,43 +9,19 @@ import mainPageContentRecords from "../../../data/mainPageContents";
 import { useState } from "react";
 import { useEffect } from "react";
 
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-function Safeuse(props) {
-  const safeuseContent = props.items;
-  return <HomepageFeatures record={safeuseContent} />;
-}
 
-function ConsolidateWork(props) {
-  const consolidateWorkSection = props.items;
-  return <HomepageFeatures record={consolidateWorkSection} />;
-}
 
-function ShareInformation(props) {
-  const shareInformation = props.items;
-  return <HomepageFeatures record={shareInformation} />;
-}
+
+
+
 
 function OurPartners(props) {
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 6,
-      slidesToSlide: 1,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 580 },
-      items: 4,
-      slidesToSlide: 1,
-    },
-    mobile: {
-      breakpoint: { max: 580, min: 0 },
-      items: 2,
-      slidesToSlide: 1,
-    },
-  };
-
   const brandList = props.items;
   return (
     <section className="our-partners-section light-bg-grey">
@@ -54,22 +30,52 @@ function OurPartners(props) {
         <span className="orange">.</span>
       </h2>
       <div className="">
-        <Carousel
-          responsive={responsive}
-          autoPlay={true}
-          autoPlaySpeed={2000}
-          infinite={true}
-          arrows={false}
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={30}
+          slidesPerView={6}
+          loop={true}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true
+          }}
+          navigation={{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            disabledClass: 'swiper-button-disabled'
+          }}
+          pagination={{ 
+            clickable: true,
+            el: '.swiper-pagination',
+            type: 'bullets'
+          }}
+          breakpoints={{
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            580: {
+              slidesPerView: 4,
+              spaceBetween: 30
+            },
+            1024: {
+              slidesPerView: 6,
+              spaceBetween: 30
+            }
+          }}
+          aria-label="Partner brands carousel"
         >
             {brandList.map((props, idx) => (
-              <div className='brand-logo brand-carousel-item'  key={idx}>
-                <a href={props.link} target="_blank">
-                  <BrandLogo key={idx} {...props} />
-                </a>
-              </div>
+              <SwiperSlide key={idx}>
+                <div className='brand-logo brand-carousel-item'>
+                  <a href={props.link} target="_blank">
+                    <BrandLogo key={idx} {...props} />
+                  </a>
+                </div>
+              </SwiperSlide>
             ))}
-
-        </Carousel>
+        </Swiper>
         {/* {brandList.map((props, idx) => (
           <div className='brand-logo'>
             <BrandLogo key={idx} {...props} />
@@ -87,26 +93,13 @@ export default function Layout1() {
 const [newsContent , setNewsContent] = useState([])
 // const [safetyWorkContent , setSafetyWorkContent] = useState([])
 const [brandList , setBrandList] = useState([])
-const [safeuseContent , setSafeuseContent] = useState({})
-const [consolidateContent , setConsolidateContent] = useState({})
-const [shareInfoContent , setShareInfoContent] = useState({})
+
 
 useEffect(() => {
-  let ignore = false;
-    if (!ignore) {
-      setNewsContent(mainPageContentRecords.newsContent);
-      // setSafetyWorkContent(mainPageContentRecords.safetyWork);
-      setBrandList(mainPageContentRecords.brandLogoPartners);
-      setSafeuseContent(mainPageContentRecords.safeuseContent);
-      setConsolidateContent(mainPageContentRecords.consolidateWorkContent);
-      setShareInfoContent(mainPageContentRecords.shareInfoContent);
-    }
-
-  return () => { 
-    ignore = true;
-  }
- 
-}, [setNewsContent, brandList, safeuseContent, consolidateContent, shareInfoContent]);
+  setNewsContent(mainPageContentRecords.newsContent);
+  // setSafetyWorkContent(mainPageContentRecords.safetyWork);
+  setBrandList(mainPageContentRecords.brandLogoPartners);
+}, []); // ✅ Simplified and added empty dependency array
 
   useEffect(() => {
     // Load the Dyntube script when the component mounts
@@ -139,9 +132,6 @@ useEffect(() => {
         {/*    <SafetyWork key={idx} {...props} />*/}
             {/*))}*/}
             {brandList && <OurPartners items={brandList}/>}
-            {safeuseContent && <Safeuse items={safeuseContent}/>}
-            {consolidateContent && <ConsolidateWork items={consolidateContent}/>}
-            {shareInfoContent && <ShareInformation items={shareInfoContent}/>}
       </section>
 );
 }

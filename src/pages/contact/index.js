@@ -74,7 +74,7 @@ function HomepageHeader() {
             <p><Translate>aboutus.banner.arg3</Translate></p>
           </div>
           <div className='aboutus-story-img'>
-            <img src='img/about_us_image01.webp' alt='Slik startet det' />
+            <img src='img/about_us_image01.webp' alt={<Translate>aboutus.banner.imageAlt</Translate>} />
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ function Contact() {
   return (
     <section className='about-contact section-pd'>
       <div className="container">
-        <div className='home-contact-img'><img src='img/home-contact.webp'></img></div>
+        <div className='home-contact-img'><img src='img/home-contact.webp' alt={<Translate>contact.homeImageAlt</Translate>}></img></div>
       </div>
     </section>
   );
@@ -123,8 +123,8 @@ function AboutContactFormSection() {
       <div className="container">
         <div className="about-contact-form-grid">
           <div className="about-contact-form-text">
-            <h2 className='about-main-heading'>Kontakt oss</h2>
-            <p style={{marginBottom: '2rem'}}>Usikker på hvem du vil prate med eller har du en sak som skal til support? Se kontaktinformasjonen under eller fyll ut skjemaet.</p>
+            <h2 className='about-main-heading'><Translate>contact.form.title</Translate></h2>
+            <p style={{marginBottom: '2rem'}}><Translate>contact.form.description</Translate></p>
             <ContactInfoHorizontal />
           </div>
           <div className="about-contact-form-embed" style={{width: '100%'}}>

@@ -1,24 +1,59 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import './styles.css';
 
 export default function ExpandableCard({ id, title, description, points, image, isExpanded, onToggle, link, pricingModels, note }) {
+
   // Helper function to safely get text content from React elements
   const getTextContent = (element) => {
     if (typeof element === 'string') return element;
     if (React.isValidElement(element)) {
-      // If it's a Translate component, get the children
-      if (element.type === Translate) return element.props.children;
+      // If it's a Translate component, we need to render it to get the text
+      if (element.type === Translate) {
+        // For Translate components, we'll render them to get the actual text
+        // This is a workaround since we can't directly access the translated text
+        return element;
+      }
       // For other React elements, try to get text content
       return element.props.children || '';
     }
     return '';
   };
 
-  // Get text content for preview
-  const descriptionText = getTextContent(description);
-  const previewText = descriptionText.substring(0, 120) + '...';
+  // Helper function to render content that might be Translate components
+  const renderContent = (content) => {
+    if (typeof content === 'string') return content;
+    if (React.isValidElement(content)) {
+      if (content.type === Translate) {
+        return content;
+      }
+      return content.props.children || '';
+    }
+    return content;
+  };
+
+  // Get text content for preview - use the same description content but with CSS truncation
+  const getPreviewText = (content) => {
+    // Always return the same content, but we'll use CSS to truncate it in the preview
+    return content;
+  };
+
+  // Prevent body scroll when modal is open
+  useEffect(() => {
+    if (isExpanded) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+
+    // Cleanup function to remove class when component unmounts
+    return () => {
+      document.body.classList.remove('modal-open');
+    };
+  }, [isExpanded]);
+
+  const previewText = getPreviewText(description);
 
   return (
     <>
@@ -45,7 +80,7 @@ export default function ExpandableCard({ id, title, description, points, image, 
               <div className="modal-content-wrapper">
                 <div className="modal-text-content">
                   <p className="modal-description">
-                    {descriptionText.replace('Les mer på Sentralregisteret.no →', '').trim()}
+                    {renderContent(description)}
                     {link && (
                       <a href={link} target="_blank" rel="noopener noreferrer" className="external-link">
                         {' '}<Translate id="integrations.cards.readMore" description="Read more link text">Les mer på Sentralregisteret.no →</Translate>
@@ -57,7 +92,7 @@ export default function ExpandableCard({ id, title, description, points, image, 
                       {points.map((point, index) => (
                         <div key={index} className="benefit-item">
                           <span className="benefit-icon">✓</span>
-                          <span>{point}</span>
+                          <span>{renderContent(point)}</span>
                         </div>
                       ))}
                     </div>
@@ -67,9 +102,9 @@ export default function ExpandableCard({ id, title, description, points, image, 
                       <div className={`pricing-options${pricingModels.length > 1 ? ' two-columns' : ''}`}>
                         {pricingModels.map((model, index) => (
                           <div key={index} className="pricing-option">
-                            <h4 className="pricing-option-title">{model.title}</h4>
-                            <p className="pricing-option-description">{model.description}</p>
-                            <div className="pricing-option-price">{model.price}</div>
+                            <h4 className="pricing-option-title">{renderContent(model.title)}</h4>
+                            <p className="pricing-option-description">{renderContent(model.description)}</p>
+                            <div className="pricing-option-price">{renderContent(model.price)}</div>
                           </div>
                         ))}
                       </div>
@@ -77,7 +112,7 @@ export default function ExpandableCard({ id, title, description, points, image, 
                   )}
                   {note && (
                     <div className="integration-note">
-                      <p className="note-text">{note}</p>
+                      <p className="note-text">{renderContent(note)}</p>
                     </div>
                   )}
                 </div>

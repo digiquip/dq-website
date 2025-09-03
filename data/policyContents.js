@@ -2,6 +2,7 @@ import React from 'react';
 import Translate from '@docusaurus/Translate';
 import youtubePlayList from "./youtubePlayList";
 import embeddedForm from "./EmbeddedForm";
+import Button from '../src/components/Button';
 
 const policyBannerData =
 {
@@ -64,9 +65,12 @@ const policyWhatData =
             </ul>
             <p style={{marginTop: '0.25rem'}}><strong><Translate>policy-what.point5</Translate></strong></p>
             <div className="btn-container" style={{marginTop: '1rem'}}>
-                <a href="/contact">
-                    <button className="btn-t-1 calculator-button"><Translate>policy-what.contact-button</Translate></button>
-                </a>
+                <Button 
+                  label={<Translate>policy-what.contact-button</Translate>}
+                  link="/contact" 
+                  btnSize="md"
+                  isIcon
+                />
             </div>
         </>
     ),
