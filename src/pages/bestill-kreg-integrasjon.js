@@ -184,25 +184,6 @@ function OrderKRegSection() {
                 </div>
               </div>
               
-              <div style={{ marginTop: '20px' }}>
-                <div style={{ marginBottom: '15px' }}>
-                  <p className='bestill-kreg-text' style={{ margin: '0 0 8px 0' }}>
-                    <strong><Translate id="kreg.integration.pricing.kvippSmabedrift.title" description="Kvipp Småbedrift pricing description title">Kvipp Småbedrift:</Translate></strong> <Translate id="kreg.integration.pricing.kvippSmabedrift.description" description="Kvipp Småbedrift pricing description">For deg som har færre enn ti ansatte gir vi integrasjonen med på kjøpet. Kvipp Småbedrift koster 490 kr per måned. Du styrer hvem som skal ha rollen instruktør.</Translate>
-                  </p>
-                </div>
-                
-                <div style={{ marginBottom: '15px' }}>
-                  <p className='bestill-kreg-text' style={{ margin: '0 0 8px 0' }}>
-                    <strong><Translate id="kreg.integration.pricing.kvippBedrift.title" description="Kvipp Bedrift pricing description title">Kvipp Bedrift:</Translate></strong> <Translate id="kreg.integration.pricing.kvippBedrift.description" description="Kvipp Bedrift pricing description">Kvipp Bedrift koster 1390 kr måned. Med både Småbedrift og Bedrift får dere full oversikt over alle opplæringer og flere nyttige tilleggsfunksjoner. Du styrer hvem som skal ha rollen instruktør.</Translate>
-                  </p>
-                </div>
-                
-                <div style={{ marginBottom: '15px' }}>
-                  <p className='bestill-kreg-text' style={{ margin: '0 0 8px 0' }}>
-                    <strong><Translate id="kreg.integration.pricing.frittstaende.title" description="Frittstående pricing description title">Frittstående:</Translate></strong> <Translate id="kreg.integration.pricing.frittstaende.description" description="Frittstående pricing description">Du bruker Kvipp i felt og K-REG (evt HMSREG) for oversikt. For deg som ikke trenger oversikt i Kvipp Bedrift. Alle i virksomheten gis rollen instruktør.</Translate>
-                  </p>
-                </div>
-              </div>
             </div>
             
 

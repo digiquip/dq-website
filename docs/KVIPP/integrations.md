@@ -4,8 +4,13 @@ sidebar_position: 7
 # Integrasjoner
 
 # Integrasjon med Kompetanseregisteret (K-REG)
-
 Kompetanseregisteret er et register drevet av Sentralregisteret for registrering av ulik kompetanse. Utstyrsspesifikk opplæring gjennomført i Kvipp kan lastes direkte opp i K-REG. 
+
+### Hvorfor K-REG integrasjon?
+
+- **Ingen manuell dataregistrering kreves** - Alt skjer automatisk etter fullført opplæring
+- **Løpende dokumentasjon av utstyrsspesifikk opplæring** - Komplett historikk over all opplæring
+- **Synlig i HMSREG via Kompetanseregisteret** - Opplæringen blir tilgjengelig i HMSREG
 
 ### Automatisk overføring av utstyrsspesifikk opplæring
 
@@ -13,11 +18,14 @@ Når en person med rollen «instruktør» gir praktisk utstyrsspesifikk opplæri
 
 Egenerklæring og opplæringer gitt uten rollen instruktør lastes IKKE over.
 
-### Hvorfor K-REG integrasjon?
+**Eksempel: Det er virksomheten der personen er ansatt som må ha K-REG integrasjon aktivert.**
 
-- **Ingen manuell dataregistrering kreves** - Alt skjer automatisk etter fullført opplæring
-- **Løpende dokumentasjon av utstyrsspesifikk opplæring** - Komplett historikk over all opplæring
-- **Synlig i HMSREG via Kompetanseregisteret** - Opplæringen blir tilgjengelig i HMSREG
+I tillegg: Opplæringen må være gitt av instruktør.
+
+Dersom arbeidsgiver ikke har aktivert K-REG, så deles ikke opplæringen, selv om instruktøren/kursholderen har integrasjon. 
+
+**Bedrift A har Kvipp Bedrift uten K-REG-integrasjon aktivert.**
+En ansatt hos Bedrift A deltar på opplæring hos Bedrift B, hvor instruktøren har instruktørrolle og Bedrift B har aktivert K-reg-integrasjon. Opplæringen deles ikke til K-REG fordi den ansattes organisasjon ikke har aktivert integrasjonen.
 
 ### Komplett løsning
 

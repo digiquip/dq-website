@@ -13,6 +13,15 @@ When a person with the role of "instructor" provides practical equipment-specifi
 
 Self-declarations and training provided without the instructor role are NOT uploaded.
 
+**Example: It is the company where the person is employed that must have K-REG integration activated.**
+
+In addition: The training must be provided by an instructor.
+
+If the employer has not activated K-REG, the training is not shared, even if the instructor/course provider has integration.
+
+**Company A has Kvipp Business without K-REG integration activated.**
+An employee at Company A participates in training at Company B, where the instructor has instructor role and Company B has activated K-REG integration. The training is not shared to K-REG because the employee's organization has not activated the integration.
+
 ### Why K-REG integration?
 
 - **No manual data registration required** - Everything happens automatically after completed training

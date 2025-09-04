@@ -1180,7 +1180,7 @@
   "description": "How it works note"
 },
 "kreg.integration.pricing.title": {
-  "message": "Pricing",
+  "message": "Price for the integration",
   "description": "Pricing section title"
 },
 "kreg.integration.pricing.column1": {
@@ -1206,30 +1206,6 @@
 "kreg.integration.pricing.price3": {
   "message": "990 kr",
   "description": "Third pricing option"
-},
-"kreg.integration.pricing.kvippSmabedrift.title": {
-  "message": "Kvipp Småbedrift:",
-  "description": "Kvipp Småbedrift pricing description title"
-},
-"kreg.integration.pricing.kvippSmabedrift.description": {
-  "message": "For those with fewer than ten employees, we include the integration at no extra cost. Kvipp Småbedrift costs 490 kr per month. You control who should have the instructor role.",
-  "description": "Kvipp Småbedrift pricing description"
-},
-"kreg.integration.pricing.kvippBedrift.title": {
-  "message": "Kvipp Bedrift:",
-  "description": "Kvipp Bedrift pricing description title"
-},
-"kreg.integration.pricing.kvippBedrift.description": {
-  "message": "Kvipp Business costs 1390 kr per month. With both Småbedrift and Bedrift, you get full overview of all training and several useful additional features. You control who should have the instructor role.",
-  "description": "Kvipp Bedrift pricing description"
-},
-"kreg.integration.pricing.frittstaende.title": {
-  "message": "Standalone:",
-  "description": "Frittstående pricing description title"
-},
-"kreg.integration.pricing.frittstaende.description": {
-  "message": "You use Kvipp in the field and K-REG (or HMSREG) for overview. For those who don't need overview in Kvipp Business. Everyone in the company is given the instructor role.",
-  "description": "Frittstående pricing description"
 },
 "integrations.cards.readMore": {
   "message": "Read more at Sentralregisteret.no →",
