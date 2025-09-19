@@ -6,14 +6,14 @@ authors: [cathrine]
 image: img/articles/QR-kode-bod.jpg
 ---
 
-Sikkerhet på arbeidsplassen er avgjørende i byggebransjen. Utstyrsspesifikk opplæring er derfor en viktig og nødvendig del av jobben til folk som bruker maskiner og utstyr. Hos NCC Grunnarbeider "skal alle bruke utstyr trygt", sier Oskar Nikolaisen. Johnny Aaland legger til at opplæring er et viktig fokusområde, og opplæring i verktøy har tidligere vært en gjenganger i forbindelse med rapportering av uønskede hendelser.
+Sikkerhet på arbeidsplassen er avgjørende i byggebransjen. Utstyrsspesifikk opplæring er derfor en viktig og nødvendig del av jobben til folk som bruker maskiner og utstyr. Hos NCC Område Oslo "skal alle bruke utstyr trygt", sier Oskar Nikolaisen. Johnny Aaland legger til at opplæring er et viktig fokusområde, og opplæring i verktøy har tidligere vært en gjenganger i forbindelse med rapportering av uønskede hendelser.
 <!-- truncate -->
 
 ## Utfordring: Uønskede hendelser og manglende opplæring
-Over tid har NCC Grunnarbeider sett et mønster: Uønskede hendelser handlet ofte om manglende opplæring.
+Over tid har NCC Område Oslo sett et mønster: Uønskede hendelser handlet ofte om manglende opplæring.
 
 ## Løsning: Fokus og implementering av Kvipp
-Med implementeringen av Kvipp har NCC grunnarbeider fått på plass et system for opplæring og dokumentasjon. Noe av nøkkelen for en god implementering var å sette opplæring på agendaen og dedikere en intern ressurs til det. Oskar har vært primus motor for å sikre at folk tar løsningen i bruk, og utstyrsspesifikk opplæring har blant annet vært et tema i ulike samlinger. Og ikke minst, er Kvipp blitt tatt godt i mot takket være at det er enkelt.
+Med implementeringen av Kvipp har NCC Område Oslo fått på plass et system for opplæring og dokumentasjon. Noe av nøkkelen for en god implementering var å sette opplæring på agendaen og dedikere en intern ressurs til det. Oskar har vært primus motor for å sikre at folk tar løsningen i bruk, og utstyrsspesifikk opplæring har blant annet vært et tema i ulike samlinger. Og ikke minst, er Kvipp blitt tatt godt i mot takket være at det er enkelt.
 
 Det er overraskende lite tid som er tatt fra produksjon. Mye opplæring var allerede gjort tidligere, men ikke loggført. Så nå handler det om å ta igjen den tapte loggføringen, og fremover sørge for at hver gang det kommer nytt utstyr, gjøres det samtidig en opplæring.
 
@@ -32,7 +32,7 @@ Se denne videoen for flere refleksjoner fra Johnny:
 </div>
 
 ## Resultat: Færre uønskede hendelser
-Med implementeringen av Kvipp opplever NCC grunnarbeider økt bevissthet rundt opplæring. Og med økt bevissthet opplever NCC grunnarbeider at uønskede hendelser har en nedadgående trend.
+Med implementeringen av Kvipp opplever NCC Område Oslo økt bevissthet rundt opplæring. Og med økt bevissthet opplever NCC Område Oslo at uønskede hendelser har en nedadgående trend.
 
 At dokumentasjonen også blir tilgjengelig i K-REG og HMSREG er et stort pluss. Det å se at det faktisk er aktivitet ute i felt er betryggende og viser at sikkerhet tas seriøst.
 
