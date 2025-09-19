@@ -927,7 +927,15 @@
   "home.news.news4desc": {
   "message": "Et uanmeldt besøk fra Arbeidstilsynet kan være en stressende opplevelse for enhver bedrift. For SD Byggentreprenør AS ble et slikt besøk starten på en reise for å forbedre deres HMS-rutiner og sikre at de fulgte reglene for opplæring på farlig arbeidsutstyr – en prosess som kan være verdifull for alle bedrifter som ønsker å styrke sin HMS-praksis.",
   "description": "Fourth description of the news"
-},
+  },
+  "home.news.news5title": {
+    "message": "Opplæring: En ønsket hendelse",
+    "description": "Fifth title of the news"
+  },
+  "home.news.news5desc": {
+    "message": "Hos NCC grunnarbeider har de sett et mønster: Uønskete hendelser handlet ofte om manglende opplæring. Med implementeringen av Kvipp er det både økt bevissthet rundt opplæring og NCC opplever at antall skader går ned.",
+    "description": "Fifth description of the news"
+  },
 "integrations.banner.title1": {
   "message": "Integrasjoner som forenkler",
   "description": "Integrations page banner title"
