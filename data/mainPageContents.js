@@ -23,6 +23,13 @@ const newsContent = [
     },
     {
         isVideo: false,
+        title: translate({ message: "home.news.news5title" }),
+        imageBanner: 'img/articles/QR-kode-bod.jpg',
+        description: translate({ message: "home.news.news5desc" }),
+        blogLink: '/blog/opplæring-uønsket-hendelse-tiltak',
+    },
+    {
+        isVideo: false,
         title: translate({ message: "home.news.news2title" }),
         imageBanner: 'img/competence-images/practical-training.webp',
         description: translate({ message: "home.news.news2desc" }),
