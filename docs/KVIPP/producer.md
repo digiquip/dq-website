@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 ---
-# Kvipp - som maskinleverandør
+# Kvipp - som leverandør
 
 Når du som leverandør av maskiner og utstyr gir utstyrsspesifikk opplæring, kan dere dokumentere det i Kvipp. Med Kvipp blir den utstyrsspesifikke opplæringen automatisk lagret digitalt, og kunden får all oversikt løpende. Å gi og motta opplæringer i Kvipp koster ingenting.
 
@@ -13,7 +13,7 @@ Når du som leverandør av maskiner og utstyr gir utstyrsspesifikk opplæring, k
   ></iframe>
 </div>
 
-## Hva er utstyrsspesifikk opplæring
+## Hva er utstyrsspesifikk opplæring?
 For utstyr som "krever særlig forsiktighet ved bruk" så **skal alle ansatte ha nødvendig opplæring i bruk av arbeidsutstyret og kun ansatte som har fått opplæring skal bruke det.** Dette er arbeidsgivers ansvar. Skal en ansatt for eksempel bruke en tandemvals Volvo DD25B, er det nettopp den type arbeidsutstyr det skal gis opplæring i (forskrift om utførelse av arbeid kap. 10). Dette kalles utstyrsspesifikk opplæring på fagspråket. Noen kaller det også typeopplæring, produkt- eller maskinspesifikk opplæring.
 
 import flytlovkrav from '/img/flytlovkrav.jpg';
@@ -40,24 +40,6 @@ For å gi opplæring, må du først registrere egen opplæring. Så får du valg
     style={{ width: '100%', height: '100%' }}
   ></iframe>
 </div>
-
-## Slik finner kunden utførte opplæringer
-All opplæring registreres automatisk på den ansatte. Dersom kunden har Kvipp Bedrift, kan leder får virksomheten oversikt over all opplæring i systemet.
-
-Dersom kunden ikke har Kvipp Bedrift: 
--**Kunden ønsker å få opplæringsbevisene på e-post**. I nedtrekksmenyen ved navn kan e-post legges til. Husk å huke av for å motta tidligere opplæringsbevis.
-
-import epost from '/img/kvipp-docs-people/epost.jpg';
-
-<img src={epost} style={{width:500}} />
-
--**Laste ned opplæringsbevis**
-
-import bevis from '/img/kvipp-docs-people/bevis.jpg';
-
-<img src={bevis} style={{width:200}} />
-
-Opplæringsbevis kan også ettersendes, mer om dette nedenfor.
 
 ## Identifisere arbeidsutstyr uten og med QR-kode
 
@@ -93,3 +75,19 @@ import myndighetlærer from '/img/myndighetlærer.png';
 import lessons from '/img/kvipp-docs-people/lessons.jpg';
 
  <img src={lessons} style={{width:700}} />
+
+ ## Slik finner kunden utførte opplæringer
+All opplæring registreres automatisk på den ansatte. Dersom kunden har Kvipp Bedrift, kan leder får virksomheten oversikt over all opplæring i systemet.
+
+Dersom kunden ikke har Kvipp Bedrift: 
+-**Kunden ønsker å få opplæringsbevisene på e-post**. I nedtrekksmenyen ved navn kan e-post legges til. Husk å huke av for å motta tidligere opplæringsbevis.
+
+import epost from '/img/kvipp-docs-people/epost.jpg';
+
+<img src={epost} style={{width:500}} />
+
+-**Laste ned opplæringsbevis**
+
+import bevis from '/img/kvipp-docs-people/bevis.jpg';
+
+<img src={bevis} style={{width:200}} />
