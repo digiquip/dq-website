@@ -3,78 +3,77 @@ sidebar_position: 1
 ---
 # Kom i gang
 
-Vi har laget Kvipp med det formål at det skal være superenkelt å dokumentere utstyrsspesifikk opplæring i felt, helt uten forarbeid. Her kommer en oppskrift på hvordan komme i gang.
+Vi har laget Kvipp med det formål at det skal være superenkelt å dokumentere og sjekke utstyrsspesifikk opplæring, helt uten forarbeid.
 
-## Gå til nettsiden kvipp.it
-Kvipp er tilgjengelig via din vanlige nettleser på mobil, nettbrett og PC. Det er ingen app å laste ned. [Klikk her for å gå til kvipp.it](https://kvipp.it)
+# Slik gjør du det
 
-## Skann HMS-kort (eller et annet ID-kort)
-Identifiser deg med HMS-kort, førerkort eller pass. **Vi anbefaler HMS-kort siden opplæringen automatisk vil bli lagt til riktig virksomhet.** Fra Arbeidstilsynets HMS-kort API får vi til enhver tid siste oppdaterte informasjon om fornavn, etternavn, fødselsdato og virksomhet.
+Merk at du kan starte med utstyrsspesifikk opplæring via Kvipp når som helst. Det er ikke nødvendig å legge til folk og utstyr i forkant.
 
-+ HMS-kort: Bruk valget QR-kode, og skann QR-koden på HMS-kortet.
-+ Pass eller førerkort: Ta bilde av forsiden på førerkort (eventuelt pass) der du får med navn og fødselsdato. Kunstig intelligens tolker bildet, og du kan bekrefte om det er riktig.
+**1.Gå til kvipp.it**
+[Klikk her for å gå til Kvipp](https://kvipp.it)
 
-import scanHSEcard from '/img/scanHSEcard.jpg';
+**2.Identifiser deg selv**
+Skann HMS-kort (QR-kode). Når du bruker HMS-kortet blir informasjonen automatisk lagt til riktig virksomhet.
+Alternativt kan du bruke førerkort eller pass. Ta bilde og la kunstig intelligens tolke informasjonen. Pass på at du får med navn og fødselsdato.
 
-<img src={scanHSEcard} style={{width:200}} />
+**3.Identifiser utstyret**
+La kunstig intelligens gjenkjenne merke og modell. Ta for eksempel bilde av serienummerplaten. Pass på at du tar bilde slik at merke og modell fremkommer. Alternativt kan du skanne DigiQuip eller M-REG/REGINN QR-kode.
 
-<br/>
-<br/>
-Under navn, kan du også legge til e-post adresse. Slik får du alle opplæringsbevis automatisk tilsendt.
-
-import kvipp_screenshot_person from '/img/kvipp_screenshot_person.jpg';
-
-<img src={kvipp_screenshot_person} style={{width:200}} />
-
-<br/>
-
-## Skann eller ta bilde av utstyret som du skal bruke
-+ Merker: Bruk valget QR-kode, og skann QR-koder fra DigiQuip, Reginn (M-reg) eller BRAREG.
-+ Ingen merker: Ta et bilde der du får med merke og modell, f.eks. serienummerplaten.
-
-import imageAI from '/img/imageAI.jpg';
-
-<img src={imageAI} style={{width:200}} />
-
-<br/>
-<br/>
-
-Test selv! Skann denne QR-koden for tommestokk:
-
-import tommestokk from '/img/tommestokk.jpg';
-
-<img src={tommestokk} style={{width:400}} />
-
-<br/>
-<br/>
-eller klikk her: ***https://kvipp.it/id/GMTRPFF1***
-
-**Nå kan du teste hvordan registrere opplæring, sjekke og gi opplæring til andre. Husk å identifisere deg selv også.**
+**4.Sjekk opplæringsstatus**
+Når både person og utstyr er identifisert, får du opp opplæringsstatus.
 
 ## Opplæringsstatus
-Når både person og utstyr er identifisert, får du opplæringsstatus.
 
 **Opplæring mangler.** "Ooops! Du mangler kompetanse for å bruke dette utstyret", betyr at dokumentasjon ikke er registrert. Da kan du enten laste opp tidligere dokumentasjon, fylle ut egenerklæring eller finne noen som kan gi opplæring.
 
-**Opplæring er på plass.** "Good to go" forteller deg at dokumentasjon er på plass. Nå kan du også laste ned opplæringsbevis og gi opplæring til andre.
+**Opplæring er på plass.** "Good to go" forteller deg at dokumentasjon er på plass. Nå kan du også laste ned opplæringsbevis og gi opplæring til andre. 
 
-## Når du har registrert at du kan bruke utstyret, kan du gi opplæring til andre.
-Velg "gi opplæring" og gå gjennom den generelle sjekklisten. Legg til deltakerne på slutten av sesjonen.
+## Gi opplæring til andre
+1.Velg "gi opplæring" 
+2.Gå gjennom den generelle sjekklisten.
+3.Deltakerne legges til i sesjonen til slutt ved hjelp av å skanne deltakernes HMS-kort eller alternativt førerkort eller pass.
+4.Når du har lagt til alle, velger du "fullfør opplæring".
 
-**Se denne videoen for hvordan det gjøres, helt uten forarbeid!**
+Obs! Valget "gi opplæring" får du kun når du har registrert opplæring og er "Good to go". Dersom det står "Ooops!" så må du først dokumentere egen opplæring.
 
-<div style={{ aspectRatio: '1/1' }}>
-  <iframe
-    title="flyt"
-    src="https://videos.dyntube.com/iframes/3GrTJx2KUCJGrpy0CPYg"
-    style={{ width: '40%', height: '100%' }}
-  ></iframe>
-</div>
+## Utførte opplæringer
+Det er flere måter å finne utførte opplæringer og opplæringsbevis.
+
+- **Opplæringsbevis per e-post**
+
+Gå til kvipp.it og identifiser deg selv. Deretter går du til nedtrekksmenyen øverst og legger til e-post adresse. Velg å få tilsendt alle opplæringsbevis på e-post.
+
+import epost from '/img/kvipp-docs-people/epost.jpg';
+
+<img src={epost} style={{width:400}} />
 
 <br/>
+<br/>
 
-# For løpende oversikt 
+- **Last ned**
+
+Du kan også finne opplæringsstatus i Kvipp, og derfra laste ned opplæringsbevis. Identifiser både person og utstyr for å få siste status og dokument.
+
+import bevis from '/img/kvipp-docs-people/bevis.jpg';
+
+<img src={bevis} style={{width:200}} />
+
+<br/>
+<br/>
+
+- **Kvipp Bedrift abonnement**
+
 I Kvipp Bedrift oppdateres all opplæring i sanntid. Som leder kan du enkelt finne ut hvilken opplæring folkene dine har, hvem som kan bruke hvilket utstyr og ikke minst gruppere utstyr og folk for å få holde oversikt over eventuelle gap og progresjon.
+
+Kvipp Bedrift koster 490 kroner per måned for små bedrifter (opp til 10 ansatte) og 1390 kroner per måned for øvrige.
+
+- **K-REG (& HMSREG)**
+
+Opplæringsdata og dokument kan lastes direkte opp i K-REG. K-REG integrasjonen kan enten kjøpes frittstående for 990 kr per måned eller som tilvalg til Kvipp Bedrift for 500 kr per måned. For små bedrifter er K-REG integrasjonen inkludert.
+
+PS: Du trenger ikke abonnement i K-REG for at informasjonen skal lastes dit. All opplæring som legges i K-REG blir i tillegg tilgjengelig i HMSREG. Kontakt Sentralregisteret for mer informasjon om dette.
+
+
 <br/>
 
 # Tips for å komme godt i gang

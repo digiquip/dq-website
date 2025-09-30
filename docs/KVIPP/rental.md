@@ -15,7 +15,7 @@ Merk: Utstyrsspesifikk opplæring kommer i tillegg til kompetansebevis, sertifik
 
 Som utleier av maskiner og utstyr har utleier ansvar for å sørge for at utstyret er i orden, men det er alltid arbeidsgiver som har ansvar for at sine ansatte har fått opplæring i det utstyret som skal brukes. Opplæringsansvaret kan ikke outsources ettersom arbeidsgiver beholder det juridiske ansvaret for arbeidstakers sikkerhet.
 
-Husk at du som utleier også er arbeidsgiver for egne ansatte som bruker maskiner og utstyr.
+**Husk** at du som utleier også er arbeidsgiver for egne ansatte som bruker maskiner og utstyr.
 
 ## Opplæring som tjeneste
 Som utleier kan dere tilby utstyrsspesifikk opplæring som en tjeneste. Å gi eller motta opplæring i Kvipp koster ingenting og kan utføres av hvem som helst når som helst.
