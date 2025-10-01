@@ -2,6 +2,10 @@
 sidebar_position: 5
 ---
 # Arbeidsutstyr
+
+## Hvordan får jeg opp utstyr i Kvipp Bedrift?
+Utstyr legges automatisk til etter hvert som opplæring blir registrert eller du kan manuelt legge til.
+
 ## Identifisering av maskiner og utstyr
 
 Det er tre måter å identifisere utstyr på:
@@ -11,9 +15,6 @@ Det er tre måter å identifisere utstyr på:
 2.QR-kode: Når du skanner QR-kode fra DigiQuip, BRAREG eller REGINN, finner Kvipp merke og modell.
 
 3.Søk og legg til manuelt: Kvipp Bedrift kunder kan **legge til utstyr manuelt**. Med rollen "utstyrseier" kan du søke og legge til utstyr.
-
-## Hvordan får jeg opp utstyr i Kvipp Bedrift?
-Utstyr legges automatisk til etter hvert som opplæring blir registrert.
 
 ## Merk opp arbeidsutstyr med QR-koder
 Med Kvipp Bedrift kan dere merke opp utstyr med QR-koder. Med QR-koder gir du en fin påminnelse om utstyrsspesifikk opplæring.
@@ -42,6 +43,7 @@ import knyttQR from '/img/kvipp-docs-equipment/knyttQR.jpg';
 
 7.Test at QR-koden er koblet
 
-Ferdig!
+**Ferdig!**
 
-QR-koder kan dere bestille av oss. [Klikk her for mer informasjon](/docs/prices/detailed-price-list)
+Kontakt oss for å bestille QR-koder.
+[Klikk her for mer informasjon om priser](/docs/prices/detailed-price-list)
