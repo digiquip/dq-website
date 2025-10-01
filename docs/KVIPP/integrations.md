@@ -6,11 +6,11 @@ sidebar_position: 7
 # Integrasjon med Kompetanseregisteret (K-REG)
 Kompetanseregisteret er et register drevet av Sentralregisteret for registrering av ulik kompetanse. Utstyrsspesifikk opplæring gjennomført i Kvipp kan lastes direkte opp i K-REG. 
 
-### Hvorfor K-REG integrasjon?
+## Hvorfor K-REG integrasjon?
 
-- **Ingen manuell dataregistrering kreves** - Alt skjer automatisk etter fullført opplæring
-- **Løpende dokumentasjon av utstyrsspesifikk opplæring** - Komplett historikk over all opplæring
-- **Synlig i HMSREG via Kompetanseregisteret** - Opplæringen blir tilgjengelig i HMSREG
+- **Ingen manuell dataregistrering**
+- **Løpende dokumentasjon av utstyrsspesifikk opplæring**
+- **Synlig i HMSREG via Kompetanseregisteret**
 
 ### Automatisk overføring av utstyrsspesifikk opplæring
 
@@ -20,9 +20,7 @@ Egenerklæring og opplæringer gitt uten rollen instruktør lastes IKKE over.
 
 **Eksempel: Det er virksomheten der personen er ansatt som må ha K-REG integrasjon aktivert.**
 
-I tillegg: Opplæringen må være gitt av instruktør.
-
-Dersom arbeidsgiver ikke har aktivert K-REG, så deles ikke opplæringen, selv om instruktøren/kursholderen har integrasjon. 
+Dersom arbeidsgiver ikke har aktivert K-REG, så deles ikke opplæringen, selv om instruktøren/kursholderen har integrasjon.
 
 **Bedrift A har Kvipp Bedrift uten K-REG-integrasjon aktivert.**
 En ansatt hos Bedrift A deltar på opplæring hos Bedrift B, hvor instruktøren har instruktørrolle og Bedrift B har aktivert K-reg-integrasjon. Opplæringen deles ikke til K-REG fordi den ansattes organisasjon ikke har aktivert integrasjonen.
@@ -33,17 +31,12 @@ Integrasjonen håndterer automatisk:
 - Både norske og utenlandske arbeidstakere
 - Opplæringsbevis (PDF) blir tilgjengelig både i Kvipp og Kompetanseregisteret
 - Utstyrsinformasjon (merke og modell) registreres alltid korrekt
-- Automatisk opprettelse av profiler for utenlandske arbeidstakere med HMS-kort
 
 Vi overfører informasjon om hvem som har fått opplæring, av hvem (instruktør), bedrift, merke og modell på utstyret, dato og selve opplæringsbeviset (PDF).
 
-### Organisasjonskontroll
-
-Hver organisasjon kan selv styre om K-REG integrasjonen skal være aktiv. Integrasjonen fungerer også for eksterne opplæringer gitt av autoriserte instruktører.
-
 ### Kontakt oss for å aktivere integrasjonen
 
-Ring oss på **69 83 85 00** eller send e-post til **support@digiquip.no** for å aktivere K-REG integrasjonen for din organisasjon.
+Ring oss på **69 83 85 00** eller send e-post til **support@digiquip.no** for å aktivere K-REG integrasjonen.
 
 ## HMSREG integrasjon
 

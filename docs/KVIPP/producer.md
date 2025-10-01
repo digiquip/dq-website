@@ -22,16 +22,15 @@ import flytlovkrav from '/img/flytlovkrav.jpg';
 
 *Fra forskrift om utførelse av arbeid.*
 
-Merk: Utstyrsspesifikk opplæring kommer i tillegg til kompetansebevis, sertifikater og kurs, og det er viktig at virksomheten har rutiner for dette og at de ansatte selv er klar over opplæringskravene. Se kap. 10 og 11 i forskrift om utførelse av arbeid for mer informasjon.
+Merk: Utstyrsspesifikk opplæring kommer i tillegg til kompetansebevis, sertifikater og kurs.
 
 ## Slik gir du opplæring
 Gå til nettsiden [kvipp.it](https://kvipp.it)
-For å gi opplæring, må du først registrere egen opplæring. Så får du valget "gi opplæring" og opplæringssesjonen kan startes.
 
-1.Identifiser deg selv og utstyret
-2.Start ved å velge "gi opplæring"
+1.Identifiser deg selv og utstyret, og legg eventuelt til egen opplæring
+2.Velg "gi opplæring". NB: For å gi opplæring, må du først registrere egen opplæring. 
 3.Gå gjennom en generell sjekkliste
-4.Legg til deltakerne til slutt ved å ta bilde eller skanne ID-kort. Det er ingen øvre grense for hvor mange deltakere som kan legges til
+4.Legg til deltakerne til slutt. Deltakerne trenger HMS-kort elller førerkort/pass for å bli lagt til i sesjonen. Det er ingen øvre grense for hvor mange deltakere som kan legges til.
 
 <div style={{ aspectRatio: '16/9' }}>
   <iframe
@@ -41,30 +40,13 @@ For å gi opplæring, må du først registrere egen opplæring. Så får du valg
   ></iframe>
 </div>
 
-## Identifisere arbeidsutstyr uten og med QR-kode
-
-**Uten QR-kode**
-1 Gå til nettsiden kvipp.it.
-2 Skann HMS-kortet ditt.
-3 Bruk kunstig intelligens til å identifisere merke og modell. **Pass på å ta et bilde der både merke og modell fanges opp, og at det blir lest inn korrekt.**
-4 Registrer din egen opplæring
-5 Start praktisk opplæring
-6 Gå gjennom den generelle sjekklisten
-7 Legg til deltakerne på slutten av sesjonen
-
-**Med QR-koder fra DigiQuip eller Reginn**
-Gå til kvipp.it og skann QR-koden, deretter følger du samme prosess som over. Les mer om hvordan koble QR-koder under arbeidsutstyr.
-
-**Søk og opprett utstyr**
-Med rollen Utstyrseier, som gis under tillatelser i Kvipp Bedrift, kan du søke og opprette utstyr. Du får et nytt valg som heter "søk". Følg deretter veiviseren.
-
 ## Opplæring på vegne av virksomheten
 
 Med rollen instruktør får den som skal gi opplæring flere valg:
 - Kan gi opplæring på flere utstyr i samme sesjon.
 - Kan gi opplæring på vegne av bedriften. På opplæringsbeviset vil det stå at opplæring er gitt på vegne av virksomheten.
 
-Rolles tildeles i Kvipp Bedrift på siden tillatelser.
+Rolles tildeles i Kvipp Bedrift på siden Myndigheter.
 
 import myndighetlærer from '/img/myndighetlærer.png';
 
@@ -77,17 +59,38 @@ import lessons from '/img/kvipp-docs-people/lessons.jpg';
  <img src={lessons} style={{width:700}} />
 
  ## Slik finner kunden utførte opplæringer
-All opplæring registreres automatisk på den ansatte. Dersom kunden har Kvipp Bedrift, kan leder får virksomheten oversikt over all opplæring i systemet.
+All opplæring registreres automatisk på person. Det er flere måter å finne utførte opplæringer og opplæringsbevis (PDF). Her kommer litt informasjon som du kan dele med kunden:
 
-Dersom kunden ikke har Kvipp Bedrift: 
--**Kunden ønsker å få opplæringsbevisene på e-post**. I nedtrekksmenyen ved navn kan e-post legges til. Husk å huke av for å motta tidligere opplæringsbevis.
+- **Opplæringsbevis per e-post**
+
+Gå til kvipp.it og identifiser deg selv. Deretter går du til nedtrekksmenyen øverst og legger til e-post adresse. Velg å få tilsendt alle opplæringsbevis på e-post.
 
 import epost from '/img/kvipp-docs-people/epost.jpg';
 
-<img src={epost} style={{width:500}} />
+<img src={epost} style={{width:400}} />
 
--**Laste ned opplæringsbevis**
+<br/>
+<br/>
+
+- **Last ned**
+
+Du kan også finne opplæringsstatus i Kvipp, og derfra laste ned opplæringsbevis. Identifiser både person og utstyr for å få siste status og dokument.
 
 import bevis from '/img/kvipp-docs-people/bevis.jpg';
 
 <img src={bevis} style={{width:200}} />
+
+<br/>
+<br/>
+
+- **Kvipp Bedrift abonnement**
+
+I Kvipp Bedrift oppdateres all opplæring i sanntid. Som leder kan du enkelt finne ut hvilken opplæring folkene dine har, hvem som kan bruke hvilket utstyr og ikke minst gruppere utstyr og folk for å få holde oversikt over eventuelle gap og progresjon.
+
+Kvipp Bedrift koster 490 kroner per måned for små bedrifter (opp til 10 ansatte) og 1390 kroner per måned for øvrige.
+
+- **K-REG (& HMSREG)**
+
+Opplæringsdata og dokument kan lastes direkte opp i K-REG. K-REG integrasjonen kan enten kjøpes frittstående for 990 kr per måned eller som tilvalg til Kvipp Bedrift for 500 kr per måned. For små bedrifter er K-REG integrasjonen inkludert.
+
+PS: Du trenger ikke abonnement i K-REG for at informasjonen skal lastes dit, men du må ha et abonnement om du skal se opplæringen der. All opplæring som legges i K-REG blir i tillegg tilgjengelig i HMSREG. Kontakt Sentralregisteret for mer informasjon om dette.

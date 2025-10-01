@@ -14,7 +14,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Koster det noe?</summary>
   <div>
-    <div>Kvipp er gratis! Gjennomføring, dokumentasjon og nedlasting av opplæringsbevis er kostnadsfritt. Dersom du ønsker oversikt over all opplæring i virksomheten din, kan du kjøpe Kvipp Bedrift.</div>
+    <div>Kvipp er gratis! Gjennomføring, dokumentasjon og nedlasting av opplæringsbevis er kostnadsfritt. Dersom du ønsker oversikt over all opplæring i virksomheten din, kan du abonnere på Kvipp Bedrift.</div>
   </div>
 </details>
 
@@ -39,7 +39,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Kan jeg gi opplæring mange personer samtidig?</summary>
   <div>
-    <div>Ja. Når du starter en opplæring og er ferdig med sjekklisten, kan du legge til så mange deltakere du vil. Skann hver enkelt persons ID-kort og personen får opplæringen dokumentert.</div>
+    <div>Ja. Du kan legge til så mange deltakere du vil. Skann hver enkelt persons ID-kort og personen får opplæringen dokumentert.</div>
   </div>
 </details>
 
@@ -53,7 +53,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Hvordan får jeg oversikt over opplæringen?</summary>
   <div>
-    <div>Som leder kan du få oversikt over all opplæring i Kvipp Bedrift. Alternativt kan du be dine ansatte sende deg opplæringsbevis på e-post. Dersom du heller ønsker å se alt i en oversikt, kan du kjøpe Kvipp Bedrift for kun 1390kr per måned.</div>
+    <div>Som leder kan du få oversikt over all opplæring i Kvipp Bedrift og/eller K-REG (HMSREG). Alternativt kan du be dine ansatte sende deg opplæringsbevis på e-post.</div>
   </div>
 </details>
 
@@ -81,7 +81,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
 <details>
   <summary>Kan jeg gjøre gap-analyser?</summary>
   <div>
-    <div>Ja! I Kvipp Bedrift kan du gruppere utstyr og folk, og få oversikt over status og progresjon. Les mer i delen "personer og opplæring".</div>
+    <div>Ja! I Kvipp Bedrift kan du gruppere utstyr og folk, og få oversikt over samlet status.</div>
   </div>
 </details>
 
@@ -92,7 +92,7 @@ Her er noen svar på vanlige spørsmål.  Kontakt oss hvis du ikke finner svaret
     <br/>
     <div>**Hjemskjerm.** Tips de ansatte om å lagre kvipp.it på mobilens hjemskjerm.</div>
     <br/>
-     <div>**Sørg for at det blir en innarbeidet rutine.** Vær kompromissløs i starten: I møter, på brakka, ifb med fremdrift. Ta det opp som tema og se på progresjonen.</div>
+     <div>**Sørg for at det blir en innarbeidet rutine.** Vær kompromissløs i starten: I møter, på brakka, og andre treffpunkter. Ta det opp som tema og se på progresjonen.</div>
     <br/>
     <div>**Merking av utstyr.** For å bruke Kvipp trenger dere ikke å merke opp noe utstyr, men det kan fungere som gode påminnelser.</div>
   </div>
