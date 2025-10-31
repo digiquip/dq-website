@@ -49,14 +49,6 @@ Søk: Med rollen Utstyrseier, som gis under myndigheter i Kvipp Bedrift, kan du 
 ## Registrering av utstyrsspesifikk opplæring
 Når du skal i gang med utstyrsspesifikk opplæring, kan du enten få opplæring av noen andre eller fylle ut en egenerklæring. Hvis du allerede har dokumentasjon, kan du laste opp det.
 
-<div style={{ aspectRatio: '16/9' }}>
-  <iframe
-    title="vernerunde"
-    src="https://videos.dyntube.com/iframes/C3R5cJxnE6L248gmCGWXg"
-    style={{ width: '100%', height: '100%' }}
-  ></iframe>
-</div>
-
 ## Slik gir du opplæring
 For å gi opplæring, må du først registrere egen opplæring. Så får du valget "gi opplæring". Følg disse stegene:
 
@@ -128,8 +120,6 @@ Med rollen instruktør får den som skal gi opplæring flere valg:
 - Oversikt over utførte opplæringer.
 
 Rolles tildeles på siden som heter myndigheter.
-
-*Hvis integrasjonen er aktivert. Kontakt oss for å aktivere.
 
 import myndighetlærer from '/img/myndighetlærer.png';
 

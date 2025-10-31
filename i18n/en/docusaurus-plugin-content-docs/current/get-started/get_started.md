@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /Kvipp/get_started
 ---
 # Get started
 

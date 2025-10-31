@@ -1,7 +1,8 @@
 {
-  "label": "Kvipp",
-  "position": 6,
+  "label": "Kom i gang",
+  "position": 5,
   "link": {
     "type": "generated-index"
   }
 }
+
