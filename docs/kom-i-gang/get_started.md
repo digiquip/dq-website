@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /KVIPP/get_started
 ---
 # Kom i gang
 

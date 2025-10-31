@@ -1,11 +1,22 @@
 ---
-sidebar_position: 6
+title: "Oversikt utførte opplæringer"
+sidebar_position: 7
 ---
-# Vernerunde
+
+# Oversikt utførte opplæringer
+
+Få full oversikt over gjennomførte opplæringer.
+
+## Du kan blant annet
+- Søke opp person, instruktør eller utstyrstype
+- Finne opplæringsbevis (PDF) og historikk
+
+## Slik finner du utførte opplæringer
+Som leder kan du enkelt få oversikt og hente ut dokumentasjon. Du kan gjøre gap-analyser og målrettet følge opp de som trenger opplæring.
 
 ## Bruk Kvipp på vernerunden for å sjekke utstyrsspesifikk opplæring
 
-Når dere skal ta vernerunden og sjekke om folk har riktig utstyrsspesifikk opplæring på utstyret kan dere bruke Kvipp.
+Når dere skal ta vernerunden og sjekke om folk har riktig utstyrsspesifikk opplæring på utstyret kan dere bruke Kvipp. 
 
 Slik gjør dere det:
 **1 Gå til nettsiden kvipp.it.
@@ -22,3 +33,4 @@ Dersom opplæring mangler, gi opplæring på stedet eller la personen fylle ut e
     style={{ width: '100%', height: '100%' }}
   ></iframe>
 </div>
+
