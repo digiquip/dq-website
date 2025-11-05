@@ -936,6 +936,14 @@
     "message": "Hos NCC Område Oslo har de sett et mønster: Uønskete hendelser handlet ofte om manglende opplæring. Med implementeringen av Kvipp er det både økt bevissthet rundt opplæring og NCC opplever at antall skader går ned.",
     "description": "Fifth description of the news"
   },
+  "home.news.news6title": {
+    "message": "Fra etterslep til kontroll, på rekordtid",
+    "description": "Sixth title of the news"
+  },
+  "home.news.news6desc": {
+    "message": "Betonmast Innlandet har gått fra å være bakpå med dokumentasjon til å ta full kontroll. I denne artikkelen deler Betonmast teamet mer om hvordan de kom i gang, og tips og råd til andre som skal i gang.",
+    "description": "Sixth description of the news"
+  },
 "integrations.banner.title1": {
   "message": "Integrasjoner som forenkler",
   "description": "Integrations page banner title"

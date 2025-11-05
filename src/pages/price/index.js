@@ -10,12 +10,15 @@ import clsx from 'clsx';
 function PricePageBanner() {
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.src = "https://elfsightcdn.com/platform.js";
     script.async = true;
     document.body.appendChild(script);
 
     return () => {
-      document.body.removeChild(script);
+      const existingScript = document.querySelector('script[src="https://elfsightcdn.com/platform.js"]');
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
     };
   }, []);
 
@@ -28,8 +31,8 @@ function PricePageBanner() {
           <div className="container">
           <h1 className='section-title'><Translate>prices.banner.title</Translate><span className='orange'>.</span></h1>
           <h4 className='section'><Translate>prices.banner.subtitle</Translate></h4>
-            <div className="elfsight-app-ff89e3a5-ee09-41f1-8424-30531e5f84c0" data-elfsight-app-lazy />
-            <div class="elfsight-app-954fa691-f581-4d70-a48d-6ba7822b0756" data-elfsight-app-lazy></div>
+            <div className="elfsight-app-eb47a38c-f2d0-4fe9-8006-1994400cf9f6" data-elfsight-app-lazy></div>
+            <div className="elfsight-app-954fa691-f581-4d70-a48d-6ba7822b0756" data-elfsight-app-lazy></div>
             <div className="row">
             </div>
           </div>

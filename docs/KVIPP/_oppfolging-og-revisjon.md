@@ -3,18 +3,15 @@ title: "Oppfølging og revisjon"
 sidebar_position: 15
 ---
 
-# Oppfølging og revisjon
+# Ekstra oppfølging
 
-Regelmessig oppfølging og årlig revisjon av opplæringskrav og risikovurderinger sikrer trygg bruk av utstyr, færre avvik og bedre etterlevelse.
+Trenger dere ekstra oppfølging vil vi at du tar kontakt! For oss er det viktig at dere kommer godt i gang og det er også nyttig å vite hva som eventuelt er utfordrende. Vi tar en uforpliktende prat og så blir vi enige om veien videre.
 
-## Hvorfor årlig revisjon?
+## Revisjon opplæringskrav og vurderinger
+Det er å lurt å se over og eventuelt revidere opplæringskrav og vurderinger årlig.
 - Krav, utstyr og arbeidsprosesser endrer seg
 - Nye hendelser og erfaringer bør inn i vurderingene
 
-## Foreslått årshjul
-- Årlig: revider opplæringskrav og risikovurderinger, oppdater kategoriseringer
-- Ved endring: revider når dere får nytt utstyr, nye arbeidsoperasjoner, ny teknologi
-
-Vi i DigiQuip ønsker å gjøre hverdagen din enkel. Trenger du hjelp med oppstart, oppfølging eller revisjon av opplæringskrav, kan vi hjelpe til. Kontakt oss.
+Vi i DigiQuip ønsker å gjøre hverdagen din enkel! Kontakt oss!
 
 
