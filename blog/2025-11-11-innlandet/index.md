@@ -9,7 +9,7 @@ image: img/articles/betonmastinnlandet.JPG
 Betonmast Innlandet har gått fra å være bakpå med dokumentasjon til å ta full kontroll. I denne artikkelen deler Betonmast teamet mer om hvordan de kom i gang, og tips og råd til andre som skal i gang.
 <!-- truncate -->
 
-![Bilde](betonmastinnlandet.jpg)
+![Bilde](betonmastinnlandet.JPG)
 
 ## Om Betonmast Innlandet
 Betonmast Innlandet er en totalleverandør i bygg- og anleggsbransjen. Selskapet utfører alle typer byggeoppdrag, som bygging av skoler, næringsbygg, boliger, kjøpesenter og omsorgsboliger. Virksomheten har stor egenproduksjon med egne håndverkere, og alle betong- og tømrerarbeider utføres av høyt kvalifiserte fagfolk. Betonmast Innlandet har Hadeland, Toten, Gjøvik, Hamar og Lillehammer som sitt område. For å dokumentere utstyrsspesifikk opplæring bruker Betonmast Innlandet Kvipp.
