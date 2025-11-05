@@ -23,7 +23,7 @@ Veilederen tar deg gjennom:
 - Konklusjon opplæringskrav
 
 ## Hva menes med likhet?
-Hvis utstyrstypene i en kategori er likt, så trengs det ikke opplæring på alle typene. Vurdering av likhet gjør du ut fra en vurdering av blant annet betjening, sikkerhetsutstyr, bruksområde, funksjonalitet, personlig verneutstyr, og daglig kontroll. Dersom du kan svare ja på at typene med utstyr er like, er det ikke krav til ny utstyrsspesifikk opplæring på hvert utstyr.
+Hvis utstyrstypene i en kategori er likt, så holder det med en opplæring. Vurdering av likhet gjør du ut fra en vurdering av blant annet betjening, sikkerhetsutstyr, bruksområde, funksjonalitet, personlig verneutstyr, og daglig kontroll. Dersom du kan svare ja på at typene med utstyr er like, er det ikke krav til ny utstyrsspesifikk opplæring på hvert utstyr.
 
 Denne vurderingen og konklusjonen må dokumenteres for å være gyldig.
 
