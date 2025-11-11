@@ -38,7 +38,7 @@ const newsContent = [
     {
         isVideo: false,
         title: translate({ message: "home.news.news2title" }),
-        imageBanner: 'img/competence-images/practical-training.webp',
+        imageBanner: 'img/team.jpg',
         description: translate({ message: "home.news.news2desc" }),
         blogLink: '/bestill-kreg-integrasjon',
     },
