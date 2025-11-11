@@ -10,7 +10,7 @@ Sikker bruk av arbeidsutstyr starter med riktig opplæring. For utstyr som kreve
 ## Hva er nødvendig opplæring?
 Opplæringen skal gjøre ansatte i stand til å bruke utstyr riktig, forstå relevante farer og kjenne nødvendige tiltak.
 
-**Gjennomfør dokumentert sikkerhetsopplæring og utstyrsspesifikk opplæring samtidig. Siden dokumentert sikkerhetsopplæring inkluderer en praktisk del, er det naturlig å dokumentere opplæring på det konkrete utstyret dere bruker i denne delen. Denne funksjonen kommer veldig snart i Kvipp!**
+**Gjennomfør dokumentert sikkerhetsopplæring og utstyrsspesifikk opplæring samtidig. Siden dokumentert sikkerhetsopplæring inkluderer en praktisk del, er det naturlig å dokumentere opplæring på det konkrete utstyret i samme sesjon. Denne funksjonen kommer veldig snart i Kvipp!**
 
 ## Dokumentert sikkerhetsopplæring
 Når arbeidsutstyr kan være farlig, kreves både teoretisk og praktisk opplæring. Opplæringen gis på kategorinivå, for eksempel personløfter, vinkelsliper eller ryddesag.
@@ -28,7 +28,7 @@ Enkelte kategorier må opplæres av sertifiserte virksomheter:
 - Masseforflyttingsmaskiner over 15 kW (20,4 hk)
 - Offshorekran
 
-For disse kategoriene skal det alltid gis utstyrsspesifikk opplæring. Så sørg for at dere dokumenterer hvilket merke og modell som er blitt brukt i den praktiske delen. På den måten får dere dokumentert utstyrsspesifikk opplæring med en gang.
+For disse kategoriene skal det alltid gis opplæring fra en sertifisert instruktør og virksomhet.
 
 ## Utstyrsspesifikk opplæring
 Også kalt typeopplæring eller maskinspesifikk opplæring, dette er opplæring på den konkrete maskinen (merke og modell) før bruk.

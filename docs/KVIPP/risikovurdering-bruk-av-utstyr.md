@@ -5,17 +5,13 @@ sidebar_position: 11
 
 # Risikovurdering bruk av utstyr
 
-Risikovurdering handler om å identifisere farer ved bruk av en utstyrstype, vurdere sannsynlighet og konsekvens, og iverksette tiltak for å redusere risiko til et akseptabelt nivå.
+Risikovurdering handler om å identifisere farer ved bruk av en utstyrstype, vurdere sannsynlighet og konsekvens, og iverksette tiltak for å redusere risiko til et akseptabelt nivå. Risikovurdering gjøres på kategorinivå.
 
-For eksempel: Før bruk av ryddesag skal opplæring gjennomføres og dokumenteres.
+## Forholdsregler under bruk
+I tillegg til tydeliggjøring av opplæringskrav, kan du definere hvilke forholdsregler som skal tas når utstyret brukes. Gå gjennom disse forholdsreglene under opplæring. 
 
-Under bruk skal det brukes verneklær. Verneklær inkluderer vernestøvler, vernebukse, hjelm med påmontert hørselvern og visir/vernebriller. Du skal bruke signalfarget jakke og ha med deg enkeltmannspakke/førstehjelpsskrin. Før bruk skal du inspisere ryddesagen, vær nøye med å sjekke bladet. Vi anbefaler også at du parkerer slik at du kommer deg relativt lett av gårde om noe skulle skje. 
+## Risiko før og etter 
+Når du har definert krav til opplæring og forholdsregler, gjør du en ny vurdering av risiko. På denne måten får du dokumentert antatt risiko før og etter.
 
-I praksis: Lag en kategori som heter ryddesag, og list opp forholdsreglene som skal tas. Vurder om alle typene med ryddesag er like eller ulike. Deretter gis det opplæring i bruk av ryddesag. 
-
-Under opplæringen prater dere om forholdsreglene, og disse gjør du tilgjengelig slik at listen kan hentes opp ved en senere anledning. 
-
-Tips! Læringspunkter kan være lurt å legge til i listen.
-
-
-
+For eksempel: 
+Før bruk av ryddesag skal sikkerhetsopplæring gjennomføres og dokumenteres. Under bruk skal det brukes verneklær. Verneklær inkluderer vernestøvler, vernebukse, hjelm med påmontert hørselvern og visir/vernebriller. Før bruk skal du inspisere ryddesagen (daglog kontroll). Bruk av verneklær reduserer konsekvensen det vil ha om sagen kommer inntil beinet.
