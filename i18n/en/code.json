@@ -499,10 +499,6 @@
     "message": "Ongoing documentation of equipment-specific training",
     "description": "Kvipp K-REG integration point 3"
 },
-"bedrift.banner.title1": {
-  "message": "Kvipp Bedrift gives you full control over training with minimal effort",
-  "description": "Kvipp Business title"
-},
 "bedrift.benefits.title1": {
   "message": "With Kvipp Bedrift",
   "description": "kvipp business benefits"
@@ -527,73 +523,57 @@
   "message": "Overview and gap analyses in real time. Get a continuous overview of who has or lacks training",
   "description": "business benefits point 3"
 },
-"bedrift.groups.title1": {
-  "message": "What is the status of",
-  "description": "kvipp business groups"
+"sann.banner.title1": {
+  "message": "Sånn is a super simple solution for",
+  "description": "The title of the Sånn page part one"
 },
-"bedrift.groups.title2": {
-  "message": "equipment-specific training in our company?",
-  "description": "part two kvipp groups benefits"
+"sann.banner.title2": {
+  "message": "documenting and managing",
+  "description": "The title of the Sånn page part two"
 },
-"bedrift.groups.arg1": {
-  "message": "An overview of completed training is available in Kvipp Bedrift. If you use the HSE card, the person and training are automatically linked to the correct organisation.",
-  "description": "business groups arg1"
+"sann.benefits.title1": {
+  "message": "Get control with",
+  "description": "The title of the first section on the Sånn page"
 },
-"bedrift.groups.point1": {
-  "message": "Check what training each person has, and download the relevant documentation",
-  "description": "business groups 1"
+"sann.benefits.title2": {
+  "message": "Sånn",
+  "description": "The second title of the first section on the Sånn page"
 },
-"bedrift.groups.point2": {
-  "message": "Check who can use which work equipment",
-  "description": "business groups 2"
+"sann.benefits.arg1": {
+  "message": "With Sånn you can easily document and manage your business.",
+  "description": "The first argument of the first Sånn section"
 },
-"bedrift.groups.point3": {
-  "message": "Create groups with individuals and equipment, and gain an overview of status and progression. In the screenshot, you can see that individuals have training on half of the equipment in the group, and you will be able to drill down to more details.",
-  "description": "business groups 3"
+"sann.benefits.arg2": {
+  "message": "Sånn can be used anytime, anywhere.",
+  "description": "The second argument of the first Sånn section"
 },
-"bedrift.integrations.title": {
-  "message": "Automatically transfer all equipment-specific training to Kompetanseregisteret (K-REG)",
-  "description": "Title for the integrations section on the bedrift page"
+"sann.benefits.arg3": {
+  "message": "All you need is a phone and internet access.",
+  "description": "The third argument of the first Sånn section"
 },
-"bedrift.integrations.description": {
-  "message": "When a person with the role \"instructor\" provides training to any of your employees, the result is automatically uploaded to Kompetanseregisteret (K-REG). This includes, in addition to internal training, training received from rental companies, manufacturers and others who use Kvipp and have registered instructors. K-REG is a registry operated by Sentralregisteret.",
-  "description": "Description for the integrations section on the bedrift page"
+"sann.get-started.title1": {
+  "message": "How to get started?",
+  "description": "Sånn section two, title"
 },
-"bedrift.integrations.link": {
-  "message": "Read more",
-  "description": "Link text for the integrations section on the bedrift page"
+"sann.get-started.arg1": {
+  "message": "Sånn is available whenever and wherever you need it:",
+  "description": "Sånn section two, arg 1"
 },
-"bedrift.integrations.pricing": {
-  "message": "For 500kr per month you get this integration.",
-  "description": "Pricing information for the integrations section on the bedrift page"
+"sann.get-started.point1": {
+  "message": "Go to the website",
+  "description": "Sånn section two, point 1"
 },
-"bedrift.integrations.orderNow": {
-  "message": "Call us on 69 83 85 00",
-  "description": "Call to action button text for ordering the integration"
+"sann.get-started.point2": {
+  "message": "Get started with documentation",
+  "description": "Sånn section two, point 2"
 },
-"bedrift.integrations.emailUs": {
-  "message": "Send us an email, support@digiquip.no",
-  "description": "Email button text for the integration"
+"sann.get-started.point3": {
+  "message": "Manage and follow up",
+  "description": "Sånn section two, point 3"
 },
-"bedrift.integrations.benefit1": {
-  "message": "Automatic compliance with Norwegian regulations",
-  "description": "First benefit of the K-REG integration"
-},
-"bedrift.integrations.benefit2": {
-  "message": "No manual data entry required",
-  "description": "Second benefit of the K-REG integration"
-},
-"bedrift.integrations.benefit3": {
-  "message": "Ongoing documentation of equipment-specific training",
-  "description": "Third benefit of the K-REG integration"
-},
-"bedrift.integrations.hmsInfo": {
-  "message": "Kompetanseregisteret has an integration with HMSREG. This means you will also get equipment-specific training visible in HMSREG. Contact Sentralregisteret for more information about this,",
-  "description": "Information about HMSREG integration"
-},
-"bedrift.integrations.here": {
-  "message": "click here",
-  "description": "Link text for 'here'"
+"sann.coming-soon": {
+  "message": "More info coming soon",
+  "description": "Coming soon message for Sånn page"
 },
   "workequipment.banner.title1": {
     "message": "Get an overview of whether the equipment is safe to use",
@@ -814,10 +794,6 @@
     "message": "Kvipp",
     "description": "Navbar item with label Kvipp"
   },
-  "navbar.label.kvipp_bedrift": {
-    "message": "Kvipp Bedrift",
-    "description": "Navbar item with label Kvipp Bedrift"
-  },
   "navbar.label.trygg_maskin": {
     "message": "Trygg Maskin",
     "description": "Navbar item with label Trygg Maskin"
@@ -845,6 +821,18 @@
   "home.news.title": {
     "message": "hallo",
     "description": "Title of Latest News"
+  },
+  "home.news.customerStories": {
+    "message": "Customer Stories",
+    "description": "Customer Stories heading"
+  },
+  "home.news.news0title": {
+    "message": "DigiQuip AS acquires Unifractal – two strong environments become one",
+    "description": "News 0 title"
+  },
+  "home.news.news0desc": {
+    "message": "DigiQuip AS has acquired Unifractal AS to create even better conditions for making knowledge transfer simpler and more efficient. Unifractal's product is given a new name: \"Sånn\" – and together with DigiQuip's \"Kvipp\", it will simplify everyday life for thousands of employees across several industries.",
+    "description": "News 0 description"
   },
   "home.news.news1title": {
     "message": "Document equipment-specific training digitally",
@@ -1019,7 +1007,7 @@
   "description": "FAQ second answer"
 },
 "kreg.integration.cta": {
-  "message": "To order, you can either call us at 69 83 85 00, send an email to Tom Freddy at tfb@digiquip.no, or fill out the form.",
+  "message": "To order, you can either call us at 69 83 85 00, send an email to Tom Freddy at tom-freddy@digiquip.no, or fill out the form.",
   "description": "Call to action text"
 },
 "integrations.grid.title": {
@@ -1232,7 +1220,7 @@
   "description": "Default integration price text"
 },
 "integrations.cards.contactEmail": {
-  "message": "Tom Freddy: tfb@digiquip.no",
+  "message": "Tom Freddy: tom-freddy@digiquip.no",
   "description": "Contact email text"
 },
 "integrations.cards.orderButton": {
@@ -1272,7 +1260,7 @@
   "description": "FAQ second answer"
 },
 "onlet.integration.cta": {
-  "message": "Price for the service is 25 kr per control. To order, you can either call us at 69 83 85 00, send an email to Tom Freddy at tfb@digiquip.no, or fill out the form.",
+  "message": "Price for the service is 25 kr per control. To order, you can either call us at 69 83 85 00, send an email to Tom Freddy at tom-freddy@digiquip.no, or fill out the form.",
   "description": "Call to action text"
 },
 "onlet.integration.copyUrl": {

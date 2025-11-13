@@ -85,9 +85,9 @@ export default function SignIn() {
                           <img src={useBaseUrl('/icons/phone.svg')} alt="Phone" />
                           +47 45 48 85 25
                         </a>
-                        <a href="mailto:tfb@digiquip.no" className="signInContactLink">
+                        <a href="mailto:tom-freddy@digiquip.no" className="signInContactLink">
                           <img src={useBaseUrl('/img/email-icon.svg')} alt="Email" />
-                          tfb@digiquip.no
+                          tom-freddy@digiquip.no
                         </a>
                       </div>
                     </div>

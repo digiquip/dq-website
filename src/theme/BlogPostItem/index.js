@@ -15,8 +15,6 @@ export default function BlogPostItemWrapper(props) {
   const [currentPath, setCurrentPath] = useState('');
   const [blogList, setBlogList] = useState({})
   const { metadata, isBlogPostPage } = useBlogPost();
-
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const showAnim = gsap.from('.navbar', {

@@ -137,9 +137,9 @@ export default function ExpandableCard({ id, title, description, points, image, 
                   <span className="phone-icon">📞</span>
                   <span>69 83 85 00</span>
                 </a>
-                <a href="mailto:tfb@digiquip.no" className="integration-email-btn">
+                <a href="mailto:tom-freddy@digiquip.no" className="integration-email-btn">
                   <span className="email-icon">✉️</span>
-                  <span><Translate id="integrations.cards.contactEmail" description="Contact email text">Tom Freddy: tfb@digiquip.no</Translate></span>
+                  <span><Translate id="integrations.cards.contactEmail" description="Contact email text">Tom Freddy: tom-freddy@digiquip.no</Translate></span>
                 </a>
                 {id === 'kompetanseregisteret' && (
                   <a href="/bestill-kreg-integrasjon" className="integration-order-btn">

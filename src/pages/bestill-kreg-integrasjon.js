@@ -193,7 +193,7 @@ function OrderKRegSection() {
             <p className='bestill-kreg-text'>
                               <strong>
                   <Translate id="kreg.integration.cta" description="Call to action text">
-                    For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tfb@digiquip.no eller fylle ut skjemaet.
+                    For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tom-freddy@digiquip.no eller fylle ut skjemaet.
                   </Translate>
                 </strong>
             </p>

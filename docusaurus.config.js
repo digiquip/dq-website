@@ -100,9 +100,9 @@ const config = {
                 to: '/kvipp',
               },
               {
-                label: 'Kvipp Bedrift',
+                label: 'Sånn',
                 sidebarid: 'tutorialSidebar',
-                to: '/bedrift',
+                to: '/sann',
               },
               {
                 label: 'Trygg Maskin',

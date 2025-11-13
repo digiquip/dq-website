@@ -58,4 +58,4 @@ What users can access depends on whether they are logged in and belongs to a org
 
 *A organisation user is a user belonging to a organisation who are subscribing to DigiQuip. Most rental companies however have made digital training available for all registered users independent of organisation, enabling users to sign up for free and get full access to digital training.
 
-For further details or other questions reach out to Tom Freddy at tfb@digiquip.no / +47 45 48 85 25, or feel free to book a meeting with anyone in the team [book a meeting](https://digiquip.no/about)
+For further details or other questions reach out to Tom Freddy at tom-freddy@digiquip.no / +47 45 48 85 25, or feel free to book a meeting with anyone in the team [book a meeting](https://digiquip.no/about)

@@ -29,18 +29,19 @@ function MeetTeam() {
                   <h6 className="team-title">{item.fullName}</h6>
                   <p>{item.designation}</p>
                   <div className='detail-email'>
-                    <a href={`mailto: ${item.emailAddress}`}>
-                      <img src="img/email-icon.svg" alt="" />
-                      {item.emailAddress}
-                    </a>
-                    <a href={`tel: ${item.mobileNumber}`}>
-                      <img src="img/call-icon.svg" alt="" />
-                      {item.mobileNumber}
-                    </a>
+                    {item.emailAddress && (
+                      <a href={`mailto: ${item.emailAddress}`}>
+                        <img src="img/email-icon.svg" alt="" />
+                        {item.emailAddress}
+                      </a>
+                    )}
+                    {item.mobileNumber && (
+                      <a href={`tel: ${item.mobileNumber}`}>
+                        <img src="img/call-icon.svg" alt="" />
+                        {item.mobileNumber}
+                      </a>
+                    )}
                   </div>
-                  {
-                    item.contactLink != '' ? <a href={`${item.contactLink}`} target="_blank" className='btn-book' title='book-meeting'> <Translate>aboutus.team.button_lavel</Translate> </a> : ''
-                  }
                 </div>
               </div>
             </div>

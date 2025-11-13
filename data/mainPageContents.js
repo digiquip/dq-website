@@ -15,25 +15,18 @@ const safetyWork = [
 
 const newsContent = [
     {
+        isVideo: false,
+        title: translate({ message: "home.news.news0title" }),
+        imageBanner: 'img/s-icon-dark-square.png',
+        description: translate({ message: "home.news.news0desc" }),
+        blogLink: '/blog/unifractal',
+    },
+    {
         isVideo: true,
         title: translate({ message: "home.news.news1title" }),
         dyntubeKey: 'ijuv7LbG0UyMeCGQBVIDbw',
         description: translate({ message: "home.news.news1desc" }),
         blogLink: '/kvipp',
-    },
-    {
-        isVideo: false,
-        title: translate({ message: "home.news.news6title" }),
-        imageBanner: 'img/articles/betonmastinnlandet.JPG',
-        description: translate({ message: "home.news.news6desc" }),
-        blogLink: '/blog/opplæring-kontroll-betonmast-innlandet',
-    },
-    {
-        isVideo: false,
-        title: translate({ message: "home.news.news5title" }),
-        imageBanner: 'img/articles/QR-kode-bod.jpg',
-        description: translate({ message: "home.news.news5desc" }),
-        blogLink: '/blog/opplæring-uønsket-hendelse-tiltak',
     },
     {
         isVideo: false,
@@ -44,10 +37,24 @@ const newsContent = [
     },
     {
         isVideo: false,
+        title: translate({ message: "home.news.news6title" }),
+        imageBanner: 'img/articles/betonmastinnlandet.JPG',
+        description: translate({ message: "home.news.news6desc" }),
+        blogLink: '/blog/opplæring-kontroll-betonmast-innlandet',
+    },
+    {
+        isVideo: false,
         title: translate({ message: "home.news.news3title" }),
         imageBanner: 'img/articles/RG.png',
         description: translate({ message: "home.news.news3desc" }),
         blogLink: '/blog/RG-kvipp',
+    },
+    {
+        isVideo: false,
+        title: translate({ message: "home.news.news5title" }),
+        imageBanner: 'img/articles/QR-kode-bod.jpg',
+        description: translate({ message: "home.news.news5desc" }),
+        blogLink: '/blog/opplæring-uønsket-hendelse-tiltak',
     },
     {
         isVideo: false,
@@ -58,18 +65,9 @@ const newsContent = [
     },
 ];
 
-
-const brandLogoPartners = partnersBrandLogoList.brandList;
-
-
-
-
-
 const mainPageContentRecords = {
     safetyWork,
     newsContent,
-    brandLogoPartners,
 }
-
 
 export default mainPageContentRecords;

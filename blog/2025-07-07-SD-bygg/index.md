@@ -36,4 +36,4 @@ sd.byggentreprenor@gmail.com
 
 For DigiQuip:
 Tom Freddy Braathen, Chief Commercial Officer
-tfb@digiquip.no
+tom-freddy@digiquip.no

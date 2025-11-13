@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import BrandLogo from "../BrandLogo";
 import SafetyWork from "../SafetyWork";
 import News from "../News";
+import CustomerStories from "../CustomerStories";
 import Translate from '@docusaurus/Translate';
 import mainPageContentRecords from "../../../data/mainPageContents";
 import { useState } from "react";
@@ -112,20 +113,45 @@ useEffect(() => {
     }
   }, []);
 
+  // Split news into first 3 and the rest
+  const firstThreeNews = newsContent.slice(0, 3);
+  const customerStories = newsContent.slice(3);
+
   return (
       <section>
         {newsContent.length ?
-            <div className="container">
-              <div className="news-section-main">
-                <div className="row">
-                  {newsContent && newsContent.map((props, idx) => (
-                      <div className={clsx("col col--12")} key={idx}>
-                        <News {...props} />
-                      </div>
-                  ))}
+            <>
+              <div className="container">
+                <div className="news-section-main">
+                  <div className="row">
+                    {firstThreeNews && firstThreeNews.map((props, idx) => (
+                        <div className={clsx("col col--12")} key={idx}>
+                          <News {...props} />
+                        </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
+              {customerStories.length > 0 && (
+                <section className="light-bg-grey" style={{ padding: '60px 0', marginTop: '60px' }}>
+                  <div className="container">
+                    <h2 className="section-title" style={{ marginBottom: '40px' }}>
+                      <Translate>home.news.customerStories</Translate>
+                      <span className="orange">.</span>
+                    </h2>
+                    <div className="customer-stories-main">
+                      <div className="row">
+                        {customerStories.map((props, idx) => (
+                            <div className={clsx("col col--12")} key={idx + 3}>
+                              <CustomerStories {...props} />
+                            </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              )}
+            </>
             : null}
 
         {/*{safetyWorkContent && safetyWorkContent.map((props, idx) => (*/}

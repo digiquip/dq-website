@@ -86,7 +86,7 @@ function OrderOnletSection() {
             <p className='bestill-onlet-text'>
               <strong>
                 <Translate id="onlet.integration.cta" description="Call to action text">
-                Pris for tjenesten er 25 kr per kontroll. For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tfb@digiquip.no eller fylle ut skjemaet.
+                Pris for tjenesten er 25 kr per kontroll. For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tom-freddy@digiquip.no eller fylle ut skjemaet.
                 </Translate>
               </strong>
             </p>
