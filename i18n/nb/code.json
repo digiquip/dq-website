@@ -498,12 +498,8 @@
   "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
   "description": "Kvipp K-REG integration point 3"
 },
-"bedrift.banner.title1": {
-  "message": "Kvipp Bedrift gir deg full oversikt over utstyrsspesifikk opplæring",
-  "description": "Kvipp Bedrift title"
-},
 "bedrift.benefits.title1": {
-  "message": "Med Kvipp Bedrift",
+  "message": "Kontroll og oversikt",
   "description": "kvipp bedrift benefits"
 },
 "bedrift.benefits.title2": {
@@ -511,7 +507,7 @@
   "description": "part two kvipp bedrift benefits"
 },
 "bedrift.benefits.arg1": {
-  "message": "For bare NOK 1390,- per måned (eks. mva) får bedriften oversikt over all utstyrsspesifikk opplæring og dokumentasjon - alltid tilgjengelig og oppdatert.",
+  "message": "Full kontroll over all utstyrsspesifikk opplæring og dokumentasjon - alltid tilgjengelig og oppdatert.",
   "description": "bedrift benefits arg1"
 },
 "bedrift.benefits.point1": {
@@ -526,73 +522,57 @@
   "message": "Oversikt og gapanalyser i realtid. Få løpende oversikt over hvem som har eller mangler opplæring",
   "description": "bedrift benefits point 3"
 },
-"bedrift.groups.title1": {
-  "message": "Hva er status for",
-  "description": "kvipp bedrift groups"
+"sann.banner.title1": {
+  "message": "Sånn er en superenkel løsning for å",
+  "description": "The title of the Sånn page part one"
 },
-"bedrift.groups.title2": {
-  "message": "utstyrsspesifikk opplæring hos oss?",
-  "description": "part two kvipp groups benefits"
+"sann.banner.title2": {
+  "message": "dokumentere og administrere",
+  "description": "The title of the Sånn page part two"
 },
-"bedrift.groups.arg1": {
-  "message": "Oversikt over gjennomførte opplæringer er tilgjengelig i Kvipp Bedrift. Hvis dere bruker HMS-kort, blir person og opplæring automatisk lagt til riktig virksomhet.",
-  "description": "bedrift groups arg1"
+"sann.benefits.title1": {
+  "message": "Få kontroll med",
+  "description": "The title of the first section on the Sånn page"
 },
-"bedrift.groups.point1": {
-  "message": "Sjekk hva hver person har av opplæring, og hent ut dokumentasjon",
-  "description": "bedrift groups 1"
+"sann.benefits.title2": {
+  "message": "Sånn",
+  "description": "The second title of the first section on the Sånn page"
 },
-"bedrift.groups.point2": {
-  "message": "Sjekk hvem som kan bruke hvilket arbeidsutstyr",
-  "description": "bedrift groups 2"
+"sann.benefits.arg1": {
+  "message": "Med Sånn kan du enkelt dokumentere og administrere din virksomhet.",
+  "description": "The first argument of the first Sånn section"
 },
-"bedrift.groups.point3": {
-  "message": "Lag grupper med personer og utstyr, og få oversikt over status og progresjon. I skjermbilde ser du at personene har opplæring på halvparten av utstyret i gruppen, og du vil kunne drille ned til flere detaljer",
-  "description": "bedrift groups 3"
+"sann.benefits.arg2": {
+  "message": "Sånn kan brukes når som helst, hvor som helst.",
+  "description": "The second argument of the first Sånn section"
 },
-"bedrift.integrations.title": {
-  "message": "Overfør automatisk all utstyrsspesifikk opplæring til Kompetanseregisteret (K-REG)",
-  "description": "Title for the integrations section on the bedrift page"
+"sann.benefits.arg3": {
+  "message": "Alt du trenger er en telefon og internettilgang.",
+  "description": "The third argument of the first Sånn section"
 },
-"bedrift.integrations.description": {
-  "message": "Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes resultatet automatisk opp i Kompetanseregisteret (K-REG). Det inkluderer, i tillegg til intern opplæring,  opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp og har registrerte instruktører. K-REG er et register driftet av Sentralregisteret.",
-  "description": "Description for the integrations section on the bedrift page"
+"sann.get-started.title1": {
+  "message": "Hvordan komme i gang?",
+  "description": "Sånn section two, title"
 },
-"bedrift.integrations.link": {
-  "message": "Les mer",
-  "description": "Link text for the integrations section on the bedrift page"
+"sann.get-started.arg1": {
+  "message": "Sånn er tilgjengelig når og hvor du trenger det:",
+  "description": "Sånn section two, arg 1"
 },
-"bedrift.integrations.pricing": {
-  "message": "For 500kr per måned får du denne integrasjonen.",
-  "description": "Pricing information for the integrations section on the bedrift page"
+"sann.get-started.point1": {
+  "message": "Gå til nettsiden",
+  "description": "Sånn section two, point 1"
 },
-"bedrift.integrations.orderNow": {
-  "message": "Ring oss på 69 83 85 00",
-  "description": "Call to action button text for ordering the integration"
+"sann.get-started.point2": {
+  "message": "Kom i gang med dokumentasjon",
+  "description": "Sånn section two, point 2"
 },
-"bedrift.integrations.emailUs": {
-  "message": "Send oss en e-post, support@digiquip.no",
-  "description": "Email button text for the integration"
+"sann.get-started.point3": {
+  "message": "Administrer og følg opp",
+  "description": "Sånn section two, point 3"
 },
-"bedrift.integrations.benefit1": {
-  "message": "Automatisk overholdelse av norske forskrifter",
-  "description": "First benefit of the K-REG integration"
-},
-"bedrift.integrations.benefit2": {
-  "message": "Ingen manuell dataregistrering kreves",
-  "description": "Second benefit of the K-REG integration"
-},
-"bedrift.integrations.benefit3": {
-  "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
-  "description": "Third benefit of the K-REG integration"
-},
-"bedrift.integrations.hmsInfo": {
-  "message": "Kompetanseregisteret har en integrasjon med HMSREG. Det betyr at du også vil få utstyrsspesifikk opplæring synlig i HMSREG. Kontakt Sentralregisteret for mer informasjon om dette,",
-  "description": "Information about HMSREG integration"
-},
-"bedrift.integrations.here": {
-  "message": "her",
-  "description": "Link text for 'here'"
+"sann.coming-soon": {
+  "message": "Mer informasjon kommer snart!",
+  "description": "Coming soon message for Sånn page"
 },
   "workequipment.banner.title1": {
     "message": "Trygg Maskin – forenkler vedlikehold og sikrer trygg bruk",
@@ -726,7 +706,7 @@
   "description": "FAQ second answer"
 },
 "kreg.integration.cta": {
-  "message": "For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tfb@digiquip.no eller fylle ut skjemaet.",
+  "message": "For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tom-freddy@digiquip.no eller fylle ut skjemaet.",
   "description": "Call to action text"
 },
 "workequipment.machineinsights.point4": {
@@ -864,10 +844,6 @@
     "message": "Kvipp",
     "description": "Navbar item with label Kvipp"
   },
-  "navbar.label.kvipp_bedrift": {
-    "message": "Kvipp Bedrift",
-    "description": "Navbar item with label Kvipp Bedrift"
-  },
   "navbar.label.trygg_maskin": {
     "message": "Trygg Maskin",
     "description": "Navbar item with label Trygg Maskin"
@@ -895,6 +871,18 @@
   "home.news.title": {
     "message": "Nyheter",
     "description": "Title of Latest News"
+  },
+  "home.news.customerStories": {
+    "message": "Kundehistorier",
+    "description": "Customer Stories heading"
+  },
+  "home.news.news0title": {
+    "message": "DigiQuip AS kjøper Unifractal – to sterke miljøer blir ett",
+    "description": "News 0 title"
+  },
+  "home.news.news0desc": {
+    "message": "DigiQuip AS har kjøpt opp Unifractal AS slik at det blir enda bedre forutsetninger for å gjøre kunnskapsoverføring enklere og mer effektivt. Unifractals produkt gis nytt navn: \"Sånn\" – og skal sammen med DigiQuips \"Kvipp\" forenkle hverdagen for titusener av ansatte på tvers av flere bransjer.",
+    "description": "News 0 description"
   },
   "home.news.news1title": {
     "message": "Dokumenter utstyrsspesifikk opplæring digitalt",
@@ -1235,7 +1223,7 @@
   "description": "Default integration price text"
 },
 "integrations.cards.contactEmail": {
-  "message": "Tom Freddy: tfb@digiquip.no",
+  "message": "Tom Freddy: tom-freddy@digiquip.no",
   "description": "Contact email text"
 },
 "integrations.cards.orderButton": {
@@ -1275,7 +1263,7 @@
   "description": "FAQ second answer"
 },
 "onlet.integration.cta": {
-  "message": "Pris for tjenesten er 25 kr per kontroll. For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tfb@digiquip.no eller fylle ut skjemaet.",
+  "message": "Pris for tjenesten er 25 kr per kontroll. For å bestille kan du enten ringe oss på 69 83 85 00, sende e-post til Tom Freddy tom-freddy@digiquip.no eller fylle ut skjemaet.",
   "description": "Call to action text"
 },
 "onlet.integration.copyUrl": {

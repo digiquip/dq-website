@@ -430,19 +430,6 @@ body.modal-open {
 /* Icon colors are now handled in component-specific CSS for consistency */
 
 /* Enhanced integration section styling */
-.bedriftintegrations-section {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  margin: 30px 0;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.bedriftintegrations-section p {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
 .integration-benefits {
   margin: 20px 0;
   padding: 15px;
@@ -676,6 +663,14 @@ img {
   display: block;
 }
 
+.our-partners-section .brand-carousel-item img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
 .banner-img {
   overflow: hidden;
   border-radius: 1.5rem;
@@ -701,6 +696,10 @@ img {
   background-color: #fff;
 }
 
+.light-bg-grey .news-section {
+  background-color: transparent;
+}
+
 .news-section .card {
   padding: 12px;
   /*box-shadow: none;*/
@@ -709,6 +708,18 @@ img {
 
 .news-section img {
   transition: 0.3s ease;
+}
+
+/* Only apply no-crop styling to the first news article (sånn) - only in the first container section */
+section > .container > .news-section-main > .row > .col:first-child .news-section .videosection {
+  aspect-ratio: auto;
+}
+
+section > .container > .news-section-main > .row > .col:first-child .news-section .videosection img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .news-section:hover .card {
@@ -837,6 +848,61 @@ background-color: #fff;
   object-fit: cover;
 }
 
+/* CUSTOMER STORIES SECTION STYLING */
+.customer-stories-main {
+  margin-top: 0;
+}
+
+.customer-story-section {
+  padding-bottom: 4rem;
+  background-color: transparent;
+}
+
+.customer-story-detail .customer-story-title {
+  margin-bottom: 2.25rem;
+  line-height: 1;
+}
+
+.customer-story-detail .customer-story-title a {
+  text-decoration: none;
+  color: #131313;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.customer-story-detail-text {
+  margin-bottom: 2rem;
+  color: hsla(0, 0%, 7%, .8);
+  font-size: 17px;
+}
+
+.customer-story-videosection {
+  aspect-ratio: 2/1.1;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.customer-story-videosection img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.customer-story-section:hover .customer-story-title a {
+  color: var(--ifm-color-orange);
+}
+
+.customer-story-section:hover .customer-story-videosection img {
+  transform: scale(1.06);
+}
 
 .videosection iframe,
 .slider-item iframe {
@@ -1100,7 +1166,6 @@ background-color: #fff;
 }
 
 .kvipp-getstarted-section,
-.bedriftgroups-section,
 .systematizedd-section,
 .library-content,
 .machineinsights-section {
@@ -1113,12 +1178,6 @@ background-color: #fff;
 .competence-contactu-sec {
   background-color: #fff;
 }
-
-.bedriftintegrations-section {
-  background-color: #F6F6F6;
-}
-
-
 
 .hero .hero-content {
   color: #fff;
@@ -1731,7 +1790,7 @@ aside nav li {
 
 .team-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   justify-items: center;
   align-items: stretch;
@@ -3100,7 +3159,7 @@ details > div:first-child {
 
 @media (min-width: 900px) {
   .team-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .team-item {
     min-width: 320px;
@@ -59444,6 +59503,14 @@ img {
   display: block;
 }
 
+.our-partners-section .brand-carousel-item img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+}
+
 .banner-img {
   overflow: hidden;
   border-radius: 1.5rem;
@@ -59469,6 +59536,10 @@ img {
   background-color: #fff;
 }
 
+.light-bg-grey .news-section {
+  background-color: transparent;
+}
+
 .news-section .card {
   padding: 12px;
   /*box-shadow: none;*/
@@ -59477,6 +59548,18 @@ img {
 
 .news-section img {
   transition: 0.3s ease;
+}
+
+/* Only apply no-crop styling to the first news article (sånn) - only in the first container section */
+section > .container > .news-section-main > .row > .col:first-child .news-section .videosection {
+  aspect-ratio: auto;
+}
+
+section > .container > .news-section-main > .row > .col:first-child .news-section .videosection img {
+  position: relative;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
 }
 
 .news-section:hover .card {
@@ -59605,6 +59688,61 @@ background-color: #fff;
   object-fit: cover;
 }
 
+/* CUSTOMER STORIES SECTION STYLING */
+.customer-stories-main {
+  margin-top: 0;
+}
+
+.customer-story-section {
+  padding-bottom: 4rem;
+  background-color: transparent;
+}
+
+.customer-story-detail .customer-story-title {
+  margin-bottom: 2.25rem;
+  line-height: 1;
+}
+
+.customer-story-detail .customer-story-title a {
+  text-decoration: none;
+  color: #131313;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.customer-story-detail-text {
+  margin-bottom: 2rem;
+  color: hsla(0, 0%, 7%, .8);
+  font-size: 17px;
+}
+
+.customer-story-videosection {
+  aspect-ratio: 2/1.1;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.customer-story-videosection img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.customer-story-section:hover .customer-story-title a {
+  color: var(--ifm-color-orange);
+}
+
+.customer-story-section:hover .customer-story-videosection img {
+  transform: scale(1.06);
+}
 
 .videosection iframe,
 .slider-item iframe {
@@ -59868,7 +60006,6 @@ background-color: #fff;
 }
 
 .kvipp-getstarted-section,
-.bedriftgroups-section,
 .systematizedd-section,
 .library-content,
 .machineinsights-section {
@@ -59881,12 +60018,6 @@ background-color: #fff;
 .competence-contactu-sec {
   background-color: #fff;
 }
-
-.bedriftintegrations-section {
-  background-color: #F6F6F6;
-}
-
-
 
 .hero .hero-content {
   color: #fff;
@@ -60380,6 +60511,21 @@ aside nav li {
   overflow: clip;
 }
 
+.post-img-no-crop {
+  aspect-ratio: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-img-no-crop img {
+  object-fit: contain;
+  width: auto;
+  max-width: 100%;
+  max-height: 400px;
+  height: auto;
+}
+
 .post-card {
   display: flex;
   flex-direction: column;
@@ -60499,7 +60645,7 @@ aside nav li {
 
 .team-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   justify-items: center;
   align-items: stretch;
@@ -61868,7 +62014,7 @@ details > div:first-child {
 
 @media (min-width: 900px) {
   .team-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .team-item {
     min-width: 320px;

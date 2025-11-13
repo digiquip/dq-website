@@ -19,8 +19,8 @@ export default function ContactUs() {
                     <div className='contact_item-content'>
                       <div className='contact-people-detail'>
                         <h3>Tom Freddy Braathen</h3>
-                        <a href="mailto:tfb@digiquip.no" className="contact-link" aria-label="tfb@digiquip.no" target="_self">
-                          tfb@digiquip.no
+                        <a href="mailto:tom-freddy@digiquip.no" className="contact-link" aria-label="tom-freddy@digiquip.no" target="_self">
+                          tom-freddy@digiquip.no
                         </a>
                         <a href="tel:+47 45 48 85 25" className="contact-link" aria-label="+47 45 48 85 25" target="_self">
                           +47 45 48 85 25

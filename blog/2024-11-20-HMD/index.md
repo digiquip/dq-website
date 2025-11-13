@@ -41,4 +41,4 @@ morten.amundsen@hmd.as
 For DigiQuip:
 Tom Freddy Braathen, CCO
 +47 454 88 525
-tfb@digiquip.no
+tom-freddy@digiquip.no

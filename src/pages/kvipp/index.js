@@ -2,7 +2,7 @@ import MainLayout from '../../components/MainLayout/index.js';
 import CompetenceGrid from '../../components/CompetenceGrid/index.js';
 import ContactUs from '../../components/ContactUs/index.js';
 import Banner from '../../components/Banner/index.js';
-import competenceRecords from "../../../data/competenceContents.js";
+import competenceRecords from "../../../data/kvippContents.js";
 import { useEffect, useState } from 'react';
 import { ElfsightWidget } from 'react-elfsight-widget';
 
@@ -33,6 +33,13 @@ function KvippKreg(props) {
   );
 }
 
+function BedriftBenefits(props) {
+  const bedriftbenefitsContent = props.items;
+  return (
+    <CompetenceGrid record={bedriftbenefitsContent} />
+  );
+}
+
 function CompetenceContactus() {
   return (
    <ContactUs/>
@@ -47,6 +54,7 @@ export default function Competence() {
   const [kvippBenefits , setKvippBenefits] = useState({})
   const [kvippGetStarted , setKvippGetStarted] = useState({})
   const [kvippKreg , setKvippKreg] = useState({})
+  const [bedriftbenefits , setBedriftBenefits] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
@@ -54,19 +62,21 @@ export default function Competence() {
         setKvippBenefits(competenceRecords.kvippBenefitsData);
         setKvippGetStarted(competenceRecords.kvippGetStartedData);
         setKvippKreg(competenceRecords.kvippKregData);
+        setBedriftBenefits(competenceRecords.bedriftbenefitsData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [competence, kvippBenefits, kvippGetStarted, kvippKreg]);
+  }, [competence, kvippBenefits, kvippGetStarted, kvippKreg, bedriftbenefits]);
 
   return (
     <MainLayout>
       {competence && <CompetenceBanner items={competence}/>}
       {kvippBenefits && <KvippBenefits items={kvippBenefits}/>}
       {kvippGetStarted && <KvippGetStarted items={kvippGetStarted}/>}
+      {bedriftbenefits && <BedriftBenefits items={bedriftbenefits}/>}
       {kvippKreg && <KvippKreg items={kvippKreg}/>}
       <ElfsightWidget widgetId="954fa691-f581-4d70-a48d-6ba7822b0756" style={{padding: "50px 1rem 0"}}/>
       <CompetenceContactus />
