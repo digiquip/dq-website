@@ -17,6 +17,10 @@ Vi er en hyggelig og jordnær gjeng som liker det ukompliserte, så for oss er n
 - Demonstrativt.
 - Autentisk.
 
+Det nye navnet speiler dagligtale, oppmuntrer til nysgjerrighet og ufarliggjør tilnærming til ny læring: "sånn bruker du denne" og "det gjør du sånn".
+
+Navneendringen vil bli implementert fortløpende i Apple Appstore, Google Play og på web.
+
 ## Passer Sånn for deg?
 
 Sånn passer for deg som ønsker:
@@ -35,6 +39,10 @@ Sånn er ikke bygget for deg som trenger:
 Alt dette gjør at det er enkelt å komme i gang med Sånn, akkurat sånn det 
 skal være!
 <br/>
-Har du spørsmål? Kontakt Andreas Lydersen, CEO DigiQuip AS, på 975 99 799.
+
+## Kjent med Unifractal fra før? 
+Som bruker av løsningen vet du at fokus alltid har vært på å gjøre informasjon lett tilgjengelig. Nå skal vi også legge like mye kjærlighet inn i den delen av løsningen som går på å spille inn og redigere video. Målet er at det skal bli like enkelt å dele kunnskap og erfaringer som det er å lage en TikTok. Vi er sikre på at dette vil øke totalopplevelsen av appen betydelig og gi deg enda flere grunner til å fortsette å velge oss.
+
+**Har du spørsmål? Kontakt Andreas Lydersen, CEO DigiQuip AS, på 975 99 799.**
 
 ![Bilde](s-icon-dark-square.png)
