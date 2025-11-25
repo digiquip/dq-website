@@ -1,6 +1,6 @@
 ---
 title: "Kategorisering av utstyr"
-sidebar_position: 9
+sidebar_position: 11
 ---
 
 # Kategorisering av utstyr

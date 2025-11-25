@@ -433,11 +433,11 @@
     "description": "The button label of the contact section on the home page"
   },
   "competence.banner.title1": {
-    "message": "Kvipp er en superenkel, og gratis, løsning for å",
+    "message": "Kvipp er en superenkel løsning for å",
     "description": "The title of the competence page part one"
   },
 "competence.banner.title2": {
-  "message": "sjekke, gjennomføre og dokumentere utstyrsspesifikk opplæring",
+  "message": "sjekke, gjennomføre og dokumentere opplæring",
   "description": "The title of the competence page part two"
 },
   "kvippbenefits.title1": {
@@ -445,45 +445,33 @@
     "description": "The title of the first section on the Kvipp page"
   },
   "kvippbenefits.title2": {
-    "message": "utstyrsspesifikk opplæring",
+    "message": "opplæring i bruk av utstyr",
     "description": "The second title of the first section on the Kvipp page"
   },
   "kvippbenefits.arg1": {
-    "message": "Med Kvipp er det enklere enn noen gang å sikre at alle har utstyrsspesifikk opplæring. Si farvel til kompliserte innlogginger og registreringer!",
+    "message": "Med Kvipp får du kontroll på opplæring på maskiner og verktøy.",
     "description": "The first argument of the first Kvipp section"
   },
   "kvippbenefits.arg2": {
-    "message": "Kvipp kan tas i bruk når som helst hvor som helst, helt uten forberedelser eller forpliktelser."
+    "message": "Det eneste du trenger er telefon, nett og HMS-kort (evt. førerkort)."
   },
 "kvippbenefits.arg3": {
-  "message": "Det eneste du trenger er telefon, nett og HMS-kort (evt. førerkort)."
+  "message": "Kvipp er egnet for deg som trenger oversikt over dokumentert opplæring for egne ansatte eller som gir opplæring som en tjeneste, eventuelt begge deler."
 },
 "kvipp-get-started.title1": {
   "message": "Hvordan komme i gang?",
   "description": "Kvipp section two, 1"
 },
 "kvipp-get-started.arg1": {
-  "message": "Kvipp er tilgjengelig når og hvor du trenger det, enten du skal sjekke eller gjennomføre opplæring:",
+  "message": "Det beste med Kvipp er at bruken krever lite administrasjon. Selv om det er enkelt, kan vi hjelpe dere i gang.",
   "description": "Kvipp section two, arg 1"
 },
-"kvipp-get-started.point1": {
-"message": "Gå til nettsiden kvipp.it",
-"description": "Kvipp section two, point 1"
-},
-"kvipp-get-started.point2": {
-  "message": "Skann arbeidsutstyrets kjennetegn (QR-kode/NFC tag) eller bruk kunstig intelligens for å gjenkjenne utstyret",
-  "description": "Kvipp section two, point 2"
-},
-"kvipp-get-started.point3": {
-  "message": "Identifiser person med HMS-kort eller førerkort. Skann QR-koden på HMS-kortet eller ta bilde av førerkort og la kunstig intelligens gjøre jobben",
-  "description": "Kvipp section two, point 3"
-},
 "kvipp-kreg.title1": {
-"message": "Overfør opplæring til Kompetanseregisteret (K-REG), og HMSREG",
+"message": "Opplæring til K-REG, og HMSREG?",
 "description": "Kvipp K-REG integration section title"
 },
 "kvipp-kreg.arg1": {
-  "message": "Når en person med rollen «instruktør» gir praktisk utstyrsspesifikk opplæring, kan resultatet lastes automatisk opp i Kompetanseregisteret (K-REG). Dette inkluderer både intern opplæring og opplæring mottatt av utleiere, produsenter og andre som bruker Kvipp og har registrerte instruktører. Egenerklæring og andre opplæringer overføres ikke.",
+  "message": "Opplæringsbevis kan lastes automatisk opp i Kompetanseregisteret (K-REG). Dette inkluderer både interne og eksterne opplæringer.",
   "description": "Kvipp K-REG integration section description"
 },
 "kvipp-kreg.point1": {
@@ -522,53 +510,33 @@
   "message": "Oversikt og gapanalyser i realtid. Få løpende oversikt over hvem som har eller mangler opplæring",
   "description": "bedrift benefits point 3"
 },
-"sann.banner.title1": {
-  "message": "Sånn er en superenkel løsning for å",
-  "description": "The title of the Sånn page part one"
+"kvipp-role-section.left.title": {
+  "message": "Har du folk som bruker maskiner og verktøy?",
+  "description": "Title for the left section in the two-column role selection"
 },
-"sann.banner.title2": {
-  "message": "dokumentere og administrere",
-  "description": "The title of the Sånn page part two"
+"kvipp-role-section.left.description": {
+  "message": "Som arbeidsgiver har du ansvar for å sørge for at ansatte har nødvendig opplæring før bruk av maskiner og verktøy. Med Kvipp får du kontroll på dokumentasjon.",
+  "description": "Description for the left section (employer)"
 },
-"sann.benefits.title1": {
-  "message": "Få kontroll med",
-  "description": "The title of the first section on the Sånn page"
+"kvipp-role-section.left.button": {
+  "message": "Les mer",
+  "description": "Button label for employer section"
 },
-"sann.benefits.title2": {
-  "message": "Sånn",
-  "description": "The second title of the first section on the Sånn page"
+"kvipp-role-section.right.title": {
+  "message": "Gir du opplæring til eksterne?",
+  "description": "Title for the right section in the two-column role selection"
 },
-"sann.benefits.arg1": {
-  "message": "Med Sånn kan du enkelt dokumentere og administrere din virksomhet.",
-  "description": "The first argument of the first Sånn section"
+"kvipp-role-section.right.description": {
+  "message": "Tilbyr du opplæring som en tjeneste? Gjennomfør og dokumenter opplæringen enkelt med Kvipp.",
+  "description": "Description for the right section (rental)"
 },
-"sann.benefits.arg2": {
-  "message": "Sånn kan brukes når som helst, hvor som helst.",
-  "description": "The second argument of the first Sånn section"
+"kvipp-role-section.right.button": {
+  "message": "Les mer",
+  "description": "Button label for rental section"
 },
-"sann.benefits.arg3": {
-  "message": "Alt du trenger er en telefon og internettilgang.",
-  "description": "The third argument of the first Sånn section"
-},
-"sann.get-started.title1": {
-  "message": "Hvordan komme i gang?",
-  "description": "Sånn section two, title"
-},
-"sann.get-started.arg1": {
-  "message": "Sånn er tilgjengelig når og hvor du trenger det:",
-  "description": "Sånn section two, arg 1"
-},
-"sann.get-started.point1": {
-  "message": "Gå til nettsiden",
-  "description": "Sånn section two, point 1"
-},
-"sann.get-started.point2": {
-  "message": "Kom i gang med dokumentasjon",
-  "description": "Sånn section two, point 2"
-},
-"sann.get-started.point3": {
-  "message": "Administrer og følg opp",
-  "description": "Sånn section two, point 3"
+"kvipp-role-section.heading": {
+  "message": "Løsninger",
+  "description": "Heading above the two-column role selection cards"
 },
 "sann.coming-soon": {
   "message": "Mer informasjon kommer snart!",
@@ -885,11 +853,11 @@
     "description": "News 0 description"
   },
   "home.news.news1title": {
-    "message": "Dokumenter utstyrsspesifikk opplæring digitalt",
+    "message": "Dokumenter opplæring med Kvipp",
     "description": "First title of the news"
   },
   "home.news.news1desc": {
-    "message": "Alle arbeidstakere skal ha opplæring på den typen arbeidsutstyr som skal brukes. Dette handler om å sikre helse, miljø, sikkerhet og lønnsomhet. I Kvipp kan opplæringen enkelt gjennomføres og dokumenteres digitalt når som helst - gratis! Du trenger kun telefon og HMS-kort (eller annen ID), helt uten for- og etterarbeid.",
+    "message": "Alle arbeidstakere skal ha nødvendig opplæring på arbeidsutstyr, før bruk. I Kvipp kan opplæringen enkelt gjennomføres og dokumenteres digitalt. Trenger du for eksempel et sted å dokumentere opplæring på vinkelsliper eller spesifikk type lift, så er Kvipp løsningen! Kvipp støtter opplæring på alt fra store maskiner til mindre verktøy.",
     "description": "First description of the news"
   },
   "home.news.news2title": {
@@ -897,7 +865,7 @@
     "description": "Second title of the news"
   },
   "home.news.news2desc": {
-    "message": "Nå kan du automatisk overføre utstyrsspesifikk opplæring fra Kvipp til Kompetanseregisteret (K-REG). Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes all nødvendig informasjon og dokumentasjon over til Kompetanseregisteret. Videre deler K-REG kompetanse med HMSREG.",
+    "message": "Utstyrsspesifikk opplæring kan lastes direkte fra Kvipp til Kompetanseregisteret (K-REG). Når en person med rollen «instruktør» gir opplæring til noen av dine ansatte, lastes all nødvendig informasjon og dokumentasjon over til Kompetanseregisteret. Videre deler K-REG kompetanse med HMSREG.",
     "description": "Second description of the news"
   },
   "home.news.news3title": {
@@ -1318,5 +1286,285 @@
 "contact.form.description": {
   "message": "Usikker på hvem du vil prate med eller har du en sak som skal til support? Se kontaktinformasjonen under eller fyll ut skjemaet.",
   "description": "Contact form section description"
+},
+"kvipp.employer.banner.title1": {
+  "message": "Opplæring i bruk av",
+  "description": "Kvipp employer page banner title part 1"
+},
+"kvipp.employer.banner.title2": {
+  "message": "maskiner og verktøy",
+  "description": "Kvipp employer page banner title part 2"
+},
+"kvipp.employer.background.title": {
+  "message": "For trygg og riktig bruk",
+  "description": "Kvipp employer background section title"
+},
+"kvipp.employer.background.description": {
+  "message": "Den som skal bruke maskiner og verktøy skal være kjent med utstyret, og vite hvordan bruke det riktig. Opplæring anbefales å inneholde blant annet:",
+  "description": "Kvipp employer background section description"
+},
+"kvipp.employer.background.item1": {
+  "message": "Betjening",
+  "description": "Kvipp employer background item 1"
+},
+"kvipp.employer.background.item2": {
+  "message": "Sikkerhetsutstyr",
+  "description": "Kvipp employer background item 2"
+},
+"kvipp.employer.background.item3": {
+  "message": "Bruksområde",
+  "description": "Kvipp employer background item 3"
+},
+"kvipp.employer.background.item4": {
+  "message": "Funksjonalitet",
+  "description": "Kvipp employer background item 4"
+},
+"kvipp.employer.background.item5": {
+  "message": "Personlig verneutstyr",
+  "description": "Kvipp employer background item 5"
+},
+"kvipp.employer.background.item6": {
+  "message": "Daglig kontroll",
+  "description": "Kvipp employer background item 6"
+},
+"kvipp.employer.background.documentation.prefix": {
+  "message": "og dette skal dokumenteres (se",
+  "description": "Kvipp employer background documentation prefix"
+},
+"kvipp.employer.background.documentation.link": {
+  "message": "forskrift om utførelse av arbeid",
+  "description": "Kvipp employer background documentation link"
+},
+"kvipp.employer.arbeidstilsynet.title": {
+  "message": "Hva ber Arbeidstilsynet om?",
+  "description": "Kvipp employer Arbeidstilsynet section title"
+},
+"kvipp.employer.arbeidstilsynet.requirement1": {
+  "message": "Dokumentasjon som viser hvilke krav som stilles til de personer som kan bruke arbeidsutstyr som kan medføre særlig fare for skade på liv eller helse.",
+  "description": "Kvipp employer Arbeidstilsynet requirement 1"
+},
+"kvipp.employer.arbeidstilsynet.and": {
+  "message": "og",
+  "description": "Kvipp employer Arbeidstilsynet and"
+},
+"kvipp.employer.arbeidstilsynet.requirement2": {
+  "message": "Dokumentasjon som viser at arbeidstakerne har gjennomgått opplæring på det spesifikke arbeidsutstyret vedkommende settes til å bruke.",
+  "description": "Kvipp employer Arbeidstilsynet requirement 2"
+},
+"kvipp.employer.arbeidstilsynet.goodToGo": {
+  "message": "Og har du dette på plass, er du good to go.",
+  "description": "Kvipp employer Arbeidstilsynet good to go"
+},
+"kvipp.employer.solutions.title": {
+  "message": "Velg den løsningen som passer deg",
+  "description": "Kvipp employer solutions intro title"
+},
+"kvipp.employer.free.title": {
+  "message": "Utstyrsspesifikk opplæring en gang i blant",
+  "description": "Kvipp employer free tier title"
+},
+"kvipp.employer.free.description": {
+  "message": "Bruk Kvipp helt uforpliktende, og gratis! Det eneste du trenger er mobil og HMS-kort (eventuell annen ID).",
+  "description": "Kvipp employer free tier description"
+},
+"kvipp.employer.free.item1": {
+  "message": "Gå til nettsiden kvipp.it",
+  "description": "Kvipp employer free tier item 1"
+},
+"kvipp.employer.free.item2": {
+  "message": "Identifiser person med HMS-kort eller førerkort. Skann QR-koden på HMS-kortet eller ta bilde av førerkort og la kunstig intelligens gjøre jobben",
+  "description": "Kvipp employer free tier item 2"
+},
+"kvipp.employer.free.item3": {
+  "message": "Skann kjennetegn (QR-kode/NFC tag) eller bruk kunstig intelligens for å gjenkjenne utstyret",
+  "description": "Kvipp employer free tier item 3"
+},
+"kvipp.employer.free.price": {
+  "message": "Pris: Gratis",
+  "description": "Kvipp employer free tier price"
+},
+"kvipp.employer.plus.title": {
+  "message": "Kun utstyrsspesifikk opplæring",
+  "description": "Kvipp employer plus tier title"
+},
+"kvipp.employer.plus.description": {
+  "message": "Du har kontroll på det meste, men ikke utstyrsspesifikk opplæring? Da kan du benytte deg av Kvipp og den enkleste pakken.",
+  "description": "Kvipp employer plus tier description"
+},
+"kvipp.employer.plus.item1": {
+  "message": "Ansatte legges automatisk, og sikkert, til i Kvipp Bedrift via Arbeidstilsynets HMS-kort API",
+  "description": "Kvipp employer plus tier item 1"
+},
+"kvipp.employer.plus.item2": {
+  "message": "Utstyr og dokumentasjon registreres automatisk etter utført opplæring",
+  "description": "Kvipp employer plus tier item 2"
+},
+"kvipp.employer.plus.item3": {
+  "message": "Oversikt og gapanalyser i realtid. Få løpende oversikt over hvem som har eller mangler opplæring",
+  "description": "Kvipp employer plus tier item 3"
+},
+"kvipp.employer.plus.price": {
+  "message": "Pris: Fra 1390,- per måned",
+  "description": "Kvipp employer plus tier price"
+},
+"kvipp.employer.pro.title": {
+  "message": "Dokumentert og utstyrsspesifikk opplæring",
+  "description": "Kvipp employer pro tier title"
+},
+"kvipp.employer.pro.description": {
+  "message": "Ende til ende kontroll på opplæring på maskiner og verktøy? Du kan bruke Kvipp til å løse dokumentasjon av hele prosessen fra kategorier til fullført opplæring, både dokumentert sikkerhets- og utstyrsspesifikk opplæring.",
+  "description": "Kvipp employer pro tier description"
+},
+"kvipp.employer.pro.controlTitle": {
+  "message": "Kontroll fra a til å:",
+  "description": "Kvipp employer pro tier control title"
+},
+"kvipp.employer.pro.item1": {
+  "message": "Kategorisering, med eller uten kunstig intelligens",
+  "description": "Kvipp employer pro tier item 1"
+},
+"kvipp.employer.pro.item2": {
+  "message": "Risikovurdering og tiltak",
+  "description": "Kvipp employer pro tier item 2"
+},
+"kvipp.employer.pro.item3": {
+  "message": "Vurdering av behovet for utstyrsspesifikk opplæring",
+  "description": "Kvipp employer pro tier item 3"
+},
+"kvipp.employer.pro.item4": {
+  "message": "Krav til opplæring før bruk av maskiner og verktøy",
+  "description": "Kvipp employer pro tier item 4"
+},
+"kvipp.employer.pro.item5": {
+  "message": "Gjennomføre og dokumentere sikkerhetsopplæring",
+  "description": "Kvipp employer pro tier item 5"
+},
+"kvipp.employer.pro.item6": {
+  "message": "Systemet sørger for at de det gjelder automatisk får opp forholdsregler og opplæringskrav i Kvipp",
+  "description": "Kvipp employer pro tier item 6"
+},
+"kvipp.employer.pro.price": {
+  "message": "Pris: Fra 2490,- per måned",
+  "description": "Kvipp employer pro tier price"
+},
+"kvipp.employer.integrations.title": {
+  "message": "Kompetanseregisteret (K-REG)",
+  "description": "Kvipp employer integrations title"
+},
+"kvipp.employer.integrations.description": {
+  "message": "Utstyrsspesifikk opplæring kan lastes direkte opp i K-REG, enten som et tilvalg eller frittstående. Videre deler K-REG kompetanse med HMSREG.",
+  "description": "Kvipp employer integrations description"
+},
+"kvipp.employer.integrations.benefit1": {
+  "message": "Synlig i HMSREG via Kompetanseregisteret",
+  "description": "Kvipp employer integrations benefit 1"
+},
+"kvipp.employer.integrations.benefit2": {
+  "message": "Ingen manuell dataregistrering kreves",
+  "description": "Kvipp employer integrations benefit 2"
+},
+"kvipp.employer.integrations.benefit3": {
+  "message": "Løpende dokumentasjon av utstyrsspesifikk opplæring",
+  "description": "Kvipp employer integrations benefit 3"
+},
+"kvipp.employer.integrations.note": {
+  "message": "Det er kun praktiske opplæringer gitt av personer med rollen instruktør som oversendes.",
+  "description": "Kvipp employer integrations note"
+},
+"kvipp.employer.documentation.note.prefix": {
+  "message": "Mer detaljer kan leses om under",
+  "description": "Kvipp employer documentation note prefix"
+},
+"kvipp.employer.documentation.note.link": {
+  "message": "dokumentasjon",
+  "description": "Kvipp employer documentation note link"
+},
+"kvipp.rental.banner.title1": {
+  "message": "Opplæring som en tjeneste,",
+  "description": "Kvipp rental page banner title part 1"
+},
+"kvipp.rental.banner.title2": {
+  "message": "for utleiere og leverandører",
+  "description": "Kvipp rental page banner title part 2"
+},
+"kvipp.rental.background.title": {
+  "message": "Opplæring til kunder",
+  "description": "Kvipp rental background section title"
+},
+"kvipp.rental.background.description1": {
+  "message": "Som utleier eller leverandør kan dere tilby utstyrsspesifikk opplæring og dokumentere opplæringen med Kvipp, uavhengig om kunden er Kvipp kunde. Se avsnittet nederst om hvordan finne opplæringsbeviset.",
+  "description": "Kvipp rental background description 1"
+},
+"kvipp.rental.background.description2": {
+  "message": "Som utleier av maskiner og utstyr har utleier ansvar for å sørge for at utstyret er i orden, men det er alltid arbeidsgiver som har det endelige ansvaret for opplæring.",
+  "description": "Kvipp rental background description 2"
+},
+"kvipp.rental.background.remember": {
+  "message": "Husk:",
+  "description": "Kvipp rental background remember"
+},
+"kvipp.rental.background.rememberText": {
+  "message": "Du som utleier er også arbeidsgiver for egne ansatte som bruker maskiner og utstyr.",
+  "description": "Kvipp rental background remember text"
+},
+"kvipp.rental.background.readMore": {
+  "message": "Les mer",
+  "description": "Kvipp rental background read more"
+},
+"kvipp.rental.howto.title": {
+  "message": "Slik gir du opplæring",
+  "description": "Kvipp rental howto section title"
+},
+"kvipp.rental.howto.goToWebsite": {
+  "message": "Gå til nettsiden",
+  "description": "Kvipp rental howto go to website"
+},
+"kvipp.rental.howto.item1": {
+  "message": "Identifiser deg selv og utstyret",
+  "description": "Kvipp rental howto item 1"
+},
+"kvipp.rental.howto.item2": {
+  "message": "Velg \"gi opplæring\" og gå gjennom sjekklisten",
+  "description": "Kvipp rental howto item 2"
+},
+"kvipp.rental.howto.note": {
+  "message": "NB: Du må registrere egen kompetanse før du får valget \"gi opplæring\".",
+  "description": "Kvipp rental howto note"
+},
+"kvipp.rental.howto.item3": {
+  "message": "Legg til deltakerne. De trenger HMS-kort eller førerkort/pass. Det er ingen øvre grense for antall deltakere.",
+  "description": "Kvipp rental howto item 3"
+},
+"kvipp.rental.kvippBedrift.title": {
+  "message": "Lære opp andre på vegne av virksomheten",
+  "description": "Kvipp rental kvipp bedrift section title"
+},
+"kvipp.rental.kvippBedrift.description": {
+  "message": "Med Kvipp får dere full oversikt over hvem dere har gitt opplæringer til. Under arkiv og opplæringer blir alle opplæringer gitt av instruktører lagret. Slik at dere kan:",
+  "description": "Kvipp rental kvipp bedrift description"
+},
+"kvipp.rental.kvippBedrift.item1": {
+  "message": "Oversikt over hvem som har gitt og fått",
+  "description": "Kvipp rental kvipp bedrift item 1"
+},
+"kvipp.rental.kvippBedrift.item2": {
+  "message": "Ettersende dokumentasjon om behov",
+  "description": "Kvipp rental kvipp bedrift item 2"
+},
+"kvipp.rental.findCertificate.title": {
+  "message": "Her finner mottakeren opplæringsbeviset",
+  "description": "Kvipp rental find certificate section title"
+},
+"kvipp.rental.findCertificate.item1": {
+  "message": "Gå til nettsiden og identifiser deg med HMS-kort. Beviset kan lastes ned eller sendes på e-post.",
+  "description": "Kvipp rental find certificate item 1"
+},
+"kvipp.rental.findCertificate.item2": {
+  "message": "Dokumentasjon tilgjengelig i Kvipp Bedrift.",
+  "description": "Kvipp rental find certificate item 2"
+},
+"kvipp.rental.findCertificate.item3": {
+  "message": "Dokumentasjon tilgjengelig i K-REG (og HMSREG).",
+  "description": "Kvipp rental find certificate item 3"
 }
 }

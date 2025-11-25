@@ -27,7 +27,7 @@ export default function ContactUs() {
                         </a>
                       </div>
                       <div className='people-profile'>
-                        <img src='img/competence-images/tom_freddy.webp'></img>
+                        <img src='/img/competence-images/tom_freddy.webp' alt='Tom Freddy Braathen'></img>
                       </div>
                     </div>
                   </div>

@@ -1,0 +1,60 @@
+/* Two Column Role Cards */
+.two-column-section .role-card {
+  border: none;
+  border-radius: 8px;
+  padding: 2rem;
+  height: 100%;
+  background-color: var(--ifm-bg-grey);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.two-column-section .role-card .card-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px 0 8px 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #000;
+  z-index: 1;
+}
+
+.two-column-section .role-card.has-label .section-title {
+  margin-top: 2.5rem;
+}
+
+.two-column-section .role-card .section-description {
+  flex-grow: 1;
+}
+
+.two-column-section .role-card .section-button {
+  margin-top: auto;
+}
+
+/* Black border buttons in two-column section */
+.two-column-section .role-card .btn {
+  border-color: #000;
+  color: #000 !important;
+}
+
+.two-column-section .role-card .btn:hover:not(:disabled) {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #000 !important;
+}
+
+.two-column-section .role-card .btn__text,
+.two-column-section .role-card .btn__icon {
+  color: #000 !important;
+}
+
+/* White background for integration benefits in two-column section */
+.two-column-section .role-card .integration-benefits {
+  background-color: #fff;
+}
+

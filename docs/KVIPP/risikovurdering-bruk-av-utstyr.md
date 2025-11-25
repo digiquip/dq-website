@@ -1,14 +1,23 @@
 ---
 title: "Risikovurdering bruk av utstyr"
-sidebar_position: 11
+sidebar_position: 13
 ---
+
+import risiko from '/img/kvipp-admin/risiko.png';
+import kvippForholdsregler from '/img/kvipp-docs-people/kvipp-forholdsregler.jpg';
 
 # Risikovurdering bruk av utstyr
 
 Risikovurdering handler om å identifisere farer ved bruk av en utstyrstype, vurdere sannsynlighet og konsekvens, og iverksette tiltak for å redusere risiko til et akseptabelt nivå. Risikovurdering gjøres på kategorinivå.
 
+<img src={risiko} style={{width: '100%', maxWidth: '1200px'}} />
+
 ## Forholdsregler under bruk
-I tillegg til tydeliggjøring av opplæringskrav, kan du definere hvilke forholdsregler som skal tas når utstyret brukes. Gå gjennom disse forholdsreglene under opplæring. 
+I tillegg til tydeliggjøring av opplæringskrav, kan du definere hvilke forholdsregler som skal tas når utstyret brukes. Gå gjennom disse forholdsreglene under opplæring.I tillegg blir forholdsreglene synlige ute i Kvipp for den det gjelder.
+
+<div style={{textAlign: 'center', margin: '1rem 0'}}>
+  <img src={kvippForholdsregler} style={{width: '100%', maxWidth: '200px'}} />
+</div> 
 
 ## Risiko før og etter 
 Når du har definert krav til opplæring og forholdsregler, gjør du en ny vurdering av risiko. På denne måten får du dokumentert antatt risiko før og etter.

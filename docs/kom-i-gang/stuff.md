@@ -12,3 +12,4 @@ Les denne digitalt, i fullskjerm, eller få en trykt versjon av oss.
 Bruk plakater som påminnelser om både opplæring og Kvipp. Last ned herifra eller ta kontakt med oss for print.
 
 <div className="elfsight-app-3bee04e9-6a3d-4095-8b12-161ea93d6953" data-elfsight-app-lazy style={{marginTop: "30px"}}></div>
+

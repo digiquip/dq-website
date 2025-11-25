@@ -3,6 +3,8 @@ title: "Provide training"
 sidebar_position: 5
 ---
 
+import gidokopplaering from '/img/kvipp-docs-people/gidokopplæring.png';
+
 # Provide training
 
 Provide training in the use of equipment via Kvipp, and save a lot of time!
@@ -36,3 +38,7 @@ To provide training, you must first register your own training. Then you'll get 
 Training should be given by someone who has the competence to provide training, but unlike certified training, it can be given by anyone. For certified training in earth-moving machines, etc., however, the instructor must be certified.
 
 If an accident occurs, can we substantiate that the person received necessary training? This means that you can document that the recipient actually received necessary training before use.
+
+<div style={{textAlign: 'center', margin: '1rem 0'}}>
+  <img src={gidokopplaering} style={{width: '100%', maxWidth: '200px'}} />
+</div>

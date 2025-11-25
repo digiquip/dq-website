@@ -1490,6 +1490,16 @@ aside nav li {
   font-size: 1em;
 }
 
+.markdown ul {
+  list-style-type: disc !important;
+  padding-left: 1.5rem;
+}
+
+.markdown ul li {
+  list-style-type: disc !important;
+  display: list-item;
+}
+
 .markdown strong {
   font-weight: 700;
   color: #282727;
@@ -60328,6 +60338,16 @@ aside nav li {
 .markdown>ul li::marker {
   color: var(--ifm-color-orange);
   font-size: 1em;
+}
+
+.markdown ul {
+  list-style-type: disc !important;
+  padding-left: 1.5rem;
+}
+
+.markdown ul li {
+  list-style-type: disc !important;
+  display: list-item;
 }
 
 .markdown strong {
