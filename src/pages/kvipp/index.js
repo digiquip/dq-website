@@ -2,6 +2,7 @@ import MainLayout from '../../components/MainLayout/index.js';
 import CompetenceGrid from '../../components/CompetenceGrid/index.js';
 import ContactUs from '../../components/ContactUs/index.js';
 import Banner from '../../components/Banner/index.js';
+import TwoColumnSection from '../../components/TwoColumnSection/index.js';
 import competenceRecords from "../../../data/kvippContents.js";
 import { useEffect, useState } from 'react';
 import { ElfsightWidget } from 'react-elfsight-widget';
@@ -10,13 +11,6 @@ function CompetenceBanner(props) {
   const competenceContent = props.items;
   return (
     <Banner record={competenceContent} />
-  );
-}
-
-function KvippBenefits(props) {
-  const kvippBenefitsContent = props.items;
-  return (
-    <CompetenceGrid record={kvippBenefitsContent} />
   );
 }
 
@@ -51,33 +45,27 @@ function CompetenceContactus() {
 export default function Competence() {
 
   const [competence , setCompetenceContent] = useState({})
-  const [kvippBenefits , setKvippBenefits] = useState({})
-  const [kvippGetStarted , setKvippGetStarted] = useState({})
-  const [kvippKreg , setKvippKreg] = useState({})
-  const [bedriftbenefits , setBedriftBenefits] = useState({})
+  const [kvippRoleSection , setKvippRoleSection] = useState({})
+  const [kvippGetStartedKregSection , setKvippGetStartedKregSection] = useState({})
   useEffect(() => {
     let ignore = false;
       if (!ignore) {
         setCompetenceContent(competenceRecords.competenceBannerData);
-        setKvippBenefits(competenceRecords.kvippBenefitsData);
-        setKvippGetStarted(competenceRecords.kvippGetStartedData);
-        setKvippKreg(competenceRecords.kvippKregData);
-        setBedriftBenefits(competenceRecords.bedriftbenefitsData);
+        setKvippRoleSection(competenceRecords.kvippRoleSectionData);
+        setKvippGetStartedKregSection(competenceRecords.kvippGetStartedKregSectionData);
       }
   
     return () => { 
       ignore = true;
     }
    
-  }, [competence, kvippBenefits, kvippGetStarted, kvippKreg, bedriftbenefits]);
+  }, [competence, kvippRoleSection, kvippGetStartedKregSection]);
 
   return (
     <MainLayout>
       {competence && <CompetenceBanner items={competence}/>}
-      {kvippBenefits && <KvippBenefits items={kvippBenefits}/>}
-      {kvippGetStarted && <KvippGetStarted items={kvippGetStarted}/>}
-      {bedriftbenefits && <BedriftBenefits items={bedriftbenefits}/>}
-      {kvippKreg && <KvippKreg items={kvippKreg}/>}
+      {kvippRoleSection && kvippRoleSection.leftSection && kvippRoleSection.rightSection && <TwoColumnSection {...kvippRoleSection}/>}
+      {kvippGetStartedKregSection && kvippGetStartedKregSection.leftSection && kvippGetStartedKregSection.rightSection && <TwoColumnSection {...kvippGetStartedKregSection}/>}
       <ElfsightWidget widgetId="954fa691-f581-4d70-a48d-6ba7822b0756" style={{padding: "50px 1rem 0"}}/>
       <CompetenceContactus />
     </MainLayout>

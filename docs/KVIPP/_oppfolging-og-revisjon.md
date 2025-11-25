@@ -1,6 +1,6 @@
 ---
 title: "Oppfølging og revisjon"
-sidebar_position: 15
+sidebar_position: 17
 ---
 
 # Ekstra oppfølging

@@ -3,9 +3,24 @@ title: "Risk assessment equipment use"
 sidebar_position: 11
 ---
 
+import risiko from '/img/kvipp-admin/risiko.png';
+import kvippForholdsregler from '/img/kvipp-docs-people/kvipp-forholdsregler.jpg';
+
 # Risk assessment equipment use
 
-Risk assessment is about identifying hazards when using an equipment type, assessing probability and consequence, and implementing measures to reduce risk to an acceptable level.
+Risk assessment is about identifying hazards when using an equipment type, assessing probability and consequence, and implementing measures to reduce risk to an acceptable level. Risk assessment is done at the category level.
+
+<img src={risiko} style={{width: '100%', maxWidth: '1200px'}} />
+
+## Precautions during use
+In addition to clarifying training requirements, you can define which precautions should be taken when the equipment is used. Go through these precautions during training. In addition, the precautions become visible in Kvipp for the person concerned.
+
+<div style={{textAlign: 'center', margin: '1rem 0'}}>
+  <img src={kvippForholdsregler} style={{width: '100%', maxWidth: '200px'}} />
+</div>
+
+## Risk before and after
+When you have defined training requirements and precautions, you make a new assessment of risk. In this way, you get documented assumed risk before and after.
 
 For example: Before using a brush saw, training must be completed and documented.
 

@@ -1,6 +1,6 @@
 ---
 title: "Opplasting til Kompetanseregisteret"
-sidebar_position: 14
+sidebar_position: 16
 ---
 
 # Opplasting til Kompetanseregisteret

@@ -29,7 +29,7 @@ export default function IntegrationsGrid({ integrations }) {
       <div className="integrations-header">
         <h2 className="integrations-title">
           <Translate id="integrations.grid.title" description="Integrations grid title">
-            Integrasjoner.
+            Kompetanseregisteret (K-REG).
           </Translate>
         </h2>
       </div>

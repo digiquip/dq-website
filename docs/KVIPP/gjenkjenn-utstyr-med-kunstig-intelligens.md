@@ -1,7 +1,9 @@
 ---
-title: "Gjenkjenn utstyr med kunstig intelligens"
-sidebar_position: 1
+title: "Gjenkjenn utstyr"
+sidebar_position: 2
 ---
+
+import identifiseringUtstyr from '/img/kvipp-docs-people/identifisering-utstyr.png';
 
 # Gjenkjenn utstyr med kunstig intelligens
 
@@ -21,33 +23,8 @@ Kunstig intelligens vil returnere et forslag. Det er viktig at du ser over at me
 
 2.QR-kode: Når du skanner QR-kode fra DigiQuip, BRAREG eller REGINN/Maskinregisteret, finner Kvipp merke og modell.
 
-3.Søk og legg til manuelt: Kvipp abonnenter kan **legge til utstyr manuelt**. Med rollen "utstyrseier" kan du søke og legge til utstyr.
+3.Søk og legg til manuelt: Kvipp abonnenter kan **legge til utstyr manuelt**. Med rollen "utstyrseier" kan du søke og legge til utstyr. Du kan også legge til forskjellig unikt utstyr, slik som byggheis eller spesialtilpasset stillas.
 
-## Merk opp arbeidsutstyr med QR-koder
-Med Kvipp Bedrift kan dere merke opp utstyr med QR-koder.
-
-**Koble utstyr og QR-koder:**
-
-1.Gi personer som skal knytte utstyr og QR-koder rollen «utstyrseier». Dette gjør du på siden "myndigheter".
-
-import velgutstyrseier from '/img/kvipp-docs-equipment/velgutstyrseier.png';
-
-<img src={velgutstyrseier} style={{width:450}} />
-
-2.Gå til nettsiden kvipp.it
-
-3.Identifiser utstyret
-
-4.Gå gjennom veiviseren og sørg for at modell og merke er skrevet korrekt
-
-5.I nedtrekksmenyen velger du «QR-koder og kjennetegn». Velg «Skann og koble»
-
-6.Sett QR-koden på utstyret og ta bilde av QR-koden (fra "skann og koble")
-
-import knyttQR from '/img/kvipp-docs-equipment/knyttQR.jpg';
-
-<img src={knyttQR} style={{width:450}} />
-
-7.Test at QR-koden er koblet
-
-**Ferdig!**
+<div style={{textAlign: 'center', margin: '1rem 0', display: 'flex', justifyContent: 'center'}}>
+  <img src={identifiseringUtstyr} style={{maxWidth: '450px', width: '100%', display: 'block', margin: '0 auto'}} />
+</div>

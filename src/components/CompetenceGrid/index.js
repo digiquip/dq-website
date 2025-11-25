@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import VideoSection from "../VideoSection";
 import {useEffect, useState} from "react";
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 // CompetenceGrid component
 export default function CompetenceGrid(props) {
@@ -36,7 +37,7 @@ export default function CompetenceGrid(props) {
             <div className='sikker-img'>
               {data.mediaType === 'image'
                   ?
-                  <img src={data.img}></img>
+                  <img src={useBaseUrl(data.img)}></img>
                   : data.mediaType === 'youtube' ?
                       <VideoSection withoutAutoPlay={data.withoutAutoPlay} withPlay={data.withPlay}
                                     poster={data.youtubeVideoBanner}/>

@@ -164,12 +164,96 @@ const bedriftbenefitsData = {
     )
 }
 
+const kvippRoleSectionData = {
+    leftSection: {
+        label: "arbeidsgiver",
+        titleWithHTML: (
+            <>
+                <Translate>kvipp-role-section.left.title</Translate>
+            </>
+        ),
+        descriptionWithHTML: (
+            <>
+                <p><Translate>kvipp-role-section.left.description</Translate></p>
+            </>
+        ),
+        buttonLabel: <Translate>kvipp-role-section.left.button</Translate>,
+        buttonLink: "/kvipp/1",
+        buttonIcon: true
+    },
+    rightSection: {
+        label: "utleier eller leverandør",
+        titleWithHTML: (
+            <>
+                <Translate>kvipp-role-section.right.title</Translate>
+            </>
+        ),
+        descriptionWithHTML: (
+            <>
+                <p><Translate>kvipp-role-section.right.description</Translate></p>
+            </>
+        ),
+        buttonLabel: <Translate>kvipp-role-section.right.button</Translate>,
+        buttonLink: "/kvipp/2",
+        buttonIcon: true
+    }
+}
+
+const kvippGetStartedKregSectionData = {
+    leftSection: {
+        titleWithHTML: (
+            <>
+                <Translate>kvipp-get-started.title1</Translate>
+            </>
+        ),
+        descriptionWithHTML: (
+            <>
+                <p><Translate>kvipp-get-started.arg1</Translate></p>
+            </>
+        ),
+        buttonLabel: <Translate>general.readmore</Translate>,
+        buttonLink: "docs/Kvipp/get_started",
+        buttonIcon: false
+    },
+    rightSection: {
+        titleWithHTML: (
+            <>
+                <Translate>kvipp-kreg.title1</Translate>
+            </>
+        ),
+        descriptionWithHTML: (
+            <>
+                <p><Translate>kvipp-kreg.arg1</Translate></p>
+                <div className="integration-benefits">
+                    <div className="benefit-item">
+                        <span className="benefit-icon">✓</span>
+                        <span><Translate>kvipp-kreg.point1</Translate></span>
+                    </div>
+                    <div className="benefit-item">
+                        <span className="benefit-icon">✓</span>
+                        <span><Translate>kvipp-kreg.point2</Translate></span>
+                    </div>
+                    <div className="benefit-item">
+                        <span className="benefit-icon">✓</span>
+                        <span><Translate>kvipp-kreg.point3</Translate></span>
+                    </div>
+                </div>
+            </>
+        ),
+        buttonLabel: <Translate>read-more-and-order</Translate>,
+        buttonLink: "/bestill-kreg-integrasjon",
+        buttonIcon: true
+    }
+}
+
 const CompetenceRecords = {
     competenceBannerData,
     kvippBenefitsData,
     kvippGetStartedData,
     kvippKregData,
     bedriftbenefitsData,
+    kvippRoleSectionData,
+    kvippGetStartedKregSectionData,
 }
 
 export default CompetenceRecords;

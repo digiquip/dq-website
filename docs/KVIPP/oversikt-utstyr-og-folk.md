@@ -1,6 +1,6 @@
 ---
 title: "Oversikt utstyr og folk"
-sidebar_position: 6
+sidebar_position: 8
 ---
 
 # Oversikt utstyr og folk

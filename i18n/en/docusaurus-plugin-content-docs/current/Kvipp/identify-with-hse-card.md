@@ -1,9 +1,11 @@
 ---
-title: "Identification with HSE card"
-sidebar_position: 2
+title: "Identify person"
+sidebar_position: 4
 ---
 
-# Identification with HSE card
+import identifisering from '/img/kvipp-docs-people/identifisering.png';
+
+# Identify person
 
 Instead of logging in, we use HSE cards and other ID (driving licence, passport) for identification. With this, it is **not** necessary to add users or create accounts to use Kvipp.
 
@@ -20,6 +22,10 @@ Don't have an HSE card? Alternatives to the HSE card are driving licence, passpo
 
 When you want to use driving licence and passport: Use the image button and take a picture of the card. You must include first name, surname and date of birth.
 
+<div style={{textAlign: 'center', margin: '1rem 0', display: 'flex', justifyContent: 'center'}}>
+  <img src={identifisering} style={{maxWidth: '450px', width: '100%', display: 'block', margin: '0 auto'}} />
+</div>
+
 ## Is it problematic that anyone can scan the HSE card?
 No.
 
@@ -33,3 +39,9 @@ With these guidelines from Arbeidstilsynet, it is clear that HSE cards must not 
 No.
 
 Everyone who has HSE cards, driving licences and passports has a responsibility to take care of these cards and who gets access. As with, for example, driving licences, it is possible to check others' competence via Kvipp.
+
+## Camera trouble?
+
+**Allow camera.** To identify both you and the equipment, the solution uses the camera. See browser settings.
+
+**Camera:** Kvipp tries to find the best camera on the phone. If not, test different cameras. Use the camera that gives the clearest image. Kvipp remembers the choice for next time.

@@ -467,18 +467,6 @@
   "message": "Kvipp is available whenever and wherever you need it, whether you're checking or completing training:",
   "description": "Kvipp section two, arg 1"
 },
-"kvipp-get-started.point1": {
-"message": "Go to the kvipp.it website",
-"description": "Kvipp section two, point 1"
-},
-"kvipp-get-started.point2": {
-  "message": "Scan the equipment's identifier (QR code/NFC tag) or use artificial intelligence to recognise the equipment",
-  "description": "Kvipp section two, point 2"
-},
-"kvipp-get-started.point3": {
-  "message": "Identify the person using their HSE card or driving licence. Scan the QR code on the HSE card or take a picture of the driving licence and let artificial intelligence do the work",
-  "description": "Kvipp section two, point 3"
-},
 "kvipp-kreg.title1": {
     "message": "Transfer training to Kompetanseregisteret (K-REG)",
     "description": "Kvipp K-REG integration section title"
@@ -523,53 +511,33 @@
   "message": "Overview and gap analyses in real time. Get a continuous overview of who has or lacks training",
   "description": "business benefits point 3"
 },
-"sann.banner.title1": {
-  "message": "Sånn is a super simple solution for",
-  "description": "The title of the Sånn page part one"
+"kvipp-role-section.left.title": {
+  "message": "As an employer",
+  "description": "Title for the left section in the two-column role selection"
 },
-"sann.banner.title2": {
-  "message": "documenting and managing",
-  "description": "The title of the Sånn page part two"
+"kvipp-role-section.left.description": {
+  "message": "As an employer, you are responsible for ensuring that employees have the necessary training in the use of work equipment. With Kvipp, you can easily document and follow up on equipment-specific training for your employees.",
+  "description": "Description for the left section (employer)"
 },
-"sann.benefits.title1": {
-  "message": "Get control with",
-  "description": "The title of the first section on the Sånn page"
+"kvipp-role-section.left.button": {
+  "message": "Read more for employers",
+  "description": "Button label for employer section"
 },
-"sann.benefits.title2": {
-  "message": "Sånn",
-  "description": "The second title of the first section on the Sånn page"
+"kvipp-role-section.right.title": {
+  "message": "As a rental company",
+  "description": "Title for the right section in the two-column role selection"
 },
-"sann.benefits.arg1": {
-  "message": "With Sånn you can easily document and manage your business.",
-  "description": "The first argument of the first Sånn section"
+"kvipp-role-section.right.description": {
+  "message": "As a rental company, you can offer equipment-specific training as a service. With Kvipp, you can easily provide training to customers and document that training has been given.",
+  "description": "Description for the right section (rental)"
 },
-"sann.benefits.arg2": {
-  "message": "Sånn can be used anytime, anywhere.",
-  "description": "The second argument of the first Sånn section"
+"kvipp-role-section.right.button": {
+  "message": "Read more for rental companies",
+  "description": "Button label for rental section"
 },
-"sann.benefits.arg3": {
-  "message": "All you need is a phone and internet access.",
-  "description": "The third argument of the first Sånn section"
-},
-"sann.get-started.title1": {
-  "message": "How to get started?",
-  "description": "Sånn section two, title"
-},
-"sann.get-started.arg1": {
-  "message": "Sånn is available whenever and wherever you need it:",
-  "description": "Sånn section two, arg 1"
-},
-"sann.get-started.point1": {
-  "message": "Go to the website",
-  "description": "Sånn section two, point 1"
-},
-"sann.get-started.point2": {
-  "message": "Get started with documentation",
-  "description": "Sånn section two, point 2"
-},
-"sann.get-started.point3": {
-  "message": "Manage and follow up",
-  "description": "Sånn section two, point 3"
+"kvipp-role-section.heading": {
+  "message": "Solutions",
+  "description": "Heading above the two-column role selection cards"
 },
 "sann.coming-soon": {
   "message": "More info coming soon",
@@ -1315,5 +1283,285 @@
 "contact.form.description": {
   "message": "Unsure who you want to talk to or do you have a case that should go to support? See the contact information below or fill out the form.",
   "description": "Contact form section description"
+},
+"kvipp.employer.banner.title1": {
+  "message": "Training in the use of",
+  "description": "Kvipp employer page banner title part 1"
+},
+"kvipp.employer.banner.title2": {
+  "message": "machinery and tools",
+  "description": "Kvipp employer page banner title part 2"
+},
+"kvipp.employer.background.title": {
+  "message": "For safe and correct use",
+  "description": "Kvipp employer background section title"
+},
+"kvipp.employer.background.description": {
+  "message": "Those who will use machinery and tools must be familiar with the equipment and know how to use it correctly. Training should include, among other things:",
+  "description": "Kvipp employer background section description"
+},
+"kvipp.employer.background.item1": {
+  "message": "Operation",
+  "description": "Kvipp employer background item 1"
+},
+"kvipp.employer.background.item2": {
+  "message": "Safety equipment",
+  "description": "Kvipp employer background item 2"
+},
+"kvipp.employer.background.item3": {
+  "message": "Area of use",
+  "description": "Kvipp employer background item 3"
+},
+"kvipp.employer.background.item4": {
+  "message": "Functionality",
+  "description": "Kvipp employer background item 4"
+},
+"kvipp.employer.background.item5": {
+  "message": "Personal protective equipment",
+  "description": "Kvipp employer background item 5"
+},
+"kvipp.employer.background.item6": {
+  "message": "Daily inspection",
+  "description": "Kvipp employer background item 6"
+},
+"kvipp.employer.background.documentation.prefix": {
+  "message": "and this must be documented (see",
+  "description": "Kvipp employer background documentation prefix"
+},
+"kvipp.employer.background.documentation.link": {
+  "message": "regulations on the execution of work",
+  "description": "Kvipp employer background documentation link"
+},
+"kvipp.employer.arbeidstilsynet.title": {
+  "message": "What does the Norwegian Labour Inspection Authority require?",
+  "description": "Kvipp employer Arbeidstilsynet section title"
+},
+"kvipp.employer.arbeidstilsynet.requirement1": {
+  "message": "Documentation showing what requirements are set for persons who can use work equipment that may pose a particular risk of injury to life or health.",
+  "description": "Kvipp employer Arbeidstilsynet requirement 1"
+},
+"kvipp.employer.arbeidstilsynet.and": {
+  "message": "and",
+  "description": "Kvipp employer Arbeidstilsynet and"
+},
+"kvipp.employer.arbeidstilsynet.requirement2": {
+  "message": "Documentation showing that employees have undergone training on the specific work equipment they are assigned to use.",
+  "description": "Kvipp employer Arbeidstilsynet requirement 2"
+},
+"kvipp.employer.arbeidstilsynet.goodToGo": {
+  "message": "And if you have this in place, you're good to go.",
+  "description": "Kvipp employer Arbeidstilsynet good to go"
+},
+"kvipp.employer.solutions.title": {
+  "message": "Choose the solution that suits you",
+  "description": "Kvipp employer solutions intro title"
+},
+"kvipp.employer.free.title": {
+  "message": "Equipment-specific training occasionally",
+  "description": "Kvipp employer free tier title"
+},
+"kvipp.employer.free.description": {
+  "message": "Use Kvipp completely free of charge! All you need is a mobile phone and an HSE card (or other ID).",
+  "description": "Kvipp employer free tier description"
+},
+"kvipp.employer.free.item1": {
+  "message": "Go to the website kvipp.it",
+  "description": "Kvipp employer free tier item 1"
+},
+"kvipp.employer.free.item2": {
+  "message": "Identify person with HSE card or driver's license. Scan the QR code on the HSE card or take a picture of the driver's license and let artificial intelligence do the job",
+  "description": "Kvipp employer free tier item 2"
+},
+"kvipp.employer.free.item3": {
+  "message": "Scan identifier (QR code/NFC tag) or use artificial intelligence to recognize the equipment",
+  "description": "Kvipp employer free tier item 3"
+},
+"kvipp.employer.free.price": {
+  "message": "Price: Free",
+  "description": "Kvipp employer free tier price"
+},
+"kvipp.employer.plus.title": {
+  "message": "Only equipment-specific training",
+  "description": "Kvipp employer plus tier title"
+},
+"kvipp.employer.plus.description": {
+  "message": "You have control over most things, but not equipment-specific training? Then you can use Kvipp and the simplest package.",
+  "description": "Kvipp employer plus tier description"
+},
+"kvipp.employer.plus.item1": {
+  "message": "Employees are automatically and securely added to Kvipp Bedrift via the Norwegian Labour Inspection Authority's HSE card API",
+  "description": "Kvipp employer plus tier item 1"
+},
+"kvipp.employer.plus.item2": {
+  "message": "Equipment and documentation are automatically registered after training is completed",
+  "description": "Kvipp employer plus tier item 2"
+},
+"kvipp.employer.plus.item3": {
+  "message": "Overview and gap analyses in real time. Get ongoing overview of who has or lacks training",
+  "description": "Kvipp employer plus tier item 3"
+},
+"kvipp.employer.plus.price": {
+  "message": "Price: From 1390,- per month",
+  "description": "Kvipp employer plus tier price"
+},
+"kvipp.employer.pro.title": {
+  "message": "Documented and equipment-specific training",
+  "description": "Kvipp employer pro tier title"
+},
+"kvipp.employer.pro.description": {
+  "message": "End-to-end control of training on machinery and tools? You can use Kvipp to solve documentation of the entire process from categories to completed training, both documented safety and equipment-specific training.",
+  "description": "Kvipp employer pro tier description"
+},
+"kvipp.employer.pro.controlTitle": {
+  "message": "Control from A to Z:",
+  "description": "Kvipp employer pro tier control title"
+},
+"kvipp.employer.pro.item1": {
+  "message": "Categorization, with or without artificial intelligence",
+  "description": "Kvipp employer pro tier item 1"
+},
+"kvipp.employer.pro.item2": {
+  "message": "Risk assessment and measures",
+  "description": "Kvipp employer pro tier item 2"
+},
+"kvipp.employer.pro.item3": {
+  "message": "Assessment of the need for equipment-specific training",
+  "description": "Kvipp employer pro tier item 3"
+},
+"kvipp.employer.pro.item4": {
+  "message": "Requirements for training before use of machinery and tools",
+  "description": "Kvipp employer pro tier item 4"
+},
+"kvipp.employer.pro.item5": {
+  "message": "Conduct and document safety training",
+  "description": "Kvipp employer pro tier item 5"
+},
+"kvipp.employer.pro.item6": {
+  "message": "The system ensures that those concerned automatically get precautions and training requirements in Kvipp",
+  "description": "Kvipp employer pro tier item 6"
+},
+"kvipp.employer.pro.price": {
+  "message": "Price: From 2490,- per month",
+  "description": "Kvipp employer pro tier price"
+},
+"kvipp.employer.integrations.title": {
+  "message": "Competence Registry (K-REG)",
+  "description": "Kvipp employer integrations title"
+},
+"kvipp.employer.integrations.description": {
+  "message": "Equipment-specific training can be uploaded directly to K-REG, either as an add-on or standalone. K-REG also shares competence with HMSREG.",
+  "description": "Kvipp employer integrations description"
+},
+"kvipp.employer.integrations.benefit1": {
+  "message": "Visible in HMSREG via the Competence Registry",
+  "description": "Kvipp employer integrations benefit 1"
+},
+"kvipp.employer.integrations.benefit2": {
+  "message": "No manual data registration required",
+  "description": "Kvipp employer integrations benefit 2"
+},
+"kvipp.employer.integrations.benefit3": {
+  "message": "Ongoing documentation of equipment-specific training",
+  "description": "Kvipp employer integrations benefit 3"
+},
+"kvipp.employer.integrations.note": {
+  "message": "Only practical training given by persons with the instructor role is transferred.",
+  "description": "Kvipp employer integrations note"
+},
+"kvipp.employer.documentation.note.prefix": {
+  "message": "More details can be read about under",
+  "description": "Kvipp employer documentation note prefix"
+},
+"kvipp.employer.documentation.note.link": {
+  "message": "documentation",
+  "description": "Kvipp employer documentation note link"
+},
+"kvipp.rental.banner.title1": {
+  "message": "Training as a service,",
+  "description": "Kvipp rental page banner title part 1"
+},
+"kvipp.rental.banner.title2": {
+  "message": "for rental companies and suppliers",
+  "description": "Kvipp rental page banner title part 2"
+},
+"kvipp.rental.background.title": {
+  "message": "Training for customers",
+  "description": "Kvipp rental background section title"
+},
+"kvipp.rental.background.description1": {
+  "message": "As a rental company or supplier, you can offer equipment-specific training and document the training with Kvipp, regardless of whether the customer is a Kvipp customer. See the section below on how to find the training certificate.",
+  "description": "Kvipp rental background description 1"
+},
+"kvipp.rental.background.description2": {
+  "message": "As a rental company for machinery and equipment, the rental company is responsible for ensuring that the equipment is in order, but it is always the employer who has the ultimate responsibility for training.",
+  "description": "Kvipp rental background description 2"
+},
+"kvipp.rental.background.remember": {
+  "message": "Remember:",
+  "description": "Kvipp rental background remember"
+},
+"kvipp.rental.background.rememberText": {
+  "message": "As a rental company, you are also an employer for your own employees who use machinery and equipment.",
+  "description": "Kvipp rental background remember text"
+},
+"kvipp.rental.background.readMore": {
+  "message": "Read more",
+  "description": "Kvipp rental background read more"
+},
+"kvipp.rental.howto.title": {
+  "message": "How to provide training",
+  "description": "Kvipp rental howto section title"
+},
+"kvipp.rental.howto.goToWebsite": {
+  "message": "Go to the website",
+  "description": "Kvipp rental howto go to website"
+},
+"kvipp.rental.howto.item1": {
+  "message": "Identify yourself and the equipment",
+  "description": "Kvipp rental howto item 1"
+},
+"kvipp.rental.howto.item2": {
+  "message": "Select \"provide training\" and go through the checklist",
+  "description": "Kvipp rental howto item 2"
+},
+"kvipp.rental.howto.note": {
+  "message": "NB: You must register your own competence before you get the option \"provide training\".",
+  "description": "Kvipp rental howto note"
+},
+"kvipp.rental.howto.item3": {
+  "message": "Add the participants. They need an HSE card or driver's license/passport. There is no upper limit for the number of participants.",
+  "description": "Kvipp rental howto item 3"
+},
+"kvipp.rental.kvippBedrift.title": {
+  "message": "Training others on behalf of the company",
+  "description": "Kvipp rental kvipp bedrift section title"
+},
+"kvipp.rental.kvippBedrift.description": {
+  "message": "With Kvipp, you get a complete overview of who you have given training to. Under archive and training, all training given by instructors is stored. So you can:",
+  "description": "Kvipp rental kvipp bedrift description"
+},
+"kvipp.rental.kvippBedrift.item1": {
+  "message": "Overview of who has given and received",
+  "description": "Kvipp rental kvipp bedrift item 1"
+},
+"kvipp.rental.kvippBedrift.item2": {
+  "message": "Resend documentation if needed",
+  "description": "Kvipp rental kvipp bedrift item 2"
+},
+"kvipp.rental.findCertificate.title": {
+  "message": "Here the recipient finds the training certificate",
+  "description": "Kvipp rental find certificate section title"
+},
+"kvipp.rental.findCertificate.item1": {
+  "message": "Go to the website and identify yourself with an HSE card. The certificate can be downloaded or sent by email.",
+  "description": "Kvipp rental find certificate item 1"
+},
+"kvipp.rental.findCertificate.item2": {
+  "message": "Documentation available in Kvipp Bedrift.",
+  "description": "Kvipp rental find certificate item 2"
+},
+"kvipp.rental.findCertificate.item3": {
+  "message": "Documentation available in K-REG (and HMSREG).",
+  "description": "Kvipp rental find certificate item 3"
 }
 }
