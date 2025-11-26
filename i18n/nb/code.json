@@ -1384,11 +1384,11 @@
   "description": "Kvipp employer free tier price"
 },
 "kvipp.employer.plus.title": {
-  "message": "Kun utstyrsspesifikk opplæring",
+  "message": "Kontroll på utstyrsspesifikk opplæring",
   "description": "Kvipp employer plus tier title"
 },
 "kvipp.employer.plus.description": {
-  "message": "Du har kontroll på det meste, men ikke utstyrsspesifikk opplæring? Da kan du benytte deg av Kvipp og den enkleste pakken.",
+  "message": "Du har kontroll på det meste, men ikke opplæringer på spesifikke merker og modeller? Da kan du benytte deg av Kvipp og den enkleste pakken.",
   "description": "Kvipp employer plus tier description"
 },
 "kvipp.employer.plus.item1": {
@@ -1412,7 +1412,7 @@
   "description": "Kvipp employer pro tier title"
 },
 "kvipp.employer.pro.description": {
-  "message": "Ende til ende kontroll på opplæring på maskiner og verktøy? Du kan bruke Kvipp til å løse dokumentasjon av hele prosessen fra kategorier til fullført opplæring, både dokumentert sikkerhets- og utstyrsspesifikk opplæring.",
+  "message": "Ende til ende kontroll på opplæring på maskiner og verktøy? Du kan bruke Kvipp til å løse dokumentasjon av hele prosessen fra kategorier til fullført opplæring. Med Kvipp kan du dokumentere både dokumentert sikkerhets- og utstyrsspesifikk opplæring samtidig.",
   "description": "Kvipp employer pro tier description"
 },
 "kvipp.employer.pro.controlTitle": {
@@ -1424,7 +1424,7 @@
   "description": "Kvipp employer pro tier item 1"
 },
 "kvipp.employer.pro.item2": {
-  "message": "Risikovurdering og tiltak",
+  "message": "Risikovurdering og tiltak per utstyrskategori",
   "description": "Kvipp employer pro tier item 2"
 },
 "kvipp.employer.pro.item3": {
@@ -1436,11 +1436,11 @@
   "description": "Kvipp employer pro tier item 4"
 },
 "kvipp.employer.pro.item5": {
-  "message": "Gjennomføre og dokumentere sikkerhetsopplæring",
+  "message": "Gjennomføring og dokumentasjon av opplæring",
   "description": "Kvipp employer pro tier item 5"
 },
 "kvipp.employer.pro.item6": {
-  "message": "Systemet sørger for at de det gjelder automatisk får opp forholdsregler og opplæringskrav i Kvipp",
+  "message": "I Kvipp vises forholdsregler og opplæringskrav automatisk for de det gjelder",
   "description": "Kvipp employer pro tier item 6"
 },
 "kvipp.employer.pro.price": {

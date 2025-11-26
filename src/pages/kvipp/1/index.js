@@ -44,6 +44,40 @@ const employerListStyles = `
     align-self: center !important;
     order: -1 !important;
   }
+  .kvipp-tier-badge {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 999px !important;
+    font-size: 0.62rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.04em !important;
+    padding: 0.05rem 0.85rem !important;
+    margin: 0 0 0.32rem 0 !important;
+    text-transform: uppercase !important;
+    white-space: nowrap !important;
+    border: none !important;
+    background-color: #FFEFE7 !important;
+    color: #FF7A3C !important;
+    gap: 0.35rem !important;
+  }
+  .kvipp-tier-badge__divider {
+    opacity: 0.65 !important;
+  }
+  .kvipp-tier-badge__text {
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+  .kvipp-tier-badge__plan {
+    text-decoration: underline !important;
+    text-decoration-thickness: 2px !important;
+    text-underline-offset: 0.08rem !important;
+  }
+  .kvipp-tier-heading {
+    display: inline-flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
 `;
 
 // Banner data for employer page - will be set in component
@@ -230,7 +264,16 @@ export default function EmployerPage() {
   
   const freeTier = {
         className: "kvipp-free-tier-section",
-        titleWithHTML: <Translate id="kvipp.employer.free.title" description="Free tier title">Utstyrsspesifikk opplæring en gang i blant</Translate>,
+        titleWithHTML: (
+          <span className="kvipp-tier-heading">
+            <span className="kvipp-tier-badge">
+              <span className="kvipp-tier-badge__text">Kvipp</span>
+              <span className="kvipp-tier-badge__divider">|</span>
+              <span className="kvipp-tier-badge__text kvipp-tier-badge__plan">Gratis</span>
+            </span>
+            <Translate id="kvipp.employer.free.title" description="Free tier title">Utstyrsspesifikk opplæring en gang i blant</Translate>
+          </span>
+        ),
         descriptionWithHTML: (
           <>
             <p><Translate id="kvipp.employer.free.description" description="Free tier description">Bruk Kvipp helt uforpliktende, og gratis! Det eneste du trenger er mobil og HMS-kort (eventuell annen ID).</Translate></p>
@@ -249,7 +292,16 @@ export default function EmployerPage() {
   
   const plusTier = {
         className: "kvipp-plus-tier-section",
-        titleWithHTML: <Translate id="kvipp.employer.plus.title" description="Plus tier title">Kun utstyrsspesifikk opplæring</Translate>,
+        titleWithHTML: (
+          <span className="kvipp-tier-heading">
+            <span className="kvipp-tier-badge">
+              <span className="kvipp-tier-badge__text">Kvipp</span>
+              <span className="kvipp-tier-badge__divider">|</span>
+              <span className="kvipp-tier-badge__text kvipp-tier-badge__plan">Pluss</span>
+            </span>
+            <Translate id="kvipp.employer.plus.title" description="Plus tier title">Kontroll på utstyrsspesifikk opplæring</Translate>
+          </span>
+        ),
         descriptionWithHTML: (
           <>
             <p><Translate id="kvipp.employer.plus.description" description="Plus tier description">Du har kontroll på det meste, men ikke utstyrsspesifikk opplæring? Da kan du benytte deg av Kvipp og den enkleste pakken.</Translate></p>
@@ -268,7 +320,16 @@ export default function EmployerPage() {
   
   const proTier = {
         className: "kvipp-pro-tier-section",
-        titleWithHTML: <Translate id="kvipp.employer.pro.title" description="Pro tier title">Dokumentert og utstyrsspesifikk opplæring</Translate>,
+        titleWithHTML: (
+          <span className="kvipp-tier-heading">
+            <span className="kvipp-tier-badge">
+              <span className="kvipp-tier-badge__text">Kvipp</span>
+              <span className="kvipp-tier-badge__divider">|</span>
+              <span className="kvipp-tier-badge__text kvipp-tier-badge__plan">Pro</span>
+            </span>
+            <Translate id="kvipp.employer.pro.title" description="Pro tier title">Dokumentert og utstyrsspesifikk opplæring</Translate>
+          </span>
+        ),
         descriptionWithHTML: (
           <>
             <p><Translate id="kvipp.employer.pro.description" description="Pro tier description">Ende til ende kontroll på opplæring på maskiner og verktøy? Du kan bruke Kvipp til å løse dokumentasjon av hele prosessen fra kategorier til fullført opplæring, både dokumentert sikkerhets- og utstyrsspesifikk opplæring.</Translate></p>
