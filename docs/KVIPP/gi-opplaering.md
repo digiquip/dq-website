@@ -48,11 +48,26 @@ For å gi dokumentert sikkerhetsopplæring må kategorien være risikovurdert og
 Legg til de personene som skal være instruktører. 
 
 ## Slik gir du dokumentert sikkerhetsopplæring
-Identifiser deg og skann et utstyr som er lagt til i kategorien. Når du velger en utstyrstype (merke og modell) som er lagt til i en risikovurdert kategori, får du valget "gi dokumentert sikkerhetsopplæring". Denne knappen finner du nederst på siden etter at du har identifisert deg selv og utstyret som skal brukes under opplæringen.
 
-Gå gjennom den teoretiske delen og sjekkliste, og legg til deltakerne til slutt.
+#### Steg for å komme i gang med dokumentert sikkerhetsopplæring
+**Forarbeid:**
+1.Definer kategorier.
+2.Risikovurder kategoriene.
+3.Vurder om det er nødvendig med ny utstyrsspesifikk opplæring for alle merker og modeller (vurdering av likhet). Dette gjør du som en del av risikovurderingen. 
+4.Legg til minst en utstyrstype per kategori. Du starter opplæringen fra denne utstyrstypen.
 
-Når opplæringen er gjennomført, får deltakerne to opplæringsbevis. For eksempel "Vinkelsliper" og "Bosch EXWS30-180B".
+**Styr hvem som kan gi dokumentert sikkerhetsopplæring:** Gå til "myndigheter" og tildel rollen "Instruktør, dokumentert opplæring". Kun personer med denne rollen kan gi dokumentert sikkerhetsopplæring.
+
+**Gjennomfør:**
+Identifiser deg og skann et utstyr som er lagt til i kategorien. 
+
+Når du velger en utstyrstype (merke og modell) som er lagt til i en risikovurdert kategori, får du valget "gi dokumentert sikkerhetsopplæring". Dette valget finner du bak knappen "gi opplæring". 
+
+Sesjonen er todelt: Først gjennomfører du den dokumenterte og deretter utstyrsspesifikk. Veiviseren tar deg gjennom dette på en lett måte. 
+
+Legg til deltakerne til slutt. 
+
+Når dere deltakerne er lagt til, blir det generert to opplæringsbevis per deltaker, et for dokumentert og et for utstyrsspesifikk. For eksempel "Vinkelsliper" og "Bosch EXWS30-180B".
 
 <div style={{textAlign: 'center', margin: '1rem 0'}}>
   <img src={gidokopplaering} style={{width: '100%', maxWidth: '200px'}} />

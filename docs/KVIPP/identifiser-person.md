@@ -4,10 +4,11 @@ sidebar_position: 4
 ---
 
 import identifisering from '/img/kvipp-docs-people/identifisering.png';
+import VippsQR from '/img/VippsQR.png';
 
 # Identifiser person
 
-I stedet for innlogging, bruker vi HMS-kort og annen ID (førerkort, pass) som identifisering. Med dette er det **ikke** nødvendig å legge til brukere eller opprette konto for å bruke Kvipp.
+I stedet for innlogging, bruker vi HMS-kort, Vipps og annen ID (førerkort, pass) som identifisering. Med dette er det **ikke** nødvendig å legge til brukere eller opprette konto for å bruke Kvipp.
 
 ## HMS-kort og QR-kode
 Når du skal bruke HMS-kort: Bruk knappen QR-kode og skann QR-koden på HMS-kortet. Systemet finner automatisk navn og arbeidsgiver, og slik blir opplæringen automatisk koblet til både riktig person og virksomhet. Systemet sørger for at alt blir dokumentert og systematisert.
@@ -18,12 +19,23 @@ Med tilgang til Arbeidstilsynets API henter vi fornavn, etternavn, fødselsdato 
 "QR-koden på kortet viser den statusen som er registrert i de offentlige registrene idet koden blir skannet." Les mer om dette her: https://www.arbeidstilsynet.no/hms/hms-kort/ 
 
 ## Andre identitetskort 
-Har dere ikke HMS-kort? Alternativ til HMS-kort er førerkort, pass eller eventuelt Kvipp ID. 
+Har dere ikke HMS-kort? Alternativ til HMS-kort er Vipps, førerkort, pass eller eventuelt Kvipp ID. 
 
 Når du skal bruke førerkort og pass: Bruk knappen bilde og ta bilde av kortet. Du må få med fornavn, etternavn og fødselsdato. 
 
 <div style={{textAlign: 'center', margin: '1rem 0', display: 'flex', justifyContent: 'center'}}>
   <img src={identifisering} style={{maxWidth: '450px', width: '100%', display: 'block', margin: '0 auto'}} />
+</div>
+
+## Vipps
+For å logge inn i Kvipp (kvipp.it), du finner alternativet logg inn med Vipps nederst på siden. Du kan velge å la browseren huske deg slik at du slipper å identifisere deg hver gang. 
+
+For å legge til deltakere i en sesjon 
+Første gangen en deltaker bruker sin Vipps QR-kode må vedkommende tillate deling av data (navn og fødselsdato). Deltakeren lukker QR-koden og bekrefter.
+
+Personlig Vipps QR-kode: 
+<div style={{textAlign: 'center', margin: '1rem 0', display: 'flex', justifyContent: 'center'}}>
+  <img src={VippsQR} style={{maxWidth: '450px', width: '100%', display: 'block', margin: '0 auto'}} />
 </div>
 
 ## Er det problematisk at hvem som helst kan skanne HMS-kortet?

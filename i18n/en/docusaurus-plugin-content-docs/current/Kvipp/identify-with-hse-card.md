@@ -4,10 +4,11 @@ sidebar_position: 4
 ---
 
 import identifisering from '/img/kvipp-docs-people/identifisering.png';
+import VippsQR from '/img/VippsQR.png';
 
 # Identify person
 
-Instead of logging in, we use HSE cards and other ID (driving licence, passport) for identification. With this, it is **not** necessary to add users or create accounts to use Kvipp.
+Instead of logging in, we use HSE cards, Vipps and other ID (driving licence, passport) for identification. With this, it is **not** necessary to add users or create accounts to use Kvipp.
 
 ## HSE card and QR code
 When you want to use an HSE card: Use the QR code button and scan the QR code on the HSE card. The system automatically finds name and employer, and in this way the training is automatically linked to both the correct person and company. The system ensures that everything is documented and systematized.
@@ -18,12 +19,23 @@ With access to Arbeidstilsynet's API, we retrieve first name, surname, date of b
 "The QR code on the card shows the status that is registered in the public registers when the code is scanned." Read more about this here: https://www.arbeidstilsynet.no/hms/hms-kort/
 
 ## Other identity cards
-Don't have an HSE card? Alternatives to the HSE card are driving licence, passport or possibly Kvipp ID.
+Don't have an HSE card? Alternatives to the HSE card are Vipps, driving licence, passport or possibly Kvipp ID.
 
 When you want to use driving licence and passport: Use the image button and take a picture of the card. You must include first name, surname and date of birth.
 
 <div style={{textAlign: 'center', margin: '1rem 0', display: 'flex', justifyContent: 'center'}}>
   <img src={identifisering} style={{maxWidth: '450px', width: '100%', display: 'block', margin: '0 auto'}} />
+</div>
+
+## Vipps
+To log in to Kvipp (kvipp.it), you'll find the option to log in with Vipps at the bottom of the page. You can choose to let the browser remember you so you don't have to identify yourself every time. 
+
+To add participants to a session 
+The first time a participant uses their Vipps QR code, they must allow sharing of data (name and date of birth). The participant closes the QR code and confirms.
+
+Personal Vipps QR code: 
+<div style={{textAlign: 'center', margin: '1rem 0', display: 'flex', justifyContent: 'center'}}>
+  <img src={VippsQR} style={{maxWidth: '450px', width: '100%', display: 'block', margin: '0 auto'}} />
 </div>
 
 ## Is it problematic that anyone can scan the HSE card?

@@ -1364,7 +1364,7 @@
   "description": "Kvipp employer free tier title"
 },
 "kvipp.employer.free.description": {
-  "message": "Bruk Kvipp helt uforpliktende, og gratis! Det eneste du trenger er mobil og HMS-kort (eventuell annen ID).",
+  "message": "Bruk Kvipp helt uforpliktende, og gratis! Det eneste du trenger er mobil og HMS-kort, Vipps eller førerkort/pass.",
   "description": "Kvipp employer free tier description"
 },
 "kvipp.employer.free.item1": {
@@ -1372,7 +1372,7 @@
   "description": "Kvipp employer free tier item 1"
 },
 "kvipp.employer.free.item2": {
-  "message": "Identifiser person med HMS-kort eller førerkort. Skann QR-koden på HMS-kortet eller ta bilde av førerkort og la kunstig intelligens gjøre jobben",
+  "message": "Identifiser person med HMS-kort, Vipps eller førerkort. Skann QR-koden på HMS-kortet, Vipps QR-koden eller ta bilde av førerkort og la kunstig intelligens gjøre jobben",
   "description": "Kvipp employer free tier item 2"
 },
 "kvipp.employer.free.item3": {
