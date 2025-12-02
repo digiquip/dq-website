@@ -43,6 +43,7 @@ export default function IntegrationsGrid({ integrations }) {
             description={integration.description}
             points={integration.points}
             image={integration.image}
+            icon={integration.icon}
             link={integration.link}
             pricingModels={integration.pricingModels}
             note={integration.note}

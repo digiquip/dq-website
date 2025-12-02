@@ -15,9 +15,47 @@ const integrationsBannerData = {
 // New integrations data for expandable cards
 const integrationsCardsData = [
     {
+        id: 'hms-kort',
+        title: <Translate>integrations.cards.hmskort.title</Translate>,
+        description: <Translate>hmskort.integration.description</Translate>,
+        icon: "img/partner-logos/hms_kort_juni2022_web.jpg",
+        points: [
+            <Translate>integrations.cards.hmskort.point1</Translate>,
+            <Translate>integrations.cards.hmskort.point2</Translate>,
+            <Translate>integrations.cards.hmskort.point3</Translate>
+        ],
+        pricingModels: [
+            {
+                title: <Translate>integrations.cards.hmskort.pricing.title</Translate>,
+                description: <Translate>integrations.cards.hmskort.pricing.description</Translate>,
+                price: <Translate>integrations.cards.hmskort.pricing.price</Translate>
+            }
+        ]
+    },
+    {
+        id: 'vipps',
+        title: <Translate>integrations.cards.vipps.title</Translate>,
+        description: <Translate>vipps.integration.description</Translate>,
+        icon: "img/partner-logos/Vipps_Badge_logo.svg",
+        points: [
+            <Translate>integrations.cards.vipps.point1</Translate>,
+            <Translate>integrations.cards.vipps.point2</Translate>,
+            <Translate>integrations.cards.vipps.point3</Translate>
+        ],
+        image: "img/VippsQR.png",
+        pricingModels: [
+            {
+                title: <Translate>integrations.cards.vipps.pricing.title</Translate>,
+                description: <Translate>integrations.cards.vipps.pricing.description</Translate>,
+                price: <Translate>integrations.cards.vipps.pricing.price</Translate>
+            }
+        ]
+    },
+    {
         id: 'kompetanseregisteret',
         title: <Translate>integrations.cards.kompetanseregisteret.title</Translate>,
         description: <Translate>kreg.integration.description</Translate>,
+        icon: "img/partner-logos/SR.png",
         points: [
             <Translate>integrations.cards.kompetanseregisteret.point1</Translate>,
             <Translate>integrations.cards.kompetanseregisteret.point2</Translate>,
@@ -41,6 +79,7 @@ const integrationsCardsData = [
         id: 'onlet',
         title: <Translate>integrations.cards.onlet.title</Translate>,
         description: <Translate>onlet.integration.description</Translate>,
+        icon: "img/partner-logos/infobric-logo-dark-blue.svg",
         points: [
             <Translate>integrations.cards.onlet.point1</Translate>,
             <Translate>integrations.cards.onlet.point2</Translate>,
@@ -59,6 +98,7 @@ const integrationsCardsData = [
         id: 'digitool',
         title: <Translate>integrations.cards.digitool.title</Translate>,
         description: <Translate>digitool.integration.description</Translate>,
+        icon: "img/partner-logos/digitool.jpg",
         points: [
             <Translate>integrations.cards.digitool.point1</Translate>,
             <Translate>integrations.cards.digitool.point2</Translate>,
@@ -76,6 +116,7 @@ const integrationsCardsData = [
         id: 'maskinregisteret',
         title: <Translate>integrations.cards.maskinregisteret.title</Translate>,
         description: <Translate>maskinregisteret.integration.description</Translate>,
+        icon: "img/partner-logos/SR.png",
         points: [
             <Translate>integrations.cards.maskinregisteret.point1</Translate>,
             <Translate>integrations.cards.maskinregisteret.point2</Translate>

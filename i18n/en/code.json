@@ -1123,6 +1123,62 @@
   "message": "Contact us!",
   "description": "Skreddersydd pricing option price"
 },
+"integrations.cards.hmskort.title": {
+  "message": "HMS Card",
+  "description": "HMS-kort integration card title"
+},
+"integrations.cards.hmskort.point1": {
+  "message": "Automatic identification of persons via HMS card",
+  "description": "HMS-kort integration benefit 1"
+},
+"integrations.cards.hmskort.point2": {
+  "message": "Connection to company via the Arbeidstilsynet API",
+  "description": "HMS-kort integration benefit 2"
+},
+"integrations.cards.hmskort.point3": {
+  "message": "Correct documentation from the start with name, date of birth and company",
+  "description": "HMS-kort integration benefit 3"
+},
+"integrations.cards.hmskort.pricing.title": {
+  "message": "HSE Card Integration",
+  "description": "HMS-kort pricing option title"
+},
+"integrations.cards.hmskort.pricing.description": {
+  "message": "Automatic identification and connection via the HSE card",
+  "description": "HMS-kort pricing option description"
+},
+"integrations.cards.hmskort.pricing.price": {
+  "message": "This integration is included at no extra cost.",
+  "description": "HMS-kort pricing option price"
+},
+"integrations.cards.vipps.title": {
+  "message": "Vipps",
+  "description": "Vipps integration card title"
+},
+"integrations.cards.vipps.point1": {
+  "message": "Log in to kvipp.it with Vipps",
+  "description": "Vipps integration benefit 1"
+},
+"integrations.cards.vipps.point2": {
+  "message": "Add participants by scanning Vipps QR code",
+  "description": "Vipps integration benefit 2"
+},
+"integrations.cards.vipps.point3": {
+  "message": "Automatic identification after first approval",
+  "description": "Vipps integration benefit 3"
+},
+"integrations.cards.vipps.pricing.title": {
+  "message": "Vipps Integration",
+  "description": "Vipps pricing option title"
+},
+"integrations.cards.vipps.pricing.description": {
+  "message": "Easy identification and login via Vipps QR code",
+  "description": "Vipps pricing option description"
+},
+"integrations.cards.vipps.pricing.price": {
+  "message": "This integration is included at no extra cost.",
+  "description": "Vipps pricing option price"
+},
 "kreg.integration.how.title": {
   "message": "How to do it",
   "description": "How it works section title"
@@ -1251,6 +1307,14 @@
 "skreddersydd.integration.description": {
   "message": "Do you already have a system you want us to integrate with? Contact us and we'll find a solution.",
   "description": "Description of Skreddersydd integration"
+},
+"hmskort.integration.description": {
+  "message": "With HMS card integration, you can easily identify persons by scanning their HMS card. Via the Arbeidstilsynet API, Kvipp automatically retrieves the correct name, date of birth and company, ensuring correct documentation from the start.",
+  "description": "Description of HMS-kort integration"
+},
+"vipps.integration.description": {
+  "message": "Log in and identify yourself easily with Vipps QR code. You can log in to kvipp.it with Vipps, and add participants to sessions by scanning their Vipps QR code. The first time, the participant must approve sharing of name and date of birth.",
+  "description": "Description of Vipps integration"
 },
 "test-kvipp-button": {
   "message": "Test Kvipp",
