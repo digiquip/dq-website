@@ -1,11 +1,11 @@
 ---
 slug: sånn
-title: "Re-branding, fra Unifractal til Sånn"
+title: "Unifractal endrer navn Sånn"
 authors: [andreas]
 image: img/icon.png
 ---
 
-Med Unifractal produktet har det vært enkelt å lage, laste opp og dele digitalt innhold. Da Unifractal skulle inn DigiQuip-porteføljen, ble det naturlig å gjøre en re-branding. Vi ønsket et merkenavn som speiler hva produktet gjør i praksis, og landet på "Sånn".
+Med Unifractal produktet har det vært enkelt å lage, laste opp og dele digitalt innhold. Da Unifractal skulle inn DigiQuip-porteføljen, ble det naturlig med et navnebytte. Vi ønsket et merkenavn som speiler hva produktet gjør i praksis, og landet på "Sånn".
 
 <!-- truncate -->
 
@@ -32,6 +32,8 @@ Kanskje må du sjekke hvordan noe fungerer? Eller du skal for n-te gang vise noe
 
 <br/>
 
+Sånn, nå kan du det også!
+
 Sånn er ikke bygget for deg som trenger:
 - Avanserte læringssystemer med omfattende moduler og tester.
 - Komplekse lærings- og administrasjonsløsninger.
@@ -41,8 +43,13 @@ skal være!
 <br/>
 
 ## Kjent med Unifractal fra før? 
-Som bruker av løsningen vet du at fokus alltid har vært på å gjøre informasjon lett tilgjengelig. Nå skal vi også legge like mye kjærlighet inn i den delen av løsningen som går på å spille inn og redigere video. Målet er at det skal bli like enkelt å dele kunnskap og erfaringer som det er å lage en TikTok. Vi er sikre på at dette vil øke totalopplevelsen av appen betydelig og gi deg enda flere grunner til å fortsette å velge oss.
+Som bruker av løsningen vet du at fokus alltid har vært på å gjøre informasjon lett tilgjengelig. Nå skal vi også legge like mye kjærlighet inn i den delen av løsningen som går på å spille inn og redigere video. Målet er at det skal bli like enkelt å dele kunnskap og erfaringer som det er å lage en TikTok. Derfor har vi allerede startet arbeide med å integrere oss med img.ly (https://img.ly/). Vi er sikre på at dette vil øke totalopplevelsen av appen betydelig og gi deg enda flere grunner til å fortsette å velge oss.
 
 **Har du spørsmål? Kontakt Andreas Lydersen, CEO DigiQuip AS, på 975 99 799.**
 
-![Bilde](s-icon-dark-square.png)
+Sånn er tilgjengelig både som en applikasjon og via nettleser.
+https://app.sånn.com
+https://admin.sånn.com
+*Ta kontakt for mer informasjon og for å komme i gang!*
+
+![Bilde](det-og.png)
