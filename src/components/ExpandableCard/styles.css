@@ -21,6 +21,10 @@
 
 .card-header {
   margin-bottom: 15px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .card-title {
@@ -29,6 +33,31 @@
   font-weight: 700;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  flex: 1;
+  padding-right: 10px;
+}
+
+.card-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.card-icon-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Make SR.png icon larger */
+.card-icon-image[src*="SR.png"] {
+  transform: scale(1.5);
 }
 
 .card-preview {
@@ -607,6 +636,11 @@
     will-change: auto;
   }
   
+  .card-icon {
+    width: 55px;
+    height: 55px;
+  }
+  
   .card-preview-text {
     font-size: 0.9rem;
   }
@@ -667,6 +701,11 @@
     padding: 12px;
     /* Remove hover effects on mobile */
     transition: none;
+  }
+  
+  .card-icon {
+    width: 50px;
+    height: 50px;
   }
   
   .card-preview-text {

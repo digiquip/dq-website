@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import './styles.css';
 
-export default function ExpandableCard({ id, title, description, points, image, isExpanded, onToggle, link, pricingModels, note }) {
+export default function ExpandableCard({ id, title, description, points, image, icon, isExpanded, onToggle, link, pricingModels, note }) {
 
   // Helper function to safely get text content from React elements
   const getTextContent = (element) => {
@@ -60,6 +60,11 @@ export default function ExpandableCard({ id, title, description, points, image, 
       <div className="expandable-card" onClick={onToggle}>
         <div className="card-header">
           <h3 className="card-title">{title}</h3>
+          {icon && (
+            <div className="card-icon">
+              <img src={icon} alt="" className="card-icon-image" />
+            </div>
+          )}
         </div>
         
         <div className="card-preview">
