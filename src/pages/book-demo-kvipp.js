@@ -42,35 +42,42 @@ function BookDemoSection() {
   return (
     <section className={styles.bookDemoSection}>
       <div className='container'>
+        {/* Title section on top */}
+        <div className={styles.bookDemoHeroText}>
+          <h1 className={styles.bookDemoTitle}>
+            <Translate id="book-demo.title" description="Book demo page title">
+              Book demo av Kvipp
+            </Translate>
+          </h1>
+          <p className={styles.bookDemoSubtitle}>
+            <Translate id="book-demo.subtitle" description="Book demo page subtitle">
+              Se hvordan Kvipp kan gi deg full kontroll på dokumentasjon av opplæring fra a til å.
+            </Translate>
+          </p>
+        </div>
+
+        {/* Main content grid */}
         <div className={styles.bookDemoGrid}>
           <div className={styles.bookDemoContent}>
-            <div className={styles.bookDemoHero} style={{ backgroundImage: `url(${byggImage})` }}>
+            <div className={styles.bookDemoHeroImage} style={{ backgroundImage: `url(${byggImage})` }} role="img" aria-label="Byggeplass">
               <div className={styles.bookDemoOverlay}></div>
-              <div className={styles.bookDemoTextContent}>
-                <h1 className={styles.bookDemoTitle}>
-                  <Translate id="book-demo.title" description="Book demo page title">
-                    Book demo av Kvipp
-                  </Translate>
-                </h1>
-                <p className={styles.bookDemoSubtitle}>
-                  <Translate id="book-demo.subtitle" description="Book demo page subtitle">
-                    Se hvordan Kvipp kan gi deg full kontroll på dokumentasjon av opplæring fra a til å.
-                  </Translate>
-                </p>
-
-                <div className={styles.bookDemoBenefits}>
-                  <h3>
-                    <Translate id="book-demo.benefits.title" description="Benefits title">
-                      Demo av Kvipp
-                    </Translate>
-                  </h3>
-                  <p className={styles.bookDemoBenefitsText}>
-                    <Translate id="book-demo.benefits.text" description="Demo description text">
-                      Uforpliktende samtale og demonstrasjon av løsningen i praksis. Agendaen er typisk: Behovsavklaring, presentasjon og gjennomgang av selve produktet og tips til hvordan komme i gang. Til slutt avtaler vi veien videre.
-                    </Translate>
-                  </p>
-                </div>
-              </div>
+            </div>
+            <div className={styles.bookDemoBenefits}>
+              <h3>
+                <Translate id="book-demo.benefits.title" description="Benefits title">
+                  Demo
+                </Translate>
+              </h3>
+              <p className={styles.bookDemoBenefitsText}>
+                <Translate id="book-demo.benefits.text" description="Demo description text">
+                  Uforpliktende samtale og demonstrasjon av løsningen i praksis.
+                </Translate>
+              </p>
+              <p className={styles.bookDemoBenefitsText}>
+                <Translate id="book-demo.benefits.agenda" description="Demo agenda text">
+                  Agendaen er typisk: Behovsavklaring, presentasjon og gjennomgang av selve produktet og tips til hvordan komme i gang. Til slutt avtaler vi veien videre.
+                </Translate>
+              </p>
             </div>
           </div>
           
