@@ -1,0 +1,282 @@
+.bookDemoSection {
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: #112539;
+}
+
+.bookDemoGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: stretch;
+  min-height: 600px;
+}
+
+.bookDemoContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookDemoHero {
+  position: relative;
+  flex: 1;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-color: #112539;
+  min-height: 600px;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.bookDemoOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to top,
+    rgba(17, 37, 57, 0.95) 0%,
+    rgba(17, 37, 57, 0.7) 40%,
+    rgba(17, 37, 57, 0.3) 70%,
+    transparent 100%
+  );
+}
+
+.bookDemoTextContent {
+  position: relative;
+  z-index: 1;
+  padding: 3rem;
+  width: 100%;
+  color: white;
+}
+
+.bookDemoTitle {
+  font-family: 'Sansita', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bookDemoSubtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+}
+
+.bookDemoFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.bookDemoFeatureItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  background: rgba(240, 90, 9, 0.15);
+  border: 1px solid rgba(240, 90, 9, 0.3);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.bookDemoFeatureIcon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.bookDemoFeatureItem p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: white;
+}
+
+.bookDemoBenefits {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bookDemoBenefits h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.bookDemoBenefitsText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+}
+
+.bookDemoFormContainer {
+  display: flex;
+  align-items: stretch;
+}
+
+.bookDemoFormWrapper {
+  width: 100%;
+  background: white;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.bookDemoFormTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1a2744;
+}
+
+.bookDemoFormDescription {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.bookDemoFormEmbed {
+  flex: 1;
+  width: 100%;
+}
+
+.bookDemoFormEmbed iframe,
+.bookDemoFormEmbed > div {
+  width: 100% !important;
+  min-height: 500px;
+}
+
+.bookDemoShare {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.bookDemoShare .social-icons {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.bookDemoShare .social-icons a {
+  filter: brightness(0) invert(1);
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+.bookDemoShare .social-icons a:hover {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+.bookDemoShareButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 33px;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+  transition: opacity 0.5s, color 0.5s;
+}
+
+.bookDemoShareButton:hover {
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .bookDemoGrid {
+    gap: 2rem;
+  }
+  
+  .bookDemoTitle {
+    font-size: 2.5rem;
+  }
+  
+  .bookDemoSubtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .bookDemoGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .bookDemoHero {
+    min-height: 500px;
+  }
+  
+  .bookDemoTextContent {
+    padding: 2rem;
+  }
+  
+  .bookDemoTitle {
+    font-size: 2rem;
+  }
+  
+  .bookDemoSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .bookDemoFeatures {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .bookDemoFormWrapper {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .bookDemoSection {
+    padding: 2rem 0;
+  }
+  
+  .bookDemoHero {
+    min-height: 400px;
+  }
+  
+  .bookDemoTextContent {
+    padding: 1.5rem;
+  }
+  
+  .bookDemoTitle {
+    font-size: 1.75rem;
+  }
+  
+  .bookDemoSubtitle {
+    font-size: 1rem;
+  }
+  
+  .bookDemoFormWrapper {
+    padding: 1.5rem;
+  }
+  
+  .bookDemoFormTitle {
+    font-size: 1.75rem;
+  }
+}
+

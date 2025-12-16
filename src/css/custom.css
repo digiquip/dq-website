@@ -75,6 +75,70 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 
 /* font-face */
 
@@ -59180,6 +59244,70 @@ details > div:first-child {
   src: url('/static/fonts/Lato-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url('/static/fonts/Sansita-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
   font-display: swap;
 }
 
