@@ -10,6 +10,16 @@ import kvippForholdsregler from '/img/kvipp-docs-people/kvipp-forholdsregler.jpg
 
 Risikovurdering handler om å identifisere farer ved bruk av en utstyrstype, vurdere sannsynlighet og konsekvens, og iverksette tiltak for å redusere risiko til et akseptabelt nivå. Risikovurdering gjøres på kategorinivå.
 
+Konsekvens:
+Skala fra 1 - 5, der 1 er ufarlig og 5 er svært alvorlig. 
+1.Ufarlig: Ubetydelige personskader.
+5.Svært alvorlig: Kan resultere i dødsfall. 
+
+Sannsynlighet:
+Skala fra 1 - 5, der 1 er lite usannsynlig og 5 er svært sannsynlig. 
+1.Lite sannsynlig: Sjeldnere enn en gang per 10 år. 
+5.Svært sannsynlig: Mer enn 10 ganger i året.
+
 <img src={risiko} style={{width: '100%', maxWidth: '1200px'}} />
 
 ## Forholdsregler under bruk
