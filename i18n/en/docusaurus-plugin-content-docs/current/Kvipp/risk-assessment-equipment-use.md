@@ -10,6 +10,16 @@ import kvippForholdsregler from '/img/kvipp-docs-people/kvipp-forholdsregler.jpg
 
 Risk assessment is about identifying hazards when using an equipment type, assessing probability and consequence, and implementing measures to reduce risk to an acceptable level. Risk assessment is done at the category level.
 
+Consequence:
+Scale from 1 - 5, where 1 is harmless and 5 is very serious. 
+1.Harmless: Insignificant personal injuries.
+5.Very serious: May result in death. 
+
+Probability:
+Scale from 1 - 5, where 1 is unlikely and 5 is very likely. 
+1.Unlikely: Less frequent than once per 10 years. 
+5.Very likely: More than 10 times per year.
+
 <img src={risiko} style={{width: '100%', maxWidth: '1200px'}} />
 
 ## Precautions during use
@@ -22,12 +32,5 @@ In addition to clarifying training requirements, you can define which precaution
 ## Risk before and after
 When you have defined training requirements and precautions, you make a new assessment of risk. In this way, you get documented assumed risk before and after.
 
-For example: Before using a brush saw, training must be completed and documented.
-
-During use, protective clothing must be used. Protective clothing includes safety boots, safety trousers, helmet with mounted hearing protection and visor/safety glasses. You should wear a signal-colored jacket and carry a single-person pack/first aid kit. Before use, you should inspect the brush saw, be careful to check the blade. We also recommend that you park in such a way that you can get away relatively easily if something should happen.
-
-In practice: Create a category called brush saw, and list the precautions to be taken. Assess whether all types of brush saw are similar or different. Then give training in the use of brush saw.
-
-During the training, you discuss the precautions, and you make these available so that the list can be retrieved on a later occasion.
-
-Tip! Learning points may be wise to add to the list.
+For example: 
+Before using a brush saw, safety training must be completed and documented. During use, protective clothing must be used. Protective clothing includes safety boots, safety trousers, helmet with mounted hearing protection and visor/safety glasses. Before use, you should inspect the brush saw (daily check). Use of protective clothing reduces the consequence it will have if the saw comes into contact with the leg.
