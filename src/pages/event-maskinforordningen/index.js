@@ -39,6 +39,9 @@ function EventMaskinforordningenSection() {
   return (
     <section className={styles.eventMaskinforordningenSection}>
       <div className='container'>
+        <div className={styles.eventMaskinforordningenHeroText}>
+          <h1 className={styles.eventMaskinforordningenTitle}>Seminar om Maskinforordningen</h1>
+        </div>
         {/* Main content grid */}
         <div className={styles.eventMaskinforordningenGrid}>
           <div className={styles.eventMaskinforordningenContent}>
