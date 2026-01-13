@@ -3,7 +3,6 @@ import MainLayout from '../components/MainLayout';
 import bookDemoForm from '../../data/BookDemoForm.js';
 import { useLocation } from "@docusaurus/router";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import Translate from '@docusaurus/Translate';
 import BrandLogo from '../components/BrandLogo';
 import facebookIcon from '../../static/icons/facebook-icon.png';
@@ -15,7 +14,6 @@ function BookDemoSection() {
   const { siteConfig } = useDocusaurusContext();
   const shareUrl = siteConfig.url + location.pathname;
   const title = 'Book demo av Kvipp';
-  const byggImage = useBaseUrl('/img/bygg.jpg');
 
   const copyToClipboard = async () => {
     try {
@@ -59,9 +57,6 @@ function BookDemoSection() {
         {/* Main content grid */}
         <div className={styles.bookDemoGrid}>
           <div className={styles.bookDemoContent}>
-            <div className={styles.bookDemoHeroImage} style={{ backgroundImage: `url(${byggImage})` }} role="img" aria-label="Byggeplass">
-              <div className={styles.bookDemoOverlay}></div>
-            </div>
             <div className={styles.bookDemoBenefits}>
               <h3>
                 <Translate id="book-demo.benefits.title" description="Benefits title">
@@ -73,11 +68,37 @@ function BookDemoSection() {
                   Uforpliktende samtale og demonstrasjon av løsningen i praksis.
                 </Translate>
               </p>
-              <p className={styles.bookDemoBenefitsText}>
+              <div className={styles.bookDemoBenefitsText}>
                 <Translate id="book-demo.benefits.agenda" description="Demo agenda text">
-                  Agendaen er typisk: Behovsavklaring, presentasjon og gjennomgang av selve produktet og tips til hvordan komme i gang. Til slutt avtaler vi veien videre.
+                  Agendaen er typisk:
                 </Translate>
-              </p>
+                <ul style={{ listStyle: 'none', paddingLeft: 0, marginTop: '1rem' }}>
+                  <li style={{ marginBottom: '0.5rem', paddingLeft: '25px', position: 'relative' }}>
+                    <span style={{ position: 'absolute', left: 0, color: '#f05c09', fontWeight: 'bold' }}>✓</span>
+                    <Translate id="book-demo.benefits.agenda1" description="Agenda item 1">
+                      Behovsavklaring
+                    </Translate>
+                  </li>
+                  <li style={{ marginBottom: '0.5rem', paddingLeft: '25px', position: 'relative' }}>
+                    <span style={{ position: 'absolute', left: 0, color: '#f05c09', fontWeight: 'bold' }}>✓</span>
+                    <Translate id="book-demo.benefits.agenda2" description="Agenda item 2">
+                      Presentasjon og gjennomgang av selve produktet
+                    </Translate>
+                  </li>
+                  <li style={{ marginBottom: '0.5rem', paddingLeft: '25px', position: 'relative' }}>
+                    <span style={{ position: 'absolute', left: 0, color: '#f05c09', fontWeight: 'bold' }}>✓</span>
+                    <Translate id="book-demo.benefits.agenda3" description="Agenda item 3">
+                      Tips til hvordan komme i gang
+                    </Translate>
+                  </li>
+                  <li style={{ marginBottom: '0.5rem', paddingLeft: '25px', position: 'relative' }}>
+                    <span style={{ position: 'absolute', left: 0, color: '#f05c09', fontWeight: 'bold' }}>✓</span>
+                    <Translate id="book-demo.benefits.agenda4" description="Agenda item 4">
+                      Avtale veien videre
+                    </Translate>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           

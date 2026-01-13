@@ -1,0 +1,271 @@
+.kvippLunsjSection {
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: #112539;
+}
+
+.kvippLunsjHeroText {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.kvippLunsjImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.kvippLunsjImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  border-radius: 1.5rem;
+}
+
+.kvippLunsjTitle {
+  font-family: 'Sansita', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: white;
+}
+
+.kvippLunsjSubtitle {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+}
+
+.kvippLunsjGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  min-height: auto;
+}
+
+.kvippLunsjContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.kvippLunsjBenefits {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.kvippLunsjBenefits h3 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+.kvippLunsjImageWrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.kvippLunsjBenefitImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+.kvippLunsjBenefitsText {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 0 1.2rem 0;
+}
+
+.kvippLunsjBenefitsText:last-child {
+  margin-bottom: 0;
+}
+
+.kvippLunsjEventInfo {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.kvippLunsjInfoItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.kvippLunsjInfoIcon {
+  font-size: 1.5rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.kvippLunsjInfoText {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.kvippLunsjFormContainer {
+  display: flex;
+  align-items: start;
+}
+
+.kvippLunsjFormWrapper {
+  width: 100%;
+  background: white;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.kvippLunsjFormEmbed {
+  flex: 1;
+  width: 100%;
+}
+
+.kvippLunsjFormEmbed iframe,
+.kvippLunsjFormEmbed > div {
+  width: 100% !important;
+  min-height: 500px;
+}
+
+.kvippLunsjShare {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.kvippLunsjShare .social-icons {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.kvippLunsjShare .social-icons a {
+  filter: brightness(0) invert(1);
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+.kvippLunsjShare .social-icons a:hover {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+.kvippLunsjShareButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 33px;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+  transition: opacity 0.5s, color 0.5s;
+}
+
+.kvippLunsjShareButton:hover {
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .kvippLunsjGrid {
+    gap: 2rem;
+  }
+  
+  .kvippLunsjTitle {
+    font-size: 2.5rem;
+  }
+  
+  .kvippLunsjSubtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .kvippLunsjGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .kvippLunsjHeroText {
+    margin-bottom: 2rem;
+  }
+  
+  .kvippLunsjTitle {
+    font-size: 2rem;
+  }
+  
+  .kvippLunsjSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .kvippLunsjBenefits {
+    padding: 1.5rem;
+  }
+  
+  .kvippLunsjFormWrapper {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .kvippLunsjSection {
+    padding: 2rem 0;
+  }
+  
+  .kvippLunsjHeroText {
+    margin-bottom: 2rem;
+  }
+  
+  .kvippLunsjTitle {
+    font-size: 1.75rem;
+  }
+  
+  .kvippLunsjSubtitle {
+    font-size: 1rem;
+  }
+  
+  .kvippLunsjBenefits {
+    padding: 1.25rem;
+  }
+  
+  .kvippLunsjBenefits h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .kvippLunsjBenefitsText {
+    font-size: 0.95rem;
+    margin: 0 0 1rem 0;
+  }
+  
+  .kvippLunsjFormWrapper {
+    padding: 1.5rem;
+  }
+}
+
