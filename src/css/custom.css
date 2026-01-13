@@ -2054,6 +2054,14 @@ aside nav li {
     line-height: 3rem;
   }
 
+  .aboutus-story-text h3 {
+    font-size: 1.1rem !important;
+  }
+
+  .aboutus-story-text p {
+    font-size: 1.1rem !important;
+  }
+
   .our-partners-section .wrapper {
     padding: 3.125rem 0 4.5rem;
   }
@@ -3258,13 +3266,18 @@ details > div:first-child {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 1.1rem;
   color: #131313;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .about-contact-form-text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .about-contact-form-embed {
@@ -3287,6 +3300,13 @@ details > div:first-child {
   }
 }
 
+@media (min-width: 1400px) {
+  .about-contact-form-grid {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
+
 /* .aboutus-story-section styles removed - empty ruleset */
 
 .aboutus-story-grid {
@@ -3295,6 +3315,8 @@ details > div:first-child {
   gap: 0;
   align-items: stretch;
   min-height: 420px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .aboutus-story-text {
@@ -3314,14 +3336,14 @@ details > div:first-child {
 }
 
 .aboutus-story-text h3 {
-  font-size: 1.25rem;
+  font-size: 1.1rem !important;
   margin-bottom: 1.2rem;
   color: #474747;
   font-weight: 600;
 }
 
 .aboutus-story-text p {
-  font-size: 1.15rem;
+  font-size: 1.1rem !important;
   margin-bottom: 1.1rem;
   line-height: 1.7;
 }
@@ -3353,6 +3375,7 @@ details > div:first-child {
   .aboutus-story-grid {
     grid-template-columns: 1fr;
     min-height: unset;
+    max-width: 800px;
   }
   .aboutus-story-text {
     padding: 2rem 1rem;
@@ -60983,6 +61006,14 @@ aside nav li {
     line-height: 3rem;
   }
 
+  .aboutus-story-text h3 {
+    font-size: 1.1rem !important;
+  }
+
+  .aboutus-story-text p {
+    font-size: 1.1rem !important;
+  }
+
   .our-partners-section .wrapper {
     padding: 3.125rem 0 4.5rem;
   }
@@ -62187,13 +62218,18 @@ details > div:first-child {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 1.1rem;
   color: #131313;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .about-contact-form-text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .about-contact-form-embed {
@@ -62216,6 +62252,13 @@ details > div:first-child {
   }
 }
 
+@media (min-width: 1400px) {
+  .about-contact-form-grid {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
+
 /* .aboutus-story-section styles removed - empty ruleset */
 
 .aboutus-story-grid {
@@ -62224,6 +62267,8 @@ details > div:first-child {
   gap: 0;
   align-items: stretch;
   min-height: 420px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .aboutus-story-text {
@@ -62243,14 +62288,14 @@ details > div:first-child {
 }
 
 .aboutus-story-text h3 {
-  font-size: 1.25rem;
+  font-size: 1.1rem !important;
   margin-bottom: 1.2rem;
   color: #474747;
   font-weight: 600;
 }
 
 .aboutus-story-text p {
-  font-size: 1.15rem;
+  font-size: 1.1rem !important;
   margin-bottom: 1.1rem;
   line-height: 1.7;
 }
@@ -62282,6 +62327,7 @@ details > div:first-child {
   .aboutus-story-grid {
     grid-template-columns: 1fr;
     min-height: unset;
+    max-width: 800px;
   }
   .aboutus-story-text {
     padding: 2rem 1rem;

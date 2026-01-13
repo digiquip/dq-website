@@ -7,7 +7,7 @@ const teamDataSource =
     fullName: 'Anette Kristin Bø Andreassen',
     designation: 'Business Developer',
     emailAddress:'anette@digiquip.no',
-    mobileNumber:'',
+    mobileNumber:'+47 93630602',
     image:'team_imgs/anette.jpg',
     contactLink: ''
 },
@@ -55,15 +55,6 @@ const teamDataSource =
     mobileNumber:'+47 94880526',
     image:'team_imgs/simen.jpg',
     contactLink: ''
-},
-{
-    id:6,
-    fullName: 'Lars Sørby',
-    designation: 'Founder',
-    emailAddress:'lars@digiquip.no',
-    mobileNumber:'+47 41339219',
-    image:'team_imgs/lars.jpg',
-    contactLink: 'https://outlook-sdf.office.com/bookwithme/user/b65c9380e5e34e97ad39e8386158d7dd@digiquip.no/meetingtype/SVRwCe7HMUGxuT6WGxi68g2?anonymous&ep=mcard'
 },
 {
     id:7,

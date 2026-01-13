@@ -1,0 +1,307 @@
+.eventMaskinforordningenSection {
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: #112539;
+}
+
+.eventMaskinforordningenHeroText {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.eventMaskinforordningenImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.eventMaskinforordningenImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  border-radius: 1.5rem;
+}
+
+.eventMaskinforordningenTitle {
+  font-family: 'Sansita', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: white;
+}
+
+.eventMaskinforordningenSubtitle {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+}
+
+.eventMaskinforordningenGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  min-height: auto;
+}
+
+.eventMaskinforordningenContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.eventMaskinforordningenBenefits {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.eventMaskinforordningenBenefits h3 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+.eventMaskinforordningenImageWrapper {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.eventMaskinforordningenBenefitImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+
+.eventMaskinforordningenBenefitsText {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 0 1.2rem 0;
+  font-weight: 400;
+}
+
+.eventMaskinforordningenBenefitsText p {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+}
+
+.eventMaskinforordningenBenefitsText p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.eventMaskinforordningenBenefitsText ul {
+  margin: 0 0 0 0;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+}
+
+.eventMaskinforordningenBenefitsText li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+}
+
+.eventMaskinforordningenBenefitsText li:last-child {
+  margin-bottom: 0;
+}
+
+.eventMaskinforordningenBenefitsText:last-child {
+  margin-bottom: 0;
+}
+
+.eventMaskinforordningenEventInfo {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.eventMaskinforordningenInfoItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.eventMaskinforordningenInfoIcon {
+  font-size: 1.5rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.eventMaskinforordningenInfoText {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+}
+
+.eventMaskinforordningenFormContainer {
+  display: flex;
+  align-items: start;
+}
+
+.eventMaskinforordningenFormWrapper {
+  width: 100%;
+  background: white;
+  border-radius: 1.5rem;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.eventMaskinforordningenFormEmbed {
+  flex: 1;
+  width: 100%;
+}
+
+.eventMaskinforordningenFormEmbed iframe,
+.eventMaskinforordningenFormEmbed > div {
+  width: 100% !important;
+  min-height: 500px;
+}
+
+.eventMaskinforordningenShare {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.eventMaskinforordningenShare .social-icons {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.eventMaskinforordningenShare .social-icons a {
+  filter: brightness(0) invert(1);
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+.eventMaskinforordningenShare .social-icons a:hover {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+.eventMaskinforordningenShareButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 33px;
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+  transition: opacity 0.5s, color 0.5s;
+}
+
+.eventMaskinforordningenShareButton:hover {
+  opacity: 1;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .eventMaskinforordningenGrid {
+    gap: 2rem;
+  }
+  
+  .eventMaskinforordningenTitle {
+    font-size: 2.5rem;
+  }
+  
+  .eventMaskinforordningenSubtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .eventMaskinforordningenGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .eventMaskinforordningenHeroText {
+    margin-bottom: 2rem;
+  }
+  
+  .eventMaskinforordningenTitle {
+    font-size: 2rem;
+  }
+  
+  .eventMaskinforordningenSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .eventMaskinforordningenBenefits {
+    padding: 1.5rem;
+  }
+  
+  .eventMaskinforordningenFormWrapper {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .eventMaskinforordningenSection {
+    padding: 2rem 0;
+  }
+  
+  .eventMaskinforordningenHeroText {
+    margin-bottom: 2rem;
+  }
+  
+  .eventMaskinforordningenTitle {
+    font-size: 1.75rem;
+  }
+  
+  .eventMaskinforordningenSubtitle {
+    font-size: 1rem;
+  }
+  
+  .eventMaskinforordningenBenefits {
+    padding: 1.25rem;
+  }
+  
+  .eventMaskinforordningenBenefits h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .eventMaskinforordningenBenefitsText {
+    font-size: 0.95rem;
+    margin: 0 0 1rem 0;
+  }
+  
+  .eventMaskinforordningenFormWrapper {
+    padding: 1.5rem;
+  }
+}
+
