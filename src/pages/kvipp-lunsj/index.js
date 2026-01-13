@@ -54,7 +54,7 @@ function KvippLunsjSection() {
                 />
               </div>
               <div className={styles.kvippLunsjBenefitsText}>
-                <p>Betonmast Innlandet tok på rekordtid kontroll på tusenvis av opplæringer og dokumentasjon. Hvordan klarte de dette? Og hvordan sikrer de fokus fremover?</p>
+                <p>Hvordan klarte Betonmast Innlandet å ta kontroll på tusenvis av opplæringer og dokumentasjon? Og hvordan sikrer de fokus fremover?</p>
                 <p>Håvard Olsen Vibe (HMS-sjef Betonmast) og John Bratteng (HMSK-sjef Betonmast Innlandet) deler sine erfaringer.</p>
                 <p>Velkommen til Kvipp Lunsj!</p>
               </div>
