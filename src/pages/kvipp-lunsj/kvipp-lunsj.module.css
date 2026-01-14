@@ -77,17 +77,17 @@
 }
 
 .kvippLunsjImageWrapper {
-  margin-bottom: 1.5rem;
+  margin: -1.5rem -1.5rem 1.5rem -1.5rem;
   display: flex;
   justify-content: center;
+  width: calc(100% + 3rem);
 }
 
 .kvippLunsjBenefitImage {
   width: 100%;
-  max-width: 200px;
   height: auto;
   display: block;
-  border-radius: 1rem;
+  border-radius: 0;
 }
 
 .kvippLunsjBenefitsText {
