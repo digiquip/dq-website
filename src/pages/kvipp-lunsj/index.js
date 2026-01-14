@@ -46,13 +46,13 @@ function KvippLunsjSection() {
         <div className={styles.kvippLunsjGrid}>
           <div className={styles.kvippLunsjContent}>
             <div className={styles.kvippLunsjBenefits}>
-              <h3>Betonmast tok på rekordtid kontroll på dokumentasjon av opplæring!</h3>
               <div className={styles.kvippLunsjImageWrapper}>
                 <img 
-                  src={useBaseUrl('/img/kvipp-lunsj/Kvipp Lunsj.png')}
+                  src={useBaseUrl('/img/kvipp-lunsj/kvipp_lunsj.jpg')}
                   className={styles.kvippLunsjBenefitImage}
                 />
               </div>
+              <h3>Betonmast tok på rekordtid kontroll på dokumentasjon av opplæring!</h3>
               <div className={styles.kvippLunsjBenefitsText}>
                 <p>Hvordan klarte Betonmast Innlandet å ta kontroll på tusenvis av opplæringer og dokumentasjon? Og hvordan sikrer de fokus fremover?</p>
                 <p>Håvard Olsen Vibe (HMS-sjef Betonmast) og John Bratteng (HMSK-sjef Betonmast Innlandet) deler sine erfaringer.</p>

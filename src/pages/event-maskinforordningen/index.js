@@ -46,6 +46,12 @@ function EventMaskinforordningenSection() {
         <div className={styles.eventMaskinforordningenGrid}>
           <div className={styles.eventMaskinforordningenContent}>
             <div className={styles.eventMaskinforordningenBenefits}>
+              <div className={styles.eventMaskinforordningenImageWrapper}>
+                <img 
+                  src={useBaseUrl('/img/kvipp-lunsj/kvipp_lunsj_seminar.jpg')}
+                  className={styles.eventMaskinforordningenBenefitImage}
+                />
+              </div>
               <h3>Hva betyr Maskinforordningen for utleiebransjen?</h3>
               <div className={styles.eventMaskinforordningenBenefitsText}>
                 <p>Nå skjer det! Maskinforordningen trer i kraft i 2027. Hva betyr det for utleiebransjen?</p>
