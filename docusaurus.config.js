@@ -85,7 +85,7 @@ const config = {
         title: '',
         logo: {
           alt: 'DigiQuip Logo',
-          src: 'img/logo.svg',
+          src: 'img/brand/DigiQuip_ikon_svarthvitt.svg',
         },
         items: [
           {

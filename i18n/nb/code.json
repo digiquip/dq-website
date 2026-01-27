@@ -343,11 +343,11 @@
     "description": "The title of the home page part two"
   },
   "home.safety.title": {
-    "message": "Sikkerhet på arbeidsplassen",
+    "message": "DigiQuip - Knytter folk og utstyr sammen",
     "description": "The title of the safety section on the home page"
   },
   "home.safety.what": {
-    "message": "DigiQuip er navet som enkelt kobler maskin- og utstyrsparken din med tilgjengelig dokumentasjon, kontrollrutiner, sikkerhetsopplæring og spesifikk maskin- og utstyrsopplæring.",
+    "message": "Knytter folk og utstyr sammen",
     "description": "The description of the safety section on the home page"
   },
   "home.safety.how": {
@@ -899,6 +899,22 @@
   "home.news.news6desc": {
     "message": "Betonmast Innlandet har gått fra å være bakpå med dokumentasjon til å ta full kontroll. I denne artikkelen deler Betonmast teamet mer om hvordan de kom i gang, og tips og råd til andre som skal i gang.",
     "description": "Sixth description of the news"
+  },
+  "home.news.news7title": {
+    "message": "30.januar: Hvordan tok Betonmast kontroll på dokumentasjon av opplæring",
+    "description": "Seventh title of the news"
+  },
+  "home.news.news7desc": {
+    "message": "Hvordan klarte Betonmast Innlandet å ta kontroll på tusenvis av opplæringer og dokumentasjon? Og hvordan sikrer de fokus fremover? Håvard Olsen Vibe (HMS-sjef Betonmast) og John Bratteng (HMSK-sjef Betonmast Innlandet) deler sine erfaringer.",
+    "description": "Seventh description of the news"
+  },
+  "home.news.news8title": {
+    "message": "26.februar: Seminar om Maskinforordningen",
+    "description": "Eighth title of the news"
+  },
+  "home.news.news8desc": {
+    "message": "Nå skjer det! Maskinforordningen trer i kraft i 2027. Hva betyr det for utleiebransjen? Vi inviterer inn til et gratis seminar på Construction City. Hva er ditt ansvar som utleier? Hva kan du kreve av dine leverandører? Hvordan løser du de nye kravene?",
+    "description": "Eighth description of the news"
   },
 "integrations.banner.title1": {
   "message": "Integrasjoner som forenkler",
