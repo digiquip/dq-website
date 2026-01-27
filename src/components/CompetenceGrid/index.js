@@ -7,6 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 export default function CompetenceGrid(props) {
   let data = props.record;
   const [value, setValue] = useState(null);
+  const baseUrl = useBaseUrl(data.img || '');
 
   useEffect(() => {
     // Load the Dyntube script when the component mounts
@@ -37,7 +38,7 @@ export default function CompetenceGrid(props) {
             <div className='sikker-img'>
               {data.mediaType === 'image'
                   ?
-                  <img src={useBaseUrl(data.img)}></img>
+                  <img src={baseUrl}></img>
                   : data.mediaType === 'youtube' ?
                       <VideoSection withoutAutoPlay={data.withoutAutoPlay} withPlay={data.withPlay}
                                     poster={data.youtubeVideoBanner}/>

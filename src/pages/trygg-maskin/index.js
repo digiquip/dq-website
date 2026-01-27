@@ -46,19 +46,11 @@ export default function Workequipment() {
   const [machines , setMachinesContent] = useState({})
   const [machineinsights, setMachineInsightsContent] = useState({})
   useEffect(() => {
-    let ignore = false;
-      if (!ignore) {
-        setWorkEquipmentContent(workequipmentRecords.workEquipmentBannerData);
-        setMachinesContent(workequipmentRecords.machinesEquipmentData);
-        setDocumentationContent(workequipmentRecords.systematizedDocumentationData);
-        setMachineInsightsContent(workequipmentRecords.machineinsightsData);
-      }
-  
-    return () => { 
-      ignore = true;
-    }
-   
-  }, [workEquipment, documentation, machines]);
+    setWorkEquipmentContent(workequipmentRecords.workEquipmentBannerData);
+    setMachinesContent(workequipmentRecords.machinesEquipmentData);
+    setDocumentationContent(workequipmentRecords.systematizedDocumentationData);
+    setMachineInsightsContent(workequipmentRecords.machineinsightsData);
+  }, []);
 
   return (
     <MainLayout>

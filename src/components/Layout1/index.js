@@ -113,9 +113,9 @@ useEffect(() => {
     }
   }, []);
 
-  // Split news into first 3 and the rest
-  const firstThreeNews = newsContent.slice(0, 3);
-  const customerStories = newsContent.slice(3);
+  // Split news into first 2 and the rest
+  const firstTwoNews = newsContent.slice(0, 2);
+  const customerStories = newsContent.slice(2);
 
   return (
       <section>
@@ -124,7 +124,7 @@ useEffect(() => {
               <div className="container">
                 <div className="news-section-main">
                   <div className="row">
-                    {firstThreeNews && firstThreeNews.map((props, idx) => (
+                    {firstTwoNews && firstTwoNews.map((props, idx) => (
                         <div className={clsx("col col--12")} key={idx}>
                           <News {...props} />
                         </div>
@@ -142,7 +142,7 @@ useEffect(() => {
                     <div className="customer-stories-main">
                       <div className="row">
                         {customerStories.map((props, idx) => (
-                            <div className={clsx("col col--12")} key={idx + 3}>
+                            <div className={clsx("col col--12")} key={idx + 2}>
                               <CustomerStories {...props} />
                             </div>
                         ))}

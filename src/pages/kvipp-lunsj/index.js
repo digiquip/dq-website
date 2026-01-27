@@ -12,7 +12,7 @@ function KvippLunsjSection() {
   const location = useLocation();
   const { siteConfig } = useDocusaurusContext();
   const shareUrl = siteConfig.url + location.pathname;
-  const title = 'Kvipp Lunsj';
+  const title = '30.januar: Bli med når Betonmast deler sine erfaringer med dokumentasjon av opplæring.';
 
   const copyToClipboard = async () => {
     try {

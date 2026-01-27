@@ -774,12 +774,12 @@ img {
   transition: 0.3s ease;
 }
 
-/* Only apply no-crop styling to the first news article (sånn) - only in the first container section */
-section > .container > .news-section-main > .row > .col:first-child .news-section .videosection {
+/* Only apply no-crop styling to the Unifractal news article - specific styling */
+.news-section[data-blog-link="/blog/unifractal"] .videosection {
   aspect-ratio: auto;
 }
 
-section > .container > .news-section-main > .row > .col:first-child .news-section .videosection img {
+.news-section[data-blog-link="/blog/unifractal"] .videosection img {
   position: relative;
   width: 100%;
   height: auto;
@@ -909,6 +909,24 @@ background-color: #fff;
   width: 100%;
   height: 100%;
   margin: auto;
+  object-fit: cover;
+}
+
+.videosection a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.videosection a img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover;
 }
 
@@ -1385,7 +1403,7 @@ background-color: #fff;
 
 .navbar__logo {
   /* white logo */
-  background: url("../../static/img/black-logo-header.svg") no-repeat; 
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat; 
   background-size: 174px !important;
   max-width: 184px;
   min-height: 47px;
@@ -1403,7 +1421,7 @@ background-color: #fff;
 }
 
 .navbar .navbar__logo {
-  background: url("../../static/img/white-logo-header.svg") no-repeat center left;
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat center left;
   background-size: 174px !important;
 }
 /* Navbar on White Background */
@@ -1412,7 +1430,7 @@ background-color: #fff;
 }
 
 .navbar.white-bg .navbar__logo {
-  background: url("../../static/img/black-logo-header.svg") no-repeat center left;
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat center left;
   background-size: 174px !important;
 }
 
@@ -1445,7 +1463,7 @@ background-color: #fff;
 
 
 .navbar-sidebar--show .navbar-sidebar .navbar__logo {
-  background: url("../../static/img/black-logo-header.svg") no-repeat;
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat;
 }
 
 
@@ -59849,6 +59867,24 @@ background-color: #fff;
   object-fit: cover;
 }
 
+.videosection a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.videosection a img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
 /* CUSTOMER STORIES SECTION STYLING */
 .customer-stories-main {
   margin-top: 0;
@@ -60322,7 +60358,7 @@ background-color: #fff;
 
 .navbar__logo {
   /* white logo */
-  background: url("../../static/img/black-logo-header.svg") no-repeat; 
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat; 
   background-size: 174px !important;
   max-width: 184px;
   min-height: 47px;
@@ -60340,7 +60376,7 @@ background-color: #fff;
 }
 
 .navbar .navbar__logo {
-  background: url("../../static/img/white-logo-header.svg") no-repeat center left;
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat center left;
   background-size: 174px !important;
 }
 /* Navbar on White Background */
@@ -60349,7 +60385,7 @@ background-color: #fff;
 }
 
 .navbar.white-bg .navbar__logo {
-  background: url("../../static/img/black-logo-header.svg") no-repeat center left;
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat center left;
   background-size: 174px !important;
 }
 
@@ -60382,7 +60418,7 @@ background-color: #fff;
 
 
 .navbar-sidebar--show .navbar-sidebar .navbar__logo {
-  background: url("../../static/img/black-logo-header.svg") no-repeat;
+  background: url("../../static/img/brand/DigiQuip_ikon_svarthvitt.svg") no-repeat;
 }
 
 

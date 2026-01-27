@@ -4,14 +4,16 @@ import BrandLogo from "../BrandLogo";
 import Link from '@docusaurus/Link';
 import Button from "../Button";
 import Translate from "@docusaurus/Translate";
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 // SafetyWork component
 export default function News({title, description, dyntubeKey, youtubeVideoBanner, isVideo, imageBanner, blogLink }) {
 
     const [value, setValue] = useState(null);
     let button = <Translate>general.readmore</Translate>
+    const imageUrl = imageBanner ? useBaseUrl(imageBanner) : '';
 
-    return (<section className="news-section">
+    return (<section className="news-section" data-blog-link={blogLink}>
             <div className="row">
                 <div className={clsx("col col--5")}>
                     <div className="news-section-detail">
@@ -38,7 +40,7 @@ export default function News({title, description, dyntubeKey, youtubeVideoBanner
                 <div className={clsx("col col--6 col--offset-1")}>
                     <div className="videosection">
                         {isVideo ? <>
-                            {value ? "" : <BrandLogo Img={youtubeVideoBanner} width={''} height={''} alt={''}/>}
+                            {value ? "" : <BrandLogo Img={useBaseUrl(youtubeVideoBanner)} width={''} height={''} alt={''}/>}
                             <div
                                 data-dyntube-key={dyntubeKey}
                                 data-controls="false"
@@ -46,7 +48,7 @@ export default function News({title, description, dyntubeKey, youtubeVideoBanner
                             ></div>
                         </> : <>
                             <Link href={blogLink}>
-                                <BrandLogo Img={imageBanner} width={''} height={''} alt={''}/>
+                                <BrandLogo Img={imageUrl} width={''} height={''} alt={''}/>
                             </Link>
                         </>}
                     </div>

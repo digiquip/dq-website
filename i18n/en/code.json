@@ -850,6 +850,22 @@
     "message": "Betonmast Innlandet has gone from being behind on documentation to taking full control. In this article, the Betonmast team shares more about how they got started, and tips and advice for others who are getting started.",
     "description": "Sixth description of the news"
   },
+  "home.news.news7title": {
+    "message": "30.januar: Bli med når Betonmast deler sine erfaringer med dokumentasjon av opplæring.",
+    "description": "Seventh title of the news"
+  },
+  "home.news.news7desc": {
+    "message": "How did Betonmast Innlandet manage to take control of thousands of training sessions and documentation? And how do they ensure focus going forward? Håvard Olsen Vibe (HSE Manager Betonmast) and John Bratteng (HSE Manager Betonmast Innlandet) share their experiences.",
+    "description": "Seventh description of the news"
+  },
+  "home.news.news8title": {
+    "message": "Seminar on the Machinery Regulation",
+    "description": "Eighth title of the news"
+  },
+  "home.news.news8desc": {
+    "message": "It's happening now! The Machinery Regulation comes into force in 2027. What does it mean for the rental industry? We invite you to a free seminar at Construction City. What is your responsibility as a lessor? What can you require from your suppliers? How do you solve the new requirements?",
+    "description": "Eighth description of the news"
+  },
 "integrations.banner.title1": {
   "message": "Integrations that simplify",
   "description": "Integrations page banner title"
