@@ -343,11 +343,11 @@
     "description": "The title of the home page part two"
   },
   "home.safety.title": {
-    "message": "Safety at work",
+    "message": "DigiQuip - Connects people and equipment",
     "description": "The title of the safety section on the home page"
   },
   "home.safety.what": {
-    "message": "DigiQuip is the hub that easily connects your machinery and equipment fleet with available documentation, inspection procedures, safety training, and specific machine and equipment training.",
+    "message": "Connects people and equipment",
     "description": "The description of the safety section on the home page"
   },
   "home.safety.how": {
