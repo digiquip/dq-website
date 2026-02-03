@@ -113,9 +113,9 @@ useEffect(() => {
     }
   }, []);
 
-  // Split news into first 2 and the rest
-  const firstTwoNews = newsContent.slice(0, 2);
-  const customerStories = newsContent.slice(2);
+  // Split news into first 1 and the rest
+  const firstTwoNews = newsContent.slice(0, 1);
+  const customerStories = newsContent.slice(1);
 
   return (
       <section>
