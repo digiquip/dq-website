@@ -29,7 +29,6 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   clientModules: [
     './src/clientModules/resizeObserverFix.js',
