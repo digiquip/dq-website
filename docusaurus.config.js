@@ -104,11 +104,6 @@ const config = {
                 sidebarid: 'tutorialSidebar',
                 to: '/sann',
               },
-              {
-                label: 'Trygg Maskin',
-                sidebarid: 'tutorialSidebar',
-                to: '/trygg-maskin',
-              },
             ]
           },
           {
