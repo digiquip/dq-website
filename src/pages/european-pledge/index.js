@@ -37,7 +37,7 @@ const subscriptions = [
   { category: 'AI', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Collaboration Suite', service: 'Microsoft 365', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
   { category: 'Container Orchestration', service: 'Google Kubernetes', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Other Google Cloud Services', service: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Generic Cloud', service: 'Google Cloud Services', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'SMS', service: 'Twilio', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Payment', service: 'Stripe', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
 ];
