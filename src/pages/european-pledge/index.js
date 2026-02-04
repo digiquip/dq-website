@@ -3,44 +3,43 @@ import styles from './styles.module.css';
 
 const subscriptions = [
   // Already European
-  { service: 'Infomaniak', provider: 'Infomaniak (Switzerland)', plan: 'Switched in Dec. 25. Replaced Microsoft 365, Mailchimp, Kagi and Slack', status: 'done' },
-  { service: 'AIFlow CRM', provider: 'AIFlow (Norway)', plan: 'Already European', status: 'done' },
-  { service: 'Tripletex', provider: 'Tripletex (Norway)', plan: 'Already European', status: 'keeping' },
-  { service: 'Profrakt', provider: 'Profrakt (Norway)', plan: 'Already European', status: 'keeping' },
-  { service: 'Cardboard', provider: 'Cardboard (Norway)', plan: 'Already European', status: 'keeping' },
-  { service: 'Veed.io', provider: 'Veed.io (UK)', plan: 'Already European', status: 'keeping' },
-  { service: 'Excalidraw+', provider: 'Excalidraw (Czech Republic)', plan: 'Already European', status: 'keeping' },
-  { service: 'Semaphore', provider: 'Semaphore (Serbia)', plan: 'Already European', status: 'keeping' },
-  { service: 'Elfsight', provider: 'Elfsight (Armenia)', plan: 'Already European', status: 'keeping' },
+  { category: 'Collaboration Suite', service: 'kSuite by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Switched in Dec. 25. Replaced Microsoft 365, Mailchimp, Kagi and Slack', status: 'done' },
+  { category: 'Documents/Office Suite', service: 'ONLYOffice', country: 'Open Source 🌎', plan: 'Switched in Dec. 25. Replaced Microsoft Office', status: 'done' },
+  { category: 'Newsletter', service: 'Newsletter by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Replaced by Infomaniak, Jan. 26, replaced Mailchimp', status: 'done' },
+  { category: 'CRM', service: 'AIFlow CRM', country: 'Norway 🇳🇴', plan: 'Happy customer since early 2025', status: 'done' },
+  { category: 'Accounting', service: 'Tripletex', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
+  { category: 'Freight management', service: 'Profrakt', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
+  { category: 'Accounting', service: 'Cardboard', country: 'Norway 🇳🇴', plan: 'Happy customer since mid 2025', status: 'keeping' },
+  { category: 'Video Editor', service: 'Veed.io', country: 'UK 🇬🇧', plan: 'Happy customer since late 2024', status: 'keeping' },
+  { category: 'Sketching', service: 'Excalidraw', country: 'Czech Republic 🇨🇿', plan: 'Happy customer since 2024', status: 'keeping' },
+  { category: 'CI/CD', service: 'Semaphore', country: 'Serbia 🇷🇸', plan: 'Happy customer since 2022', status: 'keeping' },
+  { category: 'Elfsight', service: 'Elfsight', country: 'Armenia 🇦🇲', plan: 'Already European', status: 'keeping' },
 
   // Non-European - evaluating alternatives
-  { service: 'Border0', provider: 'Border0 Inc (Canada)', plan: 'Canada is practically European 🥰', status: 'keeping' },
-  { service: 'ClickSend', provider: 'ClickSend (Australia)', plan: 'Australia is practically European 🥰', status: 'keeping' },
-  { service: 'DigitalOcean', provider: 'DigitalOcean (USA)', plan: 'Evaluating service by service. Storage moving to Infomaniak, Feb. 26', status: 'in-progress' },
-  { service: 'Google Storage', provider: 'Google (USA)', plan: 'Moving to Infomaniak, Feb. 26', status: 'in-progress' },
-  { service: 'DynTube', provider: 'DynTube (USA)', plan: 'Switching to Infomaniak VOD, Feb. 26', status: 'in-progress' },
-  { service: 'Claude', provider: 'Anthropic (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'SendGrid', provider: 'Twilio (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Basecamp', provider: 'Basecamp (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Cursor', provider: 'Cursor (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Mailtrap', provider: 'Mailtrap (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'UTunnel', provider: 'UTunnel (USA)', plan: 'Replaced by Border0, Aug. 25', status: 'replaced' },
-  { service: 'Logto', provider: 'Logto (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'SqlBak', provider: 'SqlBak (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Kagi', provider: 'Kagi (USA)', plan: 'Replaced by Qwant and Infomaniak Euria, Dec. 25', status: 'replaced' },
-  { service: 'Mailchimp', provider: 'Mailchimp (USA)', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
-  { service: 'SparkPost', provider: 'SparkPost (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Facebook', provider: 'Meta (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'LinkedIn', provider: 'LinkedIn (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Sentry', provider: 'Sentry (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'GitHub', provider: 'GitHub (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Slack', provider: 'Slack (USA)', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
-  { service: 'OpenAI', provider: 'OpenAI (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Microsoft 365', provider: 'Microsoft (USA)', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
-  { service: 'Google Kubernetes', provider: 'Google (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Other Google Cloud Services', provider: 'Google (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Twilio', provider: 'Twilio (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { service: 'Stripe', provider: 'Stripe (USA)', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'VPN', service: 'Border0', country: 'Canada 🇨🇦', plan: 'Canada is practically European 🥰', status: 'keeping' },
+  { category: 'SMS', service: 'ClickSend', country: 'Australia 🇦🇺', plan: 'Australia is practically European 🥰', status: 'keeping' },
+  { category: 'Cloud', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating service by service. Storage moving to Infomaniak, Feb. 26', status: 'in-progress' },
+  { category: 'Storage', service: 'Google Storage', country: 'USA 🇺🇸', plan: 'Moving to Infomaniak, Feb. 26', status: 'in-progress' },
+  { category: 'Video Hosting', service: 'DynTube', country: 'USA 🇺🇸', plan: 'Switching to Infomaniak VOD, Feb. 26', status: 'in-progress' },
+  { category: 'CDN', service: 'Cloudflare', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'AI', service: 'Claude', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Email', service: 'SendGrid', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Project Management', service: 'Basecamp', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Code Editor', service: 'Cursor', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Email', service: 'Mailtrap', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'VPN', service: 'UTunnel', country: 'USA 🇺🇸', plan: 'Replaced by Border0, Aug. 25', status: 'replaced' },
+  { category: 'Authentication', service: 'Logto', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Social Media', service: 'Facebook', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Social Media', service: 'LinkedIn', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Version Control', service: 'GitHub', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Communication', service: 'Slack', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
+  { category: 'AI', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Collaboration Suite', service: 'Microsoft 365', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
+  { category: 'Container Orchestration', service: 'Google Kubernetes', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Other Google Cloud Services', service: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'SMS', service: 'Twilio', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Payment', service: 'Stripe', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
 ];
 
 function StatusBadge({ status }) {
@@ -88,8 +87,9 @@ export default function EuropeanPledge() {
           <table className={styles.table}>
             <thead>
               <tr>
+                <th>Category</th>
                 <th>Service</th>
-                <th>Current Provider</th>
+                <th>Country</th>
                 <th>Plan</th>
                 <th>Status</th>
               </tr>
@@ -97,11 +97,12 @@ export default function EuropeanPledge() {
             <tbody>
               {subscriptions.map((sub, idx) => (
                 <tr key={idx}>
+                  <td>{sub.category}</td>
                   <td>{sub.service}</td>
-                  <td>{sub.provider}</td>
+                  <td>{sub.country}</td>
                   <td>{sub.plan}</td>
                   <td><StatusBadge status={sub.status} /></td>
-                </tr>
+                </tr> 
               ))}
             </tbody>
           </table>
