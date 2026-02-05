@@ -165,6 +165,20 @@
   color: #888;
 }
 
+.changelog {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.changelog li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.6;
+}
+
 .footer {
   padding: 2rem;
   text-align: center;

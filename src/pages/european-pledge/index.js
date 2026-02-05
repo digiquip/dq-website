@@ -18,7 +18,10 @@ const subscriptions = [
   // Non-European - evaluating alternatives
   { category: 'VPN', service: 'Border0', country: 'Canada 🇨🇦', plan: 'Canada is practically European 🥰', status: 'keeping' },
   { category: 'SMS', service: 'ClickSend', country: 'Australia 🇦🇺', plan: 'Australia is practically European 🥰', status: 'keeping' },
-  { category: 'Cloud', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating service by service. Storage moving to Infomaniak, Feb. 26', status: 'in-progress' },
+  { category: 'Cloud App Hosting', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Cloud Storage', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating service by service. Moving to Infomaniak, Feb. 26', status: 'in-progress' },
+  { category: 'Cloud Database', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Cloud Kubernetes', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Storage', service: 'Google Storage', country: 'USA 🇺🇸', plan: 'Moving to Infomaniak, Feb. 26', status: 'in-progress' },
   { category: 'Video Hosting', service: 'DynTube', country: 'USA 🇺🇸', plan: 'Switching to Infomaniak VOD, Feb. 26', status: 'in-progress' },
   { category: 'CDN', service: 'Cloudflare', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
@@ -31,7 +34,7 @@ const subscriptions = [
   { category: 'Authentication', service: 'Logto', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Social Media', service: 'Facebook', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Social Media', service: 'LinkedIn', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Moving to BugSink (The Netherlands 🇳🇱)', status: 'in-progress' },
   { category: 'Version Control', service: 'GitHub', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Communication', service: 'Slack', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
   { category: 'AI', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
@@ -40,6 +43,10 @@ const subscriptions = [
   { category: 'Generic Cloud', service: 'Google Cloud Services', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'SMS', service: 'Twilio', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Payment', service: 'Stripe', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+];
+
+const changelog = [
+  { date: '2026-02-05', description: 'Separated out the services from DigitalOcean. Recording our plan to go from Sentry to BugSink.' },
 ];
 
 function StatusBadge({ status }) {
@@ -107,7 +114,14 @@ export default function EuropeanPledge() {
             </tbody>
           </table>
 
-          <p className={styles.updated}>Last updated: February 2025</p>
+          <h2>Changelog</h2>
+          <ul className={styles.changelog}>
+            {changelog.map((entry, idx) => (
+              <li key={idx}>
+                <strong>{entry.date}</strong> &mdash; {entry.description}
+              </li>
+            ))}
+          </ul>
         </main>
 
         <footer className={styles.footer}>
