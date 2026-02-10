@@ -6,7 +6,7 @@ This guide will help you set up the DQ Website project on Windows.
 
 ### 1. Install Node.js
 
-The project requires Node.js version 18 or higher (as specified in `package.json`).
+The project requires Node.js version 20 or higher (as specified in `package.json`). CI/CD uses Node 20.
 
 **Download and Install:**
 1. Visit [https://nodejs.org/](https://nodejs.org/)
