@@ -1,7 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C /Users/alydersen/Workspace/DigiQuip/dq-website log --oneline -20)",
+      "Bash(git log --oneline -20)",
       "Bash(grep:*)"
     ]
   }

@@ -12,7 +12,7 @@ function EventMaskinforordningenSection() {
   const location = useLocation();
   const { siteConfig } = useDocusaurusContext();
   const shareUrl = siteConfig.url + location.pathname;
-  const title = 'Hva betyr Maskinforordningen for utleiebransjen?';
+  const title = 'Samling og lunsj på Construction City!';
 
   const copyToClipboard = async () => {
     try {
@@ -40,7 +40,7 @@ function EventMaskinforordningenSection() {
     <section className={styles.eventMaskinforordningenSection}>
       <div className='container'>
         <div className={styles.eventMaskinforordningenHeroText}>
-          <h1 className={styles.eventMaskinforordningenTitle}>Seminar om Maskinforordningen</h1>
+          <h1 className={styles.eventMaskinforordningenTitle}>Samling og lunsj på Construction City!</h1>
         </div>
         {/* Main content grid */}
         <div className={styles.eventMaskinforordningenGrid}>
@@ -52,15 +52,18 @@ function EventMaskinforordningenSection() {
                   className={styles.eventMaskinforordningenBenefitImage}
                 />
               </div>
-              <h3>Hva betyr Maskinforordningen for utleiebransjen?</h3>
+              <h3>Velkommen til samling og lunsj på Construction City!</h3>
               <div className={styles.eventMaskinforordningenBenefitsText}>
-                <p>Nå skjer det! Maskinforordningen trer i kraft i 2027. Hva betyr det for utleiebransjen?</p>
-                <p>Vi inviterer inn til et gratis seminar på Construction City.</p>
+                <p>Vi tar for oss kravene i Maskinforordningen, og dere vil få mer informasjon om:</p>
                 <ul>
-                  <li>Hva er ditt ansvar som utleier?</li>
-                  <li>Hva kan du kreve av dine leverandører?</li>
-                  <li>Hvordan løser du de nye kravene?</li>
+                  <li>Nytt verktøy for sakkyndig kontroll</li>
+                  <li>Nytt verktøy for digitalt innhold</li>
+                  <li>Kvipp: Siste status</li>
+                  <li>Landingsside QR-koder</li>
+                  <li>Oppdatert plan for alle dere som har dataflyt-produkter fra oss; EQM, Onlet, MREG, etc.</li>
                 </ul>
+                <p>PS: Alle vil få hver sin tilpassede plan. Si fra om dere vil ha et eget møte etter samlingen.</p>
+                <p>Bruk skjemaet til å melde deg på.</p>
               </div>
 
               <div className={styles.eventMaskinforordningenEventInfo}>
