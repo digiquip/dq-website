@@ -6,6 +6,7 @@ const subscriptions = [
   { category: 'Collaboration Suite', service: 'kSuite by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Switched in Dec. 25. Replaced Microsoft 365, Mailchimp, Kagi and Slack', status: 'done' },
   { category: 'Documents/Office Suite', service: 'ONLYOffice', country: 'Open Source 🌎', plan: 'Switched in Dec. 25. Replaced Microsoft Office', status: 'done' },
   { category: 'Newsletter', service: 'Newsletter by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Replaced by Infomaniak, Jan. 26, replaced Mailchimp', status: 'done' },
+  { category: 'Error Tracking', service: 'BugSink', country: 'The Netherlands ��', plan: 'Switched from Sentry in Feb. 26', status: 'done' },
   { category: 'CRM', service: 'AIFlow CRM', country: 'Norway 🇳🇴', plan: 'Happy customer since early 2025', status: 'done' },
   { category: 'Accounting', service: 'Tripletex', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
   { category: 'Freight management', service: 'Profrakt', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
@@ -34,7 +35,7 @@ const subscriptions = [
   { category: 'Authentication', service: 'Logto', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Social Media', service: 'Facebook', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Social Media', service: 'LinkedIn', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Moving to BugSink (The Netherlands 🇳🇱)', status: 'in-progress' },
+  { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Replaced by BugSink, Feb. 26', status: 'replaced' },
   { category: 'Version Control', service: 'GitHub', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Communication', service: 'Slack', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
   { category: 'AI', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
@@ -47,6 +48,7 @@ const subscriptions = [
 
 const changelog = [
   { date: '2026-02-05', description: 'Separated out the services from DigitalOcean. Recording our plan to go from Sentry to BugSink.' },
+  { date: '2026-02-19', description: 'Switched from Sentry to BugSink' },
 ];
 
 function StatusBadge({ status }) {
