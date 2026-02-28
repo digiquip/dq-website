@@ -52,7 +52,7 @@ const subscriptions = [
 const changelog = [
   { date: '2026-02-05', description: 'Separated out the services from DigitalOcean. Recording our plan to go from Sentry to BugSink.' },
   { date: '2026-02-19', description: 'Switched from Sentry to BugSink' },
-  { date: '2026-02-28', description: 'Seaprated our the services from OpenAI. Switched from OpenAI to Linkup for AI web search and from OpenAI to Mistral for AI image recognition' },
+  { date: '2026-02-28', description: 'Separated our usage of OpenAI services. Switched from OpenAI to Linkup for AI web search and from OpenAI to Mistral for AI image recognition' },
 ];
 
 function StatusBadge({ status }) {
