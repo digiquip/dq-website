@@ -8,6 +8,8 @@ const subscriptions = [
   { category: 'Newsletter', service: 'Newsletter by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Replaced by Infomaniak, Jan. 26, replaced Mailchimp', status: 'done' },
   { category: 'CRM', service: 'AIFlow CRM', country: 'Norway 🇳🇴', plan: 'Happy customer since early 2025', status: 'done' },
   { category: 'Error Tracking', service: 'BugSink', country: 'The Netherlands 🇳🇱', plan: 'Switched from Sentry in Feb. 26', status: 'done' },
+  { category: 'AI web search', service: 'Linkup', country: 'France 🇫🇷', plan: 'Switched from OpenAI in Feb. 26', status: 'done' },
+  { category: 'AI Image Recognition', service: 'Mistral', country: 'France 🇫🇷', plan: 'Switched from OpenAI in Feb. 26', status: 'done' },
   { category: 'Accounting', service: 'Tripletex', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
   { category: 'Freight management', service: 'Profrakt', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
   { category: 'Accounting', service: 'Cardboard', country: 'Norway 🇳🇴', plan: 'Happy customer since mid 2025', status: 'keeping' },
@@ -38,7 +40,8 @@ const subscriptions = [
   { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Replaced by BugSink, Feb. 26', status: 'replaced' },
   { category: 'Version Control', service: 'GitHub', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Communication', service: 'Slack', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
-  { category: 'AI', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'AI web search', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Replaced by Linkup, Feb. 26', status: 'replaced' },
+  { category: 'AI Image Recognition', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Replaced by Mistral, Feb. 26', status: 'replaced' },
   { category: 'Collaboration Suite', service: 'Microsoft 365', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
   { category: 'Container Orchestration', service: 'Google Kubernetes', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
   { category: 'Generic Cloud', service: 'Google Cloud Services', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
@@ -49,6 +52,7 @@ const subscriptions = [
 const changelog = [
   { date: '2026-02-05', description: 'Separated out the services from DigitalOcean. Recording our plan to go from Sentry to BugSink.' },
   { date: '2026-02-19', description: 'Switched from Sentry to BugSink' },
+  { date: '2026-02-28', description: 'Seaprated our the services from OpenAI. Switched from OpenAI to Linkup for AI web search and from OpenAI to Mistral for AI image recognition' },
 ];
 
 function StatusBadge({ status }) {
