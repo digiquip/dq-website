@@ -3,7 +3,8 @@ sidebar_position: 2
 ---
 
 # Privacy Policy
-**Last update: Feb 15, 2023**
+
+**Version 1.1 – Last updated: February 28, 2026**
 
 ## Introduction
 
@@ -21,6 +22,8 @@ On our customers' user accounts, we register usernames, first names, last names,
 
 In order to provide our customers with an efficient and good service, all inquiries will be documented in our case system. Only information that is relevant to the nature of the case will be stored in the cases.
 
+When users use AI features in the services, text, images, and voice may be transferred to Mistral AI for processing. Text data submitted for AI analysis is not retained after processing. For AI-based image interpretation, we store a small thumbnail of the relevant image for support and error tracking purposes; images are not permanently stored after processing. When users use voice and transcription features, voice input is processed in real-time to generate text; audio data is not retained after transcription is complete.
+
 ## What does DigiQuip AS use your personal information for?
 
 DigiQuip's personal information is mainly used to perform work in connection with our services and fulfill the contractual relationship. Personal information about contact persons for our customers is necessary to have a contact surface for good dialogue between us and our customers.
@@ -29,11 +32,23 @@ Personal information associated with our customers' user accounts is necessary t
 
 In some cases, personal contact information will be used to notify about service disruptions or relevant changes in the services. Registered contact persons for customers will also receive information and marketing materials related to the services offered up to 2 times per month. We rely on your feedback to work for continuous improvement of our services. This is a central part of our quality management and information security systems. Therefore, we will use name, telephone number, and email address to send you user and customer surveys up to 2 times a year, in accordance with the guidelines in the Personal Data Act § 1, cf. GDPR article 6.1 f).
 
+AI features in the services, including text analysis, image interpretation, and voice transcription, are used to deliver the core functionality of the services. The legal basis for this processing is the fulfillment of the contract, cf. GDPR Article 6.1(b). Thumbnails from AI-based image interpretation are additionally stored for support and error tracking as part of our quality assurance. The legal basis for this is legitimate interest, cf. GDPR Article 6.1(f).
+
 ## Who do we share your information with?
 The personal information we are responsible for processing is primarily used to fulfill the contract. In cases where third-party providers assist, contact and user information can be exchanged with these providers. No personal information will be shared with third parties for marketing purposes.
 
+We use the following third-party data processors:
+
+**Mistral AI** – Analyses text data via large language models (LLMs) to power AI features in the services; text data is not retained after processing. Processes image data, including thumbnails, for AI-based image interpretation features; images are not permanently stored after processing. Transcribes voice input to text in real-time for voice and transcription features; audio data is not retained after transcription. Data is processed in GDPR-compliant data centers within the EU.
+
+**Linkup.so** – Processes search queries when using web search features. Linkup.so does not use queries for AI training and deletes data after the service is delivered. Data is processed and stored within the EU.
+
+All third-party data processors are bound by Data Processing Agreements (DPAs) in accordance with GDPR and process data exclusively on behalf of DigiQuip.
+
 ## Geographic storage of personal information
 Your personal information is stored in our own systems, which are managed in Norway. Our systems are run by a reputable international cloud provider with distributed data centers all over the world, but are exclusively under our control.
+
+Data processed by our third-party AI partners (Mistral AI and Linkup.so) is processed and stored in GDPR-compliant data centers within the EU.
 
 ## How long do we store your personal data?
 In accordance with the Personal Data Act §1, cf. GDPR Article 17, we will not store your personal data for longer than is necessary to carry out the purpose of the processing.
@@ -57,3 +72,10 @@ You have a number of rights with regards to your personal information that we ar
 If you believe we are processing your personal information without a legal basis or if you want to exercise your rights, you may contact us. Our contact information can be found on our website. We will respond to your request as soon as possible and usually within 30 days.
 
 You may also file a complaint with the Data Protection Authority, but we ask you to contact us first so that any misunderstandings can be cleared up in the best possible way.
+
+## Changelog
+
+| Version | Date | Change |
+|---------|------|--------|
+| 1.1 | February 28, 2026 | Added third-party data processor disclosures for Mistral AI (text analysis via LLM, image interpretation, voice transcription) and Linkup.so (web search); added retention details, legal basis, and EU data location |
+| 1.0 | February 15, 2023 | Initial version |

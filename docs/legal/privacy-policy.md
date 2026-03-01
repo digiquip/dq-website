@@ -3,7 +3,8 @@ sidebar_position: 2
 ---
 
 # Personvernerklæring
-*Sist oppdatert: 27 januar 2023*
+
+*Versjon 1.1 – Sist oppdatert: 28. februar 2026*
 
 ## Innledning
 
@@ -21,6 +22,8 @@ På våre kunders brukerkontoer registreres brukernavn, fornavn, etternavn, tele
 
 For å gi våre kunder en effektiv og god service, vil alle henvendelser dokumenteres i vårt sakssystem. Det vil i sakene kun bli lagret opplysninger som er relevante for sakens natur.
 
+Når brukere benytter AI-funksjoner i tjenestene, kan tekst, bilder og tale overføres til Mistral AI for behandling. Tekstdata som sendes inn for AI-analyse beholdes ikke etter behandling. Ved AI-basert bildtolkning lagrer vi et lite miniatyrbilde (thumbnail) for support- og feilsporingsformål; bilder lagres ikke permanent etter behandling. Ved tale- og transkripsjonsfunksjoner behandles lydinnput i sanntid for å generere tekst; lyddata beholdes ikke etter at transkripsjon er fullført.
+
 ## Hva bruker DigiQuip AS personopplysningene til?
 
 DigiQuip sine personopplysninger brukes i hovedsak til å utføre arbeid i forbindelse med våre tjenester og oppfylle avtaleforholdet. Personopplysninger om kontaktpersoner til våre kunder er nødvendige for å ha en kontaktflate for god dialog mellom oss og våre kunder.
@@ -29,11 +32,23 @@ Personopplysninger tilknyttet våre kunders brukerkontoer er nødvendig for å h
 
 Enkeltpersoners kontaktinformasjon vil i noen tilfeller benyttes til å varsle om driftsforstyrrelser eller relevante endringer i tjenestene. Kunders registrerte kontaktpersoner vil i tillegg motta informasjon og markedsføringsmateriell relatert til tjenestene som tilbys inntil 2 ganger per måned. Vi er avhengig av dine tilbakemeldinger for å arbeide for kontinuerlig forbedring av våre tjenester. Dette er en sentral del av våre systemer for kvalitetsstyring og informasjonssikkerhet. Derfor vil vi benytte navn, telefonnummer og e-postadresse for å sende deg bruker- og kundeundersøkelser inntil 2 ganger i året, iht. retningslinjene i personopplysningsloven §1, jf. GDPR artikkel 6.1 f).
 
+AI-funksjoner i tjenestene, inkludert tekstanalyse, bildtolkning og taletranskripsjsjon, benyttes for å levere tjenestenes kjernefunksjonalitet. Behandlingsgrunnlaget for dette er oppfyllelse av avtale, jf. GDPR artikkel 6.1 b). Miniatyrbilder fra AI-basert bildtolkning lagres i tillegg for support- og feilsporingsformål som en del av vår kvalitetssikring. Behandlingsgrunnlaget for dette er berettiget interesse, jf. GDPR artikkel 6.1 f).
+
 ## Hvem deler vi dine opplysninger med?
 Personopplysningene vi er behandlingsansvarlig for brukes i all hovedsak for å oppfylle avtaleforholdet. I de tilfeller tredjeparts leverandører bistår, kan kontakt- og brukerinformasjon bli utvekslet med disse. Ingen personopplysninger vil deles med tredjeparter for markedsføringsformål.
 
+Vi benytter følgende tredjeparts databehandlere:
+
+**Mistral AI** – Analyserer tekstdata via store språkmodeller (LLM) for AI-funksjonalitet i tjenestene; tekstdata beholdes ikke etter behandling. Behandler bildedata, inkludert miniatyrbilder, ved AI-basert bildtolkning; bilder lagres ikke permanent etter behandling. Transkriberer lydinnput til tekst i sanntid ved tale- og transkripsjonsfunksjoner; lyddata beholdes ikke etter transkripsjon. Data behandles i GDPR-konforme datasentre innenfor EU.
+
+**Linkup.so** – Behandler søkespørringer ved bruk av nettsøkfunksjoner. Linkup.so benytter ikke spørringer til AI-trening og sletter data etter at tjenesten er levert. Data behandles og lagres innenfor EU.
+
+Alle tredjeparts databehandlere er bundet av databehandleravtaler (DPA) i tråd med GDPR og behandler data utelukkende på vegne av DigiQuip.
+
 ## Geografisk lagring av personopplysningene
 Dine personopplysninger blir lagret i våre egne systemer som håndteres i Norge. Våre systemer kjøres hos en anerkjent internasjonal skyleverandør med distribuerte datasentre over hele verden, men er utelukkende under vår kontroll.
+
+Data som behandles av tredjeparts AI-partnere (Mistral AI og Linkup.so) behandles og lagres i GDPR-konforme datasentre innenfor EU.
 
 ## Hvor lenge lagrer vi personopplysningene om deg?
 I henhold til personopplysningsloven §1, jf. GDPR artikkel 17, vil vi ikke lagre dine personopplysninger lenger enn det som er nødvendig for å gjennomføre formålet med behandlingen.
@@ -59,3 +74,10 @@ Du har blant annet:
 Hvis du mener vi behandler dine personopplysninger uten rettslig grunnlag eller på andre måter ønsker å gjøre bruk av dine rettigheter, henvender du deg til oss. Se kontaktinformasjon på våre nettsider. Vi vil besvare din henvendelse så snart som mulig, og normalt innen 30 dager.
 
 Du kan også klage til Datatilsynet, men vi anmoder deg om først å kontakte oss slik at eventuelle misforståelser kan avklares på beste måte.
+
+## Endringslogg
+
+| Versjon | Dato | Endring |
+|---------|------|---------|
+| 1.1 | 28. februar 2026 | Lagt til informasjon om tredjeparts databehandlere Mistral AI (tekstanalyse via LLM, bildtolkning, taletranskripsjsjon) og Linkup.so (nettsøk); lagringsdetaljer, behandlingsgrunnlag og EU-lokasjon |
+| 1.0 | 27. januar 2023 | Første versjon |
