@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Bruksvilkår (EULA)
 
-*Sist oppdatert: 27 januar 2023*
+*Versjon 1.1 – Sist oppdatert: 28. februar 2026*
 
 Ved bruk av våre digitale kanaler aksepterer du disse vilkårene for bruk.
 
@@ -35,6 +35,10 @@ Våre digitale kanaler er beskyttet av gjeldende åndsverkslovgivning og andre l
 
 Du garanterer at du har nødvendige rettigheter til materiale du registrerer eller deler i våre digitale kanaler og at du gir oss, godkjenning til å bruke og publisere dette materialet. Du garanterer at du ikke har til hensikt å bedra eller gi misvisende informasjon, og at materialet du leverer ikke bryter disse bruksvilkårene.
 
+Vår AI-partner **Mistral AI** benyttes til å behandle tekst, bilder og tale i tjenestene. Tekstdata du registrerer eller sender inn kan bli analysert av Mistral AI sine store språkmodeller (LLM); tekstdata beholdes ikke etter behandling. Ved AI-basert bildtolkning lagrer DigiQuip og Mistral AI et lite miniatyrbilde (thumbnail) for support- og feilsporingsformål; bilder lagres ikke permanent etter behandling. Tale- og transkripsjonsfunksjoner bruker Mistral AI til å transkribere lydinnput i sanntid til tekst; lyddata beholdes ikke etter transkripsjon. All data behandles i GDPR-konforme datasentre innenfor EU.
+
+Når du benytter funksjoner for nettsøk i tjenestene, overføres søkespørringer til vår partner **Linkup.so** for semantisk søkebehandling. Linkup.so benytter ikke spørringer til AI-trening og sletter data etter at tjenesten er levert. Data behandles og lagres innenfor EU. Ved å benytte disse tjenestene samtykker du til at søkespørringer behandles av Linkup.so som beskrevet i vår personvernerklæring.
+
 ## 5. Lenker til tredjepartsnettsider
 
 Lenker til eller informasjon om tredjepartsnettsider er kun ment for din bekvemmelighet. Dersom du benytter disse lenkene, vil du forlate våre digitale kanaler. Slike lenker eller informasjon betyr ikke at DigiQuip bidrar, anbefaler eller sponser tredjeparts nettsider, eller informasjonen der. DigiQuip er ikke ansvarlig for tilgjengeligheten til slike nettsteder. DigiQuip er ikke ansvarlig eller forpliktet til slike nettsider eller innholdet på disse. Dersom du benytter lenkene til eksterne sider vil du forlate våre digitale kanaler og være underlagt bruksvilkårene og personvernet som er gjeldene på disse sidene.
@@ -52,3 +56,10 @@ Så langt det lar seg gjøre innenfor gitt lovgivning skal DigiQuip ikke under n
 ## 8. Erstatning
 
 Du forstår og godtar at du står personlig ansvarlig for egen oppførsel i våre digitale kanaler. Du samtykker til å erstatte, forsvare og holde DigiQuip, tilknyttede selskaper, partnere, lisensgivere, ansatte, agenter, og alle tredjeparts informasjonstjenester utenfor skade fra og mot alle krav, tap, utgifter, skader og kostnader (inkludert, men ikke begrenset til direkte, tilfeldige, følgeskader og indirekte skader) og realistiske advokatutgifter som et resultat av eller som skyldes bruk, misbruk eller manglende evne til å bruke våre digitale kanaler eller innholdet, eller ethvert brudd på disse vilkårene.
+
+## Endringslogg
+
+| Versjon | Dato | Endring |
+|---------|------|---------|
+| 1.1 | 28. februar 2026 | Lagt til informasjon om AI-behandlere Mistral AI (tekstanalyse via LLM, bildtolkning, taletranskripsjsjon) og Linkup.so (nettsøk); samtykkeklausul for Linkup.so (punkt 4) |
+| 1.0 | 27. januar 2023 | Første versjon |

@@ -3,7 +3,8 @@ sidebar_position: 1
 ---
 
 # End User License Agreement (EULA)
-*Last update: Jan 27, 2023*
+
+*Version 1.1 – Last updated: February 28, 2026*
 
 By using our digital channels, you accept these terms of use.
 
@@ -30,6 +31,10 @@ Our digital channels are protected by applicable copyright law and other laws, i
 ## 4. Information and material you register and share with us
 You guarantee that you have the necessary rights to the material you register or share in our digital channels and that you give us permission to use and publish this material. You guarantee that you do not intend to deceive or provide misleading information, and that the material you provide does not violate these terms of use.
 
+Our AI partner **Mistral AI** is used to process text, images, and voice in the services. Text data you enter or submit may be analysed by Mistral AI's large language models (LLMs); text data is not retained after processing. For AI-based image interpretation, DigiQuip and Mistral AI store a small thumbnail of the image for support and error tracking purposes; images are not permanently stored after processing. Voice and transcription features use Mistral AI to transcribe voice input in real-time to text; audio data is not retained after transcription. All data is processed in GDPR-compliant data centers within the EU.
+
+When you use web search features in the services, search queries are transferred to our partner **Linkup.so** for semantic search processing. Linkup.so does not use queries for AI training and deletes data after the service is delivered. Data is processed and stored within the EU. By using these features, you consent to your search queries being processed by Linkup.so as described in our Privacy Policy.
+
 ## 5. Links to Third-Party Websites
 Links to or information about third-party websites are provided solely for your convenience. If you use these links, you will leave our digital channels. Such links or information do not imply that DigiQuip endorses, recommends, or sponsors third-party websites or the information contained therein. DigiQuip is not responsible for the availability of such websites. DigiQuip is not responsible or liable for such websites or their contents. If you use links to external sites, you will leave our digital channels and be subject to the terms and privacy policies in effect on those sites.
 
@@ -43,3 +48,10 @@ To the extent permitted by applicable law, under no circumstances shall DigiQuip
 
 ## 8. Indemnification
 You understand and agree that you are personally responsible for your own conduct in our digital channels. You agree to indemnify, defend and hold DigiQuip, affiliated companies, partners, licensees, employees, agents, and all third-party information services harmless from and against all claims, losses, expenses, damages and costs (including but not limited to direct, incidental, consequential and indirect damages) and reasonable legal fees resulting from or arising out of or in connection with your use, misuse or inability to use our digital channels or the content, or any breach of these terms.
+
+## Changelog
+
+| Version | Date | Change |
+|---------|------|--------|
+| 1.1 | February 28, 2026 | Added AI data processor disclosures for Mistral AI (text analysis via LLM, image interpretation, voice transcription) and Linkup.so (web search); added Linkup.so consent clause (section 4) |
+| 1.0 | January 27, 2023 | Initial version |
