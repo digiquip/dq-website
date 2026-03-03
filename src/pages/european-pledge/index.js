@@ -3,13 +3,13 @@ import styles from './styles.module.css';
 
 const subscriptions = [
   // Already European
-  { category: 'Collaboration Suite', service: 'kSuite by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Switched in Dec. 25. Replaced Microsoft 365, Mailchimp, Kagi and Slack', status: 'done' },
-  { category: 'Documents/Office Suite', service: 'ONLYOffice', country: 'Open Source 🌎', plan: 'Switched in Dec. 25. Replaced Microsoft Office', status: 'done' },
-  { category: 'Newsletter', service: 'Newsletter by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Replaced by Infomaniak, Jan. 26, replaced Mailchimp', status: 'done' },
+  { category: 'Collaboration Suite', service: 'kSuite by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Switched in Dec 2025. Replaced Microsoft 365, Mailchimp, Kagi and Slack', status: 'done' },
+  { category: 'Documents/Office Suite', service: 'ONLYOffice', country: 'Open Source 🌎', plan: 'Switched in Dec 2025. Replaced Microsoft Office', status: 'done' },
+  { category: 'Newsletter', service: 'Newsletter by Infomaniak', country: 'Switzerland 🇨🇭', plan: 'Replaced by Infomaniak, Jan 26th 2026, replaced Mailchimp', status: 'done' },
   { category: 'CRM', service: 'AIFlow CRM', country: 'Norway 🇳🇴', plan: 'Happy customer since early 2025', status: 'done' },
-  { category: 'Error Tracking', service: 'BugSink', country: 'The Netherlands 🇳🇱', plan: 'Switched from Sentry in Feb. 19', status: 'done' },
-  { category: 'AI web search', service: 'Linkup', country: 'France 🇫🇷', plan: 'Switched from OpenAI in Feb. 28', status: 'done' },
-  { category: 'AI Image Recognition', service: 'Mistral', country: 'France 🇫🇷', plan: 'Switched from OpenAI in Feb. 28', status: 'done' },
+  { category: 'Error Tracking', service: 'BugSink', country: 'The Netherlands 🇳🇱', plan: 'Switched from Sentry in Feb 19th 2026', status: 'done' },
+  { category: 'AI web search', service: 'Linkup', country: 'France 🇫🇷', plan: 'Switched from OpenAI in Feb 28th 2026', status: 'done' },
+  { category: 'AI Image Recognition', service: 'Mistral', country: 'France 🇫🇷', plan: 'Switched from OpenAI in Feb 28th 2026', status: 'done' },
   { category: 'Accounting', service: 'Tripletex', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
   { category: 'Freight management', service: 'Profrakt', country: 'Norway 🇳🇴', plan: 'Happy customer since 2024', status: 'keeping' },
   { category: 'Accounting', service: 'Cardboard', country: 'Norway 🇳🇴', plan: 'Happy customer since mid 2025', status: 'keeping' },
@@ -21,38 +21,39 @@ const subscriptions = [
   // Non-European - evaluating alternatives
   { category: 'VPN', service: 'Border0', country: 'Canada 🇨🇦', plan: 'Canada is practically European 🥰', status: 'keeping' },
   { category: 'SMS', service: 'ClickSend', country: 'Australia 🇦🇺', plan: 'Australia is practically European 🥰', status: 'keeping' },
-  { category: 'Cloud App Hosting', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Cloud Storage', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating service by service. Moving to Infomaniak, Feb. 26', status: 'in-progress' },
-  { category: 'Cloud Database', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Cloud Kubernetes', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Storage', service: 'Google Storage', country: 'USA 🇺🇸', plan: 'Moving to Infomaniak, Feb. 26', status: 'in-progress' },
-  { category: 'Video Hosting', service: 'DynTube', country: 'USA 🇺🇸', plan: 'Switching to Infomaniak VOD, Feb. 26', status: 'in-progress' },
-  { category: 'CDN', service: 'Cloudflare', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'AI', service: 'Claude', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Email', service: 'SendGrid', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Project Management', service: 'Basecamp', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Code Editor', service: 'Cursor', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Email', service: 'Mailtrap', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'VPN', service: 'UTunnel', country: 'USA 🇺🇸', plan: 'Replaced by Border0, Aug. 25', status: 'replaced' },
-  { category: 'Authentication', service: 'Logto', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Social Media', service: 'Facebook', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Social Media', service: 'LinkedIn', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Replaced by BugSink, Feb. 19', status: 'replaced' },
-  { category: 'Version Control', service: 'GitHub', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Communication', service: 'Slack', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
-  { category: 'AI web search', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Replaced by Linkup, Feb. 28', status: 'replaced' },
-  { category: 'AI Image Recognition', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Replaced by Mistral, Feb. 28', status: 'replaced' },
-  { category: 'Collaboration Suite', service: 'Microsoft 365', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec. 25', status: 'replaced' },
-  { category: 'Container Orchestration', service: 'Google Kubernetes', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Generic Cloud', service: 'Google Cloud Services', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'SMS', service: 'Twilio', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
-  { category: 'Payment', service: 'Stripe', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating...' },
+  { category: 'Cloud App Hosting', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Switching to UpCloud this spring', status: 'in-progress' },
+  { category: 'Cloud Storage', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Evaluating service by service. Moving to Infomaniak, Mar 26th 2026', status: 'in-progress' },
+  { category: 'Cloud Database', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Switching to UpCloud this spring', status: 'planned' },
+  { category: 'Cloud Kubernetes', service: 'DigitalOcean', country: 'USA 🇺🇸', plan: 'Switching to UpCloud this spring', status: 'planned' },
+  { category: 'Storage', service: 'Google Storage', country: 'USA 🇺🇸', plan: 'Moving to Infomaniak, Mar 26th 2026', status: 'in-progress' },
+  { category: 'Video Hosting', service: 'DynTube', country: 'USA 🇺🇸', plan: 'Switching to Infomaniak VOD, Apr 26th 2026', status: 'in-progress' },
+  { category: 'CDN', service: 'Cloudflare', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'AI', service: 'Claude', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Email', service: 'SendGrid', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Project Management', service: 'Basecamp', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Code Editor', service: 'Cursor', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Email', service: 'Mailtrap', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'VPN', service: 'UTunnel', country: 'USA 🇺🇸', plan: 'Replaced by Border0, Aug 2025', status: 'replaced' },
+  { category: 'Authentication', service: 'Logto', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Social Media', service: 'Facebook', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Social Media', service: 'LinkedIn', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Error Tracking', service: 'Sentry', country: 'USA 🇺🇸', plan: 'Replaced by BugSink, Feb 19th 2026', status: 'replaced' },
+  { category: 'Version Control', service: 'GitHub', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Communication', service: 'Slack', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec 2025', status: 'replaced' },
+  { category: 'AI web search', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Replaced by Linkup, Feb 28th 2026', status: 'replaced' },
+  { category: 'AI Image Recognition', service: 'OpenAI', country: 'USA 🇺🇸', plan: 'Replaced by Mistral, Feb 28th 2026', status: 'replaced' },
+  { category: 'Collaboration Suite', service: 'Microsoft 365', country: 'USA 🇺🇸', plan: 'Replaced by Infomaniak, Dec 2025', status: 'replaced' },
+  { category: 'Container Orchestration', service: 'Google Kubernetes', country: 'USA 🇺🇸', plan: 'Switching to UpCloud this spring', status: 'planned' },
+  { category: 'Generic Cloud', service: 'Google Cloud Services', country: 'USA 🇺🇸', plan: 'Switching to UpCloud this spring', status: 'planned' },
+  { category: 'SMS', service: 'Twilio', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
+  { category: 'Payment', service: 'Stripe', country: 'USA 🇺🇸', plan: 'Evaluating alternatives', status: 'evaluating' },
 ];
 
 const changelog = [
   { date: '2026-02-05', description: 'Separated out the services from DigitalOcean. Recording our plan to go from Sentry to BugSink.' },
   { date: '2026-02-19', description: 'Switched from Sentry to BugSink' },
   { date: '2026-02-28', description: 'Separated our usage of OpenAI services. Switched from OpenAI to Linkup for AI web search and from OpenAI to Mistral for AI image recognition' },
+  { date: '2026-03-03', description: 'We have agreed to switch from DigitalOcean and Google Cloud Services to UpCloud for cloud app hosting, cloud storage, cloud database and cloud Kubernetes. Clarified the dates and pushed the final time for migrating to Infomaniak VOD to April 26th 2026' },
 ];
 
 function StatusBadge({ status }) {
@@ -62,10 +63,9 @@ function StatusBadge({ status }) {
     'planned': 'Planned',
     'keeping': 'Keeping',
     'replaced': '👋 Replaced',
-    'evaluating...': 'Evaluating...',
+    'evaluating': 'Evaluating...',
   };
-  const cssClass = status.replace('...', '');
-  return <span className={`${styles.badge} ${styles[cssClass]}`}>{labels[status]}</span>;
+  return <span className={`${styles.badge} ${styles[status]}`}>{labels[status]}</span>;
 }
 
 export default function EuropeanPledge() {
