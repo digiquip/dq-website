@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[7014],{6348:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/dq-website/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":20,"previousPage":"/dq-website/blog","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

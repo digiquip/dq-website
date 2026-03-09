@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdq_website=self.webpackChunkdq_website||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/dq-website/blog","blogTitle":"Blog","authorsListPath":"/dq-website/blog/authors"}')}}]);
