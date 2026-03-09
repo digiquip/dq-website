@@ -15,10 +15,10 @@ const config = {
   favicon: 'img/dq.ico',
 
   // Set the production url of your site here
-  url: 'https://digiquip.no',
+  url: 'https://digiquip.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/dq-website/',
 
 
   // GitHub pages deployment config.
